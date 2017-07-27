@@ -1,0 +1,15 @@
+{
+  "AOSP": {
+    "lunch_flavor": "full-eng", 
+    "ndk_pin_revision": "5049b437591600fb0d262e4215cee4226e63c6ce", 
+    "repo": {
+      "branch": "jb-mr1.1-dev", 
+      "sync_flags": [
+        "-j16", 
+        "-d", 
+        "-f"
+      ], 
+      "url": "https://android.googlesource.com/platform/manifest"
+    }
+  }
+}

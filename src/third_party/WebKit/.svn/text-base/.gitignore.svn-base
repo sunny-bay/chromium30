@@ -1,0 +1,24 @@
+*.Makefile
+*.mk
+*.mode*
+*.pbxuser
+*.perspective*
+*.pyc
+.DS_Store
+.directory
+autoinstall.cache.d
+
+# Ignore auto-generated files by VS2005 and VS2010.
+*.vcproj.*.user
+*.suo
+*.ncb
+
+# Ignore common tool auto-generated files.
+.gdb_history
+tags
+*~
+.*.sw[a-p]
+
+# For best performance, place rules for deep paths in the parent directory.
+# For example: instead of placing Source/WebKit/chromium/WebKit.xcodeproj here,
+# place WebKit.xcodeproj in Source/WebKit/chromium/.gitignore

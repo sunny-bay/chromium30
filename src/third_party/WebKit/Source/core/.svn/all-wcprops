@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/blink/!svn/ver/155471/trunk/Source/core
+END
+LICENSE-APPLE
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/blink/!svn/ver/148532/trunk/Source/core/LICENSE-APPLE
+END
+Init.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/blink/!svn/ver/154984/trunk/Source/core/Init.cpp
+END
+features.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/blink/!svn/ver/154989/trunk/Source/core/features.gypi
+END
+core.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/blink/!svn/ver/155449/trunk/Source/core/core.gyp
+END
+Init.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/blink/!svn/ver/152041/trunk/Source/core/Init.h
+END
+DEPS
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/blink/!svn/ver/154145/trunk/Source/core/DEPS
+END
+core_derived_sources.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/155164/trunk/Source/core/core_derived_sources.gyp
+END
+core.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/blink/!svn/ver/155449/trunk/Source/core/core.gypi
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/blink/!svn/ver/151856/trunk/Source/core/.gitignore
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/blink/!svn/ver/148532/trunk/Source/core/.gitattributes
+END
+ConvertFileToHeaderWithCharacterArray.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/155164/trunk/Source/core/ConvertFileToHeaderWithCharacterArray.gypi
+END
+WebCorePrefixMac.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/154964/trunk/Source/core/WebCorePrefixMac.h
+END
+LICENSE-LGPL-2.1
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blink/!svn/ver/148532/trunk/Source/core/LICENSE-LGPL-2.1
+END
+LICENSE-LGPL-2
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/blink/!svn/ver/148532/trunk/Source/core/LICENSE-LGPL-2
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/blink/!svn/ver/154882/trunk/Source/core/OWNERS
+END

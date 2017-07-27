@@ -1,0 +1,29 @@
+K 10
+svn:ignore
+V 241
+configure
+depcomp
+compile
+config.guess
+GNUmakefile.in
+config.sub
+ltmain.sh
+aconfig.h.in
+autom4te.cache
+missing
+aclocal.m4
+install-sh
+autotoolsconfig.h.in
+INSTALL
+README
+gtk-doc.make
+out
+Makefile.chromium
+WebKitSupportLibrary.zip
+WebKitBuild
+
+K 13
+svn:mergeinfo
+V 12
+/trunk:53455
+END

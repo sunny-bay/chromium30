@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/blink/!svn/ver/155410/trunk/Source/core/animation
+END
+AnimatableValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/155410/trunk/Source/core/animation/AnimatableValue.h
+END
+DeferredAnimatableValue.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/154872/trunk/Source/core/animation/DeferredAnimatableValue.h
+END
+Player.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/155386/trunk/Source/core/animation/Player.h
+END
+AnimationEffect.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/153771/trunk/Source/core/animation/AnimationEffect.h
+END
+ActiveAnimations.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/155386/trunk/Source/core/animation/ActiveAnimations.h
+END
+DocumentTimelineTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/154278/trunk/Source/core/animation/DocumentTimelineTest.cpp
+END
+DocumentTimeline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/153750/trunk/Source/core/animation/DocumentTimeline.cpp
+END
+AnimatableNumber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/155410/trunk/Source/core/animation/AnimatableNumber.cpp
+END
+AnimatableNumberTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/153861/trunk/Source/core/animation/AnimatableNumberTest.cpp
+END
+AnimationStack.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/155386/trunk/Source/core/animation/AnimationStack.h
+END
+DocumentTimeline.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/154733/trunk/Source/core/animation/DocumentTimeline.h
+END
+AnimatableNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/155410/trunk/Source/core/animation/AnimatableNumber.h
+END
+AnimatableUnknownTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/153599/trunk/Source/core/animation/AnimatableUnknownTest.cpp
+END
+Animation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blink/!svn/ver/154816/trunk/Source/core/animation/Animation.cpp
+END
+KeyframeAnimationEffectTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/155410/trunk/Source/core/animation/KeyframeAnimationEffectTest.cpp
+END
+KeyframeAnimationEffect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/155074/trunk/Source/core/animation/KeyframeAnimationEffect.cpp
+END
+TimedItemTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/155389/trunk/Source/core/animation/TimedItemTest.cpp
+END
+TimedItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blink/!svn/ver/155389/trunk/Source/core/animation/TimedItem.cpp
+END
+AnimatableUnknown.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/153599/trunk/Source/core/animation/AnimatableUnknown.h
+END
+TimedItemCalculationsTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/154816/trunk/Source/core/animation/TimedItemCalculationsTest.cpp
+END
+Animation.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/154816/trunk/Source/core/animation/Animation.h
+END
+KeyframeAnimationEffect.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/153771/trunk/Source/core/animation/KeyframeAnimationEffect.h
+END
+TimedItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/155389/trunk/Source/core/animation/TimedItem.h
+END
+TimedItemCalculations.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/154816/trunk/Source/core/animation/TimedItemCalculations.h
+END
+AnimatableNeutralTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/153599/trunk/Source/core/animation/AnimatableNeutralTest.cpp
+END
+AnimatableValue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/155410/trunk/Source/core/animation/AnimatableValue.cpp
+END
+Player.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blink/!svn/ver/155386/trunk/Source/core/animation/Player.cpp
+END
+PlayerTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/154278/trunk/Source/core/animation/PlayerTest.cpp
+END
+Timing.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/151213/trunk/Source/core/animation/Timing.h
+END
+AnimatableNeutral.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/153599/trunk/Source/core/animation/AnimatableNeutral.h
+END

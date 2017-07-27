@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blink/!svn/ver/154995/trunk/LayoutTests/virtual/gpu/fast/canvas
+END
+canvas-render-layer-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/148016/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-render-layer-expected.txt
+END
+canvas-strokeRect-alpha-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/148016/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-strokeRect-alpha-shadow-expected.txt
+END
+canvas-scale-strokePath-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/149660/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-scale-strokePath-shadow-expected.txt
+END
+canvas-lost-gpu-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/154995/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-lost-gpu-context-expected.txt
+END
+canvas-blend-solid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/151024/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-blend-solid-expected.txt
+END
+canvas-webkitLineDash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/149156/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-webkitLineDash-expected.txt
+END
+toDataURL-supportedTypes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/149660/trunk/LayoutTests/virtual/gpu/fast/canvas/toDataURL-supportedTypes-expected.txt
+END
+canvas-scale-shadowBlur-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/148016/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-scale-shadowBlur-expected.txt
+END
+canvas-strokePath-gradient-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/148016/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-strokePath-gradient-shadow-expected.txt
+END
+canvas-strokeRect-gradient-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/148016/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-strokeRect-gradient-shadow-expected.txt
+END
+canvas-blend-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/151024/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-blend-image-expected.txt
+END
+canvas-webkitLineDash-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/149156/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-webkitLineDash-invalid-expected.txt
+END
+canvas-transforms-fillRect-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/149677/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-transforms-fillRect-shadow-expected.txt
+END
+canvas-imageSmoothingEnabled-patterns-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/149122/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-imageSmoothingEnabled-patterns-expected.txt
+END
+canvas-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148016/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-shadow-expected.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/148251/trunk/LayoutTests/virtual/gpu/fast/canvas/README.txt
+END
+canvas-fillPath-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/152225/trunk/LayoutTests/virtual/gpu/fast/canvas/canvas-fillPath-shadow-expected.txt
+END

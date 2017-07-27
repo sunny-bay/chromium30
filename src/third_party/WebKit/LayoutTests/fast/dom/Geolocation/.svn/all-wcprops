@@ -1,0 +1,509 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/dom/Geolocation
+END
+clear-watch-invalid-id-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/65570/trunk/LayoutTests/fast/dom/Geolocation/clear-watch-invalid-id-crash-expected.txt
+END
+delayed-permission-denied.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-denied.html
+END
+delayed-permission-denied-for-multiple-requests-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/65511/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-denied-for-multiple-requests-expected.txt
+END
+cached-position-iframe-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/136164/trunk/LayoutTests/fast/dom/Geolocation/cached-position-iframe-expected.txt
+END
+permission-denied-already-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-already-error.html
+END
+timeout-clear-watch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/timeout-clear-watch-expected.txt
+END
+error.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/error.html
+END
+reentrant-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/reentrant-error.html
+END
+enabled.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/enabled.html
+END
+coordinates-interface-attributes.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/130416/trunk/LayoutTests/fast/dom/Geolocation/coordinates-interface-attributes.html
+END
+success-clear-watch.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/124724/trunk/LayoutTests/fast/dom/Geolocation/success-clear-watch.html
+END
+remove-remote-context-in-error-callback-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/90914/trunk/LayoutTests/fast/dom/Geolocation/remove-remote-context-in-error-callback-crash-expected.txt
+END
+clear-watch-invalid-id-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/clear-watch-invalid-id-crash.html
+END
+delayed-permission-denied-for-multiple-requests.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-denied-for-multiple-requests.html
+END
+cached-position-iframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/136164/trunk/LayoutTests/fast/dom/Geolocation/cached-position-iframe.html
+END
+timeout-clear-watch.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/timeout-clear-watch.html
+END
+watch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/129444/trunk/LayoutTests/fast/dom/Geolocation/watch-expected.txt
+END
+delayed-permission-allowed-for-multiple-requests-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/65511/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-allowed-for-multiple-requests-expected.txt
+END
+window-close-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/75934/trunk/LayoutTests/fast/dom/Geolocation/window-close-crash-expected.txt
+END
+reentrant-success-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/reentrant-success-expected.txt
+END
+success-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/success-expected.txt
+END
+callback-to-remote-context2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/60669/trunk/LayoutTests/fast/dom/Geolocation/callback-to-remote-context2-expected.txt
+END
+permission-denied-stops-watches-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-stops-watches-expected.txt
+END
+remove-remote-context-in-error-callback-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/remove-remote-context-in-error-callback-crash.html
+END
+timeout-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/timeout-expected.txt
+END
+callback-to-remote-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/60645/trunk/LayoutTests/fast/dom/Geolocation/callback-to-remote-context-expected.txt
+END
+disconnected-frame-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/151809/trunk/LayoutTests/fast/dom/Geolocation/disconnected-frame-expected.txt
+END
+notimer-after-unload-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/dom/Geolocation/notimer-after-unload-expected.txt
+END
+watch.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/watch.html
+END
+success.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/success.html
+END
+window-close-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/window-close-crash.html
+END
+reentrant-success.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/reentrant-success.html
+END
+delayed-permission-allowed-for-multiple-requests.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-allowed-for-multiple-requests.html
+END
+callback-to-remote-context2.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/callback-to-remote-context2.html
+END
+watchPosition-unique-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/135478/trunk/LayoutTests/fast/dom/Geolocation/watchPosition-unique-expected.txt
+END
+disconnected-frame-permission-denied-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/151809/trunk/LayoutTests/fast/dom/Geolocation/disconnected-frame-permission-denied-expected.txt
+END
+permission-denied-stops-watches.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-stops-watches.html
+END
+position-string-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/position-string-expected.txt
+END
+timeout.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/timeout.html
+END
+callback-to-remote-context.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/callback-to-remote-context.html
+END
+reentrant-permission-denied-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/60839/trunk/LayoutTests/fast/dom/Geolocation/reentrant-permission-denied-expected.txt
+END
+permission-denied-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-expected.txt
+END
+disconnected-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/disconnected-frame.html
+END
+error-clear-watch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/124724/trunk/LayoutTests/fast/dom/Geolocation/error-clear-watch-expected.txt
+END
+delayed-permission-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/64639/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-allowed-expected.txt
+END
+notimer-after-unload.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/notimer-after-unload.html
+END
+argument-types-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/dom/Geolocation/argument-types-expected.txt
+END
+permission-denied-already-clear-watch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-already-clear-watch-expected.txt
+END
+watchPosition-unique.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/135478/trunk/LayoutTests/fast/dom/Geolocation/watchPosition-unique.html
+END
+not-enough-arguments-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/dom/Geolocation/not-enough-arguments-expected.txt
+END
+callback-exception-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/dom/Geolocation/callback-exception-expected.txt
+END
+disconnected-frame-permission-denied.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/disconnected-frame-permission-denied.html
+END
+position-string.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/position-string.html
+END
+page-reload-cancel-permission-requests-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/81018/trunk/LayoutTests/fast/dom/Geolocation/page-reload-cancel-permission-requests-expected.txt
+END
+callback-to-deleted-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/151809/trunk/LayoutTests/fast/dom/Geolocation/callback-to-deleted-context-expected.txt
+END
+permission-denied-already-success-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-already-success-expected.txt
+END
+timeout-zero-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/timeout-zero-expected.txt
+END
+timestamp-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/72211/trunk/LayoutTests/fast/dom/Geolocation/timestamp-expected.txt
+END
+reentrant-permission-denied.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/reentrant-permission-denied.html
+END
+permission-denied.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/permission-denied.html
+END
+multiple-requests-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/60998/trunk/LayoutTests/fast/dom/Geolocation/multiple-requests-expected.txt
+END
+error-clear-watch.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/129444/trunk/LayoutTests/fast/dom/Geolocation/error-clear-watch.html
+END
+maximum-age-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/129444/trunk/LayoutTests/fast/dom/Geolocation/maximum-age-expected.txt
+END
+delayed-permission-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-allowed.html
+END
+disconnected-frame-already-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/65329/trunk/LayoutTests/fast/dom/Geolocation/disconnected-frame-already-expected.txt
+END
+argument-types.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/argument-types.html
+END
+permission-denied-already-clear-watch.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-already-clear-watch.html
+END
+not-enough-arguments.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/dom/Geolocation/not-enough-arguments.html
+END
+callback-exception.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/callback-exception.html
+END
+delayed-permission-denied-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/64639/trunk/LayoutTests/fast/dom/Geolocation/delayed-permission-denied-expected.txt
+END
+permission-denied-already-error-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/59926/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-already-error-expected.txt
+END
+callback-to-deleted-context.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/callback-to-deleted-context.html
+END
+page-reload-cancel-permission-requests.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/97925/trunk/LayoutTests/fast/dom/Geolocation/page-reload-cancel-permission-requests.html
+END
+timestamp.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/timestamp.html
+END
+error-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/129444/trunk/LayoutTests/fast/dom/Geolocation/error-expected.txt
+END
+permission-denied-already-success.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/permission-denied-already-success.html
+END
+timeout-zero.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/timeout-zero.html
+END
+reentrant-error-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/129444/trunk/LayoutTests/fast/dom/Geolocation/reentrant-error-expected.txt
+END
+multiple-requests.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/multiple-requests.html
+END
+enabled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/47168/trunk/LayoutTests/fast/dom/Geolocation/enabled-expected.txt
+END
+coordinates-interface-attributes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/149156/trunk/LayoutTests/fast/dom/Geolocation/coordinates-interface-attributes-expected.txt
+END
+maximum-age.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/maximum-age.html
+END
+disconnected-frame-already.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/Geolocation/disconnected-frame-already.html
+END
+success-clear-watch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/124724/trunk/LayoutTests/fast/dom/Geolocation/success-clear-watch-expected.txt
+END

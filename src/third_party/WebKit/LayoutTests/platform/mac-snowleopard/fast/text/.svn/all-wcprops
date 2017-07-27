@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/155368/trunk/LayoutTests/platform/mac-snowleopard/fast/text
+END
+large-text-composed-char-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/large-text-composed-char-expected.png
+END
+backslash-to-yen-sign-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/backslash-to-yen-sign-expected.png
+END
+reset-emptyRun-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/reset-emptyRun-expected.png
+END
+word-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/word-space-expected.png
+END
+midword-break-after-breakable-char-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/midword-break-after-breakable-char-expected.png
+END
+emphasis-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/emphasis-expected.png
+END
+in-rendered-text-rtl-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/in-rendered-text-rtl-expected.png
+END
+bidi-embedding-pop-and-push-same-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/bidi-embedding-pop-and-push-same-expected.png
+END
+wbr-in-pre-crash-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/wbr-in-pre-crash-expected.png
+END
+atsui-spacing-features-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-spacing-features-expected.png
+END
+backslash-to-yen-sign-dynamic-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/backslash-to-yen-sign-dynamic-expected.png
+END
+textIteratorNilRenderer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/textIteratorNilRenderer-expected.png
+END
+drawBidiText-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/drawBidiText-expected.png
+END
+selection-hard-linebreak-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/selection-hard-linebreak-expected.png
+END
+break-word-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/break-word-expected.png
+END
+font-initial-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/font-initial-expected.png
+END
+word-break-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/155368/trunk/LayoutTests/platform/mac-snowleopard/fast/text/word-break-expected.png
+END
+complex-text-opacity-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/complex-text-opacity-expected.png
+END
+midword-break-hang-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/midword-break-hang-expected.png
+END
+atsui-partial-selection-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-partial-selection-expected.png
+END
+complex-synthetic-bold-space-width-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/complex-synthetic-bold-space-width-expected.png
+END
+embed-at-end-of-pre-wrap-line-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/embed-at-end-of-pre-wrap-line-expected.png
+END
+atsui-multiple-renderers-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-multiple-renderers-expected.png
+END
+capitalize-boundaries-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/capitalize-boundaries-expected.txt
+END
+shadow-translucent-fill-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/shadow-translucent-fill-expected.png
+END
+text-stroke-with-border-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/text-stroke-with-border-expected.png
+END
+capitalize-preserve-nbsp-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/capitalize-preserve-nbsp-expected.png
+END
+emphasis-overlap-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/emphasis-overlap-expected.png
+END
+text-shadow-no-default-color-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/text-shadow-no-default-color-expected.png
+END
+updateNewFont-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/updateNewFont-expected.png
+END
+atsui-negative-spacing-features-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-negative-spacing-features-expected.png
+END
+atsui-rtl-override-selection-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-rtl-override-selection-expected.png
+END
+fallback-traits-fixup-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/fallback-traits-fixup-expected.txt
+END
+wbr-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/wbr-expected.png
+END
+zero-font-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/zero-font-size-expected.png
+END
+unicode-variation-selector-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/unicode-variation-selector-expected.png
+END
+monospace-width-cache-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/monospace-width-cache-expected.png
+END
+atsui-pointtooffset-calls-cg-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-pointtooffset-calls-cg-expected.png
+END
+justified-selection-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/justified-selection-expected.png
+END
+atsui-kerning-and-ligatures-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-kerning-and-ligatures-expected.png
+END
+wbr-pre-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/wbr-pre-expected.png
+END
+capitalize-boundaries-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/capitalize-boundaries-expected.png
+END
+capitalize-empty-generated-string-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/capitalize-empty-generated-string-expected.png
+END
+fallback-traits-fixup-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/fallback-traits-fixup-expected.png
+END
+atsui-small-caps-punctuation-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/atsui-small-caps-punctuation-size-expected.png
+END
+word-break-soft-hyphen-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/word-break-soft-hyphen-expected.png
+END
+line-breaks-after-white-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/line-breaks-after-white-space-expected.png
+END
+cg-fallback-bolding-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/cg-fallback-bolding-expected.png
+END
+text-letter-spacing-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/text-letter-spacing-expected.png
+END
+format-control-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/format-control-expected.png
+END
+fake-italic-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/fake-italic-expected.png
+END
+wide-zero-width-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/wide-zero-width-space-expected.png
+END
+should-use-atsui-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/should-use-atsui-expected.png
+END
+backslash-to-yen-sign-euc-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/backslash-to-yen-sign-euc-expected.png
+END
+vertical-rl-rtl-linebreak-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/vertical-rl-rtl-linebreak-expected.png
+END
+justified-selection-at-edge-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/justified-selection-at-edge-expected.png
+END
+line-initial-and-final-swashes-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/line-initial-and-final-swashes-expected.png
+END
+word-break-run-rounding-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/word-break-run-rounding-expected.png
+END
+softHyphen-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/softHyphen-expected.png
+END
+midword-break-before-surrogate-pair-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/midword-break-before-surrogate-pair-2-expected.png
+END
+delete-hard-break-character-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/delete-hard-break-character-expected.png
+END
+complex-text-opacity-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/complex-text-opacity-expected.txt
+END
+line-breaks-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/line-breaks-expected.png
+END
+wbr-styled-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/text/wbr-styled-expected.png
+END

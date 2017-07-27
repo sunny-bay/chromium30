@@ -1,0 +1,473 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blink/!svn/ver/154944/trunk/LayoutTests/fast/forms/range
+END
+slider-zoomed.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/slider-zoomed.html
+END
+range-type-change-onchange.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/132983/trunk/LayoutTests/fast/forms/range/range-type-change-onchange.html
+END
+slider-hit-testing.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/slider-hit-testing.html
+END
+range-focus-by-mouse-then-keydown-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153039/trunk/LayoutTests/fast/forms/range/range-focus-by-mouse-then-keydown-expected.html
+END
+thumbslider-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/thumbslider-crash.html
+END
+range-stepup-stepdown-from-renderer.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/range/range-stepup-stepdown-from-renderer.html
+END
+range-setrangetext-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/range/range-setrangetext-expected.txt
+END
+range-change-min-max-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/152626/trunk/LayoutTests/fast/forms/range/range-change-min-max-expected.html
+END
+range-hit-test-with-padding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/126539/trunk/LayoutTests/fast/forms/range/range-hit-test-with-padding-expected.txt
+END
+range-change-min-max.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/152626/trunk/LayoutTests/fast/forms/range/range-change-min-max.html
+END
+slider-in-multi-column-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/101755/trunk/LayoutTests/fast/forms/range/slider-in-multi-column-expected.txt
+END
+slider-mouse-events-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-mouse-events-expected.txt
+END
+input-appearance-range-rtl-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/input-appearance-range-rtl-expected.html
+END
+input-appearance-range.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/input-appearance-range.html
+END
+ValidityState-stepMismatch-range-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/ValidityState-stepMismatch-range-expected.txt
+END
+slider-onchange-event-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-onchange-event-expected.txt
+END
+range-drag-when-toggled-disabled.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/112547/trunk/LayoutTests/fast/forms/range/range-drag-when-toggled-disabled.html
+END
+slider-delete-while-dragging-thumb-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-delete-while-dragging-thumb-expected.txt
+END
+slider-thumb-stylability.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-thumb-stylability.html
+END
+slider-inline-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/144790/trunk/LayoutTests/fast/forms/range/slider-inline-crash-expected.txt
+END
+range-type-change-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/152194/trunk/LayoutTests/fast/forms/range/range-type-change-crash-expected.txt
+END
+range-setrangetext.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/131969/trunk/LayoutTests/fast/forms/range/range-setrangetext.html
+END
+range-hit-test-with-padding.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/126539/trunk/LayoutTests/fast/forms/range/range-hit-test-with-padding.html
+END
+range-appearance-basic.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/148294/trunk/LayoutTests/fast/forms/range/range-appearance-basic.html
+END
+slider-in-multi-column.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/slider-in-multi-column.html
+END
+input-valueasnumber-range-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/range/input-valueasnumber-range-expected.txt
+END
+slider-mouse-events.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/slider-mouse-events.html
+END
+input-range-validation-message-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/121019/trunk/LayoutTests/fast/forms/range/input-range-validation-message-expected.txt
+END
+ValidityState-stepMismatch-range.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/forms/range/ValidityState-stepMismatch-range.html
+END
+slider-onchange-event.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/slider-onchange-event.html
+END
+slider-delete-while-dragging-thumb.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/slider-delete-while-dragging-thumb.html
+END
+slider-thumb-stylability-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/forms/range/slider-thumb-stylability-expected.png
+END
+slider-appearance-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/123188/trunk/LayoutTests/fast/forms/range/slider-appearance-crash-expected.txt
+END
+slider-inline-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/144790/trunk/LayoutTests/fast/forms/range/slider-inline-crash.html
+END
+range-type-change-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/152194/trunk/LayoutTests/fast/forms/range/range-type-change-crash.html
+END
+input-valueasnumber-range.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/range/input-valueasnumber-range.html
+END
+slider-padding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/136035/trunk/LayoutTests/fast/forms/range/slider-padding-expected.txt
+END
+range-set-attribute-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-set-attribute-expected.txt
+END
+slider-thumb-shared-style.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-thumb-shared-style.html
+END
+range-default-value-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-default-value-expected.txt
+END
+input-range-validation-message.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/121019/trunk/LayoutTests/fast/forms/range/input-range-validation-message.html
+END
+range-value-rounding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/119948/trunk/LayoutTests/fast/forms/range/range-value-rounding-expected.txt
+END
+input-range-progress-indicator.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/127626/trunk/LayoutTests/fast/forms/range/input-range-progress-indicator.html
+END
+range-keyoperation-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-keyoperation-expected.txt
+END
+slider-appearance-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/123188/trunk/LayoutTests/fast/forms/range/slider-appearance-crash.html
+END
+slider-transformed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-transformed-expected.txt
+END
+range-drag-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-drag-expected.txt
+END
+range-focus-by-mouse-then-keydown.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153039/trunk/LayoutTests/fast/forms/range/range-focus-by-mouse-then-keydown.html
+END
+input-appearance-range-rtl.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/input-appearance-range-rtl.html
+END
+slider-padding.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-padding.html
+END
+range-set-attribute.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/forms/range/range-set-attribute.html
+END
+range-reset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-reset-expected.txt
+END
+range-default-value.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/forms/range/range-default-value.html
+END
+range-value-rounding.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/119948/trunk/LayoutTests/fast/forms/range/range-value-rounding.html
+END
+range-thumb-height-percentage.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-thumb-height-percentage.html
+END
+range-keyoperation.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/forms/range/range-keyoperation.html
+END
+slider-transformed.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/slider-transformed.html
+END
+range-drag.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/forms/range/range-drag.html
+END
+range-reset.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/forms/range/range-reset.html
+END
+thumbslider-no-parent-slider-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/forms/range/thumbslider-no-parent-slider-expected.txt
+END
+range-input-dynamic-oninput-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-input-dynamic-oninput-expected.txt
+END
+slider-zero-size-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/128607/trunk/LayoutTests/fast/forms/range/slider-zero-size-crash-expected.txt
+END
+range-slow-drag-to-edge-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/147070/trunk/LayoutTests/fast/forms/range/range-slow-drag-to-edge-expected.txt
+END
+range-stepup-stepdown-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/range/range-stepup-stepdown-expected.txt
+END
+slider-zoomed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-zoomed-expected.txt
+END
+range-type-change-onchange-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/132983/trunk/LayoutTests/fast/forms/range/range-type-change-onchange-expected.txt
+END
+slider-hit-testing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/slider-hit-testing-expected.txt
+END
+range-stepup-stepdown-from-renderer-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/range-stepup-stepdown-from-renderer-expected.txt
+END
+thumbslider-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/thumbslider-crash-expected.txt
+END
+thumbslider-no-parent-slider.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/93593/trunk/LayoutTests/fast/forms/range/thumbslider-no-parent-slider.html
+END
+input-range-progress-indicator-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/127626/trunk/LayoutTests/fast/forms/range/input-range-progress-indicator-expected.html
+END
+range-input-dynamic-oninput.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/range/range-input-dynamic-oninput.html
+END
+slider-zero-size-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/128607/trunk/LayoutTests/fast/forms/range/slider-zero-size-crash.html
+END
+range-focus-by-mouse-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153039/trunk/LayoutTests/fast/forms/range/range-focus-by-mouse-expected.html
+END
+range-focus-by-mouse.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/153039/trunk/LayoutTests/fast/forms/range/range-focus-by-mouse.html
+END
+range-drag-when-toggled-disabled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/112547/trunk/LayoutTests/fast/forms/range/range-drag-when-toggled-disabled-expected.txt
+END
+range-stepup-stepdown.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/range/range-stepup-stepdown.html
+END
+range-slow-drag-to-edge.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/147070/trunk/LayoutTests/fast/forms/range/range-slow-drag-to-edge.html
+END

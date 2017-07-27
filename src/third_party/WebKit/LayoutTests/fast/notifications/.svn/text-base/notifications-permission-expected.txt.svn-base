@@ -1,0 +1,10 @@
+Check for existence of Notification.permission
+
+On success, you will see a series of "PASS" messages, followed by "TEST COMPLETE".
+
+PASS window.Notification is defined.
+FAIL window.Notification.permission should be defined. Was undefined
+PASS successfullyParsed is true
+
+TEST COMPLETE
+

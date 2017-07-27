@@ -1,0 +1,803 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/blink/!svn/ver/154829/trunk/LayoutTests/fast/lists
+END
+006-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/006-vertical.html
+END
+decimal-leading-zero.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/decimal-leading-zero.html
+END
+ol-display-types.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/12554/trunk/LayoutTests/fast/lists/ol-display-types.html
+END
+ol-nested-list-dynamic-remove.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-nested-list-dynamic-remove.html
+END
+ol-reversed-dynamic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/103074/trunk/LayoutTests/fast/lists/ol-reversed-dynamic-expected.txt
+END
+ol-nested-items-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/64712/trunk/LayoutTests/fast/lists/ol-nested-items-expected.txt
+END
+remove-listmarker-from-anonblock-with-continuation-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/remove-listmarker-from-anonblock-with-continuation-crash.html
+END
+item-not-in-list-line-wrapping-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/51626/trunk/LayoutTests/fast/lists/item-not-in-list-line-wrapping-expected.txt
+END
+ol-reversed-nested-items-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/103074/trunk/LayoutTests/fast/lists/ol-reversed-nested-items-expected.txt
+END
+ol-nested-items-dynamic-remove-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/57986/trunk/LayoutTests/fast/lists/ol-nested-items-dynamic-remove-expected.txt
+END
+big-list-marker-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/big-list-marker-expected.txt
+END
+ol-start-parsing.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/46561/trunk/LayoutTests/fast/lists/ol-start-parsing.html
+END
+list-style-type-dynamic-change-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/64186/trunk/LayoutTests/fast/lists/list-style-type-dynamic-change-expected.txt
+END
+008.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/008.html
+END
+ol-reversed-dynamic.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-reversed-dynamic.html
+END
+ol-nested-items.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-nested-items.html
+END
+ol-nested-list-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/57986/trunk/LayoutTests/fast/lists/ol-nested-list-expected.txt
+END
+005-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/005-expected.txt
+END
+001-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/001-vertical-expected.txt
+END
+item-not-in-list-line-wrapping.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/item-not-in-list-line-wrapping.html
+END
+005-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/005-vertical-expected.txt
+END
+ol-reversed-nested-items.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-reversed-nested-items.html
+END
+ol-nested-items-dynamic-remove.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-nested-items-dynamic-remove.html
+END
+009-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/009-vertical-expected.txt
+END
+big-list-marker.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/19192/trunk/LayoutTests/fast/lists/big-list-marker.html
+END
+w3-css3-lower-armenian-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/128078/trunk/LayoutTests/fast/lists/w3-css3-lower-armenian-expected.txt
+END
+calc-width-with-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/51527/trunk/LayoutTests/fast/lists/calc-width-with-space-expected.txt
+END
+list-style-type-dynamic-change.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/list-style-type-dynamic-change.html
+END
+li-style-alpha-huge-value-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/li-style-alpha-huge-value-crash-expected.txt
+END
+numeric-markers-outside-list-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/numeric-markers-outside-list-expected.txt
+END
+ol-start-dynamic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/ol-start-dynamic-expected.txt
+END
+marker-image-error-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/marker-image-error-expected.txt
+END
+ol-nested-list.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-nested-list.html
+END
+005.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/005.html
+END
+w3-css3-list-styles-numeric-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/82713/trunk/LayoutTests/fast/lists/w3-css3-list-styles-numeric-expected.txt
+END
+001-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/001-vertical.html
+END
+list-marker-with-line-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/list-marker-with-line-height-expected.txt
+END
+005-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/005-vertical.html
+END
+002-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/002-expected.txt
+END
+list-item-line-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/list-item-line-height-expected.txt
+END
+009-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/009-vertical.html
+END
+w3-css3-lower-armenian.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/128078/trunk/LayoutTests/fast/lists/w3-css3-lower-armenian.html
+END
+calc-width-with-space.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/calc-width-with-space.html
+END
+li-style-alpha-huge-value-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/14023/trunk/LayoutTests/fast/lists/li-style-alpha-huge-value-crash.html
+END
+ol-start-dynamic.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/19911/trunk/LayoutTests/fast/lists/ol-start-dynamic.html
+END
+numeric-markers-outside-list.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/15458/trunk/LayoutTests/fast/lists/numeric-markers-outside-list.html
+END
+marker-image-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/20429/trunk/LayoutTests/fast/lists/marker-image-error.html
+END
+ol-start-roman-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/51201/trunk/LayoutTests/fast/lists/ol-start-roman-expected.txt
+END
+w3-css3-list-styles-numeric.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/144524/trunk/LayoutTests/fast/lists/w3-css3-list-styles-numeric.html
+END
+w3-list-styles-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/64186/trunk/LayoutTests/fast/lists/w3-list-styles-expected.txt
+END
+list-marker-with-line-height.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/41188/trunk/LayoutTests/fast/lists/list-marker-with-line-height.html
+END
+002.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/002.html
+END
+list-item-line-height.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/29893/trunk/LayoutTests/fast/lists/list-item-line-height.html
+END
+marker-preferred-margins-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/139789/trunk/LayoutTests/fast/lists/marker-preferred-margins-expected.txt
+END
+ol-reversed-dynamic-simple-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/103074/trunk/LayoutTests/fast/lists/ol-reversed-dynamic-simple-expected.txt
+END
+positioned-count-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/149561/trunk/LayoutTests/fast/lists/positioned-count-crash-expected.txt
+END
+ol-start-roman.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-start-roman.html
+END
+007-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/007-expected.txt
+END
+anonymous-items-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/anonymous-items-expected.txt
+END
+w3-list-styles.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/w3-list-styles.html
+END
+olstart.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blink/!svn/ver/12554/trunk/LayoutTests/fast/lists/olstart.html
+END
+marker-preferred-margins.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/139789/trunk/LayoutTests/fast/lists/marker-preferred-margins.html
+END
+list-marker-remove-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/124783/trunk/LayoutTests/fast/lists/list-marker-remove-crash-expected.txt
+END
+ol-reversed-dynamic-simple.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-reversed-dynamic-simple.html
+END
+w3-css3-list-styles-alphabetic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/82713/trunk/LayoutTests/fast/lists/w3-css3-list-styles-alphabetic-expected.txt
+END
+ordered-list-with-no-ol-tag.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/60920/trunk/LayoutTests/fast/lists/ordered-list-with-no-ol-tag.html
+END
+ol-nested-list-dynamic-insert-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/57986/trunk/LayoutTests/fast/lists/ol-nested-list-dynamic-insert-expected.txt
+END
+positioned-count-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/positioned-count-crash.html
+END
+007.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/007.html
+END
+anonymous-items.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/53868/trunk/LayoutTests/fast/lists/anonymous-items.html
+END
+li-values-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/102290/trunk/LayoutTests/fast/lists/li-values-expected.txt
+END
+004-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/004-expected.txt
+END
+list-style-none-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/list-style-none-crash-expected.txt
+END
+008-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/008-vertical.html
+END
+alpha-list-wrap-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/64186/trunk/LayoutTests/fast/lists/alpha-list-wrap-expected.txt
+END
+list-marker-remove-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/124783/trunk/LayoutTests/fast/lists/list-marker-remove-crash.html
+END
+w3-css3-list-styles-alphabetic.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/w3-css3-list-styles-alphabetic.html
+END
+inline-before-content-after-list-marker-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/97075/trunk/LayoutTests/fast/lists/inline-before-content-after-list-marker-expected.txt
+END
+ol-nested-list-dynamic-insert.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-nested-list-dynamic-insert.html
+END
+ol-reversed-simple-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/103074/trunk/LayoutTests/fast/lists/ol-reversed-simple-expected.txt
+END
+ol-reversed-nested-list-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/103074/trunk/LayoutTests/fast/lists/ol-reversed-nested-list-expected.txt
+END
+w3-css3-upper-armenian-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/128078/trunk/LayoutTests/fast/lists/w3-css3-upper-armenian-expected.txt
+END
+w3-css3-list-styles-fallback-style-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/73340/trunk/LayoutTests/fast/lists/w3-css3-list-styles-fallback-style-expected.txt
+END
+li-values.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/li-values.html
+END
+list-marker-before-content-table-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/94857/trunk/LayoutTests/fast/lists/list-marker-before-content-table-expected.txt
+END
+004.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/004.html
+END
+list-style-none-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/48921/trunk/LayoutTests/fast/lists/list-style-none-crash.html
+END
+alpha-list-wrap.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/alpha-list-wrap.html
+END
+ol-nested-items-dynamic-insert-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/57986/trunk/LayoutTests/fast/lists/ol-nested-items-dynamic-insert-expected.txt
+END
+001-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/001-expected.txt
+END
+inline-before-content-after-list-marker.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/97075/trunk/LayoutTests/fast/lists/inline-before-content-after-list-marker.html
+END
+alpha-boundary-values-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/64186/trunk/LayoutTests/fast/lists/alpha-boundary-values-expected.txt
+END
+ol-reversed-simple.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-reversed-simple.html
+END
+ol-reversed-nested-list.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-reversed-nested-list.html
+END
+inlineBoxWrapperNullCheck.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/18291/trunk/LayoutTests/fast/lists/inlineBoxWrapperNullCheck.html
+END
+009-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/009-expected.txt
+END
+w3-css3-upper-armenian.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/128078/trunk/LayoutTests/fast/lists/w3-css3-upper-armenian.html
+END
+w3-css3-list-styles-fallback-style.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/w3-css3-list-styles-fallback-style.html
+END
+list-marker-before-content-table.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/94857/trunk/LayoutTests/fast/lists/list-marker-before-content-table.html
+END
+007-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/007-vertical-expected.txt
+END
+markers-in-selection.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/48921/trunk/LayoutTests/fast/lists/markers-in-selection.html
+END
+ol-nested-items-dynamic-insert.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-nested-items-dynamic-insert.html
+END
+001.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/001.html
+END
+marker-before-empty-inline-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/marker-before-empty-inline-expected.txt
+END
+alpha-boundary-values.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/alpha-boundary-values.html
+END
+ol-reversed-simple.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/ol-reversed-simple.xhtml
+END
+009.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/009.html
+END
+003-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/003-vertical.html
+END
+scrolled-marker-paint-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/scrolled-marker-paint-expected.txt
+END
+drag-into-marker-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/drag-into-marker-expected.txt
+END
+007-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/007-vertical.html
+END
+006-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/006-expected.txt
+END
+marker-before-empty-inline.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/24255/trunk/LayoutTests/fast/lists/marker-before-empty-inline.html
+END
+scrolled-marker-paint.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/48921/trunk/LayoutTests/fast/lists/scrolled-marker-paint.html
+END
+dynamic-marker-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/15802/trunk/LayoutTests/fast/lists/dynamic-marker-crash.html
+END
+drag-into-marker.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/drag-into-marker.html
+END
+006.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/006.html
+END
+list-inside-columns-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153532/trunk/LayoutTests/fast/lists/list-inside-columns-crash-expected.txt
+END
+parent-box-not-box-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/117865/trunk/LayoutTests/fast/lists/parent-box-not-box-crash-expected.txt
+END
+li-br-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/li-br-expected.txt
+END
+002-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/002-vertical-expected.txt
+END
+w3-css3-list-styles-symbolic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/66296/trunk/LayoutTests/fast/lists/w3-css3-list-styles-symbolic-expected.txt
+END
+006-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/006-vertical-expected.txt
+END
+decimal-leading-zero-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/64186/trunk/LayoutTests/fast/lists/decimal-leading-zero-expected.txt
+END
+ol-display-types-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/lists/ol-display-types-expected.txt
+END
+ol-nested-list-dynamic-remove-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/57986/trunk/LayoutTests/fast/lists/ol-nested-list-dynamic-remove-expected.txt
+END
+list-inside-columns-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/153532/trunk/LayoutTests/fast/lists/list-inside-columns-crash.html
+END
+parent-box-not-box-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/parent-box-not-box-crash.html
+END
+003.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/003.html
+END
+li-br.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/lists/li-br.html
+END
+remove-listmarker-from-anonblock-with-continuation-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/109245/trunk/LayoutTests/fast/lists/remove-listmarker-from-anonblock-with-continuation-crash-expected.txt
+END
+002-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/71700/trunk/LayoutTests/fast/lists/002-vertical.html
+END
+w3-css3-list-styles-symbolic.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/122687/trunk/LayoutTests/fast/lists/w3-css3-list-styles-symbolic.html
+END

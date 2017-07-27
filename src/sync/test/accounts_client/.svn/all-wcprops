@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/212193/trunk/src/sync/test/accounts_client
+END
+test_accounts_client_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/211572/trunk/src/sync/test/accounts_client/test_accounts_client_unittest.cc
+END
+test_accounts_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/212193/trunk/src/sync/test/accounts_client/test_accounts_client.cc
+END
+test_accounts_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/212193/trunk/src/sync/test/accounts_client/test_accounts_client.h
+END
+DEPS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/199805/trunk/src/sync/test/accounts_client/DEPS
+END
+url_request_context_getter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/199805/trunk/src/sync/test/accounts_client/url_request_context_getter.cc
+END
+url_request_context_getter.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/199805/trunk/src/sync/test/accounts_client/url_request_context_getter.h
+END

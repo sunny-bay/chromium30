@@ -1,0 +1,497 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N
+END
+tspan-dirRTL-ubOverride-in-default-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubOverride-in-default-context-expected.png
+END
+tspan-dirLTR-ubOverride-in-default-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubOverride-in-default-context-expected.png
+END
+g-dirLTR-ubNone-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirLTR-ubNone-expected.txt
+END
+g-dirRTL-ubNone-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirRTL-ubNone-expected.txt
+END
+tspan-dirRTL-ubEmbed-in-ltr-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubEmbed-in-ltr-context-expected.txt
+END
+tspan-dirLTR-ubEmbed-in-rtl-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubEmbed-in-rtl-context-expected.txt
+END
+tspan-dirNone-ubOverride-in-ltr-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirNone-ubOverride-in-ltr-context-expected.txt
+END
+tspan-dirNone-ubOverride-in-rtl-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirNone-ubOverride-in-rtl-context-expected.txt
+END
+text-dirLTR-ubNone-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirLTR-ubNone-expected.png
+END
+text-dirRTL-ubNone-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirRTL-ubNone-expected.png
+END
+text-anchor-dirNone-anchorStart-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirNone-anchorStart-expected.txt
+END
+text-dirRTL-ubOverride-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirRTL-ubOverride-expected.txt
+END
+text-dirLTR-ubOverride-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirLTR-ubOverride-expected.txt
+END
+text-anchor-dirNone-anchorEnd-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirNone-anchorEnd-expected.png
+END
+text-anchor-inherited-dirLTR-anchorStart-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirLTR-anchorStart-expected.png
+END
+text-anchor-inherited-dirRTL-anchorStart-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirRTL-anchorStart-expected.png
+END
+text-anchor-inherited-dirLTR-anchorMiddle-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirLTR-anchorMiddle-expected.png
+END
+text-anchor-inherited-dirRTL-anchorMiddle-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirRTL-anchorMiddle-expected.png
+END
+tspan-dirLTR-ubNone-in-rtl-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubNone-in-rtl-context-expected.png
+END
+tspan-dirRTL-ubNone-in-ltr-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubNone-in-ltr-context-expected.png
+END
+text-anchor-inherited-dirLTR-anchorEnd-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirLTR-anchorEnd-expected.txt
+END
+text-anchor-inherited-dirRTL-anchorEnd-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirRTL-anchorEnd-expected.txt
+END
+text-anchor-no-markup-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-no-markup-expected.txt
+END
+tspan-dirRTL-ubOverride-in-rtl-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubOverride-in-rtl-context-expected.txt
+END
+tspan-dirRTL-ubOverride-in-ltr-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubOverride-in-ltr-context-expected.txt
+END
+tspan-dirLTR-ubOverride-in-ltr-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubOverride-in-ltr-context-expected.txt
+END
+tspan-dirLTR-ubOverride-in-rtl-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubOverride-in-rtl-context-expected.txt
+END
+g-dirRTL-ubNone-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirRTL-ubNone-expected.png
+END
+g-dirLTR-ubNone-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirLTR-ubNone-expected.png
+END
+tspan-dirLTR-ubEmbed-in-rtl-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubEmbed-in-rtl-context-expected.png
+END
+tspan-dirRTL-ubEmbed-in-ltr-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubEmbed-in-ltr-context-expected.png
+END
+tspan-dirRTL-ubNone-in-default-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubNone-in-default-context-expected.txt
+END
+text-anchor-dirNone-anchorMiddle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirNone-anchorMiddle-expected.txt
+END
+tspan-dirNone-ubOverride-in-ltr-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirNone-ubOverride-in-ltr-context-expected.png
+END
+tspan-dirNone-ubOverride-in-rtl-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirNone-ubOverride-in-rtl-context-expected.png
+END
+text-anchor-dirRTL-anchorMiddle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirRTL-anchorMiddle-expected.txt
+END
+text-anchor-dirLTR-anchorMiddle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirLTR-anchorMiddle-expected.txt
+END
+text-anchor-dirNone-anchorStart-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirNone-anchorStart-expected.png
+END
+g-dirRTL-ubOverride-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirRTL-ubOverride-expected.txt
+END
+g-dirLTR-ubOverride-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirLTR-ubOverride-expected.txt
+END
+text-anchor-dirLTR-anchorEnd-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirLTR-anchorEnd-expected.txt
+END
+text-anchor-dirRTL-anchorEnd-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirRTL-anchorEnd-expected.txt
+END
+text-dirLTR-ubOverride-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirLTR-ubOverride-expected.png
+END
+text-dirRTL-ubOverride-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirRTL-ubOverride-expected.png
+END
+tspan-dirRTL-ubEmbed-in-default-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubEmbed-in-default-context-expected.txt
+END
+tspan-dirNone-ubOverride-in-default-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirNone-ubOverride-in-default-context-expected.txt
+END
+tspan-direction-rtl-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-direction-rtl-expected.txt
+END
+tspan-direction-ltr-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-direction-ltr-expected.txt
+END
+text-anchor-inherited-dirRTL-anchorEnd-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirRTL-anchorEnd-expected.png
+END
+text-anchor-inherited-dirLTR-anchorEnd-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirLTR-anchorEnd-expected.png
+END
+text-anchor-no-markup-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-no-markup-expected.png
+END
+text-anchor-dirRTL-anchorStart-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirRTL-anchorStart-expected.txt
+END
+text-anchor-dirLTR-anchorStart-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirLTR-anchorStart-expected.txt
+END
+tspan-dirRTL-ubOverride-in-rtl-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubOverride-in-rtl-context-expected.png
+END
+tspan-dirRTL-ubOverride-in-ltr-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubOverride-in-ltr-context-expected.png
+END
+tspan-dirLTR-ubOverride-in-ltr-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubOverride-in-ltr-context-expected.png
+END
+tspan-dirLTR-ubOverride-in-rtl-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubOverride-in-rtl-context-expected.png
+END
+text-anchor-dirNone-anchorMiddle-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirNone-anchorMiddle-expected.png
+END
+tspan-dirRTL-ubNone-in-default-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubNone-in-default-context-expected.png
+END
+text-anchor-dirLTR-anchorMiddle-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirLTR-anchorMiddle-expected.png
+END
+text-anchor-dirRTL-anchorMiddle-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirRTL-anchorMiddle-expected.png
+END
+g-dirLTR-ubOverride-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirLTR-ubOverride-expected.png
+END
+g-dirRTL-ubOverride-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/g-dirRTL-ubOverride-expected.png
+END
+text-anchor-dirLTR-anchorEnd-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirLTR-anchorEnd-expected.png
+END
+text-anchor-dirRTL-anchorEnd-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirRTL-anchorEnd-expected.png
+END
+tspan-dirRTL-ubOverride-in-default-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubOverride-in-default-context-expected.txt
+END
+tspan-dirLTR-ubOverride-in-default-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubOverride-in-default-context-expected.txt
+END
+tspan-dirRTL-ubEmbed-in-default-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubEmbed-in-default-context-expected.png
+END
+tspan-dirNone-ubOverride-in-default-context-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirNone-ubOverride-in-default-context-expected.png
+END
+text-dirRTL-ubNone-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirRTL-ubNone-expected.txt
+END
+text-dirLTR-ubNone-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-dirLTR-ubNone-expected.txt
+END
+tspan-direction-rtl-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-direction-rtl-expected.png
+END
+tspan-direction-ltr-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-direction-ltr-expected.png
+END
+text-anchor-dirLTR-anchorStart-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirLTR-anchorStart-expected.png
+END
+text-anchor-dirRTL-anchorStart-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirRTL-anchorStart-expected.png
+END
+text-anchor-dirNone-anchorEnd-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-dirNone-anchorEnd-expected.txt
+END
+text-anchor-inherited-dirLTR-anchorStart-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirLTR-anchorStart-expected.txt
+END
+text-anchor-inherited-dirRTL-anchorStart-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirRTL-anchorStart-expected.txt
+END
+text-anchor-inherited-dirRTL-anchorMiddle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirRTL-anchorMiddle-expected.txt
+END
+text-anchor-inherited-dirLTR-anchorMiddle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/text-anchor-inherited-dirLTR-anchorMiddle-expected.txt
+END
+tspan-dirRTL-ubNone-in-ltr-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirRTL-ubNone-in-ltr-context-expected.txt
+END
+tspan-dirLTR-ubNone-in-rtl-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/svg/W3C-I18N/tspan-dirLTR-ubNone-in-rtl-context-expected.txt
+END

@@ -1,0 +1,1979 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blink/!svn/ver/155351/trunk/LayoutTests/platform/win/fast/forms
+END
+input-placeholder-visibility-1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-placeholder-visibility-1-expected.txt
+END
+input-readonly-autoscroll-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/154848/trunk/LayoutTests/platform/win/fast/forms/input-readonly-autoscroll-expected.png
+END
+tabbing-input-iframe-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/tabbing-input-iframe-expected.txt
+END
+select-change-popup-to-listbox-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-change-popup-to-listbox-expected.txt
+END
+button-sizes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-sizes-expected.txt
+END
+menulist-deselect-update-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-deselect-update-expected.txt
+END
+textfield-outline-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textfield-outline-expected.png
+END
+007-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/007-expected.png
+END
+HTMLOptionElement_label05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label05-expected.txt
+END
+listbox-clip-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-clip-expected.png
+END
+HTMLOptionElement_label04-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label04-expected.png
+END
+textarea-scroll-height-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-scroll-height-expected.png
+END
+button-table-styles-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-table-styles-expected.png
+END
+input-text-option-delete-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-option-delete-expected.txt
+END
+textfield-overflow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/textfield-overflow-expected.txt
+END
+input-align-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-align-expected.png
+END
+textarea-setinnerhtml-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-setinnerhtml-expected.png
+END
+button-cannot-be-nested-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-cannot-be-nested-expected.png
+END
+input-appearance-height-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-height-expected.png
+END
+select-initial-position-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-initial-position-expected.txt
+END
+formmove2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/formmove2-expected.txt
+END
+focus-selection-textarea-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/focus-selection-textarea-expected.txt
+END
+input-disabled-color-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-disabled-color-expected.txt
+END
+input-spaces-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-spaces-expected.png
+END
+input-appearance-visibility-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-visibility-expected.txt
+END
+select-disabled-appearance-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-disabled-appearance-expected.txt
+END
+menulist-option-wrap-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-option-wrap-expected.png
+END
+select-dirty-parent-pref-widths-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-dirty-parent-pref-widths-expected.txt
+END
+select-overflow-scroll-inherited-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-overflow-scroll-inherited-expected.png
+END
+select-empty-option-height-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-empty-option-height-expected.png
+END
+textarea-placeholder-pseudo-style-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-placeholder-pseudo-style-expected.png
+END
+input-type-text-min-width-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-type-text-min-width-expected.png
+END
+001-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/001-expected.png
+END
+textarea-align-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-align-expected.txt
+END
+input-readonly-empty-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-readonly-empty-expected.txt
+END
+input-value-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-value-expected.png
+END
+input-appearance-focus-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-focus-expected.png
+END
+basic-textareas-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/basic-textareas-expected.txt
+END
+option-script-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-script-expected.png
+END
+option-text-clip-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-text-clip-expected.txt
+END
+basic-buttons-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153390/trunk/LayoutTests/platform/win/fast/forms/basic-buttons-expected.png
+END
+placeholder-pseudo-style-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/placeholder-pseudo-style-expected.png
+END
+textarea-placeholder-visibility-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-placeholder-visibility-2-expected.png
+END
+button-white-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-white-space-expected.png
+END
+indeterminate-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/indeterminate-expected.txt
+END
+linebox-overflow-in-textarea-padding-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/155351/trunk/LayoutTests/platform/win/fast/forms/linebox-overflow-in-textarea-padding-expected.png
+END
+menulist-restrict-line-height-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-restrict-line-height-expected.png
+END
+textarea-width-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-width-expected.png
+END
+input-readonly-autoscroll-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-readonly-autoscroll-expected.txt
+END
+basic-textareas-quirks-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/basic-textareas-quirks-expected.png
+END
+textfield-outline-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textfield-outline-expected.txt
+END
+option-strip-whitespace-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-strip-whitespace-expected.png
+END
+007-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/007-expected.txt
+END
+input-text-drag-down-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-drag-down-expected.png
+END
+006-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/006-expected.png
+END
+select-selected-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-selected-expected.png
+END
+HTMLOptionElement_label04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label04-expected.txt
+END
+input-appearance-default-bkcolor-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-default-bkcolor-expected.png
+END
+HTMLOptionElement_label03-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label03-expected.png
+END
+textarea-scroll-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-scroll-height-expected.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/README
+END
+select-overflow-scroll-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-overflow-scroll-expected.png
+END
+disabled-select-change-index-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153815/trunk/LayoutTests/platform/win/fast/forms/disabled-select-change-index-expected.png
+END
+button-submit-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-submit-expected.png
+END
+button-table-styles-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-table-styles-expected.txt
+END
+input-text-double-click-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-double-click-expected.png
+END
+hidden-listbox-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/hidden-listbox-expected.png
+END
+input-no-renderer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-no-renderer-expected.png
+END
+input-baseline-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-baseline-expected.png
+END
+input-text-scroll-left-on-blur-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-scroll-left-on-blur-expected.png
+END
+form-hides-table-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/form-hides-table-expected.png
+END
+textarea-setinnerhtml-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-setinnerhtml-expected.txt
+END
+input-align-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-align-expected.txt
+END
+form-element-geometry-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/form-element-geometry-expected.png
+END
+listbox-width-change-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-width-change-expected.png
+END
+button-positioned-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-positioned-expected.png
+END
+selectlist-minsize-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/selectlist-minsize-expected.png
+END
+button-cannot-be-nested-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-cannot-be-nested-expected.txt
+END
+input-appearance-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/input-appearance-height-expected.txt
+END
+textarea-scrolled-type-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-scrolled-type-expected.png
+END
+select-change-listbox-to-popup-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-change-listbox-to-popup-expected.png
+END
+input-spaces-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-spaces-expected.txt
+END
+select-align-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-align-expected.png
+END
+form-in-malformed-markup-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/form-in-malformed-markup-expected.png
+END
+menulist-option-wrap-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-option-wrap-expected.txt
+END
+menulist-style-color-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-style-color-expected.png
+END
+input-width-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-width-expected.png
+END
+listbox-hit-test-zoomed-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-hit-test-zoomed-expected.png
+END
+select-overflow-scroll-inherited-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-overflow-scroll-inherited-expected.txt
+END
+select-empty-option-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-empty-option-height-expected.txt
+END
+input-appearance-preventDefault-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-preventDefault-expected.png
+END
+textarea-placeholder-pseudo-style-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-placeholder-pseudo-style-expected.txt
+END
+fieldset-legend-padding-unclipped-fieldset-border-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/fieldset-legend-padding-unclipped-fieldset-border-expected.png
+END
+input-type-text-min-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-type-text-min-width-expected.txt
+END
+001-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/001-expected.txt
+END
+preserveFormDuringResidualStyle-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/preserveFormDuringResidualStyle-expected.png
+END
+search-rtl-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/search-rtl-expected.png
+END
+input-appearance-focus-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-focus-expected.txt
+END
+input-value-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-value-expected.txt
+END
+option-script-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-script-expected.txt
+END
+blankbuttons-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/blankbuttons-expected.png
+END
+input-readonly-dimmed-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-readonly-dimmed-expected.png
+END
+placeholder-pseudo-style-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/placeholder-pseudo-style-expected.txt
+END
+basic-buttons-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/basic-buttons-expected.txt
+END
+input-appearance-width-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-width-expected.png
+END
+textarea-placeholder-visibility-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-placeholder-visibility-2-expected.txt
+END
+button-white-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-white-space-expected.txt
+END
+linebox-overflow-in-textarea-padding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/155341/trunk/LayoutTests/platform/win/fast/forms/linebox-overflow-in-textarea-padding-expected.txt
+END
+visual-hebrew-text-field-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/visual-hebrew-text-field-expected.png
+END
+textarea-placeholder-visibility-1-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-placeholder-visibility-1-expected.png
+END
+listbox-scrollbar-incremental-load-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-scrollbar-incremental-load-expected.png
+END
+menulist-restrict-line-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-restrict-line-height-expected.txt
+END
+textarea-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-width-expected.txt
+END
+button-style-color-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-style-color-expected.png
+END
+basic-textareas-quirks-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/basic-textareas-quirks-expected.txt
+END
+input-text-drag-down-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-drag-down-expected.txt
+END
+option-strip-whitespace-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-strip-whitespace-expected.txt
+END
+caret-rtl-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/caret-rtl-expected.png
+END
+select-list-box-with-height-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-list-box-with-height-expected.png
+END
+006-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/006-expected.txt
+END
+select-selected-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-selected-expected.txt
+END
+textfield-focus-ring-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textfield-focus-ring-expected.png
+END
+input-appearance-default-bkcolor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-default-bkcolor-expected.txt
+END
+button-align-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-align-expected.png
+END
+HTMLOptionElement_label03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label03-expected.txt
+END
+005-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/005-expected.png
+END
+select-overflow-scroll-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-overflow-scroll-expected.txt
+END
+button-submit-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-submit-expected.txt
+END
+input-appearance-readonly-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-readonly-expected.png
+END
+disabled-select-change-index-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/disabled-select-change-index-expected.txt
+END
+input-text-double-click-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-double-click-expected.txt
+END
+form-added-to-table-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/form-added-to-table-expected.png
+END
+hidden-listbox-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/hidden-listbox-expected.txt
+END
+HTMLOptionElement_label02-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label02-expected.png
+END
+input-no-renderer-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-no-renderer-expected.txt
+END
+input-baseline-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-baseline-expected.txt
+END
+menulist-no-overflow-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-no-overflow-expected.png
+END
+input-text-scroll-left-on-blur-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-scroll-left-on-blur-expected.txt
+END
+form-hides-table-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/form-hides-table-expected.txt
+END
+form-element-geometry-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/form-element-geometry-expected.txt
+END
+listbox-width-change-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-width-change-expected.txt
+END
+button-positioned-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-positioned-expected.txt
+END
+selectlist-minsize-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/selectlist-minsize-expected.txt
+END
+select-block-background-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-block-background-expected.png
+END
+textfield-overflow-by-value-update-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/155253/trunk/LayoutTests/platform/win/fast/forms/textfield-overflow-by-value-update-expected.txt
+END
+fieldset-align-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/fieldset-align-expected.png
+END
+search-vertical-alignment-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/155261/trunk/LayoutTests/platform/win/fast/forms/search-vertical-alignment-expected.png
+END
+select-visual-hebrew-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-visual-hebrew-expected.png
+END
+textarea-scrolled-type-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-scrolled-type-expected.txt
+END
+select-change-listbox-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-change-listbox-size-expected.png
+END
+select-baseline-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-baseline-expected.png
+END
+select-change-listbox-to-popup-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-change-listbox-to-popup-expected.txt
+END
+input-text-word-wrap-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-word-wrap-expected.png
+END
+stuff-on-my-optgroup-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/stuff-on-my-optgroup-expected.png
+END
+select-align-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-align-expected.txt
+END
+form-in-malformed-markup-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/form-in-malformed-markup-expected.txt
+END
+input-placeholder-visibility-3-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-placeholder-visibility-3-expected.png
+END
+menulist-style-color-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-style-color-expected.txt
+END
+input-align-image-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-align-image-expected.png
+END
+input-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-width-expected.txt
+END
+control-restrict-line-height-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/control-restrict-line-height-expected.png
+END
+listbox-hit-test-zoomed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/listbox-hit-test-zoomed-expected.txt
+END
+HTMLOptionElement_label07-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label07-expected.png
+END
+input-appearance-preventDefault-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-preventDefault-expected.txt
+END
+option-index-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-index-expected.png
+END
+textAreaLineHeight-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textAreaLineHeight-expected.png
+END
+fieldset-legend-padding-unclipped-fieldset-border-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/fieldset-legend-padding-unclipped-fieldset-border-expected.txt
+END
+menulist-clip-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-clip-expected.png
+END
+select-display-none-style-resolve-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-display-none-style-resolve-expected.png
+END
+formmove-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/formmove-expected.png
+END
+preserveFormDuringResidualStyle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/preserveFormDuringResidualStyle-expected.txt
+END
+search-rtl-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/search-rtl-expected.txt
+END
+search-display-none-cancel-button-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/search-display-none-cancel-button-expected.png
+END
+blankbuttons-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/blankbuttons-expected.txt
+END
+select-listbox-multiple-no-focusring-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-listbox-multiple-no-focusring-expected.png
+END
+input-readonly-dimmed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-readonly-dimmed-expected.txt
+END
+negativeLineHeight-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/negativeLineHeight-expected.png
+END
+input-button-sizes-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-button-sizes-expected.png
+END
+input-appearance-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-width-expected.txt
+END
+button-text-transform-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-text-transform-expected.png
+END
+textarea-placeholder-visibility-1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/154347/trunk/LayoutTests/platform/win/fast/forms/textarea-placeholder-visibility-1-expected.txt
+END
+visual-hebrew-text-field-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/visual-hebrew-text-field-expected.txt
+END
+listbox-scrollbar-incremental-load-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-scrollbar-incremental-load-expected.txt
+END
+select-style-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-style-expected.png
+END
+button-style-color-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-style-color-expected.txt
+END
+select-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-size-expected.png
+END
+caret-rtl-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/caret-rtl-expected.txt
+END
+select-list-box-with-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-list-box-with-height-expected.txt
+END
+textfield-focus-ring-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/textfield-focus-ring-expected.txt
+END
+button-align-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-align-expected.txt
+END
+input-appearance-disabled-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-disabled-expected.png
+END
+input-appearance-readonly-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-readonly-expected.txt
+END
+searchfield-heights-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/155261/trunk/LayoutTests/platform/win/fast/forms/searchfield-heights-expected.png
+END
+form-added-to-table-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/form-added-to-table-expected.txt
+END
+HTMLOptionElement_label02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label02-expected.txt
+END
+004-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/004-expected.png
+END
+menulist-separator-painting-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-separator-painting-expected.png
+END
+menulist-no-overflow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-no-overflow-expected.txt
+END
+HTMLOptionElement_label01-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label01-expected.png
+END
+fieldset-with-float-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/fieldset-with-float-expected.png
+END
+select-block-background-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-block-background-expected.txt
+END
+listbox-bidi-align-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-bidi-align-expected.png
+END
+fieldset-align-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/fieldset-align-expected.txt
+END
+search-vertical-alignment-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/155253/trunk/LayoutTests/platform/win/fast/forms/search-vertical-alignment-expected.txt
+END
+select-visual-hebrew-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/select-visual-hebrew-expected.txt
+END
+select-change-listbox-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-change-listbox-size-expected.txt
+END
+select-background-none-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-background-none-expected.png
+END
+input-field-text-truncated-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-field-text-truncated-expected.png
+END
+select-baseline-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-baseline-expected.txt
+END
+floating-textfield-relayout-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/floating-textfield-relayout-expected.png
+END
+input-text-word-wrap-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-word-wrap-expected.txt
+END
+stuff-on-my-optgroup-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/stuff-on-my-optgroup-expected.txt
+END
+button-inner-block-reuse-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-inner-block-reuse-expected.png
+END
+implicit-submission-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/implicit-submission-expected.txt
+END
+textarea-scrollbar-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-scrollbar-expected.png
+END
+input-placeholder-visibility-3-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-placeholder-visibility-3-expected.txt
+END
+basic-inputs-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/basic-inputs-expected.png
+END
+float-before-fieldset-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/float-before-fieldset-expected.png
+END
+input-align-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-align-image-expected.txt
+END
+control-restrict-line-height-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/control-restrict-line-height-expected.txt
+END
+minWidthPercent-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/minWidthPercent-expected.png
+END
+HTMLOptionElement_label07-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label07-expected.txt
+END
+option-index-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-index-expected.txt
+END
+textAreaLineHeight-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/textAreaLineHeight-expected.txt
+END
+HTMLOptionElement_label06-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label06-expected.png
+END
+input-text-click-inside-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-click-inside-expected.png
+END
+input-appearance-selection-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-selection-expected.png
+END
+menulist-clip-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-clip-expected.txt
+END
+select-popup-pagekeys-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-popup-pagekeys-expected.txt
+END
+menulist-narrow-width-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-narrow-width-expected.png
+END
+select-display-none-style-resolve-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-display-none-style-resolve-expected.txt
+END
+formmove-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/formmove-expected.txt
+END
+search-display-none-cancel-button-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/search-display-none-cancel-button-expected.txt
+END
+select-listbox-multiple-no-focusring-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-listbox-multiple-no-focusring-expected.txt
+END
+8250-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/8250-expected.png
+END
+input-button-sizes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-button-sizes-expected.txt
+END
+negativeLineHeight-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/negativeLineHeight-expected.txt
+END
+menulist-width-change-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-width-change-expected.png
+END
+button-text-transform-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-text-transform-expected.txt
+END
+control-clip-overflow-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/control-clip-overflow-expected.png
+END
+select-style-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-style-expected.txt
+END
+cursor-at-editable-content-boundary-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/cursor-at-editable-content-boundary-expected.txt
+END
+button-default-title-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-default-title-expected.png
+END
+formmove3-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/formmove3-expected.png
+END
+input-text-click-outside-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-click-outside-expected.png
+END
+targeted-frame-submission-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/targeted-frame-submission-expected.png
+END
+select-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-size-expected.txt
+END
+placeholder-position-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/placeholder-position-expected.png
+END
+input-table-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-table-expected.png
+END
+input-appearance-bkcolor-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-bkcolor-expected.png
+END
+input-text-self-emptying-click-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-self-emptying-click-expected.png
+END
+input-appearance-disabled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-disabled-expected.txt
+END
+image-border-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/image-border-expected.png
+END
+searchfield-heights-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/155261/trunk/LayoutTests/platform/win/fast/forms/searchfield-heights-expected.txt
+END
+004-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/004-expected.txt
+END
+menulist-separator-painting-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-separator-painting-expected.txt
+END
+003-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/003-expected.png
+END
+HTMLOptionElement_label01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label01-expected.txt
+END
+encoding-test-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/encoding-test-expected.png
+END
+control-clip-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/control-clip-expected.png
+END
+fieldset-with-float-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/fieldset-with-float-expected.txt
+END
+textarea-metrics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-metrics-expected.txt
+END
+listbox-bidi-align-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-bidi-align-expected.txt
+END
+select-item-background-clip-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-item-background-clip-expected.png
+END
+input-first-letter-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-first-letter-expected.png
+END
+basic-selects-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/155261/trunk/LayoutTests/platform/win/fast/forms/basic-selects-expected.png
+END
+select-writing-direction-natural-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-writing-direction-natural-expected.png
+END
+input-field-text-truncated-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-field-text-truncated-expected.txt
+END
+select-background-none-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-background-none-expected.txt
+END
+floating-textfield-relayout-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/floating-textfield-relayout-expected.txt
+END
+button-inner-block-reuse-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/button-inner-block-reuse-expected.txt
+END
+search-cancel-button-style-sharing-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/search-cancel-button-style-sharing-expected.png
+END
+plaintext-mode-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/154848/trunk/LayoutTests/platform/win/fast/forms/plaintext-mode-2-expected.png
+END
+textarea-scrollbar-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-scrollbar-expected.txt
+END
+basic-inputs-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/basic-inputs-expected.txt
+END
+input-double-click-selection-gap-bug-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-double-click-selection-gap-bug-expected.png
+END
+float-before-fieldset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/float-before-fieldset-expected.txt
+END
+text-style-color-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/text-style-color-expected.png
+END
+minWidthPercent-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/minWidthPercent-expected.txt
+END
+input-placeholder-visibility-1-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-placeholder-visibility-1-expected.png
+END
+tabbing-input-iframe-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/tabbing-input-iframe-expected.png
+END
+select-change-popup-to-listbox-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-change-popup-to-listbox-expected.png
+END
+button-sizes-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/button-sizes-expected.png
+END
+menulist-deselect-update-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-deselect-update-expected.png
+END
+HTMLOptionElement_label06-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label06-expected.txt
+END
+input-text-click-inside-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-click-inside-expected.txt
+END
+input-appearance-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-selection-expected.txt
+END
+HTMLOptionElement_label05-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/HTMLOptionElement_label05-expected.png
+END
+menulist-narrow-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-narrow-width-expected.txt
+END
+input-text-option-delete-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-text-option-delete-expected.png
+END
+textfield-overflow-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textfield-overflow-expected.png
+END
+menulist-width-change-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/menulist-width-change-expected.txt
+END
+input-placeholder-paint-order-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-placeholder-paint-order-expected.png
+END
+control-clip-overflow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/control-clip-overflow-expected.txt
+END
+button-default-title-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/button-default-title-expected.txt
+END
+select-initial-position-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-initial-position-expected.png
+END
+formmove3-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/formmove3-expected.txt
+END
+input-text-click-outside-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-click-outside-expected.txt
+END
+targeted-frame-submission-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/targeted-frame-submission-expected.txt
+END
+formmove2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/formmove2-expected.png
+END
+placeholder-position-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/155088/trunk/LayoutTests/platform/win/fast/forms/placeholder-position-expected.txt
+END
+input-table-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-table-expected.txt
+END
+input-appearance-bkcolor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-appearance-bkcolor-expected.txt
+END
+input-disabled-color-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-disabled-color-expected.png
+END
+input-text-self-emptying-click-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-text-self-emptying-click-expected.txt
+END
+input-appearance-visibility-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-appearance-visibility-expected.png
+END
+select-disabled-appearance-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-disabled-appearance-expected.png
+END
+onselect-textarea-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/onselect-textarea-expected.txt
+END
+image-border-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/image-border-expected.txt
+END
+select-dirty-parent-pref-widths-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-dirty-parent-pref-widths-expected.png
+END
+003-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/003-expected.txt
+END
+text-control-intrinsic-widths-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/text-control-intrinsic-widths-expected.txt
+END
+encoding-test-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/encoding-test-expected.txt
+END
+listbox-onchange-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/listbox-onchange-expected.txt
+END
+control-clip-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/control-clip-expected.txt
+END
+002-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/002-expected.png
+END
+textarea-align-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/textarea-align-expected.png
+END
+input-readonly-empty-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-readonly-empty-expected.png
+END
+select-item-background-clip-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-item-background-clip-expected.txt
+END
+basic-selects-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/155261/trunk/LayoutTests/platform/win/fast/forms/basic-selects-expected.txt
+END
+input-first-letter-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/input-first-letter-expected.txt
+END
+select-writing-direction-natural-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/select-writing-direction-natural-expected.txt
+END
+basic-textareas-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/basic-textareas-expected.png
+END
+option-text-clip-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/option-text-clip-expected.png
+END
+search-cancel-button-style-sharing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/154944/trunk/LayoutTests/platform/win/fast/forms/search-cancel-button-style-sharing-expected.txt
+END
+plaintext-mode-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/plaintext-mode-2-expected.txt
+END
+indeterminate-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/forms/indeterminate-expected.png
+END
+input-double-click-selection-gap-bug-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/input-double-click-selection-gap-bug-expected.txt
+END
+text-style-color-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/forms/text-style-color-expected.txt
+END

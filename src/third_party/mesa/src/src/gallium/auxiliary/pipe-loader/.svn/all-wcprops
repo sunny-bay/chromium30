@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader
+END
+pipe_loader.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader/pipe_loader.c
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader/.gitignore
+END
+pipe_loader_drm.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader/pipe_loader_drm.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader/Makefile.am
+END
+pipe_loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader/pipe_loader.h
+END
+pipe_loader_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader/pipe_loader_priv.h
+END
+pipe_loader_sw.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/auxiliary/pipe-loader/pipe_loader_sw.c
+END

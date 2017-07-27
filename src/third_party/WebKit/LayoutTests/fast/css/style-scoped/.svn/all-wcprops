@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/154889/trunk/LayoutTests/fast/css/style-scoped
+END
+style-scoped-attach.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/120683/trunk/LayoutTests/fast/css/style-scoped/style-scoped-attach.html
+END
+style-scoped-with-important-rule-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/137708/trunk/LayoutTests/fast/css/style-scoped/style-scoped-with-important-rule-expected.txt
+END
+style-scoped-set-scoped.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/120683/trunk/LayoutTests/fast/css/style-scoped/style-scoped-set-scoped.html
+END
+style-scoped-apply-author-styles.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/151709/trunk/LayoutTests/fast/css/style-scoped/style-scoped-apply-author-styles.html
+END
+basic-attribute.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/101987/trunk/LayoutTests/fast/css/style-scoped/basic-attribute.html
+END
+registering.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/105849/trunk/LayoutTests/fast/css/style-scoped/registering.html
+END
+style-scoped-basic.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/120683/trunk/LayoutTests/fast/css/style-scoped/style-scoped-basic.html
+END
+style-scoped-nested.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/154889/trunk/LayoutTests/fast/css/style-scoped/style-scoped-nested.html
+END
+style-scoped-remove-scoped-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/107911/trunk/LayoutTests/fast/css/style-scoped/style-scoped-remove-scoped-expected.txt
+END
+style-scoped-with-dom-operation.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/136413/trunk/LayoutTests/fast/css/style-scoped/style-scoped-with-dom-operation.html
+END
+style-scoped-keyframes.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/154383/trunk/LayoutTests/fast/css/style-scoped/style-scoped-keyframes.html
+END
+style-scoped-change-scoped-in-shadow.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/151631/trunk/LayoutTests/fast/css/style-scoped/style-scoped-change-scoped-in-shadow.html
+END
+style-scoped-detach.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/120683/trunk/LayoutTests/fast/css/style-scoped/style-scoped-detach.html
+END
+style-scoped-with-important-rule.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/154889/trunk/LayoutTests/fast/css/style-scoped/style-scoped-with-important-rule.html
+END
+style-scoped-scoping-nodes-different-order-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/154888/trunk/LayoutTests/fast/css/style-scoped/style-scoped-scoping-nodes-different-order-expected.txt
+END
+style-scoped-in-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/137408/trunk/LayoutTests/fast/css/style-scoped/style-scoped-in-shadow-expected.txt
+END
+style-scoped-remove-scoped.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/120683/trunk/LayoutTests/fast/css/style-scoped/style-scoped-remove-scoped.html
+END
+registering-shadowroot-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/120062/trunk/LayoutTests/fast/css/style-scoped/registering-shadowroot-expected.txt
+END
+style-scoped-attach-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/106331/trunk/LayoutTests/fast/css/style-scoped/style-scoped-attach-expected.txt
+END
+style-scoped-apply-author-styles-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/151709/trunk/LayoutTests/fast/css/style-scoped/style-scoped-apply-author-styles-expected.txt
+END
+style-scoped-set-scoped-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/107911/trunk/LayoutTests/fast/css/style-scoped/style-scoped-set-scoped-expected.txt
+END
+basic-attribute-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/101987/trunk/LayoutTests/fast/css/style-scoped/basic-attribute-expected.txt
+END
+registering-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/105849/trunk/LayoutTests/fast/css/style-scoped/registering-expected.txt
+END
+style-scoped-scoping-nodes-different-order.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/154888/trunk/LayoutTests/fast/css/style-scoped/style-scoped-scoping-nodes-different-order.html
+END
+style-scoped-in-shadow.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/154889/trunk/LayoutTests/fast/css/style-scoped/style-scoped-in-shadow.html
+END
+style-scoped-basic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/107911/trunk/LayoutTests/fast/css/style-scoped/style-scoped-basic-expected.txt
+END
+style-scoped-nested-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/137708/trunk/LayoutTests/fast/css/style-scoped/style-scoped-nested-expected.txt
+END
+style-scoped-with-dom-operation-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/136413/trunk/LayoutTests/fast/css/style-scoped/style-scoped-with-dom-operation-expected.txt
+END
+registering-shadowroot.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/120062/trunk/LayoutTests/fast/css/style-scoped/registering-shadowroot.html
+END
+style-scoped-keyframes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154383/trunk/LayoutTests/fast/css/style-scoped/style-scoped-keyframes-expected.txt
+END
+style-scoped-change-scoped-in-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/151631/trunk/LayoutTests/fast/css/style-scoped/style-scoped-change-scoped-in-shadow-expected.txt
+END
+style-scoped-detach-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/106331/trunk/LayoutTests/fast/css/style-scoped/style-scoped-detach-expected.txt
+END

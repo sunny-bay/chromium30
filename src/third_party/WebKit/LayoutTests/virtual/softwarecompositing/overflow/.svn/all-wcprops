@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/152981/trunk/LayoutTests/virtual/softwarecompositing/overflow
+END
+overflow-auto-with-touch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/149677/trunk/LayoutTests/virtual/softwarecompositing/overflow/overflow-auto-with-touch-expected.txt
+END
+scrolling-without-painting-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/151453/trunk/LayoutTests/virtual/softwarecompositing/overflow/scrolling-without-painting-expected.txt
+END
+resize-painting-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/151453/trunk/LayoutTests/virtual/softwarecompositing/overflow/resize-painting-expected.txt
+END
+overflow-overlay-with-touch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/149677/trunk/LayoutTests/virtual/softwarecompositing/overflow/overflow-overlay-with-touch-expected.txt
+END
+updating-scrolling-content-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/151453/trunk/LayoutTests/virtual/softwarecompositing/overflow/updating-scrolling-content-expected.txt
+END
+content-gains-scrollbars-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/151453/trunk/LayoutTests/virtual/softwarecompositing/overflow/content-gains-scrollbars-expected.txt
+END
+automatically-opt-into-composited-scrolling-part-1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/blink/!svn/ver/152981/trunk/LayoutTests/virtual/softwarecompositing/overflow/automatically-opt-into-composited-scrolling-part-1-expected.txt
+END
+automatically-opt-into-composited-scrolling-part-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/blink/!svn/ver/152981/trunk/LayoutTests/virtual/softwarecompositing/overflow/automatically-opt-into-composited-scrolling-part-2-expected.txt
+END
+overflow-scrollbar-layers-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/151453/trunk/LayoutTests/virtual/softwarecompositing/overflow/overflow-scrollbar-layers-expected.txt
+END
+overflow-auto-with-touch-toggle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/149677/trunk/LayoutTests/virtual/softwarecompositing/overflow/overflow-auto-with-touch-toggle-expected.txt
+END
+automatically-opt-into-composited-scrolling-part-3-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/blink/!svn/ver/152981/trunk/LayoutTests/virtual/softwarecompositing/overflow/automatically-opt-into-composited-scrolling-part-3-expected.txt
+END
+automatically-opt-into-composited-scrolling-part-4-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/blink/!svn/ver/152981/trunk/LayoutTests/virtual/softwarecompositing/overflow/automatically-opt-into-composited-scrolling-part-4-expected.txt
+END
+composited-scrolling-creates-a-stacking-container-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/blink/!svn/ver/151453/trunk/LayoutTests/virtual/softwarecompositing/overflow/composited-scrolling-creates-a-stacking-container-expected.txt
+END
+do-not-paint-outline-into-composited-scrolling-contents-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/148016/trunk/LayoutTests/virtual/softwarecompositing/overflow/do-not-paint-outline-into-composited-scrolling-contents-expected.txt
+END
+composited-scrolling-paint-phases-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/151453/trunk/LayoutTests/virtual/softwarecompositing/overflow/composited-scrolling-paint-phases-expected.txt
+END
+opt-into-composited-scrolling-positioned-ancestor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/blink/!svn/ver/151585/trunk/LayoutTests/virtual/softwarecompositing/overflow/opt-into-composited-scrolling-positioned-ancestor-expected.txt
+END

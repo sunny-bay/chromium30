@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/197985/trunk/src/third_party/zlib/google/test/data
+END
+evil.zip
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/197985/trunk/src/third_party/zlib/google/test/data/evil.zip
+END
+test.zip
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/197985/trunk/src/third_party/zlib/google/test/data/test.zip
+END
+test_nocompress.zip
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/197985/trunk/src/third_party/zlib/google/test/data/test_nocompress.zip
+END
+evil_via_invalid_utf8.zip
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/197985/trunk/src/third_party/zlib/google/test/data/evil_via_invalid_utf8.zip
+END
+evil_via_absolute_file_name.zip
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/197985/trunk/src/third_party/zlib/google/test/data/evil_via_absolute_file_name.zip
+END
+create_test_zip.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/197985/trunk/src/third_party/zlib/google/test/data/create_test_zip.sh
+END

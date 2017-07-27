@@ -1,0 +1,2189 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/blink/!svn/ver/155422/trunk/LayoutTests/fast/text
+END
+atsui-partial-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/atsui-partial-selection-expected.txt
+END
+in-rendered-text-rtl.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/155303/trunk/LayoutTests/fast/text/in-rendered-text-rtl.html
+END
+word-break-next-linebox-not-dirty-crash-main.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/word-break-next-linebox-not-dirty-crash-main.html
+END
+line-breaks-after-closing-punctuations.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/line-breaks-after-closing-punctuations.html
+END
+bidi-override-isolate-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/109806/trunk/LayoutTests/fast/text/bidi-override-isolate-expected.html
+END
+backslash-to-yen-sign-dynamic.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/60063/trunk/LayoutTests/fast/text/backslash-to-yen-sign-dynamic.html
+END
+line-breaks-after-hyphen-before-number-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/95030/trunk/LayoutTests/fast/text/line-breaks-after-hyphen-before-number-expected.txt
+END
+bidi-explicit-embedding-past-end-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/61921/trunk/LayoutTests/fast/text/bidi-explicit-embedding-past-end-expected.txt
+END
+one-letter-transform-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/one-letter-transform-crash.html
+END
+textIteratorNilRenderer.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/150716/trunk/LayoutTests/fast/text/textIteratorNilRenderer.html
+END
+emphasis-overlap-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/74318/trunk/LayoutTests/fast/text/emphasis-overlap-expected.txt
+END
+find-layout-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/find-layout-crash.html
+END
+selection-painted-separately-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/selection-painted-separately-expected.png
+END
+word-break.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/word-break.html
+END
+font-initial.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/font-initial.html
+END
+text-fragment-first-letter-update-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/118816/trunk/LayoutTests/fast/text/text-fragment-first-letter-update-crash-expected.txt
+END
+font-kerning-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/104678/trunk/LayoutTests/fast/text/font-kerning-expected.html
+END
+regional-indicator-symobls.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/regional-indicator-symobls.html
+END
+align-center-rtl-spill-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/align-center-rtl-spill-expected.txt
+END
+stale-TextLayout-from-first-line-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/128713/trunk/LayoutTests/fast/text/stale-TextLayout-from-first-line-expected.html
+END
+text-shadow-extreme-value-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/21687/trunk/LayoutTests/fast/text/text-shadow-extreme-value-expected.txt
+END
+stale-TextLayout-from-first-line.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/128713/trunk/LayoutTests/fast/text/stale-TextLayout-from-first-line.html
+END
+remove-zero-length-run-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/52527/trunk/LayoutTests/fast/text/remove-zero-length-run-expected.txt
+END
+atsui-multiple-renderers.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/atsui-multiple-renderers.html
+END
+find-hidden-text-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/44674/trunk/LayoutTests/fast/text/find-hidden-text-expected.txt
+END
+justify-nbsp-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/86028/trunk/LayoutTests/fast/text/justify-nbsp-expected.txt
+END
+bidi-explicit-embedding-past-end.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/61921/trunk/LayoutTests/fast/text/bidi-explicit-embedding-past-end.html
+END
+input-box-text-fragment-combine-text-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/81794/trunk/LayoutTests/fast/text/input-box-text-fragment-combine-text-crash-expected.txt
+END
+selection-rect-rounding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/selection-rect-rounding-expected.txt
+END
+justify-padding-distribution.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/61128/trunk/LayoutTests/fast/text/justify-padding-distribution.html
+END
+line-break-after-question-mark-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/53839/trunk/LayoutTests/fast/text/line-break-after-question-mark-expected.txt
+END
+emphasis-overlap.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/74318/trunk/LayoutTests/fast/text/emphasis-overlap.html
+END
+atsui-bidi-control-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/71566/trunk/LayoutTests/fast/text/atsui-bidi-control-expected.txt
+END
+container-align-with-inlines.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/140570/trunk/LayoutTests/fast/text/container-align-with-inlines.html
+END
+bad-encoding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/56420/trunk/LayoutTests/fast/text/bad-encoding-expected.txt
+END
+text-fragment-first-letter-update-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/text-fragment-first-letter-update-crash.html
+END
+wbr-pre-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/wbr-pre-expected.txt
+END
+offsetForPosition-cluster-at-zero-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/42416/trunk/LayoutTests/fast/text/offsetForPosition-cluster-at-zero-expected.txt
+END
+remove-zero-length-run.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/remove-zero-length-run.html
+END
+find-hidden-text.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/find-hidden-text.html
+END
+line-break-between-text-nodes-cjk-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-between-text-nodes-cjk-expected.html
+END
+justify-nbsp.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/76421/trunk/LayoutTests/fast/text/justify-nbsp.html
+END
+stripNullFromText-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/stripNullFromText-expected.txt
+END
+combining-character-sequence-fallback-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/combining-character-sequence-fallback-crash.html
+END
+nested-bidi-assert-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/151016/trunk/LayoutTests/fast/text/nested-bidi-assert-expected.txt
+END
+cg-vs-atsui.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/cg-vs-atsui.html
+END
+monospace-width-cache.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/29900/trunk/LayoutTests/fast/text/monospace-width-cache.html
+END
+selection-rect-rounding.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/85411/trunk/LayoutTests/fast/text/selection-rect-rounding.html
+END
+word-space-nbsp-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/135884/trunk/LayoutTests/fast/text/word-space-nbsp-expected.html
+END
+justify-ideograph-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/76743/trunk/LayoutTests/fast/text/justify-ideograph-vertical.html
+END
+line-break-after-question-mark.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/text/line-break-after-question-mark.html
+END
+character-at-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/150830/trunk/LayoutTests/fast/text/character-at-crash-expected.txt
+END
+text-combine-with-font-face.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/131005/trunk/LayoutTests/fast/text/text-combine-with-font-face.html
+END
+fixed-pitch-control-characters-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/fixed-pitch-control-characters-expected.txt
+END
+atsui-kerning-and-ligatures.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/atsui-kerning-and-ligatures.html
+END
+soft-hyphen-3-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/soft-hyphen-3-expected.txt
+END
+descent-clip-in-scaled-page-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/136055/trunk/LayoutTests/fast/text/descent-clip-in-scaled-page-expected.html
+END
+soft-hyphen-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/soft-hyphen-2-expected.png
+END
+find-soft-hyphen.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/text/find-soft-hyphen.html
+END
+text-stroke-width-cairo-dos.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/text-stroke-width-cairo-dos.html
+END
+wide-zero-width-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/wide-zero-width-space-expected.txt
+END
+stripNullFromText.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/stripNullFromText.html
+END
+emphasis-avoid-ruby.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/75257/trunk/LayoutTests/fast/text/emphasis-avoid-ruby.html
+END
+trailing-white-space-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/trailing-white-space-2-expected.txt
+END
+fallback-traits-fixup.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/94352/trunk/LayoutTests/fast/text/fallback-traits-fixup.html
+END
+atsui-small-caps-punctuation-size.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/48921/trunk/LayoutTests/fast/text/atsui-small-caps-punctuation-size.html
+END
+offsetForPosition-complex-fallback-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/76674/trunk/LayoutTests/fast/text/offsetForPosition-complex-fallback-expected.txt
+END
+fixed-pitch-control-characters.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/30357/trunk/LayoutTests/fast/text/fixed-pitch-control-characters.html
+END
+softHyphen-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/softHyphen-expected.txt
+END
+font-kerning.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/104678/trunk/LayoutTests/fast/text/font-kerning.html
+END
+setData-dirty-lines-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/84547/trunk/LayoutTests/fast/text/setData-dirty-lines-expected.png
+END
+find-spaces-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/45847/trunk/LayoutTests/fast/text/find-spaces-expected.txt
+END
+wide-zero-width-space.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/wide-zero-width-space.html
+END
+shadow-no-blur-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/shadow-no-blur-expected.txt
+END
+find-russian-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/53095/trunk/LayoutTests/fast/text/find-russian-expected.txt
+END
+line-break-between-text-nodes-latin1.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-between-text-nodes-latin1.html
+END
+word-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/word-space-expected.txt
+END
+hyphenate-character-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/155171/trunk/LayoutTests/fast/text/hyphenate-character-expected.html
+END
+trailing-white-space-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/32275/trunk/LayoutTests/fast/text/trailing-white-space-2.html
+END
+line-initial-and-final-swashes.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/96374/trunk/LayoutTests/fast/text/line-initial-and-final-swashes.html
+END
+orientation-sideways.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/136640/trunk/LayoutTests/fast/text/orientation-sideways.html
+END
+emphasis-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/emphasis-expected.txt
+END
+softHyphen.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/softHyphen.html
+END
+selection-painted-separately-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/149122/trunk/LayoutTests/fast/text/selection-painted-separately-expected.txt
+END
+empty-bdi-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/empty-bdi-crash.html
+END
+bidi-embedding-pop-and-push-same-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/bidi-embedding-pop-and-push-same-expected.txt
+END
+delete-hard-break-character.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/delete-hard-break-character.html
+END
+wbr-in-pre-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/wbr-in-pre-crash-expected.txt
+END
+ipa-tone-letters.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/ipa-tone-letters.html
+END
+multiple-text-shadow-alpha-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/84631/trunk/LayoutTests/fast/text/multiple-text-shadow-alpha-expected.txt
+END
+bidi-embedding-pop-and-push-same-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/84547/trunk/LayoutTests/fast/text/bidi-embedding-pop-and-push-same-2-expected.png
+END
+shadow-no-blur.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/32817/trunk/LayoutTests/fast/text/shadow-no-blur.html
+END
+justify-ideograph-complex.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/76743/trunk/LayoutTests/fast/text/justify-ideograph-complex.html
+END
+drawBidiText-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/drawBidiText-expected.txt
+END
+nested-bidi-with-continuation-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/151016/trunk/LayoutTests/fast/text/nested-bidi-with-continuation-crash.html
+END
+break-word-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/break-word-expected.txt
+END
+find-quotes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/45858/trunk/LayoutTests/fast/text/find-quotes-expected.txt
+END
+chromium-linux-fontconfig-renderstyle.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/150272/trunk/LayoutTests/fast/text/chromium-linux-fontconfig-renderstyle.html
+END
+pre-wrap-trailing-tab.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/pre-wrap-trailing-tab.html
+END
+complex-text-opacity-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/complex-text-opacity-expected.txt
+END
+emphasis.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blink/!svn/ver/74281/trunk/LayoutTests/fast/text/emphasis.html
+END
+chromium-mac-duplicate-ime-composition-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/148140/trunk/LayoutTests/fast/text/chromium-mac-duplicate-ime-composition-expected.txt
+END
+bidi-embedding-pop-and-push-same.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/37828/trunk/LayoutTests/fast/text/bidi-embedding-pop-and-push-same.html
+END
+custom-font-data-crash2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/97402/trunk/LayoutTests/fast/text/custom-font-data-crash2-expected.txt
+END
+zero-width-characters-complex-script.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/zero-width-characters-complex-script.html
+END
+descent-clip-in-scaled-page.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/136055/trunk/LayoutTests/fast/text/descent-clip-in-scaled-page.html
+END
+multiple-text-shadow-alpha.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/multiple-text-shadow-alpha.html
+END
+large-text-composed-char-dos.html-disabled
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/large-text-composed-char-dos.html-disabled
+END
+bidi-isolate-embedding-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/117658/trunk/LayoutTests/fast/text/bidi-isolate-embedding-crash-expected.txt
+END
+break-word.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/break-word.html
+END
+custom-font-data-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/95959/trunk/LayoutTests/fast/text/custom-font-data-crash-expected.txt
+END
+complex-text-opacity.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/46099/trunk/LayoutTests/fast/text/complex-text-opacity.html
+END
+khmer-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/khmer-crash.html
+END
+embed-at-end-of-pre-wrap-line.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/30664/trunk/LayoutTests/fast/text/embed-at-end-of-pre-wrap-line.html
+END
+custom-font-data-crash2.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/custom-font-data-crash2.html
+END
+zero-font-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/zero-font-size-expected.txt
+END
+soft-hyphen-5.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/soft-hyphen-5.html
+END
+word-space-with-kerning-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/129233/trunk/LayoutTests/fast/text/word-space-with-kerning-2.html
+END
+word-space-with-kerning-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/129068/trunk/LayoutTests/fast/text/word-space-with-kerning-expected.html
+END
+soft-hyphen-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/soft-hyphen-2-expected.txt
+END
+capitalize-preserve-nbsp.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/capitalize-preserve-nbsp.html
+END
+bidi-isolate-embedding-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/bidi-isolate-embedding-crash.html
+END
+custom-font-data-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/custom-font-data-crash.html
+END
+atsui-rtl-override-selection.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/150716/trunk/LayoutTests/fast/text/atsui-rtl-override-selection.html
+END
+line-break-between-text-nodes-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/145338/trunk/LayoutTests/fast/text/line-break-between-text-nodes-expected.html
+END
+capitalize-boundaries-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/capitalize-boundaries-expected.txt
+END
+wbr.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blink/!svn/ver/21405/trunk/LayoutTests/fast/text/wbr.html
+END
+zero-font-size.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/zero-font-size.html
+END
+nested-bidi-isolate-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/101406/trunk/LayoutTests/fast/text/nested-bidi-isolate-crash-expected.txt
+END
+unicode-variation-selector.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/102915/trunk/LayoutTests/fast/text/unicode-variation-selector.html
+END
+bidi-isolate-hang-with-neutral-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/101556/trunk/LayoutTests/fast/text/bidi-isolate-hang-with-neutral-expected.html
+END
+setData-dirty-lines-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/62134/trunk/LayoutTests/fast/text/setData-dirty-lines-expected.txt
+END
+soft-hyphen-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/30644/trunk/LayoutTests/fast/text/soft-hyphen-2.html
+END
+complex-preferred-logical-widths-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/complex-preferred-logical-widths-expected.txt
+END
+text-combine-with-font-face-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/131005/trunk/LayoutTests/fast/text/text-combine-with-font-face-expected.html
+END
+word-break-soft-hyphen-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/word-break-soft-hyphen-expected.txt
+END
+dirty-inline-textbox-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/68485/trunk/LayoutTests/fast/text/dirty-inline-textbox-crash-expected.txt
+END
+line-break-after-inline-latin1.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-after-inline-latin1.html
+END
+line-breaks-after-ideographic-comma-or-full-stop-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/30592/trunk/LayoutTests/fast/text/line-breaks-after-ideographic-comma-or-full-stop-expected.txt
+END
+cg-fallback-bolding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/cg-fallback-bolding-expected.txt
+END
+line-break-between-text-nodes-latin1-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-between-text-nodes-latin1-expected.html
+END
+trailing-white-space.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/32226/trunk/LayoutTests/fast/text/trailing-white-space.html
+END
+nested-bidi-isolate-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/nested-bidi-isolate-crash.html
+END
+fake-italic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/fake-italic-expected.txt
+END
+decomposed-after-stacked-diacritics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/66740/trunk/LayoutTests/fast/text/decomposed-after-stacked-diacritics-expected.txt
+END
+bidi-embedding-pop-and-push-same-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/77461/trunk/LayoutTests/fast/text/bidi-embedding-pop-and-push-same-2-expected.txt
+END
+complex-preferred-logical-widths.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/93909/trunk/LayoutTests/fast/text/complex-preferred-logical-widths.html
+END
+decorations-transformed.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/83216/trunk/LayoutTests/fast/text/decorations-transformed.html
+END
+word-break-soft-hyphen.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/26746/trunk/LayoutTests/fast/text/word-break-soft-hyphen.html
+END
+line-breaks-after-white-space.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/line-breaks-after-white-space.html
+END
+text-letter-spacing.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/45482/trunk/LayoutTests/fast/text/text-letter-spacing.html
+END
+text-transform-nontext-node-crash.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/text-transform-nontext-node-crash.xhtml
+END
+format-control.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/58042/trunk/LayoutTests/fast/text/format-control.html
+END
+word-space-with-kerning-3-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/146087/trunk/LayoutTests/fast/text/word-space-with-kerning-3-expected.html
+END
+emphasis-avoid-ruby-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/84547/trunk/LayoutTests/fast/text/emphasis-avoid-ruby-expected.png
+END
+decomposed-after-stacked-diacritics.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/decomposed-after-stacked-diacritics.html
+END
+fake-italic.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/52407/trunk/LayoutTests/fast/text/fake-italic.html
+END
+should-use-atsui.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/should-use-atsui.html
+END
+backslash-to-yen-sign-euc.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/69564/trunk/LayoutTests/fast/text/backslash-to-yen-sign-euc.html
+END
+reset-drag-on-mouse-down-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/28888/trunk/LayoutTests/fast/text/reset-drag-on-mouse-down-expected.txt
+END
+hyphenate-character.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/155171/trunk/LayoutTests/fast/text/hyphenate-character.html
+END
+word-break-run-rounding.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/24278/trunk/LayoutTests/fast/text/word-break-run-rounding.html
+END
+stroking-decorations-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/stroking-decorations-expected.txt
+END
+justify-ideograph-simple.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/76743/trunk/LayoutTests/fast/text/justify-ideograph-simple.html
+END
+emphasis-height-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/147317/trunk/LayoutTests/fast/text/emphasis-height-crash-expected.txt
+END
+midword-break-before-surrogate-pair-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/93237/trunk/LayoutTests/fast/text/midword-break-before-surrogate-pair-2.html
+END
+word-break-next-linebox-not-dirty-crash-main-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/79689/trunk/LayoutTests/fast/text/word-break-next-linebox-not-dirty-crash-main-expected.txt
+END
+zero-font-size-2-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/131995/trunk/LayoutTests/fast/text/zero-font-size-2-expected.html
+END
+find-backwards-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/39609/trunk/LayoutTests/fast/text/find-backwards-expected.txt
+END
+text-combine-width-after-style-change-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/131077/trunk/LayoutTests/fast/text/text-combine-width-after-style-change-expected.html
+END
+line-break-after-empty-inline-hebrew.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-after-empty-inline-hebrew.html
+END
+wbr-styled.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/30412/trunk/LayoutTests/fast/text/wbr-styled.html
+END
+line-break-between-text-nodes-cjk.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-between-text-nodes-cjk.html
+END
+backslash-to-yen-sign-dynamic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/backslash-to-yen-sign-dynamic-expected.txt
+END
+large-text-composed-char.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/large-text-composed-char.html
+END
+line-initial-and-final-swashes-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/line-initial-and-final-swashes-expected.png
+END
+bidi-isolate-hang-with-neutral.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/101556/trunk/LayoutTests/fast/text/bidi-isolate-hang-with-neutral.html
+END
+backslash-to-yen-sign.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/60063/trunk/LayoutTests/fast/text/backslash-to-yen-sign.html
+END
+split-text-crash.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/150470/trunk/LayoutTests/fast/text/split-text-crash.xhtml
+END
+midword-break-before-surrogate-pair-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/midword-break-before-surrogate-pair-expected.txt
+END
+text-combine-first-line-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/125503/trunk/LayoutTests/fast/text/text-combine-first-line-crash.html
+END
+word-space-with-kerning.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/129068/trunk/LayoutTests/fast/text/word-space-with-kerning.html
+END
+text-large-negative-letter-spacing-with-opacity.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/text-large-negative-letter-spacing-with-opacity.html
+END
+regional-indicator-symobls-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/92005/trunk/LayoutTests/fast/text/regional-indicator-symobls-expected.txt
+END
+emphasis-height-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/147372/trunk/LayoutTests/fast/text/emphasis-height-crash.html
+END
+find-backwards.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/text/find-backwards.html
+END
+shadow-translucent-fill-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/shadow-translucent-fill-expected.txt
+END
+atsui-spacing-features.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/128692/trunk/LayoutTests/fast/text/atsui-spacing-features.html
+END
+find-case-folding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/31977/trunk/LayoutTests/fast/text/find-case-folding-expected.txt
+END
+word-space-monospace-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/128693/trunk/LayoutTests/fast/text/word-space-monospace-expected.html
+END
+text-transform-nontext-node-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/59795/trunk/LayoutTests/fast/text/text-transform-nontext-node-crash-expected.txt
+END
+chromium-linux-fontconfig-renderstyle-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/150272/trunk/LayoutTests/fast/text/chromium-linux-fontconfig-renderstyle-expected.png
+END
+line-break-between-text-nodes.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/145338/trunk/LayoutTests/fast/text/line-break-between-text-nodes.html
+END
+find-kana.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/text/find-kana.html
+END
+justify-padding-distribution-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/61128/trunk/LayoutTests/fast/text/justify-padding-distribution-expected.txt
+END
+midword-break-before-surrogate-pair.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/89769/trunk/LayoutTests/fast/text/midword-break-before-surrogate-pair.html
+END
+zero-font-size-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/131995/trunk/LayoutTests/fast/text/zero-font-size-2.html
+END
+container-align-with-inlines-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/140570/trunk/LayoutTests/fast/text/container-align-with-inlines-expected.txt
+END
+updateNewFont-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/updateNewFont-expected.txt
+END
+stroking.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/stroking.html
+END
+atsui-partial-selection.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/atsui-partial-selection.html
+END
+word-space-nbsp.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/135884/trunk/LayoutTests/fast/text/word-space-nbsp.html
+END
+word-space-with-kerning-2-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/129233/trunk/LayoutTests/fast/text/word-space-with-kerning-2-expected.html
+END
+shadow-translucent-fill.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/45956/trunk/LayoutTests/fast/text/shadow-translucent-fill.html
+END
+find-case-folding.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/find-case-folding.html
+END
+combining-character-sequence-fallback-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/95874/trunk/LayoutTests/fast/text/combining-character-sequence-fallback-crash-expected.txt
+END
+line-breaks-after-hyphen-before-number.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/line-breaks-after-hyphen-before-number.html
+END
+text-shadow-no-default-color.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/113770/trunk/LayoutTests/fast/text/text-shadow-no-default-color.html
+END
+emphasis-vertical.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/74281/trunk/LayoutTests/fast/text/emphasis-vertical.html
+END
+bidi-override-isolate.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/126072/trunk/LayoutTests/fast/text/bidi-override-isolate.html
+END
+updateNewFont.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/updateNewFont.html
+END
+justified-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/justified-selection-expected.txt
+END
+split-text-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/110487/trunk/LayoutTests/fast/text/split-text-crash-expected.txt
+END
+align-center-rtl-spill.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/30642/trunk/LayoutTests/fast/text/align-center-rtl-spill.html
+END
+text-shadow-extreme-value.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/text-shadow-extreme-value.html
+END
+word-space-between-inlines-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/143520/trunk/LayoutTests/fast/text/word-space-between-inlines-expected.html
+END
+title-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/120672/trunk/LayoutTests/fast/text/title-crash-expected.txt
+END
+apply-start-width-after-skipped-text-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/apply-start-width-after-skipped-text-expected.png
+END
+find-soft-hyphen-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/68551/trunk/LayoutTests/fast/text/find-soft-hyphen-expected.txt
+END
+bidi-isolate-nextlinebreak-failure-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/101556/trunk/LayoutTests/fast/text/bidi-isolate-nextlinebreak-failure-expected.txt
+END
+invalid-locale-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/109144/trunk/LayoutTests/fast/text/invalid-locale-expected.txt
+END
+text-stroke-width-cairo-dos-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/55773/trunk/LayoutTests/fast/text/text-stroke-width-cairo-dos-expected.txt
+END
+input-box-text-fragment-combine-text-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/input-box-text-fragment-combine-text-crash.html
+END
+emphasis-avoid-ruby-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/82611/trunk/LayoutTests/fast/text/emphasis-avoid-ruby-expected.txt
+END
+word-space-with-kerning-3.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/146087/trunk/LayoutTests/fast/text/word-space-with-kerning-3.html
+END
+atsui-bidi-control.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/atsui-bidi-control.html
+END
+justified-selection.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/justified-selection.html
+END
+bad-encoding.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/bad-encoding.html
+END
+font-linux-normalize-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/148140/trunk/LayoutTests/fast/text/font-linux-normalize-expected.txt
+END
+wbr-pre.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/21405/trunk/LayoutTests/fast/text/wbr-pre.html
+END
+title-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/title-crash.html
+END
+offsetForPosition-cluster-at-zero.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/124707/trunk/LayoutTests/fast/text/offsetForPosition-cluster-at-zero.html
+END
+capitalize-empty-generated-string.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/48921/trunk/LayoutTests/fast/text/capitalize-empty-generated-string.html
+END
+invalid-locale.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/invalid-locale.html
+END
+bidi-isolate-nextlinebreak-failure.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/bidi-isolate-nextlinebreak-failure.html
+END
+multiglyph-characters-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/56813/trunk/LayoutTests/fast/text/multiglyph-characters-expected.txt
+END
+nested-bidi-assert.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/151016/trunk/LayoutTests/fast/text/nested-bidi-assert.html
+END
+justified-selection-at-edge-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/justified-selection-at-edge-expected.txt
+END
+word-space-between-inlines.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/143520/trunk/LayoutTests/fast/text/word-space-between-inlines.html
+END
+line-initial-and-final-swashes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/135550/trunk/LayoutTests/fast/text/line-initial-and-final-swashes-expected.txt
+END
+character-at-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/150830/trunk/LayoutTests/fast/text/character-at-crash.html
+END
+window-find-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/77468/trunk/LayoutTests/fast/text/window-find-expected.txt
+END
+font-linux-normalize.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/148140/trunk/LayoutTests/fast/text/font-linux-normalize.html
+END
+empty-bdi-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/101180/trunk/LayoutTests/fast/text/empty-bdi-crash-expected.txt
+END
+delete-hard-break-character-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/delete-hard-break-character-expected.txt
+END
+soft-hyphen-3.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/30865/trunk/LayoutTests/fast/text/soft-hyphen-3.html
+END
+font-variant-ligatures.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/104786/trunk/LayoutTests/fast/text/font-variant-ligatures.html
+END
+ipa-tone-letters-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/84346/trunk/LayoutTests/fast/text/ipa-tone-letters-expected.txt
+END
+chromium-linux-text-subpixel-positioning-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/150272/trunk/LayoutTests/fast/text/chromium-linux-text-subpixel-positioning-expected.png
+END
+multiglyph-characters.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/multiglyph-characters.html
+END
+justify-ideograph-complex-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/justify-ideograph-complex-expected.txt
+END
+justified-selection-at-edge.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/justified-selection-at-edge.html
+END
+vertical-rl-rtl-linebreak.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/130443/trunk/LayoutTests/fast/text/vertical-rl-rtl-linebreak.html
+END
+nested-bidi-with-continuation-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/151016/trunk/LayoutTests/fast/text/nested-bidi-with-continuation-crash-expected.txt
+END
+pre-wrap-trailing-tab-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/88883/trunk/LayoutTests/fast/text/pre-wrap-trailing-tab-expected.txt
+END
+chromium-linux-fontconfig-renderstyle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/150272/trunk/LayoutTests/fast/text/chromium-linux-fontconfig-renderstyle-expected.txt
+END
+offsetForPosition-complex-fallback.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/offsetForPosition-complex-fallback.html
+END
+window-find.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/window-find.html
+END
+text-between-two-brs-in-nowrap-overflow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/83487/trunk/LayoutTests/fast/text/text-between-two-brs-in-nowrap-overflow-expected.txt
+END
+plain-text-line-breaks-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/21687/trunk/LayoutTests/fast/text/plain-text-line-breaks-expected.txt
+END
+zero-width-characters-complex-script-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/84264/trunk/LayoutTests/fast/text/zero-width-characters-complex-script-expected.txt
+END
+large-text-composed-char-dos-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/large-text-composed-char-dos-expected.txt
+END
+find-spaces.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/find-spaces.html
+END
+find-russian.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/text/find-russian.html
+END
+content-following-inline-isolate-with-collapsed-whitespace-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/142793/trunk/LayoutTests/fast/text/content-following-inline-isolate-with-collapsed-whitespace-expected.txt
+END
+word-space.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/26846/trunk/LayoutTests/fast/text/word-space.html
+END
+selection-hard-linebreak-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/selection-hard-linebreak-expected.txt
+END
+complex-synthetic-bold-space-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/complex-synthetic-bold-space-width-expected.txt
+END
+selection-painted-separately.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/34430/trunk/LayoutTests/fast/text/selection-painted-separately.html
+END
+khmer-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/66689/trunk/LayoutTests/fast/text/khmer-crash-expected.txt
+END
+soft-hyphen-min-preferred-width.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/155171/trunk/LayoutTests/fast/text/soft-hyphen-min-preferred-width.html
+END
+embed-at-end-of-pre-wrap-line-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/embed-at-end-of-pre-wrap-line-expected.txt
+END
+decorations-with-text-combine.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/136765/trunk/LayoutTests/fast/text/decorations-with-text-combine.html
+END
+plain-text-line-breaks.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/plain-text-line-breaks.html
+END
+text-between-two-brs-in-nowrap-overflow.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/text-between-two-brs-in-nowrap-overflow.html
+END
+splitText-dirty-lines-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/84547/trunk/LayoutTests/fast/text/splitText-dirty-lines-expected.png
+END
+soft-hyphen-5-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/111801/trunk/LayoutTests/fast/text/soft-hyphen-5-expected.txt
+END
+wbr-in-pre-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/30454/trunk/LayoutTests/fast/text/wbr-in-pre-crash.html
+END
+soft-hyphen-4-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/84547/trunk/LayoutTests/fast/text/soft-hyphen-4-expected.png
+END
+apply-start-width-after-skipped-text-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/127052/trunk/LayoutTests/fast/text/apply-start-width-after-skipped-text-expected.txt
+END
+chromium-linux-fallback-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/59835/trunk/LayoutTests/fast/text/chromium-linux-fallback-crash-expected.txt
+END
+capitalize-preserve-nbsp-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/capitalize-preserve-nbsp-expected.txt
+END
+content-following-inline-isolate-with-collapsed-whitespace.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/142793/trunk/LayoutTests/fast/text/content-following-inline-isolate-with-collapsed-whitespace.html
+END
+drawBidiText.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/25788/trunk/LayoutTests/fast/text/drawBidiText.html
+END
+selection-hard-linebreak.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/selection-hard-linebreak.html
+END
+find-quotes.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/find-quotes.html
+END
+midword-break-hang.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/48921/trunk/LayoutTests/fast/text/midword-break-hang.html
+END
+chromium-mac-duplicate-ime-composition.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/148140/trunk/LayoutTests/fast/text/chromium-mac-duplicate-ime-composition.html
+END
+complex-synthetic-bold-space-width.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/96404/trunk/LayoutTests/fast/text/complex-synthetic-bold-space-width.html
+END
+font-variant-ligatures-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/104786/trunk/LayoutTests/fast/text/font-variant-ligatures-expected.html
+END
+wbr-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/wbr-expected.txt
+END
+hyphen-min-preferred-width.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/155171/trunk/LayoutTests/fast/text/hyphen-min-preferred-width.html
+END
+justification-padding-mid-word-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/71783/trunk/LayoutTests/fast/text/justification-padding-mid-word-expected.txt
+END
+apply-start-width-after-skipped-text.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/30590/trunk/LayoutTests/fast/text/apply-start-width-after-skipped-text.html
+END
+chromium-linux-fallback-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/chromium-linux-fallback-crash.html
+END
+text-stroke-with-border.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/148140/trunk/LayoutTests/fast/text/text-stroke-with-border.html
+END
+atsui-negative-spacing-features.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/128692/trunk/LayoutTests/fast/text/atsui-negative-spacing-features.html
+END
+line-break-after-inline-latin1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-after-inline-latin1-expected.txt
+END
+word-space-monospace.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/128693/trunk/LayoutTests/fast/text/word-space-monospace.html
+END
+bidi-explicit-embedding-past-end-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/84547/trunk/LayoutTests/fast/text/bidi-explicit-embedding-past-end-expected.png
+END
+trailing-white-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/trailing-white-space-expected.txt
+END
+emphasis-overlap-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/84547/trunk/LayoutTests/fast/text/emphasis-overlap-expected.png
+END
+justification-padding-mid-word.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/justification-padding-mid-word.html
+END
+justify-ideograph-leading-expansion.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/82013/trunk/LayoutTests/fast/text/justify-ideograph-leading-expansion.html
+END
+letter-spacing-negative-opacity-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/letter-spacing-negative-opacity-expected.txt
+END
+chromium-linux-text-subpixel-positioning-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/150272/trunk/LayoutTests/fast/text/chromium-linux-text-subpixel-positioning-expected.txt
+END
+decorations-transformed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/decorations-transformed-expected.txt
+END
+align-center-rtl-spill-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/align-center-rtl-spill-expected.png
+END
+overflow-wrap-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/127737/trunk/LayoutTests/fast/text/overflow-wrap-expected.html
+END
+atsui-pointtooffset-calls-cg.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/atsui-pointtooffset-calls-cg.html
+END
+line-breaks-after-white-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/line-breaks-after-white-space-expected.txt
+END
+capitalize-boundaries.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/62530/trunk/LayoutTests/fast/text/capitalize-boundaries.html
+END
+format-control-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/format-control-expected.txt
+END
+zero-width-characters-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/24740/trunk/LayoutTests/fast/text/zero-width-characters-expected.txt
+END
+backslash-to-yen-sign-euc-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/backslash-to-yen-sign-euc-expected.txt
+END
+setData-dirty-lines.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/62134/trunk/LayoutTests/fast/text/setData-dirty-lines.html
+END
+letter-spacing-negative-opacity.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/letter-spacing-negative-opacity.html
+END
+glyph-reordering-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/54912/trunk/LayoutTests/fast/text/glyph-reordering-expected.txt
+END
+chromium-linux-text-subpixel-positioning.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/150272/trunk/LayoutTests/fast/text/chromium-linux-text-subpixel-positioning.html
+END
+justify-ideograph-simple-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/justify-ideograph-simple-expected.txt
+END
+dirty-inline-textbox-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/dirty-inline-textbox-crash.html
+END
+line-breaks-after-ideographic-comma-or-full-stop.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/line-breaks-after-ideographic-comma-or-full-stop.html
+END
+cg-fallback-bolding.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/29928/trunk/LayoutTests/fast/text/cg-fallback-bolding.html
+END
+stripNullFromText-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/stripNullFromText-expected.png
+END
+hyphen-min-preferred-width-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/155171/trunk/LayoutTests/fast/text/hyphen-min-preferred-width-expected.html
+END
+line-break-after-empty-inline-hebrew-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/152902/trunk/LayoutTests/fast/text/line-break-after-empty-inline-hebrew-expected.txt
+END
+font-size-zero-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/72567/trunk/LayoutTests/fast/text/font-size-zero-expected.txt
+END
+wbr-styled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/wbr-styled-expected.txt
+END
+large-text-composed-char-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/large-text-composed-char-expected.txt
+END
+emphasis-combined-text.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/81404/trunk/LayoutTests/fast/text/emphasis-combined-text.html
+END
+tab-with-kerning-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/136034/trunk/LayoutTests/fast/text/tab-with-kerning-expected.html
+END
+zero-width-characters.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/zero-width-characters.html
+END
+overflow-wrap.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/127737/trunk/LayoutTests/fast/text/overflow-wrap.html
+END
+splitText-dirty-lines-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/62134/trunk/LayoutTests/fast/text/splitText-dirty-lines-expected.txt
+END
+line-breaks-after-ideographic-comma-or-full-stop-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/120624/trunk/LayoutTests/fast/text/line-breaks-after-ideographic-comma-or-full-stop-2-expected.txt
+END
+backslash-to-yen-sign-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/backslash-to-yen-sign-expected.txt
+END
+soft-hyphen-min-preferred-width-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/155171/trunk/LayoutTests/fast/text/soft-hyphen-min-preferred-width-expected.html
+END
+reset-emptyRun-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/reset-emptyRun-expected.txt
+END
+fixed-pitch-control-characters-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/fixed-pitch-control-characters-expected.png
+END
+bidi-embedding-pop-and-push-same-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/77461/trunk/LayoutTests/fast/text/bidi-embedding-pop-and-push-same-2.html
+END
+soft-hyphen-4-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/80996/trunk/LayoutTests/fast/text/soft-hyphen-4-expected.txt
+END
+text-combine-first-line-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/125503/trunk/LayoutTests/fast/text/text-combine-first-line-crash-expected.txt
+END
+glyph-reordering.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/glyph-reordering.html
+END
+midword-break-after-breakable-char-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/midword-break-after-breakable-char-expected.txt
+END
+soft-hyphen-3-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/soft-hyphen-3-expected.png
+END
+text-large-negative-letter-spacing-with-opacity-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/45611/trunk/LayoutTests/fast/text/text-large-negative-letter-spacing-with-opacity-expected.txt
+END
+line-breaks-after-closing-punctuations-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/64207/trunk/LayoutTests/fast/text/line-breaks-after-closing-punctuations-expected.txt
+END
+font-size-zero.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/text/font-size-zero.html
+END
+text-combine-width-after-style-change.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/131077/trunk/LayoutTests/fast/text/text-combine-width-after-style-change.html
+END
+line-breaks.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/line-breaks.html
+END
+one-letter-transform-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/66911/trunk/LayoutTests/fast/text/one-letter-transform-crash-expected.txt
+END
+line-breaks-after-ideographic-comma-or-full-stop-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/120624/trunk/LayoutTests/fast/text/line-breaks-after-ideographic-comma-or-full-stop-2.html
+END
+splitText-dirty-lines.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/62134/trunk/LayoutTests/fast/text/splitText-dirty-lines.html
+END
+reset-drag-on-mouse-down.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/124680/trunk/LayoutTests/fast/text/reset-drag-on-mouse-down.html
+END
+find-kana-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/53114/trunk/LayoutTests/fast/text/find-kana-expected.txt
+END
+reset-emptyRun.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/24621/trunk/LayoutTests/fast/text/reset-emptyRun.html
+END
+find-layout-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/55114/trunk/LayoutTests/fast/text/find-layout-crash-expected.txt
+END
+soft-hyphen-4.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/80984/trunk/LayoutTests/fast/text/soft-hyphen-4.html
+END
+font-initial-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/font-initial-expected.txt
+END
+word-break-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/155368/trunk/LayoutTests/fast/text/word-break-expected.txt
+END
+midword-break-after-breakable-char.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/155303/trunk/LayoutTests/fast/text/midword-break-after-breakable-char.html
+END
+stroking-decorations.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/21356/trunk/LayoutTests/fast/text/stroking-decorations.html
+END
+tab-with-kerning.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/136034/trunk/LayoutTests/fast/text/tab-with-kerning.html
+END
+stroking-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/text/stroking-expected.txt
+END

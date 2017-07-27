@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153605/trunk/LayoutTests/platform/android/virtual/softwarecompositing/repaint
+END
+newly-composited-repaint-rect-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/153605/trunk/LayoutTests/platform/android/virtual/softwarecompositing/repaint/newly-composited-repaint-rect-expected.png
+END
+content-into-overflow-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/153605/trunk/LayoutTests/platform/android/virtual/softwarecompositing/repaint/content-into-overflow-expected.png
+END
+overflow-into-content-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/153605/trunk/LayoutTests/platform/android/virtual/softwarecompositing/repaint/overflow-into-content-expected.png
+END
+shrink-layer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153605/trunk/LayoutTests/platform/android/virtual/softwarecompositing/repaint/shrink-layer-expected.png
+END
+layer-repaint-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153605/trunk/LayoutTests/platform/android/virtual/softwarecompositing/repaint/layer-repaint-expected.png
+END

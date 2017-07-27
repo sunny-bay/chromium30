@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/215493/trunk/src/ui/base
+END
+ui_base_types.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/207019/trunk/src/ui/base/ui_base_types.cc
+END
+ui_base_exports.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/177533/trunk/src/ui/base/ui_base_exports.cc
+END
+ui_base_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/207019/trunk/src/ui/base/ui_base_types.h
+END
+work_area_watcher_observer.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/182368/trunk/src/ui/base/work_area_watcher_observer.h
+END
+base_window.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/201758/trunk/src/ui/base/base_window.h
+END
+ui_base_paths.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/211147/trunk/src/ui/base/ui_base_paths.cc
+END
+ui_base_paths.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/149842/trunk/src/ui/base/ui_base_paths.h
+END
+view_prop_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/134136/trunk/src/ui/base/view_prop_unittest.cc
+END
+view_prop.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/134136/trunk/src/ui/base/view_prop.cc
+END
+latency_info.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/209255/trunk/src/ui/base/latency_info.cc
+END
+latency_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/211948/trunk/src/ui/base/latency_info.h
+END
+layout_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/206748/trunk/src/ui/base/layout_unittest.cc
+END
+theme_provider.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/71970/trunk/src/ui/base/theme_provider.cc
+END
+window_open_disposition.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/178192/trunk/src/ui/base/window_open_disposition.cc
+END
+view_prop.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/146163/trunk/src/ui/base/view_prop.h
+END
+layout.cc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/186364/trunk/src/ui/base/layout.cc
+END
+ui_base_switches_util.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/209998/trunk/src/ui/base/ui_base_switches_util.cc
+END
+theme_provider.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/160789/trunk/src/ui/base/theme_provider.h
+END
+window_open_disposition.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/178192/trunk/src/ui/base/window_open_disposition.h
+END
+ui_base_switches_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/199302/trunk/src/ui/base/ui_base_switches_util.h
+END
+layout.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/180518/trunk/src/ui/base/layout.h
+END
+ui_export.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/146163/trunk/src/ui/base/ui_export.h
+END
+default_theme_provider.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/202283/trunk/src/ui/base/default_theme_provider.cc
+END
+ui_base_switches.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/213819/trunk/src/ui/base/ui_base_switches.cc
+END
+layout_mac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/205234/trunk/src/ui/base/layout_mac.mm
+END
+ui_base_switches.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/213819/trunk/src/ui/base/ui_base_switches.h
+END
+default_theme_provider.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/202283/trunk/src/ui/base/default_theme_provider.h
+END
+default_theme_provider_mac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/202283/trunk/src/ui/base/default_theme_provider_mac.mm
+END
+hit_test.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/164094/trunk/src/ui/base/hit_test.h
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/202772/trunk/src/ui/base/OWNERS
+END

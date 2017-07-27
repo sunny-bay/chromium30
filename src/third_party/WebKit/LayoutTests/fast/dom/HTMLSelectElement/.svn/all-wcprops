@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/dom/HTMLSelectElement
+END
+named-options.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/dom/HTMLSelectElement/named-options.html
+END
+listbox-select-reset.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/HTMLSelectElement/listbox-select-reset.html
+END
+selected-index-preserved-when-option-text-changes.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/99258/trunk/LayoutTests/fast/dom/HTMLSelectElement/selected-index-preserved-when-option-text-changes.html
+END
+length-not-overridden-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/42253/trunk/LayoutTests/fast/dom/HTMLSelectElement/length-not-overridden-expected.txt
+END
+select-selectedIndex-noAnchorIndex-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/132246/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex-noAnchorIndex-crash.html
+END
+selected-false-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/77206/trunk/LayoutTests/fast/dom/HTMLSelectElement/selected-false-expected.txt
+END
+select-selectedOptions-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/121392/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedOptions-expected.txt
+END
+click-size-zero-no-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/69651/trunk/LayoutTests/fast/dom/HTMLSelectElement/click-size-zero-no-crash-expected.txt
+END
+options-collection-detached-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/30635/trunk/LayoutTests/fast/dom/HTMLSelectElement/options-collection-detached-expected.txt
+END
+select-selectedIndex-multiple-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex-multiple-expected.txt
+END
+options-collection-set-string-length.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/HTMLSelectElement/options-collection-set-string-length.html
+END
+select-selectedIndex-bug-12942-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/110470/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex-bug-12942-expected.txt
+END
+change-multiple-preserve-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/86827/trunk/LayoutTests/fast/dom/HTMLSelectElement/change-multiple-preserve-selection-expected.txt
+END
+option-add-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/116864/trunk/LayoutTests/fast/dom/HTMLSelectElement/option-add-crash-expected.txt
+END
+select-selectedIndex-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex-expected.txt
+END
+length-not-overridden.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/HTMLSelectElement/length-not-overridden.html
+END
+selected-false.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/77206/trunk/LayoutTests/fast/dom/HTMLSelectElement/selected-false.html
+END
+select-selectedOptions.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/121392/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedOptions.html
+END
+click-size-zero-no-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/HTMLSelectElement/click-size-zero-no-crash.html
+END
+options-collection-detached.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/HTMLSelectElement/options-collection-detached.html
+END
+remove-element-from-within-focus-handler-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/40804/trunk/LayoutTests/fast/dom/HTMLSelectElement/remove-element-from-within-focus-handler-crash-expected.txt
+END
+select-selectedIndex-multiple.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/110475/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex-multiple.html
+END
+named-options-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/114200/trunk/LayoutTests/fast/dom/HTMLSelectElement/named-options-expected.txt
+END
+select-selectedIndex-bug-12942.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex-bug-12942.html
+END
+change-multiple-preserve-selection.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/86827/trunk/LayoutTests/fast/dom/HTMLSelectElement/change-multiple-preserve-selection.html
+END
+listbox-select-reset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/21687/trunk/LayoutTests/fast/dom/HTMLSelectElement/listbox-select-reset-expected.txt
+END
+option-add-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/116864/trunk/LayoutTests/fast/dom/HTMLSelectElement/option-add-crash.html
+END
+select-selectedIndex.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/110475/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex.html
+END
+selected-index-preserved-when-option-text-changes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/98505/trunk/LayoutTests/fast/dom/HTMLSelectElement/selected-index-preserved-when-option-text-changes-expected.txt
+END
+select-selectedIndex-noAnchorIndex-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/132246/trunk/LayoutTests/fast/dom/HTMLSelectElement/select-selectedIndex-noAnchorIndex-crash-expected.txt
+END
+options-collection-set-string-length-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/30635/trunk/LayoutTests/fast/dom/HTMLSelectElement/options-collection-set-string-length-expected.txt
+END
+remove-element-from-within-focus-handler-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/HTMLSelectElement/remove-element-from-within-focus-handler-crash.html
+END

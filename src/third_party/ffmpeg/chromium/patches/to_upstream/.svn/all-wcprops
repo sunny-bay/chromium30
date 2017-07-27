@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/200023/trunk/deps/third_party/ffmpeg/chromium/patches/to_upstream
+END
+unblock_windows_build.patch
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/200023/trunk/deps/third_party/ffmpeg/chromium/patches/to_upstream/unblock_windows_build.patch
+END
+uninitcond_dct_token_vp3_dequant.patch
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/199597/trunk/deps/third_party/ffmpeg/chromium/patches/to_upstream/uninitcond_dct_token_vp3_dequant.patch
+END

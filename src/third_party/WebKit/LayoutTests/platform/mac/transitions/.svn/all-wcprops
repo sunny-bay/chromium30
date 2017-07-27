@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/155293/trunk/LayoutTests/platform/mac/transitions
+END
+move-after-transition-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/transitions/move-after-transition-expected.png
+END
+opacity-transition-zindex-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/155293/trunk/LayoutTests/platform/mac/transitions/opacity-transition-zindex-expected.png
+END
+suspend-transform-transition-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/transitions/suspend-transform-transition-expected.png
+END
+svg-text-shadow-transition-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac/transitions/svg-text-shadow-transition-expected.png
+END

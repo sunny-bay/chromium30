@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/egl/wayland
+END
+native_wayland.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/egl/wayland/native_wayland.c
+END
+native_drm.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/egl/wayland/native_drm.c
+END
+native_wayland.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/egl/wayland/native_wayland.h
+END
+native_shm.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/egl/wayland/native_shm.c
+END

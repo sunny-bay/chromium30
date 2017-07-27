@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/8463/trunk/KERN/usrsctp/usrsctplib
+END
+user_inpcb.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/8145/trunk/KERN/usrsctp/usrsctplib/user_inpcb.h
+END
+user_route.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/8229/trunk/KERN/usrsctp/usrsctplib/user_route.h
+END
+user_environment.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7779/trunk/KERN/usrsctp/usrsctplib/user_environment.c
+END
+user_socketvar.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8451/trunk/KERN/usrsctp/usrsctplib/user_socketvar.h
+END
+user_environment.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7779/trunk/KERN/usrsctp/usrsctplib/user_environment.h
+END
+usrsctp.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/8463/trunk/KERN/usrsctp/usrsctplib/usrsctp.h
+END
+user_ip6_var.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8425/trunk/KERN/usrsctp/usrsctplib/user_ip6_var.h
+END
+user_malloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/8111/trunk/KERN/usrsctp/usrsctplib/user_malloc.h
+END
+user_atomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7779/trunk/KERN/usrsctp/usrsctplib/user_atomic.h
+END
+user_ip_icmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7779/trunk/KERN/usrsctp/usrsctplib/user_ip_icmp.h
+END
+user_sctp_timer_iterate.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8431/trunk/KERN/usrsctp/usrsctplib/user_sctp_timer_iterate.c
+END
+user_recv_thread.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8415/trunk/KERN/usrsctp/usrsctplib/user_recv_thread.c
+END
+user_uma.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7779/trunk/KERN/usrsctp/usrsctplib/user_uma.h
+END
+Makefile.nmake
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8227/trunk/KERN/usrsctp/usrsctplib/Makefile.nmake
+END
+user_socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/8451/trunk/KERN/usrsctp/usrsctplib/user_socket.c
+END
+user_mbuf.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8432/trunk/KERN/usrsctp/usrsctplib/user_mbuf.c
+END
+user_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/8163/trunk/KERN/usrsctp/usrsctplib/user_queue.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8297/trunk/KERN/usrsctp/usrsctplib/Makefile.am
+END
+user_recv_thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7779/trunk/KERN/usrsctp/usrsctplib/user_recv_thread.h
+END
+user_mbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8432/trunk/KERN/usrsctp/usrsctplib/user_mbuf.h
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7425/trunk/KERN/usrsctp/usrsctplib/.cvsignore
+END

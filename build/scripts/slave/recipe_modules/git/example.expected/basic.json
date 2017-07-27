@@ -1,0 +1,80 @@
+[
+  {
+    "cmd": [
+      "[BUILD_ROOT]/scripts/slave/git_setup.py", 
+      "--path", 
+      "[SLAVE_BUILD_ROOT]/src", 
+      "--url", 
+      "https://chromium.googlesource.com/chromium/src.git"
+    ], 
+    "name": "git setup", 
+    "seed_steps": [
+      "git setup", 
+      "git fetch", 
+      "git update-ref", 
+      "git clean", 
+      "git checkout", 
+      "git submodule"
+    ]
+  }, 
+  {
+    "cmd": [
+      "git", 
+      "fetch", 
+      "origin", 
+      "--recurse-submodules"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/src", 
+    "name": "git fetch"
+  }, 
+  {
+    "cmd": [
+      "git", 
+      "update-ref", 
+      "refs/heads/master", 
+      "origin/master"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/src", 
+    "name": "git update-ref"
+  }, 
+  {
+    "cmd": [
+      "git", 
+      "clean", 
+      "-f", 
+      "-d", 
+      "-x"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/src", 
+    "name": "git clean"
+  }, 
+  {
+    "cmd": [
+      "git", 
+      "checkout", 
+      "-f", 
+      "master"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/src", 
+    "name": "git checkout"
+  }, 
+  {
+    "cmd": [
+      "git", 
+      "submodule", 
+      "update", 
+      "--init", 
+      "--recursive"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/src", 
+    "name": "git submodule"
+  }, 
+  {
+    "cmd": [
+      "git", 
+      "status"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/src", 
+    "name": "git status"
+  }
+]

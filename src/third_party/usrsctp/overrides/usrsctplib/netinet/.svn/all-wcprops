@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/215239/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet
+END
+sctp_auth.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/205864/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet/sctp_auth.h
+END
+sctp_os.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/205864/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet/sctp_os.h
+END
+sctp_nss_sha1.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/215239/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet/sctp_nss_sha1.c
+END
+sctp_os_userspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/215239/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet/sctp_os_userspace.h
+END
+sctp_sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/215239/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet/sctp_sha1.h
+END
+sctp_nss_sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/215239/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet/sctp_nss_sha1.h
+END
+sctp_openssl_sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/205864/trunk/src/third_party/usrsctp/overrides/usrsctplib/netinet/sctp_openssl_sha1.h
+END

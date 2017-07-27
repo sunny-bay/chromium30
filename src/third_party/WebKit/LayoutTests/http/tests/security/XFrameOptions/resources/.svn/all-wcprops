@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/147086/trunk/LayoutTests/http/tests/security/XFrameOptions/resources
+END
+x-frame-options-deny-meta-tag-subframe-parent-same-origin-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/blink/!svn/ver/42333/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-deny-meta-tag-subframe-parent-same-origin-allow.html
+END
+x-frame-options-deny-meta-tag-subframe-parent-same-origin-deny.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/blink/!svn/ver/42333/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-deny-meta-tag-subframe-parent-same-origin-deny.html
+END
+x-frame-options-parent-same-origin-allow.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/42333/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-parent-same-origin-allow.cgi
+END
+x-frame-options-parent-same-origin-deny.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/42333/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-parent-same-origin-deny.cgi
+END
+x-frame-options-deny-meta-tag-subframe-in-body.html
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/blink/!svn/ver/42333/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-deny-meta-tag-subframe-in-body.html
+END
+x-frame-options-deny.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/42333/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-deny.cgi
+END
+x-frame-options-multiple-headers-sameorigin.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/blink/!svn/ver/147086/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-multiple-headers-sameorigin.cgi
+END
+x-frame-options-deny-meta-tag-subframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/42333/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-deny-meta-tag-subframe.html
+END
+x-frame-options-multiple-headers-conflict.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/147086/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-multiple-headers-conflict.cgi
+END
+x-frame-options-invalid.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/133868/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-invalid.cgi
+END
+nph-cached-xfo.pl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/142068/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/nph-cached-xfo.pl
+END
+x-frame-options-allowall.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/144105/trunk/LayoutTests/http/tests/security/XFrameOptions/resources/x-frame-options-allowall.cgi
+END

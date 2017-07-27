@@ -1,0 +1,199 @@
+[
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]/gclient.py", 
+      "config", 
+      "--spec", 
+      "cache_dir = None\ndeps_os = {}\nhooks = []\nsolutions = [{'custom_deps': {}, 'custom_vars': {'googlecode_url': 'svn://svn-mirror.golo.chromium.org/%s', 'nacl_trunk': 'svn://svn-mirror.golo.chromium.org/native_client/trunk', 'sourceforge_url': 'svn://svn-mirror.golo.chromium.org/%(repo)s', 'webkit_trunk': 'svn://svn-mirror.golo.chromium.org/blink/trunk'}, 'deps_file': '', 'managed': True, 'name': 'src', 'safesync_url': None, 'url': 'svn://svn-mirror.golo.chromium.org/chrome/trunk/src'}]\ntarget_os = []\ntarget_os_only = False"
+    ], 
+    "name": "[spec: empty_deps] gclient setup", 
+    "seed_steps": [
+      "[spec: empty_deps] gclient setup", 
+      "[spec: empty_deps] gclient revert", 
+      "[spec: empty_deps] gclient sync"
+    ]
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[BUILD_ROOT]/scripts/slave/gclient_safe_revert.py", 
+      ".", 
+      "[DEPOT_TOOLS_ROOT]/gclient"
+    ], 
+    "name": "[spec: empty_deps] gclient revert"
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]/gclient.py", 
+      "sync", 
+      "--nohooks", 
+      "--revision", 
+      "src@204787"
+    ], 
+    "name": "[spec: empty_deps] gclient sync"
+  }, 
+  {
+    "cmd": [
+      "[SLAVE_BUILD_ROOT]/src/android_webview/buildbot/deps_whitelist.py", 
+      "--method", 
+      "android_build", 
+      "--path-to-deps", 
+      "[SLAVE_BUILD_ROOT]/src/DEPS", 
+      "--output-json", 
+      "/path/to/tmp/json"
+    ], 
+    "name": "calculate trimmed deps", 
+    "~followup_annotations": [
+      "@@@STEP_LOG_LINE@json.output@{\"blacklist\": {\"src/blacklist/project/2\": null, \"src/blacklist/project/1\": null}}@@@", 
+      "@@@STEP_LOG_END@json.output@@@"
+    ]
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]/gclient.py", 
+      "config", 
+      "--spec", 
+      "cache_dir = None\ndeps_os = {}\nhooks = []\nsolutions = [{'custom_deps': {'src/blacklist/project/1': None, 'src/blacklist/project/2': None}, 'custom_vars': {'googlecode_url': 'svn://svn-mirror.golo.chromium.org/%s', 'nacl_trunk': 'svn://svn-mirror.golo.chromium.org/native_client/trunk', 'sourceforge_url': 'svn://svn-mirror.golo.chromium.org/%(repo)s', 'webkit_trunk': 'svn://svn-mirror.golo.chromium.org/blink/trunk'}, 'deps_file': 'DEPS', 'managed': True, 'name': 'src', 'safesync_url': None, 'url': 'svn://svn-mirror.golo.chromium.org/chrome/trunk/src'}]\ntarget_os = ['android']\ntarget_os_only = False"
+    ], 
+    "name": "[spec: trimmed] gclient setup", 
+    "seed_steps": [
+      "[spec: trimmed] gclient setup", 
+      "[spec: trimmed] gclient revert", 
+      "[spec: trimmed] gclient sync"
+    ]
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[BUILD_ROOT]/scripts/slave/gclient_safe_revert.py", 
+      ".", 
+      "[DEPOT_TOOLS_ROOT]/gclient"
+    ], 
+    "name": "[spec: trimmed] gclient revert"
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]/gclient.py", 
+      "sync", 
+      "--nohooks", 
+      "--revision", 
+      "src@204787"
+    ], 
+    "name": "[spec: trimmed] gclient sync"
+  }, 
+  {
+    "cmd": [
+      "[SLAVE_BUILD_ROOT]/src/build/util/lastchange.py", 
+      "-o", 
+      "[SLAVE_BUILD_ROOT]/src/build/util/LASTCHANGE", 
+      "-s", 
+      "[SLAVE_BUILD_ROOT]/src"
+    ], 
+    "name": "Chromium LASTCHANGE", 
+    "seed_steps": [
+      "Chromium LASTCHANGE", 
+      "Blink LASTCHANGE"
+    ]
+  }, 
+  {
+    "cmd": [
+      "[SLAVE_BUILD_ROOT]/src/build/util/lastchange.py", 
+      "-o", 
+      "[SLAVE_BUILD_ROOT]/src/build/util/LASTCHANGE.blink", 
+      "-s", 
+      "[SLAVE_BUILD_ROOT]/src/third_party/WebKit"
+    ], 
+    "name": "Blink LASTCHANGE"
+  }, 
+  {
+    "cmd": [
+      "mkdir", 
+      "[SLAVE_BUILD_ROOT]/android-src"
+    ], 
+    "name": "mkdir android source root"
+  }, 
+  {
+    "cmd": [
+      "[DEPOT_TOOLS_ROOT]/repo", 
+      "init", 
+      "-u", 
+      "https://android.googlesource.com/platform/manifest", 
+      "-b", 
+      "jb-mr1.1-dev"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/android-src", 
+    "name": "repo init"
+  }, 
+  {
+    "cmd": [
+      "[SLAVE_BUILD_ROOT]/src/android_webview/buildbot/generate_local_manifest.py", 
+      "[SLAVE_BUILD_ROOT]/android-src", 
+      "external/chromium_org", 
+      "--ndk-revision", 
+      "5049b437591600fb0d262e4215cee4226e63c6ce"
+    ], 
+    "name": "generate local manifest"
+  }, 
+  {
+    "cmd": [
+      "[DEPOT_TOOLS_ROOT]/repo", 
+      "sync", 
+      "-j16", 
+      "-d", 
+      "-f"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/android-src", 
+    "name": "repo sync"
+  }, 
+  {
+    "cmd": [
+      "ln", 
+      "-s", 
+      "[SLAVE_BUILD_ROOT]/src", 
+      "[SLAVE_BUILD_ROOT]/android-src/external/chromium_org"
+    ], 
+    "name": "symlink chromium_org", 
+    "seed_steps": [
+      "symlink chromium_org"
+    ]
+  }, 
+  {
+    "cmd": [
+      "[BUILD_ROOT]/scripts/slave/android/with_lunch", 
+      "[SLAVE_BUILD_ROOT]/android-src", 
+      "full-eng", 
+      "[SLAVE_BUILD_ROOT]/android-src/external/chromium_org/android_webview/tools/gyp_webview"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]/android-src/external/chromium_org", 
+    "name": "gyp_webview"
+  }, 
+  {
+    "cmd": [
+      "[BUILD_ROOT]/scripts/slave/android/with_lunch", 
+      "[SLAVE_BUILD_ROOT]/android-src", 
+      "full-eng", 
+      "[BUILD_ROOT]/scripts/slave/compile.py", 
+      "libwebviewchromium", 
+      "android_webview_java", 
+      "--build-dir", 
+      "[SLAVE_BUILD_ROOT]", 
+      "--src-dir", 
+      "[SLAVE_BUILD_ROOT]/android-src", 
+      "--build-tool", 
+      "make-android", 
+      "--verbose"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]", 
+    "name": "compile"
+  }
+]

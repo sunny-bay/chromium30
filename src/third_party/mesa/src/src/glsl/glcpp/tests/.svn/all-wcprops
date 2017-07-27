@@ -1,0 +1,1259 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests
+END
+054-if-with-macros.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/054-if-with-macros.c
+END
+079-endif-without-if.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/079-endif-without-if.c.expected
+END
+038-func-arg-with-commas.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/038-func-arg-with-commas.c
+END
+067-nested-ifdef-ifndef.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/067-nested-ifdef-ifndef.c
+END
+037-finalize-unexpanded-macro.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/037-finalize-unexpanded-macro.c.expected
+END
+046-if-1-elsif.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/046-if-1-elsif.c.expected
+END
+075-elif-elif-undef.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/075-elif-elif-undef.c
+END
+036-define-func-non-macro-multi-token-argument.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/036-define-func-non-macro-multi-token-argument.c
+END
+076-elif-undef-nested.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/076-elif-undef-nested.c
+END
+095-recursive-define.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/095-recursive-define.c
+END
+099-c99-example.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/099-c99-example.c.expected
+END
+097-paste-with-non-function-macro.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/097-paste-with-non-function-macro.c.expected
+END
+005-define-composite-chain.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/005-define-composite-chain.c.expected
+END
+092-redefine-macro-error-2.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/092-redefine-macro-error-2.c.expected
+END
+053-if-divide-and-shift.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/053-if-divide-and-shift.c.expected
+END
+033-define-func-self-compose.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/033-define-func-self-compose.c
+END
+031-define-chain-func-to-func-compose.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/031-define-chain-func-to-func-compose.c
+END
+017-define-func-2-args.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/017-define-func-2-args.c
+END
+032-define-func-self-recurse.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/032-define-func-self-recurse.c
+END
+081-elif-without-expression.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/081-elif-without-expression.c
+END
+040-token-pasting.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/040-token-pasting.c.expected
+END
+025-func-macro-as-non-macro.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/025-func-macro-as-non-macro.c
+END
+012-define-func-no-args.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/012-define-func-no-args.c
+END
+065-if-defined-parens.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/065-if-defined-parens.c.expected
+END
+013-define-func-1-arg-unused.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/013-define-func-1-arg-unused.c
+END
+101-macros-used-twice.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/101-macros-used-twice.c.expected
+END
+010-undef-re-define.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/010-undef-re-define.c
+END
+098-elif-undefined.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/098-elif-undefined.c
+END
+014-define-func-2-arg-unused.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/014-define-func-2-arg-unused.c
+END
+004-define-recursive.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/004-define-recursive.c.expected
+END
+094-divide-by-zero-short-circuit.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/094-divide-by-zero-short-circuit.c
+END
+072-token-pasting-same-line.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/072-token-pasting-same-line.c
+END
+glcpp-test
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/glcpp-test
+END
+036-define-func-non-macro-multi-token-argument.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/036-define-func-non-macro-multi-token-argument.c.expected
+END
+052-if-bitwise.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/052-if-bitwise.c
+END
+082-invalid-paste.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/082-invalid-paste.c.expected
+END
+060-left-paren-in-macro-right-paren-in-text.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/060-left-paren-in-macro-right-paren-in-text.c
+END
+023-define-extra-whitespace.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/023-define-extra-whitespace.c.expected
+END
+085-incorrect-argument-count.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/085-incorrect-argument-count.c
+END
+047-if-elif-else.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/047-if-elif-else.c
+END
+097-paste-with-non-function-macro.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/097-paste-with-non-function-macro.c
+END
+005-define-composite-chain.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/005-define-composite-chain.c
+END
+099-c99-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/099-c99-example.c
+END
+091-hash-line.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/091-hash-line.c.expected
+END
+020-define-func-2-arg-multi.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/020-define-func-2-arg-multi.c
+END
+003-define-chain-reverse.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/003-define-chain-reverse.c.expected
+END
+040-token-pasting.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/040-token-pasting.c
+END
+084-unbalanced-parentheses.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/084-unbalanced-parentheses.c.expected
+END
+043-if-0-else.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/043-if-0-else.c
+END
+043-if-0-else.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/043-if-0-else.c.expected
+END
+025-func-macro-as-non-macro.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/025-func-macro-as-non-macro.c.expected
+END
+078-elif-without-if.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/078-elif-without-if.c.expected
+END
+051-if-relational.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/051-if-relational.c.expected
+END
+064-version.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/064-version.c.expected
+END
+054-if-with-macros.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/054-if-with-macros.c.expected
+END
+015-define-object-with-parens.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/015-define-object-with-parens.c.expected
+END
+049-if-expression-precedence.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/049-if-expression-precedence.c
+END
+027-define-chain-obj-to-func.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/027-define-chain-obj-to-func.c
+END
+080-if-without-expression.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/080-if-without-expression.c
+END
+096-paste-twice.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/096-paste-twice.c
+END
+034-define-func-self-compose-non-func.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/034-define-func-self-compose-non-func.c
+END
+046-if-1-elsif.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/046-if-1-elsif.c
+END
+007-define-composite-recursive.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/007-define-composite-recursive.c.expected
+END
+029-define-chain-obj-to-func-with-args.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/029-define-chain-obj-to-func-with-args.c
+END
+052-if-bitwise.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/052-if-bitwise.c.expected
+END
+018-define-func-macro-as-parameter.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/018-define-func-macro-as-parameter.c
+END
+071-punctuator.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/071-punctuator.c.expected
+END
+102-garbage-after-endif.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/102-garbage-after-endif.c.expected
+END
+100-macro-with-colon.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/100-macro-with-colon.c
+END
+084-unbalanced-parentheses.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/084-unbalanced-parentheses.c
+END
+089-redefine-macro-error.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/089-redefine-macro-error.c.expected
+END
+089-redefine-macro-error.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/089-redefine-macro-error.c
+END
+021-define-func-compose.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/021-define-func-compose.c
+END
+061-define-chain-obj-to-func-multi.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/061-define-chain-obj-to-func-multi.c
+END
+012-define-func-no-args.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/012-define-func-no-args.c.expected
+END
+059-token-pasting-integer.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/059-token-pasting-integer.c
+END
+066-if-nospace-expression.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/066-if-nospace-expression.c.expected
+END
+022-define-func-arg-with-parens.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/022-define-func-arg-with-parens.c.expected
+END
+028-define-chain-obj-to-non-func.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/028-define-chain-obj-to-non-func.c
+END
+086-reserved-macro-names.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/086-reserved-macro-names.c
+END
+024-define-chain-to-self-recursion.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/024-define-chain-to-self-recursion.c.expected
+END
+064-version.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/064-version.c
+END
+000-content-with-spaces.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/000-content-with-spaces.c.expected
+END
+041-if-0.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/041-if-0.c.expected
+END
+041-if-0.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/041-if-0.c
+END
+038-func-arg-with-commas.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/038-func-arg-with-commas.c.expected
+END
+067-nested-ifdef-ifndef.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/067-nested-ifdef-ifndef.c.expected
+END
+029-define-chain-obj-to-func-with-args.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/029-define-chain-obj-to-func-with-args.c.expected
+END
+060-left-paren-in-macro-right-paren-in-text.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/060-left-paren-in-macro-right-paren-in-text.c.expected
+END
+009-undef.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/009-undef.c
+END
+076-elif-undef-nested.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/076-elif-undef-nested.c.expected
+END
+002-define-chain.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/002-define-chain.c
+END
+057-empty-arguments.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/057-empty-arguments.c.expected
+END
+055-define-chain-obj-to-func-parens-in-text.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/055-define-chain-obj-to-func-parens-in-text.c
+END
+103-garbage-after-else.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/103-garbage-after-else.c
+END
+088-redefine-macro-legitimate.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/088-redefine-macro-legitimate.c
+END
+033-define-func-self-compose.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/033-define-func-self-compose.c.expected
+END
+031-define-chain-func-to-func-compose.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/031-define-chain-func-to-func-compose.c.expected
+END
+090-hash-error.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/090-hash-error.c
+END
+003-define-chain-reverse.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/003-define-chain-reverse.c
+END
+021-define-func-compose.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/021-define-func-compose.c.expected
+END
+074-elif-undef.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/074-elif-undef.c
+END
+006-define-composite-chain-reverse.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/006-define-composite-chain-reverse.c
+END
+035-define-func-self-compose-non-func-multi-token-argument.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/035-define-func-self-compose-non-func-multi-token-argument.c.expected
+END
+101-macros-used-twice.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/101-macros-used-twice.c
+END
+063-comments.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/063-comments.c.expected
+END
+000-content-with-spaces.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/000-content-with-spaces.c
+END
+058-token-pasting-empty-arguments.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/058-token-pasting-empty-arguments.c.expected
+END
+042-if-1.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/042-if-1.c
+END
+077-else-without-if.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/077-else-without-if.c
+END
+094-divide-by-zero-short-circuit.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/094-divide-by-zero-short-circuit.c.expected
+END
+093-divide-by-zero.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/093-divide-by-zero.c.expected
+END
+007-define-composite-recursive.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/007-define-composite-recursive.c
+END
+070-undefined-macro-in-expression.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/070-undefined-macro-in-expression.c.expected
+END
+070-undefined-macro-in-expression.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/070-undefined-macro-in-expression.c
+END
+018-define-func-macro-as-parameter.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/018-define-func-macro-as-parameter.c.expected
+END
+085-incorrect-argument-count.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/085-incorrect-argument-count.c.expected
+END
+055-define-chain-obj-to-func-parens-in-text.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/055-define-chain-obj-to-func-parens-in-text.c.expected
+END
+011-define-func-empty.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/011-define-func-empty.c
+END
+103-garbage-after-else.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/103-garbage-after-else.c.expected
+END
+020-define-func-2-arg-multi.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/020-define-func-2-arg-multi.c.expected
+END
+017-define-func-2-args.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/017-define-func-2-args.c.expected
+END
+074-elif-undef.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/074-elif-undef.c.expected
+END
+006-define-composite-chain-reverse.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/006-define-composite-chain-reverse.c.expected
+END
+044-if-1-else.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/044-if-1-else.c
+END
+061-define-chain-obj-to-func-multi.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/061-define-chain-obj-to-func-multi.c.expected
+END
+019-define-func-1-arg-multi.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/019-define-func-1-arg-multi.c
+END
+001-define.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/001-define.c
+END
+008-define-empty.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/008-define-empty.c.expected
+END
+024-define-chain-to-self-recursion.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/024-define-chain-to-self-recursion.c
+END
+016-define-func-1-arg.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/016-define-func-1-arg.c.expected
+END
+058-token-pasting-empty-arguments.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/058-token-pasting-empty-arguments.c
+END
+030-define-chain-obj-to-func-compose.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/030-define-chain-obj-to-func-compose.c
+END
+037-finalize-unexpanded-macro.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/037-finalize-unexpanded-macro.c
+END
+049-if-expression-precedence.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/049-if-expression-precedence.c.expected
+END
+072-token-pasting-same-line.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/072-token-pasting-same-line.c.expected
+END
+083-unterminated-if.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/083-unterminated-if.c.expected
+END
+009-undef.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/009-undef.c.expected
+END
+047-if-elif-else.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/047-if-elif-else.c.expected
+END
+095-recursive-define.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/095-recursive-define.c.expected
+END
+102-garbage-after-endif.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/102-garbage-after-endif.c
+END
+062-if-0-skips-garbage.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/062-if-0-skips-garbage.c
+END
+062-if-0-skips-garbage.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/062-if-0-skips-garbage.c.expected
+END
+045-if-0-elif.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/045-if-0-elif.c
+END
+011-define-func-empty.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/011-define-func-empty.c.expected
+END
+088-redefine-macro-legitimate.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/088-redefine-macro-legitimate.c.expected
+END
+100-macro-with-colon.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/100-macro-with-colon.c.expected
+END
+053-if-divide-and-shift.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/053-if-divide-and-shift.c
+END
+032-define-func-self-recurse.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/032-define-func-self-recurse.c.expected
+END
+039-func-arg-obj-macro-with-comma.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/039-func-arg-obj-macro-with-comma.c
+END
+039-func-arg-obj-macro-with-comma.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/039-func-arg-obj-macro-with-comma.c.expected
+END
+048-if-nested.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/048-if-nested.c
+END
+065-if-defined-parens.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/065-if-defined-parens.c
+END
+051-if-relational.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/051-if-relational.c
+END
+022-define-func-arg-with-parens.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/022-define-func-arg-with-parens.c
+END
+066-if-nospace-expression.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/066-if-nospace-expression.c
+END
+013-define-func-1-arg-unused.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/013-define-func-1-arg-unused.c.expected
+END
+026-define-func-extra-newlines.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/026-define-func-extra-newlines.c.expected
+END
+063-comments.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/063-comments.c
+END
+056-macro-argument-with-comma.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/056-macro-argument-with-comma.c.expected
+END
+016-define-func-1-arg.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/016-define-func-1-arg.c
+END
+087-if-comments.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/087-if-comments.c
+END
+087-if-comments.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/087-if-comments.c.expected
+END
+030-define-chain-obj-to-func-compose.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/030-define-chain-obj-to-func-compose.c.expected
+END
+042-if-1.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/042-if-1.c.expected
+END
+079-endif-without-if.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/079-endif-without-if.c
+END
+004-define-recursive.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/004-define-recursive.c
+END
+080-if-without-expression.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/080-if-without-expression.c.expected
+END
+096-paste-twice.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/096-paste-twice.c.expected
+END
+027-define-chain-obj-to-func.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/027-define-chain-obj-to-func.c.expected
+END
+071-punctuator.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/071-punctuator.c
+END
+057-empty-arguments.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/057-empty-arguments.c
+END
+045-if-0-elif.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/045-if-0-elif.c.expected
+END
+090-hash-error.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/090-hash-error.c.expected
+END
+081-elif-without-expression.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/081-elif-without-expression.c.expected
+END
+073-if-in-ifdef.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/073-if-in-ifdef.c.expected
+END
+044-if-1-else.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/044-if-1-else.c.expected
+END
+019-define-func-1-arg-multi.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/019-define-func-1-arg-multi.c.expected
+END
+078-elif-without-if.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/078-elif-without-if.c
+END
+059-token-pasting-integer.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/059-token-pasting-integer.c.expected
+END
+008-define-empty.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/008-define-empty.c
+END
+010-undef-re-define.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/010-undef-re-define.c.expected
+END
+050-if-defined.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/050-if-defined.c.expected
+END
+056-macro-argument-with-comma.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/056-macro-argument-with-comma.c
+END
+015-define-object-with-parens.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/015-define-object-with-parens.c
+END
+077-else-without-if.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/077-else-without-if.c.expected
+END
+093-divide-by-zero.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/093-divide-by-zero.c
+END
+034-define-func-self-compose-non-func.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/034-define-func-self-compose-non-func.c.expected
+END
+083-unterminated-if.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/083-unterminated-if.c
+END
+075-elif-elif-undef.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/075-elif-elif-undef.c.expected
+END
+068-accidental-pasting.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/068-accidental-pasting.c.expected
+END
+068-accidental-pasting.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/068-accidental-pasting.c
+END
+082-invalid-paste.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/082-invalid-paste.c
+END
+023-define-extra-whitespace.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/023-define-extra-whitespace.c
+END
+002-define-chain.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/002-define-chain.c.expected
+END
+092-redefine-macro-error-2.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/092-redefine-macro-error-2.c
+END
+091-hash-line.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/091-hash-line.c
+END
+073-if-in-ifdef.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/073-if-in-ifdef.c
+END
+069-repeated-argument.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/069-repeated-argument.c.expected
+END
+069-repeated-argument.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/069-repeated-argument.c
+END
+048-if-nested.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/048-if-nested.c.expected
+END
+001-define.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/001-define.c.expected
+END
+035-define-func-self-compose-non-func-multi-token-argument.c
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/035-define-func-self-compose-non-func-multi-token-argument.c
+END
+086-reserved-macro-names.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/086-reserved-macro-names.c.expected
+END
+028-define-chain-obj-to-non-func.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/028-define-chain-obj-to-non-func.c.expected
+END
+026-define-func-extra-newlines.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/026-define-func-extra-newlines.c
+END
+098-elif-undefined.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/098-elif-undefined.c.expected
+END
+050-if-defined.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/050-if-defined.c
+END
+014-define-func-2-arg-unused.c.expected
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/tests/014-define-func-2-arg-unused.c.expected
+END

@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/214052/trunk/src/chrome/utility/importer
+END
+favicon_reencode.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/favicon_reencode.h
+END
+ie_importer_win.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/ie_importer_win.cc
+END
+ie_importer_win.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/ie_importer_win.h
+END
+nss_decryptor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor.cc
+END
+importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/importer.cc
+END
+importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/importer.h
+END
+firefox_importer_unittest_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/213620/trunk/src/chrome/utility/importer/firefox_importer_unittest_utils.h
+END
+bookmarks_file_importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/bookmarks_file_importer.h
+END
+bookmark_html_reader_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/bookmark_html_reader_unittest.cc
+END
+nss_decryptor_win.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor_win.cc
+END
+nss_decryptor_win.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor_win.h
+END
+importer_creator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/212313/trunk/src/chrome/utility/importer/importer_creator.cc
+END
+firefox_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/214052/trunk/src/chrome/utility/importer/firefox_importer.cc
+END
+nss_decryptor_system_nss.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor_system_nss.cc
+END
+firefox_importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/212313/trunk/src/chrome/utility/importer/firefox_importer.h
+END
+nss_decryptor_system_nss.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor_system_nss.h
+END
+nss_decryptor_null.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor_null.h
+END
+nss_decryptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor.h
+END
+nss_decryptor_mac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor_mac.mm
+END
+bookmarks_file_importer_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/214052/trunk/src/chrome/utility/importer/bookmarks_file_importer_unittest.cc
+END
+firefox_importer_unittest_messages_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/firefox_importer_unittest_messages_internal.h
+END
+bookmarks_file_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/214052/trunk/src/chrome/utility/importer/bookmarks_file_importer.cc
+END
+safari_importer_unittest.mm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/211881/trunk/src/chrome/utility/importer/safari_importer_unittest.mm
+END
+safari_importer.mm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/211881/trunk/src/chrome/utility/importer/safari_importer.mm
+END
+bookmark_html_reader.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/bookmark_html_reader.cc
+END
+bookmark_html_reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/bookmark_html_reader.h
+END
+external_process_importer_bridge.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/external_process_importer_bridge.cc
+END
+external_process_importer_bridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/external_process_importer_bridge.h
+END
+nss_decryptor_mac.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/nss_decryptor_mac.h
+END
+importer_creator.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/importer_creator.h
+END
+firefox_importer_unittest_utils_mac.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/213620/trunk/src/chrome/utility/importer/firefox_importer_unittest_utils_mac.cc
+END
+firefox_importer_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/firefox_importer_unittest.cc
+END
+safari_importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/211881/trunk/src/chrome/utility/importer/safari_importer.h
+END
+favicon_reencode.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/favicon_reencode.cc
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/211858/trunk/src/chrome/utility/importer/OWNERS
+END

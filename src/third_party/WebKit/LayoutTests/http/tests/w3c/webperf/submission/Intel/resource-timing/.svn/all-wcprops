@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing
+END
+test_resource_timing_cross_origin_redirect_with_timing_allow_origin-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect_with_timing_allow_origin-expected.txt
+END
+test_resource_timing_cross_origin_redirect_chain_allow_timing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect_chain_allow_timing-expected.txt
+END
+test_resource_timing_buffer_size_restriction-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_buffer_size_restriction-expected.txt
+END
+test_resource_timing_store_and_clear_during_callback.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_store_and_clear_during_callback.html
+END
+test_resource_timing_clear_resource_timing_functionality.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_clear_resource_timing_functionality.html
+END
+test_resource_timing_buffer_full_when_shrink_buffer_size.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_buffer_full_when_shrink_buffer_size.html
+END
+test_resource_timing_on_shrink_buffer_size.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_on_shrink_buffer_size.html
+END
+test_resource_timing_same_origin_redirect.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_same_origin_redirect.html
+END
+test_resource_timing_buffer_full_when_populate_entries.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_buffer_full_when_populate_entries.html
+END
+test_resource_timing_cross_origin_resource_request.html
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/blink/!svn/ver/136329/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_resource_request.html
+END
+test_resource_timing_cross_origin_redirect.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect.html
+END
+test_resource_timing_store_and_clear_during_callback-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_store_and_clear_during_callback-expected.txt
+END
+test_resource_timing_cross_origin_redirect_chain.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect_chain.html
+END
+test_resource_timing_timing_allow_cross_origin_resource_request.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/blink/!svn/ver/136329/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_timing_allow_cross_origin_resource_request.html
+END
+test_resource_timing_clear_resource_timing_functionality-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_clear_resource_timing_functionality-expected.txt
+END
+test_resource_timing_buffer_full_when_shrink_buffer_size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_buffer_full_when_shrink_buffer_size-expected.txt
+END
+test_resource_timing_on_shrink_buffer_size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_on_shrink_buffer_size-expected.txt
+END
+test_resource_timing_same_origin_redirect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_same_origin_redirect-expected.txt
+END
+test_resource_timing_buffer_full_when_populate_entries-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_buffer_full_when_populate_entries-expected.txt
+END
+test_resource_timing_buffer_size_restriction.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/131829/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_buffer_size_restriction.html
+END
+test_resource_timing_cross_origin_redirect_chain_allow_timing.html
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect_chain_allow_timing.html
+END
+test_resource_timing_cross_origin_redirect_with_timing_allow_origin.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect_with_timing_allow_origin.html
+END
+test_resource_timing_cross_origin_resource_request-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/blink/!svn/ver/150353/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_resource_request-expected.txt
+END
+test_resource_timing_cross_origin_redirect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect-expected.txt
+END
+test_resource_timing_cross_origin_redirect_chain-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/blink/!svn/ver/154675/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_cross_origin_redirect_chain-expected.txt
+END
+test_resource_timing_timing_allow_cross_origin_resource_request-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/blink/!svn/ver/150353/trunk/LayoutTests/http/tests/w3c/webperf/submission/Intel/resource-timing/test_resource_timing_timing_allow_cross_origin_resource_request-expected.txt
+END

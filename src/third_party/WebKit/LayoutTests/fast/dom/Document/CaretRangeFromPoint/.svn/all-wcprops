@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/155307/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint
+END
+replace-element-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/71582/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/replace-element-expected.txt
+END
+caretRangeFromPoint-in-user-select-none-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/blink/!svn/ver/155307/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/caretRangeFromPoint-in-user-select-none-expected.txt
+END
+basic.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/basic.html
+END
+replace-element.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/replace-element.html
+END
+caretRangeFromPoint-in-user-select-none.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/155307/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/caretRangeFromPoint-in-user-select-none.html
+END
+hittest-relative-to-viewport-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/hittest-relative-to-viewport-expected.txt
+END
+caretRangeFromPoint-in-zoom-and-scroll-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/80492/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/caretRangeFromPoint-in-zoom-and-scroll-expected.txt
+END
+hittest-relative-to-viewport.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/147692/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/hittest-relative-to-viewport.html
+END
+basic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/48188/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/basic-expected.txt
+END
+caretRangeFromPoint-in-zoom-and-scroll.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Document/CaretRangeFromPoint/caretRangeFromPoint-in-zoom-and-scroll.html
+END

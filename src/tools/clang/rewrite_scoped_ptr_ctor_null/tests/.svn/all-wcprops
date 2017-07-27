@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/205700/trunk/src/tools/clang/rewrite_scoped_ptr_ctor_null/tests
+END
+test-expected.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/205700/trunk/src/tools/clang/rewrite_scoped_ptr_ctor_null/tests/test-expected.cc
+END
+test-original.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/205700/trunk/src/tools/clang/rewrite_scoped_ptr_ctor_null/tests/test-original.cc
+END

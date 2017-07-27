@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/154782/trunk/LayoutTests/platform/linux/svg/repaint
+END
+mask-clip-target-transform-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/154782/trunk/LayoutTests/platform/linux/svg/repaint/mask-clip-target-transform-expected.png
+END
+text-mask-update-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153308/trunk/LayoutTests/platform/linux/svg/repaint/text-mask-update-expected.png
+END
+inner-svg-change-viewPort-relative-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153308/trunk/LayoutTests/platform/linux/svg/repaint/inner-svg-change-viewPort-relative-expected.png
+END
+filter-repaint-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153308/trunk/LayoutTests/platform/linux/svg/repaint/filter-repaint-expected.png
+END
+repainting-after-animation-element-removal-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/153308/trunk/LayoutTests/platform/linux/svg/repaint/repainting-after-animation-element-removal-expected.png
+END
+image-with-clip-path-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153308/trunk/LayoutTests/platform/linux/svg/repaint/image-with-clip-path-expected.png
+END

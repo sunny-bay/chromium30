@@ -1,0 +1,76 @@
+[
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]\\gclient.py", 
+      "config", 
+      "--spec", 
+      "cache_dir = None\ndeps_os = {}\nhooks = []\nsolutions = [{'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'CustomElements', 'safesync_url': None, 'url': 'https://github.com/Polymer/CustomElements.git'}, {'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'HTMLImports', 'safesync_url': None, 'url': 'https://github.com/Polymer/HTMLImports.git'}, {'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'PointerEvents', 'safesync_url': None, 'url': 'https://github.com/Polymer/PointerEvents.git'}, {'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'PointerGestures', 'safesync_url': None, 'url': 'https://github.com/Polymer/PointerGestures.git'}, {'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'ShadowDOM', 'safesync_url': None, 'url': 'https://github.com/Polymer/ShadowDOM.git'}, {'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'mdv', 'safesync_url': None, 'url': 'https://github.com/Polymer/mdv.git'}, {'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'platform', 'safesync_url': None, 'url': 'https://github.com/Polymer/platform.git'}, {'custom_deps': {}, 'custom_vars': {}, 'deps_file': '', 'managed': True, 'name': 'polymer', 'safesync_url': None, 'url': 'https://github.com/Polymer/polymer.git'}]\ntarget_os = []\ntarget_os_only = False"
+    ], 
+    "name": "gclient setup", 
+    "seed_steps": [
+      "gclient setup", 
+      "gclient revert", 
+      "gclient sync", 
+      "submodule update"
+    ]
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[BUILD_ROOT]\\scripts\\slave\\gclient_safe_revert.py", 
+      ".", 
+      "[DEPOT_TOOLS_ROOT]\\gclient.bat"
+    ], 
+    "name": "gclient revert"
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]\\gclient.py", 
+      "sync", 
+      "--nohooks"
+    ], 
+    "name": "gclient sync"
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]\\gclient.py", 
+      "recurse", 
+      "git", 
+      "submodule", 
+      "update", 
+      "--init", 
+      "--recursive"
+    ], 
+    "name": "submodule update"
+  }, 
+  {
+    "cmd": [
+      "npm.cmd", 
+      "install"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]\\polymer", 
+    "env": {
+      "PATH": "C:\\Program Files (x86)\\nodejs;C:\\Users\\chrome-bot\\AppData\\Roaming\\npm;%(PATH)s"
+    }, 
+    "name": "update-install"
+  }, 
+  {
+    "allow_subannotations": true, 
+    "cmd": [
+      "grunt.cmd", 
+      "test-buildbot"
+    ], 
+    "cwd": "[SLAVE_BUILD_ROOT]\\polymer", 
+    "env": {
+      "PATH": "C:\\Program Files (x86)\\nodejs;C:\\Users\\chrome-bot\\AppData\\Roaming\\npm;%(PATH)s"
+    }, 
+    "name": "test"
+  }
+]

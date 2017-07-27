@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50
+END
+nv50_vbo.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_vbo.c
+END
+nv50_resource.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_resource.c
+END
+nv50_transfer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_transfer.h
+END
+nv50_debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_debug.h
+END
+nv50_resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_resource.h
+END
+nv50_draw.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_draw.c
+END
+nv50_texture.xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_texture.xml.h
+END
+nv50_query.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_query.c
+END
+Makefile.sources
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/Makefile.sources
+END
+nv50_3d.xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_3d.xml.h
+END
+nv50_push.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_push.c
+END
+nv50_state.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_state.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/Makefile
+END
+nv50_context.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_context.c
+END
+nv50_surface.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_surface.c
+END
+nv50_state_validate.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_state_validate.c
+END
+nv50_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_context.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/SConscript
+END
+nv50_tex.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_tex.c
+END
+nv50_stateobj_tex.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_stateobj_tex.h
+END
+nv50_winsys.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_winsys.h
+END
+nv50_miptree.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_miptree.c
+END
+nv50_shader_state.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_shader_state.c
+END
+nv50_program.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_program.c
+END
+nv50_2d.xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_2d.xml.h
+END
+nv50_formats.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_formats.c
+END
+nv50_3ddefs.xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_3ddefs.xml.h
+END
+nv50_program.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_program.h
+END
+nv50_screen.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_screen.c
+END
+nv50_stateobj.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_stateobj.h
+END
+nv50_screen.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_screen.h
+END
+nv50_transfer.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_transfer.c
+END
+nv50_defs.xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/nv50_defs.xml.h
+END

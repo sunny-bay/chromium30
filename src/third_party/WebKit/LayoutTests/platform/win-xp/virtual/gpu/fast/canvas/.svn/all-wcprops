@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/154157/trunk/LayoutTests/platform/win-xp/virtual/gpu/fast/canvas
+END
+canvas-blend-solid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win-xp/virtual/gpu/fast/canvas/canvas-blend-solid-expected.txt
+END
+canvas-incremental-repaint-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/154157/trunk/LayoutTests/platform/win-xp/virtual/gpu/fast/canvas/canvas-incremental-repaint-expected.txt
+END
+canvas-blend-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win-xp/virtual/gpu/fast/canvas/canvas-blend-image-expected.txt
+END
+canvas-incremental-repaint-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/154157/trunk/LayoutTests/platform/win-xp/virtual/gpu/fast/canvas/canvas-incremental-repaint-expected.png
+END

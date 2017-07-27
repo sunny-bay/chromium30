@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/200366/trunk/deps/third_party/ffmpeg/chromium/patches/ugly
+END
+preserve_m27_avcodecids.patch
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/200366/trunk/deps/third_party/ffmpeg/chromium/patches/ugly/preserve_m27_avcodecids.patch
+END
+01_enable_checked_bitstream.patch
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/199597/trunk/deps/third_party/ffmpeg/chromium/patches/ugly/01_enable_checked_bitstream.patch
+END
+02_compile_with_disabled_features.patch
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/189952/trunk/deps/third_party/ffmpeg/chromium/patches/ugly/02_compile_with_disabled_features.patch
+END
+undeprecate_destruct_packet_api.patch
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/199597/trunk/deps/third_party/ffmpeg/chromium/patches/ugly/undeprecate_destruct_packet_api.patch
+END
+compile_with_no_iconv.patch
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/189952/trunk/deps/third_party/ffmpeg/chromium/patches/ugly/compile_with_no_iconv.patch
+END

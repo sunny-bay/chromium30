@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/155172/trunk/LayoutTests/fast/dom/Window/resources
+END
+opened-window.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/27162/trunk/LayoutTests/fast/dom/Window/resources/opened-window.html
+END
+dom-access-from-closure-window-child.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/32853/trunk/LayoutTests/fast/dom/Window/resources/dom-access-from-closure-window-child.html
+END
+destination.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Window/resources/destination.html
+END
+notify-opener-done.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/32845/trunk/LayoutTests/fast/dom/Window/resources/notify-opener-done.html
+END
+notify-parent-done.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/32845/trunk/LayoutTests/fast/dom/Window/resources/notify-parent-done.html
+END
+child.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/17183/trunk/LayoutTests/fast/dom/Window/resources/child.html
+END
+report-size-and-close.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/134586/trunk/LayoutTests/fast/dom/Window/resources/report-size-and-close.html
+END
+blank.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/36560/trunk/LayoutTests/fast/dom/Window/resources/blank.html
+END
+closure-access-after-navigation-iframe-child-1.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/32845/trunk/LayoutTests/fast/dom/Window/resources/closure-access-after-navigation-iframe-child-1.html
+END
+open-sibling-subframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/13257/trunk/LayoutTests/fast/dom/Window/resources/open-sibling-subframe.html
+END
+closure-access-after-navigation-iframe-child-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/32845/trunk/LayoutTests/fast/dom/Window/resources/closure-access-after-navigation-iframe-child-2.html
+END
+closure-access-after-navigation-window-child-1.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/32845/trunk/LayoutTests/fast/dom/Window/resources/closure-access-after-navigation-window-child-1.html
+END
+window-property-clearing-iframe0.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/28884/trunk/LayoutTests/fast/dom/Window/resources/window-property-clearing-iframe0.html
+END
+WindowProperties.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/155172/trunk/LayoutTests/fast/dom/Window/resources/WindowProperties.js
+END
+closure-access-after-navigation-window-child-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/32845/trunk/LayoutTests/fast/dom/Window/resources/closure-access-after-navigation-window-child-2.html
+END
+window-property-clearing-iframe1.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/28884/trunk/LayoutTests/fast/dom/Window/resources/window-property-clearing-iframe1.html
+END
+window-postmessage-clone-frames-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/53969/trunk/LayoutTests/fast/dom/Window/resources/window-postmessage-clone-frames-frame.html
+END
+slow-unload-handler-overwritten-date1.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/70862/trunk/LayoutTests/fast/dom/Window/resources/slow-unload-handler-overwritten-date1.html
+END
+sibling-subframe-content.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Window/resources/sibling-subframe-content.html
+END
+window-early-properties-xhr-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Window/resources/window-early-properties-xhr-frame.html
+END
+slow_unload_handler1.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Window/resources/slow_unload_handler1.html
+END
+long_timeout.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/40405/trunk/LayoutTests/fast/dom/Window/resources/long_timeout.html
+END
+navigated-window-prop-subframe1.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/109594/trunk/LayoutTests/fast/dom/Window/resources/navigated-window-prop-subframe1.html
+END
+window-appendages-cleared-results.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/120792/trunk/LayoutTests/fast/dom/Window/resources/window-appendages-cleared-results.html
+END
+navigated-window-prop-subframe2.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/109594/trunk/LayoutTests/fast/dom/Window/resources/navigated-window-prop-subframe2.html
+END
+window-properties.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/155172/trunk/LayoutTests/fast/dom/Window/resources/window-properties.js
+END
+dom-access-from-closure-iframe-child.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/32853/trunk/LayoutTests/fast/dom/Window/resources/dom-access-from-closure-iframe-child.html
+END

@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/154889/trunk/LayoutTests/editing/text-iterator
+END
+range-to-from-location-and-length-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/97587/trunk/LayoutTests/editing/text-iterator/range-to-from-location-and-length-expected.txt
+END
+find-after-mutation.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/find-after-mutation.html
+END
+basic-iteration.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/99220/trunk/LayoutTests/editing/text-iterator/basic-iteration.html
+END
+first-letter-word-boundary.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/147036/trunk/LayoutTests/editing/text-iterator/first-letter-word-boundary.html
+END
+findString-restarts-at-last-position.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/148140/trunk/LayoutTests/editing/text-iterator/findString-restarts-at-last-position.html
+END
+findString-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/149660/trunk/LayoutTests/editing/text-iterator/findString-expected.txt
+END
+first-letter-rtl-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/first-letter-rtl-crash.html
+END
+rtl-selection-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/rtl-selection-crash.html
+END
+findString-start-search-after-selection.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/148140/trunk/LayoutTests/editing/text-iterator/findString-start-search-after-selection.html
+END
+find-after-mutation-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/91908/trunk/LayoutTests/editing/text-iterator/find-after-mutation-expected.txt
+END
+basic-iteration-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/145954/trunk/LayoutTests/editing/text-iterator/basic-iteration-expected.txt
+END
+first-letter-word-boundary-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/93347/trunk/LayoutTests/editing/text-iterator/first-letter-word-boundary-expected.txt
+END
+thai-cursor-movement.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/thai-cursor-movement.html
+END
+backward-textiterator-first-letter-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/backward-textiterator-first-letter-crash.html
+END
+rtl-first-letter-text-iterator-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/rtl-first-letter-text-iterator-crash.html
+END
+findString-restarts-at-last-position-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/148140/trunk/LayoutTests/editing/text-iterator/findString-restarts-at-last-position-expected.txt
+END
+first-letter-rtl-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/89831/trunk/LayoutTests/editing/text-iterator/first-letter-rtl-crash-expected.txt
+END
+rtl-selection-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/58153/trunk/LayoutTests/editing/text-iterator/rtl-selection-crash-expected.txt
+END
+findString-selection-disabled.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/findString-selection-disabled.html
+END
+basic-iteration-shadowdom.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/154889/trunk/LayoutTests/editing/text-iterator/basic-iteration-shadowdom.html
+END
+findString-start-search-after-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/148140/trunk/LayoutTests/editing/text-iterator/findString-start-search-after-selection-expected.txt
+END
+range-to-from-location-and-length.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/99258/trunk/LayoutTests/editing/text-iterator/range-to-from-location-and-length.html
+END
+thai-cursor-movement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/63403/trunk/LayoutTests/editing/text-iterator/thai-cursor-movement-expected.txt
+END
+backward-textiterator-first-letter-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/93347/trunk/LayoutTests/editing/text-iterator/backward-textiterator-first-letter-crash-expected.txt
+END
+rtl-first-letter-text-iterator-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/108417/trunk/LayoutTests/editing/text-iterator/rtl-first-letter-text-iterator-crash-expected.txt
+END
+findString.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/findString.html
+END
+findString-selection-disabled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/120173/trunk/LayoutTests/editing/text-iterator/findString-selection-disabled-expected.txt
+END
+basic-iteration-shadowdom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/145954/trunk/LayoutTests/editing/text-iterator/basic-iteration-shadowdom-expected.txt
+END

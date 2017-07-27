@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp
+END
+pp.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/pp.c
+END
+glcpp-parse.y
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/glcpp-parse.y
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/.gitignore
+END
+glcpp-lex.l
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/glcpp-lex.l
+END
+glcpp.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/glcpp.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/Makefile.am
+END
+glcpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/glcpp.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/glcpp/README
+END

@@ -1,0 +1,1469 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/blink/!svn/ver/155442/trunk/LayoutTests/svg/dom
+END
+SVGAnimatedBoolean-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/72123/trunk/LayoutTests/svg/dom/SVGAnimatedBoolean-expected.txt
+END
+SVGPathSegList-xml-dom-synchronization2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/SVGPathSegList-xml-dom-synchronization2-expected.txt
+END
+feFlood-no-in1.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/feFlood-no-in1.html
+END
+id-reflect.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/id-reflect.html
+END
+SVGAnimatedEnumeration-SVGPatternElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGPatternElement.html
+END
+use-transform-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/55220/trunk/LayoutTests/svg/dom/use-transform-expected.txt
+END
+smil-methods-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/48311/trunk/LayoutTests/svg/dom/smil-methods-expected.txt
+END
+SVGTransformList-basics.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/142759/trunk/LayoutTests/svg/dom/SVGTransformList-basics.xhtml
+END
+SVGLengthList-getItem.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGLengthList-getItem.xhtml
+END
+SVGPathSegList-clear-and-initialize.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGPathSegList-clear-and-initialize.xhtml
+END
+baseVal-animVal-list-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/71236/trunk/LayoutTests/svg/dom/baseVal-animVal-list-crash-expected.txt
+END
+path-pointAtLength-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/66979/trunk/LayoutTests/svg/dom/path-pointAtLength-expected.txt
+END
+animated-tearoff-lifespan-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/animated-tearoff-lifespan-expected.png
+END
+svglist-exception-on-out-bounds-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/svglist-exception-on-out-bounds-error.html
+END
+text-rotate-live-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/47720/trunk/LayoutTests/svg/dom/text-rotate-live-expected.txt
+END
+SVGAnimatedPreserveAspectRatio-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/71103/trunk/LayoutTests/svg/dom/SVGAnimatedPreserveAspectRatio-expected.txt
+END
+SVGAnimatedEnumeration-SVGFEColorMatrixElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEColorMatrixElement-expected.txt
+END
+SVGLengthList-appendItem-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLengthList-appendItem-expected.txt
+END
+SVGStringList-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/71227/trunk/LayoutTests/svg/dom/SVGStringList-expected.txt
+END
+length-list-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/101056/trunk/LayoutTests/svg/dom/length-list-parser-expected.txt
+END
+getElementsByTagName-localName-matching-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/113710/trunk/LayoutTests/svg/dom/getElementsByTagName-localName-matching-expected.txt
+END
+smil-methods.svg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/smil-methods.svg
+END
+SVGAnimatedEnumeration-SVGFEBlendElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEBlendElement.html
+END
+use-transform.svg
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/use-transform.svg
+END
+svglist-insertItemBefore-appends-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/43795/trunk/LayoutTests/svg/dom/svglist-insertItemBefore-appends-expected.txt
+END
+viewspec-transformparams-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-transformparams-expected.html
+END
+SVGLength.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGLength.html
+END
+SVGAnimatedBoolean.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedBoolean.html
+END
+SVGTransform-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/89315/trunk/LayoutTests/svg/dom/SVGTransform-expected.txt
+END
+SVGAnimatedEnumeration-SVGGradientElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGGradientElement-expected.txt
+END
+baseVal-animVal-list-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/baseVal-animVal-list-crash.html
+END
+viewspec-viewboxparams-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-viewboxparams-expected.html
+END
+SVGTransformList-empty-list-consolidation-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/72400/trunk/LayoutTests/svg/dom/SVGTransformList-empty-list-consolidation-expected.txt
+END
+path-pointAtLength.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/path-pointAtLength.html
+END
+complex-svgView-specification-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/118735/trunk/LayoutTests/svg/dom/complex-svgView-specification-expected.html
+END
+text-rotate-live.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/text-rotate-live.html
+END
+SVGAnimatedPreserveAspectRatio.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedPreserveAspectRatio.html
+END
+SVGAnimatedEnumeration-SVGFEColorMatrixElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEColorMatrixElement.html
+END
+SVGViewSpec-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/152827/trunk/LayoutTests/svg/dom/SVGViewSpec-expected.txt
+END
+SVGLocatable-getCTM-svg-root-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/108441/trunk/LayoutTests/svg/dom/SVGLocatable-getCTM-svg-root-expected.txt
+END
+SVGAngle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGAngle-expected.txt
+END
+SVGAnimatedNumberList-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/71014/trunk/LayoutTests/svg/dom/SVGAnimatedNumberList-expected.txt
+END
+SVGStringList.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGStringList.html
+END
+SVGNumber-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/72123/trunk/LayoutTests/svg/dom/SVGNumber-expected.txt
+END
+vkern-element-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/80520/trunk/LayoutTests/svg/dom/vkern-element-crash-expected.txt
+END
+SVGPathSegList-segment-modification-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/SVGPathSegList-segment-modification-expected.txt
+END
+length-list-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/length-list-parser.html
+END
+getElementsByTagName-localName-matching.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/113710/trunk/LayoutTests/svg/dom/getElementsByTagName-localName-matching.html
+END
+SVGPathSegList-insertItemBefore-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/72381/trunk/LayoutTests/svg/dom/SVGPathSegList-insertItemBefore-expected.txt
+END
+svglist-insertItemBefore-appends.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/svglist-insertItemBefore-appends.html
+END
+path-segments-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/39819/trunk/LayoutTests/svg/dom/path-segments-expected.txt
+END
+path-totalLength-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/66948/trunk/LayoutTests/svg/dom/path-totalLength-expected.txt
+END
+SVGTransform.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGTransform.html
+END
+SVGLength-px-with-context-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/71014/trunk/LayoutTests/svg/dom/SVGLength-px-with-context-expected.txt
+END
+SVGPathSegList-removeItem-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/72381/trunk/LayoutTests/svg/dom/SVGPathSegList-removeItem-expected.txt
+END
+SVGAnimatedEnumeration-SVGGradientElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGGradientElement.html
+END
+SVGMatrix-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/89315/trunk/LayoutTests/svg/dom/SVGMatrix-expected.txt
+END
+rgb-color-parser-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/rgb-color-parser-expected.png
+END
+SVGTransformList-empty-list-consolidation.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/SVGTransformList-empty-list-consolidation.html
+END
+SVGLength-px-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLength-px-expected.txt
+END
+viewspec-transformparams.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-transformparams.html
+END
+SVGViewSpec.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/118735/trunk/LayoutTests/svg/dom/SVGViewSpec.html
+END
+SVGLocatable-getCTM-svg-root.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/108441/trunk/LayoutTests/svg/dom/SVGLocatable-getCTM-svg-root.html
+END
+SVGAngle.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAngle.html
+END
+SVGAnimatedNumberList.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedNumberList.html
+END
+viewport-container-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/71723/trunk/LayoutTests/svg/dom/viewport-container-crash-expected.txt
+END
+SVGColor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGColor-expected.txt
+END
+SVGNumber.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGNumber.html
+END
+baseVal-animVal-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/71240/trunk/LayoutTests/svg/dom/baseVal-animVal-crash-expected.txt
+END
+viewspec-viewboxparams.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-viewboxparams.html
+END
+vkern-element-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/vkern-element-crash.html
+END
+altGlyph-dom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/155442/trunk/LayoutTests/svg/dom/altGlyph-dom-expected.txt
+END
+animated-tearoff-equality-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/30635/trunk/LayoutTests/svg/dom/animated-tearoff-equality-expected.txt
+END
+path-segments.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/path-segments.html
+END
+path-totalLength.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/path-totalLength.html
+END
+SVGPathSegList-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/143454/trunk/LayoutTests/svg/dom/SVGPathSegList-crash-expected.txt
+END
+SVGLength-px-with-context.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGLength-px-with-context.html
+END
+transform-parser-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/transform-parser-expected.png
+END
+SVGMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGMatrix.html
+END
+font-face-elements-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/48099/trunk/LayoutTests/svg/dom/font-face-elements-expected.txt
+END
+SVGLength-px.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGLength-px.html
+END
+viewport-container-crash.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/viewport-container-crash.svg
+END
+preserve-aspect-ratio-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/112799/trunk/LayoutTests/svg/dom/preserve-aspect-ratio-parser-expected.txt
+END
+operatorAttribute-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/51800/trunk/LayoutTests/svg/dom/operatorAttribute-expected.txt
+END
+SVGAnimatedInteger-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/72123/trunk/LayoutTests/svg/dom/SVGAnimatedInteger-expected.txt
+END
+SVGPathSegList-xml-dom-synchronization-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/72381/trunk/LayoutTests/svg/dom/SVGPathSegList-xml-dom-synchronization-expected.txt
+END
+fuzz-path-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/136657/trunk/LayoutTests/svg/dom/fuzz-path-parser-expected.txt
+END
+SVGColor.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGColor.html
+END
+SVGStyledElement-pendingResource-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/94905/trunk/LayoutTests/svg/dom/SVGStyledElement-pendingResource-crash-expected.txt
+END
+baseVal-animVal-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/baseVal-animVal-crash.html
+END
+SVGAnimatedEnumeration-SVGFilterElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFilterElement-expected.txt
+END
+SVGTransformList-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGTransformList-expected.txt
+END
+SVGPathSegList-clear-and-initialize-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGPathSegList-clear-and-initialize-expected.txt
+END
+path-parser-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/path-parser-expected.png
+END
+viewspec-aspectparams-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-aspectparams-expected.html
+END
+SVGPathSegList-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/143454/trunk/LayoutTests/svg/dom/SVGPathSegList-crash.html
+END
+symbol-embeddedAnimation-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/66836/trunk/LayoutTests/svg/dom/symbol-embeddedAnimation-expected.txt
+END
+SVGAnimatedEnumeration-SVGFEConvolveMatrixElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEConvolveMatrixElement-expected.txt
+END
+viewspec-viewtargetparams-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-viewtargetparams-expected.html
+END
+SVGLengthList-xml-dom-modifications-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/70223/trunk/LayoutTests/svg/dom/SVGLengthList-xml-dom-modifications-expected.txt
+END
+font-face-elements.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/font-face-elements.html
+END
+preserve-aspect-ratio-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/112799/trunk/LayoutTests/svg/dom/preserve-aspect-ratio-parser.html
+END
+animated-tearoff-lifespan-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/30635/trunk/LayoutTests/svg/dom/animated-tearoff-lifespan-expected.txt
+END
+operatorAttribute.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/operatorAttribute.html
+END
+SVGNumberList-basics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGNumberList-basics-expected.txt
+END
+SVGAnimatedInteger.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedInteger.html
+END
+SVGPointList-basics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGPointList-basics-expected.txt
+END
+SVGLengthList-removeItem-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLengthList-removeItem-expected.txt
+END
+fuzz-path-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/fuzz-path-parser.html
+END
+svg2-inheritance-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/155431/trunk/LayoutTests/svg/dom/svg2-inheritance-expected.txt
+END
+SVGPreserveAspectRatio-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGPreserveAspectRatio-expected.txt
+END
+SVGViewSpec-defaults-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/152827/trunk/LayoutTests/svg/dom/SVGViewSpec-defaults-expected.txt
+END
+points-parser-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/points-parser-expected.png
+END
+SVGStyledElement-pendingResource-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/SVGStyledElement-pendingResource-crash.html
+END
+SVGAnimatedEnumeration-SVGFilterElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFilterElement.html
+END
+SVGTransformList.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGTransformList.html
+END
+SVGLengthList-insertItemBefore.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGLengthList-insertItemBefore.xhtml
+END
+SVGAnimatedEnumeration-SVGFEConvolveMatrixElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEConvolveMatrixElement.html
+END
+style-reflect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/48010/trunk/LayoutTests/svg/dom/style-reflect-expected.txt
+END
+SVGAnimatedEnumeration-SVGFEDisplacementMapElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEDisplacementMapElement-expected.txt
+END
+viewspec-zoomandpanparams.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-zoomandpanparams.html
+END
+animated-tearoff-lifespan.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/animated-tearoff-lifespan.xhtml
+END
+SVGLengthList-replaceItem-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLengthList-replaceItem-expected.txt
+END
+svg-element-attribute-js-null.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/svg-element-attribute-js-null.xhtml
+END
+SVGLengthList-getItem-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLengthList-getItem-expected.txt
+END
+SVGTransformList-basics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGTransformList-basics-expected.txt
+END
+svg2-inheritance.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/155431/trunk/LayoutTests/svg/dom/svg2-inheritance.html
+END
+SVGPathSegList-replaceItem-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/72381/trunk/LayoutTests/svg/dom/SVGPathSegList-replaceItem-expected.txt
+END
+SVGPreserveAspectRatio.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGPreserveAspectRatio.html
+END
+SVGViewSpec-defaults.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/118735/trunk/LayoutTests/svg/dom/SVGViewSpec-defaults.html
+END
+SVGAnimatedLengthList-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/71014/trunk/LayoutTests/svg/dom/SVGAnimatedLengthList-expected.txt
+END
+SVGAnimatedEnumeration-SVGTextPathElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGTextPathElement-expected.txt
+END
+css-transforms.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/101062/trunk/LayoutTests/svg/dom/css-transforms.xhtml
+END
+SVGLengthList-replaceItem.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGLengthList-replaceItem.xhtml
+END
+style-reflect.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/style-reflect.html
+END
+SVGAnimatedEnumeration-SVGFEDisplacementMapElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEDisplacementMapElement.html
+END
+SVGAnimatedAngle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/71014/trunk/LayoutTests/svg/dom/SVGAnimatedAngle-expected.txt
+END
+SVGLengthList-initialize.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGLengthList-initialize.xhtml
+END
+SVGAnimatedEnumeration-SVGFEMorphologyElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEMorphologyElement-expected.txt
+END
+SVGLengthList-xml-dom-modifications.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGLengthList-xml-dom-modifications.xhtml
+END
+SVGRect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/72123/trunk/LayoutTests/svg/dom/SVGRect-expected.txt
+END
+symbol-embeddedAnimation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/symbol-embeddedAnimation.svg
+END
+SVGAnimatedEnumeration-SVGFECompositeElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFECompositeElement-expected.txt
+END
+svg-element-attribute-js-null-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/svg-element-attribute-js-null-expected.png
+END
+string-list-parser-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/string-list-parser-expected.png
+END
+SVGAnimatedRect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/71014/trunk/LayoutTests/svg/dom/SVGAnimatedRect-expected.txt
+END
+rgb-color-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/152717/trunk/LayoutTests/svg/dom/rgb-color-parser-expected.txt
+END
+css-transforms-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/101062/trunk/LayoutTests/svg/dom/css-transforms-expected.txt
+END
+SVGNumberList-basics.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/142759/trunk/LayoutTests/svg/dom/SVGNumberList-basics.xhtml
+END
+SVGAnimatedEnumeration-SVGFETurbulenceElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFETurbulenceElement-expected.txt
+END
+SVGAnimatedLengthList.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedLengthList.html
+END
+SVGAnimatedEnumeration-SVGTextPathElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGTextPathElement.html
+END
+path-marker-removed-crash.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/path-marker-removed-crash.svg
+END
+SVGPathSegList-segment-modification.svg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/107057/trunk/LayoutTests/svg/dom/SVGPathSegList-segment-modification.svg
+END
+SVGLengthList-initialize-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLengthList-initialize-expected.txt
+END
+SVGPathSegList-cloning-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/SVGPathSegList-cloning-expected.txt
+END
+SVGLengthList-appendItem.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGLengthList-appendItem.xhtml
+END
+SVGLengthList-basics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGLengthList-basics-expected.txt
+END
+SVGAnimatedAngle.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedAngle.html
+END
+SVGMatrix-interface.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGMatrix-interface.xhtml
+END
+SVGAnimatedEnumeration-SVGFEMorphologyElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEMorphologyElement.html
+END
+SVGRect.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGRect.html
+END
+SVGAnimatedEnumeration-SVGFECompositeElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFECompositeElement.html
+END
+transform-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/30635/trunk/LayoutTests/svg/dom/transform-parser-expected.txt
+END
+SVGAnimatedRect.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedRect.html
+END
+rgb-color-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/99749/trunk/LayoutTests/svg/dom/rgb-color-parser.html
+END
+SVGPathSegList-appendItem.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGPathSegList-appendItem.xhtml
+END
+SVGAnimatedEnumeration-SVGFETurbulenceElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFETurbulenceElement.html
+END
+SVGAnimatedEnumeration-SVGTextContentElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGTextContentElement-expected.txt
+END
+use-style-recalc-script-execute-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/88584/trunk/LayoutTests/svg/dom/use-style-recalc-script-execute-crash-expected.txt
+END
+viewspec-zoomandpanparams-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-zoomandpanparams-expected.html
+END
+SVGAnimatedEnumeration-SVGMarkerElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGMarkerElement-expected.txt
+END
+frame-related-api-during-load-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/56486/trunk/LayoutTests/svg/dom/frame-related-api-during-load-expected.txt
+END
+SVGPathSegList-cloning.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/72381/trunk/LayoutTests/svg/dom/SVGPathSegList-cloning.html
+END
+SVGLengthList-removeItem.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGLengthList-removeItem.xhtml
+END
+SVGPointList-basics.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/142759/trunk/LayoutTests/svg/dom/SVGPointList-basics.xhtml
+END
+path-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/136657/trunk/LayoutTests/svg/dom/path-parser-expected.txt
+END
+length-list-parser-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/length-list-parser-expected.png
+END
+SVGPaint-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGPaint-expected.txt
+END
+transform-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/transform-parser.html
+END
+viewspec-viewtargetparams.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-viewtargetparams.html
+END
+SVGPathSegList-removeItem.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGPathSegList-removeItem.xhtml
+END
+SVGViewSpec-invalid-ref-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/140975/trunk/LayoutTests/svg/dom/SVGViewSpec-invalid-ref-crash-expected.txt
+END
+SVGStringList-basics.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGStringList-basics.xhtml
+END
+SVGAnimatedLength-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/71014/trunk/LayoutTests/svg/dom/SVGAnimatedLength-expected.txt
+END
+svgpath-out-of-bounds-getPathSeg-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/149122/trunk/LayoutTests/svg/dom/svgpath-out-of-bounds-getPathSeg-expected.txt
+END
+SVGAnimatedEnumeration-SVGTextContentElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGTextContentElement.html
+END
+points-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/136657/trunk/LayoutTests/svg/dom/points-parser-expected.txt
+END
+use-style-recalc-script-execute-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/use-style-recalc-script-execute-crash.html
+END
+SVGAnimatedEnumeration-SVGMarkerElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGMarkerElement.html
+END
+frame-related-api-during-load.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/frame-related-api-during-load.html
+END
+SVGPoint-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/89315/trunk/LayoutTests/svg/dom/SVGPoint-expected.txt
+END
+path-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/path-parser.html
+END
+SVGPathSegList-replaceItem.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGPathSegList-replaceItem.xhtml
+END
+SVGAnimatedEnumeration-SVGComponentTransferFunctionElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGComponentTransferFunctionElement-expected.txt
+END
+altGlyph-dom.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/altGlyph-dom.xhtml
+END
+animated-tearoff-equality.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/animated-tearoff-equality.xhtml
+END
+SVGPathSegList-xml-dom-synchronization2.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/107057/trunk/LayoutTests/svg/dom/SVGPathSegList-xml-dom-synchronization2.xhtml
+END
+SVGPaint.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGPaint.html
+END
+SVGStringList-basics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGStringList-basics-expected.txt
+END
+SVGViewSpec-invalid-ref-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/140975/trunk/LayoutTests/svg/dom/SVGViewSpec-invalid-ref-crash.html
+END
+SVGAnimatedLength.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedLength.html
+END
+svgpath-out-of-bounds-getPathSeg.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/svgpath-out-of-bounds-getPathSeg.html
+END
+SVGPathSegList-appendItem-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/72381/trunk/LayoutTests/svg/dom/SVGPathSegList-appendItem-expected.txt
+END
+points-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/points-parser.html
+END
+SVGAnimatedEnumeration-SVGMaskElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGMaskElement-expected.txt
+END
+svgpath-getPathSegAtLength-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/59213/trunk/LayoutTests/svg/dom/svgpath-getPathSegAtLength-expected.txt
+END
+SVGPathSegList-xml-dom-synchronization.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/SVGPathSegList-xml-dom-synchronization.xhtml
+END
+SVGPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGPoint.html
+END
+SVGLengthList-insertItemBefore-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLengthList-insertItemBefore-expected.txt
+END
+complex-svgView-specification.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/118735/trunk/LayoutTests/svg/dom/complex-svgView-specification.html
+END
+SVGAnimatedEnumeration-SVGComponentTransferFunctionElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGComponentTransferFunctionElement.html
+END
+SVGAnimatedEnumeration-SVGClipPathElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGClipPathElement-expected.txt
+END
+stylesheet-candidate-node-crash-main-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/93227/trunk/LayoutTests/svg/dom/stylesheet-candidate-node-crash-main-expected.txt
+END
+SVGPolygonElement-baseVal-list-removal-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/71805/trunk/LayoutTests/svg/dom/SVGPolygonElement-baseVal-list-removal-crash-expected.txt
+END
+altGlyph-dom-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/altGlyph-dom-expected.png
+END
+animated-tearoff-equality-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/animated-tearoff-equality-expected.png
+END
+path-marker-removed-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/82690/trunk/LayoutTests/svg/dom/path-marker-removed-crash-expected.txt
+END
+string-list-parser-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/30635/trunk/LayoutTests/svg/dom/string-list-parser-expected.txt
+END
+svg-element-attribute-js-null-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/70410/trunk/LayoutTests/svg/dom/svg-element-attribute-js-null-expected.txt
+END
+SVGAnimatedEnumeration-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-expected.txt
+END
+parent-view-layout-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/105250/trunk/LayoutTests/svg/dom/parent-view-layout-crash-expected.txt
+END
+SVGAnimatedNumber-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/72123/trunk/LayoutTests/svg/dom/SVGAnimatedNumber-expected.txt
+END
+SVGLengthList-basics.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/142759/trunk/LayoutTests/svg/dom/SVGLengthList-basics.xhtml
+END
+feFlood-no-in1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/49441/trunk/LayoutTests/svg/dom/feFlood-no-in1-expected.txt
+END
+id-reflect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/49424/trunk/LayoutTests/svg/dom/id-reflect-expected.txt
+END
+SVGAnimatedEnumeration-SVGPatternElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGPatternElement-expected.txt
+END
+font-face-elements-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/font-face-elements-expected.png
+END
+svgpath-getPathSegAtLength.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/svgpath-getPathSegAtLength.html
+END
+SVGAnimatedEnumeration-SVGMaskElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGMaskElement.html
+END
+SVGMatrix-interface-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGMatrix-interface-expected.txt
+END
+preserve-aspect-ratio-parser-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/148246/trunk/LayoutTests/svg/dom/preserve-aspect-ratio-parser-expected.png
+END
+svglist-exception-on-out-bounds-error-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/svglist-exception-on-out-bounds-error-expected.txt
+END
+SVGPathSegList-insertItemBefore.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/SVGPathSegList-insertItemBefore.xhtml
+END
+SVGAnimatedEnumeration-SVGClipPathElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGClipPathElement.html
+END
+viewspec-aspectparams.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/152522/trunk/LayoutTests/svg/dom/viewspec-aspectparams.html
+END
+SVGPolygonElement-baseVal-list-removal-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/SVGPolygonElement-baseVal-list-removal-crash.html
+END
+stylesheet-candidate-node-crash-main.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/stylesheet-candidate-node-crash-main.html
+END
+string-list-parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/99258/trunk/LayoutTests/svg/dom/string-list-parser.html
+END
+SVGAnimatedEnumeration.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration.html
+END
+parent-view-layout-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/124380/trunk/LayoutTests/svg/dom/parent-view-layout-crash.html
+END
+SVGAnimatedEnumeration-SVGFEBlendElement-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/152801/trunk/LayoutTests/svg/dom/SVGAnimatedEnumeration-SVGFEBlendElement-expected.txt
+END
+SVGAnimatedNumber.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/99220/trunk/LayoutTests/svg/dom/SVGAnimatedNumber.html
+END
+SVGLength-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/152573/trunk/LayoutTests/svg/dom/SVGLength-expected.txt
+END

@@ -1,0 +1,1781 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/155362/trunk/LayoutTests/http/tests/security/contentSecurityPolicy
+END
+img-blocked-no-gc-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/133329/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/img-blocked-no-gc-crash.html
+END
+connect-src-eventsource-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/96621/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-eventsource-allowed-expected.txt
+END
+inline-style-attribute-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-attribute-blocked.html
+END
+script-src-none-inline-event.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-none-inline-event.html
+END
+javascript-url-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/javascript-url-blocked-expected.txt
+END
+sandbox-allow-scripts-in-http-header-control.html
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts-in-http-header-control.html
+END
+connect-src-websocket-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-websocket-allowed.html
+END
+eval-scripts-setTimeout-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/153885/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setTimeout-blocked-expected.txt
+END
+frame-src-about-blank-allowed-by-default.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-about-blank-allowed-by-default.html
+END
+source-list-parsing-04.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/117583/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-04.html
+END
+blob-urls-match-self-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/126785/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/blob-urls-match-self-expected.txt
+END
+directive-parsing-05.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/125195/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-05.html
+END
+worker-set-timeout-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153885/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-set-timeout-blocked-expected.txt
+END
+connect-src-eventsource-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-eventsource-allowed.html
+END
+prefixed-header-deprecation-warning-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/blink/!svn/ver/148726/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/prefixed-header-deprecation-warning-expected.txt
+END
+javascript-url-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/javascript-url-blocked.html
+END
+eval-scripts-setInterval-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/84073/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setInterval-allowed-expected.txt
+END
+connect-src-xmlhttprequest-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-xmlhttprequest-allowed.html
+END
+injected-inline-style-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-style-blocked-expected.txt
+END
+source-list-parsing-09-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/131813/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-09-expected.txt
+END
+eval-scripts-setTimeout-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setTimeout-blocked.html
+END
+connect-src-websocket-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-websocket-blocked-expected.txt
+END
+source-list-parsing-paths-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/129143/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-paths-01-expected.txt
+END
+sandbox-allow-scripts-in-http-header-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/blink/!svn/ver/154770/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts-in-http-header-expected.txt
+END
+source-list-parsing-no-semicolon-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/131413/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-no-semicolon-expected.txt
+END
+report-same-origin-with-cookies.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/154114/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-same-origin-with-cookies.html
+END
+worker-set-timeout-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-set-timeout-blocked.html
+END
+source-list-parsing-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/146141/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-01.html
+END
+connect-src-eventsource-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-eventsource-blocked-expected.txt
+END
+directive-parsing-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-02.html
+END
+eval-scripts-setInterval-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setInterval-allowed.html
+END
+media-src-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/84077/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/media-src-allowed-expected.txt
+END
+connect-src-websocket-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-websocket-blocked.html
+END
+source-list-parsing-paths-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/131317/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-paths-01.html
+END
+script-src-self-blocked-02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self-blocked-02-expected.txt
+END
+sandbox-allow-scripts-subframe-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/99383/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts-subframe-expected.txt
+END
+connect-src-eventsource-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-eventsource-blocked.html
+END
+cached-frame-csp.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/142068/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/cached-frame-csp.html
+END
+xsl-unaffected-by-style-src-1.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-unaffected-by-style-src-1.php
+END
+default-src-inline-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/85451/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/default-src-inline-allowed-expected.txt
+END
+eval-scripts-setInterval-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/153885/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setInterval-blocked-expected.txt
+END
+connect-src-xmlhttprequest-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-xmlhttprequest-blocked.html
+END
+source-list-parsing-10.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/146141/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-10.html
+END
+media-src-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/media-src-allowed.html
+END
+report-only.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-only.html
+END
+report-blocked-data-uri-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-data-uri-expected.txt
+END
+directive-parsing-multiple-headers-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-multiple-headers-expected.txt
+END
+sandbox-in-http-header-control-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/137180/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-in-http-header-control-expected.txt
+END
+script-src-overrides-default-src.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-overrides-default-src.html
+END
+sandbox-allow-scripts-subframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts-subframe.html
+END
+injected-inline-script-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-script-allowed-expected.txt
+END
+source-list-parsing-03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-03-expected.txt
+END
+srcdoc-doesnt-bypass-script-src-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/srcdoc-doesnt-bypass-script-src-expected.txt
+END
+report-uri.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri.html
+END
+combine-multiple-policies.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/combine-multiple-policies.html
+END
+directive-parsing-04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/123899/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-04-expected.txt
+END
+eval-scripts-setInterval-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setInterval-blocked.html
+END
+media-src-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/148246/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/media-src-blocked-expected.txt
+END
+script-src-self.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self.html
+END
+directive-parsing-multiple-headers.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/121936/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-multiple-headers.html
+END
+source-list-parsing-deprecated-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-deprecated-expected.txt
+END
+sandbox-in-http-header-control.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-in-http-header-control.html
+END
+script-loads-with-img-src-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/104803/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-loads-with-img-src-expected.txt
+END
+report-and-enforce.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/149721/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-and-enforce.html
+END
+eval-blocked-in-about-blank-iframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-blocked-in-about-blank-iframe.html
+END
+report-uri-from-child-frame-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-from-child-frame-expected.txt
+END
+policy-does-not-affect-child.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/policy-does-not-affect-child.html
+END
+srcdoc-doesnt-bypass-script-src.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/srcdoc-doesnt-bypass-script-src.html
+END
+media-src-track-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/138820/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/media-src-track-block.html
+END
+default-src-inline-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/129572/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/default-src-inline-blocked-expected.txt
+END
+script-src-redirect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/117583/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-redirect-expected.txt
+END
+xsl-img-blocked.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-img-blocked.php
+END
+media-src-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/media-src-blocked.html
+END
+iframe-inside-csp-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/119913/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/iframe-inside-csp-expected.txt
+END
+source-list-parsing-08-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/126785/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-08-expected.txt
+END
+worker-connect-src-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-connect-src-allowed.html
+END
+eval-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-allowed.html
+END
+injected-inline-script-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-script-blocked-expected.txt
+END
+sandbox-in-http-header-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/146725/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-in-http-header-expected.txt
+END
+image-host-wildcard-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/85453/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-host-wildcard-allowed-expected.txt
+END
+object-src-none-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/123978/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-none-allowed-expected.txt
+END
+icon-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/155362/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/icon-allowed-expected.txt
+END
+object-src-no-url-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-no-url-allowed.html
+END
+iframe-inside-csp.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/iframe-inside-csp.html
+END
+source-list-parsing-08.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/126785/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-08.html
+END
+report-blocked-uri-cross-origin-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-uri-cross-origin-expected.txt
+END
+duplicate-directive-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/119380/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/duplicate-directive-expected.txt
+END
+script-src-star-cross-scheme-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/97360/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-star-cross-scheme-expected.txt
+END
+sandbox-empty-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/137180/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-empty-expected.txt
+END
+sandbox-in-http-header.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-in-http-header.html
+END
+script-src-in-iframe-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-in-iframe-expected.txt
+END
+image-host-wildcard-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-host-wildcard-allowed.html
+END
+script-src-self-blocked-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self-blocked-01-expected.txt
+END
+block-mixed-content-hides-warning-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/129572/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/block-mixed-content-hides-warning-expected.txt
+END
+object-src-none-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-none-allowed.html
+END
+icon-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/155362/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/icon-allowed.html
+END
+sandbox-invalid-header-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/137180/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-invalid-header-expected.txt
+END
+eval-blocked-and-sends-report-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-blocked-and-sends-report-expected.txt
+END
+report-blocked-uri-cross-origin.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-uri-cross-origin.html
+END
+source-list-parsing-nonascii-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/128042/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-nonascii-expected.txt
+END
+worker-connect-src-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-connect-src-blocked.html
+END
+eval-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-blocked.html
+END
+frame-src-redirect-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/147346/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-redirect-blocked-expected.txt
+END
+script-src-star-cross-scheme.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-star-cross-scheme.html
+END
+source-list-parsing-05.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/129143/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-05.html
+END
+script-src-self-blocked-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self-blocked-01.html
+END
+worker-script-src.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-script-src.html
+END
+block-mixed-content-hides-warning.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/block-mixed-content-hides-warning.html
+END
+object-src-none-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/147346/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-none-blocked-expected.txt
+END
+icon-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/155362/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/icon-blocked-expected.txt
+END
+source-list-parsing-02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/126488/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-02-expected.txt
+END
+inline-event-handler-blocked-after-injecting-meta.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/blink/!svn/ver/149752/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-event-handler-blocked-after-injecting-meta.html
+END
+object-src-no-url-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-no-url-blocked.html
+END
+directive-parsing-03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/123899/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-03-expected.txt
+END
+eval-blocked-and-sends-report.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/153994/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-blocked-and-sends-report.html
+END
+source-list-parsing-nonascii.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/128042/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-nonascii.html
+END
+source-list-parsing-malformed-meta-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-malformed-meta-expected.txt
+END
+inline-style-attribute-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/85384/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-attribute-allowed-expected.txt
+END
+frame-src-redirect-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/138818/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-redirect-blocked.html
+END
+object-src-url-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-url-allowed.html
+END
+report-blocked-uri-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-uri-expected.txt
+END
+xsl-unaffected-by-style-src-2.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-unaffected-by-style-src-2.php
+END
+object-src-none-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-none-blocked.html
+END
+icon-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/155362/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/icon-blocked.html
+END
+source-list-parsing-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/126488/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-02.html
+END
+worker-function-function-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/126947/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-function-function-blocked-expected.txt
+END
+report-only-from-header-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-only-from-header-expected.txt
+END
+register-bypassing-scheme-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/126194/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/register-bypassing-scheme-expected.txt
+END
+directive-parsing-03.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-03.html
+END
+style-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/83235/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/style-allowed-expected.txt
+END
+report-blocked-file-uri-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-file-uri-expected.txt
+END
+frame-src-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-allowed.html
+END
+source-list-parsing-paths-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/131317/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-paths-02.html
+END
+source-list-parsing-07-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/125213/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-07-expected.txt
+END
+report-blocked-uri.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-uri.html
+END
+xsl-unaffected-by-style-src-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/97388/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-unaffected-by-style-src-2-expected.txt
+END
+inline-script-blocked-goofy-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-blocked-goofy-expected.txt
+END
+shared-worker-connect-src-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/shared-worker-connect-src-allowed.html
+END
+xsl-unaffected-by-style-src-1-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/97440/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-unaffected-by-style-src-1-expected.png
+END
+register-bypassing-scheme.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/register-bypassing-scheme.html
+END
+style-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/style-allowed.html
+END
+img-blocked-no-gc-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/128730/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/img-blocked-no-gc-crash-expected.txt
+END
+inline-style-attribute-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-attribute-blocked-expected.txt
+END
+object-src-url-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-url-blocked.html
+END
+sandbox-allow-scripts-in-http-header-control-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/blink/!svn/ver/119204/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts-in-http-header-control-expected.txt
+END
+connect-src-eventsource-redirect-to-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/blink/!svn/ver/150246/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-eventsource-redirect-to-blocked.html
+END
+function-constructor-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/86100/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/function-constructor-allowed-expected.txt
+END
+style-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/147346/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/style-blocked-expected.txt
+END
+frame-src-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-blocked.html
+END
+xmlhttprequest-protected-resource-does-not-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/130657/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xmlhttprequest-protected-resource-does-not-crash-expected.txt
+END
+injected-inline-style-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-style-allowed.html
+END
+connect-src-xmlhttprequest-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/96621/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-xmlhttprequest-allowed-expected.txt
+END
+script-src-none.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-none.html
+END
+report-uri-from-javascript-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-from-javascript-expected.txt
+END
+filesystem-urls-match-self.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/filesystem-urls-match-self.html
+END
+shared-worker-connect-src-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/shared-worker-connect-src-blocked.html
+END
+eval-allowed-in-report-only-mode.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/145268/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-allowed-in-report-only-mode.html
+END
+sandbox-empty-subframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-empty-subframe.html
+END
+function-constructor-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/function-constructor-allowed.html
+END
+inline-script-blocked-javascript-url-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-blocked-javascript-url-expected.txt
+END
+report-same-origin-with-cookies-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-same-origin-with-cookies-expected.txt
+END
+style-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/style-blocked.html
+END
+source-list-parsing-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/146141/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-01-expected.txt
+END
+directive-parsing-02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-02-expected.txt
+END
+xmlhttprequest-protected-resource-does-not-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/130657/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xmlhttprequest-protected-resource-does-not-crash.html
+END
+report-uri-from-javascript.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/138907/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-from-javascript.html
+END
+xsl-allowed.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-allowed.php
+END
+blob-urls-match-self.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/blob-urls-match-self.html
+END
+function-constructor-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/153994/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/function-constructor-blocked-expected.txt
+END
+inline-script-blocked-javascript-url.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-blocked-javascript-url.html
+END
+xsl-blocked-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/148246/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-blocked-expected.png
+END
+prefixed-header-deprecation-warning.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/148629/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/prefixed-header-deprecation-warning.html
+END
+cached-frame-csp-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/142068/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/cached-frame-csp-expected.txt
+END
+inline-style-allowed-while-cloning-objects-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/148384/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-allowed-while-cloning-objects-expected.txt
+END
+source-list-parsing-09.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/131813/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-09.html
+END
+connect-src-xmlhttprequest-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-xmlhttprequest-blocked-expected.txt
+END
+injected-inline-style-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-style-blocked.html
+END
+source-list-parsing-10-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/148246/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-10-expected.txt
+END
+report-only-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-only-expected.txt
+END
+sandbox-allow-scripts-in-http-header.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/154770/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts-in-http-header.html
+END
+source-list-parsing-06-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/129525/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-06-expected.txt
+END
+sandbox-allow-scripts-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/99383/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts-expected.txt
+END
+function-constructor-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/function-constructor-blocked.html
+END
+script-src-overrides-default-src-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/85451/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-overrides-default-src-expected.txt
+END
+source-list-parsing-no-semicolon.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/131413/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-no-semicolon.html
+END
+xsl-unaffected-by-style-src-1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-unaffected-by-style-src-1-expected.txt
+END
+report-uri-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-expected.txt
+END
+combine-multiple-policies-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/combine-multiple-policies-expected.txt
+END
+inline-style-allowed-while-cloning-objects.html
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/148384/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-allowed-while-cloning-objects.html
+END
+script-src-self-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/84457/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self-expected.txt
+END
+source-list-parsing-06.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/129143/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-06.html
+END
+sandbox-allow-scripts.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-allow-scripts.html
+END
+script-src-self-blocked-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self-blocked-02.html
+END
+report-uri-from-inline-javascript-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-from-inline-javascript-expected.txt
+END
+report-and-enforce-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-and-enforce-expected.txt
+END
+eval-blocked-in-about-blank-iframe-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/153994/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-blocked-in-about-blank-iframe-expected.txt
+END
+xsl-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/83235/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-allowed-expected.txt
+END
+policy-does-not-affect-child-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/84478/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/policy-does-not-affect-child-expected.txt
+END
+media-src-track-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/147346/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/media-src-track-block-expected.txt
+END
+default-src-inline-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/default-src-inline-allowed.html
+END
+connect-src-xmlhttprequest-redirect-to-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/blink/!svn/ver/150246/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-xmlhttprequest-redirect-to-blocked-expected.txt
+END
+report-blocked-data-uri.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/142506/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-data-uri.html
+END
+source-list-parsing-paths-03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/154875/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-paths-03-expected.txt
+END
+worker-connect-src-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/104329/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-connect-src-allowed-expected.txt
+END
+eval-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/85388/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-allowed-expected.txt
+END
+injected-inline-script-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-script-allowed.html
+END
+report-uri-from-inline-javascript.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/138834/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-from-inline-javascript.html
+END
+source-list-parsing-03.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/117583/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-03.html
+END
+xsl-img-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-img-blocked-expected.txt
+END
+directive-parsing-04.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/123899/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-04.html
+END
+object-src-no-url-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/99143/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-no-url-allowed-expected.txt
+END
+report-cross-origin-no-cookies-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-cross-origin-no-cookies-expected.txt
+END
+connect-src-xmlhttprequest-redirect-to-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/blink/!svn/ver/150246/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-xmlhttprequest-redirect-to-blocked.html
+END
+directive-parsing-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-01-expected.txt
+END
+source-list-parsing-paths-03.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/154875/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-paths-03.html
+END
+source-list-parsing-deprecated.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-deprecated.html
+END
+worker-eval-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/126947/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-eval-blocked-expected.txt
+END
+inline-style-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/85381/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-allowed-expected.txt
+END
+script-loads-with-img-src.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-loads-with-img-src.html
+END
+inline-script-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/83205/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-allowed-expected.txt
+END
+xsl-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-blocked-expected.txt
+END
+source-list-parsing-none-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/139085/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-none-expected.txt
+END
+report-uri-from-child-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-from-child-frame.html
+END
+default-src-inline-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/default-src-inline-blocked.html
+END
+script-src-redirect.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/117583/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-redirect.html
+END
+report-cross-origin-no-cookies.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/154114/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-cross-origin-no-cookies.html
+END
+directive-parsing-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-01.html
+END
+report-uri-scheme-relative-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-scheme-relative-expected.txt
+END
+object-in-svg-foreignobject-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/150176/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-in-svg-foreignobject-expected.txt
+END
+worker-eval-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-eval-blocked.html
+END
+worker-connect-src-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-connect-src-blocked-expected.txt
+END
+inline-style-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-allowed.html
+END
+eval-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153994/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-blocked-expected.txt
+END
+injected-inline-script-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-script-blocked.html
+END
+inline-script-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-allowed.html
+END
+source-list-parsing-05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/129525/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-05-expected.txt
+END
+source-list-parsing-none.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/139085/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-none.html
+END
+worker-script-src-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/152573/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-script-src-expected.txt
+END
+inline-event-handler-blocked-after-injecting-meta-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/blink/!svn/ver/149752/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-event-handler-blocked-after-injecting-meta-expected.txt
+END
+object-src-no-url-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/147346/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-no-url-blocked-expected.txt
+END
+report-only-report-uri-missing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/144566/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-only-report-uri-missing-expected.txt
+END
+image-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/83235/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-allowed-expected.txt
+END
+report-uri-scheme-relative.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/149712/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-uri-scheme-relative.html
+END
+object-in-svg-foreignobject.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/150176/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-in-svg-foreignobject.html
+END
+frame-src-about-blank-allowed-by-scheme-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/blink/!svn/ver/99321/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-about-blank-allowed-by-scheme-expected.txt
+END
+duplicate-directive.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/duplicate-directive.html
+END
+inline-style-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-blocked-expected.txt
+END
+object-src-url-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/124371/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-url-allowed-expected.txt
+END
+sandbox-empty.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-empty.html
+END
+inline-script-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-blocked-expected.txt
+END
+script-src-in-iframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-in-iframe.html
+END
+report-only-report-uri-missing.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/144566/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-only-report-uri-missing.html
+END
+image-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-allowed.html
+END
+sandbox-invalid-header.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/134766/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-invalid-header.html
+END
+frame-src-about-blank-allowed-by-scheme.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-about-blank-allowed-by-scheme.html
+END
+inline-style-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-blocked.html
+END
+frame-src-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/84460/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-allowed-expected.txt
+END
+source-list-parsing-paths-02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/131317/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-paths-02-expected.txt
+END
+inline-script-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-blocked.html
+END
+no-policy-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/78058/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/no-policy-expected.txt
+END
+image-full-host-wildcard-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/85453/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-full-host-wildcard-allowed-expected.txt
+END
+shared-worker-connect-src-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/104329/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/shared-worker-connect-src-allowed-expected.txt
+END
+xsl-blocked.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/xsl-blocked.php
+END
+image-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/126194/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-blocked-expected.txt
+END
+inline-style-attribute-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-attribute-allowed.html
+END
+source-list-parsing-malformed-meta.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-malformed-meta.html
+END
+inline-style-attribute-on-html-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/85384/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-attribute-on-html-expected.txt
+END
+report-only-from-header.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-only-from-header.php
+END
+javascript-url-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/javascript-url-allowed-expected.txt
+END
+object-src-url-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/147346/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/object-src-url-blocked-expected.txt
+END
+connect-src-eventsource-redirect-to-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/blink/!svn/ver/150246/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-eventsource-redirect-to-blocked-expected.txt
+END
+image-full-host-wildcard-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-full-host-wildcard-allowed.html
+END
+no-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/no-policy.html
+END
+script-src-self-blocked-03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/117006/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self-blocked-03-expected.txt
+END
+eval-scripts-setTimeout-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/84073/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setTimeout-allowed-expected.txt
+END
+worker-function-function-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/worker-function-function-blocked.html
+END
+image-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/image-blocked.html
+END
+report-blocked-file-uri.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/146758/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/report-blocked-file-uri.html
+END
+inline-style-attribute-on-html.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-style-attribute-on-html.html
+END
+frame-src-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/147346/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-blocked-expected.txt
+END
+script-src-none-inline-event-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-none-inline-event-expected.txt
+END
+javascript-url-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/javascript-url-allowed.html
+END
+injected-inline-style-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/118585/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/injected-inline-style-allowed-expected.txt
+END
+source-list-parsing-07.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/125213/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-07.html
+END
+script-src-none-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/133193/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-none-expected.txt
+END
+connect-src-websocket-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/96621/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/connect-src-websocket-allowed-expected.txt
+END
+eval-scripts-setTimeout-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-scripts-setTimeout-allowed.html
+END
+script-src-self-blocked-03.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/script-src-self-blocked-03.html
+END
+inline-script-blocked-goofy.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/inline-script-blocked-goofy.html
+END
+filesystem-urls-match-self-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/126785/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/filesystem-urls-match-self-expected.txt
+END
+eval-allowed-in-report-only-mode-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/145268/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/eval-allowed-in-report-only-mode-expected.txt
+END
+shared-worker-connect-src-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/152022/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/shared-worker-connect-src-blocked-expected.txt
+END
+frame-src-about-blank-allowed-by-default-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/116052/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/frame-src-about-blank-allowed-by-default-expected.txt
+END
+source-list-parsing-04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/128042/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/source-list-parsing-04-expected.txt
+END
+sandbox-empty-subframe-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/137180/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/sandbox-empty-subframe-expected.txt
+END
+directive-parsing-05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/125195/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/directive-parsing-05-expected.txt
+END

@@ -1,0 +1,10 @@
+This tests the XMLHttpRequest responseXML loading an XML document with responseType "text".
+
+On success, you will see a series of "PASS" messages, followed by "TEST COMPLETE".
+
+
+PASS xhr.responseXML threw exception InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable..
+PASS successfullyParsed is true
+
+TEST COMPLETE
+

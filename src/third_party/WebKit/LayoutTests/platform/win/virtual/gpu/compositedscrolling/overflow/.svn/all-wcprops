@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/154141/trunk/LayoutTests/platform/win/virtual/gpu/compositedscrolling/overflow
+END
+scrolling-without-painting-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/blink/!svn/ver/154141/trunk/LayoutTests/platform/win/virtual/gpu/compositedscrolling/overflow/scrolling-without-painting-expected.txt
+END
+paint-neg-z-order-descendants-into-scrolling-contents-layer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/virtual/gpu/compositedscrolling/overflow/paint-neg-z-order-descendants-into-scrolling-contents-layer-expected.png
+END
+textarea-scroll-touch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/154141/trunk/LayoutTests/platform/win/virtual/gpu/compositedscrolling/overflow/textarea-scroll-touch-expected.txt
+END
+do-not-paint-outline-into-composited-scrolling-contents-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/virtual/gpu/compositedscrolling/overflow/do-not-paint-outline-into-composited-scrolling-contents-expected.png
+END
+overflow-scroll-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/virtual/gpu/compositedscrolling/overflow/overflow-scroll-expected.txt
+END

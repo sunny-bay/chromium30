@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/215234/trunk/src/media/video/capture
+END
+video_capture.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/211433/trunk/src/media/video/capture/video_capture.h
+END
+video_capture_proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/150129/trunk/src/media/video/capture/video_capture_proxy.h
+END
+fake_video_capture_device.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/214745/trunk/src/media/video/capture/fake_video_capture_device.cc
+END
+video_capture_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/214745/trunk/src/media/video/capture/video_capture_types.h
+END
+fake_video_capture_device.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/214745/trunk/src/media/video/capture/fake_video_capture_device.h
+END
+video_capture_device_dummy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/214745/trunk/src/media/video/capture/video_capture_device_dummy.cc
+END
+video_capture_device_dummy.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/214745/trunk/src/media/video/capture/video_capture_device_dummy.h
+END
+video_capture_device_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/215234/trunk/src/media/video/capture/video_capture_device_unittest.cc
+END
+video_capture_device.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/213796/trunk/src/media/video/capture/video_capture_device.cc
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/209656/trunk/src/media/video/capture/OWNERS
+END
+video_capture_device.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/214745/trunk/src/media/video/capture/video_capture_device.h
+END
+video_capture_proxy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/205306/trunk/src/media/video/capture/video_capture_proxy.cc
+END

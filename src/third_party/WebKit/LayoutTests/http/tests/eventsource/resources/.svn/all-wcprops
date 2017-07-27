@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/149658/trunk/LayoutTests/http/tests/eventsource/resources
+END
+simple-event-stream.asis
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/103474/trunk/LayoutTests/http/tests/eventsource/resources/simple-event-stream.asis
+END
+wait-then-notify-done.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/120167/trunk/LayoutTests/http/tests/eventsource/resources/wait-then-notify-done.php
+END
+es-cors-basic.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/138083/trunk/LayoutTests/http/tests/eventsource/resources/es-cors-basic.php
+END
+event-stream.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/56035/trunk/LayoutTests/http/tests/eventsource/resources/event-stream.php
+END
+response-content-type-charset.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/103474/trunk/LayoutTests/http/tests/eventsource/resources/response-content-type-charset.php
+END
+request-existent-eventsource-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/94258/trunk/LayoutTests/http/tests/eventsource/resources/request-existent-eventsource-error.html
+END
+es-eof.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/103474/trunk/LayoutTests/http/tests/eventsource/resources/es-eof.php
+END
+status-codes.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/47323/trunk/LayoutTests/http/tests/eventsource/resources/status-codes.php
+END
+reconnect.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/103474/trunk/LayoutTests/http/tests/eventsource/resources/reconnect.php
+END
+bad-mime-type.asis
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/47323/trunk/LayoutTests/http/tests/eventsource/resources/bad-mime-type.asis
+END
+precise-retry.asis
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/149658/trunk/LayoutTests/http/tests/eventsource/resources/precise-retry.asis
+END
+request-non-existent-eventsource-error.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/94258/trunk/LayoutTests/http/tests/eventsource/resources/request-non-existent-eventsource-error.html
+END
+es-cors-credentials.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/138083/trunk/LayoutTests/http/tests/eventsource/resources/es-cors-credentials.php
+END

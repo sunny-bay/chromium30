@@ -1,0 +1,551 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blink/!svn/ver/155368/trunk/LayoutTests/fast/backgrounds
+END
+background-origin-root-element.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/31912/trunk/LayoutTests/fast/backgrounds/background-origin-root-element.html
+END
+composite-highlight-is-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/125003/trunk/LayoutTests/fast/backgrounds/composite-highlight-is-invalid-expected.txt
+END
+border-radius-split-background-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/border-radius-split-background-expected.txt
+END
+root-background-propagation2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/104628/trunk/LayoutTests/fast/backgrounds/root-background-propagation2-expected.png
+END
+background-repeat-computed-style-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/56171/trunk/LayoutTests/fast/backgrounds/background-repeat-computed-style-expected.txt
+END
+obscured-background-child-style-change.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/146955/trunk/LayoutTests/fast/backgrounds/obscured-background-child-style-change.html
+END
+background-clip-text.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/43793/trunk/LayoutTests/fast/backgrounds/background-clip-text.html
+END
+background-fast-path-simple-color-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/110313/trunk/LayoutTests/fast/backgrounds/background-fast-path-simple-color-expected.png
+END
+background-position-1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/background-position-1-expected.txt
+END
+mask-composite.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/32417/trunk/LayoutTests/fast/backgrounds/mask-composite.html
+END
+background-position-rendering-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/136378/trunk/LayoutTests/fast/backgrounds/background-position-rendering-expected.html
+END
+transformed-body-background.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/transformed-body-background.html
+END
+gradient-background-shadow-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/141160/trunk/LayoutTests/fast/backgrounds/gradient-background-shadow-expected.html
+END
+background-opaque-images-over-color-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/135861/trunk/LayoutTests/fast/backgrounds/background-opaque-images-over-color-expected.html
+END
+transformed-body-html-background.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/transformed-body-html-background.html
+END
+body-generated-image-propagated-to-root.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/44285/trunk/LayoutTests/fast/backgrounds/body-generated-image-propagated-to-root.html
+END
+background-opaque-images-over-color.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/135859/trunk/LayoutTests/fast/backgrounds/background-opaque-images-over-color.html
+END
+background-opaque-clipped-gradients-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/136326/trunk/LayoutTests/fast/backgrounds/background-opaque-clipped-gradients-expected.html
+END
+border-radius-split-background-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/border-radius-split-background-image-expected.txt
+END
+background-opaque-clipped-gradients.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/136326/trunk/LayoutTests/fast/backgrounds/background-opaque-clipped-gradients.html
+END
+zero-background-size-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/121296/trunk/LayoutTests/fast/backgrounds/zero-background-size-expected.html
+END
+composite-highlight-is-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/125003/trunk/LayoutTests/fast/backgrounds/composite-highlight-is-invalid.html
+END
+border-radius-split-background.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/84283/trunk/LayoutTests/fast/backgrounds/border-radius-split-background.html
+END
+background-repeat-computed-style.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/background-repeat-computed-style.html
+END
+001-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/001-expected.txt
+END
+gradient-background-leakage-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/135625/trunk/LayoutTests/fast/backgrounds/gradient-background-leakage-2-expected.txt
+END
+background-leakage-transforms-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/background-leakage-transforms-expected.txt
+END
+background-position-rounding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/background-position-rounding-expected.txt
+END
+background-position-1.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/80868/trunk/LayoutTests/fast/backgrounds/background-position-1.html
+END
+animated-svg-as-mask-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/animated-svg-as-mask-expected.txt
+END
+quirks-mode-line-box-backgrounds-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/quirks-mode-line-box-backgrounds-expected.txt
+END
+border-radius-split-background-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/84283/trunk/LayoutTests/fast/backgrounds/border-radius-split-background-image.html
+END
+root-background-propagation-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/104628/trunk/LayoutTests/fast/backgrounds/root-background-propagation-expected.txt
+END
+background-fill-zero-area-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/57377/trunk/LayoutTests/fast/backgrounds/background-fill-zero-area-crash-expected.txt
+END
+001.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/11995/trunk/LayoutTests/fast/backgrounds/001.html
+END
+gradient-background-leakage-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/135625/trunk/LayoutTests/fast/backgrounds/gradient-background-leakage-2.html
+END
+background-shorthand-with-backgroundSize-style-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/119259/trunk/LayoutTests/fast/backgrounds/background-shorthand-with-backgroundSize-style-expected.txt
+END
+background-leakage-transforms.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/84341/trunk/LayoutTests/fast/backgrounds/background-leakage-transforms.html
+END
+multiple-backgrounds-assert-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/47270/trunk/LayoutTests/fast/backgrounds/multiple-backgrounds-assert-expected.txt
+END
+background-position-rounding.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/31390/trunk/LayoutTests/fast/backgrounds/background-position-rounding.html
+END
+animated-svg-as-mask.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/animated-svg-as-mask.html
+END
+gradient-background-leakage-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/94628/trunk/LayoutTests/fast/backgrounds/gradient-background-leakage-expected.txt
+END
+quirks-mode-line-box-backgrounds.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/53200/trunk/LayoutTests/fast/backgrounds/quirks-mode-line-box-backgrounds.html
+END
+selection-background-color-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/116353/trunk/LayoutTests/fast/backgrounds/selection-background-color-expected.html
+END
+animated-gif-as-background-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/animated-gif-as-background-expected.txt
+END
+background-leakage-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/background-leakage-expected.txt
+END
+root-background-propagation.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/root-background-propagation.html
+END
+background-position-parsing.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/80868/trunk/LayoutTests/fast/backgrounds/background-position-parsing.html
+END
+obscured-background-child-style-change-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/146955/trunk/LayoutTests/fast/backgrounds/obscured-background-child-style-change-expected.html
+END
+background-fill-zero-area-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/background-fill-zero-area-crash.html
+END
+background-shorthand-with-backgroundSize-style.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/119259/trunk/LayoutTests/fast/backgrounds/background-shorthand-with-backgroundSize-style.html
+END
+multiple-backgrounds-assert.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/multiple-backgrounds-assert.html
+END
+background-position-parsing-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/149314/trunk/LayoutTests/fast/backgrounds/background-position-parsing-2-expected.txt
+END
+gradient-background-shadow.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/141160/trunk/LayoutTests/fast/backgrounds/gradient-background-shadow.html
+END
+opacity-on-document-element-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/opacity-on-document-element-expected.txt
+END
+root-background-propagation-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/104628/trunk/LayoutTests/fast/backgrounds/root-background-propagation-expected.png
+END
+gradient-background-leakage.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/84664/trunk/LayoutTests/fast/backgrounds/gradient-background-leakage.html
+END
+animated-gif-as-background.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/animated-gif-as-background.html
+END
+svg-as-mask-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/svg-as-mask-expected.txt
+END
+background-clip-text-on-body-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/background-clip-text-on-body-expected.txt
+END
+gradient-background-leakage-hidpi-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/139137/trunk/LayoutTests/fast/backgrounds/gradient-background-leakage-hidpi-expected.txt
+END
+background-leakage.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/84322/trunk/LayoutTests/fast/backgrounds/background-leakage.html
+END
+transformed-html-body-background-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/transformed-html-body-background-expected.txt
+END
+mask-box-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/mask-box-image-expected.txt
+END
+root-background-propagation2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/104628/trunk/LayoutTests/fast/backgrounds/root-background-propagation2-expected.txt
+END
+selection-background-color.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/116353/trunk/LayoutTests/fast/backgrounds/selection-background-color.html
+END
+bgCompositeCopy-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/bgCompositeCopy-expected.txt
+END
+background-position-parsing-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/149314/trunk/LayoutTests/fast/backgrounds/background-position-parsing-2.html
+END
+background-fast-path-simple-color-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/91190/trunk/LayoutTests/fast/backgrounds/background-fast-path-simple-color-expected.txt
+END
+multiple-backgrounds-computed-style-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/80868/trunk/LayoutTests/fast/backgrounds/multiple-backgrounds-computed-style-expected.txt
+END
+opacity-on-document-element.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/39463/trunk/LayoutTests/fast/backgrounds/opacity-on-document-element.html
+END
+background-origin-root-element-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/background-origin-root-element-expected.txt
+END
+svg-as-mask.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/32406/trunk/LayoutTests/fast/backgrounds/svg-as-mask.html
+END
+background-clip-text-composited.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/150608/trunk/LayoutTests/fast/backgrounds/background-clip-text-composited.html
+END
+background-clip-text-on-body.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/background-clip-text-on-body.html
+END
+background-position-rendering.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/136378/trunk/LayoutTests/fast/backgrounds/background-position-rendering.html
+END
+gradient-background-leakage-hidpi.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/139137/trunk/LayoutTests/fast/backgrounds/gradient-background-leakage-hidpi.html
+END
+transformed-html-body-background.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/transformed-html-body-background.html
+END
+background-clip-text-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/background-clip-text-expected.txt
+END
+mask-box-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/105091/trunk/LayoutTests/fast/backgrounds/mask-box-image.html
+END
+root-background-propagation2.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/root-background-propagation2.html
+END
+zero-background-size.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/121296/trunk/LayoutTests/fast/backgrounds/zero-background-size.html
+END
+mask-composite-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/mask-composite-expected.txt
+END
+transformed-body-background-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/transformed-body-background-expected.txt
+END
+bgCompositeCopy.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/15095/trunk/LayoutTests/fast/backgrounds/bgCompositeCopy.html
+END
+background-inherit-color-bug.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/18701/trunk/LayoutTests/fast/backgrounds/background-inherit-color-bug.html
+END
+background-fast-path-simple-color.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/backgrounds/background-fast-path-simple-color.html
+END
+multiple-backgrounds-computed-style.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/97881/trunk/LayoutTests/fast/backgrounds/multiple-backgrounds-computed-style.html
+END
+body-generated-image-propagated-to-root-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/backgrounds/body-generated-image-propagated-to-root-expected.txt
+END
+transformed-body-html-background-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/transformed-body-html-background-expected.txt
+END
+background-clip-text-on-body-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/133686/trunk/LayoutTests/fast/backgrounds/background-clip-text-on-body-expected.png
+END

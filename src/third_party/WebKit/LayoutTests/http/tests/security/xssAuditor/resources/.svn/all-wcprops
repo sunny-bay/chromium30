@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/154989/trunk/LayoutTests/http/tests/security/xssAuditor/resources
+END
+javascript-link-safe.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/xssAuditor/resources/javascript-link-safe.html
+END
+echo-dom-write-innerHTML.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/106785/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-dom-write-innerHTML.html
+END
+tag-with-pause.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/93561/trunk/LayoutTests/http/tests/security/xssAuditor/resources/tag-with-pause.php
+END
+echo-property-noquotes.pl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/48911/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-property-noquotes.pl
+END
+utilities.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/154376/trunk/LayoutTests/http/tests/security/xssAuditor/resources/utilities.js
+END
+echo-head.pl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/48911/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-head.pl
+END
+xss.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/44985/trunk/LayoutTests/http/tests/security/xssAuditor/resources/xss.js
+END
+redir.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/44985/trunk/LayoutTests/http/tests/security/xssAuditor/resources/redir.php
+END
+echo-intertag-decode-16bit-unicode.pl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/154989/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-intertag-decode-16bit-unicode.pl
+END
+xss-filter-bypass-long-string-reply.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/xssAuditor/resources/xss-filter-bypass-long-string-reply.html
+END
+echo-dom-write-unescaped-location.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/94225/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-dom-write-unescaped-location.html
+END
+nph-cached.pl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/142068/trunk/LayoutTests/http/tests/security/xssAuditor/resources/nph-cached.pl
+END
+echo-inner-tag.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/48911/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-inner-tag.pl
+END
+echo-inspan.pl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/118047/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-inspan.pl
+END
+echo-script-src.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/45788/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-script-src.pl
+END
+script-tag-safe3.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/48961/trunk/LayoutTests/http/tests/security/xssAuditor/resources/script-tag-safe3.html
+END
+echo-intertag-default-encode.pl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/45312/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-intertag-default-encode.pl
+END
+echo-head-base-href.pl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/56295/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-head-base-href.pl
+END
+echo-object-src.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/66254/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-object-src.pl
+END
+echo-dom-write-URL.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-dom-write-URL.html
+END
+echo-head-base-href-direct.pl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/54010/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-head-base-href-direct.pl
+END
+safe-script.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/45642/trunk/LayoutTests/http/tests/security/xssAuditor/resources/safe-script.js
+END
+echo-dom-write-location.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-dom-write-location.html
+END
+echo-intertag-click-and-notify.pl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-intertag-click-and-notify.pl
+END
+echo-intertag.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/154989/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-intertag.pl
+END
+safe-script-noquotes.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/48961/trunk/LayoutTests/http/tests/security/xssAuditor/resources/safe-script-noquotes.js
+END
+script-tag-safe4-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/108881/trunk/LayoutTests/http/tests/security/xssAuditor/resources/script-tag-safe4-frame.html
+END
+echo-property.pl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/95065/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-property.pl
+END
+anchor-url-dom-write-location-click.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/120174/trunk/LayoutTests/http/tests/security/xssAuditor/resources/anchor-url-dom-write-location-click.html
+END
+echo-intertag-addslashes.pl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/46250/trunk/LayoutTests/http/tests/security/xssAuditor/resources/echo-intertag-addslashes.pl
+END
+script-tag-safe2.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/48961/trunk/LayoutTests/http/tests/security/xssAuditor/resources/script-tag-safe2.html
+END

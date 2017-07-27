@@ -1,0 +1,5 @@
+DEPS = [
+  'itertools',
+  'path',
+  'step',
+]

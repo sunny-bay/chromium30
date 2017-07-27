@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa
+END
+descrip.mms
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa/descrip.mms
+END
+osmesa.def
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa/osmesa.def
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa/.gitignore
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa/SConscript
+END
+osmesa.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa/osmesa.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa/Makefile.am
+END
+osmesa.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/osmesa/osmesa.pc.in
+END

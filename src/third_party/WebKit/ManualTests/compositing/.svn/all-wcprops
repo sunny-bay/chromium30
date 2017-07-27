@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/blink/!svn/ver/137492/trunk/ManualTests/compositing
+END
+fixed-position-out-of-view-scroll-prepaint.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/137492/trunk/ManualTests/compositing/fixed-position-out-of-view-scroll-prepaint.html
+END
+assert-on-tab-switch.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/100838/trunk/ManualTests/compositing/assert-on-tab-switch.html
+END
+requires-backing-change.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/118828/trunk/ManualTests/compositing/requires-backing-change.html
+END
+caret-in-compositing-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/100838/trunk/ManualTests/compositing/caret-in-compositing-frame.html
+END
+missing-iframe-contents.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/100838/trunk/ManualTests/compositing/missing-iframe-contents.html
+END
+show-composited-iframe-on-back-button.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/100838/trunk/ManualTests/compositing/show-composited-iframe-on-back-button.html
+END
+accel-comp-iframe-tab-repaint.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/100838/trunk/ManualTests/compositing/accel-comp-iframe-tab-repaint.html
+END
+font-smoothing.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/100838/trunk/ManualTests/compositing/font-smoothing.html
+END

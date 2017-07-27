@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blink/!svn/ver/154157/trunk/LayoutTests/platform/win/fast/canvas
+END
+arc360-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/arc360-expected.png
+END
+canvas-resize-after-paint-without-layout-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-resize-after-paint-without-layout-expected.png
+END
+canvas-composite-fill-repaint-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-composite-fill-repaint-expected.png
+END
+canvas-bg-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-bg-expected.png
+END
+setWidthResetAfterForcedRender-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/setWidthResetAfterForcedRender-expected.png
+END
+canvas-transform-skewed-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-transform-skewed-expected.png
+END
+zero-size-fill-rect-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/zero-size-fill-rect-expected.png
+END
+shadow-offset-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/shadow-offset-2-expected.png
+END
+canvas-text-alignment-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-text-alignment-expected.png
+END
+canvas-incremental-repaint-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/154157/trunk/LayoutTests/platform/win/fast/canvas/canvas-incremental-repaint-expected.png
+END
+shadow-offset-4-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/shadow-offset-4-expected.png
+END
+canvas-size-change-after-layout-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-size-change-after-layout-expected.txt
+END
+shadow-offset-6-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/shadow-offset-6-expected.png
+END
+drawImage-with-globalAlpha-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/drawImage-with-globalAlpha-expected.png
+END
+canvas-text-baseline-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-text-baseline-expected.png
+END
+fillrect-gradient-zero-stops-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/fillrect-gradient-zero-stops-expected.png
+END
+canvas-bg-zoom-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-bg-zoom-expected.png
+END
+quadraticCurveTo-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/quadraticCurveTo-expected.png
+END
+check-stale-putImageData-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/check-stale-putImageData-expected.png
+END
+canvas-transforms-during-path-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-transforms-during-path-expected.png
+END
+canvas-as-image-incremental-repaint-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-as-image-incremental-repaint-expected.png
+END
+canvasDrawingIntoSelf-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvasDrawingIntoSelf-expected.png
+END
+canvas-imageSmoothingEnabled-patterns-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-imageSmoothingEnabled-patterns-expected.png
+END
+canvas-as-image-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-as-image-expected.png
+END
+canvas-composite-transformclip-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-composite-transformclip-expected.png
+END
+canvas-zoom-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-zoom-expected.png
+END
+drawImage-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/drawImage-expected.png
+END
+canvas-before-css-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-before-css-expected.png
+END
+canvas-render-layer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-render-layer-expected.png
+END
+patternfill-repeat-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/patternfill-repeat-expected.png
+END
+canvas-toDataURL-webp-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-toDataURL-webp-expected.png
+END
+image-object-in-canvas-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/image-object-in-canvas-expected.png
+END
+shadow-offset-1-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/shadow-offset-1-expected.png
+END
+shadow-offset-3-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/shadow-offset-3-expected.png
+END
+canvas-incremental-repaint-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-incremental-repaint-2-expected.png
+END
+shadow-offset-5-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/shadow-offset-5-expected.png
+END
+canvas-composite-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-composite-expected.png
+END
+shadow-offset-7-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/shadow-offset-7-expected.png
+END
+gradient-add-second-start-end-stop-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/gradient-add-second-start-end-stop-expected.png
+END
+canvas-size-change-after-layout-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-size-change-after-layout-expected.png
+END
+fillrect_gradient-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/fillrect_gradient-expected.png
+END
+toDataURL-alpha-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/toDataURL-alpha-expected.png
+END
+canvas-zoom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-zoom-expected.txt
+END
+image-pattern-rotate-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/image-pattern-rotate-expected.png
+END
+fill-stroke-clip-reset-path-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/fill-stroke-clip-reset-path-expected.png
+END
+canvas-resize-reset-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/canvas/canvas-resize-reset-expected.png
+END

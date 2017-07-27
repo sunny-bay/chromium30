@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas
+END
+canvas-zoom-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-zoom-expected.png
+END
+arc360-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/arc360-expected.png
+END
+drawImage-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/drawImage-expected.png
+END
+canvas-bg-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-bg-expected.png
+END
+canvas-before-css-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-before-css-expected.png
+END
+patternfill-repeat-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/patternfill-repeat-expected.png
+END
+image-object-in-canvas-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/image-object-in-canvas-expected.png
+END
+setWidthResetAfterForcedRender-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/setWidthResetAfterForcedRender-expected.png
+END
+zero-size-fill-rect-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/zero-size-fill-rect-expected.png
+END
+shadow-offset-1-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/shadow-offset-1-expected.png
+END
+shadow-offset-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/shadow-offset-2-expected.png
+END
+shadow-offset-3-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/shadow-offset-3-expected.png
+END
+canvas-text-alignment-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-text-alignment-expected.png
+END
+shadow-offset-4-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/shadow-offset-4-expected.png
+END
+shadow-offset-5-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/shadow-offset-5-expected.png
+END
+canvas-composite-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-composite-expected.png
+END
+shadow-offset-6-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/shadow-offset-6-expected.png
+END
+drawImage-with-globalAlpha-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/drawImage-with-globalAlpha-expected.png
+END
+shadow-offset-7-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/shadow-offset-7-expected.png
+END
+canvas-size-change-after-layout-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-size-change-after-layout-expected.png
+END
+fillrect_gradient-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/fillrect_gradient-expected.png
+END
+fillrect-gradient-zero-stops-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/fillrect-gradient-zero-stops-expected.png
+END
+toDataURL-alpha-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/toDataURL-alpha-expected.png
+END
+quadraticCurveTo-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/quadraticCurveTo-expected.png
+END
+check-stale-putImageData-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/check-stale-putImageData-expected.png
+END
+canvas-transforms-during-path-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-transforms-during-path-expected.png
+END
+image-pattern-rotate-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/image-pattern-rotate-expected.png
+END
+canvas-resize-reset-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvas-resize-reset-expected.png
+END
+fill-stroke-clip-reset-path-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/fill-stroke-clip-reset-path-expected.png
+END
+canvasDrawingIntoSelf-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/fast/canvas/canvasDrawingIntoSelf-expected.png
+END

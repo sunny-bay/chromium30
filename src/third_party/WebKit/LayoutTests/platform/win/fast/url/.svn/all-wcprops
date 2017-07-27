@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url
+END
+file-http-base-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url/file-http-base-expected.txt
+END
+segments-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url/segments-expected.txt
+END
+relative-win-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url/relative-win-expected.txt
+END
+relative-unix-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url/relative-unix-expected.txt
+END
+segments-from-data-url-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url/segments-from-data-url-expected.txt
+END
+file-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url/file-expected.txt
+END
+standard-url-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/url/standard-url-expected.txt
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/213566/trunk/src/net/test/embedded_test_server
+END
+http_response_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/208784/trunk/src/net/test/embedded_test_server/http_response_unittest.cc
+END
+embedded_test_server_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/208784/trunk/src/net/test/embedded_test_server/embedded_test_server_unittest.cc
+END
+http_response.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/213566/trunk/src/net/test/embedded_test_server/http_response.cc
+END
+embedded_test_server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/211147/trunk/src/net/test/embedded_test_server/embedded_test_server.cc
+END
+http_connection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/199229/trunk/src/net/test/embedded_test_server/http_connection.cc
+END
+http_response.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/208784/trunk/src/net/test/embedded_test_server/http_response.h
+END
+embedded_test_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/211347/trunk/src/net/test/embedded_test_server/embedded_test_server.h
+END
+http_connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/199229/trunk/src/net/test/embedded_test_server/http_connection.h
+END
+http_request_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/199229/trunk/src/net/test/embedded_test_server/http_request_unittest.cc
+END
+http_request.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/205447/trunk/src/net/test/embedded_test_server/http_request.cc
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/198762/trunk/src/net/test/embedded_test_server/OWNERS
+END
+http_request.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/199229/trunk/src/net/test/embedded_test_server/http_request.h
+END

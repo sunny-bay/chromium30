@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm
+END
+Makefile.sources
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/Makefile.sources
+END
+i915_drm_buffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/i915_drm_buffer.c
+END
+i915_drm_batchbuffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/i915_drm_batchbuffer.c
+END
+i915_drm_winsys.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/i915_drm_winsys.c
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/SConscript
+END
+i915_drm_fence.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/i915_drm_fence.c
+END
+i915_drm_winsys.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/i915_drm_winsys.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/Makefile
+END
+i915_drm_public.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/winsys/i915/drm/i915_drm_public.h
+END

@@ -1,0 +1,1427 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/blink/!svn/ver/155303/trunk/LayoutTests/fast/borders
+END
+border-shadow-large-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/125304/trunk/LayoutTests/fast/borders/border-shadow-large-radius.html
+END
+fieldsetBorderRadius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/154944/trunk/LayoutTests/fast/borders/fieldsetBorderRadius-expected.txt
+END
+border-image-outset-split-inline-vertical-lr-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/99111/trunk/LayoutTests/fast/borders/border-image-outset-split-inline-vertical-lr-expected.txt
+END
+borderRadiusSolid01.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusSolid01.html
+END
+borderRadiusDouble03.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble03.html
+END
+table-borders.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/84273/trunk/LayoutTests/fast/borders/table-borders.html
+END
+border-radius-wide-border-05.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/134631/trunk/LayoutTests/fast/borders/border-radius-wide-border-05.html
+END
+border-radius-with-layer.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/151619/trunk/LayoutTests/fast/borders/border-radius-with-layer.html
+END
+border-image-scrambled.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/95099/trunk/LayoutTests/fast/borders/border-image-scrambled.html
+END
+border-radius-groove-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/94782/trunk/LayoutTests/fast/borders/border-radius-groove-01-expected.txt
+END
+border-radius-complex-inner-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/103724/trunk/LayoutTests/fast/borders/border-radius-complex-inner-expected.txt
+END
+border-radius-wide-border-02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/94782/trunk/LayoutTests/fast/borders/border-radius-wide-border-02-expected.txt
+END
+borderRadiusMultiColors02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153119/trunk/LayoutTests/fast/borders/borderRadiusMultiColors02-expected.txt
+END
+borderRadiusDotted06.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDotted06.html
+END
+borderRadiusArcs01.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusArcs01.html
+END
+border-styles-split-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-styles-split-expected.txt
+END
+borderRadiusDashed03.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDashed03.html
+END
+mixed-border-styles-radius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/mixed-border-styles-radius-expected.txt
+END
+border-image-reset-by-border-shorthand-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/95242/trunk/LayoutTests/fast/borders/border-image-reset-by-border-shorthand-expected.txt
+END
+borderRadiusDouble08-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDouble08-expected.txt
+END
+border-image-outset-split-inline-vertical-lr.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/94912/trunk/LayoutTests/fast/borders/border-image-outset-split-inline-vertical-lr.html
+END
+fieldsetBorderRadius.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/34715/trunk/LayoutTests/fast/borders/fieldsetBorderRadius.html
+END
+borderRadiusDotted03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDotted03-expected.txt
+END
+rtl-border-05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/rtl-border-05-expected.txt
+END
+only-one-border-with-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/126793/trunk/LayoutTests/fast/borders/only-one-border-with-width-expected.txt
+END
+border-radius-with-box-shadow-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/145044/trunk/LayoutTests/fast/borders/border-radius-with-box-shadow-01-expected.txt
+END
+border-image-rotate-transform-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-rotate-transform-expected.txt
+END
+border-radius-inset-outset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-radius-inset-outset-expected.txt
+END
+border-radius-groove-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-groove-01.html
+END
+border-radius-complex-inner.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/borders/border-radius-complex-inner.html
+END
+border-radius-wide-border-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-wide-border-02.html
+END
+borderRadiusGroove02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusGroove02-expected.txt
+END
+inline-mask-overlay-image-outset-vertical-rl-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/99111/trunk/LayoutTests/fast/borders/inline-mask-overlay-image-outset-vertical-rl-expected.txt
+END
+borderRadiusMultiColors02.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/153119/trunk/LayoutTests/fast/borders/borderRadiusMultiColors02.html
+END
+mixed-border-styles-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/83998/trunk/LayoutTests/fast/borders/mixed-border-styles-radius.html
+END
+border-styles-split.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/84273/trunk/LayoutTests/fast/borders/border-styles-split.html
+END
+border-image-reset-by-border-shorthand.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/borders/border-image-reset-by-border-shorthand.html
+END
+borderRadiusDouble08.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble08.html
+END
+outline-alpha-inline-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/86413/trunk/LayoutTests/fast/borders/outline-alpha-inline-expected.txt
+END
+different-color-borders-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/different-color-borders-expected.txt
+END
+borderRadiusDotted03.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDotted03.html
+END
+border-radius-child-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148753/trunk/LayoutTests/fast/borders/border-radius-child-expected.txt
+END
+borderRadiusSolid03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusSolid03-expected.txt
+END
+rtl-border-05.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/155303/trunk/LayoutTests/fast/borders/rtl-border-05.html
+END
+borderRadiusDouble05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDouble05-expected.txt
+END
+only-one-border-with-width.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/89475/trunk/LayoutTests/fast/borders/only-one-border-with-width.html
+END
+border-radius-with-box-shadow-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/145044/trunk/LayoutTests/fast/borders/border-radius-with-box-shadow-01.html
+END
+outline-offset-min-assert-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/outline-offset-min-assert-expected.png
+END
+borderRadiusSlope-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/153119/trunk/LayoutTests/fast/borders/borderRadiusSlope-expected.txt
+END
+border-image-rotate-transform.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/27150/trunk/LayoutTests/fast/borders/border-image-rotate-transform.html
+END
+border-radius-inset-outset.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/84273/trunk/LayoutTests/fast/borders/border-radius-inset-outset.html
+END
+inline-mask-overlay-image-outset-vertical-rl.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/94912/trunk/LayoutTests/fast/borders/inline-mask-overlay-image-outset-vertical-rl.html
+END
+borderRadiusGroove02.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusGroove02.html
+END
+0px-borders-no-line-height-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/124044/trunk/LayoutTests/fast/borders/0px-borders-no-line-height-expected.html
+END
+border-radius-percent-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/144196/trunk/LayoutTests/fast/borders/border-radius-percent-expected.txt
+END
+borderRadiusDashed05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDashed05-expected.txt
+END
+block-mask-overlay-image-outset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/block-mask-overlay-image-outset-expected.txt
+END
+outline-alpha-inline.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/borders/outline-alpha-inline.html
+END
+border-radius-position-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/145870/trunk/LayoutTests/fast/borders/border-radius-position-expected.txt
+END
+different-color-borders.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/63864/trunk/LayoutTests/fast/borders/different-color-borders.html
+END
+border-radius-split-inline-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-radius-split-inline-expected.txt
+END
+border-radius-child.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/148753/trunk/LayoutTests/fast/borders/border-radius-child.html
+END
+borderRadiusSolid03.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusSolid03.html
+END
+border-radius-with-layer-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/151619/trunk/LayoutTests/fast/borders/border-radius-with-layer-expected.html
+END
+borderRadiusDouble05.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble05.html
+END
+borderRadiusSlope.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/153119/trunk/LayoutTests/fast/borders/borderRadiusSlope.html
+END
+border-image-outset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-outset-expected.txt
+END
+border-antialiasing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-antialiasing-expected.txt
+END
+border-radius-groove-03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/94782/trunk/LayoutTests/fast/borders/border-radius-groove-03-expected.txt
+END
+rtl-border-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/82419/trunk/LayoutTests/fast/borders/rtl-border-02.html
+END
+borderRadiusDouble02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDouble02-expected.txt
+END
+border-image-outset-split-inline-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-outset-split-inline-expected.txt
+END
+border-radius-wide-border-04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/border-radius-wide-border-04-expected.txt
+END
+border-image-longhand-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-longhand-expected.txt
+END
+border-radius-percent.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/144196/trunk/LayoutTests/fast/borders/border-radius-percent.html
+END
+border-radius-huge-assert-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-radius-huge-assert-expected.txt
+END
+borderRadiusDashed05.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDashed05.html
+END
+block-mask-overlay-image-outset.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/94912/trunk/LayoutTests/fast/borders/block-mask-overlay-image-outset.html
+END
+border-radius-position.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/145870/trunk/LayoutTests/fast/borders/border-radius-position.html
+END
+border-image-border-radius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-border-radius-expected.txt
+END
+border-radius-split-inline.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/44235/trunk/LayoutTests/fast/borders/border-radius-split-inline.html
+END
+bidi-012.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/84398/trunk/LayoutTests/fast/borders/bidi-012.html
+END
+borderRadiusDotted05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDotted05-expected.txt
+END
+0px-borders-no-line-height.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/124044/trunk/LayoutTests/fast/borders/0px-borders-no-line-height.html
+END
+borderRadiusDashed02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDashed02-expected.txt
+END
+border-mixed-alpha-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/108087/trunk/LayoutTests/fast/borders/border-mixed-alpha-expected.txt
+END
+border-antialiasing.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/87387/trunk/LayoutTests/fast/borders/border-antialiasing.html
+END
+border-image-outset.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/94912/trunk/LayoutTests/fast/borders/border-image-outset.html
+END
+border-radius-groove-03.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-groove-03.html
+END
+borderRadiusDouble02.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble02.html
+END
+border-image-outset-split-inline.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/94912/trunk/LayoutTests/fast/borders/border-image-outset-split-inline.html
+END
+border-radius-wide-border-04.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-wide-border-04.html
+END
+border-image-longhand.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/94593/trunk/LayoutTests/fast/borders/border-image-longhand.html
+END
+border-radius-huge-assert.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/117815/trunk/LayoutTests/fast/borders/border-radius-huge-assert.html
+END
+border-radius-valid-border-clipping-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/119760/trunk/LayoutTests/fast/borders/border-radius-valid-border-clipping-expected.txt
+END
+border-image-slices-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-slices-expected.txt
+END
+border-radius-wide-border-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/126793/trunk/LayoutTests/fast/borders/border-radius-wide-border-01-expected.txt
+END
+border-radius-different-width-001-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/97359/trunk/LayoutTests/fast/borders/border-radius-different-width-001-expected.txt
+END
+border-image-border-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/41976/trunk/LayoutTests/fast/borders/border-image-border-radius.html
+END
+border-radius-inline-flow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-radius-inline-flow-expected.txt
+END
+borderRadiusMultiColors01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/153119/trunk/LayoutTests/fast/borders/borderRadiusMultiColors01-expected.txt
+END
+borderRadiusDotted05.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDotted05.html
+END
+webkit-border-radius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/webkit-border-radius-expected.txt
+END
+borderRadiusDashed02.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDashed02.html
+END
+borderRadiusDouble07-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDouble07-expected.txt
+END
+border-mixed-alpha.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/borders/border-mixed-alpha.html
+END
+negative-border-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/56167/trunk/LayoutTests/fast/borders/negative-border-width-expected.txt
+END
+borderRadiusDotted02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDotted02-expected.txt
+END
+border-image-scale-transform-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-scale-transform-expected.txt
+END
+rtl-border-04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/rtl-border-04-expected.txt
+END
+border-color-visited-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/152277/trunk/LayoutTests/fast/borders/border-color-visited-expected.txt
+END
+border-radius-circle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94782/trunk/LayoutTests/fast/borders/border-radius-circle-expected.txt
+END
+border-radius-valid-border-clipping.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/119760/trunk/LayoutTests/fast/borders/border-radius-valid-border-clipping.html
+END
+border-image-slices.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/94299/trunk/LayoutTests/fast/borders/border-image-slices.html
+END
+border-radius-wide-border-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-wide-border-01.html
+END
+borderRadiusAllStylesAllCorners-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusAllStylesAllCorners-expected.txt
+END
+border-radius-different-width-001.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/84273/trunk/LayoutTests/fast/borders/border-radius-different-width-001.html
+END
+border-radius-constraints-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-radius-constraints-expected.txt
+END
+borderRadiusGroove01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusGroove01-expected.txt
+END
+mixed-border-styles-radius2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/mixed-border-styles-radius2-expected.txt
+END
+border-radius-inline-flow.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/70692/trunk/LayoutTests/fast/borders/border-radius-inline-flow.html
+END
+borderRadiusMultiColors01.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/153119/trunk/LayoutTests/fast/borders/borderRadiusMultiColors01.html
+END
+border-image-trumps-radius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/85067/trunk/LayoutTests/fast/borders/border-image-trumps-radius-expected.txt
+END
+webkit-border-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/webkit-border-radius.html
+END
+borderRadiusDouble07.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble07.html
+END
+negative-border-width.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/borders/negative-border-width.html
+END
+borderRadiusDotted02.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDotted02.html
+END
+border-image-scaled-gradient-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/112157/trunk/LayoutTests/fast/borders/border-image-scaled-gradient-expected.txt
+END
+border-image-scale-transform.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/27064/trunk/LayoutTests/fast/borders/border-image-scale-transform.html
+END
+borderRadiusSolid02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusSolid02-expected.txt
+END
+rtl-border-04.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/155303/trunk/LayoutTests/fast/borders/rtl-border-04.html
+END
+outline-offset-min-assert-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/outline-offset-min-assert-expected.txt
+END
+borderRadiusDouble04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDouble04-expected.txt
+END
+border-color-visited.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/152277/trunk/LayoutTests/fast/borders/border-color-visited.html
+END
+border-radius-circle.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-circle.html
+END
+borderRadiusOutset01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusOutset01-expected.txt
+END
+bidi-002.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/83638/trunk/LayoutTests/fast/borders/bidi-002.html
+END
+border-fit-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/149677/trunk/LayoutTests/fast/borders/border-fit-2-expected.txt
+END
+borderRadiusAllStylesAllCorners.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusAllStylesAllCorners.html
+END
+border-radius-constraints.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-constraints.html
+END
+borderRadiusGroove01.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusGroove01.html
+END
+mixed-border-styles-radius2.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/83998/trunk/LayoutTests/fast/borders/mixed-border-styles-radius2.html
+END
+border-image-trumps-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/85067/trunk/LayoutTests/fast/borders/border-image-trumps-radius.html
+END
+borderRadiusDashed04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDashed04-expected.txt
+END
+border-radius-parsing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/145172/trunk/LayoutTests/fast/borders/border-radius-parsing-expected.txt
+END
+inline-mask-overlay-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/inline-mask-overlay-image-expected.txt
+END
+border-image-scaled-gradient.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/95242/trunk/LayoutTests/fast/borders/border-image-scaled-gradient.html
+END
+borderRadiusSolid02.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusSolid02.html
+END
+outline-offset-min-assert.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/18511/trunk/LayoutTests/fast/borders/outline-offset-min-assert.html
+END
+border-image-outset-in-shorthand-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-outset-in-shorthand-expected.txt
+END
+borderRadiusDouble04.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble04.html
+END
+border-image-repeat-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-repeat-expected.txt
+END
+double-1px-border-assert-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/124044/trunk/LayoutTests/fast/borders/double-1px-border-assert-expected.html
+END
+rtl-border-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/82419/trunk/LayoutTests/fast/borders/rtl-border-01.html
+END
+border-radius-groove-02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/94782/trunk/LayoutTests/fast/borders/border-radius-groove-02-expected.txt
+END
+borderRadiusOutset01.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusOutset01.html
+END
+borderRadiusDouble01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDouble01-expected.txt
+END
+block-mask-overlay-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/block-mask-overlay-image-expected.txt
+END
+border-fit-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/93943/trunk/LayoutTests/fast/borders/border-fit-2.html
+END
+border-radius-wide-border-03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/border-radius-wide-border-03-expected.txt
+END
+border-radius-with-box-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/139256/trunk/LayoutTests/fast/borders/border-radius-with-box-shadow-expected.txt
+END
+border-image-scaled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-scaled-expected.txt
+END
+scaled-border-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/scaled-border-image-expected.txt
+END
+inline-mask-overlay-image-outset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/99111/trunk/LayoutTests/fast/borders/inline-mask-overlay-image-outset-expected.txt
+END
+border-image-slice-omission-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/95386/trunk/LayoutTests/fast/borders/border-image-slice-omission-expected.txt
+END
+border-width-percent-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94425/trunk/LayoutTests/fast/borders/border-width-percent-expected.txt
+END
+borderRadiusDashed04.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDashed04.html
+END
+border-radius-parsing.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/145172/trunk/LayoutTests/fast/borders/border-radius-parsing.html
+END
+border-color-inherit-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-color-inherit-expected.txt
+END
+borderRadiusDouble09-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDouble09-expected.txt
+END
+outline-alpha-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/86413/trunk/LayoutTests/fast/borders/outline-alpha-block-expected.txt
+END
+0px-borders.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/123061/trunk/LayoutTests/fast/borders/0px-borders.html
+END
+border-image-source-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-source-expected.txt
+END
+borderRadiusInvalidColor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusInvalidColor-expected.txt
+END
+inline-mask-overlay-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/32446/trunk/LayoutTests/fast/borders/inline-mask-overlay-image.html
+END
+borderRadiusDotted04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDotted04-expected.txt
+END
+borderRadiusDashed01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDashed01-expected.txt
+END
+border-image-outset-in-shorthand.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/94912/trunk/LayoutTests/fast/borders/border-image-outset-in-shorthand.html
+END
+border-image-repeat.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/94420/trunk/LayoutTests/fast/borders/border-image-repeat.html
+END
+border-image-slice-constrained-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-slice-constrained-expected.txt
+END
+mixed-border-styles-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/mixed-border-styles-expected.txt
+END
+bidi-009a.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/83638/trunk/LayoutTests/fast/borders/bidi-009a.html
+END
+border-radius-groove-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-groove-02.html
+END
+borderRadiusDouble01.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusDouble01.html
+END
+block-mask-overlay-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/32446/trunk/LayoutTests/fast/borders/block-mask-overlay-image.html
+END
+border-image-side-reduction-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-side-reduction-expected.txt
+END
+border-radius-wide-border-03.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/border-radius-wide-border-03.html
+END
+border-radius-with-box-shadow.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/139256/trunk/LayoutTests/fast/borders/border-radius-with-box-shadow.html
+END
+border-image-omit-right-slice-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-omit-right-slice-expected.txt
+END
+border-image-scaled.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/94593/trunk/LayoutTests/fast/borders/border-image-scaled.html
+END
+scaled-border-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/105515/trunk/LayoutTests/fast/borders/scaled-border-image.html
+END
+inline-mask-overlay-image-outset.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/94912/trunk/LayoutTests/fast/borders/inline-mask-overlay-image-outset.html
+END
+border-image-slice-omission.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/borders/border-image-slice-omission.html
+END
+border-width-percent.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/98407/trunk/LayoutTests/fast/borders/border-width-percent.html
+END
+border-color-inherit.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/32421/trunk/LayoutTests/fast/borders/border-color-inherit.html
+END
+borderRadiusDouble09.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble09.html
+END
+outline-alpha-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/borders/outline-alpha-block.html
+END
+double-1px-border-assert.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/124044/trunk/LayoutTests/fast/borders/double-1px-border-assert.html
+END
+border-image-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/94206/trunk/LayoutTests/fast/borders/border-image-source.html
+END
+borderRadiusInvalidColor.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/16044/trunk/LayoutTests/fast/borders/borderRadiusInvalidColor.html
+END
+border-fit.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/21026/trunk/LayoutTests/fast/borders/border-fit.html
+END
+borderRadiusDotted04.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDotted04.html
+END
+borderRadiusSolid04-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusSolid04-expected.txt
+END
+border-left-right-same-bottom-different-color-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/148803/trunk/LayoutTests/fast/borders/border-left-right-same-bottom-different-color-expected.txt
+END
+borderRadiusDashed01.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDashed01.html
+END
+borderRadiusDouble06-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDouble06-expected.txt
+END
+border-image-slice-constrained.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/104851/trunk/LayoutTests/fast/borders/border-image-slice-constrained.html
+END
+border-image-massive-scale-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-massive-scale-expected.txt
+END
+mixed-border-styles.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/83998/trunk/LayoutTests/fast/borders/mixed-border-styles.html
+END
+borderRadiusInset01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusInset01-expected.txt
+END
+borderRadiusDotted01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDotted01-expected.txt
+END
+border-image-side-reduction.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/94593/trunk/LayoutTests/fast/borders/border-image-side-reduction.html
+END
+border-image-omit-right-slice.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/63854/trunk/LayoutTests/fast/borders/border-image-omit-right-slice.html
+END
+borderRadiusRidge01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusRidge01-expected.txt
+END
+borderRadiusDashed06-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/98655/trunk/LayoutTests/fast/borders/borderRadiusDashed06-expected.txt
+END
+borderRadiusSolid04.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusSolid04.html
+END
+border-image-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-01-expected.txt
+END
+border-left-right-same-bottom-different-color.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/148803/trunk/LayoutTests/fast/borders/border-left-right-same-bottom-different-color.html
+END
+borderRadiusDouble06.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDouble06.html
+END
+border-shadow-large-radius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/125304/trunk/LayoutTests/fast/borders/border-shadow-large-radius-expected.txt
+END
+border-image-massive-scale.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/95129/trunk/LayoutTests/fast/borders/border-image-massive-scale.html
+END
+borderRadiusInset01.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusInset01.html
+END
+borderRadiusDotted01.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDotted01.html
+END
+borderRadiusSolid01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusSolid01-expected.txt
+END
+rtl-border-03.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/82419/trunk/LayoutTests/fast/borders/rtl-border-03.html
+END
+borderRadiusDouble03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDouble03-expected.txt
+END
+table-borders-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/table-borders-expected.txt
+END
+border-radius-wide-border-05-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/134631/trunk/LayoutTests/fast/borders/border-radius-wide-border-05-expected.txt
+END
+border-image-repeat-round.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/153607/trunk/LayoutTests/fast/borders/border-image-repeat-round.html
+END
+borderRadiusRidge01.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/14650/trunk/LayoutTests/fast/borders/borderRadiusRidge01.html
+END
+border-image-scrambled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/border-image-scrambled-expected.txt
+END
+borderRadiusDashed06.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/84092/trunk/LayoutTests/fast/borders/borderRadiusDashed06.html
+END
+0px-borders-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/123061/trunk/LayoutTests/fast/borders/0px-borders-expected.html
+END
+borderRadiusDotted06-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/94941/trunk/LayoutTests/fast/borders/borderRadiusDotted06-expected.txt
+END
+borderRadiusArcs01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusArcs01-expected.txt
+END
+border-image-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/23661/trunk/LayoutTests/fast/borders/border-image-01.html
+END
+borderRadiusDashed03-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/borders/borderRadiusDashed03-expected.txt
+END

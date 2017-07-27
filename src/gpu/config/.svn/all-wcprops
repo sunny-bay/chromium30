@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/215135/trunk/src/gpu/config
+END
+gpu_test_expectations_parser_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/202690/trunk/src/gpu/config/gpu_test_expectations_parser_unittest.cc
+END
+gpu_performance_stats.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_performance_stats.h
+END
+gpu_test_expectations_parser.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/205460/trunk/src/gpu/config/gpu_test_expectations_parser.cc
+END
+gpu_driver_bug_list_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_driver_bug_list_unittest.cc
+END
+gpu_driver_bug_list.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/203274/trunk/src/gpu/config/gpu_driver_bug_list.cc
+END
+gpu_switching_list_json.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_switching_list_json.cc
+END
+gpu_control_list_machine_model_info_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_control_list_machine_model_info_unittest.cc
+END
+gpu_switching_list_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_switching_list_unittest.cc
+END
+gpu_control_list_version_info_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_control_list_version_info_unittest.cc
+END
+dx_diag_node.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/201875/trunk/src/gpu/config/dx_diag_node.h
+END
+gpu_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/215135/trunk/src/gpu/config/gpu_info.h
+END
+gpu_control_list_number_info_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_control_list_number_info_unittest.cc
+END
+gpu_info_collector_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_info_collector_unittest.cc
+END
+gpu_info_collector.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/215135/trunk/src/gpu/config/gpu_info_collector.cc
+END
+gpu_info_collector_android.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/205460/trunk/src/gpu/config/gpu_info_collector_android.cc
+END
+gpu_test_config.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/202690/trunk/src/gpu/config/gpu_test_config.cc
+END
+gpu_test_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/202690/trunk/src/gpu/config/gpu_test_config.h
+END
+gpu_blacklist.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_blacklist.cc
+END
+gpu_blacklist.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_blacklist.h
+END
+gpu_util_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_util_unittest.cc
+END
+gpu_util.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/202682/trunk/src/gpu/config/gpu_util.cc
+END
+gpu_control_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/215135/trunk/src/gpu/config/gpu_control_list.h
+END
+gpu_info_collector_win.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/214352/trunk/src/gpu/config/gpu_info_collector_win.cc
+END
+gpu_test_expectations_parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/202690/trunk/src/gpu/config/gpu_test_expectations_parser.h
+END
+gpu_driver_bug_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_driver_bug_list.h
+END
+gpu_control_list_os_info_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_control_list_os_info_unittest.cc
+END
+dx_diag_node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/201875/trunk/src/gpu/config/dx_diag_node.cc
+END
+gpu_switching_option.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_switching_option.h
+END
+gpu_control_list_jsons.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_control_list_jsons.h
+END
+gpu_switching_list.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_switching_list.cc
+END
+gpu_info_collector_x11.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/212157/trunk/src/gpu/config/gpu_info_collector_x11.cc
+END
+gpu_info_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/203167/trunk/src/gpu/config/gpu_info_unittest.cc
+END
+gpu_info.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/215135/trunk/src/gpu/config/gpu_info.cc
+END
+gpu_control_list_entry_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/203623/trunk/src/gpu/config/gpu_control_list_entry_unittest.cc
+END
+DEPS
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/202175/trunk/src/gpu/config/DEPS
+END
+gpu_switching_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_switching_list.h
+END
+gpu_feature_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_feature_type.h
+END
+software_rendering_list_json.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/215135/trunk/src/gpu/config/software_rendering_list_json.cc
+END
+gpu_test_config_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/202690/trunk/src/gpu/config/gpu_test_config_unittest.cc
+END
+gpu_info_collector.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_info_collector.h
+END
+gpu_info_collector_mac.mm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/208245/trunk/src/gpu/config/gpu_info_collector_mac.mm
+END
+gpu_driver_bug_workaround_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/213598/trunk/src/gpu/config/gpu_driver_bug_workaround_type.h
+END
+gpu_blacklist_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_blacklist_unittest.cc
+END
+gpu_control_list_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/203192/trunk/src/gpu/config/gpu_control_list_unittest.cc
+END
+gpu_control_list_string_info_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/201875/trunk/src/gpu/config/gpu_control_list_string_info_unittest.cc
+END
+gpu_info_collector_ozone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/202749/trunk/src/gpu/config/gpu_info_collector_ozone.cc
+END
+gpu_control_list.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/215135/trunk/src/gpu/config/gpu_control_list.cc
+END
+gpu_driver_bug_list_json.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/213908/trunk/src/gpu/config/gpu_driver_bug_list_json.cc
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/207293/trunk/src/gpu/config/OWNERS
+END
+gpu_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/202682/trunk/src/gpu/config/gpu_util.h
+END
+gpu_dx_diagnostics_win.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/205460/trunk/src/gpu/config/gpu_dx_diagnostics_win.cc
+END

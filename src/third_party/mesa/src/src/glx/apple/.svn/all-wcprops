@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple
+END
+appledristr.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/appledristr.h
+END
+apple_xgl_api_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_xgl_api_read.c
+END
+appledri.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/appledri.c
+END
+apple_xgl_api_viewport.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_xgl_api_viewport.c
+END
+appledri.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/appledri.h
+END
+glxreply.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/glxreply.c
+END
+RELEASE_NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/RELEASE_NOTES
+END
+glx_empty.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/glx_empty.c
+END
+apple_xgl_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_xgl_api.h
+END
+apple_glx.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx.c
+END
+apple_glx_drawable.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_drawable.c
+END
+apple_glx_log.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_log.c
+END
+apple_glapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glapi.c
+END
+apple_glx_context.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_context.c
+END
+apple_glx.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx.h
+END
+apple_glx_drawable.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_drawable.h
+END
+apple_glx_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_log.h
+END
+apple_glx_surface.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_surface.c
+END
+apple_glx_pbuffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_pbuffer.c
+END
+apple_glx_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_context.h
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/TODO
+END
+apple_visual.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_visual.c
+END
+apple_xgl_api_stereo.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_xgl_api_stereo.c
+END
+apple_cgl.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_cgl.c
+END
+apple_visual.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_visual.h
+END
+apple_glx_pixmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_glx_pixmap.c
+END
+apple_cgl.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/apple_cgl.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glx/apple/Makefile
+END

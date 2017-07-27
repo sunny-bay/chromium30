@@ -1,0 +1,10 @@
+Project checkouts, configuration files and internal state dump live in this
+directory.
+
+You need to create password files with content in the format 'user:password'.
+The password files are:
+* .gaia_pwd to be able to access Rietveld.
+* .chromium_svn_pwd file to be able to access the subversion server at
+  svn.chromium.org.
+* .googlecode_svn_pwd file to be able to access the subversion server at
+  code.google.com.

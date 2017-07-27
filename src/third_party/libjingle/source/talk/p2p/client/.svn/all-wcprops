@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/4462/stable/talk/p2p/client
+END
+fakeportallocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4333/stable/talk/p2p/client/fakeportallocator.h
+END
+autoportallocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4333/stable/talk/p2p/client/autoportallocator.h
+END
+socketmonitor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4333/stable/talk/p2p/client/socketmonitor.cc
+END
+socketmonitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4333/stable/talk/p2p/client/socketmonitor.h
+END
+sessionsendtask.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4333/stable/talk/p2p/client/sessionsendtask.h
+END
+connectivitychecker_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4333/stable/talk/p2p/client/connectivitychecker_unittest.cc
+END
+sessionmanagertask.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4333/stable/talk/p2p/client/sessionmanagertask.h
+END
+connectivitychecker.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4414/stable/talk/p2p/client/connectivitychecker.cc
+END
+portallocator_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4379/stable/talk/p2p/client/portallocator_unittest.cc
+END
+connectivitychecker.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4333/stable/talk/p2p/client/connectivitychecker.h
+END
+httpportallocator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4333/stable/talk/p2p/client/httpportallocator.cc
+END
+basicportallocator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4462/stable/talk/p2p/client/basicportallocator.cc
+END
+httpportallocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4333/stable/talk/p2p/client/httpportallocator.h
+END
+basicportallocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4333/stable/talk/p2p/client/basicportallocator.h
+END

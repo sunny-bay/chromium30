@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/blink/!svn/ver/155467/trunk/Source/core/css/resolver
+END
+ElementResolveContext.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/155014/trunk/Source/core/css/resolver/ElementResolveContext.cpp
+END
+StyleResourceLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/154984/trunk/Source/core/css/resolver/StyleResourceLoader.cpp
+END
+StyleBuilderCustom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/155446/trunk/Source/core/css/resolver/StyleBuilderCustom.cpp
+END
+StyleAdjuster.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/154412/trunk/Source/core/css/resolver/StyleAdjuster.h
+END
+MediaQueryResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/154395/trunk/Source/core/css/resolver/MediaQueryResult.h
+END
+ElementStyleResources.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/154797/trunk/Source/core/css/resolver/ElementStyleResources.h
+END
+MatchedPropertiesCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/154395/trunk/Source/core/css/resolver/MatchedPropertiesCache.h
+END
+StyleBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/155446/trunk/Source/core/css/resolver/StyleBuilder.h
+END
+SharedStyleFinder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/155358/trunk/Source/core/css/resolver/SharedStyleFinder.cpp
+END
+ScopedStyleResolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/155467/trunk/Source/core/css/resolver/ScopedStyleResolver.cpp
+END
+ViewportStyleResolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/154511/trunk/Source/core/css/resolver/ViewportStyleResolver.cpp
+END
+StyleResolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/155467/trunk/Source/core/css/resolver/StyleResolver.cpp
+END
+FontBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/154865/trunk/Source/core/css/resolver/FontBuilder.h
+END
+TransformBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blink/!svn/ver/154765/trunk/Source/core/css/resolver/TransformBuilder.h
+END
+StyleResolverState.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/155446/trunk/Source/core/css/resolver/StyleResolverState.h
+END
+FilterOperationResolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/155361/trunk/Source/core/css/resolver/FilterOperationResolver.cpp
+END
+MatchResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/154395/trunk/Source/core/css/resolver/MatchResult.h
+END
+StyleAdjuster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/154412/trunk/Source/core/css/resolver/StyleAdjuster.cpp
+END
+ElementResolveContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/155014/trunk/Source/core/css/resolver/ElementResolveContext.h
+END
+StyleResourceLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/154823/trunk/Source/core/css/resolver/StyleResourceLoader.h
+END
+ElementStyleResources.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/154797/trunk/Source/core/css/resolver/ElementStyleResources.cpp
+END
+MatchedPropertiesCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/154797/trunk/Source/core/css/resolver/MatchedPropertiesCache.cpp
+END
+MatchRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/154957/trunk/Source/core/css/resolver/MatchRequest.h
+END
+FontBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/155111/trunk/Source/core/css/resolver/FontBuilder.cpp
+END
+TransformBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/154765/trunk/Source/core/css/resolver/TransformBuilder.cpp
+END
+StyleResolverState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/blink/!svn/ver/155446/trunk/Source/core/css/resolver/StyleResolverState.cpp
+END
+SharedStyleFinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/154710/trunk/Source/core/css/resolver/SharedStyleFinder.h
+END
+ScopedStyleResolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/154790/trunk/Source/core/css/resolver/ScopedStyleResolver.h
+END
+ViewportStyleResolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/154412/trunk/Source/core/css/resolver/ViewportStyleResolver.h
+END
+StyleResolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/155446/trunk/Source/core/css/resolver/StyleResolver.h
+END
+MatchResult.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blink/!svn/ver/154395/trunk/Source/core/css/resolver/MatchResult.cpp
+END
+FilterOperationResolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/155361/trunk/Source/core/css/resolver/FilterOperationResolver.h
+END

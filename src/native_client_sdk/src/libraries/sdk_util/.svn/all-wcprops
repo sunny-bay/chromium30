@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/213024/trunk/src/native_client_sdk/src/libraries/sdk_util
+END
+scoped_ref.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/213024/trunk/src/native_client_sdk/src/libraries/sdk_util/scoped_ref.h
+END
+thread_safe_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/212906/trunk/src/native_client_sdk/src/libraries/sdk_util/thread_safe_queue.h
+END
+atomicops.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/213024/trunk/src/native_client_sdk/src/libraries/sdk_util/atomicops.h
+END
+thread_pool.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/212906/trunk/src/native_client_sdk/src/libraries/sdk_util/thread_pool.cc
+END
+auto_lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/213024/trunk/src/native_client_sdk/src/libraries/sdk_util/auto_lock.h
+END
+thread_pool.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/212906/trunk/src/native_client_sdk/src/libraries/sdk_util/thread_pool.h
+END
+simple_lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/213024/trunk/src/native_client_sdk/src/libraries/sdk_util/simple_lock.h
+END
+ref_object.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/213024/trunk/src/native_client_sdk/src/libraries/sdk_util/ref_object.h
+END
+macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/213024/trunk/src/native_client_sdk/src/libraries/sdk_util/macros.h
+END
+library.dsc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/211612/trunk/src/native_client_sdk/src/libraries/sdk_util/library.dsc
+END

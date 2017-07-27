@@ -1,0 +1,905 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1
+END
+scriptnonce-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-allowed.html
+END
+form-action-src-get-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-get-allowed-expected.txt
+END
+scriptnonce-basic-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-basic-blocked-expected.txt
+END
+report-uri-effective-directive.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/146137/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/report-uri-effective-directive.html
+END
+reflected-xss-parsing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153349/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-parsing-expected.txt
+END
+securitypolicy-allowconnectionto.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowconnectionto.html
+END
+securitypolicy-allowmediafrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowmediafrom.html
+END
+securitypolicy-allowobjectfrom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowobjectfrom-expected.txt
+END
+reflected-xss-and-xss-protection-allow-unset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-unset-expected.txt
+END
+reflected-xss-and-xss-protection-unset-allow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-allow-expected.txt
+END
+reflected-xss-and-xss-protection-invalid-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/blink/!svn/ver/153349/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-invalid-expected.txt
+END
+reflected-xss-and-xss-protection-filter-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-block-expected.txt
+END
+reflected-xss-and-xss-protection-invalid-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-block-expected.txt
+END
+reflected-xss-and-xss-protection-block-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-invalid-expected.txt
+END
+scriptnonce-invalidnonce.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-invalidnonce.html
+END
+securitypolicy-allowplugintype-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/125983/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowplugintype-expected.txt
+END
+securitypolicyviolation-block-cross-origin-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-cross-origin-image.html
+END
+reflected-xss-and-xss-protection-block-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-block-expected.txt
+END
+scriptnonce-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-blocked-expected.txt
+END
+form-action-src-get-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-get-allowed.html
+END
+reflected-xss-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153349/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-invalid-expected.txt
+END
+scriptnonce-basic-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-basic-blocked.html
+END
+reflected-xss-parsing.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-parsing.html
+END
+securitypolicyviolation-block-cross-origin-image-from-script-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-cross-origin-image-from-script-expected.txt
+END
+securitypolicy-allowobjectfrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowobjectfrom.html
+END
+reflected-xss-and-xss-protection-allow-unset.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-unset.html
+END
+reflected-xss-and-xss-protection-unset-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-allow.html
+END
+reflected-xss-and-xss-protection-invalid-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-invalid.html
+END
+reflected-xss-and-xss-protection-allow-filter-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-filter-expected.txt
+END
+reflected-xss-and-xss-protection-filter-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-block.html
+END
+reflected-xss-and-xss-protection-invalid-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-block.html
+END
+reflected-xss-and-xss-protection-block-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-invalid.html
+END
+securitypolicy-allowplugintype.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowplugintype.html
+END
+reflected-xss-and-xss-protection-block-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-block.html
+END
+reflected-xss-and-xss-protection-filter-filter-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-filter-expected.txt
+END
+scriptnonce-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-blocked.html
+END
+form-action-src-get-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-get-blocked-expected.txt
+END
+reflected-xss-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-invalid.html
+END
+reflected-xss-and-xss-protection-filter-unset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-unset-expected.txt
+END
+reflected-xss-and-xss-protection-unset-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-invalid-expected.txt
+END
+reflected-xss-and-xss-protection-invalid-unset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/153349/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-unset-expected.txt
+END
+form-action-src-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-allowed-expected.txt
+END
+securitypolicyviolation-block-cross-origin-image-from-script.html
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-cross-origin-image-from-script.html
+END
+reflected-xss-and-xss-protection-unset-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-block-expected.txt
+END
+reflected-xss-and-xss-protection-block-unset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-unset-expected.txt
+END
+reflected-xss-and-xss-protection-allow-filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-filter.html
+END
+plugintypes-notype-url-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/126047/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-notype-url-expected.txt
+END
+reflected-xss-and-xss-protection-filter-filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-filter.html
+END
+plugintypes-notype-data-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/126047/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-notype-data-expected.txt
+END
+form-action-src-get-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-get-blocked.html
+END
+securitypolicy-alloweval-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-alloweval-expected.txt
+END
+reflected-xss-and-xss-protection-filter-unset.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-unset.html
+END
+reflected-xss-and-xss-protection-invalid-unset.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-unset.html
+END
+reflected-xss-and-xss-protection-unset-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-invalid.html
+END
+securitypolicy-allowfontfrom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowfontfrom-expected.txt
+END
+form-action-src-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-allowed.html
+END
+reflected-xss-and-xss-protection-invalid-filter-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/blink/!svn/ver/153349/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-filter-expected.txt
+END
+reflected-xss-and-xss-protection-block-unset.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-unset.html
+END
+reflected-xss-and-xss-protection-unset-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-block.html
+END
+securitypolicyviolation-block-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-image-expected.txt
+END
+plugintypes-notype-url.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-notype-url.html
+END
+securitypolicy-allowimagefrom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowimagefrom-expected.txt
+END
+plugintypes-notype-data.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-notype-data.html
+END
+reflected-xss-and-xss-protection-unset-unset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-unset-expected.txt
+END
+securitypolicy-alloweval.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-alloweval.html
+END
+plugintypes-url-02-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-url-02-expected.txt
+END
+reflected-xss-and-xss-protection-invalid-filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-filter.html
+END
+form-action-src-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-blocked-expected.txt
+END
+securitypolicy-allowfontfrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowfontfrom.html
+END
+plugintypes-nourl-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-nourl-allowed-expected.txt
+END
+securitypolicyviolation-block-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-image.html
+END
+securitypolicy-reporturi-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-reporturi-expected.txt
+END
+securitypolicy-allowimagefrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowimagefrom.html
+END
+reflected-xss-and-xss-protection-unset-unset.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-unset.html
+END
+reflected-xss-and-xss-protection-unset-filter-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-filter-expected.txt
+END
+securitypolicy-allowinlinescript-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowinlinescript-expected.txt
+END
+securitypolicyviolation-block-image-from-script-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-image-from-script-expected.txt
+END
+plugintypes-url-02.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-url-02.html
+END
+form-action-src-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-blocked.html
+END
+plugintypes-nourl-allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-nourl-allowed.html
+END
+securitypolicy-allowframefrom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowframefrom-expected.txt
+END
+securitypolicy-reporturi.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-reporturi.html
+END
+securitypolicy-allowstylefrom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowstylefrom-expected.txt
+END
+reflected-xss-and-xss-protection-unset-filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-unset-filter.html
+END
+securitypolicy-allowscriptfrom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowscriptfrom-expected.txt
+END
+securitypolicy-allowinlinescript.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowinlinescript.html
+END
+securitypolicyviolation-block-image-from-script.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-image-from-script.html
+END
+securitypolicyviolation-basics-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-basics-expected.txt
+END
+plugintypes-nourl-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-nourl-blocked-expected.txt
+END
+securitypolicy-allowinlinestyle-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowinlinestyle-expected.txt
+END
+base-uri-allow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/146886/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/base-uri-allow-expected.txt
+END
+securitypolicy-allowformaction-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/125983/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowformaction-expected.txt
+END
+securitypolicy-allowframefrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowframefrom.html
+END
+securitypolicy-allowstylefrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowstylefrom.html
+END
+plugintypes-mismatched-url-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-mismatched-url-expected.txt
+END
+securitypolicy-allowscriptfrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowscriptfrom.html
+END
+form-action-src-redirect-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-redirect-blocked-expected.txt
+END
+securitypolicyviolation-basics.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-basics.html
+END
+plugintypes-mismatched-data-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-mismatched-data-expected.txt
+END
+plugintypes-nourl-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-nourl-blocked.html
+END
+form-action-src-javascript-blocked-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-javascript-blocked-expected.txt
+END
+securitypolicy-allowinlinestyle.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowinlinestyle.html
+END
+base-uri-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/146886/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/base-uri-allow.html
+END
+securitypolicy-allowformaction.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowformaction.html
+END
+reflected-xss-allow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-allow-expected.txt
+END
+plugintypes-mismatched-url.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-mismatched-url.html
+END
+form-action-src-redirect-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-redirect-blocked.html
+END
+reflected-xss-filter-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-filter-expected.txt
+END
+securitypolicy-isactive-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-isactive-expected.txt
+END
+plugintypes-mismatched-data.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-mismatched-data.html
+END
+form-action-src-javascript-blocked.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-javascript-blocked.html
+END
+reflected-xss-and-xss-protection-allow-allow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-allow-expected.txt
+END
+plugintypes-url-01-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-url-01-expected.txt
+END
+reflected-xss-empty-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/153349/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-empty-expected.txt
+END
+base-uri-deny-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/146886/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/base-uri-deny-expected.txt
+END
+plugintypes-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/125531/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-invalid-expected.txt
+END
+form-action-src-default-ignored-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/blink/!svn/ver/125772/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-default-ignored-expected.txt
+END
+reflected-xss-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-allow.html
+END
+reflected-xss-and-xss-protection-filter-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-invalid-expected.txt
+END
+reflected-xss-filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-filter.html
+END
+securitypolicy-isactive.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/133620/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-isactive.html
+END
+reflected-xss-and-xss-protection-block-filter-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-filter-expected.txt
+END
+reflected-xss-and-xss-protection-allow-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-allow.html
+END
+scriptnonce-redirect-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-redirect-expected.txt
+END
+plugintypes-url-01.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-url-01.html
+END
+base-uri-deny.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/146886/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/base-uri-deny.html
+END
+reflected-xss-empty.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-empty.html
+END
+plugintypes-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/133095/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/plugintypes-invalid.html
+END
+form-action-src-default-ignored.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/form-action-src-default-ignored.html
+END
+reflected-xss-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-block-expected.txt
+END
+reflected-xss-and-xss-protection-filter-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-invalid.html
+END
+reflected-xss-and-xss-protection-filter-allow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-allow-expected.txt
+END
+reflected-xss-and-xss-protection-allow-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/145503/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-invalid-expected.txt
+END
+reflected-xss-and-xss-protection-invalid-allow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/blink/!svn/ver/153349/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-allow-expected.txt
+END
+reflected-xss-and-xss-protection-block-filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-filter.html
+END
+reflected-xss-and-xss-protection-allow-block-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-block-expected.txt
+END
+reflected-xss-and-xss-protection-block-allow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/blink/!svn/ver/154564/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-allow-expected.txt
+END
+scriptnonce-redirect.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-redirect.html
+END
+scriptnonce-allowed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/blink/!svn/ver/121883/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-allowed-expected.txt
+END
+report-uri-effective-directive-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/154215/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/report-uri-effective-directive-expected.txt
+END
+reflected-xss-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/148433/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-block.html
+END
+securitypolicy-allowconnectionto-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowconnectionto-expected.txt
+END
+securitypolicy-allowmediafrom-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/blink/!svn/ver/123722/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicy-allowmediafrom-expected.txt
+END
+reflected-xss-and-xss-protection-filter-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-filter-allow.html
+END
+reflected-xss-and-xss-protection-invalid-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-invalid-allow.html
+END
+reflected-xss-and-xss-protection-allow-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-invalid.html
+END
+scriptnonce-invalidnonce-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/blink/!svn/ver/150541/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/scriptnonce-invalidnonce-expected.txt
+END
+securitypolicyviolation-block-cross-origin-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/blink/!svn/ver/154206/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/securitypolicyviolation-block-cross-origin-image-expected.txt
+END
+reflected-xss-and-xss-protection-allow-block.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-allow-block.html
+END
+reflected-xss-and-xss-protection-block-allow.html
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/blink/!svn/ver/143880/trunk/LayoutTests/http/tests/security/contentSecurityPolicy/1.1/reflected-xss-and-xss-protection-block-allow.html
+END

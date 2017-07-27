@@ -1,0 +1,81 @@
+[
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]/gclient.py", 
+      "config", 
+      "--spec", 
+      "cache_dir = None\ndeps_os = {}\nhooks = []\nsolutions = [{'custom_deps': {'src/third_party/WebKit/LayoutTests': None, 'src/webkit/data/layout_tests/LayoutTests': None}, 'custom_vars': {'googlecode_url': 'svn://svn-mirror.golo.chromium.org/%s', 'nacl_trunk': 'svn://svn-mirror.golo.chromium.org/native_client/trunk', 'sourceforge_url': 'svn://svn-mirror.golo.chromium.org/%(repo)s', 'webkit_trunk': 'svn://svn-mirror.golo.chromium.org/blink/trunk'}, 'deps_file': 'DEPS', 'managed': True, 'name': 'src', 'safesync_url': None, 'url': 'svn://svn-mirror.golo.chromium.org/chrome/trunk/src'}]\ntarget_os = []\ntarget_os_only = False"
+    ], 
+    "name": "gclient setup", 
+    "seed_steps": [
+      "gclient setup", 
+      "gclient revert", 
+      "gclient sync"
+    ]
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[BUILD_ROOT]/scripts/slave/gclient_safe_revert.py", 
+      ".", 
+      "[DEPOT_TOOLS_ROOT]/gclient"
+    ], 
+    "name": "gclient revert"
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]/gclient.py", 
+      "sync", 
+      "--nohooks"
+    ], 
+    "name": "gclient sync"
+  }, 
+  {
+    "cmd": [
+      "python", 
+      "-u", 
+      "[DEPOT_TOOLS_ROOT]/apply_issue.py", 
+      "-r", 
+      "[SLAVE_BUILD_ROOT]/src/", 
+      "-i", 
+      12853011, 
+      "-p", 
+      1, 
+      "-s", 
+      "https://chromiumcodereview.appspot.com", 
+      "--no-auth"
+    ], 
+    "name": "apply_issue"
+  }, 
+  {
+    "cmd": [
+      "[DEPOT_TOOLS_ROOT]/presubmit_support.py", 
+      "--root", 
+      "[SLAVE_BUILD_ROOT]/src/", 
+      "--commit", 
+      "--verbose", 
+      "--verbose", 
+      "--issue", 
+      12853011, 
+      "--patchset", 
+      1, 
+      "--skip_canned", 
+      "CheckRietveldTryJobExecution", 
+      "--skip_canned", 
+      "CheckTreeIsOpen", 
+      "--skip_canned", 
+      "CheckBuildbotPendingBuilds", 
+      "--rietveld_url", 
+      "https://chromiumcodereview.appspot.com", 
+      "--rietveld_email", 
+      "", 
+      "--rietveld_fetch"
+    ], 
+    "name": "presubmit"
+  }
+]

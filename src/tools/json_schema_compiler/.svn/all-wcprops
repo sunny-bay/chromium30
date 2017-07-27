@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/213673/trunk/src/tools/json_schema_compiler
+END
+cpp_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/180845/trunk/src/tools/json_schema_compiler/cpp_generator.py
+END
+cpp_type_generator_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/190058/trunk/src/tools/json_schema_compiler/cpp_type_generator_test.py
+END
+json_schema_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/208110/trunk/src/tools/json_schema_compiler/json_schema_test.py
+END
+idl_schema.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/210615/trunk/src/tools/json_schema_compiler/idl_schema.py
+END
+json_schema.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/180845/trunk/src/tools/json_schema_compiler/json_schema.py
+END
+cpp_type_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/211497/trunk/src/tools/json_schema_compiler/cpp_type_generator.py
+END
+cc_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/213673/trunk/src/tools/json_schema_compiler/cc_generator.py
+END
+schema_util_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/179232/trunk/src/tools/json_schema_compiler/schema_util_test.py
+END
+schema_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/179232/trunk/src/tools/json_schema_compiler/schema_util.py
+END
+h_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/211497/trunk/src/tools/json_schema_compiler/h_generator.py
+END
+dart_generator_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/199083/trunk/src/tools/json_schema_compiler/dart_generator_test.py
+END
+model_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/211497/trunk/src/tools/json_schema_compiler/model_test.py
+END
+dart_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/211054/trunk/src/tools/json_schema_compiler/dart_generator.py
+END
+model.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/211497/trunk/src/tools/json_schema_compiler/model.py
+END
+json_parse.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/193334/trunk/src/tools/json_schema_compiler/json_parse.py
+END
+memoize.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/193334/trunk/src/tools/json_schema_compiler/memoize.py
+END
+api_gen_util.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/177361/trunk/src/tools/json_schema_compiler/api_gen_util.gyp
+END
+code_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/129484/trunk/src/tools/json_schema_compiler/code_test.py
+END
+PRESUBMIT.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/129484/trunk/src/tools/json_schema_compiler/PRESUBMIT.py
+END
+code.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/180845/trunk/src/tools/json_schema_compiler/code.py
+END
+util.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/207907/trunk/src/tools/json_schema_compiler/util.cc
+END
+compiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/190058/trunk/src/tools/json_schema_compiler/compiler.py
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/213673/trunk/src/tools/json_schema_compiler/util.h
+END
+cpp_util_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/180845/trunk/src/tools/json_schema_compiler/cpp_util_test.py
+END
+cpp_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/211497/trunk/src/tools/json_schema_compiler/cpp_util.py
+END
+preview.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/203102/trunk/src/tools/json_schema_compiler/preview.py
+END
+util_cc_helper.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/177361/trunk/src/tools/json_schema_compiler/util_cc_helper.py
+END
+cpp_bundle_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/206313/trunk/src/tools/json_schema_compiler/cpp_bundle_generator.py
+END
+schema_loader.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/190058/trunk/src/tools/json_schema_compiler/schema_loader.py
+END
+idl_schema_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/187418/trunk/src/tools/json_schema_compiler/idl_schema_test.py
+END

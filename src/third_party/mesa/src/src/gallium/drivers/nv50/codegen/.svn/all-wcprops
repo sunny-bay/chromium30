@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen
+END
+nv50_ir_build_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_build_util.cpp
+END
+nv50_ir_print.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_print.cpp
+END
+nv50_ir_lowering_nv50.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_lowering_nv50.cpp
+END
+nv50_ir_target_nv50.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_target_nv50.cpp
+END
+nv50_ir_driver.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_driver.h
+END
+nv50_ir_peephole.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_peephole.cpp
+END
+nv50_ir_graph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_graph.cpp
+END
+nv50_ir_build_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_build_util.h
+END
+nv50_ir_ra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_ra.cpp
+END
+nv50_ir_target_nv50.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_target_nv50.h
+END
+nv50_ir_inlines.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_inlines.h
+END
+nv50_ir_graph.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_graph.h
+END
+nv50_ir_emit_nv50.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_emit_nv50.cpp
+END
+nv50_ir_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_util.cpp
+END
+nv50_ir.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir.cpp
+END
+nv50_ir_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_util.h
+END
+nv50_ir_bb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_bb.cpp
+END
+nv50_ir.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir.h
+END
+nv50_ir_from_sm4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_from_sm4.cpp
+END
+nv50_ir_ssa.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_ssa.cpp
+END
+nv50_ir_target.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_target.cpp
+END
+nv50_ir_from_tgsi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_from_tgsi.cpp
+END
+nv50_ir_target.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_target.h
+END
+nv50_ir_from_sm4.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/nv50/codegen/nv50_ir_from_sm4.h
+END

@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8458/trunk/KERN/usrsctp/usrsctplib/netinet
+END
+sctp_output.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8407/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_output.h
+END
+sctp_pcb.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8421/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_pcb.h
+END
+sctp_asconf.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8407/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_asconf.c
+END
+sctp_ss_functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_ss_functions.c
+END
+sctp_asconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7939/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_asconf.h
+END
+sctp_timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8407/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_timer.c
+END
+sctp_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_timer.h
+END
+sctp_os.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_os.h
+END
+sctp_dtrace_declare.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_dtrace_declare.h
+END
+sctp_process_lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7931/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_process_lock.h
+END
+sctp_var.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8398/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_var.h
+END
+sctp_hashdriver.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7931/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_hashdriver.c
+END
+sctp_os_userspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8440/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_os_userspace.h
+END
+sctp_indata.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8418/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_indata.c
+END
+sctp_auth.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8378/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_auth.c
+END
+sctp_uio.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8296/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_uio.h
+END
+sctp_bsd_addr.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/8447/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_bsd_addr.c
+END
+sctp_callout.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8431/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_callout.c
+END
+sctp_hashdriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_hashdriver.h
+END
+sctp_indata.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7939/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_indata.h
+END
+sctp_auth.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_auth.h
+END
+sctp_bsd_addr.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7921/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_bsd_addr.h
+END
+sctp_lock_userspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_lock_userspace.h
+END
+sctp_callout.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7931/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_callout.h
+END
+sctp_structs.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8407/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_structs.h
+END
+sctp_crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8410/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_crc32.c
+END
+sctp_cc_functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8179/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_cc_functions.c
+END
+sctputil.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8429/trunk/KERN/usrsctp/usrsctplib/netinet/sctputil.c
+END
+sctp_peeloff.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8363/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_peeloff.c
+END
+sctp_usrreq.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8421/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_usrreq.c
+END
+sctp_sysctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8407/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_sysctl.c
+END
+sctp_crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_crc32.h
+END
+sctp_dtrace_define.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_dtrace_define.h
+END
+sctp_constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8446/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_constants.h
+END
+sctputil.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8334/trunk/KERN/usrsctp/usrsctplib/netinet/sctputil.h
+END
+sctp_peeloff.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8352/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_peeloff.h
+END
+sctp.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8407/trunk/KERN/usrsctp/usrsctplib/netinet/sctp.h
+END
+sctp_sysctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7931/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_sysctl.h
+END
+sctp_userspace.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8440/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_userspace.c
+END
+sctp_sha1.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8168/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_sha1.c
+END
+sctp_header.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8407/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_header.h
+END
+sctp_input.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8434/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_input.c
+END
+sctp_output.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8458/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_output.c
+END
+sctp_sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7790/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_sha1.h
+END
+sctp_input.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8191/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_input.h
+END
+sctp_pcb.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8422/trunk/KERN/usrsctp/usrsctplib/netinet/sctp_pcb.c
+END

@@ -1,0 +1,971 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blink/!svn/ver/155422/trunk/LayoutTests/platform/win/fast/text
+END
+atsui-partial-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-partial-selection-expected.txt
+END
+atsui-multiple-renderers-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/atsui-multiple-renderers-expected.txt
+END
+shadow-no-blur-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/shadow-no-blur-expected.png
+END
+justify-ideograph-complex-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-complex-expected.png
+END
+shadow-translucent-fill-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/shadow-translucent-fill-expected.txt
+END
+word-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-space-expected.png
+END
+emphasis-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/emphasis-expected.png
+END
+text-shadow-no-default-color-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/text-shadow-no-default-color-expected.txt
+END
+emphasis-overlap-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/emphasis-overlap-expected.txt
+END
+emphasis-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/emphasis-vertical-expected.txt
+END
+updateNewFont-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/updateNewFont-expected.txt
+END
+bidi-embedding-pop-and-push-same-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/bidi-embedding-pop-and-push-same-expected.png
+END
+decorations-with-text-combine-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/decorations-with-text-combine-expected.png
+END
+wbr-in-pre-crash-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-in-pre-crash-expected.png
+END
+drawBidiText-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/drawBidiText-expected.png
+END
+selection-hard-linebreak-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/selection-hard-linebreak-expected.png
+END
+break-word-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/break-word-expected.png
+END
+cg-vs-atsui-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/cg-vs-atsui-expected.txt
+END
+monospace-width-cache-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/monospace-width-cache-expected.txt
+END
+selection-rect-rounding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/selection-rect-rounding-expected.txt
+END
+complex-text-opacity-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/complex-text-opacity-expected.png
+END
+justify-ideograph-vertical-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-vertical-expected.txt
+END
+midword-break-hang-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/midword-break-hang-expected.png
+END
+complex-synthetic-bold-space-width-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/complex-synthetic-bold-space-width-expected.png
+END
+justified-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justified-selection-expected.txt
+END
+embed-at-end-of-pre-wrap-line-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/embed-at-end-of-pre-wrap-line-expected.png
+END
+atsui-kerning-and-ligatures-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/atsui-kerning-and-ligatures-expected.txt
+END
+wbr-pre-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-pre-expected.txt
+END
+capitalize-empty-generated-string-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/capitalize-empty-generated-string-expected.txt
+END
+text-stroke-with-border-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/text-stroke-with-border-expected.png
+END
+capitalize-preserve-nbsp-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/capitalize-preserve-nbsp-expected.png
+END
+stripNullFromText-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/stripNullFromText-expected.txt
+END
+atsui-negative-spacing-features-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-negative-spacing-features-expected.png
+END
+atsui-rtl-override-selection-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-rtl-override-selection-expected.png
+END
+fallback-traits-fixup-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/fallback-traits-fixup-expected.txt
+END
+atsui-small-caps-punctuation-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/154837/trunk/LayoutTests/platform/win/fast/text/atsui-small-caps-punctuation-size-expected.txt
+END
+wbr-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-expected.png
+END
+zero-font-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/zero-font-size-expected.png
+END
+unicode-variation-selector-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/unicode-variation-selector-expected.png
+END
+justify-ideograph-leading-expansion-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-leading-expansion-expected.png
+END
+wide-zero-width-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wide-zero-width-space-expected.txt
+END
+justified-selection-at-edge-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justified-selection-at-edge-expected.txt
+END
+vertical-rl-rtl-linebreak-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/vertical-rl-rtl-linebreak-expected.txt
+END
+atsui-pointtooffset-calls-cg-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-pointtooffset-calls-cg-expected.png
+END
+trailing-white-space-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/trailing-white-space-2-expected.txt
+END
+line-initial-and-final-swashes-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/line-initial-and-final-swashes-expected.txt
+END
+orientation-sideways-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/orientation-sideways-expected.txt
+END
+capitalize-boundaries-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/capitalize-boundaries-expected.png
+END
+offsetForPosition-complex-fallback-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/offsetForPosition-complex-fallback-expected.txt
+END
+trailing-white-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/trailing-white-space-expected.png
+END
+softHyphen-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/softHyphen-expected.txt
+END
+delete-hard-break-character-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/delete-hard-break-character-expected.txt
+END
+letter-spacing-negative-opacity-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/letter-spacing-negative-opacity-expected.png
+END
+complex-preferred-logical-widths-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/complex-preferred-logical-widths-expected.png
+END
+shadow-no-blur-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/shadow-no-blur-expected.txt
+END
+decorations-transformed-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/decorations-transformed-expected.png
+END
+justify-ideograph-complex-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-complex-expected.txt
+END
+word-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-space-expected.txt
+END
+word-break-soft-hyphen-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-break-soft-hyphen-expected.png
+END
+line-breaks-after-white-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/line-breaks-after-white-space-expected.png
+END
+cg-fallback-bolding-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/cg-fallback-bolding-expected.png
+END
+text-letter-spacing-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/text-letter-spacing-expected.png
+END
+emphasis-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/emphasis-expected.txt
+END
+format-control-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/format-control-expected.png
+END
+emphasis-combined-text-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/emphasis-combined-text-expected.png
+END
+fake-italic-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/fake-italic-expected.png
+END
+decorations-with-text-combine-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/decorations-with-text-combine-expected.txt
+END
+bidi-embedding-pop-and-push-same-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/bidi-embedding-pop-and-push-same-expected.txt
+END
+wbr-in-pre-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-in-pre-crash-expected.txt
+END
+should-use-atsui-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/should-use-atsui-expected.png
+END
+backslash-to-yen-sign-euc-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/backslash-to-yen-sign-euc-expected.png
+END
+word-break-run-rounding-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-break-run-rounding-expected.png
+END
+justify-ideograph-simple-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-simple-expected.png
+END
+drawBidiText-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/drawBidiText-expected.txt
+END
+selection-hard-linebreak-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/selection-hard-linebreak-expected.txt
+END
+midword-break-before-surrogate-pair-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/midword-break-before-surrogate-pair-2-expected.png
+END
+break-word-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/break-word-expected.txt
+END
+complex-text-opacity-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/complex-text-opacity-expected.txt
+END
+line-breaks-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/line-breaks-expected.png
+END
+wbr-styled-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-styled-expected.png
+END
+midword-break-hang-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/midword-break-hang-expected.txt
+END
+large-text-composed-char-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/large-text-composed-char-expected.png
+END
+complex-synthetic-bold-space-width-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/complex-synthetic-bold-space-width-expected.txt
+END
+embed-at-end-of-pre-wrap-line-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/embed-at-end-of-pre-wrap-line-expected.txt
+END
+backslash-to-yen-sign-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/backslash-to-yen-sign-expected.png
+END
+reset-emptyRun-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/reset-emptyRun-expected.png
+END
+midword-break-after-breakable-char-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/midword-break-after-breakable-char-expected.png
+END
+stroking-decorations-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/stroking-decorations-expected.png
+END
+text-stroke-with-border-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/text-stroke-with-border-expected.txt
+END
+capitalize-preserve-nbsp-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/capitalize-preserve-nbsp-expected.txt
+END
+in-rendered-text-rtl-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/in-rendered-text-rtl-expected.png
+END
+atsui-negative-spacing-features-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/atsui-negative-spacing-features-expected.txt
+END
+atsui-rtl-override-selection-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/atsui-rtl-override-selection-expected.txt
+END
+atsui-spacing-features-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-spacing-features-expected.png
+END
+backslash-to-yen-sign-dynamic-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/backslash-to-yen-sign-dynamic-expected.png
+END
+wbr-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-expected.txt
+END
+zero-font-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/zero-font-size-expected.txt
+END
+textIteratorNilRenderer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/textIteratorNilRenderer-expected.png
+END
+midword-break-before-surrogate-pair-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/midword-break-before-surrogate-pair-expected.png
+END
+unicode-variation-selector-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/unicode-variation-selector-expected.txt
+END
+justify-ideograph-leading-expansion-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-leading-expansion-expected.txt
+END
+font-initial-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/font-initial-expected.png
+END
+word-break-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-break-expected.png
+END
+stroking-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/stroking-expected.png
+END
+atsui-partial-selection-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-partial-selection-expected.png
+END
+atsui-pointtooffset-calls-cg-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/atsui-pointtooffset-calls-cg-expected.txt
+END
+atsui-multiple-renderers-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-multiple-renderers-expected.png
+END
+shadow-translucent-fill-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/shadow-translucent-fill-expected.png
+END
+capitalize-boundaries-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/capitalize-boundaries-expected.txt
+END
+trailing-white-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/trailing-white-space-expected.txt
+END
+justify-padding-distribution-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-padding-distribution-expected.png
+END
+text-shadow-no-default-color-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/text-shadow-no-default-color-expected.png
+END
+emphasis-vertical-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/emphasis-vertical-expected.png
+END
+letter-spacing-negative-opacity-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/letter-spacing-negative-opacity-expected.txt
+END
+updateNewFont-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/updateNewFont-expected.png
+END
+complex-preferred-logical-widths-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/complex-preferred-logical-widths-expected.txt
+END
+word-break-soft-hyphen-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-break-soft-hyphen-expected.txt
+END
+cg-fallback-bolding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/cg-fallback-bolding-expected.txt
+END
+justify-nbsp-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-nbsp-expected.png
+END
+line-breaks-after-white-space-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/line-breaks-after-white-space-expected.txt
+END
+text-letter-spacing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153727/trunk/LayoutTests/platform/win/fast/text/text-letter-spacing-expected.txt
+END
+format-control-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/format-control-expected.txt
+END
+cg-vs-atsui-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/cg-vs-atsui-expected.png
+END
+monospace-width-cache-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/monospace-width-cache-expected.png
+END
+selection-rect-rounding-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/selection-rect-rounding-expected.png
+END
+fake-italic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/fake-italic-expected.txt
+END
+emphasis-combined-text-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/emphasis-combined-text-expected.txt
+END
+justify-ideograph-vertical-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-vertical-expected.png
+END
+should-use-atsui-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/should-use-atsui-expected.txt
+END
+backslash-to-yen-sign-euc-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/backslash-to-yen-sign-euc-expected.txt
+END
+justified-selection-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justified-selection-expected.png
+END
+atsui-kerning-and-ligatures-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-kerning-and-ligatures-expected.png
+END
+word-break-run-rounding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-break-run-rounding-expected.txt
+END
+wbr-pre-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-pre-expected.png
+END
+justify-ideograph-simple-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justify-ideograph-simple-expected.txt
+END
+capitalize-empty-generated-string-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/capitalize-empty-generated-string-expected.png
+END
+midword-break-before-surrogate-pair-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/155422/trunk/LayoutTests/platform/win/fast/text/midword-break-before-surrogate-pair-2-expected.txt
+END
+wbr-styled-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wbr-styled-expected.txt
+END
+line-breaks-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/154967/trunk/LayoutTests/platform/win/fast/text/line-breaks-expected.txt
+END
+large-text-composed-char-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/large-text-composed-char-expected.txt
+END
+fallback-traits-fixup-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/fallback-traits-fixup-expected.png
+END
+backslash-to-yen-sign-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/backslash-to-yen-sign-expected.txt
+END
+reset-emptyRun-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/reset-emptyRun-expected.txt
+END
+atsui-small-caps-punctuation-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/atsui-small-caps-punctuation-size-expected.png
+END
+midword-break-after-breakable-char-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/midword-break-after-breakable-char-expected.txt
+END
+stroking-decorations-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/stroking-decorations-expected.txt
+END
+in-rendered-text-rtl-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/in-rendered-text-rtl-expected.txt
+END
+wide-zero-width-space-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/wide-zero-width-space-expected.png
+END
+vertical-rl-rtl-linebreak-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/vertical-rl-rtl-linebreak-expected.png
+END
+justified-selection-at-edge-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/justified-selection-at-edge-expected.png
+END
+atsui-spacing-features-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/text/atsui-spacing-features-expected.txt
+END
+trailing-white-space-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/trailing-white-space-2-expected.png
+END
+backslash-to-yen-sign-dynamic-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/backslash-to-yen-sign-dynamic-expected.txt
+END
+line-initial-and-final-swashes-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/line-initial-and-final-swashes-expected.png
+END
+orientation-sideways-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/orientation-sideways-expected.png
+END
+textIteratorNilRenderer-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/154967/trunk/LayoutTests/platform/win/fast/text/textIteratorNilRenderer-expected.txt
+END
+midword-break-before-surrogate-pair-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/midword-break-before-surrogate-pair-expected.txt
+END
+softHyphen-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/softHyphen-expected.png
+END
+word-break-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/word-break-expected.txt
+END
+delete-hard-break-character-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/delete-hard-break-character-expected.png
+END
+stroking-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/text/stroking-expected.txt
+END

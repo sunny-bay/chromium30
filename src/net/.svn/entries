@@ -1,0 +1,270 @@
+10
+
+dir
+215540
+http://src.chromium.org/svn/trunk/src/net
+http://src.chromium.org/svn
+
+
+
+2013-08-04T06:42:51.182825Z
+215534
+akalin@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+4ff67af0-8c30-449e-8e8b-ad334ec8d88c
+
+test
+dir
+
+spdy
+dir
+
+http
+dir
+
+android
+dir
+
+proxy
+dir
+
+dns
+dir
+
+net.gyp
+file
+
+
+
+
+2013-08-05T08:48:43.661280Z
+82c1454f9217fc0efef50109339a2fa0
+2013-07-31T22:27:59.794210Z
+214839
+kkania@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+113461
+
+socket
+dir
+
+udp
+dir
+
+ftp
+dir
+
+third_party
+dir
+
+DEPS
+file
+
+
+
+
+2013-08-05T08:48:43.661280Z
+863ec36f43e41e7226f851dd39315709
+2013-05-30T23:14:47.914131Z
+203262
+thestig@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+243
+
+cookies
+dir
+
+cert
+dir
+
+tools
+dir
+
+ssl
+dir
+
+quic
+dir
+
+PRESUBMIT.py
+file
+
+
+
+
+2013-08-05T08:48:43.676880Z
+365781b46a9bf10a673660074640bf1c
+2012-03-02T21:16:55.626088Z
+124732
+maruel@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+786
+
+socket_stream
+dir
+
+ocsp
+dir
+
+server
+dir
+
+curvecp
+dir
+
+net_unittests.isolate
+file
+
+
+
+
+2013-08-05T08:48:43.661280Z
+dc10cf7e503904ec37e13bb628503178
+2013-07-25T14:01:52.812765Z
+213624
+maruel@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2157
+
+data
+dir
+
+websockets
+dir
+
+base
+dir
+
+url_request
+dir
+
+disk_cache
+dir
+
+OWNERS
+file
+
+
+
+
+2013-08-05T08:48:43.661280Z
+5ab37dedb04dba813adeede77ce9c0a9
+2013-04-05T21:15:58.429195Z
+192635
+csharp@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+392
+

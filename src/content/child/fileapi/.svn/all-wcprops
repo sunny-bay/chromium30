@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/215024/trunk/src/content/child/fileapi
+END
+file_system_dispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/214654/trunk/src/content/child/fileapi/file_system_dispatcher.h
+END
+webfilewriter_impl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/214957/trunk/src/content/child/fileapi/webfilewriter_impl.cc
+END
+webfilewriter_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/214957/trunk/src/content/child/fileapi/webfilewriter_impl.h
+END
+webfilesystem_callback_adapters.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/214654/trunk/src/content/child/fileapi/webfilesystem_callback_adapters.cc
+END
+webfilesystem_callback_adapters.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/214654/trunk/src/content/child/fileapi/webfilesystem_callback_adapters.h
+END
+webfilesystem_impl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/215024/trunk/src/content/child/fileapi/webfilesystem_impl.cc
+END
+webfilesystem_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/214654/trunk/src/content/child/fileapi/webfilesystem_impl.h
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/205901/trunk/src/content/child/fileapi/OWNERS
+END
+file_system_dispatcher.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/214654/trunk/src/content/child/fileapi/file_system_dispatcher.cc
+END

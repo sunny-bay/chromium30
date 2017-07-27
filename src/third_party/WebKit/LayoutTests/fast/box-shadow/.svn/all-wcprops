@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/blink/!svn/ver/153619/trunk/LayoutTests/fast/box-shadow
+END
+transform-fringing.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blink/!svn/ver/45477/trunk/LayoutTests/fast/box-shadow/transform-fringing.html
+END
+no-blur-multiple-offsets.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/box-shadow/no-blur-multiple-offsets.html
+END
+inset-box-shadows.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/78062/trunk/LayoutTests/fast/box-shadow/inset-box-shadows.html
+END
+inset-shadow-large-offset.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/77958/trunk/LayoutTests/fast/box-shadow/inset-shadow-large-offset.html
+END
+single-pixel-shadow.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/blink/!svn/ver/85299/trunk/LayoutTests/fast/box-shadow/single-pixel-shadow.html
+END
+box-shadow-with-zero-radius-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/145474/trunk/LayoutTests/fast/box-shadow/box-shadow-with-zero-radius-expected.html
+END
+basic-shadows-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blink/!svn/ver/153619/trunk/LayoutTests/fast/box-shadow/basic-shadows-2.html
+END
+shadow-buffer-partial.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/78173/trunk/LayoutTests/fast/box-shadow/shadow-buffer-partial.html
+END
+spread-multiple-inset.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/box-shadow/spread-multiple-inset.html
+END
+basic-shadows-2-expected-mismatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/153619/trunk/LayoutTests/fast/box-shadow/basic-shadows-2-expected-mismatch.html
+END
+spread-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/94628/trunk/LayoutTests/fast/box-shadow/spread-expected.txt
+END
+inset-box-shadow-radius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/inset-box-shadow-radius-expected.txt
+END
+box-shadow-currentcolor.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/box-shadow/box-shadow-currentcolor.html
+END
+inset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/inset-expected.txt
+END
+spread-multiple-normal.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/box-shadow/spread-multiple-normal.html
+END
+inset-with-extraordinary-radii-and-border-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/94628/trunk/LayoutTests/fast/box-shadow/inset-with-extraordinary-radii-and-border-expected.txt
+END
+inset-shadow-large-offset-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/91914/trunk/LayoutTests/fast/box-shadow/inset-shadow-large-offset-expected.png
+END
+box-shadow-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/77101/trunk/LayoutTests/fast/box-shadow/box-shadow-radius.html
+END
+basic-shadows-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/basic-shadows-expected.txt
+END
+border-radius-big.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/44235/trunk/LayoutTests/fast/box-shadow/border-radius-big.html
+END
+box-shadow-transformed-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/box-shadow-transformed-expected.txt
+END
+box-shadow-currentcolor-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/110313/trunk/LayoutTests/fast/box-shadow/box-shadow-currentcolor-expected.png
+END
+box-shadow-parsing-invalid-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/146762/trunk/LayoutTests/fast/box-shadow/box-shadow-parsing-invalid-expected.txt
+END
+spread.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blink/!svn/ver/46097/trunk/LayoutTests/fast/box-shadow/spread.html
+END
+shadow-tiling-artifact-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/shadow-tiling-artifact-expected.txt
+END
+scaled-box-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/scaled-box-shadow-expected.txt
+END
+inset-box-shadow-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/77110/trunk/LayoutTests/fast/box-shadow/inset-box-shadow-radius.html
+END
+inset.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/50200/trunk/LayoutTests/fast/box-shadow/inset.html
+END
+box-shadow-clipped-slices-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/92340/trunk/LayoutTests/fast/box-shadow/box-shadow-clipped-slices-expected.txt
+END
+inset-with-extraordinary-radii-and-border.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/77105/trunk/LayoutTests/fast/box-shadow/inset-with-extraordinary-radii-and-border.html
+END
+box-shadow-with-zero-radius.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/145474/trunk/LayoutTests/fast/box-shadow/box-shadow-with-zero-radius.html
+END
+transform-fringing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/transform-fringing-expected.txt
+END
+basic-shadows.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blink/!svn/ver/18654/trunk/LayoutTests/fast/box-shadow/basic-shadows.html
+END
+no-blur-multiple-offsets-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/95207/trunk/LayoutTests/fast/box-shadow/no-blur-multiple-offsets-expected.txt
+END
+inset-box-shadows-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/inset-box-shadows-expected.txt
+END
+image-box-shadow-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/141637/trunk/LayoutTests/fast/box-shadow/image-box-shadow-expected.html
+END
+image-box-shadow.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/141637/trunk/LayoutTests/fast/box-shadow/image-box-shadow.html
+END
+inset-shadow-large-offset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/77958/trunk/LayoutTests/fast/box-shadow/inset-shadow-large-offset-expected.txt
+END
+box-shadow-transformed.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/77101/trunk/LayoutTests/fast/box-shadow/box-shadow-transformed.html
+END
+single-pixel-shadow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/single-pixel-shadow-expected.txt
+END
+box-shadow-parsing-invalid.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/146762/trunk/LayoutTests/fast/box-shadow/box-shadow-parsing-invalid.html
+END
+shadow-buffer-partial-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/118571/trunk/LayoutTests/fast/box-shadow/shadow-buffer-partial-expected.txt
+END
+spread-multiple-inset-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/82520/trunk/LayoutTests/fast/box-shadow/spread-multiple-inset-expected.txt
+END
+shadow-tiling-artifact.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/77601/trunk/LayoutTests/fast/box-shadow/shadow-tiling-artifact.html
+END
+box-shadow-currentcolor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/96952/trunk/LayoutTests/fast/box-shadow/box-shadow-currentcolor-expected.txt
+END
+scaled-box-shadow.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/blink/!svn/ver/87009/trunk/LayoutTests/fast/box-shadow/scaled-box-shadow.html
+END
+spread-multiple-normal-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/74673/trunk/LayoutTests/fast/box-shadow/spread-multiple-normal-expected.txt
+END
+box-shadow-clipped-slices.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/120681/trunk/LayoutTests/fast/box-shadow/box-shadow-clipped-slices.html
+END
+box-shadow-radius-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/box-shadow-radius-expected.txt
+END
+border-radius-big-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/148246/trunk/LayoutTests/fast/box-shadow/border-radius-big-expected.txt
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2
+END
+platform_wayland.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/platform_wayland.c
+END
+platform_android.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/platform_android.c
+END
+platform_drm.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/platform_drm.c
+END
+egl_dri2.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/egl_dri2.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/Makefile.am
+END
+common.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/common.c
+END
+egl_dri2.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/egl_dri2.h
+END
+platform_x11.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/egl/drivers/dri2/platform_x11.c
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blink/!svn/ver/155387/trunk/LayoutTests/platform/mac-lion/compositing
+END
+layout-width-change-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/layout-width-change-expected.png
+END
+self-painting-layers-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/self-painting-layers-expected.png
+END
+text-on-large-layer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/text-on-large-layer-expected.png
+END
+direct-image-compositing-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/direct-image-compositing-expected.png
+END
+layers-inside-overflow-scroll-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/layers-inside-overflow-scroll-expected.png
+END
+generated-content-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/generated-content-expected.png
+END
+backface-visibility-transformed-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/backface-visibility-transformed-expected.png
+END
+sibling-positioning-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/sibling-positioning-expected.png
+END
+video-frame-size-change-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/video-frame-size-change-expected.png
+END
+compositing-visible-descendant-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-lion/compositing/compositing-visible-descendant-expected.png
+END

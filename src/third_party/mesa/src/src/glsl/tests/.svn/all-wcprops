@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests
+END
+compare_ir
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/compare_ir
+END
+set_uniform_initializer_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/set_uniform_initializer_tests.cpp
+END
+optimization-test
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/optimization-test
+END
+uniform_initializer_utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/uniform_initializer_utils.cpp
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/.gitignore
+END
+uniform_initializer_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/uniform_initializer_utils.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/Makefile.am
+END
+sexps.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/sexps.py
+END
+copy_constant_to_storage_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/copy_constant_to_storage_tests.cpp
+END
+ralloc_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/glsl/tests/ralloc_test.cpp
+END

@@ -1,0 +1,431 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blink/!svn/ver/154829/trunk/LayoutTests/fast/forms/number
+END
+number-stepup-stepdown-from-renderer.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-stepup-stepdown-from-renderer.html
+END
+number-appearance-spinbutton-visibility-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-appearance-spinbutton-visibility-expected.html
+END
+number-setrangetext-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-setrangetext-expected.txt
+END
+number-blur-twice-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-blur-twice-expected.txt
+END
+number-change-type-on-focus.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/123563/trunk/LayoutTests/fast/forms/number/number-change-type-on-focus.html
+END
+number-losing-renderer-on-click.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/123563/trunk/LayoutTests/fast/forms/number/number-losing-renderer-on-click.html
+END
+number-interactive-validation-required-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/152413/trunk/LayoutTests/fast/forms/number/number-interactive-validation-required-expected.txt
+END
+number-lossless-localization.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/124979/trunk/LayoutTests/fast/forms/number/number-lossless-localization.html
+END
+number-spinbutton-click-in-iframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/130293/trunk/LayoutTests/fast/forms/number/number-spinbutton-click-in-iframe.html
+END
+number-validity-badinput-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/139151/trunk/LayoutTests/fast/forms/number/number-validity-badinput-expected.txt
+END
+number-validity-typemismatch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-typemismatch-expected.txt
+END
+number-spinbutton-in-multi-column-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-in-multi-column-expected.txt
+END
+number-size.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-size.html
+END
+number-type-update-by-change-event.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/151175/trunk/LayoutTests/fast/forms/number/number-type-update-by-change-event.html
+END
+number-appearance-spinbutton-layer.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-appearance-spinbutton-layer.html
+END
+number-blur-twice.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-blur-twice.html
+END
+number-setrangetext.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/131969/trunk/LayoutTests/fast/forms/number/number-setrangetext.html
+END
+number-content-url-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/134584/trunk/LayoutTests/fast/forms/number/number-content-url-crash-expected.txt
+END
+number-valueasnumber-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-valueasnumber-expected.txt
+END
+number-interactive-validation-required.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/127564/trunk/LayoutTests/fast/forms/number/number-interactive-validation-required.html
+END
+number-validity-badinput.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/139151/trunk/LayoutTests/fast/forms/number/number-validity-badinput.html
+END
+number-validity-typemismatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-typemismatch.html
+END
+number-spinbutton-in-multi-column.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-in-multi-column.html
+END
+number-spinbutton-state-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-state-expected.txt
+END
+number-large-padding-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-large-padding-expected.txt
+END
+number-content-url-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/134584/trunk/LayoutTests/fast/forms/number/number-content-url-crash.html
+END
+number-spinbutton-capturing-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-capturing-expected.txt
+END
+number-valueasnumber.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-valueasnumber.html
+END
+number-spinbutton-crash-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-crash-expected.txt
+END
+number-commit-valid-only-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/135598/trunk/LayoutTests/fast/forms/number/number-commit-valid-only-expected.txt
+END
+number-spinbutton-state.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-state.html
+END
+number-keyoperation-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-keyoperation-expected.txt
+END
+number-validation-message-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/151525/trunk/LayoutTests/fast/forms/number/number-validation-message-expected.txt
+END
+number-appearance-spinbutton-visibility.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-appearance-spinbutton-visibility.html
+END
+number-placeholder-with-unacceptable-value-expected.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/101847/trunk/LayoutTests/fast/forms/number/number-placeholder-with-unacceptable-value-expected.html
+END
+number-placeholder-with-unacceptable-value.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/101847/trunk/LayoutTests/fast/forms/number/number-placeholder-with-unacceptable-value.html
+END
+number-large-padding.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-large-padding.html
+END
+number-validity-stepmismatch-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-stepmismatch-expected.txt
+END
+number-spinbutton-capturing.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-capturing.html
+END
+number-spinbutton-change-and-input-events-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/123692/trunk/LayoutTests/fast/forms/number/number-spinbutton-change-and-input-events-expected.txt
+END
+number-spinbutton-crash.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-crash.html
+END
+number-commit-valid-only.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/135598/trunk/LayoutTests/fast/forms/number/number-commit-valid-only.html
+END
+number-keyoperation.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-keyoperation.html
+END
+number-validation-message.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/151525/trunk/LayoutTests/fast/forms/number/number-validation-message.html
+END
+number-validity-rangeoverflow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-rangeoverflow-expected.txt
+END
+number-spinbutton-gets-disabled-or-readonly-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-gets-disabled-or-readonly-expected.txt
+END
+number-validity-rangeunderflow-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-rangeunderflow-expected.txt
+END
+number-l10n-input-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/142122/trunk/LayoutTests/fast/forms/number/number-l10n-input-expected.txt
+END
+number-outofrange-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-outofrange-expected.txt
+END
+number-validity-stepmismatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-stepmismatch.html
+END
+number-spinbutton-change-and-input-events.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/130884/trunk/LayoutTests/fast/forms/number/number-spinbutton-change-and-input-events.html
+END
+number-stepup-stepdown-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-stepup-stepdown-expected.txt
+END
+number-wheel-event-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/125740/trunk/LayoutTests/fast/forms/number/number-wheel-event-expected.txt
+END
+number-input-changeevent-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/102226/trunk/LayoutTests/fast/forms/number/number-input-changeevent-expected.txt
+END
+number-appearance-rtl.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-appearance-rtl.html
+END
+number-stepup-stepdown-from-renderer-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/122552/trunk/LayoutTests/fast/forms/number/number-stepup-stepdown-from-renderer-expected.txt
+END
+number-validity-rangeoverflow.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-rangeoverflow.html
+END
+number-spinbutton-gets-disabled-or-readonly.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-spinbutton-gets-disabled-or-readonly.html
+END
+number-validity-rangeunderflow.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/blink/!svn/ver/123836/trunk/LayoutTests/fast/forms/number/number-validity-rangeunderflow.html
+END
+number-change-type-on-focus-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/125854/trunk/LayoutTests/fast/forms/number/number-change-type-on-focus-expected.txt
+END
+number-losing-renderer-on-click-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/123446/trunk/LayoutTests/fast/forms/number/number-losing-renderer-on-click-expected.txt
+END
+number-lossless-localization-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/124979/trunk/LayoutTests/fast/forms/number/number-lossless-localization-expected.txt
+END
+number-l10n-input.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/142122/trunk/LayoutTests/fast/forms/number/number-l10n-input.html
+END
+number-spinbutton-click-in-iframe-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/128423/trunk/LayoutTests/fast/forms/number/number-spinbutton-click-in-iframe-expected.txt
+END
+number-outofrange.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-outofrange.html
+END
+number-stepup-stepdown.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-stepup-stepdown.html
+END
+number-appearance-spinbutton-disabled-readonly.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/123302/trunk/LayoutTests/fast/forms/number/number-appearance-spinbutton-disabled-readonly.html
+END
+number-wheel-event.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blink/!svn/ver/125747/trunk/LayoutTests/fast/forms/number/number-wheel-event.html
+END
+number-input-changeevent.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/121008/trunk/LayoutTests/fast/forms/number/number-input-changeevent.html
+END
+number-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/blink/!svn/ver/152573/trunk/LayoutTests/fast/forms/number/number-size-expected.txt
+END
+number-type-update-by-change-event-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/151175/trunk/LayoutTests/fast/forms/number/number-type-update-by-change-event-expected.txt
+END

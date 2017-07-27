@@ -1,0 +1,53 @@
+{
+  "blink": {
+    "build_config_fs": "Release", 
+    "build_dir": "out", 
+    "compile_py": {
+      "build_tool": "ninja", 
+      "compiler": "goma", 
+      "default_targets": [
+        "all_webkit"
+      ]
+    }, 
+    "gyp_env": {
+      "GYP_DEFINES": "component=static_library", 
+      "GYP_GENERATORS": "ninja", 
+      "GYP_GENERATOR_FLAGS": "", 
+      "GYP_MSVS_VERSION": null
+    }
+  }, 
+  "chromium": {
+    "build_config_fs": "Release", 
+    "build_dir": "out", 
+    "compile_py": {
+      "build_tool": "ninja", 
+      "compiler": "goma", 
+      "default_targets": [
+        "All", 
+        "chromium_builder_tests"
+      ]
+    }, 
+    "gyp_env": {
+      "GYP_DEFINES": "component=static_library", 
+      "GYP_GENERATORS": "ninja", 
+      "GYP_GENERATOR_FLAGS": "", 
+      "GYP_MSVS_VERSION": null
+    }
+  }, 
+  "msvs": "can not use msvs on \"mac\"", 
+  "ninja": {
+    "build_config_fs": "Release", 
+    "build_dir": "out", 
+    "compile_py": {
+      "build_tool": "ninja", 
+      "compiler": null, 
+      "default_targets": []
+    }, 
+    "gyp_env": {
+      "GYP_DEFINES": "component=static_library", 
+      "GYP_GENERATORS": "ninja", 
+      "GYP_GENERATOR_FLAGS": "", 
+      "GYP_MSVS_VERSION": null
+    }
+  }
+}

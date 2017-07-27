@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blink/!svn/ver/155228/trunk/LayoutTests/http/tests/htmlimports/resources
+END
+importing-cors.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/blink/!svn/ver/154924/trunk/LayoutTests/http/tests/htmlimports/resources/importing-cors.html
+END
+blocked-script.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/blink/!svn/ver/155228/trunk/LayoutTests/http/tests/htmlimports/resources/blocked-script.js
+END
+having-unsafe-eval-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/having-unsafe-eval-policy.html
+END
+sniff-js.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/sniff-js.cgi
+END
+cors-js.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/cors-js.cgi
+END
+having-domain-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/having-domain-policy.html
+END
+having-sniffing-script.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/having-sniffing-script.html
+END
+import-blocking-child-1.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/155228/trunk/LayoutTests/http/tests/htmlimports/resources/import-blocking-child-1.html
+END
+import-blocking-child-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/155228/trunk/LayoutTests/http/tests/htmlimports/resources/import-blocking-child-2.html
+END
+child-having-self-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/child-having-self-policy.html
+END
+cors-basic.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/blink/!svn/ver/151523/trunk/LayoutTests/http/tests/htmlimports/resources/cors-basic.cgi
+END
+child-having-unsafe-inline-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/child-having-unsafe-inline-policy.html
+END
+run-check.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/run-check.js
+END
+cors-js-for-localhost.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/cors-js-for-localhost.cgi
+END
+child-having-nonce-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/child-having-nonce-policy.html
+END
+external-script.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/external-script.js
+END
+child-having-unsafe-eval-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/child-having-unsafe-eval-policy.html
+END
+child-having-domain-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/child-having-domain-policy.html
+END
+import-blocking-nested-child-1.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/155228/trunk/LayoutTests/http/tests/htmlimports/resources/import-blocking-nested-child-1.html
+END
+having-self-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/having-self-policy.html
+END
+import-blocking-nested-child-2.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/155228/trunk/LayoutTests/http/tests/htmlimports/resources/import-blocking-nested-child-2.html
+END
+cors-having-crossorigin-scripts.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/cors-having-crossorigin-scripts.cgi
+END
+blocking-script-js.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/blink/!svn/ver/155228/trunk/LayoutTests/http/tests/htmlimports/resources/blocking-script-js.cgi
+END
+hello.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/151523/trunk/LayoutTests/http/tests/htmlimports/resources/hello.html
+END
+having-unsafe-inline-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/having-unsafe-inline-policy.html
+END
+external-script-with-nonce.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/external-script-with-nonce.js
+END
+cookie.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blink/!svn/ver/151523/trunk/LayoutTests/http/tests/htmlimports/resources/cookie.cgi
+END
+csp-blocking.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/blink/!svn/ver/154924/trunk/LayoutTests/http/tests/htmlimports/resources/csp-blocking.cgi
+END
+having-nonce-policy.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/blink/!svn/ver/155149/trunk/LayoutTests/http/tests/htmlimports/resources/having-nonce-policy.html
+END
+having-csp-directive.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/154924/trunk/LayoutTests/http/tests/htmlimports/resources/having-csp-directive.html
+END

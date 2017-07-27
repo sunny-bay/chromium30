@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blink/!svn/ver/154174/trunk/LayoutTests/platform/win/compositing/masks
+END
+direct-image-mask-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/direct-image-mask-expected.txt
+END
+masked-ancestor-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/154174/trunk/LayoutTests/platform/win/compositing/masks/masked-ancestor-expected.png
+END
+simple-composited-mask-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/simple-composited-mask-expected.txt
+END
+multiple-masks-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/multiple-masks-expected.txt
+END
+direct-image-mask-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/direct-image-mask-expected.png
+END
+mask-of-clipped-layer-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/mask-of-clipped-layer-expected.png
+END
+simple-composited-mask-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/simple-composited-mask-expected.png
+END
+multiple-masks-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/multiple-masks-expected.png
+END
+layer-mask-placement-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/layer-mask-placement-expected.png
+END
+masked-ancestor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/compositing/masks/masked-ancestor-expected.txt
+END

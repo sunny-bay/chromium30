@@ -1,0 +1,441 @@
+10
+
+dir
+119756
+http://src.chromium.org/svn/trunk/deps/third_party/xulrunner-sdk/win/include
+http://src.chromium.org/svn
+
+
+
+2009-06-08T19:37:49.906789Z
+17887
+robertshield@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4ff67af0-8c30-449e-8e8b-ad334ec8d88c
+
+lwbrk
+dir
+
+embedcomponents
+dir
+
+libpixman
+dir
+
+satchel
+dir
+
+png
+dir
+
+imglib2
+dir
+
+jpeg
+dir
+
+caps
+dir
+
+toolkitcomps
+dir
+
+alerts
+dir
+
+morkreader
+dir
+
+exthandler
+dir
+
+lcms
+dir
+
+necko
+dir
+
+zlib
+dir
+
+storage
+dir
+
+libmar
+dir
+
+intl
+dir
+
+liveconnect
+dir
+
+content
+dir
+
+js
+dir
+
+commandhandler
+dir
+
+ucvcn
+dir
+
+xpinstall
+dir
+
+dom
+dir
+
+appcomps
+dir
+
+sqlite3
+dir
+
+nsStaticComponents.h
+file
+
+
+
+
+2013-08-05T09:25:46.713224Z
+97b9044b76223707e0c2e94ca38427a7
+2008-12-31T00:02:47.792845Z
+7516
+ananta@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026
+
+windowwatcher
+dir
+
+feeds
+dir
+
+ucvko
+dir
+
+ucvtw2
+dir
+
+txtsvc
+dir
+
+docshell
+dir
+
+zipwriter
+dir
+
+prefetch
+dir
+
+profile
+dir
+
+mozilla-config.h
+file
+
+
+
+
+2013-08-05T09:25:46.715224Z
+d5291ab7afc868689ab4f9b761df05ab
+2008-12-31T00:02:47.792845Z
+7516
+ananta@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2120
+
+nss
+dir
+
+webshell
+dir
+
+string
+dir
+
+places
+dir
+
+ucvmath
+dir
+
+rdf
+dir
+
+util
+dir
+
+htmlparser
+dir
+
+expat
+dir
+
+oji
+dir
+
+nspr
+dir
+
+xml-rpc
+dir
+
+widget
+dir
+
+browser
+dir
+
+jsdebug
+dir
+
+crashreporter
+dir
+
+libbz2
+dir
+
+shistory
+dir
+
+gfx
+dir
+
+ucvlatin
+dir
+
+imgicon
+dir
+
+uriloader
+dir
+
+xpcom
+dir
+
+accessibility
+dir
+
+simple
+dir
+
+parentalcontrols
+dir
+
+downloads
+dir
+
+uconv
+dir
+
+webbrowserpersist
+dir
+
+pref
+dir
+
+nkcache
+dir
+
+plugin
+dir
+
+autoconfig
+dir
+
+extensions
+dir
+
+locale
+dir
+
+jsurl
+dir
+
+profdirserviceprovider
+dir
+
+txmgr
+dir
+
+xpconnect
+dir
+
+libreg
+dir
+
+inspector
+dir
+
+ucvtw
+dir
+
+cookie
+dir
+
+xulapp
+dir
+
+contentprefs
+dir
+
+view
+dir
+
+jar
+dir
+
+layout
+dir
+
+loginmgr
+dir
+
+find
+dir
+
+ax_common
+dir
+
+java
+dir
+
+update
+dir
+
+ucvibm
+dir
+
+editor
+dir
+
+urlformatter
+dir
+
+unicharutil
+dir
+
+composer
+dir
+
+mimetype
+dir
+
+pippki
+dir
+
+cairo
+dir
+
+webbrwsr
+dir
+
+xuldoc
+dir
+
+fastfind
+dir
+
+exthelper
+dir
+
+xml
+dir
+
+autocomplete
+dir
+
+xulrunner
+dir
+
+spellchecker
+dir
+
+xultmpl
+dir
+
+embed_base
+dir
+
+ucvja
+dir
+
+appshell
+dir
+
+rdfutil
+dir
+
+chardet
+dir
+
+thebes
+dir
+
+pipboot
+dir
+
+pipnss
+dir
+
+chrome
+dir
+

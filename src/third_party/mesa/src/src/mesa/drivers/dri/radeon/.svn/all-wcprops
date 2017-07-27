@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon
+END
+radeon_dma.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_dma.h
+END
+radeon_fog.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_fog.c
+END
+radeon_state.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_state.c
+END
+radeon_fog.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_fog.h
+END
+radeon_maos_arrays.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_maos_arrays.c
+END
+radeon_buffer_objects.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_buffer_objects.c
+END
+radeon_tcl.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_tcl.c
+END
+radeon_context.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_context.c
+END
+radeon_state.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_state.h
+END
+Makefile.sources
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/Makefile.sources
+END
+radeon_buffer_objects.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_buffer_objects.h
+END
+radeon_tcl.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_tcl.h
+END
+radeon_common.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_common.c
+END
+radeon_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_context.h
+END
+radeon_swtcl.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_swtcl.c
+END
+radeon_tile.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_tile.c
+END
+radeon_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_common.h
+END
+radeon_maos.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_maos.c
+END
+radeon_tex.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_tex.c
+END
+radeon_texture.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_texture.c
+END
+radeon_texstate.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_texstate.c
+END
+radeon_span.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_span.c
+END
+radeon_swtcl.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_swtcl.h
+END
+radeon_tile.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_tile.h
+END
+radeon_mipmap_tree.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_mipmap_tree.c
+END
+radeon_maos.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_maos.h
+END
+radeon_cmdbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_cmdbuf.h
+END
+radeon_tex.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_tex.h
+END
+radeon_texture.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_texture.h
+END
+radeon_fbo.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_fbo.c
+END
+radeon_span.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_span.h
+END
+radeon_mipmap_tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_mipmap_tree.h
+END
+radeon_sanity.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_sanity.c
+END
+radeon_ioctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_ioctl.c
+END
+radeon_sanity.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_sanity.h
+END
+radeon_maos_vbtmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_maos_vbtmp.h
+END
+radeon_pixel_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_pixel_read.c
+END
+radeon_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_ioctl.h
+END
+radeon_screen.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_screen.c
+END
+radeon_maos_verts.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_maos_verts.c
+END
+radeon_screen.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_screen.h
+END
+radeon_debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_debug.c
+END
+radeon_blit.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_blit.c
+END
+radeon_tex_copy.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_tex_copy.c
+END
+radeon_debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_debug.h
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/.gitignore
+END
+radeon_common_context.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_common_context.c
+END
+radeon_blit.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_blit.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/Makefile.am
+END
+radeon_queryobj.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_queryobj.c
+END
+radeon_dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_dma.c
+END
+radeon_common_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_common_context.h
+END
+radeon_state_init.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_state_init.c
+END
+radeon_chipset.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_chipset.h
+END
+radeon_queryobj.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/mesa/drivers/dri/radeon/radeon_queryobj.h
+END

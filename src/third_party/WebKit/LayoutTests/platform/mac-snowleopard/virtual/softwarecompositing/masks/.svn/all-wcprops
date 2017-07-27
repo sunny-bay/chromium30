@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/virtual/softwarecompositing/masks
+END
+masked-ancestor-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/virtual/softwarecompositing/masks/masked-ancestor-expected.png
+END
+direct-image-mask-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/virtual/softwarecompositing/masks/direct-image-mask-expected.png
+END
+simple-composited-mask-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/virtual/softwarecompositing/masks/simple-composited-mask-expected.png
+END
+multiple-masks-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/blink/!svn/ver/153544/trunk/LayoutTests/platform/mac-snowleopard/virtual/softwarecompositing/masks/multiple-masks-expected.png
+END

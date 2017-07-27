@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests
+END
+test_context.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/test_context.c
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/.gitignore
+END
+test_subpicture.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/test_subpicture.c
+END
+testlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/testlib.c
+END
+test_surface.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/test_surface.c
+END
+testlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/testlib.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/Makefile
+END
+test_blocks.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/test_blocks.c
+END
+test_rendering.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/test_rendering.c
+END
+xvmc_bench.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/state_trackers/xvmc/tests/xvmc_bench.c
+END

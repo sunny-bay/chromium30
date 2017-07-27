@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blink/!svn/ver/154967/trunk/LayoutTests/platform/win/fast/sub-pixel
+END
+transformed-iframe-copy-on-scroll-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/154837/trunk/LayoutTests/platform/win/fast/sub-pixel/transformed-iframe-copy-on-scroll-expected.txt
+END
+sub-pixel-iframe-copy-on-scroll-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/154829/trunk/LayoutTests/platform/win/fast/sub-pixel/sub-pixel-iframe-copy-on-scroll-expected.txt
+END
+transformed-iframe-copy-on-scroll-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/blink/!svn/ver/153371/trunk/LayoutTests/platform/win/fast/sub-pixel/transformed-iframe-copy-on-scroll-expected.png
+END
+sub-pixel-iframe-copy-on-scroll-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/sub-pixel/sub-pixel-iframe-copy-on-scroll-expected.png
+END
+sub-pixel-accumulates-to-layers-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/fast/sub-pixel/sub-pixel-accumulates-to-layers-expected.png
+END

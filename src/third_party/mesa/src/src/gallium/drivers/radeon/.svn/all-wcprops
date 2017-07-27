@@ -1,0 +1,545 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon
+END
+AMDILDevices.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILDevices.h
+END
+AMDGPUSubtarget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUSubtarget.cpp
+END
+R600MachineFunctionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600MachineFunctionInfo.cpp
+END
+AMDILSIDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILSIDevice.cpp
+END
+AMDILNIDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILNIDevice.h
+END
+AMDILBase.td
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILBase.td
+END
+AMDILUtilityFunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILUtilityFunctions.h
+END
+AMDGPUInstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUInstrInfo.cpp
+END
+AMDGPUTargetMachine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUTargetMachine.cpp
+END
+AMDILCFGStructurizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILCFGStructurizer.cpp
+END
+SIInstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIInstrInfo.h
+END
+AMDILFrameLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILFrameLowering.h
+END
+radeon_llvm_emit.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/radeon_llvm_emit.h
+END
+AMDILDeviceInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILDeviceInfo.h
+END
+AMDILIntrinsicInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILIntrinsicInfo.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/Makefile
+END
+AMDILNIDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILNIDevice.cpp
+END
+AMDGPURegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPURegisterInfo.cpp
+END
+SIRegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIRegisterInfo.h
+END
+R600Instructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600Instructions.td
+END
+AMDGPUSubtarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUSubtarget.h
+END
+R600MachineFunctionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600MachineFunctionInfo.h
+END
+AMDGPUMCInstLower.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUMCInstLower.cpp
+END
+SIISelLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIISelLowering.h
+END
+AMDILSIDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILSIDevice.h
+END
+AMDILInstrInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILInstrInfo.td
+END
+SIInstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIInstrInfo.cpp
+END
+R600RegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600RegisterInfo.cpp
+END
+radeon_setup_tgsi_llvm.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/radeon_setup_tgsi_llvm.c
+END
+AMDILISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILISelLowering.cpp
+END
+AMDILPeepholeOptimizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILPeepholeOptimizer.cpp
+END
+R600KernelParameters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600KernelParameters.cpp
+END
+SISchedule.td
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SISchedule.td
+END
+SIGenRegisterInfo.pl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIGenRegisterInfo.pl
+END
+AMDILIntrinsics.td
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILIntrinsics.td
+END
+AMDIL7XXDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDIL7XXDevice.h
+END
+AMDGPUAsmPrinter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUAsmPrinter.cpp
+END
+R600IntrinsicsOpenCL.td
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600IntrinsicsOpenCL.td
+END
+AMDILIntrinsicInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILIntrinsicInfo.cpp
+END
+R600InstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600InstrInfo.h
+END
+SIInstrInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIInstrInfo.td
+END
+AMDILISelDAGToDAG.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILISelDAGToDAG.cpp
+END
+SIISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIISelLowering.cpp
+END
+AMDGPURegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPURegisterInfo.h
+END
+AMDGPUISelLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUISelLowering.h
+END
+AMDILDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILDevice.cpp
+END
+AMDGPUCodeEmitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUCodeEmitter.h
+END
+AMDGPUIntrinsics.td
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUIntrinsics.td
+END
+AMDGPUMCInstLower.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUMCInstLower.h
+END
+AMDIL7XXDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDIL7XXDevice.cpp
+END
+R600RegisterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600RegisterInfo.h
+END
+AMDGPUConvertToISA.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUConvertToISA.cpp
+END
+AMDILEvergreenDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILEvergreenDevice.h
+END
+Makefile.sources
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/Makefile.sources
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/LICENSE.TXT
+END
+R600IntrinsicsNoOpenCL.td
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600IntrinsicsNoOpenCL.td
+END
+R600ISelLowering.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600ISelLowering.h
+END
+SIMachineFunctionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIMachineFunctionInfo.cpp
+END
+AMDGPURegisterInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPURegisterInfo.td
+END
+R600InstrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600InstrInfo.cpp
+END
+AMDGPUAsmPrinter.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUAsmPrinter.h
+END
+AMDGPUInstructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUInstructions.td
+END
+R600Schedule.td
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600Schedule.td
+END
+R600Defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600Defines.h
+END
+R600ExpandSpecialInstrs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600ExpandSpecialInstrs.cpp
+END
+R600GenRegisterInfo.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600GenRegisterInfo.pl
+END
+AMDGPUInstrInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUInstrInfo.td
+END
+AMDGPUISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUISelLowering.cpp
+END
+AMDGPU.td
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPU.td
+END
+SIIntrinsics.td
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIIntrinsics.td
+END
+loader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/loader.cpp
+END
+radeon_llvm.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/radeon_llvm.h
+END
+AMDILFrameLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILFrameLowering.cpp
+END
+AMDILEvergreenDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILEvergreenDevice.cpp
+END
+R600ISelLowering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/R600ISelLowering.cpp
+END
+AMDILDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILDevice.h
+END
+SIInstrFormats.td
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIInstrFormats.td
+END
+AMDGPUInstrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUInstrInfo.h
+END
+AMDGPUTargetMachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPUTargetMachine.h
+END
+radeon_llvm_emit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/radeon_llvm_emit.cpp
+END
+AMDGPU.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDGPU.h
+END
+AMDILDeviceInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILDeviceInfo.cpp
+END
+SIAssignInterpRegs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIAssignInterpRegs.cpp
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/.gitignore
+END
+SIInstructions.td
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIInstructions.td
+END
+Processors.td
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/Processors.td
+END
+SIMachineFunctionInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIMachineFunctionInfo.h
+END
+AMDIL.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDIL.h
+END
+AMDILRegisterInfo.td
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/AMDILRegisterInfo.td
+END
+SIRegisterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/206309/trunk/deps/third_party/mesa/src/gallium/drivers/radeon/SIRegisterInfo.cpp
+END

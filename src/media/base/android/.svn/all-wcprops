@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/215462/trunk/src/media/base/android
+END
+media_player_android.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/208375/trunk/src/media/base/android/media_player_android.cc
+END
+media_player_android.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/215103/trunk/src/media/base/android/media_player_android.h
+END
+media_drm_bridge.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/209354/trunk/src/media/base/android/media_drm_bridge.cc
+END
+media_drm_bridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/208375/trunk/src/media/base/android/media_drm_bridge.h
+END
+media_player_listener.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/211115/trunk/src/media/base/android/media_player_listener.cc
+END
+media_resource_getter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/189126/trunk/src/media/base/android/media_resource_getter.cc
+END
+media_jni_registrar.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/202323/trunk/src/media/base/android/media_jni_registrar.cc
+END
+media_player_listener.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/211115/trunk/src/media/base/android/media_player_listener.h
+END
+media_resource_getter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/211572/trunk/src/media/base/android/media_resource_getter.h
+END
+media_jni_registrar.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/165420/trunk/src/media/base/android/media_jni_registrar.h
+END
+demuxer_stream_player_params.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/215093/trunk/src/media/base/android/demuxer_stream_player_params.cc
+END
+demuxer_stream_player_params.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/215093/trunk/src/media/base/android/demuxer_stream_player_params.h
+END
+media_player_bridge.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/215103/trunk/src/media/base/android/media_player_bridge.cc
+END
+webaudio_media_codec_bridge.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/205000/trunk/src/media/base/android/webaudio_media_codec_bridge.cc
+END
+webaudio_media_codec_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/198029/trunk/src/media/base/android/webaudio_media_codec_info.h
+END
+media_player_bridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/215103/trunk/src/media/base/android/media_player_bridge.h
+END
+webaudio_media_codec_bridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/205000/trunk/src/media/base/android/webaudio_media_codec_bridge.h
+END
+media_source_player_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/215103/trunk/src/media/base/android/media_source_player_unittest.cc
+END
+media_source_player.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/215462/trunk/src/media/base/android/media_source_player.cc
+END
+media_source_player.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/215103/trunk/src/media/base/android/media_source_player.h
+END
+media_player_manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/211512/trunk/src/media/base/android/media_player_manager.h
+END
+media_codec_bridge_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/212743/trunk/src/media/base/android/media_codec_bridge_unittest.cc
+END
+media_codec_bridge.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/215103/trunk/src/media/base/android/media_codec_bridge.cc
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/209531/trunk/src/media/base/android/OWNERS
+END
+media_codec_bridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/215103/trunk/src/media/base/android/media_codec_bridge.h
+END

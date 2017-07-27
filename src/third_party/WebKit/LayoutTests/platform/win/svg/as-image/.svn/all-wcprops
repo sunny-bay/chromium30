@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/blink/!svn/ver/154967/trunk/LayoutTests/platform/win/svg/as-image
+END
+animated-svg-as-image-same-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-as-image-same-image-expected.txt
+END
+animated-svg-as-image-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-as-image-expected.png
+END
+same-image-two-instances-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/same-image-two-instances-expected.png
+END
+animated-svg-as-image-same-image-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-as-image-same-image-expected.png
+END
+animated-svg-repaints-completely-in-hidpi-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-repaints-completely-in-hidpi-expected.txt
+END
+image-respects-deviceScaleFactor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/image-respects-deviceScaleFactor-expected.txt
+END
+img-preserveAspectRatio-support-1-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/img-preserveAspectRatio-support-1-expected.txt
+END
+img-preserveAspectRatio-support-2-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/154967/trunk/LayoutTests/platform/win/svg/as-image/img-preserveAspectRatio-support-2-expected.txt
+END
+animated-svg-as-image-no-fixed-intrinsic-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-as-image-no-fixed-intrinsic-size-expected.txt
+END
+img-preserveAspectRatio-support-1-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/img-preserveAspectRatio-support-1-expected.png
+END
+image-respects-deviceScaleFactor-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/image-respects-deviceScaleFactor-expected.png
+END
+animated-svg-repaints-completely-in-hidpi-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-repaints-completely-in-hidpi-expected.png
+END
+img-preserveAspectRatio-support-2-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/img-preserveAspectRatio-support-2-expected.png
+END
+svg-image-change-content-size-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/svg-image-change-content-size-expected.txt
+END
+animated-svg-as-image-no-fixed-intrinsic-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-as-image-no-fixed-intrinsic-size-expected.png
+END
+image-preserveAspectRatio-all-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/image-preserveAspectRatio-all-expected.png
+END
+svg-image-change-content-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/svg-image-change-content-size-expected.png
+END
+image-respects-pageScaleFactor-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/image-respects-pageScaleFactor-expected.txt
+END
+svg-as-relative-image-with-explicit-size-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/svg-as-relative-image-with-explicit-size-expected.png
+END
+svg-as-relative-image-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/svg-as-relative-image-expected.png
+END
+image-respects-pageScaleFactor-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/image-respects-pageScaleFactor-expected.png
+END
+svg-non-integer-scaled-image-expected.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/svg-non-integer-scaled-image-expected.png
+END
+animated-svg-as-image-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/animated-svg-as-image-expected.txt
+END
+same-image-two-instances-expected.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blink/!svn/ver/153304/trunk/LayoutTests/platform/win/svg/as-image/same-image-two-instances-expected.txt
+END
