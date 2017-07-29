@@ -1,86 +1,0 @@
-10
-
-dir
-210110
-http://src.chromium.org/svn/trunk/deps/third_party/mesa/src/gallium/winsys/sw
-http://src.chromium.org/svn
-
-
-
-2013-06-14T05:29:08.438517Z
-206309
-kbr@chromium.org
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4ff67af0-8c30-449e-8e8b-ad334ec8d88c
-
-wayland
-dir
-
-android
-dir
-
-wrapper
-dir
-
-gdi
-dir
-
-fbdev
-dir
-
-null
-dir
-
-Makefile
-file
-
-
-
-
-2013-08-05T08:56:35.842909Z
-53f7bc4ca6cd1e9785a0f4e8ac8b48be
-2013-06-14T05:29:08.438517Z
-206309
-kbr@chromium.org
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-571
-
-dri
-dir
-
-xlib
-dir
-

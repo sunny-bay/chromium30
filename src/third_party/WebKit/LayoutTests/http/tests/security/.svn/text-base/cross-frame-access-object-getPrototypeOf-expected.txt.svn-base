@@ -1,4 +1,0 @@
-This tests that you can't get the prototype of the window object cross-origin using Object.getPrototypeOf().
-
-PASS: Object.getPrototypeOf(targetWindow) should have thrown an exception, and did.
-

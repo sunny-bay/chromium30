@@ -1,5 +1,0 @@
-Test that stale distribution data stored in the ElementShadow is not used.
-
-Passes if it does not crash or assert
-
-

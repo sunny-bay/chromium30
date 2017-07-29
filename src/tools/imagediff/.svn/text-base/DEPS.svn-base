@@ -1,3 +1,0 @@
-include_rules = [
-  "+webkit/support/webkit_support_gfx.h",
-]
