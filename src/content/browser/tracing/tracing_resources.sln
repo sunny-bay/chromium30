@@ -1,0 +1,70 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(browser)", "..\..\..\..\content\browser", "{05612B81-8C06-4D9F-2940-1F090A7AFEA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(content)", "..\..\..\..\content", "{E3A8CD23-337F-37A2-E567-55492FCA3791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(third_party)", "..\..\..\..\third_party", "{89C816A7-DD31-D54C-C69C-5A80E0C49B77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(trace-viewer)", "..\..\..\..\third_party\trace-viewer", "{A960A9F2-FB52-1F40-085E-BF04CC0213B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(tracing)", "..\..\..\..\content\browser\tracing", "{80248E9B-7B71-9446-F886-C0B5E1C0037E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "generate_about_tracing", "..\..\..\third_party\trace-viewer\generate_about_tracing.vcxproj", "{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "generate_tracing_grd", "generate_tracing_grd.vcxproj", "{5654B055-7129-80B8-C278-45A14AF2D068}"
+	ProjectSection(ProjectDependencies) = postProject
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F} = {067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tracing_resources", "tracing_resources.vcxproj", "{6B69947E-F2CA-D46D-3157-2F6394EC52A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F} = {067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}
+		{5654B055-7129-80B8-C278-45A14AF2D068} = {5654B055-7129-80B8-C278-45A14AF2D068}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Release|x64.ActiveCfg = Release|x64
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Release|x64.Build.0 = Release|x64
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Debug|Win32.Build.0 = Debug|Win32
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Debug|x64.ActiveCfg = Debug|x64
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Debug|x64.Build.0 = Debug|x64
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Release|Win32.ActiveCfg = Release|Win32
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F}.Release|Win32.Build.0 = Release|Win32
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Release|x64.ActiveCfg = Release|x64
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Release|x64.Build.0 = Release|x64
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Debug|Win32.Build.0 = Debug|Win32
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Debug|x64.ActiveCfg = Debug|x64
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Debug|x64.Build.0 = Debug|x64
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Release|Win32.ActiveCfg = Release|Win32
+		{5654B055-7129-80B8-C278-45A14AF2D068}.Release|Win32.Build.0 = Release|Win32
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Release|x64.ActiveCfg = Release|x64
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Release|x64.Build.0 = Release|x64
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Debug|Win32.Build.0 = Debug|Win32
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Debug|x64.ActiveCfg = Debug|x64
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Debug|x64.Build.0 = Debug|x64
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Release|Win32.ActiveCfg = Release|Win32
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80248E9B-7B71-9446-F886-C0B5E1C0037E} = {05612B81-8C06-4D9F-2940-1F090A7AFEA6}
+		{05612B81-8C06-4D9F-2940-1F090A7AFEA6} = {E3A8CD23-337F-37A2-E567-55492FCA3791}
+		{A960A9F2-FB52-1F40-085E-BF04CC0213B0} = {89C816A7-DD31-D54C-C69C-5A80E0C49B77}
+		{067CA4EF-BDBD-FB06-1DE3-CC1F08988F2F} = {A960A9F2-FB52-1F40-085E-BF04CC0213B0}
+		{5654B055-7129-80B8-C278-45A14AF2D068} = {80248E9B-7B71-9446-F886-C0B5E1C0037E}
+		{6B69947E-F2CA-D46D-3157-2F6394EC52A2} = {80248E9B-7B71-9446-F886-C0B5E1C0037E}
+	EndGlobalSection
+EndGlobal

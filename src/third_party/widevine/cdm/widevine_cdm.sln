@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "widevine_cdm_binaries", "widevine_cdm_binaries.vcxproj", "{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "widevine_cdm_version_h", "widevine_cdm_version_h.vcxproj", "{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "widevinecdmadapter", "widevinecdmadapter.vcxproj", "{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Release|x64.ActiveCfg = Release|x64
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Release|x64.Build.0 = Release|x64
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Debug|Win32.Build.0 = Debug|Win32
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Debug|x64.ActiveCfg = Debug|x64
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Debug|x64.Build.0 = Debug|x64
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Release|Win32.ActiveCfg = Release|Win32
+		{C7FF0409-7F90-9D5E-04DF-ABA68409F0D9}.Release|Win32.Build.0 = Release|Win32
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Release|x64.ActiveCfg = Release|x64
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Release|x64.Build.0 = Release|x64
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Debug|Win32.Build.0 = Debug|Win32
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Debug|x64.ActiveCfg = Debug|x64
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Debug|x64.Build.0 = Debug|x64
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Release|Win32.ActiveCfg = Release|Win32
+		{E22CA390-A0BD-2DB0-D6D0-FE4F26A04F52}.Release|Win32.Build.0 = Release|Win32
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Release|x64.ActiveCfg = Release|x64
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Release|x64.Build.0 = Release|x64
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Debug|Win32.Build.0 = Debug|Win32
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Debug|x64.ActiveCfg = Debug|x64
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Debug|x64.Build.0 = Debug|x64
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Release|Win32.ActiveCfg = Release|Win32
+		{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

@@ -8,7 +8,7 @@
 *.pyc
 *.rules
 *.sdf
-*.sln
+#*.sln
 *.suo
 *.targets
 *.user

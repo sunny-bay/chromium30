@@ -1,0 +1,70 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(libjpeg_turbo)", "..\..\..\..\libjpeg_turbo", "{8BDE7D70-C0A0-0C23-2BC8-768E0C8D91DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(source)", "..\..\..\..\webrtc\system_wrappers\source", "{38B7683E-6F16-B5E1-5F7D-9D2F85A33684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(system_wrappers)", "..\..\..\..\webrtc\system_wrappers", "{C22DCE09-BE8E-C79C-FFD0-C3927B546C91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(webrtc)", "..\..\..\..\webrtc", "{FB3E20CC-9516-F7D2-EFF7-C27ABDCA54B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common_video", "common_video.vcxproj", "{83284638-49B2-B7DD-AE87-8B9B293D8B22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg", "..\..\libjpeg_turbo\libjpeg.vcxproj", "{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libyuv", "..\..\libyuv\libyuv.vcxproj", "{6200F134-0E76-9212-7188-B2B7A9B3585E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "system_wrappers", "..\system_wrappers\source\system_wrappers.vcxproj", "{F1A6F5FF-CA62-0F34-CB29-BC029137720F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Release|x64.ActiveCfg = Release|x64
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Release|x64.Build.0 = Release|x64
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Debug|Win32.Build.0 = Debug|Win32
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Debug|x64.ActiveCfg = Debug|x64
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Debug|x64.Build.0 = Debug|x64
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Release|Win32.ActiveCfg = Release|Win32
+		{6200F134-0E76-9212-7188-B2B7A9B3585E}.Release|Win32.Build.0 = Release|Win32
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Release|x64.ActiveCfg = Release|x64
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Release|x64.Build.0 = Release|x64
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Debug|Win32.Build.0 = Debug|Win32
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Debug|x64.ActiveCfg = Debug|x64
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Debug|x64.Build.0 = Debug|x64
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Release|Win32.ActiveCfg = Release|Win32
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22}.Release|Win32.Build.0 = Release|Win32
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Release|x64.ActiveCfg = Release|x64
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Release|x64.Build.0 = Release|x64
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Debug|Win32.Build.0 = Debug|Win32
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Debug|x64.ActiveCfg = Debug|x64
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Debug|x64.Build.0 = Debug|x64
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Release|Win32.ActiveCfg = Release|Win32
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F}.Release|Win32.Build.0 = Release|Win32
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Release|x64.ActiveCfg = Release|x64
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Release|x64.Build.0 = Release|x64
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Debug|Win32.Build.0 = Debug|Win32
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Debug|x64.ActiveCfg = Debug|x64
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Debug|x64.Build.0 = Debug|x64
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Release|Win32.ActiveCfg = Release|Win32
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4} = {8BDE7D70-C0A0-0C23-2BC8-768E0C8D91DB}
+		{F1A6F5FF-CA62-0F34-CB29-BC029137720F} = {38B7683E-6F16-B5E1-5F7D-9D2F85A33684}
+		{38B7683E-6F16-B5E1-5F7D-9D2F85A33684} = {C22DCE09-BE8E-C79C-FFD0-C3927B546C91}
+		{C22DCE09-BE8E-C79C-FFD0-C3927B546C91} = {FB3E20CC-9516-F7D2-EFF7-C27ABDCA54B9}
+		{83284638-49B2-B7DD-AE87-8B9B293D8B22} = {FB3E20CC-9516-F7D2-EFF7-C27ABDCA54B9}
+	EndGlobalSection
+EndGlobal

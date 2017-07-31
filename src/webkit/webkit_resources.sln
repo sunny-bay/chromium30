@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webkit_resources", "webkit_resources.vcxproj", "{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webkit_strings", "webkit_strings.vcxproj", "{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Release|x64.ActiveCfg = Release|x64
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Release|x64.Build.0 = Release|x64
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Debug|Win32.ActiveCfg = Debug|Win32
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Debug|Win32.Build.0 = Debug|Win32
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Debug|x64.ActiveCfg = Debug|x64
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Debug|x64.Build.0 = Debug|x64
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Release|Win32.ActiveCfg = Release|Win32
+		{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}.Release|Win32.Build.0 = Release|Win32
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Release|x64.ActiveCfg = Release|x64
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Release|x64.Build.0 = Release|x64
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Debug|Win32.Build.0 = Debug|Win32
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Debug|x64.ActiveCfg = Debug|x64
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Debug|x64.Build.0 = Debug|x64
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Release|Win32.ActiveCfg = Release|Win32
+		{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

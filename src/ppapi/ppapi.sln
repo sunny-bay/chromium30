@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppapi_c", "ppapi_c.vcxproj", "{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppapi_cpp", "ppapi_cpp.vcxproj", "{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8} = {B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppapi_cpp_objects", "ppapi_cpp_objects.vcxproj", "{B9D928A2-7C59-A644-58A3-499310FF70D4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8} = {B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ppapi_gles2", "ppapi_gles2.vcxproj", "{30C657CE-9EAE-F9AA-C522-BFDC61860792}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8} = {B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Release|x64.ActiveCfg = Release|x64
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Release|x64.Build.0 = Release|x64
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Debug|Win32.Build.0 = Debug|Win32
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Debug|x64.ActiveCfg = Debug|x64
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Debug|x64.Build.0 = Debug|x64
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Release|Win32.ActiveCfg = Release|Win32
+		{30C657CE-9EAE-F9AA-C522-BFDC61860792}.Release|Win32.Build.0 = Release|Win32
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Release|x64.ActiveCfg = Release|x64
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Release|x64.Build.0 = Release|x64
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Debug|Win32.Build.0 = Debug|Win32
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Debug|x64.ActiveCfg = Debug|x64
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Debug|x64.Build.0 = Debug|x64
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Release|Win32.ActiveCfg = Release|Win32
+		{736B75AB-A9AF-AD43-2A4C-0453C3DD25EC}.Release|Win32.Build.0 = Release|Win32
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Release|x64.ActiveCfg = Release|x64
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Release|x64.Build.0 = Release|x64
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Debug|Win32.Build.0 = Debug|Win32
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Debug|x64.ActiveCfg = Debug|x64
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Debug|x64.Build.0 = Debug|x64
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Release|Win32.ActiveCfg = Release|Win32
+		{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}.Release|Win32.Build.0 = Release|Win32
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Release|x64.ActiveCfg = Release|x64
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Release|x64.Build.0 = Release|x64
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Debug|Win32.Build.0 = Debug|Win32
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Debug|x64.ActiveCfg = Debug|x64
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Debug|x64.Build.0 = Debug|x64
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Release|Win32.ActiveCfg = Release|Win32
+		{B9D928A2-7C59-A644-58A3-499310FF70D4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
