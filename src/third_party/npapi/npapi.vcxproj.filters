@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bindings">
+      <UniqueIdentifier>{BDD847E6-3B5D-27DC-A93A-863DCFC98735}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="npapi.gyp"/>
+    <ClInclude Include="bindings\npapi.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="bindings\npfunctions.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="bindings\nphostapi.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="bindings\nptypes.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="bindings\npapi_extensions.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="bindings\npruntime.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

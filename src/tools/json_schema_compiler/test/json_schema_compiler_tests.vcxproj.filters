@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler">
+      <UniqueIdentifier>{4E92C96C-E1C8-433D-4B80-F1FCDCF2E50A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\json_schema_compiler">
+      <UniqueIdentifier>{4E92C96C-E1C8-433D-4B80-F1FCDCF2E50A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\json_schema_compiler\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="arrays.json"/>
+    <None Include="crossref.json"/>
+    <None Include="functions_on_types.json"/>
+    <None Include="functions_as_parameters.json"/>
+    <Midl Include="idl_object_types.idl"/>
+    <None Include="simple_api.json"/>
+    <None Include="enums.json"/>
+    <ClInclude Include="test_util.h"/>
+    <ClCompile Include="test_util.cc"/>
+    <None Include="choices.json"/>
+    <None Include="additional_properties.json"/>
+    <None Include="json_schema_compiler_tests_rules.mk"/>
+    <None Include="callbacks.json"/>
+    <Midl Include="idl_basics.idl"/>
+    <None Include="json_schema_compiler_tests.gyp"/>
+    <None Include="objects.json"/>
+    <None Include="any.json"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\callbacks.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\any.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\idl_object_types.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\simple_api.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\idl_basics.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\any.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\enums.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\functions_on_types.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\additional_properties.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\choices.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\additional_properties.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\arrays.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\objects.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\simple_api.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\enums.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\functions_on_types.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\objects.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\arrays.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\choices.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\callbacks.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\idl_basics.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\idl_object_types.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\crossref.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\crossref.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\functions_as_parameters.cc">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test\functions_as_parameters.h">
+      <Filter>$(OutDir)obj\global_intermediate\tools\json_schema_compiler\test</Filter>
+    </ClInclude>
+    <None Include="..\..\..\tools\json_schema_compiler\cc_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\compiler.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\cpp_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\model.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\util_cc_helper.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\code.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\idl_schema.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\..\..\tools\json_schema_compiler\util.cc">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="..\..\..\tools\json_schema_compiler\cpp_type_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\tools\json_schema_compiler\util.h">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\..\..\tools\json_schema_compiler\h_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\json_schema.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\cpp_util.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\automation">
+      <UniqueIdentifier>{31ADDD52-866C-4C09-9800-A5A5331381F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="test\automation\value_conversion_util.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\automation_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\value_conversion_traits.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\window_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\window_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\value_conversion_traits.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClCompile Include="test\automation\browser_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\automation_handle_tracker.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClInclude Include="test\automation\browser_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClInclude Include="test\automation\automation_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClInclude Include="test\automation\automation_json_requests.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\automation_handle_tracker.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClCompile Include="test\automation\automation_json_requests.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClCompile Include="test\automation\tab_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\tab_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dtmf_inband.cc"/>
+    <ClInclude Include="dtmf_inband.h"/>
+    <ClCompile Include="channel.cc"/>
+    <ClInclude Include="voe_dtmf_impl.h"/>
+    <ClCompile Include="output_mixer.cc"/>
+    <ClCompile Include="voe_neteq_stats_impl.cc"/>
+    <ClCompile Include="shared_data.cc"/>
+    <ClCompile Include="channel_manager_base.cc"/>
+    <ClCompile Include="voe_volume_control_impl.cc"/>
+    <ClCompile Include="voe_encryption_impl.cc"/>
+    <ClInclude Include="output_mixer.h"/>
+    <ClInclude Include="voe_neteq_stats_impl.h"/>
+    <ClInclude Include="voe_rtp_rtcp_impl.h"/>
+    <ClCompile Include="voe_audio_processing_impl.cc"/>
+    <ClCompile Include="monitor_module.cc"/>
+    <ClInclude Include="channel_manager_base.h"/>
+    <ClInclude Include="voe_encryption_impl.h"/>
+    <ClInclude Include="shared_data.h"/>
+    <ClCompile Include="voe_codec_impl.cc"/>
+    <ClInclude Include="transmit_mixer.h"/>
+    <ClInclude Include="dtmf_inband_queue.h"/>
+    <ClInclude Include="voe_network_impl.h"/>
+    <ClInclude Include="voe_external_media_impl.h"/>
+    <ClCompile Include="voe_hardware_impl.cc"/>
+    <None Include="voice_engine.gyp"/>
+    <ClCompile Include="voe_dtmf_impl.cc"/>
+    <ClInclude Include="voe_codec_impl.h"/>
+    <ClInclude Include="voe_base_impl.h"/>
+    <ClInclude Include="voe_audio_processing_impl.h"/>
+    <ClInclude Include="monitor_module.h"/>
+    <ClCompile Include="dtmf_inband_queue.cc"/>
+    <ClCompile Include="output_mixer_internal.cc"/>
+    <ClCompile Include="voe_network_impl.cc"/>
+    <ClInclude Include="voe_file_impl.h"/>
+    <ClCompile Include="voice_engine_impl.cc"/>
+    <ClInclude Include="voice_engine_impl.h"/>
+    <ClCompile Include="voe_call_report_impl.cc"/>
+    <ClInclude Include="voe_call_report_impl.h"/>
+    <ClInclude Include="level_indicator.h"/>
+    <ClInclude Include="channel.h"/>
+    <ClInclude Include="statistics.h"/>
+    <ClCompile Include="level_indicator.cc"/>
+    <ClCompile Include="voe_video_sync_impl.cc"/>
+    <ClCompile Include="statistics.cc"/>
+    <ClCompile Include="voe_file_impl.cc"/>
+    <ClInclude Include="voice_engine_defines.h"/>
+    <ClInclude Include="output_mixer_internal.h"/>
+    <ClCompile Include="voe_base_impl.cc"/>
+    <ClInclude Include="utility.h"/>
+    <ClCompile Include="voe_rtp_rtcp_impl.cc"/>
+    <ClCompile Include="utility.cc"/>
+    <ClCompile Include="voe_external_media_impl.cc"/>
+    <ClCompile Include="channel_manager.cc"/>
+    <ClInclude Include="voe_hardware_impl.h"/>
+    <ClInclude Include="voe_volume_control_impl.h"/>
+    <ClCompile Include="transmit_mixer.cc"/>
+    <ClInclude Include="voe_video_sync_impl.h"/>
+    <ClInclude Include="channel_manager.h"/>
+    <ClInclude Include="include\voe_file.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_neteq_stats.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_dtmf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_hardware.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_audio_processing.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_video_sync.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_errors.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_external_media.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_rtp_rtcp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_base.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_volume_control.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_encryption.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_network.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voe_call_report.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine_configurations.h">
+      <Filter>..</Filter>
+    </ClInclude>
+    <ClInclude Include="..\typedefs.h">
+      <Filter>..</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common_types.h">
+      <Filter>..</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

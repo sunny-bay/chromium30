@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_version">
+      <UniqueIdentifier>{B43E9D83-A6B9-06C4-15A0-98C8EE442D66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps">
+      <UniqueIdentifier>{FF146ABB-CCAF-AE8D-FCAE-A2FDD3368B36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps\app_host">
+      <UniqueIdentifier>{EDC219FD-88A6-9E66-56AB-1B164DA9EBD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome_version\app_host_exe_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_version</Filter>
+    </ResourceCompile>
+    <ClCompile Include="..\apps\app_host\binaries_installer.cc">
+      <Filter>..\apps\app_host</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_host\binaries_installer.h">
+      <Filter>..\apps\app_host</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\app_host\app_host_main.cc">
+      <Filter>..\apps\app_host</Filter>
+    </ClCompile>
+    <ResourceCompile Include="..\apps\app_host\app_host.rc">
+      <Filter>..\apps\app_host</Filter>
+    </ResourceCompile>
+    <ClCompile Include="..\apps\app_host\update.cc">
+      <Filter>..\apps\app_host</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_host\update.h">
+      <Filter>..\apps\app_host</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_host\app_host_resource.h">
+      <Filter>..\apps\app_host</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

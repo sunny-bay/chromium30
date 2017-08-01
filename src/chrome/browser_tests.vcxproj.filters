@@ -1,0 +1,3000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(IntDir)">
+      <UniqueIdentifier>{2385D4EB-CAEB-D33E-59EB-C687F571392E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\test\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\test\data\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\test\data\webui\net_internals">
+      <UniqueIdentifier>{EABEE63F-9ABF-07A8-C0C0-2F4817CA6650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\browser\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\browser\ui\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\browser\ui\webui\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\browser\ui\webui\options">
+      <UniqueIdentifier>{70DA2A49-9C15-D5C5-07A5-4DCF2DCBF3B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)\chrome\browser\ui\webui\help">
+      <UniqueIdentifier>{2FB33A38-F6DE-21F7-8ED5-D992F9F22C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\accessibility-developer-tools">
+      <UniqueIdentifier>{BD1BE7D5-A27B-487C-79D2-B2749E41A561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\accessibility-developer-tools\gen">
+      <UniqueIdentifier>{DF8EDCED-B68F-ED0D-ED2E-638FB9BEA0C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\accessibility-developer-tools\gen\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\base\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\data\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\data\webui\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\third_party\mock4js">
+      <UniqueIdentifier>{C0D645CC-671B-E9DB-1D4B-E52CDE080DF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\third_party\mock4js\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps">
+      <UniqueIdentifier>{FF146ABB-CCAF-AE8D-FCAE-A2FDD3368B36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base\files">
+      <UniqueIdentifier>{BB1C967E-6CBB-1192-77C2-20F84C75AB96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_version">
+      <UniqueIdentifier>{B43E9D83-A6B9-06C4-15A0-98C8EE442D66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources">
+      <UniqueIdentifier>{60108B1D-1D06-DEEB-72CD-739BCA047D39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\safe_browsing">
+      <UniqueIdentifier>{2E3BD98D-5FB2-C7DC-521F-1ABCA1EFE64E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\translate">
+      <UniqueIdentifier>{AF88FA73-98AA-595D-6A79-374609F48195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\printing">
+      <UniqueIdentifier>{7C256FC4-67A4-3160-9AC3-FAF60A22B169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data">
+      <UniqueIdentifier>{AC47C7D8-5EDD-E427-CEE5-4CCB87CE9641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals">
+      <UniqueIdentifier>{EABEE63F-9ABF-07A8-C0C0-2F4817CA6650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\browser\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\browser\ui\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\browser\ui\webui\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\browser\ui\webui\options">
+      <UniqueIdentifier>{70DA2A49-9C15-D5C5-07A5-4DCF2DCBF3B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\browser\ui\webui\help">
+      <UniqueIdentifier>{2FB33A38-F6DE-21F7-8ED5-D992F9F22C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\security_tests">
+      <UniqueIdentifier>{9CF1DC89-520D-5D67-1183-773280371662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\security_tests\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\nacl">
+      <UniqueIdentifier>{71AFF0C1-999F-D34A-6D95-5A8D93FB7DF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data\chromeos\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data\webui\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data\webui\net_internals">
+      <UniqueIdentifier>{EABEE63F-9ABF-07A8-C0C0-2F4817CA6650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\infobars">
+      <UniqueIdentifier>{DEAE8D95-4B7C-9F44-ECAF-6CDEC5252042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\task_manager">
+      <UniqueIdentifier>{251CDB02-70DD-48DF-F4E4-F4B680FB6A2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\sync_file_system">
+      <UniqueIdentifier>{59E8D68E-1F5A-C738-DAE4-3CE48A9B31AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\custom_handlers">
+      <UniqueIdentifier>{F7B4A5FB-57BD-1167-DE68-642ED2C7C209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\accessibility">
+      <UniqueIdentifier>{873DE697-7E51-06CB-5ED2-F4A475CEFD57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\themes">
+      <UniqueIdentifier>{6A2A31FD-657C-B06D-98DA-A8A697A63B2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\autofill\risk">
+      <UniqueIdentifier>{D9EA47F0-CF22-27A8-DAEA-9249B4C3CE73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host">
+      <UniqueIdentifier>{6A2FF98D-8941-B591-585B-76585C81DF84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\input_method">
+      <UniqueIdentifier>{B88A5CCE-CE1E-3744-5C9E-70C886634AC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\input_method\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\app_mode">
+      <UniqueIdentifier>{26AD5BAE-A40E-0FAB-D3CE-C68B6F678079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\app_mode\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\system">
+      <UniqueIdentifier>{AFD6A456-1D6D-10A7-15EC-A60913FD8BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\system\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\power">
+      <UniqueIdentifier>{7B9A8F4C-F8C4-8C09-18B2-DF8171E88027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\power\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\accessibility">
+      <UniqueIdentifier>{873DE697-7E51-06CB-5ED2-F4A475CEFD57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\accessibility\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\media\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\drive">
+      <UniqueIdentifier>{CC685CCB-0039-5720-A4F3-173B4E141F0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\drive\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\profiles">
+      <UniqueIdentifier>{2C70A064-5C91-D770-DB28-22FCEE0C39B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\profiles\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\kiosk_mode">
+      <UniqueIdentifier>{5E3BF618-8CED-6B02-FA78-19E5F3BAC029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\kiosk_mode\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\cros">
+      <UniqueIdentifier>{896188E8-CF15-0B2C-A569-13BEF03414F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\cros\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\screensaver">
+      <UniqueIdentifier>{B17E8E5F-AE9D-2028-F62B-D86F703106E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\screensaver\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\extensions\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\extensions\file_manager">
+      <UniqueIdentifier>{61D10EF4-E825-9EBF-96CB-3433A53D84F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\extensions\file_manager\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\memory">
+      <UniqueIdentifier>{8F5DB3DB-0272-DCA1-4517-81A538CE0517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\memory\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\policy\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\ui\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login">
+      <UniqueIdentifier>{D1873D12-7946-5459-9BF4-2218C9A298B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login\screens">
+      <UniqueIdentifier>{1FF62F51-A156-85B4-A8EB-28EBBB788EBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login\screens\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login\enrollment">
+      <UniqueIdentifier>{91E9C719-EA07-395A-3F7D-09B1224FD02C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login\enrollment\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\nacl_host">
+      <UniqueIdentifier>{E3A39240-D503-49E7-D5E0-9FA05F295A31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\nacl_host\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\nacl_host\test\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\download">
+      <UniqueIdentifier>{E29388DC-1A17-286D-EDEC-2546E3BEFA9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\content_settings">
+      <UniqueIdentifier>{601999FD-1791-FD9F-4699-326EA676A616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\devtools">
+      <UniqueIdentifier>{58F63217-69E6-51D7-8CFA-62F622D6CE5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\managed_mode">
+      <UniqueIdentifier>{BF5F5A95-C4A6-5A8A-A656-D658C13A7453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\autocomplete">
+      <UniqueIdentifier>{B7CABCF4-92BA-B5A8-9C93-E152DBCB7535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\service">
+      <UniqueIdentifier>{C9210780-0906-CC9E-BEC1-0AB6BFD1B977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\importer">
+      <UniqueIdentifier>{8610A384-1DC0-03D5-99CA-C0E883C45A96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\password_manager">
+      <UniqueIdentifier>{F3D111C7-A7E4-816A-8375-461F7AB554F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\speech\extension_api">
+      <UniqueIdentifier>{9B94125D-06CC-C4A2-F4D2-98A5C1CB82A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy\cloud">
+      <UniqueIdentifier>{AC2D6B28-C409-02BE-68D9-57A12FC2E740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\activity_log">
+      <UniqueIdentifier>{851129E4-751F-DAB7-D95F-CC3CA28CFF09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\docs">
+      <UniqueIdentifier>{565807D1-9E31-95FD-31CC-0BEDF504EDD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\docs\examples">
+      <UniqueIdentifier>{44436D1D-970F-7E02-EDA1-3A8DAD062A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\docs\examples\apps">
+      <UniqueIdentifier>{FF146ABB-CCAF-AE8D-FCAE-A2FDD3368B36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\cookies">
+      <UniqueIdentifier>{3BB016F8-C1E9-BB16-0D08-8373C0A57C34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\music_manager_private">
+      <UniqueIdentifier>{56ACB87D-C1D5-6EE7-0A40-055F112680DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\sync_file_system">
+      <UniqueIdentifier>{59E8D68E-1F5A-C738-DAE4-3CE48A9B31AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\module">
+      <UniqueIdentifier>{29CF2906-7ABF-2D4A-DC05-E4181FCBCECD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\bluetooth">
+      <UniqueIdentifier>{E501ED6C-07F7-22DB-B040-750B9B74D93F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\session_restore">
+      <UniqueIdentifier>{43805E0D-AB31-3551-7B09-8A973658DB85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_indicator">
+      <UniqueIdentifier>{DE5E30AC-3630-6704-8F22-48D7A0EAF8B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\proxy">
+      <UniqueIdentifier>{DB8B4CC8-9E72-B499-B612-B1CD65A064EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\cloud_print_private">
+      <UniqueIdentifier>{76E4CD90-40E2-0133-3557-72D97B1E0F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\content_settings">
+      <UniqueIdentifier>{601999FD-1791-FD9F-4699-326EA676A616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\serial">
+      <UniqueIdentifier>{993306BD-0AE2-A306-D8B2-436421060119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_storage">
+      <UniqueIdentifier>{2C726721-0894-0DD2-896A-CCFEE08564F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\bookmarks">
+      <UniqueIdentifier>{8AB75F6D-0D48-254C-033D-7AC3A80E5BE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\webstore_private">
+      <UniqueIdentifier>{1DF882F8-3A58-CE68-2E9A-9F8E3A70A5A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\media_galleries_private">
+      <UniqueIdentifier>{DA513B15-DF26-BE47-9285-3D26373AAD2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\dial">
+      <UniqueIdentifier>{3B90F287-DE3B-907B-BE07-E278A46F90B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\management">
+      <UniqueIdentifier>{25EEBDF0-30F0-B748-62D2-3AADA869C80D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\extension_action">
+      <UniqueIdentifier>{F9362697-6BB0-6DDB-F0AC-98D96803A96C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\usb">
+      <UniqueIdentifier>{F129B4A4-D25F-CB9D-2909-50D8FE72E625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\page_capture">
+      <UniqueIdentifier>{B6919C2A-EC66-B7B3-E28E-2662BE67DAA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_memory">
+      <UniqueIdentifier>{3AFFD627-1715-9DA9-EDEB-C87534D9C8D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\storage">
+      <UniqueIdentifier>{58865380-DD0A-5071-E48F-7846A09B1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\top_sites">
+      <UniqueIdentifier>{27303CF9-6D91-A71E-2332-169DA4B40B7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\terminal">
+      <UniqueIdentifier>{3B5BEE87-620C-3E52-BCCC-E2ABBAE46DE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\terminal\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\tabs">
+      <UniqueIdentifier>{9A19A12F-4186-05CC-17A3-2E285F023938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\declarative_content">
+      <UniqueIdentifier>{F8632E00-0949-91B3-EC84-DD51D18B4004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\dns">
+      <UniqueIdentifier>{D78B782C-4887-6E4F-B130-4892ECB17313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\font_settings">
+      <UniqueIdentifier>{5F918E97-66DF-E456-7606-1E6E800B11A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\context_menus">
+      <UniqueIdentifier>{335F5462-F465-B0E1-11DB-3119A33C8E2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\push_messaging">
+      <UniqueIdentifier>{5C5F9CEB-488E-9739-F6E2-F262626DEE14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\autotest_private">
+      <UniqueIdentifier>{64B16090-6E3F-67D2-44AE-836AB5C04D3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\downloads">
+      <UniqueIdentifier>{B7011001-5027-C224-F006-268A7BA6619E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\metrics_private">
+      <UniqueIdentifier>{9A01E319-4B6B-27CD-3C65-41428539E875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\networking_private">
+      <UniqueIdentifier>{50FE1C99-1E72-224B-054A-B0F1478A69A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\processes">
+      <UniqueIdentifier>{AB758175-47FF-2B44-2442-5594B9A41AC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_display">
+      <UniqueIdentifier>{33294500-B563-D597-C04E-0E308DD6F525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\tab_capture">
+      <UniqueIdentifier>{5BAC6997-53C4-B17C-DC6B-B1F115BAA481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\web_navigation">
+      <UniqueIdentifier>{41718990-8C4E-8E2E-17C0-EF3401447E48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\idltest">
+      <UniqueIdentifier>{F87E5125-0EC7-5AB7-39D6-60AC47D23C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\declarative">
+      <UniqueIdentifier>{BDFF5990-B609-B15C-512C-3DE54ADE315B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\preference">
+      <UniqueIdentifier>{A49F341B-B255-3C94-983E-3F30F976F571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\i18n">
+      <UniqueIdentifier>{366E8577-6226-B711-6772-2EA2AF5F5D10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\streams_private">
+      <UniqueIdentifier>{802B984F-42F1-E938-9040-1EB9E5A87C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\file_system">
+      <UniqueIdentifier>{6DF4BEA2-D0F1-BB75-372C-E2A62E093648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\identity">
+      <UniqueIdentifier>{11DF2418-FDEF-F350-FC15-1EC8C3A3EAB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\permissions">
+      <UniqueIdentifier>{A98183AB-A3A3-EAA7-6BB0-918E188BA788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\bookmark_manager_private">
+      <UniqueIdentifier>{44DE80FB-65A7-2ECE-5500-F154CA82B441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\commands">
+      <UniqueIdentifier>{D0D999A7-070F-6D3F-62A4-22FDE2667F6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\runtime">
+      <UniqueIdentifier>{1779B421-D65F-F7D8-506B-A3E3D7259D03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\activity_log_private">
+      <UniqueIdentifier>{D935AF4B-C29E-4789-8CF4-E80EF40FE66A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\socket">
+      <UniqueIdentifier>{1CB6C122-F983-4194-1807-39C03FB001C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\notifications">
+      <UniqueIdentifier>{8B864D51-51C2-204B-66F4-F7E9B50F2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\web_request">
+      <UniqueIdentifier>{20714428-C7FE-0E97-4E5E-EA11DFCD4FC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_private">
+      <UniqueIdentifier>{12A04EFB-8EE9-0368-D474-BF67706D9652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_cpu">
+      <UniqueIdentifier>{18173D08-A5AA-5DF3-F1D0-91210A7FA1D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\browsing_data">
+      <UniqueIdentifier>{720CC405-6689-8D9E-7FCD-9FF554AF627D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\media_galleries">
+      <UniqueIdentifier>{E6E173C0-6DC0-CF1D-A245-71632AE6E864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\record">
+      <UniqueIdentifier>{3716BD60-26D0-BDEC-A7EC-E26CF417E1E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\rtc_private">
+      <UniqueIdentifier>{4D0EF922-F43B-FA60-5088-BBE6B69E7FFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\rtc_private\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\input_ime">
+      <UniqueIdentifier>{048405EC-03BE-C65A-D1E7-2C4FCE4D3663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\input_ime\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\omnibox">
+      <UniqueIdentifier>{1D0CB406-E338-C5DE-32BA-4713583CF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\developer_private">
+      <UniqueIdentifier>{9C374D82-F6F4-DFC9-1B28-2CD0C8B7D865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\command_line_private">
+      <UniqueIdentifier>{8137AB17-38B4-9666-C733-A0C51DACC4D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\messaging">
+      <UniqueIdentifier>{DBEA1545-C432-FA21-211A-6963F403A6BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\app_window">
+      <UniqueIdentifier>{0AC8F570-A582-25C2-9FF7-77BA343D7A46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\audio">
+      <UniqueIdentifier>{D4AF4849-65C6-75FE-2B6E-F6BD18C08214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\idle">
+      <UniqueIdentifier>{2F32AF9E-EC78-3F04-1B43-8D99B0DD8C27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\history">
+      <UniqueIdentifier>{DFF1F85A-B765-5EDD-189E-14283DDFC252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\tab_contents">
+      <UniqueIdentifier>{C7B8871F-0957-0FBD-1EC5-44F9BD8039C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\prefs">
+      <UniqueIdentifier>{211C84FE-F189-109C-6F7E-E0596D5F946E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\captive_portal">
+      <UniqueIdentifier>{18576174-BC54-5A32-1C05-593C379A620C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\prerender">
+      <UniqueIdentifier>{D998C2FB-D6B3-BA09-4787-209F98C8AFCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\metrics">
+      <UniqueIdentifier>{DC24B95F-2580-773E-999D-FF21A384B9AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\notifications">
+      <UniqueIdentifier>{8B864D51-51C2-204B-66F4-F7E9B50F2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\notifications\sync_notifier">
+      <UniqueIdentifier>{3AFEF88E-2839-622F-9C47-6FF3F0491F05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\rlz">
+      <UniqueIdentifier>{43650E09-6BC8-C256-4162-8999B5C0A686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\rlz\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\safe_browsing">
+      <UniqueIdentifier>{2E3BD98D-5FB2-C7DC-521F-1ABCA1EFE64E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\spellchecker">
+      <UniqueIdentifier>{49B1EFF2-79D2-913D-7504-1892C06D82C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\translate">
+      <UniqueIdentifier>{AF88FA73-98AA-595D-6A79-374609F48195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\first_run">
+      <UniqueIdentifier>{88B6E145-1B3F-9294-8385-50109BD8368B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\signin">
+      <UniqueIdentifier>{12F7F594-5C0F-B00A-1C8F-B26A9C480D91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\page_cycler">
+      <UniqueIdentifier>{509B4973-2801-88BC-241E-EF61D4BF79EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\profile_resetter">
+      <UniqueIdentifier>{3B23CC17-41AD-2D02-CFC1-19E2483DF337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\drive">
+      <UniqueIdentifier>{CC685CCB-0039-5720-A4F3-173B4E141F0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\profiles">
+      <UniqueIdentifier>{2C70A064-5C91-D770-DB28-22FCEE0C39B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\browsing_data">
+      <UniqueIdentifier>{720CC405-6689-8D9E-7FCD-9FF554AF627D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\media_galleries">
+      <UniqueIdentifier>{E6E173C0-6DC0-CF1D-A245-71632AE6E864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\media_galleries\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\printing">
+      <UniqueIdentifier>{7C256FC4-67A4-3160-9AC3-FAF60A22B169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\printing\cloud_print">
+      <UniqueIdentifier>{D6AF2C4D-CB19-34BF-1FC4-0F2B0004F1F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\printing\cloud_print\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\gtk">
+      <UniqueIdentifier>{2D4DC4D4-E814-8696-8CA7-5C200B5ACD6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\gtk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\gtk\bubble">
+      <UniqueIdentifier>{19CFC167-4EF8-C826-E551-1AB2FC01EE0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\gtk\bubble\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\fullscreen">
+      <UniqueIdentifier>{BFAFC837-3FA4-31CC-B16E-B63AF0A9FBC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\prefs">
+      <UniqueIdentifier>{211C84FE-F189-109C-6F7E-E0596D5F946E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\app_list">
+      <UniqueIdentifier>{7B6812E5-4157-D4AB-3449-B0E75D676AA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\app_list\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\app_list\search">
+      <UniqueIdentifier>{EA2335BF-284A-96BE-2C99-ED295170E87A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\global_error">
+      <UniqueIdentifier>{AEBFD555-5CB9-4996-F688-766A29A86682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views">
+      <UniqueIdentifier>{D23515F3-31E8-1B27-FABB-5B45DAAF113D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views\frame">
+      <UniqueIdentifier>{4ED8AC07-3D55-A2F9-785B-6A9302343CA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views\frame\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views\location_bar">
+      <UniqueIdentifier>{7396AC1E-F909-B219-BABE-23A477680755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views\app_list">
+      <UniqueIdentifier>{7B6812E5-4157-D4AB-3449-B0E75D676AA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\blocked_content">
+      <UniqueIdentifier>{0AC060BB-19B4-62B2-9AEF-C140C143357A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\find_bar">
+      <UniqueIdentifier>{E223F9C2-6041-C6CF-1179-57F348A83092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\startup">
+      <UniqueIdentifier>{215143B9-DCAD-D6EA-A714-382925604E4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\sync">
+      <UniqueIdentifier>{58E6E956-0BEF-29CA-BAB1-886E5F3111D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa">
+      <UniqueIdentifier>{7DE7C50E-B7F9-3610-CB61-C0F25CD5170C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\applescript">
+      <UniqueIdentifier>{801478FD-C61C-6074-EABF-12DE1E87F2B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\applescript\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\find_bar">
+      <UniqueIdentifier>{E223F9C2-6041-C6CF-1179-57F348A83092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\find_bar\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\autofill\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\location_bar">
+      <UniqueIdentifier>{7396AC1E-F909-B219-BABE-23A477680755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\location_bar\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\extensions\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\omnibox">
+      <UniqueIdentifier>{1D0CB406-E338-C5DE-32BA-4713583CF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\omnibox\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\content_settings">
+      <UniqueIdentifier>{601999FD-1791-FD9F-4699-326EA676A616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\content_settings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\tab_contents">
+      <UniqueIdentifier>{C7B8871F-0957-0FBD-1EC5-44F9BD8039C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\tab_contents\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\constrained_window">
+      <UniqueIdentifier>{263C5303-CAC9-A156-E50B-FC5DABEA0EC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\constrained_window\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\autofill">
+      <UniqueIdentifier>{94F60235-EBD6-403C-1911-BD15E9B6C8E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\help">
+      <UniqueIdentifier>{2FB33A38-F6DE-21F7-8ED5-D992F9F22C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\print_preview">
+      <UniqueIdentifier>{9C82699E-ED80-B204-861C-BD2095AADA87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\net_internals">
+      <UniqueIdentifier>{EABEE63F-9ABF-07A8-C0C0-2F4817CA6650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\extensions\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\extensions\chromeos\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\ntp">
+      <UniqueIdentifier>{D9B971C0-5EF8-83F4-5E82-B14045724409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\options">
+      <UniqueIdentifier>{70DA2A49-9C15-D5C5-07A5-4DCF2DCBF3B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\options\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\webui\options\chromeos\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\panels">
+      <UniqueIdentifier>{3F2A0943-9D28-8085-0EB4-1759662E5224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\login">
+      <UniqueIdentifier>{D1873D12-7946-5459-9BF4-2218C9A298B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\ash">
+      <UniqueIdentifier>{042609A1-3936-CCD9-C267-B9F7033A8F15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\ash\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\ash\launcher">
+      <UniqueIdentifier>{2DE1DF8D-F16D-7FC6-7001-BD82A7B205B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\ash\launcher\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\bookmarks">
+      <UniqueIdentifier>{8AB75F6D-0D48-254C-033D-7AC3A80E5BE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\toolbar">
+      <UniqueIdentifier>{7640D4C3-A66D-3989-6A37-B7D34EDD50AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\performance_monitor">
+      <UniqueIdentifier>{266A75E1-7836-66B4-41CE-E7D175FA11F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\history">
+      <UniqueIdentifier>{DFF1F85A-B765-5EDD-189E-14283DDFC252}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="browser_tests_rules.mk"/>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\assertions-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\sandboxstatus_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\ntp4-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\accessibility_audit_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\mock4js_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\chrome_send_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\print_preview-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\history_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\async_gen-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\hsts_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\timeline_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\log_view_painter-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\prerender_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\net_internals_test-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\http_pipeline_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\dns_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\log_util-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\main-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\test_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\events_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\test\data\webui\net_internals\bandwidth_view-gen.cc">
+      <Filter>$(IntDir)\chrome\test\data\webui\net_internals</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\sync_setup_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\identity_internals_ui_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\extensions\extension_settings_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\content_options_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\content_settings_exception_area_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\browser_options_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\edit_dictionary_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\settings_format_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\cookies_view_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\autofill_options_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\options_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\manage_profile_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\language_options_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\settings_app_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\language_options_dictionary_download_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\font_settings_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\search_engine_manager_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\certificate_manager_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\password_manager_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\options\profile_settings_reset_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="$(IntDir)\chrome\browser\ui\webui\help\help_browsertest-gen.cc">
+      <Filter>$(IntDir)\chrome\browser\ui\webui\help</Filter>
+    </ClCompile>
+    <None Include="..\third_party\accessibility-developer-tools\gen\axs_testing.js">
+      <Filter>..\third_party\accessibility-developer-tools\gen\_excluded_files</Filter>
+    </None>
+    <None Include="..\chrome\test\base\js2gtest.js">
+      <Filter>..\chrome\test\base\_excluded_files</Filter>
+    </None>
+    <None Include="..\chrome\test\data\webui\test_api.js">
+      <Filter>..\chrome\test\data\webui\_excluded_files</Filter>
+    </None>
+    <None Include="..\chrome\third_party\mock4js\mock4js.js">
+      <Filter>..\chrome\third_party\mock4js\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\apps\app_restore_service_browsertest.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\load_and_launch_browsertest.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\files\file_path_watcher_browsertest.cc">
+      <Filter>..\base\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <None Include="..\tools\gypv8sh.py">
+      <Filter>..\tools\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="common\time_format_browsertest.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mac\mock_launchd.cc">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="common\mac\mock_launchd.h">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\chrome_dll_resource.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ResourceCompile Include="app\chrome_dll.rc">
+      <Filter>app</Filter>
+    </ResourceCompile>
+    <ClInclude Include="app\chrome_command_ids.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <None Include="app\chrome_version.rc.version">
+      <Filter>app</Filter>
+    </None>
+    <None Include="app\breakpad_mac_stubs.mm">
+      <Filter>app\_excluded_files</Filter>
+    </None>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome_version\other_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_version</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\browser_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\chrome_unscaled_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\common_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\extensions_api_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\content\content_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\content</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_unscaled_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\webkit\blink_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\webkit</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\net\net_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\net</Filter>
+    </ResourceCompile>
+    <ClCompile Include="renderer\content_settings_observer_browsertest.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\phishing_classifier_browsertest.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\phishing_dom_feature_extractor_browsertest.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\malware_dom_details_browsertest.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\phishing_classifier_delegate_browsertest.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\translate\translate_helper_browsertest.cc">
+      <Filter>renderer\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\autofill\autofill_renderer_browsertest.cc">
+      <Filter>renderer\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\autofill\form_autocomplete_browsertest.cc">
+      <Filter>renderer\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\autofill\password_autofill_agent_browsertest.cc">
+      <Filter>renderer\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\autofill\password_generation_manager_browsertest.cc">
+      <Filter>renderer\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\autofill\page_click_tracker_browsertest.cc">
+      <Filter>renderer\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\autofill\form_autofill_browsertest.cc">
+      <Filter>renderer\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\printing\print_web_view_helper_browsertest.cc">
+      <Filter>renderer\printing</Filter>
+    </ClCompile>
+    <None Include="$(OutDir)\v8_shell.exe">
+      <Filter>$(OutDir)\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\history_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\accessibility_audit_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\async_gen.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\sandboxstatus_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\chrome_send_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\print_preview.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\assertions.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\mock4js_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\ntp4.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\http_pipeline_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\test_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\events_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\timeline_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\net_internals_test.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\main.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\log_util.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\log_view_painter.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\prerender_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\bandwidth_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\dns_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\webui\net_internals\hsts_view.js">
+      <Filter>$(OutDir)\test_data\chrome\test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\identity_internals_ui_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\sync_setup_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\extensions\extension_settings_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\extensions</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\settings_format_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\options_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\edit_dictionary_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\settings_app_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\autofill_options_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\browser_options_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\content_settings_exception_area_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\manage_profile_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\search_engine_manager_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\language_options_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\font_settings_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\content_options_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\certificate_manager_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\password_manager_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\language_options_dictionary_download_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\profile_settings_reset_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\options\cookies_view_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\options</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\browser\ui\webui\help\help_browsertest.js">
+      <Filter>$(OutDir)\test_data\chrome\browser\ui\webui\help</Filter>
+    </None>
+    <ClCompile Include="test\security_tests\sandbox_browsertest_win.cc">
+      <Filter>test\security_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="test\security_tests\sandbox_browsertest_linux.cc">
+      <Filter>test\security_tests\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\nacl\nacl_browsertest_uma.cc">
+      <Filter>test\nacl</Filter>
+    </ClCompile>
+    <ClInclude Include="test\nacl\nacl_browsertest_util.h">
+      <Filter>test\nacl</Filter>
+    </ClInclude>
+    <ClCompile Include="test\nacl\nacl_browsertest_util.cc">
+      <Filter>test\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="test\nacl\nacl_browsertest.cc">
+      <Filter>test\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\chrome_render_view_test.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\web_ui_browsertest.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\test_chrome_web_ui_controller_factory.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\test_chrome_web_ui_controller_factory_browsertest.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\tracing_browsertest.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\chrome_render_view_test.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\chrome_test_launcher.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\in_process_browser_test_browsertest.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\web_ui_browsertest.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\test_chrome_web_ui_controller_factory.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\ppapi\ppapi_browsertest.cc">
+      <Filter>test\ppapi</Filter>
+    </ClCompile>
+    <ClCompile Include="test\gpu\gpu_feature_browsertest.cc">
+      <Filter>test\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="test\gpu\webgl_infobar_browsertest.cc">
+      <Filter>test\gpu</Filter>
+    </ClCompile>
+    <None Include="test\data\chromeos\oobe_webui_browsertest.js">
+      <Filter>test\data\chromeos\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="test\data\webui\history_ui_browsertest.cc">
+      <Filter>test\data\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="test\data\webui\history_ui_browsertest.h">
+      <Filter>test\data\webui</Filter>
+    </ClInclude>
+    <ClInclude Include="test\data\webui\async_gen.h">
+      <Filter>test\data\webui</Filter>
+    </ClInclude>
+    <None Include="test\data\webui\history_browsertest.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <ClCompile Include="test\data\webui\chrome_send_browsertest.cc">
+      <Filter>test\data\webui</Filter>
+    </ClCompile>
+    <None Include="test\data\webui\async_gen.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <ClCompile Include="test\data\webui\print_preview.cc">
+      <Filter>test\data\webui</Filter>
+    </ClCompile>
+    <None Include="test\data\webui\mock4js_browsertest.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <ClInclude Include="test\data\webui\ntp4_browsertest.h">
+      <Filter>test\data\webui</Filter>
+    </ClInclude>
+    <None Include="test\data\webui\assertions.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <ClInclude Include="test\data\webui\chrome_send_browsertest.h">
+      <Filter>test\data\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="test\data\webui\ntp4_browsertest.cc">
+      <Filter>test\data\webui</Filter>
+    </ClCompile>
+    <None Include="test\data\webui\accessibility_audit_browsertest.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <ClCompile Include="test\data\webui\webui_resource_browsertest.cc">
+      <Filter>test\data\webui</Filter>
+    </ClCompile>
+    <None Include="test\data\webui\sandboxstatus_browsertest.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <ClCompile Include="test\data\webui\async_gen.cc">
+      <Filter>test\data\webui</Filter>
+    </ClCompile>
+    <None Include="test\data\webui\chrome_send_browsertest.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <None Include="test\data\webui\print_preview.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <None Include="test\data\webui\ntp4.js">
+      <Filter>test\data\webui</Filter>
+    </None>
+    <ClInclude Include="test\data\webui\print_preview.h">
+      <Filter>test\data\webui</Filter>
+    </ClInclude>
+    <None Include="test\data\webui\certificate_viewer_dialog_test.js">
+      <Filter>test\data\webui\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="test\data\webui\certificate_viewer_ui_test-inl.h">
+      <Filter>test\data\webui\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="test\data\webui\net_internals\dns_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\log_util.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\hsts_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\log_view_painter.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\events_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\bandwidth_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\main.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\test_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\net_internals_test.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\http_pipeline_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\prerender_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <None Include="test\data\webui\net_internals\timeline_view.js">
+      <Filter>test\data\webui\net_internals</Filter>
+    </None>
+    <ClCompile Include="browser\external_extension_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\do_not_track_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chrome_switches_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chrome_content_browser_client_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\collected_cookies_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\user_data_dir_extractor_win_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chrome_main_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\fast_shutdown_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chrome_security_exploit_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\unload_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\errorpage_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\referrer_policy_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\repost_form_warning_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loadtimes_extension_bindings_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\crash_recovery_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chrome_plugin_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\iframe_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\logging_chrome_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\locale_tests_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_encoding_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\process_singleton_browsertest.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <None Include="browser\app_controller_mac_browsertest.mm">
+      <Filter>browser\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\geolocation\access_token_store_browsertest.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\geolocation_browsertest.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\infobars\infobars_browsertest.cc">
+      <Filter>browser\infobars</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\infobars\infobar_extension_apitest.cc">
+      <Filter>browser\infobars</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\task_manager\task_manager_notification_browsertest.cc">
+      <Filter>browser\task_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\task_manager\task_manager_browsertest.cc">
+      <Filter>browser\task_manager</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\task_manager\task_manager_browsertest_util.h">
+      <Filter>browser\task_manager</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\task_manager\task_manager_browsertest_util.cc">
+      <Filter>browser\task_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync_file_system\mock_local_change_processor.cc">
+      <Filter>browser\sync_file_system</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync_file_system\mock_local_change_processor.h">
+      <Filter>browser\sync_file_system</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\sync_file_system\mock_remote_file_sync_service.h">
+      <Filter>browser\sync_file_system</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync_file_system\mock_remote_file_sync_service.cc">
+      <Filter>browser\sync_file_system</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\custom_handlers\protocol_handler_registry_browsertest.cc">
+      <Filter>browser\custom_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\accessibility_extension_apitest.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\browser_accessibility_state_browsertest.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\themes\theme_service_browsertest.cc">
+      <Filter>browser\themes</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\autofill\autofill_driver_impl_browsertest.cc">
+      <Filter>browser\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\autofill\form_structure_browsertest.cc">
+      <Filter>browser\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\autofill\autofill_browsertest.cc">
+      <Filter>browser\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\autofill\risk\fingerprint_browsertest.cc">
+      <Filter>browser\autofill\risk</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_process_host_chrome_browsertest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\web_cache_manager_browsertest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\input_method\input_method_engine_ibus_browserttests.cc">
+      <Filter>browser\chromeos\input_method\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\app_mode\kiosk_app_manager_browsertest.cc">
+      <Filter>browser\chromeos\app_mode\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\app_mode\kiosk_app_update_service_browsertest.cc">
+      <Filter>browser\chromeos\app_mode\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\system\tray_accessibility_browsertest.cc">
+      <Filter>browser\chromeos\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\power\peripheral_battery_observer_browsertest.cc">
+      <Filter>browser\chromeos\power\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\accessibility\magnification_manager_browsertest.cc">
+      <Filter>browser\chromeos\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\accessibility\accessibility_manager_browsertest.cc">
+      <Filter>browser\chromeos\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\media\media_player_browsertest.cc">
+      <Filter>browser\chromeos\media\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\drive\test_util.h">
+      <Filter>browser\chromeos\drive\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\drive\test_util.cc">
+      <Filter>browser\chromeos\drive\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\drive\drive_integration_service_browsertest.cc">
+      <Filter>browser\chromeos\drive\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\profiles\profile_helper_browsertest.cc">
+      <Filter>browser\chromeos\profiles\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\kiosk_mode\mock_kiosk_mode_settings.cc">
+      <Filter>browser\chromeos\kiosk_mode\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\kiosk_mode\mock_kiosk_mode_settings.h">
+      <Filter>browser\chromeos\kiosk_mode\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\cros\cros_in_process_browser_test.cc">
+      <Filter>browser\chromeos\cros\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\cros\cros_in_process_browser_test.h">
+      <Filter>browser\chromeos\cros\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\screensaver\screensaver_controller_browsertest.cc">
+      <Filter>browser\chromeos\screensaver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\wallpaper_private_apitest.cc">
+      <Filter>browser\chromeos\extensions\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\info_private_apitest.cc">
+      <Filter>browser\chromeos\extensions\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\echo_private_apitest.cc">
+      <Filter>browser\chromeos\extensions\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\input_method_apitest_chromeos.cc">
+      <Filter>browser\chromeos\extensions\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\file_manager\external_filesystem_apitest.cc">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\extensions\file_manager\drive_test_util.h">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\extensions\file_manager\file_manager_browsertest.cc">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\file_manager\file_browser_handler_api_test.cc">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\file_manager\drive_test_util.cc">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\file_manager\file_manager_event_router_browsertest.cc">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\file_manager\file_manager_notifications_browsertest.cc">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\extensions\file_manager\file_browser_private_apitest.cc">
+      <Filter>browser\chromeos\extensions\file_manager\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\memory\oom_priority_manager_browsertest.cc">
+      <Filter>browser\chromeos\memory\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\policy\login_screen_default_policy_browsertest.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\policy\variations_service_policy_browsertest.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\policy\device_policy_cros_browser_test.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\policy\power_policy_browsertest.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\policy\device_local_account_browsertest.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\policy\device_status_collector_browsertest.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\policy\device_policy_cros_browser_test.h">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\policy\policy_cert_verifier_browsertest.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\ui\idle_logout_dialog_view_browsertest.cc">
+      <Filter>browser\chromeos\ui\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\mock_authenticator.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\screen_locker_tester.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\test_login_utils.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\crash_restore_browsertest.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\wizard_in_process_browser_test.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\user_image_manager_browsertest.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\wizard_controller_browsertest.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\login_utils_browsertest.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\existing_user_controller_browsertest.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\mock_authenticator.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\test_login_utils.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\kiosk_browsertest.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\screen_locker_tester.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\login\wizard_in_process_browser_test.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\user_adding_screen_browsertest.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\screens\update_screen_browsertest.cc">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\screens\mock_update_screen.h">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\screens\network_screen_browsertest.cc">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\screens\mock_screen_observer.cc">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\screens\mock_eula_screen.cc">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\screens\mock_error_screen.cc">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\screens\mock_screen_observer.h">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\login\screens\mock_network_screen.h">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\login\screens\mock_eula_screen.h">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\screens\mock_update_screen.cc">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\screens\mock_error_screen.h">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\screens\mock_network_screen.cc">
+      <Filter>browser\chromeos\login\screens\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\enrollment\mock_enrollment_screen.cc">
+      <Filter>browser\chromeos\login\enrollment\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\enrollment\mock_enrollment_screen.h">
+      <Filter>browser\chromeos\login\enrollment\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\enrollment\enrollment_screen_browsertest.cc">
+      <Filter>browser\chromeos\login\enrollment\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\nacl_host\test\nacl_gdb_browsertest.cc">
+      <Filter>browser\nacl_host\test</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\nacl_host\test\gdb_debug_stub_browsertest.cc">
+      <Filter>browser\nacl_host\test\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_danger_prompt_browsertest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\save_page_browsertest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_browsertest.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\content_settings\content_settings_browsertest.cc">
+      <Filter>browser\content_settings</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_sanity_browsertest.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\managed_mode\managed_mode_resource_throttle_browsertest.cc">
+      <Filter>browser\managed_mode</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\managed_mode\managed_mode_browsertest.cc">
+      <Filter>browser\managed_mode</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\managed_mode\managed_user_service_browsertest.cc">
+      <Filter>browser\managed_mode</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\autocomplete\autocomplete_browsertest.cc">
+      <Filter>browser\autocomplete</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\service\service_process_control_browsertest.cc">
+      <Filter>browser\service</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\chrome_media_stream_infobar_browsertest.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\chrome_webrtc_browsertest.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\webrtc_browsertest_common.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\chrome_webrtc_video_quality_browsertest.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\webrtc_browsertest_base.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\importer\importer_unittest_utils.h">
+      <Filter>browser\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\importer\firefox_importer_browsertest.cc">
+      <Filter>browser\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\importer\importer_unittest_utils.cc">
+      <Filter>browser\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\importer\ie_importer_browsertest_win.cc">
+      <Filter>browser\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\password_manager\password_manager_browsertest.cc">
+      <Filter>browser\password_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\speech_recognition_bubble_browsertest.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\extension_api\tts_extension_apitest.cc">
+      <Filter>browser\speech\extension_api</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\policy_prefs_browsertest.cc">
+      <Filter>browser\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\policy_browsertest.cc">
+      <Filter>browser\policy</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\policy\mock_policy_service.h">
+      <Filter>browser\policy</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\policy\test_utils.h">
+      <Filter>browser\policy</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\policy\mock_policy_service.cc">
+      <Filter>browser\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\test_utils.cc">
+      <Filter>browser\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\cloud\cloud_policy_browsertest.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\policy\cloud\test_request_interceptor.h">
+      <Filter>browser\policy\cloud</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\policy\cloud\device_management_service_browsertest.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\cloud\component_cloud_policy_browsertest.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\cloud\cloud_policy_manager_browsertest.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\cloud\test_request_interceptor.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_apitest.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\platform_app_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_storage_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\background_scripts_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_context_menu_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_websocket_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\stubs_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\events_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\shared_module_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_incognito_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\active_tab_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\chrome_app_api_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\content_script_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_javascript_url_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\startup_helper_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_messages_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_tabs_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_blacklist_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_resource_request_policy_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_icon_source_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\execute_script_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\crx_installer_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\subscribe_page_action_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_url_rewrite_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\crazy_extension_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\sandboxed_pages_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_nacl_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_get_views_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\window_controls_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\window_open_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_functional_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\webstore_startup_installer_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\ad_view_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_disabled_ui_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\web_contents_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_geolocation_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\mutation_observers_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_install_ui_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\requirements_checker_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\page_action_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_override_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\gpu_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\isolated_app_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_function_test_utils.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_dom_clipboard_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_loading_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_function_test_utils.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_test_message_listener.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_fileapi_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\options_page_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\process_management_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\content_security_policy_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\lazy_background_page_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\platform_app_browsertest_util.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_browsertest.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_test_message_listener.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\app_process_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\lazy_background_page_test_util.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\platform_app_browsertest_util.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\app_background_page_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\alert_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\convert_web_app_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\all_urls_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\test_extension_dir.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_bindings_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\cross_origin_xhr_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\plugin_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\background_app_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_startup_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\background_page_apitest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\web_view_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\test_extension_dir.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_toolbar_model_browsertest.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\activity_log\activity_log_browsertest.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\docs\examples\apps\calculator_browsertest.cc">
+      <Filter>browser\extensions\docs\examples\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\cookies\cookies_apitest.cc">
+      <Filter>browser\extensions\api\cookies</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\debugger\debugger_extension_apitest.cc">
+      <Filter>browser\extensions\api\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\debugger\debugger_apitest.cc">
+      <Filter>browser\extensions\api\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\music_manager_private\music_manager_private_browsertest.cc">
+      <Filter>browser\extensions\api\music_manager_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\sync_file_system\sync_file_system_apitest.cc">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\module\module_apitest.cc">
+      <Filter>browser\extensions\api\module</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bluetooth\bluetooth_apitest.cc">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\session_restore\session_restore_apitest.cc">
+      <Filter>browser\extensions\api\session_restore</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_indicator\system_indicator_apitest.cc">
+      <Filter>browser\extensions\api\system_indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\proxy\proxy_apitest.cc">
+      <Filter>browser\extensions\api\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\cloud_print_private\cloud_print_private_apitest.cc">
+      <Filter>browser\extensions\api\cloud_print_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\content_settings\content_settings_apitest.cc">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\serial\serial_apitest.cc">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_storage\system_storage_eject_apitest.cc">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_storage\system_storage_apitest.cc">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bookmarks\bookmark_apitest.cc">
+      <Filter>browser\extensions\api\bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\webstore_private\webstore_private_apitest.cc">
+      <Filter>browser\extensions\api\webstore_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\media_galleries_private\media_galleries_watch_apitest.cc">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\media_galleries_private\media_galleries_eject_apitest.cc">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\media_galleries_private\media_galleries_private_apitest.cc">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\dial\dial_apitest.cc">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\management\management_browsertest.cc">
+      <Filter>browser\extensions\api\management</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\management\management_apitest.cc">
+      <Filter>browser\extensions\api\management</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\management\management_api_browsertest.cc">
+      <Filter>browser\extensions\api\management</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\extension_action\browser_action_apitest.cc">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\extension_action\page_action_apitest.cc">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\extension_action\page_as_browser_action_apitest.cc">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\extension_action\script_badge_apitest.cc">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\usb\usb_apitest.cc">
+      <Filter>browser\extensions\api\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\usb\usb_manual_apitest.cc">
+      <Filter>browser\extensions\api\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\page_capture\page_capture_apitest.cc">
+      <Filter>browser\extensions\api\page_capture</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_memory\system_memory_apitest.cc">
+      <Filter>browser\extensions\api\system_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\settings_apitest.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\top_sites\top_sites_apitest.cc">
+      <Filter>browser\extensions\api\top_sites</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\terminal\terminal_private_apitest.cc">
+      <Filter>browser\extensions\api\terminal\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\tabs\tabs_test.cc">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative_content\declarative_content_apitest.cc">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\dns\mock_host_resolver_creator.h">
+      <Filter>browser\extensions\api\dns</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\dns\mock_host_resolver_creator.cc">
+      <Filter>browser\extensions\api\dns</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\dns\dns_apitest.cc">
+      <Filter>browser\extensions\api\dns</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\test\apitest_apitest.cc">
+      <Filter>browser\extensions\api\test</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\font_settings\font_settings_apitest.cc">
+      <Filter>browser\extensions\api\font_settings</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\context_menus\context_menu_apitest.cc">
+      <Filter>browser\extensions\api\context_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\push_messaging\push_messaging_apitest.cc">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\push_messaging\sync_setup_helper.cc">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\push_messaging\push_messaging_canary_test.cc">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\autotest_private\autotest_private_apitest.cc">
+      <Filter>browser\extensions\api\autotest_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\downloads\downloads_api_browsertest.cc">
+      <Filter>browser\extensions\api\downloads</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\metrics_private\metrics_apitest.cc">
+      <Filter>browser\extensions\api\metrics_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\networking_private\networking_private_apitest.cc">
+      <Filter>browser\extensions\api\networking_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\processes\processes_apitest.cc">
+      <Filter>browser\extensions\api\processes</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_display\system_display_apitest.cc">
+      <Filter>browser\extensions\api\system_display</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\tab_capture\tab_capture_apitest.cc">
+      <Filter>browser\extensions\api\tab_capture</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\web_navigation\web_navigation_apitest.cc">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\idltest\idltest_apitest.cc">
+      <Filter>browser\extensions\api\idltest</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative\declarative_apitest.cc">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\preference\preference_apitest.cc">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\i18n\i18n_apitest.cc">
+      <Filter>browser\extensions\api\i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\streams_private\streams_private_apitest.cc">
+      <Filter>browser\extensions\api\streams_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\file_system\file_system_apitest.cc">
+      <Filter>browser\extensions\api\file_system</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\identity\experimental_identity_apitest.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\identity\identity_apitest.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\permissions\permissions_apitest.cc">
+      <Filter>browser\extensions\api\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bookmark_manager_private\bookmark_manager_private_apitest.cc">
+      <Filter>browser\extensions\api\bookmark_manager_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\commands\command_service_browsertest.cc">
+      <Filter>browser\extensions\api\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\runtime\runtime_apitest.cc">
+      <Filter>browser\extensions\api\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\activity_log_private\activity_log_private_apitest.cc">
+      <Filter>browser\extensions\api\activity_log_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\socket\socket_apitest.cc">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\notifications\notifications_apitest.cc">
+      <Filter>browser\extensions\api\notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\web_request\web_request_apitest.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_private\system_private_apitest.cc">
+      <Filter>browser\extensions\api\system_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_cpu\system_cpu_apitest.cc">
+      <Filter>browser\extensions\api\system_cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\browsing_data\browsing_data_test.cc">
+      <Filter>browser\extensions\api\browsing_data</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\media_galleries\media_galleries_apitest.cc">
+      <Filter>browser\extensions\api\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\record\record_api_test.cc">
+      <Filter>browser\extensions\api\record</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\rtc_private\rtc_private_apitest.cc">
+      <Filter>browser\extensions\api\rtc_private\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\input_ime\input_ime_apitest_chromeos.cc">
+      <Filter>browser\extensions\api\input_ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\omnibox\omnibox_api_browsertest.cc">
+      <Filter>browser\extensions\api\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\developer_private\developer_private_apitest.cc">
+      <Filter>browser\extensions\api\developer_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\command_line_private\command_line_private_apitest.cc">
+      <Filter>browser\extensions\api\command_line_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\messaging\native_messaging_apitest.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\app_window\app_window_apitest.cc">
+      <Filter>browser\extensions\api\app_window</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\audio\audio_apitest.cc">
+      <Filter>browser\extensions\api\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\idle\idle_apitest.cc">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\history\history_apitest.cc">
+      <Filter>browser\extensions\api\history</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\tab_contents\render_view_context_menu_test_util.h">
+      <Filter>browser\tab_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\tab_contents\view_source_browsertest.cc">
+      <Filter>browser\tab_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\tab_contents\render_view_context_menu_test_util.cc">
+      <Filter>browser\tab_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\tab_contents\spellchecker_submenu_observer_browsertest.cc">
+      <Filter>browser\tab_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\tab_contents\render_view_context_menu_browsertest_util.h">
+      <Filter>browser\tab_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\tab_contents\render_view_context_menu_browsertest.cc">
+      <Filter>browser\tab_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\tab_contents\spelling_menu_observer_browsertest.cc">
+      <Filter>browser\tab_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\tab_contents\render_view_context_menu_browsertest_util.cc">
+      <Filter>browser\tab_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\prefs\pref_service_browsertest.cc">
+      <Filter>browser\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\prefs\pref_functional_browsertest.cc">
+      <Filter>browser\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\captive_portal\captive_portal_browsertest.cc">
+      <Filter>browser\captive_portal</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\prerender\prefetch_browsertest.cc">
+      <Filter>browser\prerender</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\prerender\prerender_browsertest.cc">
+      <Filter>browser\prerender</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sessions\better_session_restore_browsertest.cc">
+      <Filter>browser\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sessions\session_restore_browsertest.cc">
+      <Filter>browser\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sessions\persistent_tab_restore_service_browsertest.cc">
+      <Filter>browser\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sessions\tab_restore_browsertest.cc">
+      <Filter>browser\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\metrics\metrics_service_browsertest.cc">
+      <Filter>browser\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\notifications\message_center_notifications_browsertest.cc">
+      <Filter>browser\notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\notifications\sync_notifier\chrome_notifier_delegate_browsertest.cc">
+      <Filter>browser\notifications\sync_notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\notifications\sync_notifier\notification_bitmap_fetcher_browsertest.cc">
+      <Filter>browser\notifications\sync_notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\notifications\sync_notifier\sync_notifier_test_utils.h">
+      <Filter>browser\notifications\sync_notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\notifications\sync_notifier\sync_notifier_test_utils.cc">
+      <Filter>browser\notifications\sync_notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\rlz\rlz_extension_apitest.cc">
+      <Filter>browser\rlz\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\safe_browsing\safe_browsing_test.cc">
+      <Filter>browser\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\safe_browsing\safe_browsing_blocking_page_test.cc">
+      <Filter>browser\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\safe_browsing\local_safebrowsing_test_server.cc">
+      <Filter>browser\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\safe_browsing\safe_browsing_service_browsertest.cc">
+      <Filter>browser\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\load_timing_browsertest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\cookie_policy_browsertest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\ftp_browsertest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\predictor_browsertest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\proxy_browsertest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\dns_probe_browsertest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\websocket_browsertest.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\spellchecker\spellcheck_service_browsertest.cc">
+      <Filter>browser\spellchecker</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\translate\translate_manager_browsertest.cc">
+      <Filter>browser\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\translate\translate_browsertest.cc">
+      <Filter>browser\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\first_run\first_run_browsertest.cc">
+      <Filter>browser\first_run</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\first_run\try_chrome_dialog_view_browsertest.cc">
+      <Filter>browser\first_run</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ssl\ssl_browser_tests.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ssl\ssl_client_certificate_selector_test.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ssl\ssl_client_certificate_selector_test.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\signin\signin_browsertest.cc">
+      <Filter>browser\signin</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\page_cycler\page_cycler_browsertest.cc">
+      <Filter>browser\page_cycler</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\profile_resetter\profile_resetter_browsertest.cc">
+      <Filter>browser\profile_resetter</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\drive\fake_drive_service.cc">
+      <Filter>browser\drive</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\drive\fake_drive_service.h">
+      <Filter>browser\drive</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\profiles\profile_browsertest.cc">
+      <Filter>browser\profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\profiles\profile_manager_browsertest.cc">
+      <Filter>browser\profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\profiles\avatar_menu_model_browsertest.cc">
+      <Filter>browser\profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_data\browsing_data_local_storage_helper_browsertest.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_data\browsing_data_database_helper_browsertest.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_data\browsing_data_remover_browsertest.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browsing_data\browsing_data_helper_browsertest.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browsing_data\browsing_data_indexed_db_helper_browsertest.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\media_galleries\media_galleries_dialog_controller_mock.h">
+      <Filter>browser\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\media_galleries\media_galleries_dialog_controller_mock.cc">
+      <Filter>browser\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media_galleries\fileapi\itunes_finder_win_browsertest.cc">
+      <Filter>browser\media_galleries\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media_galleries\fileapi\media_file_validator_unittest.cc">
+      <Filter>browser\media_galleries\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media_galleries\fileapi\itunes_data_provider_browsertest.cc">
+      <Filter>browser\media_galleries\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\printing\print_preview_dialog_controller_browsertest.cc">
+      <Filter>browser\printing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\printing\printing_layout_browsertest.cc">
+      <Filter>browser\printing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\printing\cloud_print\test\cloud_print_policy_browsertest.cc">
+      <Filter>browser\printing\cloud_print\test</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\printing\cloud_print\test\cloud_print_proxy_process_browsertest.cc">
+      <Filter>browser\printing\cloud_print\test</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\browser_browsertest.cc">
+      <Filter>browser\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\tab_modal_confirm_dialog_browsertest.cc">
+      <Filter>browser\ui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\tab_modal_confirm_dialog_browsertest.h">
+      <Filter>browser\ui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\browser_command_controller_browsertest.cc">
+      <Filter>browser\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\browser_close_browsertest.cc">
+      <Filter>browser\ui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\browser_navigator_browsertest.h">
+      <Filter>browser\ui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\browser_navigator_browsertest.cc">
+      <Filter>browser\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\browser_navigator_browsertest_chromeos.cc">
+      <Filter>browser\ui\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\gtk\location_bar_view_gtk_browsertest.cc">
+      <Filter>browser\ui\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\gtk\confirm_bubble_gtk_browsertest.cc">
+      <Filter>browser\ui\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\gtk\one_click_signin_bubble_gtk_browsertest.cc">
+      <Filter>browser\ui\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\gtk\view_id_util_browsertest.cc">
+      <Filter>browser\ui\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\gtk\bubble\bubble_gtk_browsertest.cc">
+      <Filter>browser\ui\gtk\bubble\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\fullscreen\fullscreen_controller_browsertest.cc">
+      <Filter>browser\ui\fullscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\prefs\prefs_tab_helper_browsertest.cc">
+      <Filter>browser\ui\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\app_list\app_list_controller_browsertest.cc">
+      <Filter>browser\ui\app_list</Filter>
+    </ClCompile>
+    <None Include="browser\ui\app_list\app_list_service_mac_browsertest.mm">
+      <Filter>browser\ui\app_list\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\ui\app_list\search\webstore_provider_browsertest.cc">
+      <Filter>browser\ui\app_list\search</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\global_error\global_error_service_browsertest.cc">
+      <Filter>browser\ui\global_error</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\toolbar_view_browsertest.cc">
+      <Filter>browser\ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\web_dialog_view_browsertest.cc">
+      <Filter>browser\ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\avatar_menu_button_browsertest.cc">
+      <Filter>browser\ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\browser_actions_container_browsertest.cc">
+      <Filter>browser\ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\select_file_dialog_extension_browsertest.cc">
+      <Filter>browser\ui\views\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\frame\browser_non_client_frame_view_ash_browsertest.cc">
+      <Filter>browser\ui\views\frame\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\frame\app_non_client_frame_view_ash_browsertest.cc">
+      <Filter>browser\ui\views\frame\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\frame\immersive_mode_controller_ash_browsertest.cc">
+      <Filter>browser\ui\views\frame\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\location_bar\zoom_bubble_view_browsertest.cc">
+      <Filter>browser\ui\views\location_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\app_list\app_list_controller_win_browsertest.cc">
+      <Filter>browser\ui\views\app_list</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\blocked_content\popup_blocker_browsertest.cc">
+      <Filter>browser\ui\blocked_content</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\find_bar\find_bar_host_browsertest.cc">
+      <Filter>browser\ui\find_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\startup\startup_browser_creator_browsertest.cc">
+      <Filter>browser\ui\startup</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\sync\one_click_signin_bubble_links_delegate_browsertest.cc">
+      <Filter>browser\ui\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\sync\profile_signin_confirmation_helper_browsertest.cc">
+      <Filter>browser\ui\sync</Filter>
+    </ClCompile>
+    <None Include="browser\ui\cocoa\profile_signin_confirmation_view_controller_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\one_click_signin_bubble_controller_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\browser_window_controller_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\browser_window_cocoa_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\certificate_viewer_mac_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\one_click_signin_dialog_controller_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\view_id_util_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\dev_tools_controller_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\ssl_client_certificate_selector_cocoa_browsertest.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\applescript\window_applescript_test.mm">
+      <Filter>browser\ui\cocoa\applescript\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\applescript\browsercrapplication+applescript_test.mm">
+      <Filter>browser\ui\cocoa\applescript\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\find_bar\find_bar_browsertest.mm">
+      <Filter>browser\ui\cocoa\find_bar\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\autofill\autofill_dialog_cocoa_browsertest.mm">
+      <Filter>browser\ui\cocoa\autofill\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\location_bar\zoom_decoration_browsertest.mm">
+      <Filter>browser\ui\cocoa\location_bar\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\extensions\media_galleries_dialog_cocoa_browsertest.mm">
+      <Filter>browser\ui\cocoa\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\extensions\extension_action_context_menu_browsertest.mm">
+      <Filter>browser\ui\cocoa\extensions\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\ui\cocoa\extensions\extension_install_prompt_test_utils.h">
+      <Filter>browser\ui\cocoa\extensions\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\ui\cocoa\extensions\extension_install_prompt_test_utils.mm">
+      <Filter>browser\ui\cocoa\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\extensions\extension_install_dialog_controller_browsertest.mm">
+      <Filter>browser\ui\cocoa\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\omnibox\omnibox_view_mac_browsertest.mm">
+      <Filter>browser\ui\cocoa\omnibox\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\content_settings\content_setting_bubble_cocoa_unittest.mm">
+      <Filter>browser\ui\cocoa\content_settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\content_settings\collected_cookies_mac_browsertest.mm">
+      <Filter>browser\ui\cocoa\content_settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\tab_contents\overlayable_contents_controller_browsertest.mm">
+      <Filter>browser\ui\cocoa\tab_contents\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\cocoa\constrained_window\constrained_window_mac_browsertest.mm">
+      <Filter>browser\ui\cocoa\constrained_window\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\ui\autofill\autofill_popup_controller_browsertest.cc">
+      <Filter>browser\ui\autofill</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\autofill\autofill_dialog_controller_browsertest.cc">
+      <Filter>browser\ui\autofill</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\webui\identity_internals_ui_browsertest.h">
+      <Filter>browser\ui\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\webui\web_ui_test_handler.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\webui\bidi_checker_web_ui_test.h">
+      <Filter>browser\ui\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\webui\chrome_url_data_manager_browsertest.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <None Include="browser\ui\webui\identity_internals_ui_browsertest.js">
+      <Filter>browser\ui\webui</Filter>
+    </None>
+    <ClCompile Include="browser\ui\webui\downloads_dom_handler_browsertest.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\webui\identity_internals_ui_browsertest.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\webui\bidi_checker_web_ui_test.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <None Include="browser\ui\webui\sync_setup_browsertest.js">
+      <Filter>browser\ui\webui</Filter>
+    </None>
+    <ClCompile Include="browser\ui\webui\inspect_ui_browsertest.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\webui\policy_ui_browsertest.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\webui\bookmarks_ui_browsertest.cc">
+      <Filter>browser\ui\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\webui\web_ui_test_handler.h">
+      <Filter>browser\ui\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\webui\constrained_web_dialog_ui_browsertest.cc">
+      <Filter>browser\ui\webui\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\ui\webui\help\help_browsertest.js">
+      <Filter>browser\ui\webui\help</Filter>
+    </None>
+    <ClCompile Include="browser\ui\webui\print_preview\print_preview_ui_browsertest.cc">
+      <Filter>browser\ui\webui\print_preview</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\webui\net_internals\net_internals_ui_browsertest.h">
+      <Filter>browser\ui\webui\net_internals</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\webui\net_internals\net_internals_ui_browsertest.cc">
+      <Filter>browser\ui\webui\net_internals</Filter>
+    </ClCompile>
+    <None Include="browser\ui\webui\extensions\extension_settings_browsertest.js">
+      <Filter>browser\ui\webui\extensions</Filter>
+    </None>
+    <None Include="browser\ui\webui\extensions\chromeos\kiosk_apps_browsertest.js">
+      <Filter>browser\ui\webui\extensions\chromeos\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\ui\webui\ntp\new_tab_page_sync_handler_browsertest.cc">
+      <Filter>browser\ui\webui\ntp</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\webui\ntp\new_tab_ui_browsertest.cc">
+      <Filter>browser\ui\webui\ntp</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\webui\ntp\most_visited_browsertest.cc">
+      <Filter>browser\ui\webui\ntp</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\webui\options\options_ui_browsertest.h">
+      <Filter>browser\ui\webui\options</Filter>
+    </ClInclude>
+    <None Include="browser\ui\webui\options\profile_settings_reset_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\autofill_options_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <ClInclude Include="browser\ui\webui\options\preferences_browsertest.h">
+      <Filter>browser\ui\webui\options</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\webui\options\certificate_manager_browsertest.cc">
+      <Filter>browser\ui\webui\options</Filter>
+    </ClCompile>
+    <None Include="browser\ui\webui\options\settings_format_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <ClCompile Include="browser\ui\webui\options\options_browsertest.cc">
+      <Filter>browser\ui\webui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\webui\options\preferences_browsertest.cc">
+      <Filter>browser\ui\webui\options</Filter>
+    </ClCompile>
+    <None Include="browser\ui\webui\options\options_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\search_engine_manager_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\browser_options_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\content_settings_exception_area_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\password_manager_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\language_options_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\certificate_manager_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\font_settings_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\settings_app_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\content_options_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <ClCompile Include="browser\ui\webui\options\options_ui_browsertest.cc">
+      <Filter>browser\ui\webui\options</Filter>
+    </ClCompile>
+    <None Include="browser\ui\webui\options\manage_profile_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\edit_dictionary_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\language_options_dictionary_download_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\cookies_view_browsertest.js">
+      <Filter>browser\ui\webui\options</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\chromeos\bluetooth_options_browsertest.js">
+      <Filter>browser\ui\webui\options\chromeos\_excluded_files</Filter>
+    </None>
+    <None Include="browser\ui\webui\options\chromeos\accounts_options_browsertest.js">
+      <Filter>browser\ui\webui\options\chromeos\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\ui\webui\options\chromeos\guest_mode_options_ui_browsertest.cc">
+      <Filter>browser\ui\webui\options\chromeos\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\panels\panel_extension_browsertest.cc">
+      <Filter>browser\ui\panels</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\login\login_prompt_browsertest.cc">
+      <Filter>browser\ui\login</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\ash\volume_controller_browsertest_chromeos.cc">
+      <Filter>browser\ui\ash\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\ash\chrome_shell_delegate_browsertest.cc">
+      <Filter>browser\ui\ash\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\ash\shelf_browsertest.cc">
+      <Filter>browser\ui\ash\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\ash\caps_lock_delegate_chromeos_browsertest.cc">
+      <Filter>browser\ui\ash\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\ash\launcher\launcher_favicon_loader_browsertest.cc">
+      <Filter>browser\ui\ash\launcher\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\ash\launcher\chrome_launcher_controller_per_app_browsertest.cc">
+      <Filter>browser\ui\ash\launcher\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\ash\launcher\chrome_launcher_controller_browsertest.cc">
+      <Filter>browser\ui\ash\launcher\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\bookmarks\bookmark_browsertest.cc">
+      <Filter>browser\ui\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\toolbar\test_toolbar_model.h">
+      <Filter>browser\ui\toolbar</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\toolbar\test_toolbar_model.cc">
+      <Filter>browser\ui\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\performance_monitor\performance_monitor_browsertest.cc">
+      <Filter>browser\performance_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\history\multipart_browsertest.cc">
+      <Filter>browser\history</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\history\redirect_browsertest.cc">
+      <Filter>browser\history</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\history\history_browsertest.cc">
+      <Filter>browser\history</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

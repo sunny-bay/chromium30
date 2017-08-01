@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ppapi_plugin">
+      <UniqueIdentifier>{359C0334-7889-8566-D808-5DE91D540BE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClCompile Include="ppapi_plugin\ppapi_plugin_main.cc">
+      <Filter>ppapi_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="ppapi_plugin\broker_process_dispatcher.h">
+      <Filter>ppapi_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="ppapi_plugin\plugin_process_dispatcher.h">
+      <Filter>ppapi_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="ppapi_plugin\plugin_process_dispatcher.cc">
+      <Filter>ppapi_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="ppapi_plugin\broker_process_dispatcher.cc">
+      <Filter>ppapi_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="ppapi_plugin\ppapi_broker_main.cc">
+      <Filter>ppapi_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="ppapi_plugin\ppapi_webkitplatformsupport_impl.cc">
+      <Filter>ppapi_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="ppapi_plugin\ppapi_thread.cc">
+      <Filter>ppapi_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="ppapi_plugin\ppapi_thread.h">
+      <Filter>ppapi_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="ppapi_plugin\ppapi_webkitplatformsupport_impl.h">
+      <Filter>ppapi_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views">
+      <UniqueIdentifier>{D23515F3-31E8-1B27-FABB-5B45DAAF113D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views\tabs">
+      <UniqueIdentifier>{9A19A12F-4186-05CC-17A3-2E285F023938}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome_browser_ui_views.gyp"/>
+    <ClCompile Include="browser\ui\views\accelerator_table.cc">
+      <Filter>browser\ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\views\accelerator_table.h">
+      <Filter>browser\ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ui\views\tab_icon_view_model.h">
+      <Filter>browser\ui\views</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\views\event_utils.cc">
+      <Filter>browser\ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\views\event_utils.h">
+      <Filter>browser\ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ui\views\browser_dialogs.h">
+      <Filter>browser\ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ui\views\chrome_views_export.h">
+      <Filter>browser\ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ui\views\tabs\tab_strip_types.h">
+      <Filter>browser\ui\views\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ui\views\tabs\tab_strip_observer.h">
+      <Filter>browser\ui\views\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\views\tabs\tab_strip_observer.cc">
+      <Filter>browser\ui\views\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\tabs\tab_renderer_data.cc">
+      <Filter>browser\ui\views\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\views\tabs\tab_renderer_data.h">
+      <Filter>browser\ui\views\tabs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

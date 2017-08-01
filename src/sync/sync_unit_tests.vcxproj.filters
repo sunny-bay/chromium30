@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{0E0E98FE-41F4-1E5C-D208-62A6218447D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{FD430606-600C-E721-8F94-9A9989057E12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js">
+      <UniqueIdentifier>{AFF4C650-55EE-4B49-D17B-E3562B397D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="syncable">
+      <UniqueIdentifier>{F2DAABA9-DFAC-49C5-0606-38AF550BB086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api">
+      <UniqueIdentifier>{5D3DD876-85BB-CEFD-B72C-F8990231221B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\engine">
+      <UniqueIdentifier>{0E0E98FE-41F4-1E5C-D208-62A6218447D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier">
+      <UniqueIdentifier>{66184CE2-8D3E-4C84-F432-F6398B11F1E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClCompile Include="engine\sync_scheduler_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\syncer_proto_util_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\backoff_delay_provider_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\model_changing_syncer_command_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\traffic_recorder_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\apply_updates_and_resolve_conflicts_command_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\download_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\process_commit_response_command_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\apply_control_data_updates_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\store_timestamps_command_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\syncer_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\process_updates_command_unittest.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\proto_value_conversions_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\proto_enum_conversions_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\ordered_commit_set_unittest.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\nudge_tracker_unittest.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\status_controller_unittest.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\sync_session_unittest.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="js\js_arg_list_unittest.cc">
+      <Filter>js</Filter>
+    </ClCompile>
+    <ClCompile Include="js\js_event_details_unittest.cc">
+      <Filter>js</Filter>
+    </ClCompile>
+    <ClCompile Include="js\sync_js_controller_unittest.cc">
+      <Filter>js</Filter>
+    </ClCompile>
+    <ClCompile Include="util\data_type_histogram_unittest.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\get_session_name_unittest.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\nigori_unittest.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\cryptographer_unittest.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\protobuf_unittest.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="api\sync_merge_result_unittest.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\sync_change_unittest.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\sync_error_unittest.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\nigori_util_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\model_type_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\directory_backing_store_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\syncable_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\syncable_enum_conversions_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\syncable_id_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\syncable_util_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\parent_child_index_unittest.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\js_mutation_event_observer_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\debug_info_event_listener_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\sync_manager_impl_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\sync_encryption_handler_impl_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\js_sync_manager_observer_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\http_bridge_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\syncapi_server_connection_manager_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\js_sync_encryption_handler_observer_unittest.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\change_record_unittest.cc">
+      <Filter>internal_api\public</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\util\weak_handle_unittest.cc">
+      <Filter>internal_api\public\util</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\util\immutable_unittest.cc">
+      <Filter>internal_api\public\util</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\engine\model_safe_worker_unittest.cc">
+      <Filter>internal_api\public\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\unique_position_unittest.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\enum_set_unittest.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\model_type_invalidation_map_unittest.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\node_ordinal_unittest.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\ordinal_unittest.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\sessions\sync_session_snapshot_unittest.cc">
+      <Filter>internal_api\public\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\sync_invalidation_listener_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\push_client_channel_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\p2p_invalidator_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\ack_tracker_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\sync_system_resources_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\registration_manager_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\invalidator_registrar_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\invalidation_notifier_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\fake_invalidator_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\non_blocking_invalidator_unittest.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

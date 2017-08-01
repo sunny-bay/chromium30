@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\webdriver">
+      <UniqueIdentifier>{AB230931-9AA2-62A8-1F70-770234561B43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\webdriver\commands">
+      <UniqueIdentifier>{D0D999A7-070F-6D3F-62A4-22FDE2667F6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="test\webdriver\webdriver_util_unittest.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_key_converter_unittest.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\webdriver_test_util.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\webdriver_dispatch_unittest.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_capabilities_parser_unittest.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_test_util.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\frame_path_unittest.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\keycode_text_conversion_unittest.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\http_response_unittest.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\set_timeout_commands_unittest.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

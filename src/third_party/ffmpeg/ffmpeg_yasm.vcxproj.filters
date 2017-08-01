@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libavcodec">
+      <UniqueIdentifier>{E5796ABA-C438-1C2C-A67C-46C36F406B1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libavcodec\x86">
+      <UniqueIdentifier>{18BBE778-C30E-9E84-331B-B85C911521F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg">
+      <UniqueIdentifier>{D4EF0570-F7DB-697C-F41C-C2D1A5CC3B21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm">
+      <UniqueIdentifier>{E019ECA3-7A84-34EF-29C6-5C04E7B41E6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libavutil">
+      <UniqueIdentifier>{CC262A32-6BEB-0315-8652-E2F2E9B00B82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libavutil\x86">
+      <UniqueIdentifier>{18BBE778-C30E-9E84-331B-B85C911521F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xcode_hack.c"/>
+    <None Include="ffmpeg.gyp"/>
+    <assemble Include="libavcodec\x86\vp8dsp.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\fpel.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\videodsp.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\h264_intrapred.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\h264_intrapred_10bit.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\hpeldsp.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\vorbisdsp.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\deinterlace.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\fft.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\fmtconvert.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <assemble Include="libavcodec\x86\vp3dsp.asm">
+      <Filter>libavcodec\x86</Filter>
+    </assemble>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\vp8dsp.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\fmtconvert.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\float_dsp.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\emms.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\h264_intrapred_10bit.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\h264_intrapred.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\fpel.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\fft.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\deinterlace.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\vp3dsp.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\cpuid.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\hpeldsp.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\vorbisdsp.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm\videodsp.obj">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\yasm</Filter>
+    </None>
+    <None Include="$(OutDir)\yasm.exe">
+      <Filter>$(OutDir)\_excluded_files</Filter>
+    </None>
+    <assemble Include="libavutil\x86\float_dsp.asm">
+      <Filter>libavutil\x86</Filter>
+    </assemble>
+    <assemble Include="libavutil\x86\emms.asm">
+      <Filter>libavutil\x86</Filter>
+    </assemble>
+    <assemble Include="libavutil\x86\cpuid.asm">
+      <Filter>libavutil\x86</Filter>
+    </assemble>
+  </ItemGroup>
+</Project>

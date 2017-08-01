@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\lib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromeos\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromeos\lib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rlz.gyp"/>
+    <ClCompile Include="win\lib\rlz_value_store_registry.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="win\lib\machine_deal.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClInclude Include="win\lib\lib_mutex.h">
+      <Filter>win\lib</Filter>
+    </ClInclude>
+    <ClCompile Include="win\lib\lib_mutex.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="win\lib\registry_util.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClInclude Include="win\lib\machine_deal.h">
+      <Filter>win\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="win\lib\rlz_value_store_registry.h">
+      <Filter>win\lib</Filter>
+    </ClInclude>
+    <ClCompile Include="win\lib\machine_id_win.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="win\lib\process_info.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="win\lib\rlz_lib_win.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClInclude Include="win\lib\rlz_lib.h">
+      <Filter>win\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="win\lib\registry_util.h">
+      <Filter>win\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="win\lib\process_info.h">
+      <Filter>win\lib</Filter>
+    </ClInclude>
+    <None Include="mac\lib\rlz_value_store_mac.mm">
+      <Filter>mac\lib\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="mac\lib\machine_id_mac.cc">
+      <Filter>mac\lib\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="mac\lib\rlz_value_store_mac.h">
+      <Filter>mac\lib\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="chromeos\lib\machine_id_chromeos.cc">
+      <Filter>chromeos\lib\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="chromeos\lib\rlz_value_store_chromeos.cc">
+      <Filter>chromeos\lib\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="chromeos\lib\rlz_value_store_chromeos.h">
+      <Filter>chromeos\lib\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\rlz_lib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClCompile Include="lib\machine_id.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\rlz_lib_clear.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClInclude Include="lib\rlz_enums.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\machine_id.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClCompile Include="lib\assert.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\crc8.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\financial_ping.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClInclude Include="lib\assert.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\crc8.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClCompile Include="lib\lib_values.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\crc32_wrapper.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClInclude Include="lib\crc32.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\rlz_value_store.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lib_values.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClCompile Include="lib\rlz_lib.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClInclude Include="lib\string_utils.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\financial_ping.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClCompile Include="lib\string_utils.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\recursive_cross_process_lock_posix.cc">
+      <Filter>lib\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="lib\recursive_cross_process_lock_posix.h">
+      <Filter>lib\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

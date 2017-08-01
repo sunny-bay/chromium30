@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources">
+      <UniqueIdentifier>{5A5F1B19-938C-6416-293E-84F2499B3A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\cloud_print">
+      <UniqueIdentifier>{D6AF2C4D-CB19-34BF-1FC4-0F2B0004F1F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="setup.cc"/>
+    <None Include="virtual_driver_install.gyp"/>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_pt-BR.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ja.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_bg.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ko.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ca.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_lv.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ro.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_kn.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_pt-PT.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_de.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_nl.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_hr.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ta.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_et.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_it.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ar.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_he.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_hi.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ms.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_id.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_fi.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_cs.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_th.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ml.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_tr.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_vi.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_en.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_zh-CN.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_sl.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_da.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_fil.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_en-GB.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_lt.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_hu.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_fr.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_uk.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_nb.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_te.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_zh-TW.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_sv.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_bn.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_fa.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_sr.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_sk.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_es-419.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_pl.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_el.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_mr.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_es.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_gu.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\virtual_driver_setup_resources\virtual_driver_setup_resources_ru.rc">
+      <Filter>$(OutDir)obj\global_intermediate\virtual_driver_setup_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\cloud_print\virtual_driver_setup_exe_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\cloud_print</Filter>
+    </ResourceCompile>
+    <None Include="..\..\gcp_driver.gpd">
+      <Filter>..\..</Filter>
+    </None>
+  </ItemGroup>
+</Project>

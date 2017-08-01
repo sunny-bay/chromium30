@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk">
+      <UniqueIdentifier>{300B0F0A-ACAD-6063-4C44-1B7D00C8E13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain">
+      <UniqueIdentifier>{A1380BF2-B2E4-A638-7882-599BD9BAE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl">
+      <UniqueIdentifier>{8647CA1C-790C-CB23-C5A9-1AE303238472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pnacl_exception_handling_disabled">
+      <UniqueIdentifier>{D48B8255-E1FC-CAB3-136F-F4E2235AD906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pnacl_exception_handling_disabled\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\third_party\valgrind">
+      <UniqueIdentifier>{4D45BC00-4524-CC11-7C8B-CB6BE0B169B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\third_party\valgrind\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\include\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\include\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\include\win\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\include\nacl">
+      <UniqueIdentifier>{71AFF0C1-999F-D34A-6D95-5A8D93FB7DF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\include\nacl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\trusted">
+      <UniqueIdentifier>{DC54381C-F628-7AE8-11CB-1E14F0C26616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\trusted\service_runtime">
+      <UniqueIdentifier>{D35CA2CF-2ADE-489F-A9C7-3469BF43BA6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\trusted\service_runtime\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\trusted\service_runtime\include\bits">
+      <UniqueIdentifier>{B0F03FF3-930A-1AFF-7033-8DC5186B597C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\src\trusted\service_runtime\include\bits\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\c">
+      <UniqueIdentifier>{CAE7F8DA-E845-16F7-E8EA-8DBDBBC6BC28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\c\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\c\dev">
+      <UniqueIdentifier>{51D92A3A-C0F8-78D6-DFF5-4F152A3AB774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\c\dev\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tests">
+      <UniqueIdentifier>{71685B5B-5DB1-D3F0-6DF4-FE19B5454C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tests\ppapi_test_lib">
+      <UniqueIdentifier>{29E934D7-5A6B-3C7F-6DFE-E2D162D0241B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tests\ppapi_test_lib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\nacl_test_data">
+      <UniqueIdentifier>{6A0782BB-987F-0119-92F2-61A4FD831396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\nacl_test_data\pnacl">
+      <UniqueIdentifier>{D3734432-2A2A-4C06-4164-4E0FF5638D72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\nacl_test_data\pnacl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nacl_test_data.gyp"/>
+    <None Include="pnacl_newlib.pnacl_exception_handling_disabled_test.source_list.gypcmd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl\stamp.prep">
+      <Filter>$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl\_excluded_files</Filter>
+    </None>
+    <None Include="pnacl_exception_handling_disabled\pnacl_exception_handling_disabled.html">
+      <Filter>pnacl_exception_handling_disabled</Filter>
+    </None>
+    <ClCompile Include="pnacl_exception_handling_disabled\pnacl_exception_handling_disabled.cc">
+      <Filter>pnacl_exception_handling_disabled\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\native_client\src\third_party\valgrind\memcheck.h">
+      <Filter>..\..\..\..\native_client\src\third_party\valgrind\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\third_party\valgrind\valgrind.h">
+      <Filter>..\..\..\..\native_client\src\third_party\valgrind\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\include\nacl_compiler_annotations.h">
+      <Filter>..\..\..\..\native_client\src\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\include\portability.h">
+      <Filter>..\..\..\..\native_client\src\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\include\nacl_string.h">
+      <Filter>..\..\..\..\native_client\src\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\include\nacl_base.h">
+      <Filter>..\..\..\..\native_client\src\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\include\nacl_macros.h">
+      <Filter>..\..\..\..\native_client\src\include\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\include\win\port_win.h">
+      <Filter>..\..\..\..\native_client\src\include\win\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\include\nacl\nacl_exception.h">
+      <Filter>..\..\..\..\native_client\src\include\nacl\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\native_client\src\trusted\service_runtime\include\bits\wordsize.h">
+      <Filter>..\..\..\..\native_client\src\trusted\service_runtime\include\bits\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\native_client\build\build_nexe.py">
+      <Filter>..\..\..\..\native_client\build\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_core.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_rect.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_audio_config.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_messaging.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_touch_point.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_opengles2.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_image_data.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_mouse_cursor.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_completion_callback.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_stdint.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_instance.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_url_loader.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_var.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_file_info.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_url_request_info.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_graphics_3d.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_resource.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_input_event.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_module.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_macros.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_file_ref.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_graphics_3d.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_fullscreen.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_point.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_graphics_2d.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_url_response_info.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_array_output.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_time.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_instance.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_var.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_audio.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_size.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_view.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_bool.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_file_system.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_file_io.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\dev\ppb_font_dev.h">
+      <Filter>..\..\..\..\ppapi\c\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\dev\ppb_testing_dev.h">
+      <Filter>..\..\..\..\ppapi\c\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\dev\ppb_url_util_dev.h">
+      <Filter>..\..\..\..\ppapi\c\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\dev\ppb_memory_dev.h">
+      <Filter>..\..\..\..\ppapi\c\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\native_client\tests\ppapi_test_lib\test_interface.h">
+      <Filter>..\..\..\..\ppapi\native_client\tests\ppapi_test_lib\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\native_client\tests\ppapi_test_lib\get_browser_interface.h">
+      <Filter>..\..\..\..\ppapi\native_client\tests\ppapi_test_lib\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="$(OutDir)\nacl_test_data\pnacl\pnacl_exception_handling_disabled_newlib_pnacl.pexe">
+      <Filter>$(OutDir)\nacl_test_data\pnacl\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

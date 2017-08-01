@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{8A6F5E6E-316F-22D4-1547-253B04CB32E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk">
+      <UniqueIdentifier>{8B4C5F9F-E86F-990D-5102-545A2239DF3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\p2p">
+      <UniqueIdentifier>{8096E04D-D00E-DEF4-9C16-7F4A4E28C656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\p2p\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libjingle.gyp"/>
+    <ClInclude Include="source\talk\p2p\base\constants.h">
+      <Filter>source\talk\p2p\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\p2p\base\constants.cc">
+      <Filter>source\talk\p2p\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

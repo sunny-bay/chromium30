@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pnacl_error_handling">
+      <UniqueIdentifier>{C1360C94-79D4-B87B-0F54-C14D389DBABC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nacl_test_data.gyp"/>
+    <None Include="pnacl_error_handling\pnacl_bad_doesnotexist.nmf">
+      <Filter>pnacl_error_handling</Filter>
+    </None>
+    <None Include="pnacl_error_handling\pnacl_bad_pexe.nmf">
+      <Filter>pnacl_error_handling</Filter>
+    </None>
+    <None Include="pnacl_error_handling\pnacl_error_handling.html">
+      <Filter>pnacl_error_handling</Filter>
+    </None>
+    <None Include="pnacl_error_handling\bad.pexe">
+      <Filter>pnacl_error_handling</Filter>
+    </None>
+  </ItemGroup>
+</Project>

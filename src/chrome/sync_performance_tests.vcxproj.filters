@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_version">
+      <UniqueIdentifier>{B43E9D83-A6B9-06C4-15A0-98C8EE442D66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\sync">
+      <UniqueIdentifier>{58E6E956-0BEF-29CA-BAB1-886E5F3111D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\sync\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\sync\test\integration">
+      <UniqueIdentifier>{2DEA3665-6863-7B96-36E1-6DD614858CC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\sync\test\integration\performance">
+      <UniqueIdentifier>{033A1E7F-AB2C-5213-0350-5A216E0F213C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="test\base\chrome_test_launcher.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ResourceCompile Include="test\data\resource.rc">
+      <Filter>test\data</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\browser_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\chrome_unscaled_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\common_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome\extensions_api_resources.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome_version\other_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_version</Filter>
+    </ResourceCompile>
+    <ClInclude Include="app\chrome_command_ids.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\chrome_dll_resource.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <None Include="app\chrome_version.rc.version">
+      <Filter>app</Filter>
+    </None>
+    <ResourceCompile Include="app\chrome_dll.rc">
+      <Filter>app</Filter>
+    </ResourceCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\dictionary_load_observer.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync\test\integration\sessions_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync\test\integration\typed_urls_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync\test\integration\passwords_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync\test\integration\bookmarks_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync\test\integration\extensions_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\sync\test\integration\sync_datatype_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync\test\integration\sessions_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\sync_datatype_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync\test\integration\sync_test.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync\test\integration\sync_extension_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\autofill_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\extensions_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\dictionary_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync\test\integration\sync_extension_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\sync\test\integration\autofill_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync\test\integration\passwords_helper.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\sync_test.cc">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync\test\integration\dictionary_load_observer.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\sync\test\integration\bookmarks_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\sync\test\integration\dictionary_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\sync\test\integration\typed_urls_helper.h">
+      <Filter>browser\sync\test\integration</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync\test\integration\performance\autofill_sync_perf_test.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\performance\sessions_sync_perf_test.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\performance\typed_urls_sync_perf_test.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\performance\extensions_sync_perf_test.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\performance\passwords_sync_perf_test.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\sync\test\integration\performance\sync_timing_helper.h">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sync\test\integration\performance\sync_timing_helper.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\performance\bookmarks_sync_perf_test.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\sync\test\integration\performance\dictionary_sync_perf_test.cc">
+      <Filter>browser\sync\test\integration\performance</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

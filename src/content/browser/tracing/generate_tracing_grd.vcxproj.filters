@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser\tracing">
+      <UniqueIdentifier>{CE08FC7C-88C2-852D-9904-CEFED4CA8C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser\tracing\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tracing_resources.gyp"/>
+    <None Include="generate_trace_viewer_grd.py">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\content\browser\tracing\about_tracing.html">
+      <Filter>$(OutDir)obj\global_intermediate\content\browser\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\content\browser\tracing\about_tracing.js">
+      <Filter>$(OutDir)obj\global_intermediate\content\browser\tracing\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

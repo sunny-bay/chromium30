@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\remoting">
+      <UniqueIdentifier>{DDB3CFAA-92E1-DCCA-6654-3F9B40B7A7C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\remoting\host">
+      <UniqueIdentifier>{D877ED5D-5BA8-20DA-F98B-FABAACD9EF89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\remoting\host\chromoting_lib_p.c">
+      <Filter>$(OutDir)obj\global_intermediate\remoting\host</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\remoting\host\chromoting_lib.dlldata.c">
+      <Filter>$(OutDir)obj\global_intermediate\remoting\host</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

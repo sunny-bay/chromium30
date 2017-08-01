@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{0E0E98FE-41F4-1E5C-D208-62A6218447D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{FD430606-600C-E721-8F94-9A9989057E12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js">
+      <UniqueIdentifier>{AFF4C650-55EE-4B49-D17B-E3562B397D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="syncable">
+      <UniqueIdentifier>{F2DAABA9-DFAC-49C5-0606-38AF550BB086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClInclude Include="engine\traffic_recorder.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\backoff_delay_provider.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\store_timestamps_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\sync_scheduler.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\syncer_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\nudge_source.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\syncer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\syncer_types.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\store_timestamps_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\process_commit_response_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\syncer_proto_util.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\apply_control_data_updates.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\commit.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\nudge_source.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\syncer.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\syncer_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\traffic_recorder.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\download.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\sync_engine_event.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\model_changing_syncer_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\conflict_resolver.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\sync_scheduler_impl.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\syncer_proto_util.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\commit.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\update_applicator.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\conflict_util.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\build_commit_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\build_commit_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\model_changing_syncer_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\process_updates_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\syncer_util.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\update_applicator.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\process_updates_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\apply_control_data_updates.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\backoff_delay_provider.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\sync_scheduler_impl.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\all_status.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\apply_updates_and_resolve_conflicts_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\all_status.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\sync_scheduler.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\syncer_util.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\get_commit_ids_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\traffic_logger.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\conflict_util.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\sync_engine_event.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\traffic_logger.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\conflict_resolver.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\apply_updates_and_resolve_conflicts_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\get_commit_ids_command.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\download.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\process_commit_response_command.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\net\server_connection_manager.h">
+      <Filter>engine\net</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\net\server_connection_manager.cc">
+      <Filter>engine\net</Filter>
+    </ClCompile>
+    <ClInclude Include="engine\net\url_translator.h">
+      <Filter>engine\net</Filter>
+    </ClInclude>
+    <ClCompile Include="engine\net\url_translator.cc">
+      <Filter>engine\net</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\sync_protocol_error.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\proto_value_conversions.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\proto_enum_conversions.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\sync_protocol_error.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\proto_value_conversions.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\proto_enum_conversions.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="sessions\nudge_tracker.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClCompile Include="sessions\nudge_tracker.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\data_type_tracker.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\sync_session.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\sync_session_context.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\status_controller.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\ordered_commit_set.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClInclude Include="sessions\sync_session_context.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="sessions\debug_info_getter.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="sessions\ordered_commit_set.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="sessions\status_controller.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="sessions\sync_session.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="sessions\data_type_tracker.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="js\js_arg_list.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClInclude Include="js\js_event_details.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClCompile Include="js\sync_js_controller.cc">
+      <Filter>js</Filter>
+    </ClCompile>
+    <ClInclude Include="js\js_controller.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClCompile Include="js\js_event_details.cc">
+      <Filter>js</Filter>
+    </ClCompile>
+    <ClInclude Include="js\js_event_handler.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClInclude Include="js\sync_js_controller.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClInclude Include="js\js_backend.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClCompile Include="js\js_arg_list.cc">
+      <Filter>js</Filter>
+    </ClCompile>
+    <ClInclude Include="js\js_reply_handler.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClCompile Include="util\time.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\cryptographer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\get_session_name_win.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\logging.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\cryptographer.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\get_session_name.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\get_session_name.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\data_type_histogram.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\extensions_activity.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\nigori.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\encryptor.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\get_session_name_win.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClCompile Include="util\logging.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\extensions_activity.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\nigori.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\time.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <None Include="util\get_session_name_ios.mm">
+      <Filter>util\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="util\get_session_name_linux.h">
+      <Filter>util\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\get_session_name_ios.h">
+      <Filter>util\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\get_session_name_mac.h">
+      <Filter>util\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="util\get_session_name_mac.mm">
+      <Filter>util\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="util\get_session_name_linux.cc">
+      <Filter>util\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="base\sync_export.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\dir_open_result.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\syncable_delete_journal.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\syncable_proto_util.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\model_type.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\syncable_read_transaction.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\syncable_id.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\parent_child_index.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\nigori_util.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\directory_backing_store.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\invalid_directory_backing_store.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\parent_child_index.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\entry_kernel.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\syncable_changes_version.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\mutable_entry.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\entry.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\nigori_handler.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\nigori_util.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\blob.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\syncable_util.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\mutable_entry.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\syncable_id.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\syncable_read_transaction.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\syncable_base_transaction.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\syncable_write_transaction.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\in_memory_directory_backing_store.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\write_transaction_info.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\syncable-inl.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\on_disk_directory_backing_store.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\scoped_kernel_lock.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\directory_change_delegate.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\syncable_proto_util.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\directory_backing_store.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\write_transaction_info.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\syncable_util.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\invalid_directory_backing_store.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\syncable_base_transaction.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\directory.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\directory.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\entry.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\syncable_enum_conversions.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\scoped_kernel_lock.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\on_disk_directory_backing_store.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\syncable_write_transaction.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\syncable_columns.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\nigori_handler.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClCompile Include="syncable\syncable_delete_journal.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\scoped_parent_child_index_updater.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\transaction_observer.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\scoped_parent_child_index_updater.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\in_memory_directory_backing_store.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClCompile Include="syncable\entry_kernel.cc">
+      <Filter>syncable</Filter>
+    </ClCompile>
+    <ClInclude Include="syncable\syncable_enum_conversions.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+    <ClInclude Include="syncable\metahandle_set.h">
+      <Filter>syncable</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

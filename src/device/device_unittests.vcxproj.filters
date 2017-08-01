@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usb">
+      <UniqueIdentifier>{F129B4A4-D25F-CB9D-2909-50D8FE72E625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bluetooth">
+      <UniqueIdentifier>{E501ED6C-07F7-22DB-B040-750B9B74D93F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bluetooth\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="device_tests.gyp"/>
+    <ClCompile Include="test\run_all_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="usb\usb_ids_unittest.cc">
+      <Filter>usb</Filter>
+    </ClCompile>
+    <ClCompile Include="bluetooth\bluetooth_utils_unittest.cc">
+      <Filter>bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="bluetooth\bluetooth_device_win_unittest.cc">
+      <Filter>bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="bluetooth\bluetooth_adapter_win_unittest.cc">
+      <Filter>bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="bluetooth\bluetooth_task_manager_win_unittest.cc">
+      <Filter>bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="bluetooth\bluetooth_service_record_win_unittest.cc">
+      <Filter>bluetooth</Filter>
+    </ClCompile>
+    <None Include="bluetooth\bluetooth_adapter_mac_unittest.mm">
+      <Filter>bluetooth\_excluded_files</Filter>
+    </None>
+    <None Include="bluetooth\bluetooth_service_record_mac_unittest.mm">
+      <Filter>bluetooth\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="bluetooth\bluetooth_profile_chromeos_unittest.cc">
+      <Filter>bluetooth\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="bluetooth\bluetooth_chromeos_unittest.cc">
+      <Filter>bluetooth\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

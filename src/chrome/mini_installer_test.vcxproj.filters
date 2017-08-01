@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\mini_installer_test">
+      <UniqueIdentifier>{DB71AA68-8F4E-0A24-D585-F472664BF227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\installer_util_strings">
+      <UniqueIdentifier>{3100EE3B-39D6-F86F-5BB6-A83B6242C6B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer">
+      <UniqueIdentifier>{6284E552-FA73-42B7-3DDD-DA58AC0403DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="test\mini_installer_test\mini_installer_test_constants.h">
+      <Filter>test\mini_installer_test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\mini_installer_test\installer_path_provider.cc">
+      <Filter>test\mini_installer_test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\mini_installer_test\installer_path_provider.h">
+      <Filter>test\mini_installer_test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\mini_installer_test\switch_builder.h">
+      <Filter>test\mini_installer_test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\mini_installer_test\installer_test_util.h">
+      <Filter>test\mini_installer_test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\mini_installer_test\run_all_unittests.cc">
+      <Filter>test\mini_installer_test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mini_installer_test\test.cc">
+      <Filter>test\mini_installer_test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mini_installer_test\installer_test_util.cc">
+      <Filter>test\mini_installer_test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mini_installer_test\switch_builder.cc">
+      <Filter>test\mini_installer_test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mini_installer_test\mini_installer_test_constants.cc">
+      <Filter>test\mini_installer_test</Filter>
+    </ClCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\installer_util_strings\installer_util_strings.rc">
+      <Filter>$(OutDir)obj\global_intermediate\installer_util_strings</Filter>
+    </ResourceCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\installation_validation_helper.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\installation_validation_helper.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

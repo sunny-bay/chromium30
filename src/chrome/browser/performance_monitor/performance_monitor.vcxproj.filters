@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\browser\performance_monitor">
+      <UniqueIdentifier>{266A75E1-7836-66B4-41CE-E7D175FA11F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\json_schema_compiler">
+      <UniqueIdentifier>{4E92C96C-E1C8-433D-4B80-F1FCDCF2E50A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\json_schema_compiler\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="events.json"/>
+    <None Include="performance_monitor_rules.mk"/>
+    <None Include="performance_monitor.gyp"/>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\browser\performance_monitor\events.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\browser\performance_monitor</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\browser\performance_monitor\events.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\browser\performance_monitor</Filter>
+    </ClCompile>
+    <None Include="..\..\..\tools\json_schema_compiler\cpp_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\compiler.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\tools\json_schema_compiler\util.h">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\..\..\tools\json_schema_compiler\h_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\model.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\util_cc_helper.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\json_schema.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\..\..\tools\json_schema_compiler\util.cc">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="..\..\..\tools\json_schema_compiler\cc_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\cpp_type_generator.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\code.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_schema_compiler\cpp_util.py">
+      <Filter>..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\delegate_execute">
+      <UniqueIdentifier>{2D1EEFCA-234E-0BB4-55B4-E4DD6372FAE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="command_execute_impl.cc"/>
+    <ClInclude Include="delegate_execute_operation.h"/>
+    <ClCompile Include="crash_server_init.cc"/>
+    <ClInclude Include="command_execute_impl.h"/>
+    <ClCompile Include="delegate_execute_util.cc"/>
+    <ClInclude Include="chrome_util.h"/>
+    <ClInclude Include="resource.h"/>
+    <None Include="command_execute_impl.rgs"/>
+    <ClInclude Include="delegate_execute_util.h"/>
+    <None Include="delegate_execute.gyp"/>
+    <ClCompile Include="delegate_execute_operation.cc"/>
+    <ClInclude Include="crash_server_init.h"/>
+    <ResourceCompile Include="delegate_execute.rc"/>
+    <ClCompile Include="delegate_execute.cc"/>
+    <ClCompile Include="chrome_util.cc"/>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\delegate_execute\delegate_execute_exe_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\delegate_execute</Filter>
+    </ResourceCompile>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

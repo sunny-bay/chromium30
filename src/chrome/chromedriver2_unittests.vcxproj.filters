@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver">
+      <UniqueIdentifier>{D5CB3A79-4B1C-834A-434F-9AE27A391742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\server">
+      <UniqueIdentifier>{DDE1ED62-148A-C318-D2FB-235778089083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="test\chromedriver\chrome_launcher_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\session_commands_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\util_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\session_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\capabilities_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\logging_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\commands_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\stub_web_view.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\devtools_http_client_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\stub_chrome.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\geolocation_override_manager_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\device_manager_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\javascript_dialog_manager_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\console_logger_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\frame_tracker_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\stub_chrome.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\web_view_impl_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\devtools_client_impl_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\chrome_finder_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\dom_tracker_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\stub_devtools_client.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\status_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\navigation_tracker_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\stub_web_view.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\performance_logger_unittest.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\stub_devtools_client.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\server\http_handler_unittest.cc">
+      <Filter>test\chromedriver\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

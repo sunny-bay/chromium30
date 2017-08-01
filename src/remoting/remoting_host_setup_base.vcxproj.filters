@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{D877ED5D-5BA8-20DA-F98B-FABAACD9EF89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\setup">
+      <UniqueIdentifier>{10813315-79D2-702F-E3AC-CE979A8A690B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\setup\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\setup\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClInclude Include="host\setup\daemon_installer_win.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\native_messaging_host.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\native_messaging_reader.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\test_util.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\test_util.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\daemon_controller_win.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\pin_validator.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\service_client.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\service_client.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\host_starter.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="host\setup\oauth_helper.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\host_starter.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\native_messaging_writer.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="host\setup\native_messaging_host.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\native_messaging_reader.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\pin_validator.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\oauth_helper.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\daemon_installer_win.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\daemon_controller.h">
+      <Filter>host\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\native_messaging_writer.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\daemon_controller_linux.cc">
+      <Filter>host\setup\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="host\setup\daemon_controller_mac.mm">
+      <Filter>host\setup\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="host\setup\win\auth_code_getter.cc">
+      <Filter>host\setup\win</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\win\auth_code_getter.h">
+      <Filter>host\setup\win</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

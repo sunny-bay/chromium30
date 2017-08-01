@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out">
+      <UniqueIdentifier>{456EFA50-5ADA-2D4B-BB76-1BD6B9BCA3A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud">
+      <UniqueIdentifier>{AC2D6B28-C409-02BE-68D9-57A12FC2E740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy\proto\cloud">
+      <UniqueIdentifier>{AC2D6B28-C409-02BE-68D9-57A12FC2E740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\protoc_wrapper">
+      <UniqueIdentifier>{34D2DD54-FDF8-D9D8-4C83-CA01DBAC57A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\protoc_wrapper\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto">
+      <UniqueIdentifier>{A5155811-51E5-1087-45BA-D2802E9B53B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome\browser\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome\browser\policy\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome\browser\policy\proto\cloud">
+      <UniqueIdentifier>{AC2D6B28-C409-02BE-68D9-57A12FC2E740}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud\chrome_extension_policy.pb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud\device_management_local.pb.h">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud\device_management_local.pb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud\chrome_extension_policy.pb.h">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud\device_management_backend.pb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud\device_management_backend.pb.h">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\policy\proto\cloud</Filter>
+    </ClInclude>
+    <genproto Include="browser\policy\proto\cloud\device_management_backend.proto">
+      <Filter>browser\policy\proto\cloud</Filter>
+    </genproto>
+    <genproto Include="browser\policy\proto\cloud\chrome_extension_policy.proto">
+      <Filter>browser\policy\proto\cloud</Filter>
+    </genproto>
+    <genproto Include="browser\policy\proto\cloud\device_management_local.proto">
+      <Filter>browser\policy\proto\cloud</Filter>
+    </genproto>
+    <None Include="..\tools\protoc_wrapper\protoc_wrapper.py">
+      <Filter>..\tools\protoc_wrapper\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <None Include="$(OutDir)\protoc.exe">
+      <Filter>$(OutDir)\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\pyproto\chrome\browser\policy\proto\cloud\chrome_extension_policy_pb2.py">
+      <Filter>$(OutDir)\pyproto\chrome\browser\policy\proto\cloud</Filter>
+    </None>
+    <None Include="$(OutDir)\pyproto\chrome\browser\policy\proto\cloud\device_management_local_pb2.py">
+      <Filter>$(OutDir)\pyproto\chrome\browser\policy\proto\cloud</Filter>
+    </None>
+    <None Include="$(OutDir)\pyproto\chrome\browser\policy\proto\cloud\device_management_backend_pb2.py">
+      <Filter>$(OutDir)\pyproto\chrome\browser\policy\proto\cloud</Filter>
+    </None>
+  </ItemGroup>
+</Project>

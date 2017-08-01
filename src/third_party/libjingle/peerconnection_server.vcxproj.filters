@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{8A6F5E6E-316F-22D4-1547-253B04CB32E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk">
+      <UniqueIdentifier>{8B4C5F9F-E86F-990D-5102-545A2239DF3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\examples">
+      <UniqueIdentifier>{44436D1D-970F-7E02-EDA1-3A8DAD062A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\examples\peerconnection">
+      <UniqueIdentifier>{1D501183-A773-28E9-F1E9-2CC2B23BB146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\examples\peerconnection\server">
+      <UniqueIdentifier>{DDE1ED62-148A-C318-D2FB-235778089083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libjingle.gyp"/>
+    <ClCompile Include="source\talk\examples\peerconnection\server\utils.cc">
+      <Filter>source\talk\examples\peerconnection\server</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\examples\peerconnection\server\data_socket.cc">
+      <Filter>source\talk\examples\peerconnection\server</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\examples\peerconnection\server\peer_channel.cc">
+      <Filter>source\talk\examples\peerconnection\server</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\examples\peerconnection\server\utils.h">
+      <Filter>source\talk\examples\peerconnection\server</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\examples\peerconnection\server\peer_channel.h">
+      <Filter>source\talk\examples\peerconnection\server</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\examples\peerconnection\server\main.cc">
+      <Filter>source\talk\examples\peerconnection\server</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\examples\peerconnection\server\data_socket.h">
+      <Filter>source\talk\examples\peerconnection\server</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

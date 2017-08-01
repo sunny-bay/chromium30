@@ -1,0 +1,2549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\flot">
+      <UniqueIdentifier>{37381061-4D6D-EDBC-893D-CFE04EDFB701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\flot\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\images">
+      <UniqueIdentifier>{417A2AFC-675C-502D-5CF2-E9A58B72D6D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\images\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\images\2x">
+      <UniqueIdentifier>{77DC2C76-7561-E279-6729-C49239968674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\images\2x\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\html">
+      <UniqueIdentifier>{6B759987-DACC-E33B-CA3B-4ABB0218955E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\html\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\css">
+      <UniqueIdentifier>{87F14F59-6AAB-9D50-4AA6-3EAC67BD4AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\css\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\js">
+      <UniqueIdentifier>{AFF4C650-55EE-4B49-D17B-E3562B397D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\js\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\js\cr">
+      <UniqueIdentifier>{7DFFA872-E578-7EEA-9731-21A52F10AFBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\js\cr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\js\cr\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\webui\resources\js\cr\ui\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\resources\default_200_percent">
+      <UniqueIdentifier>{711141ED-8F7E-80A8-D7AC-366E2C2A9455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\resources\default_200_percent\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\resources\default_100_percent">
+      <UniqueIdentifier>{5BB05C0D-0017-0CE5-6C08-421462FCC0F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\resources\default_100_percent\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\gritsettings">
+      <UniqueIdentifier>{170EBF02-9E0C-8C5D-06E5-34F73C1DF75E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\gritsettings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node">
+      <UniqueIdentifier>{A49AD564-6B22-6A46-08E5-B5A7F4427839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node\custom">
+      <UniqueIdentifier>{C40A63E8-DEC6-D9F6-B0C6-030D87C22C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node\custom\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\extern">
+      <UniqueIdentifier>{539A9923-54CF-EA45-54BF-92C1F15D85A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\extern\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\tool">
+      <UniqueIdentifier>{D5609558-F36F-FE7E-9F59-3E68915C83F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\tool\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\gather">
+      <UniqueIdentifier>{9ADB54E8-3A2C-2F09-B748-0DCD0232A4D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\gather\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format">
+      <UniqueIdentifier>{70B82C25-A362-5F67-ADB1-F53029D26C30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates">
+      <UniqueIdentifier>{79320D7A-68DD-70F8-76E3-D7F26419AB5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates\writers">
+      <UniqueIdentifier>{9A464742-1D51-D9D1-FCF1-63DD8177F13D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates\writers\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme">
+      <UniqueIdentifier>{4E5567A3-B9FA-49AA-E57B-A59C138D08E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_200_percent">
+      <UniqueIdentifier>{711141ED-8F7E-80A8-D7AC-366E2C2A9455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_200_percent\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_200_percent\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_200_percent\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_100_percent">
+      <UniqueIdentifier>{5BB05C0D-0017-0CE5-6C08-421462FCC0F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_100_percent\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_100_percent\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_100_percent\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_100_percent\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\default_100_percent\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\uber">
+      <UniqueIdentifier>{6F2E394F-0308-7B0C-C204-221D29C24FCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\uber\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\help">
+      <UniqueIdentifier>{2FB33A38-F6DE-21F7-8ED5-D992F9F22C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\help\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\chromeos\login">
+      <UniqueIdentifier>{D1873D12-7946-5459-9BF4-2218C9A298B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\chromeos\login\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\plugin_metadata">
+      <UniqueIdentifier>{456FA055-4B47-A6D4-1FBB-D1BC544EF48C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\plugin_metadata\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\webstore_app">
+      <UniqueIdentifier>{AE97E9EC-125D-F7F2-2C77-734D9A3A6179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\webstore_app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\local_ntp">
+      <UniqueIdentifier>{C955414D-62E7-DAED-DAA8-4B1A00FCF6DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\local_ntp\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\local_ntp\images">
+      <UniqueIdentifier>{417A2AFC-675C-502D-5CF2-E9A58B72D6D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\local_ntp\images\2x">
+      <UniqueIdentifier>{77DC2C76-7561-E279-6729-C49239968674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\local_ntp\images\2x\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\predictors">
+      <UniqueIdentifier>{1E35A316-60C2-B94B-C70C-F56A990D3CC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\predictors\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\media\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\local_discovery">
+      <UniqueIdentifier>{90C326AE-347F-A07A-81D2-1330C6354EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\local_discovery\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\net_export">
+      <UniqueIdentifier>{B099B327-54E3-F77D-D150-00D40B0EF6E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\net_export\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\gaia_auth">
+      <UniqueIdentifier>{B9530DCC-0752-11D6-55AC-51B1017F8DA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\gaia_auth\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\user_chooser">
+      <UniqueIdentifier>{33BBBB03-5468-4EE2-0118-522B0C9FDCA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\user_chooser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\chrome_app">
+      <UniqueIdentifier>{383A7FBF-6748-0024-F345-E73D62631F28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\chrome_app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\suggestions_internals">
+      <UniqueIdentifier>{AE6DC97B-FA8A-4C85-E96A-5BB5F92FE4EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\suggestions_internals\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\apps_debugger">
+      <UniqueIdentifier>{7011B236-F27D-7BC7-5C25-7FFBDC7694C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\apps_debugger\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\downloads">
+      <UniqueIdentifier>{B7011001-5027-C224-F006-268A7BA6619E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\downloads\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\inspect">
+      <UniqueIdentifier>{43255BEB-E41F-2E51-2F2E-29245883DCC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\inspect\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\ssl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\safe_browsing">
+      <UniqueIdentifier>{2E3BD98D-5FB2-C7DC-521F-1ABCA1EFE64E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\safe_browsing\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\safe_browsing\images">
+      <UniqueIdentifier>{417A2AFC-675C-502D-5CF2-E9A58B72D6D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\safe_browsing\images\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\identity_scope_approval_dialog">
+      <UniqueIdentifier>{5FF74D16-BFA9-50B4-76A4-55A4CEAE8ED2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\identity_scope_approval_dialog\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\bookmark_manager">
+      <UniqueIdentifier>{2CC377E3-5BCD-37D5-C60E-A3096BCA3DE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\bookmark_manager\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\google_now">
+      <UniqueIdentifier>{C8FCE91B-58C8-6229-A0F2-2A843921ABED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\google_now\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\settings_app">
+      <UniqueIdentifier>{C6E3B1D4-543E-6DCA-22B1-65F113E9E093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\settings_app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\instant">
+      <UniqueIdentifier>{73CE9C16-DFCA-48C4-1DD1-51DBBF33897F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\instant\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview">
+      <UniqueIdentifier>{9C82699E-ED80-B204-861C-BD2095AADA87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\images">
+      <UniqueIdentifier>{417A2AFC-675C-502D-5CF2-E9A58B72D6D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\images\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\previewarea">
+      <UniqueIdentifier>{C348C8A8-9E18-8B59-3265-35065D29BE04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\previewarea\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\search">
+      <UniqueIdentifier>{EA2335BF-284A-96BE-2C99-ED295170E87A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\search\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\data\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\data\ticket_items">
+      <UniqueIdentifier>{59270220-88B6-9CB8-A77D-9C673584E0F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\data\ticket_items\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\settings">
+      <UniqueIdentifier>{A5F7932D-3BEE-8BC1-9EBD-C3646ED1BD60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\print_preview\settings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\gaia_auth_host">
+      <UniqueIdentifier>{E768EFD8-93DD-3FD4-0F94-189BAD1BE1F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\gaia_auth_host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\ntp4">
+      <UniqueIdentifier>{1C81D675-4C51-152C-F049-42188DB89FCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\ntp4\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\ntp4\images">
+      <UniqueIdentifier>{417A2AFC-675C-502D-5CF2-E9A58B72D6D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\ntp4\images\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\profiler">
+      <UniqueIdentifier>{87097DB4-0A18-6E42-07AB-BF3B3651C11F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\profiler\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\cloud_print_app">
+      <UniqueIdentifier>{0C9FF7E3-901F-7705-AF8A-DA4C5F57A72B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\cloud_print_app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\extensions\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\extensions\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\extensions\chromeos\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\omnibox">
+      <UniqueIdentifier>{1D0CB406-E338-C5DE-32BA-4713583CF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\omnibox\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\user_actions">
+      <UniqueIdentifier>{840CE28A-F6F0-68F8-855D-05F953B6CFF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\user_actions\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\performance_monitor">
+      <UniqueIdentifier>{266A75E1-7836-66B4-41CE-E7D175FA11F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\performance_monitor\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\inline_login">
+      <UniqueIdentifier>{DED422CC-2E14-551C-25C4-1CC259ECC78D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\inline_login\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\history">
+      <UniqueIdentifier>{DFF1F85A-B765-5EDD-189E-14283DDFC252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\resources\history\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\default_200_percent">
+      <UniqueIdentifier>{711141ED-8F7E-80A8-D7AC-366E2C2A9455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\default_200_percent\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\default_200_percent\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\extensions\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\default_100_percent">
+      <UniqueIdentifier>{5BB05C0D-0017-0CE5-6C08-421462FCC0F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\default_100_percent\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\default_100_percent\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome_resources.gyp"/>
+    <None Include="..\third_party\flot\jquery.min.js">
+      <Filter>..\third_party\flot\_excluded_files</Filter>
+    </None>
+    <None Include="..\third_party\flot\jquery.flot.min.js">
+      <Filter>..\third_party\flot\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\minus.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\check.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\checkbox_black.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\tablet_small.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\disabled_select.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\checkbox_white.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\laptop_small.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\select.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\phone_small.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\phishing_icon.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\otr_icon_standalone.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\plus.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\star_small.png">
+      <Filter>..\ui\webui\resources\images\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\2x\x-thin.png">
+      <Filter>..\ui\webui\resources\images\2x\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\images\2x\search.png">
+      <Filter>..\ui\webui\resources\images\2x\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\html\alert_overlay.html">
+      <Filter>..\ui\webui\resources\html\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\html\trash.html">
+      <Filter>..\ui\webui\resources\html\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\css\trash.css">
+      <Filter>..\ui\webui\resources\css\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\css\bubble.css">
+      <Filter>..\ui\webui\resources\css\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\css\menu_button.css">
+      <Filter>..\ui\webui\resources\css\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\css\widgets.css">
+      <Filter>..\ui\webui\resources\css\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\css\menu.css">
+      <Filter>..\ui\webui\resources\css\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\css\expandable_bubble.css">
+      <Filter>..\ui\webui\resources\css\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\assert.js">
+      <Filter>..\ui\webui\resources\js\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\parse_html_subset.js">
+      <Filter>..\ui\webui\resources\js\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\event_tracker.js">
+      <Filter>..\ui\webui\resources\js\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\util.js">
+      <Filter>..\ui\webui\resources\js\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\load_time_data.js">
+      <Filter>..\ui\webui\resources\js\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr.js">
+      <Filter>..\ui\webui\resources\js\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\event_target.js">
+      <Filter>..\ui\webui\resources\js\cr\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui.js">
+      <Filter>..\ui\webui\resources\js\cr\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\menu_button.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\context_menu_button.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\bubble.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\drag_wrapper.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\focus_manager.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\menu_item.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\card_slider.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\touch_handler.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\context_menu_handler.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\position_util.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\expandable_bubble.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\webui\resources\js\cr\ui\menu.js">
+      <Filter>..\ui\webui\resources\js\cr\ui\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\resources\default_200_percent\close_2.png">
+      <Filter>..\ui\resources\default_200_percent\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\resources\default_200_percent\close_2_pressed.png">
+      <Filter>..\ui\resources\default_200_percent\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\resources\default_200_percent\close_2_hover.png">
+      <Filter>..\ui\resources\default_200_percent\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\resources\default_100_percent\close_2_hover.png">
+      <Filter>..\ui\resources\default_100_percent\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\resources\default_100_percent\close_2.png">
+      <Filter>..\ui\resources\default_100_percent\_excluded_files</Filter>
+    </None>
+    <None Include="..\ui\resources\default_100_percent\close_2_pressed.png">
+      <Filter>..\ui\resources\default_100_percent\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\gritsettings\resource_ids">
+      <Filter>..\tools\gritsettings\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\PRESUBMIT.py">
+      <Filter>..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit_info.py">
+      <Filter>..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit.py">
+      <Filter>..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grit_runner.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\clique_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\shortcuts.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grit_runner_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\scons.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grd_reader.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\shortcuts_unittests.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\pseudo_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grd_reader_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\xtb_reader_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\pseudo_rtl.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\__init__.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\xtb_reader.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\pseudo.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\clique.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tclib.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\lazy_re.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\util_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\exception.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\test_suite_all.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\lazy_re_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\constants.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tclib_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\util.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\variant.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\include_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\io_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\base_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\misc_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\io.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\mapping.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\structure_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\misc.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\base.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\__init__.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\empty.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\include.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\message.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\structure.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\message_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\custom\filename_unittest.py">
+      <Filter>..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\custom\__init__.py">
+      <Filter>..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\custom\filename.py">
+      <Filter>..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\FP.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\tclib.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\__init__.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\BogoFP.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\xmb.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\android2grd.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\diff_structures.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\android2grd_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\build_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\rc2grd_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\rc2grd.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\resize.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\postprocess_interface.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\newgrd.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\preprocess_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\build.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\toolbar_postprocess.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\unit.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\count.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\xmb_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\interface.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\__init__.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\preprocess_interface.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\toolbar_preprocess.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\transl2tc.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\postprocess_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\buildinfo.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\transl2tc_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\test.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\menu_from_parts.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\buildinfo_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\igoogle_strings.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\rc.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_html.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_html_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\igoogle_strings_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\policy_json.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\txt.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\skeleton_gatherer.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\muppet_strings_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\admin_template.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\admin_template_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\regexp.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_scaled_image.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\muppet_strings.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\__init__.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\json_loader.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\interface.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\rc_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\tr_html.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_scaled_image_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\tr_html_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\policy_json_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\txt_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\android_xml_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\resource_map.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc_header_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\js_map_format_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\c_format.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\data_pack_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\data_pack.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc_header.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\html_inline_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\__init__.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\repack.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\android_xml.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\resource_map_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\js_map_format.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\html_inline.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\c_format_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\chrome_messages_json.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\chrome_messages_json_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\__init__.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\template_formatter.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\PRESUBMIT.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\policy_template_generator.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\policy_template_generator_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writer_configuration.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\reg_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\json_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_strings_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\json_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\reg_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\writer_unittest_common.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adml_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\template_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\doc_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adm_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\mock_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\xml_writer_base_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_strings_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\admx_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\doc_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\xml_formatted_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_helper.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\admx_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adm_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\__init__.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adml_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\template_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_200_percent\sadtab.png">
+      <Filter>app\theme\default_200_percent\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_200_percent\flags_section.png">
+      <Filter>app\theme\default_200_percent\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_200_percent\extensions_section.png">
+      <Filter>app\theme\default_200_percent\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_200_percent\common\error_managed_mode_blocked_page.png">
+      <Filter>app\theme\default_200_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_200_percent\common\error_network_generic.png">
+      <Filter>app\theme\default_200_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_200_percent\common\error_network_offline.png">
+      <Filter>app\theme\default_200_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\chromium\product_logo_name_48.png">
+      <Filter>app\theme\chromium\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\extensions_section.png">
+      <Filter>app\theme\default_100_percent\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\sadtab.png">
+      <Filter>app\theme\default_100_percent\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\about_conflicts.png">
+      <Filter>app\theme\default_100_percent\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\flags_section.png">
+      <Filter>app\theme\default_100_percent\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\chromium\product_logo.png">
+      <Filter>app\theme\default_100_percent\chromium\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\common\error_network_generic.png">
+      <Filter>app\theme\default_100_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\common\error_network_offline.png">
+      <Filter>app\theme\default_100_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\default_100_percent\common\error_managed_mode_blocked_page.png">
+      <Filter>app\theme\default_100_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\about_credits.html">
+      <Filter>$(OutDir)obj\global_intermediate\_excluded_files</Filter>
+    </None>
+    <None Include="common\web_app_schema.json">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions_api_resources.grd">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <None Include="common\common_resources.grd">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\tts.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\_permission_features.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\_manifest_features.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\streams_private.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\app.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\browsing_data.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\privacy.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\page_action.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\experimental_rlz.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\file_browser_private.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\echo_private.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\declarative_content.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\script_badge.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\browser_action.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\input_method_private.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\web_request_internal.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\webstore_private.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\proxy.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\runtime.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\commands.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\declarative_web_request.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\tts_engine.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\file_browser_handler.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\experimental_input_virtual_keyboard.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\_api_features.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\page_actions.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\types_private.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\webstore.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\experimental_processes.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="common\extensions\api\types.json">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </None>
+    <None Include="browser\browser_resources.grd">
+      <Filter>browser\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\set_as_default_browser.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\incognito_tab.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\policy.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_conflicts.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\identity_internals.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\profile_signin_confirmation.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_stats.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\feedback.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\feedback_invalid.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\identity_internals.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\set_as_default_browser.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_version.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\notification_1line.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_conflicts.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\managed_mode_block_interstitial.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\managed_mode_block_interstitial.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_nacl.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_nacl.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\policy.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\new_incognito_tab_theme.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_version.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\notification_2line.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\plugins.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\notification_icon.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\profile_signin_confirmation.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\flags.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\crashes.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\policy.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\crashes.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_nacl.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_stats.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\profile_signin_confirmation.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\identity_internals.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_memory.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\reader_out_of_date.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_credits.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chrome-logo-faded.png">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\set_as_default_browser.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_flash.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_memory.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\feedback.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_version_android.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing_multiple_threat_block.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_flash.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\translate.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\crashes.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\incognito_tab.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\plugins.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions_infobar.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\prerender_url_whitelist.dat">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\managed_mode_block_interstitial.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_version.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\flags.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\disclosure_triangle_small.png">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\plugins.js">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\downloads_section.png">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\flags.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\about_memory.html">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\feedback.css">
+      <Filter>browser\resources\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber.js">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber_frame.css">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber_frame.js">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber_utils.js">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber_frame.html">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber.html">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber.css">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\uber\uber_shared.css">
+      <Filter>browser\resources\uber\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\help\help.js">
+      <Filter>browser\resources\help\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\help\help.html">
+      <Filter>browser\resources\help\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\help\channel_change_page.css">
+      <Filter>browser\resources\help\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\help\help.css">
+      <Filter>browser\resources\help\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\help\channel_change_page.js">
+      <Filter>browser\resources\help\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\help\channel_change_page.html">
+      <Filter>browser\resources\help\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\bubble.css">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\display_manager.js">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\user_pod_template.html">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\resource_loader.js">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\user_pod_row.css">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\oobe.css">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\screen_container.css">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\user_pod_row.js">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\screen_account_picker.html">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\screen_account_picker.js">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\screen.js">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\screen_account_picker.css">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chromeos\login\bubble.js">
+      <Filter>browser\resources\chromeos\login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\plugin_metadata\plugins_win.json">
+      <Filter>browser\resources\plugin_metadata\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\webstore_app\manifest.json">
+      <Filter>browser\resources\webstore_app\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_title.js">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_thumbnail.css">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_util.js">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_title.html">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\local_ntp.html">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_thumbnail.js">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\local_ntp.css">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\instant_iframe_validation.js">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\local_ntp.js">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_title.css">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_thumbnail.html">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\most_visited_iframe.css">
+      <Filter>browser\resources\local_ntp\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\images\2x\ntp_white_google_logo.png">
+      <Filter>browser\resources\local_ntp\images\2x\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_ntp\images\2x\ntp_google_logo.png">
+      <Filter>browser\resources\local_ntp\images\2x\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\predictors\predictors.css">
+      <Filter>browser\resources\predictors\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\predictors\resource_prefetch_predictor.html">
+      <Filter>browser\resources\predictors\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\predictors\predictors.js">
+      <Filter>browser\resources\predictors\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\predictors\autocomplete_action_predictor.js">
+      <Filter>browser\resources\predictors\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\predictors\autocomplete_action_predictor.html">
+      <Filter>browser\resources\predictors\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\predictors\predictors.html">
+      <Filter>browser\resources\predictors\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\predictors\resource_prefetch_predictor.js">
+      <Filter>browser\resources\predictors\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\media\webrtc_logs.js">
+      <Filter>browser\resources\media\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\media\webrtc_logs.css">
+      <Filter>browser\resources\media\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\media\webrtc_logs.html">
+      <Filter>browser\resources\media\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_discovery\local_discovery.html">
+      <Filter>browser\resources\local_discovery\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_discovery\local_discovery.css">
+      <Filter>browser\resources\local_discovery\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\local_discovery\local_discovery.js">
+      <Filter>browser\resources\local_discovery\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\net_export\net_export.js">
+      <Filter>browser\resources\net_export\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\net_export\net_export.html">
+      <Filter>browser\resources\net_export\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\net_export\net_export.css">
+      <Filter>browser\resources\net_export\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\gaia_auth\manifest_keyboard.json">
+      <Filter>browser\resources\gaia_auth\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\gaia_auth\manifest.json">
+      <Filter>browser\resources\gaia_auth\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_chooser\user_chooser.html">
+      <Filter>browser\resources\user_chooser\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_chooser\user_chooser.js">
+      <Filter>browser\resources\user_chooser\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_chooser\control_bar.css">
+      <Filter>browser\resources\user_chooser\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_chooser\control_bar.html">
+      <Filter>browser\resources\user_chooser\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_chooser\control_bar.js">
+      <Filter>browser\resources\user_chooser\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\chrome_app\manifest.json">
+      <Filter>browser\resources\chrome_app\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\suggestions_internals\suggestions_internals.css">
+      <Filter>browser\resources\suggestions_internals\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\suggestions_internals\suggestions_internals.html">
+      <Filter>browser\resources\suggestions_internals\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\suggestions_internals\suggestions_internals.js">
+      <Filter>browser\resources\suggestions_internals\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\apps_debugger\manifest.json">
+      <Filter>browser\resources\apps_debugger\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\downloads\downloads.js">
+      <Filter>browser\resources\downloads\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\downloads\downloads.html">
+      <Filter>browser\resources\downloads\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\downloads\downloads.css">
+      <Filter>browser\resources\downloads\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\inspect\inspect.html">
+      <Filter>browser\resources\inspect\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\inspect\inspect.js">
+      <Filter>browser\resources\inspect\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\inspect\inspect.css">
+      <Filter>browser\resources\inspect\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox_fancy_twisty_open.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\badguy.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\policeman.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\twisty_open.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox_twisty_open.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\fancy_firefox.html">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\stoplight.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox_icon.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\fancy_firefox.css">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox.html">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox_fancy_twisty_closed.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox.css">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox_twisty_closed.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\twisty_closed.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\roadblock_icon.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\roadblock_background.png">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\roadblock.html">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\firefox.js">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ssl\fancy_firefox.js">
+      <Filter>browser\resources\ssl\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing\malware_block_v2.js">
+      <Filter>browser\resources\safe_browsing\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing\malware_block_v2.html">
+      <Filter>browser\resources\safe_browsing\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing\malware_block_v2.css">
+      <Filter>browser\resources\safe_browsing\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing\images\malware_icon_v2.png">
+      <Filter>browser\resources\safe_browsing\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing\images\stripe.png">
+      <Filter>browser\resources\safe_browsing\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing\images\subresource_icon.png">
+      <Filter>browser\resources\safe_browsing\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\safe_browsing\images\phishing_icon.png">
+      <Filter>browser\resources\safe_browsing\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\identity_scope_approval_dialog\manifest.json">
+      <Filter>browser\resources\identity_scope_approval_dialog\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\bookmark_manager\manifest.json">
+      <Filter>browser\resources\bookmark_manager\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\google_now\manifest.json">
+      <Filter>browser\resources\google_now\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\settings_app\manifest.json">
+      <Filter>browser\resources\settings_app\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\instant\instant.js">
+      <Filter>browser\resources\instant\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\instant\instant.css">
+      <Filter>browser\resources\instant\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\instant\instant.html">
+      <Filter>browser\resources\instant\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_preview.html">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_preview_utils.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_header.html">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_preview_page.html">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\no_destinations_promo.css">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_preview_animations.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_header.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\preview_generator.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\cloud_print_interface.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\metrics.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\component.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\native_layer.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_preview.js">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\no_destinations_promo.html">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_preview.css">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\print_header.css">
+      <Filter>browser\resources\print_preview\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\pdf.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\gcp_logo.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\printer_shared.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\third_party_fedex.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\mobile_shared.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\google_doc.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\printer.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\search.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\mobile.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\cloud.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\images\third_party.png">
+      <Filter>browser\resources\print_preview\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\preview_area.js">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\margin_control_container.js">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\preview_area.css">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\margin_control.html">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\preview_area.html">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\margin_control_container.css">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\margin_control.css">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\previewarea\margin_control.js">
+      <Filter>browser\resources\print_preview\previewarea\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\search_box.html">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\search_box.js">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_list.js">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_list_item.html">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_list.css">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\recent_destination_list.js">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_list_item.js">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\fedex_tos.html">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\cloud_destination_list.js">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_list_item.css">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_search.html">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\search_box.css">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_list.html">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\fedex_tos.js">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_search.js">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\destination_search.css">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\search\fedex_tos.css">
+      <Filter>browser\resources\print_preview\search\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\print_ticket_store.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\app_state.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\destination.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\measurement_system.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\destination_store.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\document_info.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\coordinate2d.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\size.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\local_parsers.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\user_info.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\page_number_set.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\printable_area.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\capabilities_holder.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\margins.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\cloud_parsers.js">
+      <Filter>browser\resources\print_preview\data\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\margins_type.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\copies.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\selection_only.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\fit_to_page.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\page_range.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\header_footer.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\ticket_item.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\custom_margins.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\css_background.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\collate.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\landscape.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\color.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\data\ticket_items\duplex.js">
+      <Filter>browser\resources\print_preview\data\ticket_items\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\margin_settings.js">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\margin_settings.html">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\copies_settings.css">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\copies_settings.html">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\other_options_settings.html">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\destination_settings.css">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\page_settings.css">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\other_options_settings.js">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\color_settings.html">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\color_settings.js">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\layout_settings.js">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\layout_settings.html">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\margin_settings.css">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\destination_settings.js">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\page_settings.html">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\page_settings.js">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\copies_settings.js">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\print_preview\settings\destination_settings.html">
+      <Filter>browser\resources\print_preview\settings\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\gaia_auth_host\gaia_auth_host.js">
+      <Filter>browser\resources\gaia_auth_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\new_tab.html">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\nav_dot.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\new_tab.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\trash.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\most_visited_page.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\other_sessions.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\apps_page.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\tile_page.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\most_visited_page.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\footer_menu.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\suggestions_page.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\logging.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\page_switcher.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\new_tab.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\tile_page.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\suggestions_page.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\recently_closed.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\apps_page.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\new_tab_theme.css">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\page_list_view.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\app_launcher_promo.png">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\nav_dot.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\dot_list.js">
+      <Filter>browser\resources\ntp4\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\images\disclosure_triangle_mask.png">
+      <Filter>browser\resources\ntp4\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\ntp4\images\closed_window.png">
+      <Filter>browser\resources\ntp4\images\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\profiler\profiler.html">
+      <Filter>browser\resources\profiler\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\profiler\profiler.js">
+      <Filter>browser\resources\profiler\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\cloud_print_app\manifest.json">
+      <Filter>browser\resources\cloud_print_app\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_command_list.js">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_commands_overlay.css">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_info.js">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\pack_extension_overlay.html">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extensions.js">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extensions.html">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extensions.css">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_info.css">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_info.html">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\pack_extension_overlay.js">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_commands_overlay.js">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_list.js">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_focus_manager.js">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\extension_commands_overlay.html">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\pack_extension_overlay.css">
+      <Filter>browser\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\chromeos\kiosk_apps.css">
+      <Filter>browser\resources\extensions\chromeos\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\chromeos\kiosk_app_list.js">
+      <Filter>browser\resources\extensions\chromeos\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\chromeos\kiosk_app_disable_bailout_confirm.html">
+      <Filter>browser\resources\extensions\chromeos\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\chromeos\kiosk_apps.html">
+      <Filter>browser\resources\extensions\chromeos\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\chromeos\kiosk_apps.js">
+      <Filter>browser\resources\extensions\chromeos\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\extensions\chromeos\kiosk_app_disable_bailout_confirm.js">
+      <Filter>browser\resources\extensions\chromeos\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\omnibox\omnibox.css">
+      <Filter>browser\resources\omnibox\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\omnibox\omnibox.js">
+      <Filter>browser\resources\omnibox\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\omnibox\omnibox.html">
+      <Filter>browser\resources\omnibox\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_actions\user_actions.css">
+      <Filter>browser\resources\user_actions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_actions\user_actions.html">
+      <Filter>browser\resources\user_actions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\user_actions\user_actions.js">
+      <Filter>browser\resources\user_actions\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\performance_monitor\chart.js">
+      <Filter>browser\resources\performance_monitor\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\performance_monitor\chart.html">
+      <Filter>browser\resources\performance_monitor\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\performance_monitor\chart.css">
+      <Filter>browser\resources\performance_monitor\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\inline_login\inline_login.js">
+      <Filter>browser\resources\inline_login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\inline_login\inline_login.css">
+      <Filter>browser\resources\inline_login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\inline_login\inline_login.html">
+      <Filter>browser\resources\inline_login\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\history.js">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\history_focus_manager.js">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\alert_overlay.html">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\other_devices.js">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\history.css">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\other_devices.css">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\history.html">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\history_mobile.css">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="browser\resources\history\alert_overlay.css">
+      <Filter>browser\resources\history\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\plugin_placeholders.css">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\click_to_play_plugin.html">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\plugin_blocked_android.png">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\error_app.html">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\plugin_blocked.png">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\blocked_plugin.html">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\neterror.html">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\disabled_plugin.html">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\renderer_resources.grd">
+      <Filter>renderer\resources\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\default_200_percent\common\webview-crash.png">
+      <Filter>renderer\resources\default_200_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\default_200_percent\common\sadplugin.png">
+      <Filter>renderer\resources\default_200_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\web_view.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\chrome_direct_setting.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\file_browser_private_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\web_request_internal_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\searchbox_api.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\set_icon.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\extension_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\app_window_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\downloads_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\unload_event.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\platform_app.css">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\binding.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\event.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\context_menus_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\window_controls_template.html">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\entry_id_manager.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\json_schema.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\experimental.offscreenTabs_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\omnibox_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\webstore_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\platform_app.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\chrome_setting.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\experimental.media_galleries_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\declarative_webrequest_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\content_watcher.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\utils.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\media_galleries_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\page_actions_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\ad_view.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\web_view_deny.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\permissions_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\declarative_content_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\sync_file_system_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\notifications_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\messaging.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\schema_utils.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\runtime_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\tag_watcher.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\page_action_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\file_system_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\test_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\ad_view_deny.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\greasemonkey_api.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\input.ime_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\tts_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\tab_capture_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\web_request_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\window_controls.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\inject_app_titlebar.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\i18n_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\feedback_private_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\app_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\image_util.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\app_runtime_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\bluetooth_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\tabs_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\system_indicator_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\browser_action_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\tts_engine_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\content_setting.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\web_view_experimental.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\page_capture_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\file_browser_handler_custom_bindings.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\send_request.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\storage_area.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\last_error.js">
+      <Filter>renderer\resources\extensions\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\default_100_percent\common\sadplugin.png">
+      <Filter>renderer\resources\default_100_percent\common\_excluded_files</Filter>
+    </None>
+    <None Include="renderer\resources\default_100_percent\common\webview-crash.png">
+      <Filter>renderer\resources\default_100_percent\common\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

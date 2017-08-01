@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bitrate_controller">
+      <UniqueIdentifier>{7D929C95-1720-104A-DBF8-7965FD9E1C8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bitrate_controller\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="modules.gyp"/>
+    <ClInclude Include="bitrate_controller\send_side_bandwidth_estimation.h">
+      <Filter>bitrate_controller</Filter>
+    </ClInclude>
+    <ClCompile Include="bitrate_controller\send_side_bandwidth_estimation.cc">
+      <Filter>bitrate_controller</Filter>
+    </ClCompile>
+    <ClInclude Include="bitrate_controller\bitrate_controller_impl.h">
+      <Filter>bitrate_controller</Filter>
+    </ClInclude>
+    <ClCompile Include="bitrate_controller\bitrate_controller_impl.cc">
+      <Filter>bitrate_controller</Filter>
+    </ClCompile>
+    <ClInclude Include="bitrate_controller\include\bitrate_controller.h">
+      <Filter>bitrate_controller\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

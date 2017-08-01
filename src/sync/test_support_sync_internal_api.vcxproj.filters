@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="internal_api">
+      <UniqueIdentifier>{5D3DD876-85BB-CEFD-B72C-F8990231221B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClCompile Include="internal_api\test\fake_sync_manager.cc">
+      <Filter>internal_api\test</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\test\test_internal_components_factory.cc">
+      <Filter>internal_api\test</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\test\test_user_share.cc">
+      <Filter>internal_api\test</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\test\test_entry_factory.cc">
+      <Filter>internal_api\test</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\test\test_user_share.h">
+      <Filter>internal_api\public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\test\fake_sync_manager.h">
+      <Filter>internal_api\public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\test\test_internal_components_factory.h">
+      <Filter>internal_api\public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\test\test_entry_factory.h">
+      <Filter>internal_api\public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\base\model_type_test_util.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\base\model_type_test_util.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\base\model_type_invalidation_map_test_util.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\invalidation_test_util.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\base\model_type_invalidation_map_test_util.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base\invalidation_test_util.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

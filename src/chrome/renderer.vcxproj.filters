@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\pepper">
+      <UniqueIdentifier>{7CECF610-4A5A-AE56-D71A-A67BA22B6EB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\printing">
+      <UniqueIdentifier>{7C256FC4-67A4-3160-9AC3-FAF60A22B169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\printing\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\prerender">
+      <UniqueIdentifier>{D998C2FB-D6B3-BA09-4787-209F98C8AFCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\spellchecker">
+      <UniqueIdentifier>{49B1EFF2-79D2-913D-7504-1892C06D82C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\spellchecker\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\searchbox">
+      <UniqueIdentifier>{63364329-BAA7-8BC9-032D-5EEB2854A9E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\plugins">
+      <UniqueIdentifier>{9DE023B3-F1C0-CF0D-AF52-3287B388D922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\safe_browsing">
+      <UniqueIdentifier>{2E3BD98D-5FB2-C7DC-521F-1ABCA1EFE64E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\translate">
+      <UniqueIdentifier>{AF88FA73-98AA-595D-6A79-374609F48195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\resources\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="renderer\playback_extension.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\loadtimes_extension_bindings.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tts_dispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\webview_color_overlay.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\chrome_render_process_observer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\frame_sniffer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\external_extension.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\chrome_content_renderer_client.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\security_filter_peer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\security_filter_peer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\web_apps.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\resource_bundle_source_map.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\loadtimes_extension_bindings.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\external_host_bindings.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\chrome_render_view_observer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\static_v8_external_string_resource.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\page_load_histograms.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\playback_extension.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\static_v8_external_string_resource.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\page_load_histograms.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\benchmarking_extension.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\external_host_bindings.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\validation_message_agent.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\custom_menu_commands.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\one_click_signin_agent.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\isolated_world_ids.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\chrome_content_renderer_client.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\webview_color_overlay.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\validation_message_agent.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\net_benchmarking_extension.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\content_settings_observer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tts_dispatcher.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\chrome_render_process_observer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\frame_sniffer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\web_apps.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\benchmarking_extension.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\net_benchmarking_extension.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\chrome_render_view_observer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\content_settings_observer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\one_click_signin_agent.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\resource_bundle_source_map.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\external_extension.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_pdf_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\chrome_renderer_pepper_host_factory.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_flash_menu_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pnacl_translation_resource_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_flash_menu_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_pdf_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_flash_font_file_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_flash_fullscreen_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\chrome_renderer_pepper_host_factory.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_shared_memory_message_filter.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_flash_drm_renderer_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_flash_fullscreen_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_shared_memory_message_filter.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_extensions_common_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_flash_drm_renderer_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_flash_font_file_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_helper.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_extensions_common_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pnacl_translation_resource_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_helper.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_flash_renderer_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_pdf_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_nacl_private_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_flash_renderer_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_pdf_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_nacl_private_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webrtc_logging_message_filter.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\chrome_webrtc_log_message_delegate.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webrtc_logging_message_filter.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\chrome_webrtc_log_message_delegate.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\printing\print_web_view_helper_win.cc">
+      <Filter>renderer\printing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\printing\print_web_view_helper.cc">
+      <Filter>renderer\printing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\printing\print_web_view_helper.h">
+      <Filter>renderer\printing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\printing\print_web_view_helper_linux.cc">
+      <Filter>renderer\printing\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="renderer\printing\print_web_view_helper_mac.mm">
+      <Filter>renderer\printing\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="renderer\prerender\prerender_helper.h">
+      <Filter>renderer\prerender</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\prerender\prerender_extra_data.cc">
+      <Filter>renderer\prerender</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\prerender\prerender_dispatcher.cc">
+      <Filter>renderer\prerender</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\prerender\prerender_media_load_deferrer.cc">
+      <Filter>renderer\prerender</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\prerender\prerender_media_load_deferrer.h">
+      <Filter>renderer\prerender</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\prerender\prerender_helper.cc">
+      <Filter>renderer\prerender</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\prerender\prerender_dispatcher.h">
+      <Filter>renderer\prerender</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\prerender\prerenderer_client.h">
+      <Filter>renderer\prerender</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\prerender\prerenderer_client.cc">
+      <Filter>renderer\prerender</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\prerender\prerender_extra_data.h">
+      <Filter>renderer\prerender</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\spellchecker\spellcheck_worditerator.cc">
+      <Filter>renderer\spellchecker</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\spellchecker\spellcheck.h">
+      <Filter>renderer\spellchecker</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\spellchecker\spellcheck.cc">
+      <Filter>renderer\spellchecker</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\spellchecker\spellcheck_language.h">
+      <Filter>renderer\spellchecker</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\spellchecker\hunspell_engine.h">
+      <Filter>renderer\spellchecker</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\spellchecker\spelling_engine.h">
+      <Filter>renderer\spellchecker</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\spellchecker\spellcheck_provider.cc">
+      <Filter>renderer\spellchecker</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\spellchecker\custom_dictionary_engine.cc">
+      <Filter>renderer\spellchecker</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\spellchecker\hunspell_engine.cc">
+      <Filter>renderer\spellchecker</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\spellchecker\custom_dictionary_engine.h">
+      <Filter>renderer\spellchecker</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\spellchecker\spellcheck_worditerator.h">
+      <Filter>renderer\spellchecker</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\spellchecker\spellcheck_provider.h">
+      <Filter>renderer\spellchecker</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\spellchecker\spellcheck_language.cc">
+      <Filter>renderer\spellchecker</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\spellchecker\cocoa_spelling_engine_mac.cc">
+      <Filter>renderer\spellchecker\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\spellchecker\cocoa_spelling_engine_mac.h">
+      <Filter>renderer\spellchecker\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\set_icon_natives.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\chrome_v8_extension.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\chrome_v8_context_set.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\i18n_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\context_menus_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\scoped_persistent.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\context_menus_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\web_request_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\media_galleries_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\webstore_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\native_handler.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\app_window_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\api_definitions_natives.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\media_galleries_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\logging_native_handler.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\unsafe_persistent.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\object_backed_native_handler.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\page_actions_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\app_runtime_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\renderer_permissions_policy_delegate.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\sync_file_system_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\user_script_slave.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\file_system_natives.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\chrome_v8_context.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\console.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\file_browser_private_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\console.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\extension_groups.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\set_icon_natives.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\file_system_natives.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\v8_schema_registry.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\tab_finder.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\binding_generating_native_handler.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\render_view_observer_natives.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\i18n_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\tab_finder.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\page_capture_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\object_backed_native_handler.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\safe_builtins.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\binding_generating_native_handler.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\extension_localization_peer.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\module_system.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\page_actions_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\send_request_natives.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\user_script_scheduler.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\native_handler.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\render_view_observer_natives.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\api_activity_logger.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\content_watcher.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\send_request_natives.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\user_script_scheduler.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\file_browser_handler_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\request_sender.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\sync_file_system_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\messaging_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\page_capture_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\app_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\tabs_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\chrome_v8_extension_handler.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\api_definitions_natives.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\chrome_v8_extension_handler.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\app_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\dispatcher.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\web_request_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\user_script_slave.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\file_browser_private_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\file_browser_handler_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\logging_native_handler.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\dispatcher.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\event_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\tts_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\chrome_v8_context_set.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\event_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\app_runtime_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\resource_request_policy.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\module_system.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\content_watcher.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\extension_helper.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\extension_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\api_activity_logger.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\runtime_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\feedback_private_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\v8_schema_registry.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\safe_builtins.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\extension_helper.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\chrome_v8_extension.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\webstore_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\tts_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\extension_localization_peer.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\request_sender.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\chrome_v8_context.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\feedback_private_custom_bindings.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\tabs_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\runtime_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\app_window_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\resource_request_policy.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\dom_activity_logger.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\extensions\messaging_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\extensions\renderer_permissions_policy_delegate.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\extensions\dom_activity_logger.cc">
+      <Filter>renderer\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\extensions\extension_custom_bindings.h">
+      <Filter>renderer\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\searchbox\searchbox.h">
+      <Filter>renderer\searchbox</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\searchbox\searchbox_extension.cc">
+      <Filter>renderer\searchbox</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\searchbox\searchbox_extension.h">
+      <Filter>renderer\searchbox</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\searchbox\searchbox.cc">
+      <Filter>renderer\searchbox</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\plugins\webview_plugin.h">
+      <Filter>renderer\plugins</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\plugins\webview_plugin.cc">
+      <Filter>renderer\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\plugins\plugin_uma.cc">
+      <Filter>renderer\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\plugins\plugin_placeholder.cc">
+      <Filter>renderer\plugins</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\plugins\plugin_placeholder.h">
+      <Filter>renderer\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\plugins\plugin_uma.h">
+      <Filter>renderer\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\safe_browsing\feature_extractor_clock.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\safe_browsing\murmurhash3_util.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\safe_browsing\scorer.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\safe_browsing\phishing_url_feature_extractor.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\safe_browsing\malware_dom_details.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\safe_browsing\murmurhash3_util.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\safe_browsing\scorer.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\safe_browsing\malware_dom_details.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\safe_browsing\phishing_dom_feature_extractor.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\safe_browsing\phishing_term_feature_extractor.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\phishing_url_feature_extractor.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\safe_browsing\phishing_term_feature_extractor.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\safe_browsing\phishing_classifier.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\safe_browsing\phishing_classifier.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\feature_extractor_clock.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\phishing_dom_feature_extractor.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\safe_browsing\features.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\safe_browsing\phishing_classifier_delegate.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\features.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\safe_browsing\phishing_classifier_delegate.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\net\net_error_helper.h">
+      <Filter>renderer\net</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\net\renderer_net_predictor.cc">
+      <Filter>renderer\net</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\net\prescient_networking_dispatcher.h">
+      <Filter>renderer\net</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\net\net_error_helper.cc">
+      <Filter>renderer\net</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\net\renderer_net_predictor.h">
+      <Filter>renderer\net</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\net\predictor_queue.h">
+      <Filter>renderer\net</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\net\predictor_queue.cc">
+      <Filter>renderer\net</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\net\prescient_networking_dispatcher.cc">
+      <Filter>renderer\net</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\translate\translate_helper.h">
+      <Filter>renderer\translate</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\translate\translate_helper.cc">
+      <Filter>renderer\translate</Filter>
+    </ClCompile>
+    <None Include="renderer\resources\extensions\web_view.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\greasemonkey_api.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\chrome_direct_setting.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\tts_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\file_browser_private_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\json_schema.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\content_setting.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\extension_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\binding.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\event.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\context_menus_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\unload_event.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\feedback_private_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\app_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\experimental.offscreenTabs_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\app_window_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\omnibox_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\page_action_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\set_icon.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\platform_app.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\chrome_setting.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\declarative_webrequest_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\content_watcher.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\utils.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\system_indicator_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\web_view_experimental.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\page_actions_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\file_browser_handler_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\declarative_content_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\notifications_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\input.ime_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\runtime_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\page_capture_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\web_request_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\file_system_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\messaging.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\test_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\browser_action_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\send_request.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\last_error.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\tts_engine_custom_bindings.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <None Include="renderer\resources\extensions\storage_area.js">
+      <Filter>renderer\resources\extensions</Filter>
+    </None>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

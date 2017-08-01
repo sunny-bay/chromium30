@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="notifier">
+      <UniqueIdentifier>{66184CE2-8D3E-4C84-F432-F6398B11F1E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClInclude Include="notifier\invalidator_test_template.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\fake_invalidator.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\object_id_invalidation_map_test_util.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\fake_invalidation_handler.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\fake_invalidator.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\fake_invalidation_state_tracker.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\object_id_invalidation_map_test_util.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\invalidator_test_template.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\fake_invalidation_handler.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\fake_invalidation_state_tracker.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

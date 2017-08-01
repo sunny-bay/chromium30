@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme">
+      <UniqueIdentifier>{4E5567A3-B9FA-49AA-E57B-A59C138D08E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build\util\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <None Include="VERSION">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="version.h.in">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app\theme\chromium\BRANDING">
+      <Filter>app\theme\chromium\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <None Include="..\build\util\LASTCHANGE">
+      <Filter>..\build\util\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

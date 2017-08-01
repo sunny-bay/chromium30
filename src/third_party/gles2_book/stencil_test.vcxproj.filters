@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Chapter_11">
+      <UniqueIdentifier>{CEDF966C-AB9A-9BCE-D024-303BD8B81A5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter_11\Stencil_Test">
+      <UniqueIdentifier>{2D7B8D12-C3D0-2175-2129-3AE9CF950A5E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gles2_book.gyp"/>
+    <ClCompile Include="Chapter_11\Stencil_Test\Stencil_Test.c">
+      <Filter>Chapter_11\Stencil_Test</Filter>
+    </ClCompile>
+    <ClInclude Include="Chapter_11\Stencil_Test\Stencil_Test.h">
+      <Filter>Chapter_11\Stencil_Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

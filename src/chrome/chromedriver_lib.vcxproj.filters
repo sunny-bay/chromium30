@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\webdriver">
+      <UniqueIdentifier>{AB230931-9AA2-62A8-1F70-770234561B43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\webdriver\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\webdriver\commands">
+      <UniqueIdentifier>{D0D999A7-070F-6D3F-62A4-22FDE2667F6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="test\webdriver\webdriver_session.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\webdriver_automation.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\frame_path.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\webdriver_basic_types.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\webdriver_element_id.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_util.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_automation.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\webdriver_session.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\keycode_text_conversion.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\keycode_text_conversion_win.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\http_response.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\webdriver_error.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\webdriver_key_converter.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\webdriver_switches.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\webdriver_logging.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\webdriver_capabilities_parser.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_key_converter.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_logging.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\webdriver_dispatch.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\webdriver_element_id.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\webdriver_util.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\webdriver_session_manager.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\webdriver_dispatch.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\webdriver_capabilities_parser.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\webdriver_switches.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\webdriver_basic_types.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\http_response.h">
+      <Filter>test\webdriver</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\webdriver_error.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\webdriver_session_manager.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\frame_path.cc">
+      <Filter>test\webdriver</Filter>
+    </ClCompile>
+    <None Include="test\webdriver\webdriver_util_mac.mm">
+      <Filter>test\webdriver\_excluded_files</Filter>
+    </None>
+    <None Include="test\webdriver\keycode_text_conversion_mac.mm">
+      <Filter>test\webdriver\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="test\webdriver\keycode_text_conversion_x.cc">
+      <Filter>test\webdriver\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\keycode_text_conversion_gtk.cc">
+      <Filter>test\webdriver\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\navigate_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\log_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\window_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\url_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\chrome_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\create_session.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\execute_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\mouse_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\html5_location_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\webelement_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\html5_location_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\target_locator_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\html5_storage_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\find_element_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\url_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\mouse_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\source_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\set_timeout_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\window_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\html5_storage_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\alert_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\browser_connection_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\execute_async_script_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\title_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\screenshot_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\file_upload_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\session_with_id.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\appcache_status_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\response.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\webdriver_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\webdriver_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\set_timeout_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\keys_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\source_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\screenshot_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\log_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\alert_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\cookie_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\chrome_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\keys_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\target_locator_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\cookie_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\browser_connection_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\title_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\navigate_commands.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\create_session.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\response.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\execute_async_script_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\session_with_id.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="test\webdriver\commands\file_upload_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\webelement_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webdriver\commands\appcache_status_command.cc">
+      <Filter>test\webdriver\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webdriver\commands\find_element_commands.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="test\webdriver\commands\execute_command.h">
+      <Filter>test\webdriver\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\browser\search_engines">
+      <UniqueIdentifier>{13A22831-A572-0F17-5006-6AABDD8FF9BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\json_to_struct">
+      <UniqueIdentifier>{157F697B-B7AE-1F5B-2D48-A0E5C48FEE03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\json_to_struct\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="prepopulated_engines.gyp"/>
+    <genstaticinit Include="prepopulated_engines.json"/>
+    <genstaticinit Include="prepopulated_engines_schema.json">
+      <Filter>_excluded_files</Filter>
+    </genstaticinit>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\browser\search_engines\prepopulated_engines.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\browser\search_engines</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\browser\search_engines\prepopulated_engines.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\browser\search_engines</Filter>
+    </ClInclude>
+    <None Include="..\..\..\tools\json_to_struct\element_generator.py">
+      <Filter>..\..\..\tools\json_to_struct\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_to_struct\struct_generator.py">
+      <Filter>..\..\..\tools\json_to_struct\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\json_to_struct\json_to_struct.py">
+      <Filter>..\..\..\tools\json_to_struct\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

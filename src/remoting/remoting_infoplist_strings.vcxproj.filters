@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{D877ED5D-5BA8-20DA-F98B-FABAACD9EF89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\installer">
+      <UniqueIdentifier>{6284E552-FA73-42B7-3DDD-DA58AC0403DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\installer\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\installer\mac\uninstaller">
+      <UniqueIdentifier>{871A2977-78A0-F201-1C40-6728FA3D5876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\installer\mac\uninstaller\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\plugin">
+      <UniqueIdentifier>{E12D2CF9-1CA3-AAB9-7CAB-5DCA48C96E1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\plugin\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <None Include="host\remoting_me2me_host-InfoPlist.strings.jinja2">
+      <Filter>host\_excluded_files</Filter>
+    </None>
+    <None Include="host\installer\mac\uninstaller\remoting_uninstaller-InfoPlist.strings.jinja2">
+      <Filter>host\installer\mac\uninstaller\_excluded_files</Filter>
+    </None>
+    <None Include="host\mac\me2me_preference_pane-InfoPlist.strings.jinja2">
+      <Filter>host\mac\_excluded_files</Filter>
+    </None>
+    <None Include="host\plugin\host_plugin-InfoPlist.strings.jinja2">
+      <Filter>host\plugin\_excluded_files</Filter>
+    </None>
+    <None Include="tools\build\remoting_localize.py">
+      <Filter>tools\build\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

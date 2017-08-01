@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\media_galleries">
+      <UniqueIdentifier>{E6E173C0-6DC0-CF1D-A245-71632AE6E864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\custom_handlers">
+      <UniqueIdentifier>{F7B4A5FB-57BD-1167-DE68-642ED2C7C209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\importer">
+      <UniqueIdentifier>{8610A384-1DC0-03D5-99CA-C0E883C45A96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\importer\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\favicon">
+      <UniqueIdentifier>{6159650D-3047-C055-65E1-E9CA4965AD26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\metrics">
+      <UniqueIdentifier>{DC24B95F-2580-773E-999D-FF21A384B9AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\metrics\variations">
+      <UniqueIdentifier>{312BF719-AC7C-65D2-2D9F-440AE49FCCF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\safe_browsing">
+      <UniqueIdentifier>{2E3BD98D-5FB2-C7DC-521F-1ABCA1EFE64E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\json_schema">
+      <UniqueIdentifier>{AD663E28-5735-DAB7-E7CA-49C9A5D0D8C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\cloud_print">
+      <UniqueIdentifier>{D6AF2C4D-CB19-34BF-1FC4-0F2B0004F1F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\cloud_print\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\commands">
+      <UniqueIdentifier>{D0D999A7-070F-6D3F-62A4-22FDE2667F6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\file_handlers">
+      <UniqueIdentifier>{D6A29FC5-8E07-C62D-D43A-725A37C7CC8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\extension_action">
+      <UniqueIdentifier>{F9362697-6BB0-6DDB-F0AC-98D96803A96C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\system_indicator">
+      <UniqueIdentifier>{DE5E30AC-3630-6704-8F22-48D7A0EAF8B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\storage">
+      <UniqueIdentifier>{58865380-DD0A-5071-E48F-7846A09B1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\managed_mode_private">
+      <UniqueIdentifier>{C64B7974-FC9E-22AE-B08A-FB08D1B89C1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\media_galleries_private">
+      <UniqueIdentifier>{DA513B15-DF26-BE47-9285-3D26373AAD2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\input_ime">
+      <UniqueIdentifier>{048405EC-03BE-C65A-D1E7-2C4FCE4D3663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\file_browser_handlers">
+      <UniqueIdentifier>{8916C4D1-8AE4-EE98-D5CB-95473D53C4DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\omnibox">
+      <UniqueIdentifier>{1D0CB406-E338-C5DE-32BA-4713583CF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\plugins">
+      <UniqueIdentifier>{9DE023B3-F1C0-CF0D-AF52-3287B388D922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\i18n">
+      <UniqueIdentifier>{366E8577-6226-B711-6772-2EA2AF5F5D10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\identity">
+      <UniqueIdentifier>{11DF2418-FDEF-F350-FC15-1EC8C3A3EAB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\api\spellcheck">
+      <UniqueIdentifier>{6CC6F946-EA54-A905-2A39-5837EE28CEF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\manifest_handlers">
+      <UniqueIdentifier>{C3393FA1-15B9-3BD9-449E-4932986A101E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\features">
+      <UniqueIdentifier>{0C7A7942-F4E6-093A-4AB7-BCC4061286DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\permissions">
+      <UniqueIdentifier>{A98183AB-A3A3-EAA7-6BB0-918E188BA788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\translate">
+      <UniqueIdentifier>{AF88FA73-98AA-595D-6A79-374609F48195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\omaha_query_params">
+      <UniqueIdentifier>{7149A7FD-FF67-2AC2-79C4-67B866F07DD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\local_discovery">
+      <UniqueIdentifier>{90C326AE-347F-A07A-81D2-1330C6354EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps">
+      <UniqueIdentifier>{FF146ABB-CCAF-AE8D-FCAE-A2FDD3368B36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps\app_shim">
+      <UniqueIdentifier>{9946DA07-915C-333F-692A-17A5CFDDEBF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\extensions\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\extensions\common\matcher">
+      <UniqueIdentifier>{E901855B-8D5D-5581-DD71-8CE8C4F0BCC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components">
+      <UniqueIdentifier>{3AFDBA04-7EE3-7E7A-3B5A-73953F62668A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components\nacl">
+      <UniqueIdentifier>{71AFF0C1-999F-D34A-6D95-5A8D93FB7DF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components\nacl\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\components\nacl\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="common\chrome_content_client.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\url_constants.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\service_process_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\search_provider.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\content_settings_pattern_parser.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\time_format.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\spellcheck_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\spellcheck_marker.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\cancelable_task_tracker.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\localized_error.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\profiling.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\validation_message_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\autocomplete_match_type.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\content_settings.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\switch_utils.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\cancelable_task_tracker.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\logging_chrome.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\service_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\url_constants.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\profiling.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\common_message_generator.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\content_settings_helper.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\pepper_permission_util.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\pepper_flash.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\localized_error.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\content_settings_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\automation_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\automation_id.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\tts_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\spellcheck_result.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\worker_thread_ticker.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ref_counted_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common_message_generator.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\multi_process_lock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\tts_utterance_request.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common_param_traits_macros.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\startup_metric_utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\chrome_utility_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pepper_flash.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\search_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\automation_constants.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\chrome_content_client.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\content_settings_pattern.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\multi_process_lock_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\child_process_logging.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\descriptors_android.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\time_format.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\badge_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\logging_chrome.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\automation_messages_internal.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\dump_without_crashing.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\dump_without_crashing.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\pref_names_util.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\spellcheck_common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\external_ipc_fuzzer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common_param_traits.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\child_process_logging_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\partial_circular_buffer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\render_messages.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\switch_utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\icon_with_badge_image_source.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\automation_messages.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\instant_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\all_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\content_settings_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\external_ipc_fuzzer.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\autocomplete_match_type.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\thumbnail_score.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\thumbnail_score.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\chrome_content_client_constants.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\instant_restricted_id_cache.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\worker_thread_ticker.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\print_messages.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tts_utterance_request.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\service_process_util.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\badge_util.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\automation_id.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\web_application_info.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\one_click_signin_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\web_application_info.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\attrition_experiments.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\render_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\print_messages.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\icon_with_badge_image_source.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\partial_circular_buffer.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\content_settings.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pref_names_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\startup_metric_utils.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\omnibox_focus_state.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\service_process_util_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\chrome_result_codes.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\content_restriction.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\chrome_version_info.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\automation_constants.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\pepper_permission_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\instant_types.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\content_settings_pattern_parser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\chrome_version_info_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\chrome_version_info.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\spellcheck_common.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\content_settings_pattern.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\common_param_traits.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\crash_keys.h">
+      <Filter>common\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="common\multi_process_lock_linux.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\chrome_version_info_chromeos.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="common\chrome_version_info_mac.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="common\service_process_util_linux.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="common\service_process_util_mac.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\service_process_util_posix.h">
+      <Filter>common\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="common\crash_keys.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\service_process_util_posix.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\auto_start_linux.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="common\chrome_content_client_ios.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\auto_start_linux.h">
+      <Filter>common\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="common\chrome_version_info_posix.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\multi_process_lock_mac.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="common\child_process_logging_mac.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="common\child_process_logging_posix.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\chrome_version_info_android.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="common\media_galleries\itunes_xml_utils.h">
+      <Filter>common\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="common\media_galleries\itunes_xml_utils.cc">
+      <Filter>common\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="common\media_galleries\picasa_types.cc">
+      <Filter>common\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="common\media_galleries\itunes_library.cc">
+      <Filter>common\media_galleries</Filter>
+    </ClCompile>
+    <ClInclude Include="common\media_galleries\picasa_types.h">
+      <Filter>common\media_galleries</Filter>
+    </ClInclude>
+    <ClInclude Include="common\media_galleries\itunes_library.h">
+      <Filter>common\media_galleries</Filter>
+    </ClInclude>
+    <ClInclude Include="common\media_galleries\pmp_constants.h">
+      <Filter>common\media_galleries</Filter>
+    </ClInclude>
+    <ClInclude Include="common\media\webrtc_logging_messages.h">
+      <Filter>common\media</Filter>
+    </ClInclude>
+    <ClCompile Include="common\custom_handlers\protocol_handler.cc">
+      <Filter>common\custom_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\custom_handlers\protocol_handler.h">
+      <Filter>common\custom_handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\importer\imported_bookmark_entry.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="common\importer\ie_importer_test_registry_overrider_win.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="common\importer\importer_bridge.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="common\importer\importer_data_types.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="common\importer\firefox_importer_utils_win.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="common\importer\profile_import_process_messages.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="common\importer\importer_type.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="common\importer\firefox_importer_utils.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="common\importer\imported_bookmark_entry.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="common\importer\ie_importer_utils_win.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="common\importer\ie_importer_utils_win.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="common\importer\importer_url_row.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="common\importer\safari_importer_utils.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="common\importer\importer_url_row.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="common\importer\imported_favicon_usage.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="common\importer\ie_importer_test_registry_overrider_win.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="common\importer\importer_data_types.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="common\importer\imported_favicon_usage.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="common\importer\profile_import_process_messages.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="common\importer\firefox_importer_utils.cc">
+      <Filter>common\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="common\importer\importer_bridge.h">
+      <Filter>common\importer</Filter>
+    </ClInclude>
+    <None Include="common\importer\safari_importer_utils.mm">
+      <Filter>common\importer\_excluded_files</Filter>
+    </None>
+    <None Include="common\importer\firefox_importer_utils_mac.mm">
+      <Filter>common\importer\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="common\importer\firefox_importer_utils_linux.cc">
+      <Filter>common\importer\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="common\favicon\favicon_types.h">
+      <Filter>common\favicon</Filter>
+    </ClInclude>
+    <ClInclude Include="common\favicon\favicon_url_parser.h">
+      <Filter>common\favicon</Filter>
+    </ClInclude>
+    <ClCompile Include="common\favicon\favicon_url_parser.cc">
+      <Filter>common\favicon</Filter>
+    </ClCompile>
+    <ClCompile Include="common\favicon\favicon_types.cc">
+      <Filter>common\favicon</Filter>
+    </ClCompile>
+    <ClCompile Include="common\metrics\metrics_log_base.cc">
+      <Filter>common\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="common\metrics\metrics_util.cc">
+      <Filter>common\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="common\metrics\metrics_service_base.cc">
+      <Filter>common\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="common\metrics\entropy_provider.cc">
+      <Filter>common\metrics</Filter>
+    </ClCompile>
+    <ClInclude Include="common\metrics\metrics_util.h">
+      <Filter>common\metrics</Filter>
+    </ClInclude>
+    <ClCompile Include="common\metrics\caching_permuted_entropy_provider.cc">
+      <Filter>common\metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="common\metrics\metrics_log_manager.cc">
+      <Filter>common\metrics</Filter>
+    </ClCompile>
+    <ClInclude Include="common\metrics\metrics_log_manager.h">
+      <Filter>common\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="common\metrics\metrics_service_base.h">
+      <Filter>common\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="common\metrics\entropy_provider.h">
+      <Filter>common\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="common\metrics\metrics_log_base.h">
+      <Filter>common\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="common\metrics\caching_permuted_entropy_provider.h">
+      <Filter>common\metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="common\metrics\variations\variations_util.h">
+      <Filter>common\metrics\variations</Filter>
+    </ClInclude>
+    <ClCompile Include="common\metrics\variations\uniformity_field_trials.cc">
+      <Filter>common\metrics\variations</Filter>
+    </ClCompile>
+    <ClCompile Include="common\metrics\variations\variations_util.cc">
+      <Filter>common\metrics\variations</Filter>
+    </ClCompile>
+    <ClInclude Include="common\metrics\variations\uniformity_field_trials.h">
+      <Filter>common\metrics\variations</Filter>
+    </ClInclude>
+    <ClCompile Include="common\safe_browsing\zip_analyzer.cc">
+      <Filter>common\safe_browsing</Filter>
+    </ClCompile>
+    <ClCompile Include="common\safe_browsing\download_protection_util.cc">
+      <Filter>common\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="common\safe_browsing\download_protection_util.h">
+      <Filter>common\safe_browsing</Filter>
+    </ClInclude>
+    <ClInclude Include="common\safe_browsing\zip_analyzer.h">
+      <Filter>common\safe_browsing</Filter>
+    </ClInclude>
+    <ClInclude Include="common\safe_browsing\safebrowsing_messages.h">
+      <Filter>common\safe_browsing</Filter>
+    </ClInclude>
+    <None Include="common\mac\objc_zombie.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <None Include="common\mac\launchd.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\mac\cfbundle_blocker.h">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="common\mac\objc_method_swizzle.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <None Include="common\mac\cfbundle_blocker.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\mac\launchd.h">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="common\mac\app_mode_common.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\mac\objc_zombie.h">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mac\nscoder_util.h">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mac\app_mode_common.h">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mac\objc_method_swizzle.h">
+      <Filter>common\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="common\mac\nscoder_util.mm">
+      <Filter>common\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\json_schema\json_schema_constants.h">
+      <Filter>common\json_schema</Filter>
+    </ClInclude>
+    <ClCompile Include="common\json_schema\json_schema_constants.cc">
+      <Filter>common\json_schema</Filter>
+    </ClCompile>
+    <ClInclude Include="common\json_schema\json_schema_validator.h">
+      <Filter>common\json_schema</Filter>
+    </ClInclude>
+    <ClCompile Include="common\json_schema\json_schema_validator.cc">
+      <Filter>common\json_schema</Filter>
+    </ClCompile>
+    <ClInclude Include="common\cloud_print\cloud_print_helpers.h">
+      <Filter>common\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="common\cloud_print\cloud_print_proxy_info.cc">
+      <Filter>common\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cloud_print\cloud_print_constants.cc">
+      <Filter>common\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="common\cloud_print\cloud_print_constants.h">
+      <Filter>common\cloud_print</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cloud_print\cloud_print_proxy_info.h">
+      <Filter>common\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="common\cloud_print\cloud_print_helpers.cc">
+      <Filter>common\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="common\cloud_print\cloud_print_class_mac.h">
+      <Filter>common\cloud_print\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="common\cloud_print\cloud_print_class_mac.mm">
+      <Filter>common\cloud_print\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\policy\policy_schema.h">
+      <Filter>common\policy</Filter>
+    </ClInclude>
+    <ClCompile Include="common\policy\policy_schema.cc">
+      <Filter>common\policy</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\extension_icon_set.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\extension_l10n_util.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\manifest_handler_helpers.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\csp_validator.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\extension_constants.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\chrome_manifest_handlers.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\sync_helper.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\extension_manifest_constants.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_url_handler.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\extension.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\feature_switch.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\manifest_handler_helpers.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_url_handler.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\csp_handler.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\incognito_handler.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\manifest_handler.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\extension_icon_set.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\message_bundle.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\update_manifest.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\manifest_handler.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\extension.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\chrome_manifest_handlers.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\message_bundle.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\background_info.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\extension_file_util.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\sync_helper.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\extension_messages.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\extension_set.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\extension_constants.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\web_accessible_resources_handler.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\value_counter.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\feature_switch.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\extension_process_policy.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\background_info.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\incognito_handler.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\command.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\web_accessible_resources_handler.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\csp_validator.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\value_counter.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\extension_process_policy.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\mime_types_handler.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\mime_types_handler.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\extension_file_util.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\command.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\extension_l10n_util.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\dom_action_types.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\extension_manifest_constants.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\extension_set.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\csp_handler.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\update_manifest.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\extension_messages.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\api\extension_api.h">
+      <Filter>common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\extension_api.cc">
+      <Filter>common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\api\extension_api_stub.cc">
+      <Filter>common\extensions\api\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\api\commands\commands_handler.cc">
+      <Filter>common\extensions\api\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\commands\commands_handler.h">
+      <Filter>common\extensions\api\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\api\file_handlers\file_handlers_parser.h">
+      <Filter>common\extensions\api\file_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\file_handlers\file_handlers_parser.cc">
+      <Filter>common\extensions\api\file_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\api\extension_action\page_action_handler.cc">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\api\extension_action\action_info.cc">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\extension_action\browser_action_handler.h">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\extension_action\script_badge_handler.cc">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\extension_action\action_info.h">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\extension_action\browser_action_handler.cc">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\extension_action\page_action_handler.h">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\api\extension_action\script_badge_handler.h">
+      <Filter>common\extensions\api\extension_action</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\system_indicator\system_indicator_handler.cc">
+      <Filter>common\extensions\api\system_indicator</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\system_indicator\system_indicator_handler.h">
+      <Filter>common\extensions\api\system_indicator</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\storage\storage_schema_manifest_handler.cc">
+      <Filter>common\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\storage\storage_schema_manifest_handler.h">
+      <Filter>common\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\managed_mode_private\managed_mode_handler.cc">
+      <Filter>common\extensions\api\managed_mode_private</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\managed_mode_private\managed_mode_handler.h">
+      <Filter>common\extensions\api\managed_mode_private</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\media_galleries_private\media_galleries_handler.cc">
+      <Filter>common\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\media_galleries_private\media_galleries_handler.h">
+      <Filter>common\extensions\api\media_galleries_private</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\api\input_ime\input_components_handler.h">
+      <Filter>common\extensions\api\input_ime</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\input_ime\input_components_handler.cc">
+      <Filter>common\extensions\api\input_ime</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\api\file_browser_handlers\file_browser_handler.cc">
+      <Filter>common\extensions\api\file_browser_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\file_browser_handlers\file_browser_handler.h">
+      <Filter>common\extensions\api\file_browser_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\omnibox\omnibox_handler.cc">
+      <Filter>common\extensions\api\omnibox</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\omnibox\omnibox_handler.h">
+      <Filter>common\extensions\api\omnibox</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\api\plugins\plugins_handler.h">
+      <Filter>common\extensions\api\plugins</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\plugins\plugins_handler.cc">
+      <Filter>common\extensions\api\plugins</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\i18n\default_locale_handler.h">
+      <Filter>common\extensions\api\i18n</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\i18n\default_locale_handler.cc">
+      <Filter>common\extensions\api\i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\api\speech\tts_engine_manifest_handler.cc">
+      <Filter>common\extensions\api\speech</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\speech\tts_engine_manifest_handler.h">
+      <Filter>common\extensions\api\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\api\identity\oauth2_manifest_handler.h">
+      <Filter>common\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\api\identity\oauth2_manifest_handler.cc">
+      <Filter>common\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\api\spellcheck\spellcheck_handler.cc">
+      <Filter>common\extensions\api\spellcheck</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\api\spellcheck\spellcheck_handler.h">
+      <Filter>common\extensions\api\spellcheck</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\minimum_chrome_version_checker.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\manifest_handlers\offline_enabled_info.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\manifest_handlers\requirements_handler.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\sandboxed_page_info.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\sandboxed_page_info.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\app_isolation_info.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\manifest_handlers\theme_handler.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\app_launch_info.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\manifest_handlers\app_isolation_info.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\nacl_modules_handler.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\externally_connectable.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\shared_module_info.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\shared_module_info.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\app_launch_info.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\manifest_handlers\kiosk_enabled_info.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\content_scripts_handler.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\manifest_handlers\icons_handler.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\icons_handler.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\kiosk_enabled_info.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\manifest_handlers\theme_handler.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\offline_enabled_info.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\manifest_handlers\requirements_handler.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\manifest_handlers\nacl_modules_handler.cc">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\manifest_handlers\minimum_chrome_version_checker.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\manifest_handlers\externally_connectable.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\manifest_handlers\content_scripts_handler.h">
+      <Filter>common\extensions\manifest_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\features\base_feature_provider.cc">
+      <Filter>common\extensions\features</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\features\complex_feature.cc">
+      <Filter>common\extensions\features</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\features\feature.cc">
+      <Filter>common\extensions\features</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\features\permission_feature.cc">
+      <Filter>common\extensions\features</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\features\api_feature.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\features\simple_feature.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\features\complex_feature.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\features\api_feature.cc">
+      <Filter>common\extensions\features</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\features\manifest_feature.cc">
+      <Filter>common\extensions\features</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\features\base_feature_provider.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\features\simple_feature.cc">
+      <Filter>common\extensions\features</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\features\manifest_feature.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\features\feature_provider.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\features\feature.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\features\permission_feature.h">
+      <Filter>common\extensions\features</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\permissions_data.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\permissions\media_galleries_permission_data.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\media_galleries_permission.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\permission_message.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\permissions\permissions_info.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\socket_permission_data.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\media_galleries_permission.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\permissions_data.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\bluetooth_permission_data.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\permission_message.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\bluetooth_permission_data.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\chrome_scheme_hosts.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\permissions_info.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\chrome_api_permissions.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\set_disjunction_permission.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\api_permission_set.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\api_permission.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\permission_set.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\media_galleries_permission_data.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\api_permission.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\permissions\socket_permission.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\permissions\chrome_scheme_hosts.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\permission_set.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\usb_device_permission.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\socket_permission.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\chrome_api_permissions.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\permissions\usb_device_permission_data.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\permissions\usb_device_permission.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\api_permission_set.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\usb_device_permission_data.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\socket_permission_data.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\permissions\bluetooth_permission.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\bluetooth_permission.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\translate\translate_util.cc">
+      <Filter>common\translate</Filter>
+    </ClCompile>
+    <ClInclude Include="common\translate\translate_common_metrics.h">
+      <Filter>common\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="common\translate\language_detection_details.h">
+      <Filter>common\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="common\translate\translate_errors.h">
+      <Filter>common\translate</Filter>
+    </ClInclude>
+    <ClCompile Include="common\translate\language_detection_details.cc">
+      <Filter>common\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="common\translate\translate_common_metrics.cc">
+      <Filter>common\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="common\translate\language_detection_util.cc">
+      <Filter>common\translate</Filter>
+    </ClCompile>
+    <ClInclude Include="common\translate\translate_util.h">
+      <Filter>common\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="common\translate\language_detection_util.h">
+      <Filter>common\translate</Filter>
+    </ClInclude>
+    <ClCompile Include="common\omaha_query_params\omaha_query_params.cc">
+      <Filter>common\omaha_query_params</Filter>
+    </ClCompile>
+    <ClInclude Include="common\omaha_query_params\omaha_query_params.h">
+      <Filter>common\omaha_query_params</Filter>
+    </ClInclude>
+    <ClCompile Include="common\local_discovery\service_discovery_client.cc">
+      <Filter>common\local_discovery</Filter>
+    </ClCompile>
+    <ClInclude Include="common\local_discovery\service_discovery_client.h">
+      <Filter>common\local_discovery</Filter>
+    </ClInclude>
+    <ClInclude Include="common\local_discovery\local_discovery_messages.h">
+      <Filter>common\local_discovery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_shim\app_shim_launch.h">
+      <Filter>..\apps\app_shim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_shim\app_shim_messages.h">
+      <Filter>..\apps\app_shim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\event_matcher.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\error_utils.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\url_pattern.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\url_pattern_set.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\event_filtering_info.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\id_util.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\user_script.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\switches.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\crx_file.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\one_shot_event.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\one_shot_event.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\crx_file.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\url_pattern.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\event_matcher.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\extension_resource.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\draggable_region.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\extension_resource.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\install_warning.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\id_util.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\extension_paths.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\event_filter.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\switches.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\draggable_region.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\view_type.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\url_pattern_set.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\event_filter.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\error_utils.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\user_script.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\extension_paths.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\install_warning.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\event_filtering_info.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\view_type.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\matcher\substring_set_matcher.cc">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\matcher\url_matcher.cc">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\matcher\url_matcher_factory.h">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\matcher\url_matcher_helpers.h">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\matcher\url_matcher_constants.cc">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\matcher\regex_set_matcher.cc">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\matcher\url_matcher_helpers.cc">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\matcher\string_pattern.h">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\matcher\substring_set_matcher.h">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\matcher\url_matcher.h">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\matcher\url_matcher_constants.h">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\common\matcher\regex_set_matcher.h">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\matcher\url_matcher_factory.cc">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extensions\common\matcher\string_pattern.cc">
+      <Filter>..\extensions\common\matcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="..\components\nacl\common\nacl_process_type.h">
+      <Filter>..\components\nacl\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\components\nacl\common\pnacl_types.cc">
+      <Filter>..\components\nacl\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\components\nacl\common\pnacl_types.h">
+      <Filter>..\components\nacl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\nacl\common\nacl_host_messages.h">
+      <Filter>..\components\nacl\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\components\nacl\common\nacl_sandbox_type_mac.h">
+      <Filter>..\components\nacl\common\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

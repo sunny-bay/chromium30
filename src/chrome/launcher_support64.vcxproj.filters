@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="installer">
+      <UniqueIdentifier>{6284E552-FA73-42B7-3DDD-DA58AC0403DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\launcher_support">
+      <UniqueIdentifier>{B3746190-B456-36F9-C5AB-3F275CEA95D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="installer\launcher_support\chrome_launcher_support.cc">
+      <Filter>installer\launcher_support</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\launcher_support\chrome_launcher_support.h">
+      <Filter>installer\launcher_support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\test_shell">
+      <UniqueIdentifier>{6778C6D2-5A07-BB29-528C-D85AE8250AE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\test_shell\resources">
+      <UniqueIdentifier>{02993FF4-6DD0-55B6-6A36-E99A964FF863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="web_gesture_curve_mock.cc"/>
+    <ClCompile Include="gc_extension.cc"/>
+    <ClCompile Include="platform_support_win.cc"/>
+    <ClCompile Include="webkit_support.cc"/>
+    <ClInclude Include="weburl_loader_mock_factory.h"/>
+    <ClInclude Include="test_webkit_platform_support.h"/>
+    <ClInclude Include="web_layer_tree_view_impl_for_testing.h"/>
+    <ClCompile Include="test_webkit_platform_support.cc"/>
+    <ClInclude Include="test_webmessageportchannel.h"/>
+    <ClInclude Include="webkit_support.h"/>
+    <ClCompile Include="webkit_support_glue.cc"/>
+    <ClCompile Include="web_layer_tree_view_impl_for_testing.cc"/>
+    <ClCompile Include="test_webmessageportchannel.cc"/>
+    <ClInclude Include="web_audio_device_mock.h"/>
+    <ClInclude Include="platform_support.h"/>
+    <ClCompile Include="web_audio_device_mock.cc"/>
+    <ClCompile Include="weburl_loader_mock_factory.cc"/>
+    <ClCompile Include="weburl_loader_mock.cc"/>
+    <ClInclude Include="web_gesture_curve_mock.h"/>
+    <None Include="webkit_support.gyp"/>
+    <ClInclude Include="gc_extension.h"/>
+    <ClInclude Include="weburl_loader_mock.h"/>
+    <ClCompile Include="platform_support_linux.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="drt_application_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="drt_application_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="platform_support_android.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="platform_support_mac.mm">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\test_shell\resources\missingImage.gif">
+      <Filter>..\tools\test_shell\resources</Filter>
+    </None>
+    <None Include="..\tools\test_shell\resources\textAreaResizeCorner.png">
+      <Filter>..\tools\test_shell\resources</Filter>
+    </None>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

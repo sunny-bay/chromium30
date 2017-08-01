@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\cloud_print">
+      <UniqueIdentifier>{D6AF2C4D-CB19-34BF-1FC4-0F2B0004F1F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="service.gyp"/>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\cloud_print\cloud_print_service_config_exe_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\cloud_print</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\cloud_print\service_resources_en.rc">
+      <Filter>$(OutDir)obj\global_intermediate\cloud_print</Filter>
+    </ResourceCompile>
+    <ClCompile Include="win\cloud_print_service_config.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

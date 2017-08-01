@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chromium\TestRunner">
+      <UniqueIdentifier>{9EDA25D4-1775-15F1-6086-7D96187DF8F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chromium\TestRunner\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DumpRenderTree.gyp"/>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebSpeechRecognizer.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\KeyCodeMapping.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\WebPermissions.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebMediaStreamCenter.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebValidationMessageClient.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\TestCommon.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\GamepadController.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\TestRunner.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebRTCDataChannelHandler.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\MockColorChooser.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebMediaStreamCenter.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebRTCPeerConnectionHandler.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\AccessibilityControllerChromium.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebSpeechInputController.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\AccessibilityUIElementChromium.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebRTCDataChannelHandler.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\WebUserMediaClientMock.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebAudioDevice.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebRTCPeerConnectionHandler.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\AccessibilityControllerChromium.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\WebTestThemeEngineMac.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\TestCommon.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <None Include="..\chromium\TestRunner\src\WebTestThemeEngineMac.mm">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </None>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebRTCDTMFSenderHandler.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\TestPlugin.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\CppVariant.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\WebTestThemeEngineWin.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\AccessibilityUIElementChromium.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\MockSpellCheck.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\TestInterfaces.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\WebTestThemeEngineWin.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\KeyCodeMapping.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\GamepadController.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\MockConstraints.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\TestRunner.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\NotificationPresenter.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\WebTestThemeControlWin.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebCrypto.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\WebTestProxy.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\MockColorChooser.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\MockConstraints.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\NotificationPresenter.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebValidationMessageClient.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebMIDIAccessor.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\TestPlugin.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\TextInputController.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebSpeechRecognizer.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\MockGrammarCheck.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebRTCDTMFSenderHandler.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebSpeechInputController.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\SpellCheckClient.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebAudioDevice.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\SpellCheckClient.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\MockSpellCheck.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\TextInputController.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\MockWebMIDIAccessor.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\WebTask.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\MockGrammarCheck.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\WebUserMediaClientMock.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\CppVariant.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\WebPreferences.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\CppBoundClass.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\WebTestThemeControlWin.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\EventSender.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\WebPermissions.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\TestInterfaces.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chromium\TestRunner\src\CppBoundClass.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chromium\TestRunner\src\MockWebCrypto.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chromium\TestRunner\src\EventSender.h">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chromium\TestRunner\src\WebTestInterfaces.cpp">
+      <Filter>..\chromium\TestRunner\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

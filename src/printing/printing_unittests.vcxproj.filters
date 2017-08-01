@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend">
+      <UniqueIdentifier>{0601BD18-2FE3-2D4A-0C05-611A0F36D709}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="emf_win_unittest.cc"/>
+    <ClCompile Include="units_unittest.cc"/>
+    <ClCompile Include="printing_context_win_unittest.cc"/>
+    <ClCompile Include="run_all_unittests.cc"/>
+    <ClCompile Include="page_number_unittest.cc"/>
+    <ClCompile Include="page_range_unittest.cc"/>
+    <None Include="printing.gyp"/>
+    <ClInclude Include="printing_test.h"/>
+    <ClCompile Include="page_setup_unittest.cc"/>
+    <ClCompile Include="printed_page_unittest.cc"/>
+    <ClCompile Include="pdf_metafile_cg_mac_unittest.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\print_backend_unittest.cc">
+      <Filter>backend</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

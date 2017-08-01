@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="virtual_driver">
+      <UniqueIdentifier>{95DABA20-30A8-E784-4916-6D5849257055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual_driver\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual_driver\win\port_monitor">
+      <UniqueIdentifier>{C7501DC7-1D06-3FE1-11A9-835581EE6FE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{C9210780-0906-CC9E-BEC1-0AB6BFD1B977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cloud_print.gyp"/>
+    <ClCompile Include="virtual_driver\win\port_monitor\port_monitor_unittest.cc">
+      <Filter>virtual_driver\win\port_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="service\service_state_unittest.cc">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\win\service_ipc_unittest.cc">
+      <Filter>service\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

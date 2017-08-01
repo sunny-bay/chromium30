@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\device">
+      <UniqueIdentifier>{BF68E219-12AC-1393-5242-E6E71C5CE1CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\device\usb">
+      <UniqueIdentifier>{F129B4A4-D25F-CB9D-2909-50D8FE72E625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\third_party\usb_ids">
+      <UniqueIdentifier>{F7A84E07-365D-01EA-19E6-06776076E3C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\third_party\usb_ids\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\tools\usb_ids">
+      <UniqueIdentifier>{F7A84E07-365D-01EA-19E6-06776076E3C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\tools\usb_ids\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="usb.gyp"/>
+    <ClCompile Include="usb_ids.cc"/>
+    <ClInclude Include="usb_ids.h"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\device\usb\usb_ids_gen.cc">
+      <Filter>$(OutDir)obj\global_intermediate\device\usb</Filter>
+    </ClCompile>
+    <None Include="..\..\third_party\usb_ids\usb.ids">
+      <Filter>..\..\third_party\usb_ids\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\tools\usb_ids\usb_ids.py">
+      <Filter>..\..\tools\usb_ids\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{F86A273C-85A3-22AB-C7FA-A36F586D586C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source">
+      <UniqueIdentifier>{26D65320-41C3-1A61-26C0-583D658C7F16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Include">
+      <UniqueIdentifier>{1D8253A7-67C1-9BE7-3731-070319CC979E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gles2_book.gyp"/>
+    <ClCompile Include="Common\Source\esTransform.c">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Source\esShapes.c">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Source\esShader.c">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Source\esUtil.c">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+    <ClInclude Include="Common\Include\esUtil.h">
+      <Filter>Common\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\db">
+      <UniqueIdentifier>{A8FC35A1-AD94-C839-B350-BA0A428D4294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\helpers">
+      <UniqueIdentifier>{7EE98CE8-2345-EC4F-120C-CFF181657498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\helpers\memenv">
+      <UniqueIdentifier>{649B905F-A3BB-9F47-96FD-7E0E1124AB3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include\leveldb">
+      <UniqueIdentifier>{89BE37D3-9CA3-D9EE-D5C0-7515BE250C8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\port\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="leveldatabase.gyp"/>
+    <ClInclude Include="env_chromium.h"/>
+    <ClInclude Include="env_idb.h"/>
+    <ClCompile Include="env_chromium.cc"/>
+    <ClInclude Include="src\db\builder.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db\version_edit.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\builder.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\log_writer.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db\skiplist.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\write_batch.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\memtable.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\memtable.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\db_iter.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\dbformat.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="src\db\version_edit.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="src\db\db_impl.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\filename.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\log_reader.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\db_impl.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db\dbformat.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\repair.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\table_cache.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db\log_format.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db\version_set.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\log_writer.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\snapshot.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db\log_reader.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\table_cache.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="src\db\filename.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="src\db\version_set.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\db\write_batch_internal.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClCompile Include="src\db\db_iter.cc">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClInclude Include="src\util\arena.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClCompile Include="src\util\status.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClInclude Include="src\util\random.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClCompile Include="src\util\cache.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\comparator.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\env.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClInclude Include="src\util\crc32c.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\hash.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClCompile Include="src\util\options.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\filter_policy.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClInclude Include="src\util\coding.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClCompile Include="src\util\arena.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\logging.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\crc32c.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClInclude Include="src\util\mutexlock.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClCompile Include="src\util\coding.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\hash.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\bloom.cc">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClInclude Include="src\util\logging.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\memenv\memenv.h">
+      <Filter>src\helpers\memenv</Filter>
+    </ClInclude>
+    <ClCompile Include="src\helpers\memenv\memenv.cc">
+      <Filter>src\helpers\memenv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\table\filter_block.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClCompile Include="src\table\iterator.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClCompile Include="src\table\block_builder.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClInclude Include="src\table\filter_block.h">
+      <Filter>src\table</Filter>
+    </ClInclude>
+    <ClInclude Include="src\table\format.h">
+      <Filter>src\table</Filter>
+    </ClInclude>
+    <ClCompile Include="src\table\table.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClCompile Include="src\table\format.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClCompile Include="src\table\two_level_iterator.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClInclude Include="src\table\two_level_iterator.h">
+      <Filter>src\table</Filter>
+    </ClInclude>
+    <ClInclude Include="src\table\block_builder.h">
+      <Filter>src\table</Filter>
+    </ClInclude>
+    <ClCompile Include="src\table\merger.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClInclude Include="src\table\block.h">
+      <Filter>src\table</Filter>
+    </ClInclude>
+    <ClCompile Include="src\table\table_builder.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClInclude Include="src\table\iterator_wrapper.h">
+      <Filter>src\table</Filter>
+    </ClInclude>
+    <ClInclude Include="src\table\merger.h">
+      <Filter>src\table</Filter>
+    </ClInclude>
+    <ClCompile Include="src\table\block.cc">
+      <Filter>src\table</Filter>
+    </ClCompile>
+    <ClInclude Include="src\include\leveldb\slice.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\cache.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\table.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\env.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\write_batch.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\iterator.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\table_builder.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\options.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\filter_policy.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\db.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\comparator.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\leveldb\status.h">
+      <Filter>src\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\port_posix.h">
+      <Filter>src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\port.h">
+      <Filter>src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\port_example.h">
+      <Filter>src\port</Filter>
+    </ClInclude>
+    <ClCompile Include="src\port\port_posix.cc">
+      <Filter>src\port\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="port\port_chromium.cc">
+      <Filter>port</Filter>
+    </ClCompile>
+    <ClInclude Include="port\port_chromium.h">
+      <Filter>port</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

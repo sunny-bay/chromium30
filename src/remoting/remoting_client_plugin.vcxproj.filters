@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{D5E3C9B9-F4E5-9856-CE8C-F9B03683EBB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\plugin">
+      <UniqueIdentifier>{E12D2CF9-1CA3-AAB9-7CAB-5DCA48C96E1C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="client\plugin\pepper_signal_strategy.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\pepper_audio_player.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="client\plugin\pepper_view.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="client\plugin\chromoting_instance.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\pepper_util.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="client\plugin\mac_key_event_processor.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="client\plugin\pepper_input_handler.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="client\plugin\pepper_port_allocator.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="client\plugin\pepper_util.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="client\plugin\pepper_entrypoints.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\pepper_entrypoints.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="client\plugin\pepper_audio_player.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\pepper_input_handler.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="client\plugin\pepper_packet_socket_factory.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\pepper_packet_socket_factory.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="client\plugin\pepper_plugin_thread_delegate.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="client\plugin\pepper_view.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\chromoting_instance.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="client\plugin\pepper_plugin_thread_delegate.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="client\plugin\pepper_token_fetcher.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="client\plugin\pepper_network_manager.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\pepper_network_manager.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="client\plugin\pepper_signal_strategy.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="client\plugin\mac_key_event_processor.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="client\plugin\pepper_token_fetcher.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="client\plugin\pepper_port_allocator.h">
+      <Filter>client\plugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

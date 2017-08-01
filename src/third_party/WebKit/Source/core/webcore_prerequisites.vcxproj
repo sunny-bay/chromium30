@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7666BD2C-AB71-C5E9-1005-E6F6102A8B6A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webcore_prerequisites</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <PropertyGroup Label="Configuration">
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Utility</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\..\..\..\third_party\cygwin\bin\;$(MSBuildProjectDirectory)\..\..\..\..\third_party\python_26\</ExecutablePath>
+    <OutDir>..\..\..\..\build\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4344;4267;4138;4291;4305;4521;4099;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4344;4267;4138;4291;4305;4521;4099;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>olepro32.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4344;4267;4138;4291;4305;4521;4099;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4344;4267;4138;4291;4305;4521;4099;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>Precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>olepro32.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>../../../..;$(OutDir)obj/global_intermediate;..\..\..\..\third_party\wtl\include;..\..\..\khronos;..\..\..\..\gpu;..\..\..\..;..;..\wtf\os-win32;..\..\..\icu\source\i18n;..\..\..\icu\source\common;..\..;..\..\..\..\third_party\skia\src\core;..\..\..\..\skia\config;..\..\..\..\third_party\skia\include\config;..\..\..\..\third_party\skia\include\core;..\..\..\..\third_party\skia\include\effects;..\..\..\..\third_party\skia\include\pdf;..\..\..\..\third_party\skia\include\gpu;..\..\..\..\third_party\skia\include\gpu\gl;..\..\..\..\third_party\skia\include\lazy;..\..\..\..\third_party\skia\include\pathops;..\..\..\..\third_party\skia\include\pipe;..\..\..\..\third_party\skia\include\ports;..\..\..\..\third_party\skia\include\utils;..\..\..\..\skia\ext;..\..\..\iccjpeg;..\..\..\libpng;..\..\..\libwebp;..\..\..\libxml\win32\include;..\..\..\libxml\src\include;..\..\..\libxslt;..\..\..\npapi;..\..\..\npapi\bindings;..\..\..\ots\include;..\..\..\qcms\src;..\..\..\sqlite;..\..\..\zlib;..\..\..\..\v8\include;..\..\..\libjpeg_turbo;..\..\..\ffmpeg\chromium\config\Chromium\win\ia32;..\..\..\ffmpeg\chromium\include\win;..\..\..\ffmpeg;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;ENABLE_CSS3_TEXT=0;ENABLE_CSS_EXCLUSIONS=1;ENABLE_CSS_REGIONS=1;ENABLE_CUSTOM_SCHEME_HANDLER=0;ENABLE_ENCRYPTED_MEDIA_V2=1;ENABLE_SVG_FONTS=1;ENABLE_TOUCH_ICON_LOADING=0;ENABLE_GDI_FONTS_ON_WINDOWS=1;WTF_USE_CONCATENATED_IMPULSE_RESPONSES=1;ENABLE_CALENDAR_PICKER=1;ENABLE_INPUT_SPEECH=1;ENABLE_INPUT_MULTIPLE_FIELDS_UI=1;ENABLE_LEGACY_NOTIFICATIONS=1;ENABLE_MEDIA_CAPTURE=0;ENABLE_NAVIGATOR_CONTENT_UTILS=1;ENABLE_NOTIFICATIONS=1;ENABLE_ORIENTATION_EVENTS=0;ENABLE_WEB_AUDIO=1;WTF_USE_WEBAUDIO_FFMPEG=1;ENABLE_OPENTYPE_VERTICAL=1;CRASH=__debugbreak;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__PRETTY_FUNCTION__=__FUNCTION__;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;CHROME_PNG_WRITE_SUPPORT;PNG_USER_CONFIG;LIBXML_STATIC;LIBXSLT_STATIC;_CRT_NONSTDC_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="core.gyp"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\third_party\WebKit\Source\build\win\Precompile.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="debugger_script_source.vcxproj">
+      <Project>{6C700A01-8D24-2774-CB54-043FEE814159}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="injected_canvas_script_source.vcxproj">
+      <Project>{1EBA175E-FFFA-2196-39DC-1B91F09FC22B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="injected_script_source.vcxproj">
+      <Project>{11673784-C799-C280-D60D-788A404F8063}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="inspector_overlay_page.vcxproj">
+      <Project>{A78314E3-8752-0571-2F11-8ED14A5D7BA3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="inspector_protocol_sources.vcxproj">
+      <Project>{7B338CFD-0453-6468-872B-B02059614A90}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="inspector_instrumentation_sources.vcxproj">
+      <Project>{21132F30-45BC-1022-A21F-9863754E65BD}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\bindings\bindings_derived_sources.vcxproj">
+      <Project>{6D11A528-EC52-DE11-1F96-BA6DF468D214}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="make_derived_sources.vcxproj">
+      <Project>{66C99F85-FBF2-4C44-760B-49645AA029B5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\wtf\wtf.vcxproj">
+      <Project>{6A9832B7-6ECA-4FFE-48DE-B0D0F1891A33}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\config.vcxproj">
+      <Project>{105D4327-E7F1-1E54-9AC7-B74362EE0771}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\weborigin\weborigin.vcxproj">
+      <Project>{54B24EEE-82D0-0272-9327-E872C7AF200D}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\angle_dx11\src\translator_glsl.vcxproj">
+      <Project>{966119CC-0AEA-CA22-453C-DF2BDA0B7951}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\gpu\gles2_c_lib.vcxproj">
+      <Project>{943BEF97-54E9-AE44-1CE6-6E4FFDD05B8C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\skia\skia.vcxproj">
+      <Project>{D0E51700-BCDA-78A6-BAD1-32D2A30CDA93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\iccjpeg\iccjpeg.vcxproj">
+      <Project>{4C5AC4D9-AC58-A83F-3870-FFE20CAA3245}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\libpng\libpng.vcxproj">
+      <Project>{B57E6606-F77F-F527-2BA6-671A53B6D423}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\libwebp\libwebp.vcxproj">
+      <Project>{A68BAF21-0E1E-EAE6-6DB1-B20BE528E3CA}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\libxml\libxml.vcxproj">
+      <Project>{71B608CA-2AB6-4FEE-4E99-226A2FF56FE8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\libxslt\libxslt.vcxproj">
+      <Project>{D5D2BA53-3482-3958-E009-FC90382AC5BC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\npapi\npapi.vcxproj">
+      <Project>{BB11FC9E-60DE-F359-A375-2FCF45A41F0B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ots\ots.vcxproj">
+      <Project>{6D5B2A4B-5725-F5DB-B915-8C357388F2D8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\qcms\qcms.vcxproj">
+      <Project>{28F0B0EA-B62C-8707-5166-7D64F8E41A05}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\sqlite\sqlite.vcxproj">
+      <Project>{16B10546-389D-61D4-1D44-6C6410B31480}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\zlib\zlib.vcxproj">
+      <Project>{76C714A8-8E3B-11DB-EA14-3771C9E955D5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\url\url_lib.vcxproj">
+      <Project>{DD905445-64B5-C7F0-6CE6-A94E7D283B83}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\v8\tools\gyp\v8.vcxproj">
+      <Project>{DCEE98FE-06E8-C138-7252-8B34248A16B1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\libjpeg_turbo\libjpeg.vcxproj">
+      <Project>{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ffmpeg\ffmpeg.vcxproj">
+      <Project>{D7A94F58-576A-45D9-A45F-EB87C63ABBB0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ImportGroup Label="ExtensionTargets"/>
+</Project>

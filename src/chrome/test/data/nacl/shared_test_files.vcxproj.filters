@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tests">
+      <UniqueIdentifier>{71685B5B-5DB1-D3F0-6DF4-FE19B5454C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tests\ppapi_browser">
+      <UniqueIdentifier>{97EFD87B-6681-0806-B3D5-91AD48BC86B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tests\ppapi_browser\bad">
+      <UniqueIdentifier>{628BB603-BB7E-81B0-5F94-12663518E8C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tools\browser_tester">
+      <UniqueIdentifier>{3546D2E1-0AB5-2B2D-BC1B-F68F7D6EC23F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\native_client\tools\browser_tester\browserdata">
+      <UniqueIdentifier>{7E788820-81F0-5264-D6C2-04568003FCEC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nacl_test_data.gyp"/>
+    <None Include="..\..\..\..\ppapi\native_client\tests\ppapi_browser\progress_event_listener.js">
+      <Filter>..\..\..\..\ppapi\native_client\tests\ppapi_browser</Filter>
+    </None>
+    <None Include="..\..\..\..\ppapi\native_client\tests\ppapi_browser\bad\ppapi_bad.js">
+      <Filter>..\..\..\..\ppapi\native_client\tests\ppapi_browser\bad</Filter>
+    </None>
+    <None Include="..\..\..\..\ppapi\native_client\tools\browser_tester\browserdata\nacltest.js">
+      <Filter>..\..\..\..\ppapi\native_client\tools\browser_tester\browserdata</Filter>
+    </None>
+  </ItemGroup>
+</Project>

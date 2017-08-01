@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{FD430606-600C-E721-8F94-9A9989057E12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jingle_glue">
+      <UniqueIdentifier>{16D1519A-1FE7-806B-ADF2-DEA8E5AD5990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{D5E3C9B9-F4E5-9856-CE8C-F9B03683EBB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\plugin">
+      <UniqueIdentifier>{E12D2CF9-1CA3-AAB9-7CAB-5DCA48C96E1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host">
+      <UniqueIdentifier>{D877ED5D-5BA8-20DA-F98B-FABAACD9EF89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\setup">
+      <UniqueIdentifier>{10813315-79D2-702F-E3AC-CE979A8A690B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\policy_hack">
+      <UniqueIdentifier>{E1722E29-25B3-B798-A2A6-D2E59A645302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\linux">
+      <UniqueIdentifier>{978C4E9B-8123-1CA3-A70B-0A340D4435AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\linux\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codec">
+      <UniqueIdentifier>{4A6C5824-2193-E513-3482-6EEFAD121845}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="protocol\clipboard_echo_filter_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\message_decoder_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\negotiating_authenticator_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\buffered_socket_writer_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\protocol_mock_objects.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\third_party_authenticator_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\connection_tester.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\connection_to_client_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\protocol_mock_objects.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\pairing_registry_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\fake_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\channel_multiplexer_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\fake_session.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\jingle_session_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\v2_authenticator_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\ssl_hmac_channel_authenticator_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\content_description_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\jingle_messages_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\input_event_tracker_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\clipboard_filter_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\message_reader_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\fake_session.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\fake_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\ppapi_module_stub.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\input_filter_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\mouse_input_filter_unittest.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\connection_tester.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\authenticator_test_base.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\authenticator_test_base.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chrome\test\base\run_all_remoting_unittests.cc">
+      <Filter>..\chrome\test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="jingle_glue\mock_objects.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClCompile Include="jingle_glue\iq_sender_unittest.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClCompile Include="jingle_glue\fake_signal_strategy.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClInclude Include="jingle_glue\fake_signal_strategy.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClCompile Include="jingle_glue\chromium_socket_factory_unittest.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClCompile Include="jingle_glue\mock_objects.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClCompile Include="client\key_event_mapper_unittest.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\audio_player_unittest.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\plugin\mac_key_event_processor_unittest.cc">
+      <Filter>client\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="host\desktop_session.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\client_session_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\capture_scheduler_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_status_monitor_fake.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\desktop_process_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\register_support_host_request_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\daemon_process.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\branding.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\video_scheduler_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\json_host_config_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\host_mock_objects.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\remote_input_filter_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\heartbeat_sender_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\local_input_monitor_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pin_hash_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\host_status_sender_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\log_to_server_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\branding.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\desktop_session_agent.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\screen_capturer_fake.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\chromoting_host_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\token_validator_factory_impl_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\desktop_process.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\chromoting_host_context_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pairing_registry_delegate_win_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\audio_silence_detector_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\daemon_process.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\config_file_watcher_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ipc_desktop_environment_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\desktop_session.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\desktop_process.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_mock_objects.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\desktop_session_agent.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\screen_resolution_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\server_log_entry_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\resizing_host_observer_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\daemon_process_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\screen_capturer_fake.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\host_change_notification_listener_unittest.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pairing_registry_delegate_linux_unittest.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="host\win\worker_process_launcher.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\win\rdp_client_unittest.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\win\worker_process_launcher.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\win\worker_process_launcher_unittest.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\oauth_helper_unittest.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\pin_validator_unittest.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\native_messaging_reader_unittest.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\native_messaging_writer_unittest.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\native_messaging_host_unittest.cc">
+      <Filter>host\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="host\policy_hack\mock_policy_callback.h">
+      <Filter>host\policy_hack</Filter>
+    </ClInclude>
+    <ClCompile Include="host\policy_hack\fake_policy_watcher.cc">
+      <Filter>host\policy_hack</Filter>
+    </ClCompile>
+    <ClCompile Include="host\policy_hack\mock_policy_callback.cc">
+      <Filter>host\policy_hack</Filter>
+    </ClCompile>
+    <ClCompile Include="host\policy_hack\policy_watcher_unittest.cc">
+      <Filter>host\policy_hack</Filter>
+    </ClCompile>
+    <ClInclude Include="host\policy_hack\fake_policy_watcher.h">
+      <Filter>host\policy_hack</Filter>
+    </ClInclude>
+    <ClCompile Include="host\linux\x_server_clipboard_unittest.cc">
+      <Filter>host\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\rate_counter_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\auto_thread_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\breakpad_win_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\running_average_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\rsa_key_pair_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\compound_buffer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resources_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\test_rsa_key_pair.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\util_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\capabilities_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\auth_token_util_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\auto_thread_task_runner_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\typed_buffer_unittest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\codec_test.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\audio_encoder_opus_unittest.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\video_decoder_vp8_unittest.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\video_encoder_verbatim_unittest.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\video_encoder_vp8_unittest.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\codec_test.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\parsers">
+      <UniqueIdentifier>{2A2910D7-7E49-0D11-0FA6-9338167F865F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hunspell">
+      <UniqueIdentifier>{49C53832-8EE2-E564-EBC5-7E9DC6CCD816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="google">
+      <UniqueIdentifier>{8FA81D33-CFDF-CD07-7670-CB8C30BA9132}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hunspell.gyp"/>
+    <ClCompile Include="src\parsers\textparser.cxx">
+      <Filter>src\parsers</Filter>
+    </ClCompile>
+    <ClInclude Include="src\parsers\textparser.hxx">
+      <Filter>src\parsers</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\filemgr.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\hashmgr.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\replist.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\hunzip.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\affixmgr.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\csutil.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\hunspell.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\w_char.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\utf_info.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\baseaffix.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\affixmgr.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\atypes.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\hunspell.h">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\filemgr.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\hunzip.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hunspell\hashmgr.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\dictmgr.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\suggestmgr.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\affentry.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\htypes.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\csutil.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\dictmgr.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\affentry.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\suggestmgr.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\phonet.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\replist.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClInclude Include="src\hunspell\hunspell.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hunspell\langnum.hxx">
+      <Filter>src\hunspell</Filter>
+    </ClInclude>
+    <ClCompile Include="src\hunspell\phonet.cxx">
+      <Filter>src\hunspell</Filter>
+    </ClCompile>
+    <ClCompile Include="google\bdict.cc">
+      <Filter>google</Filter>
+    </ClCompile>
+    <ClInclude Include="google\bdict_reader.h">
+      <Filter>google</Filter>
+    </ClInclude>
+    <ClCompile Include="google\bdict_writer.cc">
+      <Filter>google</Filter>
+    </ClCompile>
+    <ClInclude Include="google\bdict.h">
+      <Filter>google</Filter>
+    </ClInclude>
+    <ClInclude Include="google\bdict_writer.h">
+      <Filter>google</Filter>
+    </ClInclude>
+    <ClCompile Include="google\bdict_reader.cc">
+      <Filter>google</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

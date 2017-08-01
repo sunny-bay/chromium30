@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="installer">
+      <UniqueIdentifier>{6284E552-FA73-42B7-3DDD-DA58AC0403DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\setup">
+      <UniqueIdentifier>{10813315-79D2-702F-E3AC-CE979A8A690B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_version">
+      <UniqueIdentifier>{B43E9D83-A6B9-06C4-15A0-98C8EE442D66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="installer\util\product_state_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\set_reg_value_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\fake_product_state.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\move_tree_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\fake_installation_state.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\delete_tree_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\master_preferences_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\create_reg_key_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ResourceCompile Include="installer\util\installer_util_unittests.rc">
+      <Filter>installer\util</Filter>
+    </ResourceCompile>
+    <ClCompile Include="installer\util\google_update_settings_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\installer_util_test_common.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\installation_validation_helper.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\copy_tree_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\create_dir_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\lzma_util_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\duplicate_tree_detector_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\installer_util_test_common.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\delete_reg_key_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\delete_after_reboot_helper_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\uninstall_metrics_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\delete_reg_value_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\product_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\copy_reg_key_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\installer_state_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\installer_util_unittests_resource.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\installation_validator_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\registry_test_data.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\registry_key_backup_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\shell_util_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\language_selector_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\registry_test_data.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\channel_info_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\self_cleaning_temp_dir_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\logging_installer_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\work_item_list_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\run_all_unittests.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\install_util_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\callback_work_item_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\wmi_unittest.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\installation_validation_helper.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\product_unittest.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\setup_constants.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\compat_checks_unittest.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome_version\other_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_version</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps">
+      <UniqueIdentifier>{FF146ABB-CCAF-AE8D-FCAE-A2FDD3368B36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps\app_shim">
+      <UniqueIdentifier>{9946DA07-915C-333F-692A-17A5CFDDEBF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\apps\app_shim\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="..\apps\saved_files_service_factory.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\saved_files_service_factory.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\app_lifetime_monitor_factory.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\app_restore_service_factory.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\metrics_names.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\switches.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\app_restore_service.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\app_lifetime_monitor.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\app_window_contents.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\saved_files_service.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\app_load_service_factory.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_load_service.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_lifetime_monitor_factory.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_restore_service_factory.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_restore_service.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\app_launch_for_metro_restart_win.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_launch_for_metro_restart_win.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_lifetime_monitor.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\shell_window_geometry_cache.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\saved_files_service.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\prefs.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\shell_window.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_load_service_factory.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\field_trial_names.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\prefs.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\app_load_service.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_window_contents.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\app_launcher.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_launcher.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\shell_window.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\pref_names.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\pref_names.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\field_trial_names.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\shell_window_geometry_cache.cc">
+      <Filter>..\apps</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\switches.h">
+      <Filter>..\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_shim\app_shim_handler_mac.h">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\apps\app_shim\chrome_main_app_mode_mac.mm">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\apps\app_shim\app_shim_mac.cc">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_shim\extension_app_shim_handler_mac.h">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_shim\app_shim_host_mac.h">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\apps\app_shim\app_shim_mac.h">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\apps\app_shim\app_shim_host_mac.cc">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\apps\app_shim\app_shim_handler_mac.cc">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\apps\app_shim\app_shim_host_manager_mac.h">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\apps\app_shim\app_shim_host_manager_mac.mm">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\apps\app_shim\extension_app_shim_handler_mac.cc">
+      <Filter>..\apps\app_shim\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

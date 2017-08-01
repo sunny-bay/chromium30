@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg">
+      <UniqueIdentifier>{D4EF0570-F7DB-697C-F41C-C2D1A5CC3B21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec">
+      <UniqueIdentifier>{E5796ABA-C438-1C2C-A67C-46C36F406B1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86">
+      <UniqueIdentifier>{18BBE778-C30E-9E84-331B-B85C911521F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil">
+      <UniqueIdentifier>{CC262A32-6BEB-0315-8652-E2F2E9B00B82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\x86">
+      <UniqueIdentifier>{18BBE778-C30E-9E84-331B-B85C911521F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\compat">
+      <UniqueIdentifier>{9EB0D8BA-510A-A192-1805-EFF5D23E2A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\compat\msvcrt">
+      <UniqueIdentifier>{0DD7604B-DD2E-7C73-AC6E-A4CCDEF799AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat">
+      <UniqueIdentifier>{2585AD59-9C43-B297-B3BD-C4BFFBF0F290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium\config">
+      <UniqueIdentifier>{31A163C0-193D-20CC-1C7F-55B57F22C481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium\config\Chromium">
+      <UniqueIdentifier>{CA2A60A1-1CAE-F3BB-AEA1-6B65263B0760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium\config\Chromium\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium\config\Chromium\win\ia32">
+      <UniqueIdentifier>{884EDFAC-39DF-1338-3795-84EDC7FF91FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium\config\Chromium\win\ia32\libavutil">
+      <UniqueIdentifier>{CC262A32-6BEB-0315-8652-E2F2E9B00B82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\tools\generate_stubs">
+      <UniqueIdentifier>{72604E2A-0220-3A1F-C40B-3EEFEA9FCB78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\tools\generate_stubs\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ffmpeg.gyp"/>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\ffmpegsumo.def">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg</Filter>
+    </None>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\audioconvert.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vp8dsp.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\fft_fixed.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\mdct_float.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\videodsp.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\utils.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\mpeg12data.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vp3.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\xiph.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\hpeldsp.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\mathtables.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\parser.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\fft_float.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\avpacket.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\codec_desc.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\rdft.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\flacdata.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\mpegaudiodata.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\bitstream_filter.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\pcm.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\avpicture.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\options.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vp8.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\flac.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\mdct_fixed.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vorbis.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\avfft.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\allcodecs.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vorbisdsp.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vp56rac.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vorbis_data.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\h264pred.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\pthread.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vorbisdec.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vp3dsp.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\fmtconvert.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\rawdec.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\imgconvert.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\raw.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\mpeg4audio.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vp3_parser.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vorbis_parser.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\golomb.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\dirac.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\vp8_parser.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\bitstream.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\fmtconvert_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\vp8dsp_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\constants.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\fft_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\h264_intrapred_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\vp3dsp_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\vorbisdsp_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\videodsp_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86\hpeldsp_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavcodec\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\eval.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\dict.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\log2_tab.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\mathematics.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\parseutils.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\atomic.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\fifo.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\error.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\channel_layout.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\audio_fifo.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\opt.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\hmac.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\samplefmt.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\random_seed.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\mem.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\xga_font_data.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\intfloat_readwrite.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\avstring.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\imgutils.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\intmath.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\xtea.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\rational.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\lfg.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\cpu.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\sha.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\bprint.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\frame.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\log.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\timecode.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\utils.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\base64.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\buffer.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\pixdesc.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\crc.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\blowfish.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\time.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\md5.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\float_dsp.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\x86\float_dsp_init.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\x86\cpu.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavutil\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\compat\strtod.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\compat\msvcrt\snprintf.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\compat\msvcrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggdec.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\os_support.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparseopus.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparseflac.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\matroska.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparsetheora.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparseskeleton.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparsecelt.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\id3v1.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\mux.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\utils.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\vorbiscomment.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\allformats.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\pcm.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparsespeex.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\aviobuf.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\wavdec.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\matroskadec.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\avio.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparsedirac.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\seek.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\riff.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparseogm.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\rmsipr.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\cutils.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\oggparsevorbis.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\options.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\id3v2.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\isom.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat\metadata.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\ffmpeg\libavformat</Filter>
+    </ClCompile>
+    <None Include="chromium\ffmpegsumo.sigs">
+      <Filter>chromium\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="chromium\config\Chromium\win\ia32\config.h">
+      <Filter>chromium\config\Chromium\win\ia32</Filter>
+    </ClInclude>
+    <ClInclude Include="chromium\config\Chromium\win\ia32\libavutil\avconfig.h">
+      <Filter>chromium\config\Chromium\win\ia32\libavutil</Filter>
+    </ClInclude>
+    <None Include="..\..\tools\generate_stubs\generate_stubs.py">
+      <Filter>..\..\tools\generate_stubs\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

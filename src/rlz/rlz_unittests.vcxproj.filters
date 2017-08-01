@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win\lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{2739B19F-16DF-601C-060A-FF86F6A40045}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rlz.gyp"/>
+    <ClCompile Include="test\rlz_unittest_main.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\rlz_test_helpers.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\rlz_test_helpers.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="win\lib\machine_deal_test.cc">
+      <Filter>win\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\string_utils_unittest.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lib_values_unittest.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\financial_ping_test.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\crc8_unittest.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\crc32_unittest.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\machine_id_unittest.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\rlz_lib_test.cc">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

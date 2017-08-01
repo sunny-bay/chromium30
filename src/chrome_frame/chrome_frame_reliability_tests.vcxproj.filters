@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\reliability">
+      <UniqueIdentifier>{DEA43E48-69DE-BC55-01BA-512751D42EBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_frame">
+      <UniqueIdentifier>{EBCDB410-A604-75FA-C02A-225BB96419C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\chrome\test\automation">
+      <UniqueIdentifier>{31ADDD52-866C-4C09-9800-A5A5331381F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_utils.cc"/>
+    <ClInclude Include="test_utils.h"/>
+    <None Include="chrome_frame.gyp"/>
+    <ClInclude Include="test\win_event_receiver.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\win_event_receiver.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chrome_frame_test_utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\simulate_input.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chrome_frame_test_utils.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\simulate_input.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\ie_event_sink.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\ie_event_sink.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\reliability\reliability_test_suite.h">
+      <Filter>test\reliability</Filter>
+    </ClInclude>
+    <ClCompile Include="test\reliability\run_all_unittests.cc">
+      <Filter>test\reliability</Filter>
+    </ClCompile>
+    <ClInclude Include="test\reliability\page_load_test.h">
+      <Filter>test\reliability</Filter>
+    </ClInclude>
+    <ClCompile Include="test\reliability\page_load_test.cc">
+      <Filter>test\reliability</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome_frame\chrome_tab.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chrome\test\base\chrome_process_util.h">
+      <Filter>..\chrome\test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chrome\test\base\chrome_process_util.cc">
+      <Filter>..\chrome\test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chrome\test\ui\ui_test_suite.h">
+      <Filter>..\chrome\test\ui</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chrome\test\ui\ui_test_suite.cc">
+      <Filter>..\chrome\test\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chrome\test\ui\ui_test.cc">
+      <Filter>..\chrome\test\ui</Filter>
+    </ClCompile>
+    <ClInclude Include="..\chrome\test\ui\ui_test.h">
+      <Filter>..\chrome\test\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chrome\test\automation\proxy_launcher.h">
+      <Filter>..\chrome\test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\chrome\test\automation\proxy_launcher.cc">
+      <Filter>..\chrome\test\automation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\test\test_file_util_win.cc">
+      <Filter>..\base\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

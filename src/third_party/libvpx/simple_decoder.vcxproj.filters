@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\libvpx">
+      <UniqueIdentifier>{6C6E7BE2-F80A-3FB0-052D-F4ABBA92412E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\libvpx\simple_decoder">
+      <UniqueIdentifier>{BB121C85-C4BC-E7B8-C59C-8EF2BB534C48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\third_party\libvpx\simple_decoder\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{8A6F5E6E-316F-22D4-1547-253B04CB32E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\libvpx">
+      <UniqueIdentifier>{6C6E7BE2-F80A-3FB0-052D-F4ABBA92412E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\libvpx\examples">
+      <UniqueIdentifier>{44436D1D-970F-7E02-EDA1-3A8DAD062A99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libvpx.gyp"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\third_party\libvpx\simple_decoder.c">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\libvpx</Filter>
+    </ClCompile>
+    <None Include="$(OutDir)obj\global_intermediate\third_party\libvpx\simple_decoder\gen_example_code.sh">
+      <Filter>$(OutDir)obj\global_intermediate\third_party\libvpx\simple_decoder\_excluded_files</Filter>
+    </None>
+    <None Include="source\libvpx\examples\gen_example_code.sh">
+      <Filter>source\libvpx\examples</Filter>
+    </None>
+    <generate_example Include="source\libvpx\examples\simple_decoder.txt">
+      <Filter>source\libvpx\examples</Filter>
+    </generate_example>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="notifier">
+      <UniqueIdentifier>{66184CE2-8D3E-4C84-F432-F6398B11F1E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\listener">
+      <UniqueIdentifier>{0E9C88D6-EDEA-CB39-91BD-231257D6CB59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jingle.gyp"/>
+    <ClInclude Include="notifier\listener\fake_push_client.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\listener\fake_push_client_observer.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\fake_push_client_observer.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\fake_push_client.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\base\fake_base_task.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\base\fake_base_task.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

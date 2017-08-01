@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk">
+      <UniqueIdentifier>{300B0F0A-ACAD-6063-4C44-1B7D00C8E13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain">
+      <UniqueIdentifier>{A1380BF2-B2E4-A638-7882-599BD9BAE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib">
+      <UniqueIdentifier>{F379E9B9-88A3-FDFC-0222-7C732E6A9304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{1CB6C122-F983-4194-1807-39C03FB001C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket\ppapi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\native_client\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\native_client\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp">
+      <UniqueIdentifier>{9938E6E5-8F6B-7587-726E-6CE774E44BEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp\extensions\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp\extensions\dev">
+      <UniqueIdentifier>{51D92A3A-C0F8-78D6-DFF5-4F152A3AB774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp\extensions\dev\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp\private">
+      <UniqueIdentifier>{AF58C028-3D78-1FD9-82C2-3238461BAF30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\cpp\private\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c">
+      <UniqueIdentifier>{CAE7F8DA-E845-16F7-E8EA-8DBDBBC6BC28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\extensions\dev">
+      <UniqueIdentifier>{51D92A3A-C0F8-78D6-DFF5-4F152A3AB774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\extensions\dev\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\dev">
+      <UniqueIdentifier>{51D92A3A-C0F8-78D6-DFF5-4F152A3AB774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\dev\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\private">
+      <UniqueIdentifier>{AF58C028-3D78-1FD9-82C2-3238461BAF30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\c\private\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\tests">
+      <UniqueIdentifier>{71685B5B-5DB1-D3F0-6DF4-FE19B5454C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\tests\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\utility">
+      <UniqueIdentifier>{46D3A1A1-3410-F9C8-C5F7-6AC884D4AD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\utility\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\utility\threading">
+      <UniqueIdentifier>{08E84E43-86EA-0FF0-2578-3ED14D870CD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\..\ppapi\utility\threading\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data">
+      <UniqueIdentifier>{AC47C7D8-5EDD-E427-CEE5-4CCB87CE9641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\extensions\api_test">
+      <UniqueIdentifier>{BC50FD48-E913-A0B8-B490-38531C4393A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket">
+      <UniqueIdentifier>{1CB6C122-F983-4194-1807-39C03FB001C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket\ppapi\newlib">
+      <UniqueIdentifier>{13930066-2F0A-65A2-EAA2-F45D26DA868F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket\ppapi\newlib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="api_test_data.gyp"/>
+    <None Include="newlib-x86-64.socket_ppapi.source_list.gypcmd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="newlib-x86-32.socket_ppapi.source_list.gypcmd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib\stamp.prep">
+      <Filter>$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_newlib\_excluded_files</Filter>
+    </None>
+    <None Include="socket\ppapi\manifest.json">
+      <Filter>socket\ppapi</Filter>
+    </None>
+    <None Include="socket\ppapi\index.html">
+      <Filter>socket\ppapi</Filter>
+    </None>
+    <None Include="socket\ppapi\main.js">
+      <Filter>socket\ppapi</Filter>
+    </None>
+    <None Include="socket\ppapi\controller.js">
+      <Filter>socket\ppapi</Filter>
+    </None>
+    <ClCompile Include="socket\ppapi\test_socket.cc">
+      <Filter>socket\ppapi\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\..\native_client\build\build_nexe.py">
+      <Filter>..\..\..\..\..\native_client\build\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\completion_callback.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\resource.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\size.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\pass_ref.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\message_loop.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\core.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\module.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\logging.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\view.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\var.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\var_dictionary.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\var_array.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\rect.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\var_array_buffer.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\instance.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\point.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\array_output.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\output_traits.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\net_address.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\instance_handle.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\extensions\to_var_converter.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\extensions\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\extensions\from_var_converter.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\extensions\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\extensions\ext_output_traits.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\extensions\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\extensions\dict_field.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\extensions\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\extensions\optional.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\extensions\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\extensions\dev\socket_dev.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\extensions\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\private\net_address_private.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\private\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\cpp\private\host_resolver_private.h">
+      <Filter>..\..\..\..\..\ppapi\cpp\private\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_errors.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_size.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_stdint.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_rect.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\ppb_core.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_macros.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_point.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_bool.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_var.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_module.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\ppb.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_completion_callback.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_array_output.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_instance.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_time.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\pp_resource.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\ppb_net_address.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\ppb_console.h">
+      <Filter>..\..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\extensions\dev\ppb_ext_socket_dev.h">
+      <Filter>..\..\..\..\..\ppapi\c\extensions\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\dev\ppb_testing_dev.h">
+      <Filter>..\..\..\..\..\ppapi\c\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\dev\ppb_url_util_dev.h">
+      <Filter>..\..\..\..\..\ppapi\c\dev\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\private\ppb_host_resolver_private.h">
+      <Filter>..\..\..\..\..\ppapi\c\private\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\c\private\ppb_net_address_private.h">
+      <Filter>..\..\..\..\..\ppapi\c\private\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\tests\test_utils.h">
+      <Filter>..\..\..\..\..\ppapi\tests\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\ppapi\tests\test_utils.cc">
+      <Filter>..\..\..\..\..\ppapi\tests\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\ppapi\utility\completion_callback_factory.h">
+      <Filter>..\..\..\..\..\ppapi\utility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\utility\completion_callback_factory_thread_traits.h">
+      <Filter>..\..\..\..\..\ppapi\utility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\ppapi\utility\threading\lock.h">
+      <Filter>..\..\..\..\..\ppapi\utility\threading\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket\ppapi\newlib\extensions_api_test_socket_ppapi_newlib_x86_64.nexe">
+      <Filter>$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket\ppapi\newlib\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket\ppapi\newlib\extensions_api_test_socket_ppapi_newlib_x86_32.nexe">
+      <Filter>$(OutDir)\test_data\chrome\test\data\extensions\api_test\socket\ppapi\newlib\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

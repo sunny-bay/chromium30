@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\webkit\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\repack">
+      <UniqueIdentifier>{CD39E10C-2374-C878-AD72-BF465D1509A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources">
+      <UniqueIdentifier>{60108B1D-1D06-DEEB-72CD-739BCA047D39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format">
+      <UniqueIdentifier>{70B82C25-A362-5F67-ADB1-F53029D26C30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome_resources.gyp"/>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\devtools_discovery_page_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\component_extension_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\net_internals_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\memory_internals_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\sync_file_system_internals_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\signin_internals_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\quota_internals_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\translate_internals_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\sync_internals_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\options_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\devtools_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_resources\webui_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\repack.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

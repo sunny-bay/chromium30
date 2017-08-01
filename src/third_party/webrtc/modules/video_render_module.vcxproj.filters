@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="video_render">
+      <UniqueIdentifier>{B3A89D54-9B83-6481-B0DC-AC5B63958E23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\windows\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\external">
+      <UniqueIdentifier>{323CF671-16D1-0362-1BD3-4E39441797F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\linux">
+      <UniqueIdentifier>{978C4E9B-8123-1CA3-A70B-0A340D4435AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\linux\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="modules.gyp"/>
+    <ClCompile Include="video_render\video_render_frames.cc">
+      <Filter>video_render</Filter>
+    </ClCompile>
+    <ClCompile Include="video_render\video_render_impl.cc">
+      <Filter>video_render</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\video_render_frames.h">
+      <Filter>video_render</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\incoming_video_stream.h">
+      <Filter>video_render</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\i_video_render.h">
+      <Filter>video_render</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\video_render_impl.h">
+      <Filter>video_render</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\incoming_video_stream.cc">
+      <Filter>video_render</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\windows\i_video_render_win.h">
+      <Filter>video_render\windows\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\windows\video_render_direct3d9.cc">
+      <Filter>video_render\windows\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="video_render\windows\video_render_windows_impl.cc">
+      <Filter>video_render\windows\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\windows\video_render_windows_impl.h">
+      <Filter>video_render\windows\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\windows\video_render_direct3d9.h">
+      <Filter>video_render\windows\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\mac\video_render_mac_cocoa_impl.h">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\mac\video_render_agl.h">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="video_render\mac\cocoa_render_view.mm">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="video_render\mac\video_render_nsopengl.h">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="video_render\mac\video_render_nsopengl.mm">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </None>
+    <None Include="video_render\mac\video_render_mac_cocoa_impl.mm">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="video_render\mac\video_render_agl.cc">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\mac\video_render_mac_carbon_impl.h">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\mac\video_render_mac_carbon_impl.cc">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\mac\cocoa_full_screen_window.h">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="video_render\mac\cocoa_full_screen_window.mm">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="video_render\mac\cocoa_render_view.h">
+      <Filter>video_render\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\external\video_render_external_impl.h">
+      <Filter>video_render\external</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\external\video_render_external_impl.cc">
+      <Filter>video_render\external</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\linux\video_x11_render.h">
+      <Filter>video_render\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\linux\video_x11_channel.cc">
+      <Filter>video_render\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\linux\video_render_linux_impl.h">
+      <Filter>video_render\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\linux\video_x11_channel.h">
+      <Filter>video_render\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\linux\video_render_linux_impl.cc">
+      <Filter>video_render\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="video_render\linux\video_x11_render.cc">
+      <Filter>video_render\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="video_render\android\video_render_android_surface_view.cc">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="video_render\android\video_render_android_impl.cc">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\android\video_render_android_native_opengl2.h">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\android\video_render_opengles20.cc">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\android\video_render_android_impl.h">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\android\video_render_opengles20.h">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="video_render\android\video_render_android_native_opengl2.cc">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="video_render\android\video_render_android_surface_view.h">
+      <Filter>video_render\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\include\video_render_defines.h">
+      <Filter>video_render\include</Filter>
+    </ClInclude>
+    <ClInclude Include="video_render\include\video_render.h">
+      <Filter>video_render\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

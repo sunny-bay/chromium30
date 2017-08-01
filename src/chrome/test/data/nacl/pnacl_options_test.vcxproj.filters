@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk">
+      <UniqueIdentifier>{300B0F0A-ACAD-6063-4C44-1B7D00C8E13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain">
+      <UniqueIdentifier>{A1380BF2-B2E4-A638-7882-599BD9BAE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl">
+      <UniqueIdentifier>{8647CA1C-790C-CB23-C5A9-1AE303238472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pnacl_nmf_options">
+      <UniqueIdentifier>{87AECC76-3491-C015-9BF0-F00C16C41FE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\native_client\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\cpp">
+      <UniqueIdentifier>{9938E6E5-8F6B-7587-726E-6CE774E44BEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\cpp\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\c">
+      <UniqueIdentifier>{CAE7F8DA-E845-16F7-E8EA-8DBDBBC6BC28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\ppapi\c\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\nacl_test_data">
+      <UniqueIdentifier>{6A0782BB-987F-0119-92F2-61A4FD831396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\nacl_test_data\pnacl">
+      <UniqueIdentifier>{D3734432-2A2A-4C06-4164-4E0FF5638D72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\nacl_test_data\pnacl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nacl_test_data.gyp"/>
+    <None Include="pnacl_newlib.pnacl_options_test.source_list.gypcmd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="simple.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <None Include="$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl\stamp.prep">
+      <Filter>$(OutDir)obj\global_intermediate\sdk\toolchain\win_x86_pnacl\_excluded_files</Filter>
+    </None>
+    <None Include="pnacl_nmf_options\pnacl_o_large.nmf">
+      <Filter>pnacl_nmf_options</Filter>
+    </None>
+    <None Include="pnacl_nmf_options\pnacl_o_0.nmf">
+      <Filter>pnacl_nmf_options</Filter>
+    </None>
+    <None Include="pnacl_nmf_options\pnacl_o_2.nmf">
+      <Filter>pnacl_nmf_options</Filter>
+    </None>
+    <None Include="pnacl_nmf_options\pnacl_options.html">
+      <Filter>pnacl_nmf_options</Filter>
+    </None>
+    <None Include="..\..\..\..\native_client\build\build_nexe.py">
+      <Filter>..\..\..\..\native_client\build\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\module.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\instance.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\instance_handle.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\view.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\size.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\point.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\core.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\logging.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\pass_ref.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\resource.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\cpp\rect.h">
+      <Filter>..\..\..\..\ppapi\cpp\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_module.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_macros.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_core.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_rect.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_point.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_time.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\ppb_console.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_completion_callback.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_stdint.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_instance.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_var.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_resource.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_size.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ppapi\c\pp_bool.h">
+      <Filter>..\..\..\..\ppapi\c\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="$(OutDir)\nacl_test_data\pnacl\pnacl_options_newlib_pnacl.pexe">
+      <Filter>$(OutDir)\nacl_test_data\pnacl\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{D877ED5D-5BA8-20DA-F98B-FABAACD9EF89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\setup">
+      <UniqueIdentifier>{10813315-79D2-702F-E3AC-CE979A8A690B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\setup\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="host\branding.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\win\start_host_window.h">
+      <Filter>host\setup\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\win\start_host_window.cc">
+      <Filter>host\setup\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\win\host_configurer.cc">
+      <Filter>host\setup\win</Filter>
+    </ClCompile>
+    <ResourceCompile Include="host\setup\win\host_configurer.rc">
+      <Filter>host\setup\win</Filter>
+    </ResourceCompile>
+    <ClInclude Include="host\setup\win\load_string_from_resource.h">
+      <Filter>host\setup\win</Filter>
+    </ClInclude>
+    <ClInclude Include="host\setup\win\host_configurer_resource.h">
+      <Filter>host\setup\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\setup\win\host_configurer_window.cc">
+      <Filter>host\setup\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\setup\win\load_string_from_resource.cc">
+      <Filter>host\setup\win</Filter>
+    </ClCompile>
+    <ClInclude Include="host\setup\win\host_configurer_window.h">
+      <Filter>host\setup\win</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

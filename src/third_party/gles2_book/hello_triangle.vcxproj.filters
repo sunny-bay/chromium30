@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Chapter_2">
+      <UniqueIdentifier>{E2C52187-A4D3-013D-5D60-9DC114532D3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter_2\Hello_Triangle">
+      <UniqueIdentifier>{9D2F13F3-FC32-C08C-E571-9135FA793FC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gles2_book.gyp"/>
+    <ClInclude Include="Chapter_2\Hello_Triangle\Hello_Triangle.h">
+      <Filter>Chapter_2\Hello_Triangle</Filter>
+    </ClInclude>
+    <ClCompile Include="Chapter_2\Hello_Triangle\Hello_Triangle.c">
+      <Filter>Chapter_2\Hello_Triangle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

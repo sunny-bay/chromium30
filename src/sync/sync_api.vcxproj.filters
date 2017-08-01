@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClCompile Include="api\sync_merge_result.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\sync_error.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClInclude Include="api\sync_error.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\string_ordinal.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\time.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClCompile Include="api\sync_data.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\sync_error_factory.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\syncable_service.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\sync_change.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClInclude Include="api\sync_change_processor.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\sync_change.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\syncable_service.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClCompile Include="api\sync_change_processor.cc">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClInclude Include="api\sync_error_factory.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\sync_merge_result.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\sync_data.h">
+      <Filter>api</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

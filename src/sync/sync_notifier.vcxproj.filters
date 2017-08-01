@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="notifier">
+      <UniqueIdentifier>{66184CE2-8D3E-4C84-F432-F6398B11F1E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClCompile Include="notifier\p2p_invalidator.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\state_writer.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\invalidator_registrar.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\push_client_channel.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\registration_manager.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\invalidator_registrar.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\non_blocking_invalidator.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\invalidator_state.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\ack_tracker.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\invalidation_notifier.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\ack_tracker.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\sync_invalidation_listener.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\invalidation_state_tracker.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\sync_system_resources.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\invalidation_util.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\sync_invalidation_listener.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\object_id_invalidation_map.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\push_client_channel.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\non_blocking_invalidator.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\invalidator_state.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\invalidation_notifier.cc">
+      <Filter>notifier</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\object_id_invalidation_map.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\invalidation_handler.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\invalidator.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\sync_system_resources.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\registration_manager.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\p2p_invalidator.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\invalidation_state_tracker.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\invalidation_util.h">
+      <Filter>notifier</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

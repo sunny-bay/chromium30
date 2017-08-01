@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)">
+      <UniqueIdentifier>{2385D4EB-CAEB-D33E-59EB-C687F571392E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\extensions\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="common_constants.gyp"/>
+    <None Include="VERSION">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClCompile Include="$(IntDir)\chrome_version.cc">
+      <Filter>$(IntDir)</Filter>
+    </ClCompile>
+    <None Include="tools\build\make_version_cc.py">
+      <Filter>tools\build\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="common\env_vars.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pref_names.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\chrome_switches.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\widevine_cdm_constants.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\widevine_cdm_constants.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pref_font_script_names-inl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\chrome_paths_win.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\chrome_paths.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\chrome_paths_internal.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pref_font_webkit_names.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\pref_names.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\chrome_switches.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\chrome_paths.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\chrome_constants.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClInclude Include="common\chrome_constants.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\env_vars.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\chrome_paths_linux.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="common\chrome_paths_mac.mm">
+      <Filter>common\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="common\chrome_paths_android.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net\test_server_locations.cc">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClInclude Include="common\net\test_server_locations.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\common\constants.cc">
+      <Filter>..\extensions\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\common\constants.h">
+      <Filter>..\extensions\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

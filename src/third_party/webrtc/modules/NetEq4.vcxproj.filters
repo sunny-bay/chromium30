@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio_coding">
+      <UniqueIdentifier>{4FC456D3-9A0D-A421-757E-1167E51D693D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\neteq4">
+      <UniqueIdentifier>{B6C683A2-806D-C4B1-200B-9711B724934E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\neteq4\interface">
+      <UniqueIdentifier>{D45E0FBD-84A7-45CA-36AC-7A06BD0C9BF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="modules.gyp"/>
+    <ClInclude Include="audio_coding\neteq4\audio_multi_vector.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\audio_multi_vector.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\comfort_noise.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\packet_buffer.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\dtmf_buffer.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\preemptive_expand.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\sync_buffer.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\normal.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\buffer_level_filter.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\timestamp_scaler.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\audio_vector.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\post_decode_vad.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\normal.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\statistics_calculator.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\delay_manager.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\dtmf_tone_generator.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\background_noise.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\random_vector.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\audio_decoder_impl.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\rtcp.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\accelerate.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\time_stretch.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\neteq_impl.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\decision_logic_normal.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\decision_logic.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\merge.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\random_vector.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\delay_peak_detector.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\neteq.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\delay_manager.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\post_decode_vad.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\buffer_level_filter.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\audio_decoder.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\background_noise.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\decision_logic_normal.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\decision_logic_fax.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\rtcp.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\preemptive_expand.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\decision_logic.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\decoder_database.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\time_stretch.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\dtmf_buffer.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\comfort_noise.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\payload_splitter.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\defines.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\payload_splitter.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\accelerate.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\expand.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\expand.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\statistics_calculator.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\dtmf_tone_generator.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\audio_decoder_impl.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\dsp_helper.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\decision_logic_fax.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\merge.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\timestamp_scaler.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\neteq_impl.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\audio_vector.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\dsp_helper.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClCompile Include="audio_coding\neteq4\packet_buffer.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq4\delay_peak_detector.cc">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClCompile>
+    <ClInclude Include="audio_coding\neteq4\decoder_database.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\sync_buffer.h">
+      <Filter>audio_coding\neteq4</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\interface\neteq.h">
+      <Filter>audio_coding\neteq4\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq4\interface\audio_decoder.h">
+      <Filter>audio_coding\neteq4\interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

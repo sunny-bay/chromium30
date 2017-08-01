@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out">
+      <UniqueIdentifier>{456EFA50-5ADA-2D4B-BB76-1BD6B9BCA3A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto">
+      <UniqueIdentifier>{A5155811-51E5-1087-45BA-D2802E9B53B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\chrome\browser\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\protoc_wrapper">
+      <UniqueIdentifier>{34D2DD54-FDF8-D9D8-4C83-CA01DBAC57A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\protoc_wrapper\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\net\cert_logger.pb.h">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\net</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\net\cert_logger.pb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\chrome\browser\net</Filter>
+    </ClCompile>
+    <None Include="$(OutDir)\protoc.exe">
+      <Filter>$(OutDir)\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\pyproto\chrome\browser\net\cert_logger_pb2.py">
+      <Filter>$(OutDir)\pyproto\chrome\browser\net</Filter>
+    </None>
+    <None Include="..\tools\protoc_wrapper\protoc_wrapper.py">
+      <Filter>..\tools\protoc_wrapper\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <genproto Include="browser\net\cert_logger.proto">
+      <Filter>browser\net</Filter>
+    </genproto>
+  </ItemGroup>
+</Project>

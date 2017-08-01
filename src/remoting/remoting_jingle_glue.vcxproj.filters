@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="jingle_glue">
+      <UniqueIdentifier>{16D1519A-1FE7-806B-ADF2-DEA8E5AD5990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="jingle_glue\jingle_info_request.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClCompile Include="jingle_glue\chromium_socket_factory.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClInclude Include="jingle_glue\chromium_socket_factory.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClCompile Include="jingle_glue\chromium_port_allocator.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClInclude Include="jingle_glue\chromium_port_allocator.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClCompile Include="jingle_glue\iq_sender.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClInclude Include="jingle_glue\signal_strategy.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClCompile Include="jingle_glue\xmpp_signal_strategy.cc">
+      <Filter>jingle_glue</Filter>
+    </ClCompile>
+    <ClInclude Include="jingle_glue\xmpp_signal_strategy.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClInclude Include="jingle_glue\jingle_info_request.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClInclude Include="jingle_glue\iq_sender.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+    <ClInclude Include="jingle_glue\network_settings.h">
+      <Filter>jingle_glue</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

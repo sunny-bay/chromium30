@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pnacl_mime_type">
+      <UniqueIdentifier>{0477AE80-1925-6C4A-0589-CF4301DD1B63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nacl_test_data.gyp"/>
+    <None Include="pnacl_mime_type\pnacl_mime_type.html">
+      <Filter>pnacl_mime_type</Filter>
+    </None>
+  </ItemGroup>
+</Project>

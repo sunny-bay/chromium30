@@ -1,0 +1,3740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zygote">
+      <UniqueIdentifier>{C7348C0A-B63B-9A5B-BAD9-20B17AE9819E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zygote\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\browser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\browser\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\browser\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\webkit\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser\tracing">
+      <UniqueIdentifier>{CE08FC7C-88C2-852D-9904-CEFED4CA8C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser\tracing\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources">
+      <UniqueIdentifier>{60108B1D-1D06-DEEB-72CD-739BCA047D39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="port\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\geolocation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\web_contents">
+      <UniqueIdentifier>{20151B4E-11BF-6CF8-1021-3A1D55DA2F1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\web_contents\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\web_contents\aura">
+      <UniqueIdentifier>{309EC8FE-39D0-9538-6130-D86406AE327E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\web_contents\aura\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\gamepad">
+      <UniqueIdentifier>{930DED89-AB29-FBA2-2E5E-CDFDD19A7E73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\gamepad\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\accessibility">
+      <UniqueIdentifier>{873DE697-7E51-06CB-5ED2-F4A475CEFD57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\accessibility\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\loader">
+      <UniqueIdentifier>{3E8AF183-CF37-3672-A18D-21E019961B7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host">
+      <UniqueIdentifier>{6A2FF98D-8941-B591-585B-76585C81DF84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\pepper">
+      <UniqueIdentifier>{7CECF610-4A5A-AE56-D71A-A67BA22B6EB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\pepper\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\java">
+      <UniqueIdentifier>{4E663CF6-CD22-68E0-B08F-06E24C51407E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\java\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\p2p">
+      <UniqueIdentifier>{8096E04D-D00E-DEF4-9C16-7F4A4E28C656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\input">
+      <UniqueIdentifier>{2F6C04D2-C90B-4FD0-8BF5-B540F7C337DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\input\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\webui">
+      <UniqueIdentifier>{8F834895-4F0E-737B-F9E7-D6D40E9A436B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\download">
+      <UniqueIdentifier>{E29388DC-1A17-286D-EDEC-2546E3BEFA9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\download\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\devtools">
+      <UniqueIdentifier>{58F63217-69E6-51D7-8CFA-62F622D6CE5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\zygote_host">
+      <UniqueIdentifier>{AAE279FC-465E-F134-819A-0E7287D41D4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\zygote_host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\device_orientation">
+      <UniqueIdentifier>{7AFE5C68-7E78-200B-1609-6C0DBAEC6FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\device_orientation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\speech\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\speech\endpointer">
+      <UniqueIdentifier>{0C35030F-A698-C803-21C0-7ED9957A346D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\browser_plugin">
+      <UniqueIdentifier>{1E5576EF-A27B-DCDD-4371-861B51AE0DED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\browser_plugin\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\dom_storage">
+      <UniqueIdentifier>{4C9B009B-E930-072B-1737-129280193BD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\worker_host">
+      <UniqueIdentifier>{57D294E2-54A9-476D-6990-5710683A3D3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\android\in_process">
+      <UniqueIdentifier>{1386D49D-CEEB-8939-A071-557EBFF88E9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\android\in_process\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\tracing">
+      <UniqueIdentifier>{CE08FC7C-88C2-852D-9904-CEFED4CA8C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\indexed_db">
+      <UniqueIdentifier>{CD5B68CC-F9E2-1FDB-9113-4322B2ACF39C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\indexed_db\leveldb">
+      <UniqueIdentifier>{89BE37D3-9CA3-D9EE-D5C0-7515BE250C8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\streams">
+      <UniqueIdentifier>{AD09598D-D587-D3C9-E5BF-910698C78B85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\aura">
+      <UniqueIdentifier>{309EC8FE-39D0-9538-6130-D86406AE327E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\aura\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="zygote\zygote_main_linux.cc">
+      <Filter>zygote\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="zygote\zygote_linux.h">
+      <Filter>zygote\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="zygote\zygote_linux.cc">
+      <Filter>zygote\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\download_destination_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\access_token_store.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\indexed_db_info.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\profiler_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_contents_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_dispatcher_host_login_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\content_browser_client.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_registrar.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_child_process_host_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_main_parts.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_message_filter.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_main_runner.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\file_descriptor_info.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\plugin_data_remover.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_plugin_guest_delegate.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\web_ui_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_http_handler_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_contents_user_data.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\storage_partition.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\indexed_db_info.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="public\browser\browser_child_process_host_delegate.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="public\browser\speech_recognition_session_context.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\child_process_security_policy.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\web_contents_observer.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\resource_throttle.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\render_frame_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\gpu_data_manager.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\native_web_keyboard_event.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\download_item.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\page_navigator.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\url_data_source.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\download_interrupt_reasons.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_external_agent_proxy_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_frontend_host_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\load_from_memory_cache_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\geolocation_provider.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_ipc_logging.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\render_widget_host_view.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\interstitial_page.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\navigation_type.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\resource_request_details.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\histogram_fetcher.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\dom_operation_notification_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_child_process_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_contents_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_request_info.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_plugin_guest_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\resource_dispatcher_host_delegate.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\resource_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\web_contents.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\web_ui_controller_factory.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\certificate_request_result_type.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\page_navigator.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\user_metrics.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_manager.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\cookie_store_factory.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\navigation_details.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\media_devices_monitor.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\cert_store.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_child_process_host_iterator.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\render_view_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\download_danger_type.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\invalidate_type.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_ui.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\font_list_async.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\worker_service.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\load_notification_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\indexed_db_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\download_manager.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_client_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\utility_process_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_http_handler.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_ui_data_source.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\content_browser_client.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\render_widget_host_view_mac_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_service.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\notification_types.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\profiler_subscriber.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_dispatcher_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\dom_storage_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\render_process_host_factory.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\speech_recognition_session_config.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\javascript_dialog_manager.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_contents_view_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\favicon_status.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\plugin_service_filter.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\render_process_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_external_agent_proxy.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\render_widget_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\navigation_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\navigation_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\site_instance.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\speech_recognition_session_config.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_child_process_observer.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\browser_thread.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\global_request_id.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\navigation_controller.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\download_interrupt_reason_values.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\download_manager_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\quota_permission_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\devtools_agent_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\notification_registrar.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\power_save_blocker.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\favicon_status.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_contents_view.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\child_process_data.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\url_data_source.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="public\browser\javascript_dialog_manager.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\stream_handle.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\session_storage_namespace.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_dispatcher_host_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\render_view_host_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\trace_subscriber.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_ppapi_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\download_save_info.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\speech_recognition_manager.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\resource_request_details.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_url_handler.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\host_zoom_map.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\plugin_service.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\worker_service_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\save_page_type.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_thread_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\download_url_parameters.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\pepper_flash_settings_helper.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_accessibility_state.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\download_url_parameters.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\navigation_entry.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\load_from_memory_cache_details.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\browser_child_process_host.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\speech_recognition_manager_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\trace_controller.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_drag_dest_delegate.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\speech_recognition_event_listener.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\download_manager_delegate.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="public\browser\browser_child_process_host_iterator.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\overscroll_configuration.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\browser_shutdown.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\web_ui_controller.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\color_chooser.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\render_view_host_observer.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="public\browser\browser_message_filter.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\keyboard_listener.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\web_contents_delegate.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\web_contents.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\gpu_data_manager_observer.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="public\browser\browser_main_parts.cc">
+      <Filter>public\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="public\browser\notification_source.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\speech_recognition_session_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\web_ui_message_handler.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\download_save_info.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\geolocation_permission_context.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\compositor_util.h">
+      <Filter>public\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\zygote_host_linux.h">
+      <Filter>public\browser\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\compositor_client.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\compositor.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\download_controller_android.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\synchronous_compositor_client.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\content_view_layer_renderer.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\synchronous_compositor.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\devtools_auth.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="public\browser\android\content_view_core.h">
+      <Filter>public\browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\webkit\grit\devtools_resources_map.h">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\grit</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\webkit\grit\devtools_resources_map.cc">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\grit</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\webkit\grit\devtools_resources.h">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\grit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\content\browser\tracing\grit\tracing_resources.h">
+      <Filter>$(OutDir)obj\global_intermediate\content\browser\tracing\grit</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\ui\ui_resources\grit\webui_resources_map.cc">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources\grit</Filter>
+    </ClCompile>
+    <ClInclude Include="port\browser\render_widget_host_view_port.h">
+      <Filter>port\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="port\browser\smooth_scroll_gesture.h">
+      <Filter>port\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="port\browser\location_provider.h">
+      <Filter>port\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="port\browser\web_contents_view_port.h">
+      <Filter>port\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="port\browser\event_with_latency_info.h">
+      <Filter>port\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="port\browser\render_view_host_delegate_view.h">
+      <Filter>port\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\cross_site_request_manager.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\power_monitor_message_broadcaster.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\histogram_synchronizer.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_process_sub_thread.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\resource_context_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_child_process_host_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_thread_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\histogram_internals_request_job.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ppapi_plugin_process_host.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\safe_util_win.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\power_monitor_message_broadcaster.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\histogram_synchronizer.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\site_instance_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\power_save_blocker_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\host_zoom_map_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_instance.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\pepper_flash_settings_helper_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_main_loop.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_thread_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\font_list_async.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_main_runner.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\byte_stream.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\resolve_proxy_msg_helper.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\child_process_launcher.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_context.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_process_sub_thread.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\histogram_message_filter.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\quota_dispatcher_host.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\plugin_data_remover_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\power_save_blocker_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\notification_service_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\histogram_controller.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\cross_site_request_manager.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\child_process_security_policy_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\plugin_service_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\power_save_blocker_android.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\tcmalloc_internals_request_job.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_url_handler_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\storage_partition_impl_map.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\quota_dispatcher_host.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\child_process_launcher.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\site_instance_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\storage_partition_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\histogram_controller.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\profiler_message_filter.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\profiler_message_filter.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\histogram_message_filter.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\storage_partition_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_main.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\plugin_process_host.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_child_process_host_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\child_process_security_policy_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\profiler_controller_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browsing_instance.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\startup_task_runner.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\histogram_subscriber.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ppapi_plugin_process_host.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\startup_task_runner.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\utility_process_host_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\storage_partition_impl_map.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\profiler_controller_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\resolve_proxy_msg_helper.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_main_loop.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_ipc_logging.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\host_zoom_map_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\media_devices_monitor.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\mime_registry_message_filter.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_main.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\histogram_internals_request_job.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\system_message_window_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\resource_context_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\power_save_blocker_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\safe_util_win.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\plugin_service_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\plugin_process_host.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\cert_store_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_url_handler_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\system_message_window_win.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\pepper_flash_settings_helper_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\byte_stream.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\notification_service_impl.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\user_metrics.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\utility_process_host_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\cert_store_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\mime_registry_message_filter.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\plugin_data_remover_impl.cc">
+      <Filter>browser</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\tcmalloc_internals_request_job.h">
+      <Filter>browser</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\power_save_blocker_ozone.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_monitor_linux.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_monitor_linux.h">
+      <Filter>browser\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\udev_linux.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\plugin_loader_posix.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\power_save_blocker_mac.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\device_monitor_mac.mm">
+      <Filter>browser\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\plugin_process_host_mac.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\power_save_blocker_x11.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_monitor_mac.h">
+      <Filter>browser\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\power_save_blocker_chromeos.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\mach_broker_mac.mm">
+      <Filter>browser\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\power_save_blocker_android.cc">
+      <Filter>browser\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\plugin_loader_posix.h">
+      <Filter>browser\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\udev_linux.h">
+      <Filter>browser\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\mach_broker_mac.h">
+      <Filter>browser\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\network_location_provider.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\location_provider_android.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\win7_location_provider_win.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\geolocation_dispatcher_host.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_win.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\network_location_provider.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\win7_location_api_win.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\network_location_request.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\wifi_data_provider_win.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\location_arbitrator.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\wifi_data_provider_common.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\geolocation_dispatcher_host.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\network_location_request.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\empty_device_data_provider.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_common_win.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\location_provider_base.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\osx_wifi.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\win7_location_api_win.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\geolocation_provider_impl.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\device_data_provider.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_common.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\location_arbitrator_impl.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\device_data_provider.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\location_provider_base.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\win7_location_provider_win.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\empty_device_data_provider.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\wifi_data_provider_common_win.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\location_api_adapter_android.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\geolocation_provider_impl.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\location_arbitrator_impl.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_linux.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\core_location_provider_mac.h">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\wifi_data_provider_chromeos.h">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\core_location_data_provider_mac.h">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\geolocation\core_location_provider_mac.mm">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </None>
+    <None Include="browser\geolocation\wifi_data_provider_corewlan_mac.mm">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\geolocation\gps_location_provider_linux.h">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\wifi_data_provider_mac.h">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\location_provider_android.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\location_api_adapter_android.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_mac.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\geolocation\core_location_data_provider_mac.mm">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\geolocation\gps_location_provider_linux.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\wifi_data_provider_chromeos.cc">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\wifi_data_provider_linux.h">
+      <Filter>browser\geolocation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\navigation_entry_impl.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\render_view_host_manager.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\web_drag_utils_win.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\interstitial_page_impl.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_contents_screenshot_manager.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\web_drag_source_win.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\debug_urls.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_drag_dest_win.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_contents_view_guest.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_contents_view_win.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\render_view_host_manager.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\navigation_controller_impl.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\web_contents_screenshot_manager.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_contents_impl.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\navigation_entry_impl.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\debug_urls.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_drag_source_win.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_contents_drag_win.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\frame_tree_node.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\web_drag_utils_win.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\web_contents_impl.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\web_contents_view_android.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\frame_tree_node.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\web_contents_view_win.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\interstitial_page_impl.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_contents_drag_win.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\navigation_controller_impl.h">
+      <Filter>browser\web_contents</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\web_contents_view_guest.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_drag_dest_win.cc">
+      <Filter>browser\web_contents</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\web_contents_view_mac.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_contents_view_aura.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\touch_editable_impl_aura.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_drag_dest_gtk.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_contents_view_gtk.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\web_drag_source_gtk.cc">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\drag_utils_gtk.cc">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\web_drag_source_mac.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\web_drag_dest_gtk.cc">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\touch_editable_impl_aura.cc">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_contents_view_android.cc">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\web_contents\web_contents_view_aura.cc">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\web_contents\web_drag_source_mac.mm">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\web_contents\web_contents_view_gtk.cc">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\drag_utils_gtk.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\web_contents\web_drag_dest_mac.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\web_contents\web_contents_view_mac.mm">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\web_contents\web_drag_source_gtk.h">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\web_contents\web_drag_dest_mac.mm">
+      <Filter>browser\web_contents\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\web_contents\aura\shadow_layer_delegate.h">
+      <Filter>browser\web_contents\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\aura\window_slider.cc">
+      <Filter>browser\web_contents\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\aura\window_slider.h">
+      <Filter>browser\web_contents\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\aura\shadow_layer_delegate.cc">
+      <Filter>browser\web_contents\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\web_contents\aura\image_window_delegate.h">
+      <Filter>browser\web_contents\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\web_contents\aura\image_window_delegate.cc">
+      <Filter>browser\web_contents\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gamepad\gamepad_service.cc">
+      <Filter>browser\gamepad</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gamepad\gamepad_platform_data_fetcher_win.h">
+      <Filter>browser\gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gamepad\gamepad_standard_mappings.h">
+      <Filter>browser\gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gamepad\gamepad_service.h">
+      <Filter>browser\gamepad</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gamepad\gamepad_standard_mappings_win.cc">
+      <Filter>browser\gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gamepad\gamepad_provider.cc">
+      <Filter>browser\gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gamepad\gamepad_platform_data_fetcher_win.cc">
+      <Filter>browser\gamepad</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gamepad\gamepad_platform_data_fetcher.h">
+      <Filter>browser\gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gamepad\gamepad_provider.h">
+      <Filter>browser\gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gamepad\gamepad_data_fetcher.h">
+      <Filter>browser\gamepad</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gamepad\xbox_data_fetcher_mac.cc">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\gamepad\gamepad_platform_data_fetcher_mac.mm">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\gamepad\xbox_data_fetcher_mac.h">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gamepad\gamepad_platform_data_fetcher_linux.h">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gamepad\gamepad_standard_mappings_linux.cc">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gamepad\gamepad_platform_data_fetcher_linux.cc">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\gamepad\gamepad_standard_mappings_mac.mm">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\gamepad\gamepad_platform_data_fetcher_mac.h">
+      <Filter>browser\gamepad\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\accessibility\browser_accessibility_manager_win.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\browser_accessibility_state_impl.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\accessibility_tree_formatter.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\browser_accessibility.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\accessibility_tree_formatter_utils_win.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\browser_accessibility_state_impl_win.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\browser_accessibility_manager_android.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\accessibility_tree_formatter_win.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\browser_accessibility_win.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\browser_accessibility_manager_win.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\accessibility_tree_formatter_utils_win.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\browser_accessibility_android.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\accessibility\accessibility_ui.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\browser_accessibility_win.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\browser_accessibility_manager.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\browser_accessibility.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\accessibility_tree_formatter.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\browser_accessibility_manager.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\accessibility\browser_accessibility_state_impl.h">
+      <Filter>browser\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\accessibility_ui.cc">
+      <Filter>browser\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\browser_accessibility_gtk.h">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\browser_accessibility_android.cc">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\browser_accessibility_gtk.cc">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\accessibility_tree_formatter_android.cc">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\accessibility\accessibility_tree_formatter_gtk.cc">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\accessibility\browser_accessibility_cocoa.h">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\accessibility\browser_accessibility_manager_gtk.h">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\accessibility\browser_accessibility_mac.h">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\accessibility\browser_accessibility_delegate_mac.h">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\accessibility\browser_accessibility_manager_mac.mm">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </None>
+    <None Include="browser\accessibility\accessibility_tree_formatter_mac.mm">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\accessibility\browser_accessibility_manager_mac.h">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\accessibility\browser_accessibility_manager_gtk.cc">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\accessibility\browser_accessibility_mac.mm">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </None>
+    <None Include="browser\accessibility\browser_accessibility_cocoa.mm">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\accessibility\browser_accessibility_manager_android.cc">
+      <Filter>browser\accessibility\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\resource_buffer.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\transfer_navigation_resource_throttle.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\render_view_host_tracker.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\power_save_block_resource_throttle.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\resource_request_info_impl.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\buffered_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\throttling_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\resource_message_filter.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\certificate_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\transfer_navigation_resource_throttle.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\layered_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\async_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\async_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\power_save_block_resource_throttle.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_message_delegate.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\upload_data_stream_builder.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\offline_policy.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\resource_request_info_impl.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\render_view_host_tracker.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\resource_scheduler_filter.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\redirect_to_file_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\resource_scheduler_filter.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\cross_site_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\buffered_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\resource_scheduler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\doomed_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\upload_data_stream_builder.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\resource_loader_delegate.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\global_routing_id.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\stream_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\layered_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\stream_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\resource_message_filter.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\resource_message_delegate.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\resource_loader.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\cross_site_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_buffer.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\redirect_to_file_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\resource_dispatcher_host_impl.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\sync_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\resource_loader.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\doomed_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\resource_scheduler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\loader\throttling_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\certificate_resource_handler.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\loader\offline_policy.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\loader\sync_resource_handler.cc">
+      <Filter>browser\loader</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\loader\resource_dispatcher_host_impl.h">
+      <Filter>browser\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\text_input_client_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\database_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\smooth_scroll_gesture_controller.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_mac_editcommand_helper.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\device_motion_browser_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\backing_store_win.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\memory_benchmark_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\file_utilities_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\gamepad_browser_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\clipboard_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\file_utilities_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\overscroll_configuration.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\render_widget_helper.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\overscroll_controller.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\database_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_widget_host_delegate.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_process_host_impl.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_android.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_guest.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\surface_texture_transport_client_android.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_view_host_factory.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\image_transport_factory_android.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\smooth_scroll_gesture_controller.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_base.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_guest.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\render_view_host_delegate.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\ui_events_helper.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_win.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_mac_dictionary_helper.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_process_host_impl.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_widget_host_delegate.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\compositor_impl_android.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\clipboard_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_widget_host_impl.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\socket_stream_dispatcher_host.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\dip_util.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\gpu_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\basic_mouse_wheel_smooth_scroll_gesture.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_widget_helper.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\socket_stream_host.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\dip_util.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\native_web_keyboard_event_win.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\socket_stream_host.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\gpu_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_frame_host_impl.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\smooth_scroll_calculator.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_view_host_impl.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_view_host_factory.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\backing_store_win.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\gamepad_browser_message_filter.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\basic_mouse_wheel_smooth_scroll_gesture.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_view_host_delegate.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_widget_host_impl.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\ime_adapter_android.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\memory_benchmark_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_frame_host_impl.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_win.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_view_host_impl.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\backing_store.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\ui_events_helper.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\overscroll_controller.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\device_motion_browser_message_filter.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\touch_smooth_scroll_gesture_android.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\native_web_keyboard_event.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\backing_store_manager.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\socket_stream_dispatcher_host.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\smooth_scroll_calculator.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\backing_store.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\backing_store_manager.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\overscroll_controller_delegate.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_base.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\gtk_plugin_container.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\renderer_host\compositing_iosurface_layer_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\renderer_host\clipboard_message_filter_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\renderer_host\native_web_keyboard_event_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\gtk_im_context_wrapper.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\gtk_im_context_wrapper.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\backing_store_gtk.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\webmenurunner_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\touch_smooth_scroll_gesture_aura.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\native_web_keyboard_event_android.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\compositing_iosurface_layer_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\renderer_host\render_widget_host_view_mac_dictionary_helper.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\web_input_event_aurawin.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\web_input_event_aura.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\gtk_window_utils.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\gtk_plugin_container.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\web_input_event_aurax11.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\gtk_plugin_container_manager.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\compositing_iosurface_shader_programs_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\touch_smooth_scroll_gesture_aura.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\renderer_host\compositing_iosurface_context_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_aura.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\backing_store_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_aura.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\native_web_keyboard_event_gtk.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="browser\renderer_host\webmenurunner_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_android.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\gtk_window_utils.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\compositing_iosurface_context_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\compositing_iosurface_shader_programs_mac.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\compositing_iosurface_transformer_mac.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\ime_adapter_android.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\render_sandbox_host_linux.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\renderer_host\popup_menu_helper_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\backing_store_gtk.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\compositing_iosurface_transformer_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\renderer_host\compositing_iosurface_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\renderer_host\text_input_client_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\touch_smooth_scroll_gesture_android.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\surface_texture_transport_client_android.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\backing_store_aura.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\text_input_client_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\render_sandbox_host_linux.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\gtk_key_bindings_handler.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\native_web_keyboard_event_aura.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\popup_menu_helper_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\web_input_event_aura.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\render_widget_host_view_gtk.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\renderer_host\text_input_client_message_filter.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\renderer_host\gtk_plugin_container_manager.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\renderer_host\render_widget_host_view_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\renderer_host\render_widget_host_view_mac_editcommand_helper.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <None Include="browser\renderer_host\backing_store_mac.mm">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\renderer_host\compositing_iosurface_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\compositor_impl_android.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\backing_store_aura.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\gtk_key_bindings_handler.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\image_transport_factory_android.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\render_widget_host_view_gtk.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\video_capture_controller.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\webrtc_identity_service_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\audio_mirroring_manager.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\audio_renderer_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\media_stream_requester.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\audio_input_sync_writer.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\audio_input_renderer_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\video_capture_controller_event_handler.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\web_contents_video_capture_device.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\web_contents_tracker.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\audio_input_renderer_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\midi_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\video_capture_oracle.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\video_capture_manager.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\video_capture_manager.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\audio_input_device_manager.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\web_contents_capture_util.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\media_stream_manager.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\video_capture_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\web_contents_tracker.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\midi_dispatcher_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\video_capture_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\video_capture_oracle.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\audio_input_sync_writer.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\webrtc_identity_service_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\audio_mirroring_manager.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\media_stream_manager.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\media_stream_ui_proxy.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\screen_capture_device.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\web_contents_video_capture_device.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\media_stream_ui_proxy.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\device_request_message_filter.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\web_contents_audio_input_stream.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\audio_renderer_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\midi_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\video_capture_controller.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\web_contents_audio_input_stream.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\video_capture_buffer_pool.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\device_request_message_filter.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\media_stream_dispatcher_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\audio_sync_reader.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\screen_capture_device.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\media_stream_dispatcher_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\video_capture_buffer_pool.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\peer_connection_tracker_host.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\video_capture_controller_event_handler.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\audio_input_device_manager.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\midi_dispatcher_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\media\media_stream_provider.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\audio_sync_reader.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\peer_connection_tracker_host.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\media\web_contents_capture_util.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_print_settings_manager.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_host_resolver_message_filter.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_printing_host.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_truetype_font_list_host.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_gamepad_host.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_renderer_connection.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_print_settings_manager.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_network_proxy_host.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_file_ref_host.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_printing_host.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_host_resolver_message_filter.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_udp_socket_message_filter.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_socket_utils.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_truetype_font_list_win.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\content_browser_pepper_host_factory.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_security_helper.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_flash_file_message_filter.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_truetype_font_list_host.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_lookup_request.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_renderer_connection.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_internal_file_ref_backend.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_file_system_browser_host.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_security_helper.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_tcp_socket.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_file_system_browser_host.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_internal_file_ref_backend.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\browser_ppapi_host_impl.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_tcp_server_socket.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_socket_utils.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_browser_font_singleton_host.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_udp_socket_message_filter.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_flash_file_message_filter.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_external_file_ref_backend.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_message_filter.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\browser_ppapi_host_impl.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_tcp_server_socket.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_gamepad_host.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_external_file_ref_backend.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\content_browser_pepper_host_factory.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_truetype_font_list.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_tcp_socket.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_network_proxy_host.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\pepper\pepper_file_ref_host.h">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_browser_font_singleton_host.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_message_filter.cc">
+      <Filter>browser\renderer_host\pepper</Filter>
+    </ClCompile>
+    <None Include="browser\renderer_host\pepper\pepper_truetype_font_list_mac.mm">
+      <Filter>browser\renderer_host\pepper\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_truetype_font_list_android.cc">
+      <Filter>browser\renderer_host\pepper\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\pepper\pepper_truetype_font_list_linux.cc">
+      <Filter>browser\renderer_host\pepper\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\java\java_bound_object.h">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\java\java_bridge_dispatcher_host_manager.h">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\java\java_bridge_channel_host.cc">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\java\java_type.h">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\java\java_type.cc">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\java\java_bridge_channel_host.h">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\java\java_method.cc">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\java\java_bridge_dispatcher_host.h">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\java\java_bound_object.cc">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\java\java_method.h">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\java\java_bridge_dispatcher_host_manager.cc">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\java\java_bridge_dispatcher_host.cc">
+      <Filter>browser\renderer_host\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\p2p\socket_host_tcp.h">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\p2p\socket_dispatcher_host.h">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\p2p\socket_host_tcp.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\p2p\socket_host_tcp_server.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\p2p\socket_host.h">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\p2p\socket_host_tcp_server.h">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\p2p\socket_dispatcher_host.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\p2p\socket_host_udp.h">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\p2p\socket_host.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\p2p\socket_host_udp.cc">
+      <Filter>browser\renderer_host\p2p</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\input\tap_suppression_controller_client.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\input\touchscreen_tap_suppression_controller.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\input\web_input_event_builders_win.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\input\touchscreen_tap_suppression_controller.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\input\touch_event_queue.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\input\gesture_event_filter.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\input\immediate_input_router.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\input\tap_suppression_controller.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\input\immediate_input_router.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\input\input_router_client.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\input\input_router.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\input\web_input_event_builders_android.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\input\web_input_event_util.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\input\web_input_event_util.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\input\touch_event_queue.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\input\touchpad_tap_suppression_controller.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\input\web_input_event_builders_win.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\input\tap_suppression_controller.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\input\touchpad_tap_suppression_controller.h">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\input\gesture_event_filter.cc">
+      <Filter>browser\renderer_host\input</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\input\web_input_event_builders_android.cc">
+      <Filter>browser\renderer_host\input\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\input\web_input_event_util_posix.cc">
+      <Filter>browser\renderer_host\input\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\input\web_input_event_util_posix.h">
+      <Filter>browser\renderer_host\input\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\input\touchpad_tap_suppression_controller_aura.cc">
+      <Filter>browser\renderer_host\input\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\input\touchscreen_tap_suppression_controller_stub.cc">
+      <Filter>browser\renderer_host\input\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\web_ui_controller_factory_registry.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\webui\web_ui_data_source_impl.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\webui\url_data_manager.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\web_ui_impl.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\web_ui_data_source_impl.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\webui\generic_handler.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\webui\url_data_manager_backend.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\webui\url_data_source_impl.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\webui\url_data_manager.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\webui\url_data_source_impl.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\web_ui_message_handler.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\content_web_ui_controller_factory.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\webui\shared_resources_data_source.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\webui\content_web_ui_controller_factory.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\webui\shared_resources_data_source.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\webui\generic_handler.cc">
+      <Filter>browser\webui</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\webui\web_ui_controller_factory_registry.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\webui\url_data_manager_backend.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\webui\web_ui_impl.h">
+      <Filter>browser\webui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\download_resource_handler.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_create_info.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\save_types.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\download_net_log_parameters.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_net_log_parameters.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\base_file.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\download_request_handle.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_create_info.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_file_impl.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_item_impl_delegate.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\drag_download_util.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\drag_download_util.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\download_request_handle.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\download_item_impl.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\rate_estimator.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\download_item_impl.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\save_item.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\save_item.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\save_package.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_stats.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\save_file.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\rate_estimator.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\save_file.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_interrupt_reasons_impl.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_interrupt_reasons_impl.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\download_file_factory.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\save_file_resource_handler.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\mhtml_generation_manager.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\save_package.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\save_file_manager.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_item_factory.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\download_file_factory.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\save_types.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\drag_download_file.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\download_manager_impl.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\save_file_resource_handler.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\drag_download_file.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\download_manager_impl.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\base_file_win.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_resource_handler.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\base_file.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_file_impl.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\download_stats.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\download_file.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\save_file_manager.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\download\mhtml_generation_manager.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\download_item_impl_delegate.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\file_metadata_linux.h">
+      <Filter>browser\download\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\base_file_linux.cc">
+      <Filter>browser\download\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\file_metadata_linux.cc">
+      <Filter>browser\download\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\base_file_mac.cc">
+      <Filter>browser\download\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\base_file_posix.cc">
+      <Filter>browser\download\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\file_metadata_mac.h">
+      <Filter>browser\download\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\download\file_metadata_mac.mm">
+      <Filter>browser\download\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="browser\devtools\devtools_external_agent_proxy_impl.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\devtools_protocol.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\ipc_devtools_agent_host.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_agent_host_impl.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\devtools_tracing_handler.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_frontend_host.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\devtools_manager_impl.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\worker_devtools_message_filter.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\worker_devtools_manager.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_protocol_constants.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_http_handler_impl.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\worker_devtools_message_filter.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_external_agent_proxy_impl.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\render_view_devtools_agent_host.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\render_view_devtools_agent_host.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\ipc_devtools_agent_host.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_netlog_observer.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\devtools_netlog_observer.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\worker_devtools_manager.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_protocol_constants.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\renderer_overrides_handler.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\tethering_handler.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_browser_target.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\tethering_handler.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_manager_impl.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\devtools_frontend_host.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_http_handler_impl.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_protocol.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\devtools_browser_target.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\devtools_tracing_handler.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\devtools_agent_host_impl.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\renderer_overrides_handler.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\media\media_internals_handler.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\media\media_internals.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\media\webrtc_internals.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\media\webrtc_identity_store.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\media_internals_handler.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\media\media_internals_ui.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\media\media_internals_proxy.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\media\media_internals.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\media_internals_proxy.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\webrtc_internals_message_handler.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\media\webrtc_internals_message_handler.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\media\webrtc_internals_ui.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\media\webrtc_internals_ui.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\media\webrtc_identity_store.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\media\webrtc_internals_ui_observer.h">
+      <Filter>browser\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\media\webrtc_internals.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\media\media_internals_ui.cc">
+      <Filter>browser\media</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\zygote_host\zygote_host_impl_linux.cc">
+      <Filter>browser\zygote_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\zygote_host\zygote_host_impl_linux.h">
+      <Filter>browser\zygote_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\fileapi_message_filter.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\fileapi_message_filter.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\browser_file_system_helper.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\fileapi\chrome_blob_storage_context.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\fileapi\browser_file_system_helper.h">
+      <Filter>browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\fileapi\chrome_blob_storage_context.cc">
+      <Filter>browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\orientation.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\device_orientation\device_motion_provider.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\device_motion_service.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\message_filter.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\provider_impl.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\data_fetcher_orientation_android.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\device_orientation\data_fetcher_shared_memory_default.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\data_fetcher_impl_win.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\device_orientation\orientation_message_filter.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\message_filter.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\device_orientation\provider_impl.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\device_orientation\device_motion_provider.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\device_orientation\observer_delegate.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\data_fetcher_impl_android.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\device_orientation\data_fetcher_shared_memory.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\device_orientation\device_motion_service.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\device_orientation\orientation.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\provider.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\device_data.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\device_orientation\provider.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\device_orientation\observer_delegate.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\device_orientation\data_fetcher_impl_win.cc">
+      <Filter>browser\device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\orientation_message_filter.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\device_orientation\data_fetcher.h">
+      <Filter>browser\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\device_orientation\data_fetcher_shared_memory_android.cc">
+      <Filter>browser\device_orientation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\data_fetcher_impl_android.cc">
+      <Filter>browser\device_orientation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\accelerometer_mac.cc">
+      <Filter>browser\device_orientation\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\device_orientation\data_fetcher_orientation_android.cc">
+      <Filter>browser\device_orientation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\device_orientation\accelerometer_mac.h">
+      <Filter>browser\device_orientation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\speech_recognition_manager_impl.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\speech_recognition_dispatcher_host.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\google_one_shot_remote_engine.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\speech_recognizer_impl.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\google_streaming_remote_engine.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\speech\audio_encoder.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\chunked_byte_buffer.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\speech\speech_recognition_dispatcher_host.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\audio_encoder.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\speech\speech_recognizer.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\speech_recognition_engine.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\audio_buffer.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\speech_recognition_engine.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\speech\google_streaming_remote_engine.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\speech_recognition_manager_impl.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\input_tag_speech_dispatcher_host.cc">
+      <Filter>browser\speech</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\speech\google_one_shot_remote_engine.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\chunked_byte_buffer.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\input_tag_speech_dispatcher_host.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\audio_buffer.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\speech_recognizer_impl.h">
+      <Filter>browser\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\speech_recognizer_impl_android.h">
+      <Filter>browser\speech\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\speech_recognizer_impl_android.cc">
+      <Filter>browser\speech\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\speech\endpointer\energy_endpointer.h">
+      <Filter>browser\speech\endpointer</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\speech\endpointer\energy_endpointer_params.h">
+      <Filter>browser\speech\endpointer</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\endpointer\energy_endpointer_params.cc">
+      <Filter>browser\speech\endpointer</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\speech\endpointer\endpointer.h">
+      <Filter>browser\speech\endpointer</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\speech\endpointer\endpointer.cc">
+      <Filter>browser\speech\endpointer</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\speech\endpointer\energy_endpointer.cc">
+      <Filter>browser\speech\endpointer</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_process_host_ui_shim.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\shader_disk_cache.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_data_manager_impl.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\browser_gpu_channel_host_factory.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gpu\gpu_data_manager_impl_private.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gpu\gpu_process_host_ui_shim.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\browser_gpu_channel_host_factory.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gpu\gpu_internals_ui.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\gpu\shader_disk_cache.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\gpu_data_manager_impl.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_data_manager_impl_private.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\compositor_util.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_process_host.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\gpu_surface_tracker.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\gpu\gpu_process_host.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\gpu\gpu_surface_tracker.h">
+      <Filter>browser\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\gpu\gpu_internals_ui.cc">
+      <Filter>browser\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\net\sqlite_persistent_cookie_store.h">
+      <Filter>browser\net</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\net\view_http_cache_job_factory.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\browser_online_state_observer.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\view_blob_internals_job_factory.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\net\view_blob_internals_job_factory.h">
+      <Filter>browser\net</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\net\sqlite_persistent_cookie_store.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\net\browser_online_state_observer.h">
+      <Filter>browser\net</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\net\view_http_cache_job_factory.h">
+      <Filter>browser\net</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_embedder.h">
+      <Filter>browser\browser_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_guest.h">
+      <Filter>browser\browser_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_guest_helper.h">
+      <Filter>browser\browser_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_host_factory.h">
+      <Filter>browser\browser_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_plugin\browser_plugin_geolocation_permission_context.cc">
+      <Filter>browser\browser_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_plugin\browser_plugin_guest_manager.cc">
+      <Filter>browser\browser_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_plugin\browser_plugin_guest.cc">
+      <Filter>browser\browser_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_plugin\browser_plugin_guest_helper.cc">
+      <Filter>browser\browser_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_guest_manager.h">
+      <Filter>browser\browser_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browser_plugin\browser_plugin_message_filter.cc">
+      <Filter>browser\browser_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser_plugin\browser_plugin_embedder.cc">
+      <Filter>browser\browser_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_geolocation_permission_context.h">
+      <Filter>browser\browser_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_message_filter.h">
+      <Filter>browser\browser_plugin</Filter>
+    </ClInclude>
+    <None Include="browser\browser_plugin\browser_plugin_popup_menu_helper_mac.mm">
+      <Filter>browser\browser_plugin\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\browser_plugin\browser_plugin_popup_menu_helper_mac.h">
+      <Filter>browser\browser_plugin\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\dom_storage\dom_storage_message_filter.cc">
+      <Filter>browser\dom_storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\dom_storage\dom_storage_context_impl.h">
+      <Filter>browser\dom_storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\dom_storage\dom_storage_context_impl.cc">
+      <Filter>browser\dom_storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\dom_storage\dom_storage_message_filter.h">
+      <Filter>browser\dom_storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\dom_storage\session_storage_namespace_impl.cc">
+      <Filter>browser\dom_storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\dom_storage\session_storage_namespace_impl.h">
+      <Filter>browser\dom_storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ssl\ssl_policy_backend.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ssl\ssl_error_handler.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ssl\ssl_request_info.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ssl\ssl_cert_error_handler.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ssl\ssl_client_auth_handler.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ssl\ssl_policy.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ssl\ssl_cert_error_handler.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ssl\ssl_manager.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ssl\ssl_policy.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ssl\ssl_error_handler.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ssl\ssl_client_auth_handler.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ssl\ssl_policy_backend.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ssl\ssl_host_state.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ssl\ssl_request_info.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ssl\ssl_manager.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ssl\ssl_host_state.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\worker_host\worker_storage_partition.cc">
+      <Filter>browser\worker_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\worker_host\worker_service_impl.h">
+      <Filter>browser\worker_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\worker_host\worker_process_host.h">
+      <Filter>browser\worker_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\worker_host\worker_storage_partition.h">
+      <Filter>browser\worker_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\worker_host\worker_process_host.cc">
+      <Filter>browser\worker_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\worker_host\worker_message_filter.h">
+      <Filter>browser\worker_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\worker_host\worker_document_set.h">
+      <Filter>browser\worker_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\worker_host\worker_service_impl.cc">
+      <Filter>browser\worker_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\worker_host\worker_document_set.cc">
+      <Filter>browser\worker_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\worker_host\message_port_service.h">
+      <Filter>browser\worker_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\worker_host\worker_message_filter.cc">
+      <Filter>browser\worker_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\worker_host\message_port_service.cc">
+      <Filter>browser\worker_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\web_contents_observer_android.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\edge_effect.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\vibration_message_filter.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\media_resource_getter_impl.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\content_video_view.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\overscroll_glow.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\surface_texture_peer_browser_impl.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\browser_startup_config.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\content_view_statics.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\content_view_core_impl.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\devtools_auth.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\tracing_intent_handler.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\content_view_render_view.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\content_settings.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\browser_startup_config.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\tracing_intent_handler.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\surface_texture_peer_browser_impl.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\interstitial_page_delegate_android.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\web_contents_observer_android.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\android_browser_process.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\date_time_chooser_android.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\edge_effect.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\date_time_chooser_android.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\touch_point.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\load_url_params.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\content_startup_flags.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\vibration_message_filter.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\child_process_launcher_android.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\browser_media_player_manager.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\interstitial_page_delegate_android.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\browser_jni_registrar.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\browser_media_player_manager.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\child_process_launcher_android.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\content_view_core_impl.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\browser_jni_registrar.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\content_view_statics.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\android_browser_process.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\download_controller_android_impl.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\content_video_view.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\load_url_params.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\download_controller_android_impl.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\content_settings.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\overscroll_glow.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\content_view_render_view.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\content_startup_flags.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\media_resource_getter_impl.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\touch_point.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\android\in_process\synchronous_compositor_output_surface.h">
+      <Filter>browser\android\in_process\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\in_process\synchronous_input_event_filter.cc">
+      <Filter>browser\android\in_process\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\in_process\synchronous_compositor_impl.h">
+      <Filter>browser\android\in_process\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\in_process\synchronous_compositor_output_surface.cc">
+      <Filter>browser\android\in_process\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\in_process\synchronous_compositor_impl.cc">
+      <Filter>browser\android\in_process\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\in_process\synchronous_input_event_filter.h">
+      <Filter>browser\android\in_process\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\tracing\trace_message_filter.h">
+      <Filter>browser\tracing</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\tracing\trace_subscriber_stdio.cc">
+      <Filter>browser\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\tracing\trace_controller_impl.cc">
+      <Filter>browser\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\tracing\tracing_ui.cc">
+      <Filter>browser\tracing</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\tracing\tracing_ui.h">
+      <Filter>browser\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\tracing\trace_subscriber_stdio.h">
+      <Filter>browser\tracing</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\tracing\trace_message_filter.cc">
+      <Filter>browser\tracing</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\tracing\trace_controller_impl.h">
+      <Filter>browser\tracing</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_dispatcher_host.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\appcache\chrome_appcache_service.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\appcache\appcache_frontend_proxy.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\chrome_appcache_service.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\appcache\appcache_dispatcher_host.h">
+      <Filter>browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\appcache\appcache_frontend_proxy.cc">
+      <Filter>browser\appcache</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_database.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_database_callbacks.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_metadata.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_transaction_coordinator.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_leveldb_coding.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_backing_store.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_context_impl.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_database_callbacks.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_callbacks.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_dispatcher_host.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_database.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_dispatcher_host.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_index_writer.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_metadata.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_leveldb_coding.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_transaction.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_internals_ui.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_factory.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_quota_client.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_factory.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_cursor.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_context_impl.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_internals_ui.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_database_error.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_transaction.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\indexed_db_transaction_coordinator.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_connection.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_index_writer.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_backing_store.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db_callbacks.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\indexed_db_cursor.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_quota_client.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\indexed_db.h">
+      <Filter>browser\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\indexed_db_connection.cc">
+      <Filter>browser\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\leveldb\avltree.h">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\leveldb\leveldb_iterator.h">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\leveldb\leveldb_database.cc">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\indexed_db\leveldb\leveldb_transaction.cc">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\leveldb\leveldb_comparator.h">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\leveldb\fixed_array.h">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\leveldb\leveldb_write_batch.h">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\indexed_db\leveldb\leveldb_database.h">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\indexed_db\leveldb\leveldb_write_batch.cc">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\indexed_db\leveldb\leveldb_transaction.h">
+      <Filter>browser\indexed_db\leveldb</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\streams\stream.cc">
+      <Filter>browser\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\streams\stream_url_request_job.cc">
+      <Filter>browser\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\streams\stream_registry.cc">
+      <Filter>browser\streams</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\streams\stream_context.h">
+      <Filter>browser\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\streams\stream.h">
+      <Filter>browser\streams</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\streams\stream_context.cc">
+      <Filter>browser\streams</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\streams\stream_read_observer.h">
+      <Filter>browser\streams</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\streams\stream_handle_impl.cc">
+      <Filter>browser\streams</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\streams\stream_url_request_job.h">
+      <Filter>browser\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\streams\stream_registry.h">
+      <Filter>browser\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\streams\stream_write_observer.h">
+      <Filter>browser\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\streams\stream_handle_impl.h">
+      <Filter>browser\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\aura\browser_compositor_output_surface.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\no_transport_image_transport_factory.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\aura\software_output_device_win.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\image_transport_factory.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\aura\gpu_process_transport_factory.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\aura\browser_compositor_output_surface_proxy.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\browser_compositor_output_surface_proxy.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\aura\reflector_impl.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\software_output_device_win.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\gpu_process_transport_factory.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\software_output_device_x11.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\image_transport_factory.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\no_transport_image_transport_factory.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\aura\software_output_device_x11.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\aura\browser_compositor_output_surface.cc">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\aura\reflector_impl.h">
+      <Filter>browser\aura\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

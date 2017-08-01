@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver">
+      <UniqueIdentifier>{D5CB3A79-4B1C-834A-434F-9AE27A391742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\chrome\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\extension">
+      <UniqueIdentifier>{7A2C90CE-827C-E425-CD4E-583F01ABAFEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\extension\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\js">
+      <UniqueIdentifier>{AFF4C650-55EE-4B49-D17B-E3562B397D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\js\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver">
+      <UniqueIdentifier>{D5CB3A79-4B1C-834A-434F-9AE27A391742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <None Include="test\chromedriver\embed_extension_in_cpp.py">
+      <Filter>test\chromedriver\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\embed_js_in_cpp.py">
+      <Filter>test\chromedriver\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\cpp_source.py">
+      <Filter>test\chromedriver\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\embed_user_data_dir_in_cpp.py">
+      <Filter>test\chromedriver\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="test\chromedriver\chrome\dom_tracker.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\frame_tracker.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\automation_extension.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\adb_impl.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\devtools_client_impl.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\console_logger.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\zip.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\zip_reader.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\adb.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\javascript_dialog_manager.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\status.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\performance_logger.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\device_manager.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\web_view.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\devtools_client_impl.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\navigation_tracker.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\version.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\javascript_dialog_manager.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\status.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\chrome_desktop_impl.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\automation_extension.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\zip_internal.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\log.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\chrome_desktop_impl.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\dom_tracker.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\web_view_impl.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\chrome_finder.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\navigation_tracker.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\geolocation_override_manager.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\frame_tracker.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\zip_internal.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\devtools_http_client.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\devtools_client.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\version.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\chrome_impl.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\ui_events.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\chrome_android_impl.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\chrome.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\ui_events.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\device_manager.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\chrome_finder.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\adb_impl.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\performance_logger.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\console_logger.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\chrome_impl.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\chrome_android_impl.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\zip_reader.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\web_view_impl.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\zip.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\geoposition.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\chrome\geolocation_override_manager.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\log.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\chrome\devtools_event_listener.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\chrome\devtools_event_listener.h">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\chrome\devtools_http_client.cc">
+      <Filter>test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <None Include="test\chromedriver\chrome\local_state.txt">
+      <Filter>test\chromedriver\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\chrome\preferences.txt">
+      <Filter>test\chromedriver\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\chrome\chrome_finder_mac.mm">
+      <Filter>test\chromedriver\chrome\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="test\chromedriver\net\sync_websocket.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\net\adb_client_socket.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\net\net_util.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\net\sync_websocket_impl.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\net\sync_websocket_factory.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\net\sync_websocket_impl.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\net\websocket.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\net\websocket.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\net\url_request_context_getter.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\net\net_util.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\net\adb_client_socket.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\net\url_request_context_getter.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\net\sync_websocket_factory.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <None Include="test\chromedriver\extension\manifest.json">
+      <Filter>test\chromedriver\extension\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\extension\background.js">
+      <Filter>test\chromedriver\extension\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\js\execute_async_script.js">
+      <Filter>test\chromedriver\js\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\js\is_option_element_toggleable.js">
+      <Filter>test\chromedriver\js\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\js\add_cookie.js">
+      <Filter>test\chromedriver\js\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\js\get_element_region.js">
+      <Filter>test\chromedriver\js\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\js\dispatch_context_menu_event.js">
+      <Filter>test\chromedriver\js\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\js\call_function.js">
+      <Filter>test\chromedriver\js\_excluded_files</Filter>
+    </None>
+    <None Include="test\chromedriver\js\focus.js">
+      <Filter>test\chromedriver\js\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome\embedded_automation_extension.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome\embedded_automation_extension.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome\user_data_dir.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome\js.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome\user_data_dir.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome\js.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\test\chromedriver\chrome</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

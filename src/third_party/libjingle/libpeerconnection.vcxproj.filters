@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{8A6F5E6E-316F-22D4-1547-253B04CB32E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk">
+      <UniqueIdentifier>{8B4C5F9F-E86F-990D-5102-545A2239DF3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\media\webrtc">
+      <UniqueIdentifier>{543055F1-DB92-5041-CF1C-6916DDF7679F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libjingle.gyp"/>
+    <ClInclude Include="source\talk\media\webrtc\webrtcvideoengine.h">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\webrtc\webrtcvideoengine.cc">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\webrtc\webrtcvoiceengine.cc">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\webrtc\webrtcvoiceengine.h">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="turndown_prompt">
+      <UniqueIdentifier>{4E559279-D29B-51A0-B29E-FA5E65DCC79E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="infobars">
+      <UniqueIdentifier>{DEAE8D95-4B7C-9F44-ECAF-6CDEC5252042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="infobars\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(IntDir)">
+      <UniqueIdentifier>{2385D4EB-CAEB-D33E-59EB-C687F571392E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\active_doc">
+      <UniqueIdentifier>{33C3527C-5B9A-ED47-A871-13998DC8DA2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_frame">
+      <UniqueIdentifier>{EBCDB410-A604-75FA-C02A-225BB96419C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ready_mode">
+      <UniqueIdentifier>{54A8F8BA-8305-5870-C340-1D73B1E6127D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ready_mode\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chrome_frame_activex.h"/>
+    <ClCompile Include="delete_chrome_history.cc"/>
+    <ClInclude Include="delete_chrome_history.h"/>
+    <ClCompile Include="function_stub.cc"/>
+    <None Include="chrome_active_document.rgs"/>
+    <ClInclude Include="vtable_patch_manager.h"/>
+    <ClCompile Include="policy_settings.cc"/>
+    <ClCompile Include="urlmon_url_request.cc"/>
+    <ClInclude Include="http_negotiate.h"/>
+    <ClInclude Include="html_utils.h"/>
+    <ClCompile Include="exception_barrier.cc"/>
+    <ClInclude Include="protocol_sink_wrap.h"/>
+    <ClInclude Include="chrome_frame_activex_base.h"/>
+    <ClCompile Include="urlmon_moniker.cc"/>
+    <Assemble Include="exception_barrier_lowlevel.asm"/>
+    <ClCompile Include="bind_context_info.cc"/>
+    <ClCompile Include="utils.cc"/>
+    <ClCompile Include="buggy_bho_handling.cc"/>
+    <ClInclude Include="registry_list_preferences_holder.h"/>
+    <ClCompile Include="protocol_sink_wrap.cc"/>
+    <ClCompile Include="iids.cc"/>
+    <None Include="chrome_frame.gyp"/>
+    <ClCompile Include="registry_list_preferences_holder.cc"/>
+    <ClInclude Include="extra_system_apis.h"/>
+    <ClCompile Include="pin_module.cc"/>
+    <ClCompile Include="chrome_active_document.cc"/>
+    <None Include="chrome_frame_activex.rgs"/>
+    <ClInclude Include="urlmon_bind_status_callback.h"/>
+    <ClCompile Include="http_negotiate.cc"/>
+    <ClInclude Include="stream_impl.h"/>
+    <ClCompile Include="metrics_service.cc"/>
+    <ClInclude Include="urlmon_url_request.h"/>
+    <ClInclude Include="bho.h"/>
+    <ClCompile Include="com_type_info_holder.cc"/>
+    <None Include="chrome_protocol.rgs"/>
+    <ClInclude Include="function_stub.h"/>
+    <ClCompile Include="urlmon_upload_data_stream.cc"/>
+    <ClCompile Include="chrome_frame_activex.cc"/>
+    <ClInclude Include="policy_settings.h"/>
+    <ClInclude Include="bind_context_info.h"/>
+    <ClCompile Include="chrome_protocol.cc"/>
+    <ClInclude Include="pin_module.h"/>
+    <ClInclude Include="buggy_bho_handling.h"/>
+    <ClCompile Include="vtable_patch_manager.cc"/>
+    <ClInclude Include="chrome_active_document.h"/>
+    <ClInclude Include="chrome_protocol.h"/>
+    <None Include="bho.rgs"/>
+    <ClCompile Include="com_message_event.cc"/>
+    <ClInclude Include="urlmon_moniker.h"/>
+    <ClCompile Include="find_dialog.cc"/>
+    <ClInclude Include="find_dialog.h"/>
+    <ClInclude Include="urlmon_upload_data_stream.h"/>
+    <ClInclude Include="urlmon_url_request_private.h"/>
+    <None Include="register_bho.rgs"/>
+    <ClCompile Include="html_utils.cc"/>
+    <ClInclude Include="metrics_service.h"/>
+    <ClInclude Include="dll_redirector.h"/>
+    <ClCompile Include="urlmon_bind_status_callback.cc"/>
+    <ClCompile Include="bho.cc"/>
+    <ClInclude Include="utils.h"/>
+    <ClInclude Include="com_message_event.h"/>
+    <ClInclude Include="bind_status_callback_impl.h"/>
+    <ClCompile Include="stream_impl.cc"/>
+    <ClInclude Include="com_type_info_holder.h"/>
+    <ClInclude Include="exception_barrier.h"/>
+    <ClCompile Include="bind_status_callback_impl.cc"/>
+    <ClCompile Include="dll_redirector.cc"/>
+    <ClCompile Include="turndown_prompt\turndown_prompt.cc">
+      <Filter>turndown_prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="turndown_prompt\turndown_prompt_content.cc">
+      <Filter>turndown_prompt</Filter>
+    </ClCompile>
+    <ClInclude Include="turndown_prompt\turndown_prompt.h">
+      <Filter>turndown_prompt</Filter>
+    </ClInclude>
+    <ClCompile Include="turndown_prompt\reshow_state.cc">
+      <Filter>turndown_prompt</Filter>
+    </ClCompile>
+    <ClInclude Include="turndown_prompt\turndown_prompt_content.h">
+      <Filter>turndown_prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="turndown_prompt\reshow_state.h">
+      <Filter>turndown_prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="turndown_prompt\turndown_prompt_window.h">
+      <Filter>turndown_prompt</Filter>
+    </ClInclude>
+    <ClCompile Include="turndown_prompt\turndown_prompt_window.cc">
+      <Filter>turndown_prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="infobars\infobar_manager.cc">
+      <Filter>infobars</Filter>
+    </ClCompile>
+    <ClInclude Include="infobars\infobar_manager.h">
+      <Filter>infobars</Filter>
+    </ClInclude>
+    <ClInclude Include="infobars\infobar_content.h">
+      <Filter>infobars</Filter>
+    </ClInclude>
+    <ClCompile Include="infobars\internal\displaced_window_manager.cc">
+      <Filter>infobars\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="infobars\internal\infobar_window.h">
+      <Filter>infobars\internal</Filter>
+    </ClInclude>
+    <ClCompile Include="infobars\internal\infobar_window.cc">
+      <Filter>infobars\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="infobars\internal\host_window_manager.cc">
+      <Filter>infobars\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="infobars\internal\host_window_manager.h">
+      <Filter>infobars\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="infobars\internal\subclassing_window_with_delegate.h">
+      <Filter>infobars\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="infobars\internal\displaced_window_manager.h">
+      <Filter>infobars\internal</Filter>
+    </ClInclude>
+    <None Include="$(IntDir)\exception_barrier_lowlevel.obj">
+      <Filter>$(IntDir)</Filter>
+    </None>
+    <ClInclude Include="..\third_party\active_doc\ole_document_impl.h">
+      <Filter>..\third_party\active_doc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\active_doc\in_place_menu.h">
+      <Filter>..\third_party\active_doc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome_frame\chrome_tab.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="ready_mode\ready_mode.h">
+      <Filter>ready_mode</Filter>
+    </ClInclude>
+    <ClCompile Include="ready_mode\ready_mode.cc">
+      <Filter>ready_mode</Filter>
+    </ClCompile>
+    <ClInclude Include="ready_mode\internal\ready_mode_web_browser_adapter.h">
+      <Filter>ready_mode\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="ready_mode\internal\url_launcher.h">
+      <Filter>ready_mode\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="ready_mode\internal\ready_prompt_content.h">
+      <Filter>ready_mode\internal</Filter>
+    </ClInclude>
+    <ClCompile Include="ready_mode\internal\ready_prompt_content.cc">
+      <Filter>ready_mode\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="ready_mode\internal\ready_mode_web_browser_adapter.cc">
+      <Filter>ready_mode\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="ready_mode\internal\registry_ready_mode_state.cc">
+      <Filter>ready_mode\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="ready_mode\internal\ready_mode_state.h">
+      <Filter>ready_mode\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="ready_mode\internal\ready_prompt_window.h">
+      <Filter>ready_mode\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="ready_mode\internal\registry_ready_mode_state.h">
+      <Filter>ready_mode\internal</Filter>
+    </ClInclude>
+    <ClCompile Include="ready_mode\internal\ready_prompt_window.cc">
+      <Filter>ready_mode\internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="notifier">
+      <UniqueIdentifier>{66184CE2-8D3E-4C84-F432-F6398B11F1E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\listener">
+      <UniqueIdentifier>{0E9C88D6-EDEA-CB39-91BD-231257D6CB59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\communicator">
+      <UniqueIdentifier>{F062B347-F81F-91C0-B1D1-A3FAEFDE5B85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jingle.gyp"/>
+    <ClCompile Include="notifier\listener\xmpp_push_client.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\listener\xmpp_push_client.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\push_client_observer.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\push_notifications_listen_task.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\listener\notification_constants.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\listener\push_notifications_send_update_task.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\push_notifications_subscribe_task.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\listener\push_client.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\push_notifications_send_update_task.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\listener\push_notifications_subscribe_task.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\listener\push_client_observer.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\notification_constants.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\send_ping_task.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\listener\send_ping_task.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\listener\non_blocking_push_client.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\non_blocking_push_client.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\listener\notification_defines.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\listener\push_notifications_listen_task.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\notification_defines.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\push_client.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\listener\xml_element_util.h">
+      <Filter>notifier\listener</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\listener\xml_element_util.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\communicator\single_login_attempt.cc">
+      <Filter>notifier\communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\communicator\login_settings.cc">
+      <Filter>notifier\communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\communicator\login.cc">
+      <Filter>notifier\communicator</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\communicator\login.h">
+      <Filter>notifier\communicator</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\communicator\login_settings.h">
+      <Filter>notifier\communicator</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\communicator\connection_settings.h">
+      <Filter>notifier\communicator</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\communicator\single_login_attempt.h">
+      <Filter>notifier\communicator</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\communicator\connection_settings.cc">
+      <Filter>notifier\communicator</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\base\xmpp_connection.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\base\notifier_options.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\base\gaia_constants.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\base\weak_xmpp_client.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\base\notification_method.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\base\const_communicator.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\base\notification_method.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\base\notifier_options_util.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\base\notifier_options.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\base\notifier_options_util.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\base\server_information.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\base\gaia_token_pre_xmpp_auth.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClInclude Include="notifier\base\weak_xmpp_client.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClInclude Include="notifier\base\gaia_token_pre_xmpp_auth.h">
+      <Filter>notifier\base</Filter>
+    </ClInclude>
+    <ClCompile Include="notifier\base\server_information.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\base\gaia_constants.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\base\xmpp_connection.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

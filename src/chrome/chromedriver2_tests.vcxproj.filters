@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver">
+      <UniqueIdentifier>{D5CB3A79-4B1C-834A-434F-9AE27A391742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\chromedriver\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="test\chromedriver\test_util.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\keycode_text_conversion_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\key_converter_unittest.cc">
+      <Filter>test\chromedriver</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chromedriver\test_util.h">
+      <Filter>test\chromedriver</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chromedriver\net\test_http_server.h">
+      <Filter>test\chromedriver\net</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chromedriver\net\test_http_server.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\net\sync_websocket_impl_unittest.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\net\net_util_unittest.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chromedriver\net\websocket_unittest.cc">
+      <Filter>test\chromedriver\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

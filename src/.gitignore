@@ -12,9 +12,9 @@
 *.suo
 *.targets
 *.user
-*.vcproj
-*.vcxproj
-*.vcxproj.filters
+#*.vcproj
+#*.vcxproj
+#*.vcxproj.filters
 *.vpj
 *.vpw
 *.vpwhistu

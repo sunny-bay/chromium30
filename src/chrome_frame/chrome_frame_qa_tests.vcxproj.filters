@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_frame">
+      <UniqueIdentifier>{EBCDB410-A604-75FA-C02A-225BB96419C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_utils.cc"/>
+    <Midl Include="chrome_tab.idl"/>
+    <ClInclude Include="test_utils.h"/>
+    <None Include="chrome_frame.gyp"/>
+    <ClCompile Include="test\test_with_web_server.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chrome_frame_ui_test_utils.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chrome_frame_test_utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\win_event_receiver.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\ie_configurator.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\win_event_receiver.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_server.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\mock_ie_event_sink_actions.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\run_all_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\test_scrubber.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\external_sites_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_scrubber.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\simulate_input.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\chrome_frame_test_utils.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mock_ie_event_sink_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\mock_ie_event_sink_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\simulate_input.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_with_web_server.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\ie_event_sink.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ie_configurator.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_server.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\ie_event_sink.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chrome_frame_ui_test_utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome_frame\chrome_tab.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\test\test_suite.h">
+      <Filter>..\base\test</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

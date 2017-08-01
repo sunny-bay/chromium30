@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="codec">
+      <UniqueIdentifier>{4A6C5824-2193-E513-3482-6EEFAD121845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClInclude Include="codec\audio_encoder.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\audio_encoder_speex.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\audio_decoder_verbatim.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\audio_decoder_verbatim.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\video_decoder_verbatim.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\video_encoder_verbatim.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\video_encoder.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\audio_decoder.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\video_decoder.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\audio_decoder_speex.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\video_decoder_vp8.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\audio_encoder_speex.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\audio_encoder_opus.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\video_encoder_vp8.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\audio_encoder_verbatim.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\video_decoder_verbatim.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\audio_decoder.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\audio_encoder_opus.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClCompile Include="codec\audio_encoder_verbatim.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\video_encoder_verbatim.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\audio_decoder_opus.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\audio_decoder_opus.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="codec\audio_decoder_speex.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClInclude Include="codec\video_encoder_vp8.h">
+      <Filter>codec</Filter>
+    </ClInclude>
+    <ClCompile Include="codec\video_decoder_vp8.cc">
+      <Filter>codec</Filter>
+    </ClCompile>
+    <ClInclude Include="base\plugin_thread_task_runner.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\rate_counter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\capabilities.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\plugin_thread_task_runner.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\running_average.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\compound_buffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\socket_reader.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\socket_reader.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\running_average.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\capabilities.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\constants.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resources_win.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\compound_buffer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\constants.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\typed_buffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\auto_thread.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\scoped_reg_key_win.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\auth_token_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\url_request_context.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\rsa_key_pair.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\resources.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\auto_thread.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\rsa_key_pair.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\url_request_context.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\scoped_sc_handle_win.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\rate_counter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\auth_token_util.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\auto_thread_task_runner.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\vlog_net_log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\vlog_net_log.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClInclude Include="base\auto_thread_task_runner.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="base\resources_linux.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resources_mac.cc">
+      <Filter>base\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

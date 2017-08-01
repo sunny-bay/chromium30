@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F6B06342-73BD-BDD4-8ABC-6D17806FB270}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>npchrome_frame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <PropertyGroup Label="Configuration">
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\third_party\cygwin\bin\;$(MSBuildProjectDirectory)\..\third_party\python_26\</ExecutablePath>
+    <OutDir>..\build\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetPath>$(OutDir)\$(ProjectName)$(TargetExt)</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..;..\third_party\wtl\include;..\third_party\khronos;..\gpu;$(OutDir)obj\global_intermediate\chrome;..\third_party\skia\src\core;..\skia\config;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\pdf;..\third_party\skia\include\gpu;..\third_party\skia\include\gpu\gl;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\skia\ext;$(OutDir)obj\global_intermediate\chrome_version;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;$(OutDir)obj\global_intermediate\chrome_frame;$(OutDir)obj\global_intermediate;..\breakpad\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4389 %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>_DEBUG;ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib;shdocvw.lib;d3d9.lib;dxva2.lib;strmiids.lib;mf.lib;mfplat.lib;mfreadwrite.lib;mfuuid.lib;$(OutDir)lib\ffmpegsumo.lib;imm32.lib;d2d1.lib;dwmapi.lib;oleacc.lib;dxguid.lib;setupapi.lib;ws2_32.lib;winmm.lib;urlmon.lib;secur32.lib;crypt32.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <BaseAddress>0x33000000</BaseAddress>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ModuleDefinitionFile>chrome_tab.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\resources\npchrome_frame.dll.manifest</AdditionalManifestFiles>
+    </Manifest>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj/global_intermediate;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..;..\third_party\wtl\include;..\third_party\khronos;..\gpu;$(OutDir)obj\global_intermediate\chrome;..\third_party\skia\src\core;..\skia\config;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\pdf;..\third_party\skia\include\gpu;..\third_party\skia\include\gpu\gl;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\skia\ext;$(OutDir)obj\global_intermediate\chrome_version;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;$(OutDir)obj\global_intermediate\chrome_frame;$(OutDir)obj\global_intermediate;..\breakpad\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4389 %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>_DEBUG;ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib;shdocvw.lib;d3d9.lib;dxva2.lib;strmiids.lib;mf.lib;mfplat.lib;mfreadwrite.lib;mfuuid.lib;$(OutDir)lib\ffmpegsumo.lib;imm32.lib;d2d1.lib;dwmapi.lib;oleacc.lib;dxguid.lib;setupapi.lib;ws2_32.lib;winmm.lib;urlmon.lib;secur32.lib;crypt32.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <BaseAddress>0x33000000</BaseAddress>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>olepro32.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ModuleDefinitionFile>chrome_tab.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\resources\npchrome_frame.dll.manifest</AdditionalManifestFiles>
+    </Manifest>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj/global_intermediate;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..;..\third_party\wtl\include;..\third_party\khronos;..\gpu;$(OutDir)obj\global_intermediate\chrome;..\third_party\skia\src\core;..\skia\config;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\pdf;..\third_party\skia\include\gpu;..\third_party\skia\include\gpu\gl;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\skia\ext;$(OutDir)obj\global_intermediate\chrome_version;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;$(OutDir)obj\global_intermediate\chrome_frame;$(OutDir)obj\global_intermediate;..\breakpad\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4389 /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib;shdocvw.lib;d3d9.lib;dxva2.lib;strmiids.lib;mf.lib;mfplat.lib;mfreadwrite.lib;mfuuid.lib;$(OutDir)lib\ffmpegsumo.lib;imm32.lib;d2d1.lib;dwmapi.lib;oleacc.lib;dxguid.lib;setupapi.lib;ws2_32.lib;winmm.lib;urlmon.lib;secur32.lib;crypt32.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <BaseAddress>0x33000000</BaseAddress>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ModuleDefinitionFile>chrome_tab.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\resources\npchrome_frame.dll.manifest</AdditionalManifestFiles>
+    </Manifest>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj/global_intermediate;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..;..\third_party\wtl\include;..\third_party\khronos;..\gpu;$(OutDir)obj\global_intermediate\chrome;..\third_party\skia\src\core;..\skia\config;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\pdf;..\third_party\skia\include\gpu;..\third_party\skia\include\gpu\gl;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\skia\ext;$(OutDir)obj\global_intermediate\chrome_version;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;$(OutDir)obj\global_intermediate\chrome_frame;$(OutDir)obj\global_intermediate;..\breakpad\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4389 /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <ForcedIncludeFiles>precompile.h</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>wininet.lib;dnsapi.lib;version.lib;msimg32.lib;ws2_32.lib;usp10.lib;psapi.lib;dbghelp.lib;winmm.lib;shlwapi.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;delayimp.lib;shdocvw.lib;d3d9.lib;dxva2.lib;strmiids.lib;mf.lib;mfplat.lib;mfreadwrite.lib;mfuuid.lib;$(OutDir)lib\ffmpegsumo.lib;imm32.lib;d2d1.lib;dwmapi.lib;oleacc.lib;dxguid.lib;setupapi.lib;ws2_32.lib;winmm.lib;urlmon.lib;secur32.lib;crypt32.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <BaseAddress>0x33000000</BaseAddress>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>olepro32.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)lib\$(TargetName).lib</ImportLibrary>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <ModuleDefinitionFile>chrome_tab.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\resources\npchrome_frame.dll.manifest</AdditionalManifestFiles>
+    </Manifest>
+    <Midl>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj/global_intermediate;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>ISOLATION_AWARE_ENABLED=1;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;_WINDLL;LIBPEERCONNECTION_LIB=1;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER=&quot;GrGLConfig_chrome.h&quot;;PROTOBUF_USE_DLLS;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="chrome_frame.gyp"/>
+    <None Include="chrome_frame_elevation.rgs"/>
+    <None Include="chrome_tab.rgs"/>
+    <None Include="chrome_tab.def"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chrome_frame_reporting.h"/>
+    <ClInclude Include="scoped_initialization_manager.h"/>
+    <ClInclude Include="resource.h"/>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome_frame\chrome_tab.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chrome_frame_reporting.cc"/>
+    <ClCompile Include="chrome_tab.cc"/>
+    <ClCompile Include="..\build\precompile.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome_frame\npchrome_frame_dll_version.rc"/>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome_frame\chrome_frame_resources.rc"/>
+    <ResourceCompile Include="resources\tlb_resource.rc"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\chrome\chrome_resources.vcxproj">
+      <Project>{75501252-FA9C-49F6-B0CD-B60709782AEC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\chrome_strings.vcxproj">
+      <Project>{E1CA7047-1B25-E385-5F10-5E66EB200F62}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\packed_resources.vcxproj">
+      <Project>{B7B73F46-D50B-63C5-0DBD-E1DCBE7E3799}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\theme_resources.vcxproj">
+      <Project>{9C6753A6-7E5B-AA0A-8077-4D2BE489BC0D}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\skia\skia.vcxproj">
+      <Project>{D0E51700-BCDA-78A6-BAD1-32D2A30CDA93}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\base\base.vcxproj">
+      <Project>{AE57669C-4D5E-9E81-19EA-D018636CEF6B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\chrome.vcxproj">
+      <Project>{5CBE48B9-9584-3D89-BC01-9AC5516569F7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\chrome_dll.vcxproj">
+      <Project>{FCEA8626-D39F-116D-1238-3D939AFAC614}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\chrome_version_resources.vcxproj">
+      <Project>{215D948F-75C8-A553-B67D-CB0884312891}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\common.vcxproj">
+      <Project>{3324EA2C-CE43-70AA-789E-5F263780C14C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\url\url_lib.vcxproj">
+      <Project>{DD905445-64B5-C7F0-6CE6-A94E7D283B83}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_frame_ie.vcxproj">
+      <Project>{A7D2768E-800A-8251-E9A0-78006AF486AD}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_frame_helper.vcxproj">
+      <Project>{5838EFB5-801E-5FA0-58A0-B3A29FAB63D7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_frame_helper_dll.vcxproj">
+      <Project>{2961222F-49E0-1149-5299-D1D2BB240070}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_launcher.vcxproj">
+      <Project>{B999AFEE-4B10-4F5D-AC0C-5EEDC5911AA4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_frame_strings.vcxproj">
+      <Project>{C8E54F0D-375E-5E7A-AC13-8C811BD0A131}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_frame_utils.vcxproj">
+      <Project>{305909A0-01EA-0C7B-9D00-51DC254E6C65}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_frame_version_resources.vcxproj">
+      <Project>{18AF14E6-D854-E971-AE6E-AE998CE95D30}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_tab_idl.vcxproj">
+      <Project>{D8EDC614-3FA9-8991-BBE0-E1F8232299D0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\am.vcxproj">
+      <Project>{B5AD20B5-5795-8963-CEEB-6E957577AB42}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ar.vcxproj">
+      <Project>{8E2729A8-91D1-835A-FFC8-A4CCA1CD64D5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\bg.vcxproj">
+      <Project>{E636206E-3C31-8AC0-5575-8B1DBDC5F39D}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\bn.vcxproj">
+      <Project>{1EB33433-C4AD-BA76-5BC3-3BEEBBB553B3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ca.vcxproj">
+      <Project>{096F7057-85F0-9F74-6FE4-04B4DD0970A6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\cs.vcxproj">
+      <Project>{34B1EA61-ADFF-E605-0D6E-08B378E36BF3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\da.vcxproj">
+      <Project>{645BF76B-1012-445D-0848-2462D44A027A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\de.vcxproj">
+      <Project>{0BC2E641-1AFE-D3C7-D1E8-91029B4F633D}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\el.vcxproj">
+      <Project>{68744F27-6112-AC8A-B6C9-7CD8D21AF20A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\en-GB.vcxproj">
+      <Project>{C0F05116-7208-592E-6FC3-44C5289541E7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\en-US.vcxproj">
+      <Project>{118BEFF7-A16E-9681-455D-84E236810784}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\es-419.vcxproj">
+      <Project>{5DD4F2A2-0D8B-ADA4-9D43-80690B661A03}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\es.vcxproj">
+      <Project>{F4E26C9B-A2AC-6A2E-4462-4CBE7C37BD95}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\et.vcxproj">
+      <Project>{D48C7ADB-9B9F-BC97-AD70-EAD62BF61B6E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\fa.vcxproj">
+      <Project>{50D57808-5E2A-380A-D66F-6ABBF8D05334}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\fi.vcxproj">
+      <Project>{D231F342-884E-7D45-AF30-B482F84D41BB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\fil.vcxproj">
+      <Project>{E398534C-F519-7F9C-EB38-03D04A7870EB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\fr.vcxproj">
+      <Project>{30A61200-6F37-E406-5CA1-035F221F1BA2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\gu.vcxproj">
+      <Project>{49B48F14-AF5C-9073-21BE-FC8D44ECAFFF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\he.vcxproj">
+      <Project>{0C465844-8D1F-9E66-5035-EEB724F9AAD4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\hi.vcxproj">
+      <Project>{EA4DB180-CBD6-7839-3567-5B2EA44940BE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\hr.vcxproj">
+      <Project>{ACEB92A2-97DF-A31E-FFEC-0C05F469727C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\hu.vcxproj">
+      <Project>{D1CAAB20-775B-1ED3-E368-74993EF43ED8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\id.vcxproj">
+      <Project>{DC98DD91-B53C-328C-746F-74360949C965}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\it.vcxproj">
+      <Project>{9FABB14C-28AB-75FF-8DD9-F36E950594EB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ja.vcxproj">
+      <Project>{FBC82BE6-C09F-F2B5-DB30-6D3E97593993}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\kn.vcxproj">
+      <Project>{54860BF4-8E53-A3E9-4FF0-B5AF1D554535}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ko.vcxproj">
+      <Project>{4B8BCD18-0B70-8FAF-B63A-5D89795AF846}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\lt.vcxproj">
+      <Project>{B0C46D1F-080C-A09F-6BD1-810CC59647F2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\lv.vcxproj">
+      <Project>{1599A91D-8737-6113-81B2-2C6699882568}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ml.vcxproj">
+      <Project>{6F76EA8B-9AA7-499D-DD0F-4844650B90BB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\mr.vcxproj">
+      <Project>{27DEAE39-25C2-FDE7-846F-2E390631428E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ms.vcxproj">
+      <Project>{20A0061B-CFB0-A480-A68B-DD530C366C96}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\nb.vcxproj">
+      <Project>{EF72CA8C-A216-2B3D-0FF1-4B9DCF2AF16C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\nl.vcxproj">
+      <Project>{BCE4D08D-8E51-3155-99D7-E13810803E21}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\pl.vcxproj">
+      <Project>{6CEA4B04-1FF0-53D4-F628-8D058C09D317}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\pt-BR.vcxproj">
+      <Project>{0CD90599-34EE-B0F8-7311-7930857B59F9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\pt-PT.vcxproj">
+      <Project>{E87B5FE6-E5DE-A8FC-6A66-3B86D23F919A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ro.vcxproj">
+      <Project>{71813353-D502-6CCD-25A7-B83E940B9ADD}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ru.vcxproj">
+      <Project>{7F89B730-8778-42A4-E7C1-642D69AEB371}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\sk.vcxproj">
+      <Project>{CD321399-6AB2-7CDB-7329-8C18E030CDC8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\sl.vcxproj">
+      <Project>{140E4BDE-65A6-967B-F3AA-031DFAF23654}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\sr.vcxproj">
+      <Project>{EED1FF29-6681-472C-DA18-3925FB5775BF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\sv.vcxproj">
+      <Project>{FBDE6B50-7DBA-FCD1-4559-F3BA13CD82F9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\sw.vcxproj">
+      <Project>{353F87C7-A306-98AC-F7DB-D9A2BC46BFD6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\ta.vcxproj">
+      <Project>{3AC022EB-2C43-803B-8BF8-9C980E048DD8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\te.vcxproj">
+      <Project>{92E9D6BD-B3D2-CAB1-DD56-46970050579B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\th.vcxproj">
+      <Project>{C9F0567C-205F-F0FF-EB50-849F15C7F8A6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\tr.vcxproj">
+      <Project>{89909CDD-AB22-014E-E61B-86D965FD1A32}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\uk.vcxproj">
+      <Project>{DE671082-FFCF-385E-AFC0-557F8A7A1C17}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\vi.vcxproj">
+      <Project>{2E27A38C-6C86-DF4E-7D2F-4F226462D86C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\zh-CN.vcxproj">
+      <Project>{E88867A6-DEDA-B37E-41F4-B7E676A1E9AF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="locales\zh-TW.vcxproj">
+      <Project>{A218921C-AF2D-4BCA-84B0-6AA77A007D5F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\breakpad\breakpad_handler.vcxproj">
+      <Project>{971214AF-A904-7E51-DAB1-E53F217F4276}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\automation.vcxproj">
+      <Project>{3480A1FB-1D7D-11A3-DB54-2AD37B132508}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\installer_util.vcxproj">
+      <Project>{1ECC0900-58D9-47A0-6D3D-BC5D07677FA4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\google_update\google_update.vcxproj">
+      <Project>{BF30030C-21B6-A3A0-EB87-DBF91151BF12}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sync\sync.vcxproj">
+      <Project>{7CDBC273-808C-53EB-9F4D-269BAC89F5AE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="crash_reporting\crash_report.vcxproj">
+      <Project>{170A8F23-D99D-B2CB-6B4A-D81B13FE9EEB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\about_credits.vcxproj">
+      <Project>{CEF77F74-8EAC-1444-EDD8-34E59231C529}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\platform_locale_settings.vcxproj">
+      <Project>{6A8D6AF7-B2B1-C40F-B88B-FD40DD263528}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\chrome_unscaled_resources.vcxproj">
+      <Project>{325BCF79-486B-9222-B5C2-3BEA0D4BC332}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\theme_resources_gen.vcxproj">
+      <Project>{2F5737E7-19CB-25F0-132F-0B0E7EA5FAF0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ui\ui_resources.vcxproj">
+      <Project>{7F6117C8-833B-A72A-4D67-847ABEBA0F44}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\components\component_strings.vcxproj">
+      <Project>{7287A98E-6E55-5295-2821-8C6887B48E6C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\net\net_resources.vcxproj">
+      <Project>{1497DACF-A6D1-9A72-6263-07958A0E7FAB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ui\base\strings\ui_strings.vcxproj">
+      <Project>{F5CCCCF6-5931-56C4-E656-5EBD4FF42DEC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ash\ash_strings.vcxproj">
+      <Project>{5A859A85-241E-E94C-2E4D-49B17B181DBF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\content\content_resources.vcxproj">
+      <Project>{98B4000C-7984-E0EA-61A9-6A61EA38A144}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\device\bluetooth\device_bluetooth_strings.vcxproj">
+      <Project>{52BE7053-DF6D-C8A6-F190-714918198356}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\webkit_resources.vcxproj">
+      <Project>{054C4B20-1A4C-EBAC-C7BC-79B604ACE202}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\webkit_strings.vcxproj">
+      <Project>{7A4A1C8D-9AC0-875C-726B-1412076A1FE3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\skia\skia_library.vcxproj">
+      <Project>{097E60BC-72A6-7939-B8E4-645FD1F50717}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\skia\skia_opts.vcxproj">
+      <Project>{EAF5AF5C-29F4-9FE3-E847-67F84B19FAF2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\skia\skia_opts_ssse3.vcxproj">
+      <Project>{F9111A20-9FC7-9E7D-FC4E-EDE8FC3CF07E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\zlib\zlib.vcxproj">
+      <Project>{76C714A8-8E3B-11DB-EA14-3771C9E955D5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\sfntly\sfntly.vcxproj">
+      <Project>{3ACBFFB1-93D8-99E2-65FD-02384F859277}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\icu\icuuc.vcxproj">
+      <Project>{F62746A9-60F9-9E7A-2636-F64CE13D6A02}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\icu\icudata.vcxproj">
+      <Project>{1F2B4147-C8F1-7733-B338-19623B16BF57}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\skia\skia_chrome.vcxproj">
+      <Project>{31A660B7-CF73-C2F6-578D-CC3447959BA6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\skia\skia_chrome_opts.vcxproj">
+      <Project>{6C52ACAA-4E1E-6F5E-EB80-5A5BF92C84E5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\base\base_static.vcxproj">
+      <Project>{38F84574-9CE1-FC5D-6E4D-9070DE052246}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\base\allocator\allocator_extension_thunks.vcxproj">
+      <Project>{C629AD6B-2F76-DC77-E33D-5CF388A7C0AE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\testing\gtest_prod.vcxproj">
+      <Project>{22D852D4-154A-E24C-45F7-EFBBE4C23FAC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\modp_b64\modp_b64.vcxproj">
+      <Project>{4E9F418F-A348-98E8-5170-CA32C2B2FBFA}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\base\third_party\dynamic_annotations\dynamic_annotations.vcxproj">
+      <Project>{08B65B64-9141-F14C-5F3C-DE63CD15698D}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\chrome_main_dll.vcxproj">
+      <Project>{72B7B740-E39A-BA28-2925-844E025BE4FE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\cld\cld.vcxproj">
+      <Project>{8B48822C-839B-8999-3445-B746BFBF42AD}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\common_net.vcxproj">
+      <Project>{57E42E43-8C10-923D-4376-0434B4D95AF1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\crypto\crypto.vcxproj">
+      <Project>{3957C5B6-59A3-4A14-67D0-B3EF143EB083}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\nss\nspr.vcxproj">
+      <Project>{8C34DF55-0DBB-55A0-FCD6-6A5464F9A98A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\nss\nss.vcxproj">
+      <Project>{0868ADD6-75EF-7C16-E684-D58DE504AEB2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\nss\nss_static.vcxproj">
+      <Project>{69550515-3400-AAA3-7A5C-438E689D2C19}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\sqlite\sqlite.vcxproj">
+      <Project>{16B10546-389D-61D4-1D44-6C6410B31480}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\icu\icui18n.vcxproj">
+      <Project>{3C0F94F3-1201-6C0B-9DE0-882B60FBD7CC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\net\net.vcxproj">
+      <Project>{B535CF84-71B1-2E22-06D9-01D70D6F23AC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\base\base_i18n.vcxproj">
+      <Project>{1861D9B3-89E8-F9C5-29D8-3EC53F9BF8D1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sdch\sdch.vcxproj">
+      <Project>{CB26A910-D095-EBEC-0315-375394AA8100}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\net\third_party\nss\libssl.vcxproj">
+      <Project>{60F3283E-B421-9196-62EA-9DF118350722}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\gpu_ipc.vcxproj">
+      <Project>{DF168306-15F2-3954-8AA5-5E3AE3354467}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\command_buffer_common.vcxproj">
+      <Project>{5356B1E1-C561-1F45-5E45-C3CA9826D0FF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\command_buffer\gles2_utils.vcxproj">
+      <Project>{3D37A42F-B976-02EE-15EF-816A4CECD146}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\khronos\khronos_headers.vcxproj">
+      <Project>{FD659B55-CA52-F468-64AF-DA0F0E70BC7C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ipc\ipc.vcxproj">
+      <Project>{FCF59D3E-C9C1-FFC8-AC82-4D41AACF2ADE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\common_version.vcxproj">
+      <Project>{5CAEEAF1-7F77-9EA8-14B2-74AF048C845C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\installer_util_strings.vcxproj">
+      <Project>{26B1391C-4687-8ECA-E604-69FEFA95D980}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\common_constants.vcxproj">
+      <Project>{D5362F9B-DC1F-4036-498E-44AAA39525C1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\components\nacl_switches.vcxproj">
+      <Project>{92FAA9A7-C788-280E-01E9-6C3D6F53CCC8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\widevine\cdm\widevine_cdm_version_h.vcxproj">
+      <Project>{F1DC456B-9A41-F660-EA58-DD2FFAFC04B7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\content\content_common.vcxproj">
+      <Project>{D6DAA721-4695-C194-8DA6-392CF12E1AED}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\components\tracing.vcxproj">
+      <Project>{64D5F455-D63A-032B-0C9D-A0FE5420BFD0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\media\media.vcxproj">
+      <Project>{598DBC9B-1A93-8720-AFDC-AD8FE79CD5F1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\opus\opus.vcxproj">
+      <Project>{3670C927-91E1-1090-D3E3-49523CE81BC0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ui\ui.vcxproj">
+      <Project>{A06ADC68-41D9-9CD2-AFAE-EFA3B5FE3BF2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libpng\libpng.vcxproj">
+      <Project>{B57E6606-F77F-F527-2BA6-671A53B6D423}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libjpeg_turbo\libjpeg.vcxproj">
+      <Project>{FF7E2D9A-9F76-80F4-83A7-D73435EE45D4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\media\shared_memory_support.vcxproj">
+      <Project>{90967216-9F17-D8C0-4B82-47280761B8DF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\media\shared_memory_support_sse.vcxproj">
+      <Project>{3E2502B2-B267-3230-3B22-920F721A1A55}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\ffmpeg\ffmpeg.vcxproj">
+      <Project>{D7A94F58-576A-45D9-A45F-EB87C63ABBB0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libvpx\libvpx.vcxproj">
+      <Project>{482FCA61-7467-3100-0154-7487347EA0C4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libvpx\gen_asm_offsets_vp8.vcxproj">
+      <Project>{2842304D-DF1B-E986-9705-45C69ED77E85}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libvpx\libvpx_asm_offsets_vp8.vcxproj">
+      <Project>{55C5355E-C16E-86CF-948B-9C7CFCCF5099}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libvpx\libvpx_intrinsics_mmx.vcxproj">
+      <Project>{B112EAC6-0539-70C4-632B-AB971D75C5C7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libvpx\libvpx_intrinsics_sse2.vcxproj">
+      <Project>{F668B8AB-1C73-3B88-11A8-5388D9B4F5C2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libvpx\libvpx_intrinsics_ssse3.vcxproj">
+      <Project>{34925B3E-761F-E5E9-AA33-8459674D54AF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\media\media_asm.vcxproj">
+      <Project>{457630F2-5EC0-78FC-7266-C1834AB9ACC4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\media\media_mmx.vcxproj">
+      <Project>{15D085F4-B067-7F01-00D1-4F4537BB702D}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\media\media_sse.vcxproj">
+      <Project>{D181FBE9-13A7-405D-99B1-27B7E81779AF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\media\media_sse2.vcxproj">
+      <Project>{5F9DB4BA-473E-9D21-FCA3-3718FB0F3179}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ui\shell_dialogs.vcxproj">
+      <Project>{3DE2F4A1-C591-2724-4FD4-9CD5A069DFF6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\common\user_agent\user_agent.vcxproj">
+      <Project>{457C75BB-6CF2-9C95-806F-EA8F0F5C7CF2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\common\user_agent\webkit_version.vcxproj">
+      <Project>{940ECD98-EBD9-6639-CA9E-8FF1ADD5C28A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cc\cc.vcxproj">
+      <Project>{E6A05A9E-174E-0D3F-A3C4-682B934780C3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\gpu.vcxproj">
+      <Project>{52A5A159-1A8C-E540-1266-4919194DE428}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\command_buffer_client.vcxproj">
+      <Project>{27C4010F-80CA-86DF-922A-6B9C0D32CFB9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\command_buffer_service.vcxproj">
+      <Project>{F35E913E-EA6F-69C2-4B56-F4C8536C5594}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\disk_cache_proto.vcxproj">
+      <Project>{94E124AE-8766-6D96-873E-FE1C3DC83E5C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\protobuf\protobuf_lite.vcxproj">
+      <Project>{35C12F5D-D290-BA18-F1D1-3626CE46E0CC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ui\gl\gl.vcxproj">
+      <Project>{1679E0F3-41A5-9449-0BFC-535F5177F94A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\mesa\mesa_headers.vcxproj">
+      <Project>{176F26A1-8BEC-304E-40CB-6D685EAC4CA7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\angle_dx11\src\translator_glsl.vcxproj">
+      <Project>{966119CC-0AEA-CA22-453C-DF2BDA0B7951}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\angle_dx11\src\translator_common.vcxproj">
+      <Project>{C8A0C902-1B03-0343-C497-F47F0CEE4229}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\angle_dx11\src\preprocessor.vcxproj">
+      <Project>{E6DEEBA1-503E-A077-088F-2A9E2DC9D12F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\smhasher\cityhash.vcxproj">
+      <Project>{AA6DB044-C32A-5FF8-9AA0-27B0B2E212F6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\re2\re2.vcxproj">
+      <Project>{4C163194-E976-C63B-2AD4-561410507E8E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\gles2_cmd_helper.vcxproj">
+      <Project>{7CFC67EE-3502-60C0-59D5-32166E4C918B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\gpu_config.vcxproj">
+      <Project>{E5FC6146-5BA9-EB27-B1EA-C8D2F4D079BB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libxml\libxml.vcxproj">
+      <Project>{71B608CA-2AB6-4FEE-4E99-226A2FF56FE8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\public\blink_minimal.vcxproj">
+      <Project>{E12D2C5C-4D2D-CA84-36C7-6CFFA1F6578F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\web\blink_common.vcxproj">
+      <Project>{257B4B3F-802D-58B2-E4A0-51458089E0A4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\wtf\wtf.vcxproj">
+      <Project>{6A9832B7-6ECA-4FFE-48DE-B0D0F1891A33}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\wtf\wtf_config.vcxproj">
+      <Project>{5499F35E-89E7-C783-5C6D-3F42C494E188}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\v8\tools\gyp\v8.vcxproj">
+      <Project>{DCEE98FE-06E8-C138-7252-8B34248A16B1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\v8\tools\gyp\v8_base.ia32.vcxproj">
+      <Project>{D2FA744D-FE3E-440B-D812-8E8F446118B4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\v8\tools\gyp\v8_snapshot.vcxproj">
+      <Project>{084B38FC-4DF5-E97B-4EAF-77E326CF6C3F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\v8\tools\gyp\js2c.vcxproj">
+      <Project>{4F94ED64-77E3-D44C-B08F-EC59E9F6472F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\gles2_c_lib.vcxproj">
+      <Project>{943BEF97-54E9-AE44-1CE6-6E4FFDD05B8C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\gpu\gles2_implementation.vcxproj">
+      <Project>{C2816BBC-EFC3-EDAE-5D23-81A5BDB8BCC5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\common\webkit_common.vcxproj">
+      <Project>{750BC885-F3EF-F15F-5B2B-D3976A4E9ACB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\webkit_storage_browser.vcxproj">
+      <Project>{145EF51F-48F3-8832-2444-98838ED5B89B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sql\sql.vcxproj">
+      <Project>{0A035011-ACF9-CF97-C5A7-F4E65A983D64}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\leveldatabase\leveldatabase.vcxproj">
+      <Project>{77B5719E-2940-D371-C569-E5D91E68EA8C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\snappy\snappy.vcxproj">
+      <Project>{A29DDC37-DE57-3B63-0890-B1A00ECAF532}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\webkit_storage_common.vcxproj">
+      <Project>{C834CF6B-0C35-1C6E-DC3C-429BC2F091C4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\public\blink.vcxproj">
+      <Project>{25D3CAEC-555D-B297-48D6-34CBA52C30AB}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\web\webkit.vcxproj">
+      <Project>{4727F905-1174-8833-1A31-4CB7BB9CC9DC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore.vcxproj">
+      <Project>{3CC982DF-5CF8-A7D9-EB93-23118CEACCD7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_dom.vcxproj">
+      <Project>{5CB3C15E-83F3-9CDC-A15E-CB9A9C7D4E56}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_prerequisites.vcxproj">
+      <Project>{7666BD2C-AB71-C5E9-1005-E6F6102A8B6A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\debugger_script_source.vcxproj">
+      <Project>{6C700A01-8D24-2774-CB54-043FEE814159}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\injected_canvas_script_source.vcxproj">
+      <Project>{1EBA175E-FFFA-2196-39DC-1B91F09FC22B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\injected_script_source.vcxproj">
+      <Project>{11673784-C799-C280-D60D-788A404F8063}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\inspector_overlay_page.vcxproj">
+      <Project>{A78314E3-8752-0571-2F11-8ED14A5D7BA3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\inspector_protocol_sources.vcxproj">
+      <Project>{7B338CFD-0453-6468-872B-B02059614A90}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\generate_inspector_protocol_version.vcxproj">
+      <Project>{F4AD706F-780C-8163-5476-A073BD4A2AA1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\inspector_instrumentation_sources.vcxproj">
+      <Project>{21132F30-45BC-1022-A21F-9863754E65BD}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\bindings\bindings_derived_sources.vcxproj">
+      <Project>{6D11A528-EC52-DE11-1F96-BA6DF468D214}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\bindings\interface_dependencies.vcxproj">
+      <Project>{EBCE3787-9A64-C1D3-A14A-B799598C6C1B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\bindings\deprecated_perl_bindings_sources.vcxproj">
+      <Project>{53C5351E-057C-76B1-8A55-9E91F9BD13FD}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\generate_test_support_idls.vcxproj">
+      <Project>{E0642ED5-BBDE-56A1-077E-66EF6F128E92}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\bindings\python_bindings_sources.vcxproj">
+      <Project>{0D73AF15-915C-39FC-42BB-21413D6272A6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\make_derived_sources.vcxproj">
+      <Project>{66C99F85-FBF2-4C44-760B-49645AA029B5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\config.vcxproj">
+      <Project>{105D4327-E7F1-1E54-9AC7-B74362EE0771}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\weborigin\weborigin.vcxproj">
+      <Project>{54B24EEE-82D0-0272-9327-E872C7AF200D}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\iccjpeg\iccjpeg.vcxproj">
+      <Project>{4C5AC4D9-AC58-A83F-3870-FFE20CAA3245}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libwebp\libwebp.vcxproj">
+      <Project>{A68BAF21-0E1E-EAE6-6DB1-B20BE528E3CA}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libwebp\libwebp_dec.vcxproj">
+      <Project>{55FC28C9-13FE-377C-C778-9943EC2BA3C8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libwebp\libwebp_dsp.vcxproj">
+      <Project>{ADE59E51-34CF-03A2-9EBA-7424D8164C1C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libwebp\libwebp_dsp_neon.vcxproj">
+      <Project>{1A714352-4919-8A87-9ACE-E976E55EB4FF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libwebp\libwebp_utils.vcxproj">
+      <Project>{F708E115-CC97-A392-55E1-C2D90908FFFE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libwebp\libwebp_demux.vcxproj">
+      <Project>{BFE26D46-3268-B6ED-1AA2-DBE68A081742}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libwebp\libwebp_enc.vcxproj">
+      <Project>{30F97A8A-D4C9-38BF-523B-33FFB6A90CBF}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libxslt\libxslt.vcxproj">
+      <Project>{D5D2BA53-3482-3958-E009-FC90382AC5BC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\npapi\npapi.vcxproj">
+      <Project>{BB11FC9E-60DE-F359-A375-2FCF45A41F0B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\ots\ots.vcxproj">
+      <Project>{6D5B2A4B-5725-F5DB-B915-8C357388F2D8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\lzma_sdk\lzma_sdk.vcxproj">
+      <Project>{39E9509D-711C-CC3A-EBA6-95471DB9EBC5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\qcms\qcms.vcxproj">
+      <Project>{28F0B0EA-B62C-8707-5166-7D64F8E41A05}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_html.vcxproj">
+      <Project>{81A0E688-54D6-3068-2C55-5D35A7A30AE0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_platform.vcxproj">
+      <Project>{6E3B4C68-6C4D-256F-A22F-708A90D2DE73}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_platform_geometry.vcxproj">
+      <Project>{C64F588C-F9AD-5E4C-E4D7-7A485E6878E3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_remaining.vcxproj">
+      <Project>{0DACCDAD-162E-4A48-4EAE-615762D5C1A9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_rendering.vcxproj">
+      <Project>{5BF71D86-557E-8F5A-1CF2-0174428CC4C1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_svg.vcxproj">
+      <Project>{A5554246-2536-A10C-85E3-B2F805475D1F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\core\webcore_derived.vcxproj">
+      <Project>{3AD89423-0A15-57FD-4814-AF8D3075EA67}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\WebKit\Source\modules\modules.vcxproj">
+      <Project>{0737C972-C428-56F9-328F-49D89A75B2C9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\support\glue.vcxproj">
+      <Project>{5DE42C99-FD42-1780-1F04-C56D0D4F5C94}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\printing\printing.vcxproj">
+      <Project>{EBE8534E-B050-D606-0E1F-C285170718A3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\win8\win8_util.vcxproj">
+      <Project>{D4F2A064-142A-7F80-A0C5-545FCA5854B5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\plugins\plugins_common.vcxproj">
+      <Project>{36D24575-D9C4-FD75-404A-DC95C59F28FC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\renderer\compositor_bindings\webkit_compositor_support.vcxproj">
+      <Project>{78301D3B-6D48-DC0D-D736-21473A175398}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\renderer\compositor_bindings\webkit_compositor_bindings.vcxproj">
+      <Project>{29E0FB84-CC16-4557-ECDA-56DC22C2D3C5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\common\gpu\webkit_gpu.vcxproj">
+      <Project>{16DD7D45-233A-242E-5E29-3ADE86656C6E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\support\plugins.vcxproj">
+      <Project>{78B155DB-C277-BCBF-4AA7-58CD3777E14E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ppapi\ppapi_c.vcxproj">
+      <Project>{B925D52F-35D5-1D6F-FCE7-6B8D24CF0FF8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ppapi\ppapi_shared.vcxproj">
+      <Project>{2C55A4F4-A200-852A-A4AD-F3EC557FDD86}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ui\surface\surface.vcxproj">
+      <Project>{2E957C66-EA83-916C-BED6-209CFF4E0E3C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\webkit\support\glue_child.vcxproj">
+      <Project>{1625BB35-DA45-B23A-AD68-563068211E5F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ui\native_theme\native_theme.vcxproj">
+      <Project>{99CC0B8E-E93F-6D4B-0426-81D125A9291A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\courgette\courgette_lib.vcxproj">
+      <Project>{D2236F2A-7255-F183-5036-249839224791}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\bspatch\bspatch.vcxproj">
+      <Project>{6BB73126-650B-9406-39F2-DED4DD51E820}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\metrics_proto.vcxproj">
+      <Project>{35CDFCC2-04AB-B7CE-B168-1E6E69BDBF72}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\base\base_prefs.vcxproj">
+      <Project>{415651FA-742C-9E90-43E1-A539FE2CED04}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\components\visitedlink_common.vcxproj">
+      <Project>{28CAAD30-1EF5-BD62-1047-9DAF1FBAB94A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\mt19937ar\mt19937ar.vcxproj">
+      <Project>{B299D29D-63CE-C700-5C3B-3883E298AD3E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\zlib\zip.vcxproj">
+      <Project>{F10B262A-ABA6-B3A0-2A59-241052D82B18}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\zlib\minizip.vcxproj">
+      <Project>{62834AF4-629B-3720-F93D-6B33FDA61BB9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\device\bluetooth\device_bluetooth.vcxproj">
+      <Project>{A86D5D7C-3EAF-BC1D-0C7B-700FB893327E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\device\usb\device_usb.vcxproj">
+      <Project>{4EBA8905-C883-7599-0B35-09A3ED1A45F0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\app\policy\policy.vcxproj">
+      <Project>{9E7B8560-BF56-EB0F-AE24-C7763BEC0610}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\app\policy\cloud_policy_code_generate.vcxproj">
+      <Project>{C7658BBA-78F5-00DA-D6D7-C35A95B68825}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\app\policy\cloud_policy_proto_generated_compile.vcxproj">
+      <Project>{B8BAAEB0-F138-E404-32EA-F88334403D58}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\common\extensions\api\api.vcxproj">
+      <Project>{F0A4A129-3A7F-5D3F-7F6E-FE4BD8187502}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sync\sync_api.vcxproj">
+      <Project>{7872814B-97AC-7C05-6664-7A0B9C9F01C8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sync\sync_internal_api.vcxproj">
+      <Project>{8567F953-88A3-C328-05A5-40E7FB9E5958}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sync\sync_core.vcxproj">
+      <Project>{9F0AC9EC-E2D9-3F41-8CFA-9EF62CB2A180}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sync\sync_proto.vcxproj">
+      <Project>{B9155DE4-8286-0BC7-6CEA-1F0138575E4B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\google_apis\google_apis.vcxproj">
+      <Project>{C76B2541-D0C9-6B7C-1400-3ABE78AD472F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\sync\sync_notifier.vcxproj">
+      <Project>{DB17FCDF-1E16-07DE-A3C4-58FF35E2CC43}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\jingle\jingle_glue.vcxproj">
+      <Project>{0D8135FB-19B3-8FEE-9E29-09E50C6BD4EC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libjingle\libjingle.vcxproj">
+      <Project>{16DDFDBF-AF3C-8612-8947-331BFCB35ACE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\expat\expat.vcxproj">
+      <Project>{DBD7C629-A875-DAE8-02AD-57984155FFDC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\jsoncpp\jsoncpp.vcxproj">
+      <Project>{B5B41DC2-3DFF-DDBE-D63B-5BDFD7F1E03F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libjingle\libjingle_p2p_constants.vcxproj">
+      <Project>{08AAEB07-D53A-D67E-1026-694D1E730547}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\jingle\notifier.vcxproj">
+      <Project>{F8319702-B6EC-A591-2B91-F3D2CF7ED4FE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\cacheinvalidation\cacheinvalidation.vcxproj">
+      <Project>{B7882502-1268-6D16-E470-381EDBDFA5D1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\cacheinvalidation\cacheinvalidation_proto_cpp.vcxproj">
+      <Project>{0B838E2F-8056-6163-293B-4BE0A27A5DB2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\tools\json_schema_compiler\api_gen_util.vcxproj">
+      <Project>{4DE4C680-9B49-E6DB-0936-00C339D8120A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\components\autofill_core_common.vcxproj">
+      <Project>{F887DD7A-1CEC-B233-BFAB-711ABD7C7831}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\components\nacl_common.vcxproj">
+      <Project>{8220EFDF-600B-6578-58A0-72780D09F37F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\adobe\flash\flapper_version_h.vcxproj">
+      <Project>{AE9453D2-F397-4783-911B-BB1CD9690439}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\remoting\remoting_client_plugin.vcxproj">
+      <Project>{39A88D87-5133-4588-EAC4-6133AD4A5426}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\remoting\remoting_base.vcxproj">
+      <Project>{D6651272-4451-D67E-7D66-5BFD7EFD1E6A}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libyuv\libyuv.vcxproj">
+      <Project>{6200F134-0E76-9212-7188-B2B7A9B3585E}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\speex\libspeex.vcxproj">
+      <Project>{2CB97074-A5CF-0642-F3A0-B4352AAC3552}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\remoting\remoting_jingle_glue.vcxproj">
+      <Project>{8F4F95DF-79F0-3833-3D91-4F2B1A297334}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\remoting\remoting_resources.vcxproj">
+      <Project>{D535D2E2-BCA9-992C-82B4-5A66A9993CFE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\remoting\proto\chromotocol_proto_lib.vcxproj">
+      <Project>{F91167D3-79D4-3901-DEEC-EBD479CEFC2C}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\webrtc\modules\desktop_capture.vcxproj">
+      <Project>{6BD1B102-0AC3-C122-E715-DA000125E905}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\webrtc\system_wrappers\source\system_wrappers.vcxproj">
+      <Project>{F1A6F5FF-CA62-0F34-CB29-BC029137720F}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\webrtc\modules\desktop_capture_differ_sse2.vcxproj">
+      <Project>{ED9F5DF6-D1C4-E218-8A05-3757C58A5FCC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\remoting\remoting_client.vcxproj">
+      <Project>{0AFEEFFD-E817-879D-E7B7-FDB22E368DFD}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\remoting\remoting_protocol.vcxproj">
+      <Project>{82615A80-98B0-F930-DD54-CE9B6E77123B}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ppapi\ppapi_cpp_objects.vcxproj">
+      <Project>{B9D928A2-7C59-A644-58A3-499310FF70D4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\utility.vcxproj">
+      <Project>{BBF9A67E-2B86-5FBF-41AC-0A4810CB18FA}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\content\content_utility.vcxproj">
+      <Project>{41D85C8C-EDD2-D3D1-FC67-CEE33FF6D100}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\content\content_child.vcxproj">
+      <Project>{97D5C4D2-8AD8-69E9-F4A0-46B54B24B072}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="chrome_frame_common.vcxproj">
+      <Project>{2334711A-D452-840D-C633-7030F59EC2DE}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\chrome\chrome_version_header.vcxproj">
+      <Project>{8F895CF8-2A63-0255-6E49-B59414FCAAA3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ImportGroup Label="ExtensionTargets"/>
+</Project>

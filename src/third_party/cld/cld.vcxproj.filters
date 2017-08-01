@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="languages">
+      <UniqueIdentifier>{778288A5-0DC4-C8A3-5DAF-3360B5B2F41D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="languages\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="languages\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="languages\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encodings">
+      <UniqueIdentifier>{1973D99B-29C1-8405-43A6-1CD7625FFFCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encodings\compact_lang_det">
+      <UniqueIdentifier>{F519990E-3DE7-0F23-7DA0-56AD4846EE63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encodings\compact_lang_det\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encodings\compact_lang_det\generated">
+      <UniqueIdentifier>{0C5E4993-65ED-30CC-B01D-8C09AE315707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encodings\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encodings\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encodings\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cld.gyp"/>
+    <ClCompile Include="languages\internal\languages.cc">
+      <Filter>languages\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="languages\public\languages.h">
+      <Filter>languages\public</Filter>
+    </ClInclude>
+    <ClInclude Include="languages\proto\languages.pb.h">
+      <Filter>languages\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="base\stl_decl_msvc.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\casts.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\commandlineflags.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dynamic_annotations.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\crash.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\strtoint.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\string_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\build_config.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\logging.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\template_util.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\global_strip_options.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\type_traits.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\port.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\vlog_is_on.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\log_severity.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\basictypes.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\scoped_ptr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\macros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\utf8propjustletter.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\tote.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\utf8propletterscriptnum.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\compact_lang_det.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\getonescriptspan.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\string_byte_sink.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\ext_lang_enc.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\getonescriptspan.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\string_byte_sink.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\cldutil_dbg.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\subsetsequence.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\compact_lang_det_impl.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\letterscript_enum.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\subsetsequence.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\cldutil_dbg_empty.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\cldutil.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\tote.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\ext_lang_enc.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\letterscript_enum.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\compact_lang_det.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\cldutil.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\utf8scannotjustletterspecial.h">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\compact_lang_det_impl.cc">
+      <Filter>encodings\compact_lang_det</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_strtoint.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\win\cld_unilib_windows.cc">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_utf8statetable.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\win\cld_utf8statetable.cc">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_basictypes.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_utf8utils.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_utf.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_macros.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_unicodetext.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_commandlineflags.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\win\cld_htmlutils_windows.cc">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\win\cld_utf8utils_windows.cc">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_unilib.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\win\cld_unicodetext.cc">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_htmlutils.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_google.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\win\cld_logging.h">
+      <Filter>encodings\compact_lang_det\win</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\compact_lang_det\generated\compact_lang_det_generated_meanscore.h">
+      <Filter>encodings\compact_lang_det\generated</Filter>
+    </ClInclude>
+    <ClCompile Include="encodings\compact_lang_det\generated\compact_lang_det_generated_deltaoctachrome.cc">
+      <Filter>encodings\compact_lang_det\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\generated\compact_lang_det_generated_quadschrome.cc">
+      <Filter>encodings\compact_lang_det\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\generated\compact_lang_det_generated_ctjkvz.cc">
+      <Filter>encodings\compact_lang_det\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\generated\cld_generated_score_quadchrome_0406.cc">
+      <Filter>encodings\compact_lang_det\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\compact_lang_det\generated\compact_lang_det_generated_cjkbis_0.cc">
+      <Filter>encodings\compact_lang_det\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="encodings\internal\encodings.cc">
+      <Filter>encodings\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="encodings\public\encodings.h">
+      <Filter>encodings\public</Filter>
+    </ClInclude>
+    <ClInclude Include="encodings\proto\encodings.pb.h">
+      <Filter>encodings\proto</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

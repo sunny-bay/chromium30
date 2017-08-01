@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assembly_program.h"/>
+    <ClInclude Include="adjustment_method.h"/>
+    <ClCompile Include="disassembler_elf_32_x86.cc"/>
+    <ClCompile Include="crc.cc"/>
+    <ClInclude Include="crc.h"/>
+    <ClInclude Include="types_win_pe.h"/>
+    <ClCompile Include="memory_allocator.cc"/>
+    <ClCompile Include="disassembler_elf_32.cc"/>
+    <ClInclude Include="memory_allocator.h"/>
+    <ClCompile Include="ensemble_apply.cc"/>
+    <ClInclude Include="encoded_program.h"/>
+    <ClInclude Include="difference_estimator.h"/>
+    <ClInclude Include="simple_delta.h"/>
+    <ClCompile Include="difference_estimator.cc"/>
+    <ClInclude Include="disassembler.h"/>
+    <ClCompile Include="simple_delta.cc"/>
+    <ClCompile Include="encoded_program.cc"/>
+    <ClInclude Include="disassembler_win32_x86.h"/>
+    <ClCompile Include="assembly_program.cc"/>
+    <ClCompile Include="adjustment_method.cc"/>
+    <ClInclude Include="streams.h"/>
+    <ClInclude Include="disassembler_elf_32_arm.h"/>
+    <ClCompile Include="adjustment_method_2.cc"/>
+    <ClCompile Include="disassembler_elf_32_arm.cc"/>
+    <ClCompile Include="disassembler_win32_x86.cc"/>
+    <ClCompile Include="ensemble.cc"/>
+    <ClInclude Include="disassembler_elf_32_x86.h"/>
+    <ClCompile Include="disassembler.cc"/>
+    <ClInclude Include="region.h"/>
+    <ClInclude Include="types_elf.h"/>
+    <None Include="courgette.gyp"/>
+    <ClCompile Include="ensemble_create.cc"/>
+    <ClInclude Include="courgette.h"/>
+    <ClInclude Include="ensemble.h"/>
+    <ClInclude Include="patcher_x86_32.h"/>
+    <ClInclude Include="disassembler_elf_32.h"/>
+    <ClCompile Include="streams.cc"/>
+    <ClInclude Include="patch_generator_x86_32.h"/>
+    <ClInclude Include="third_party\bsdiff.h">
+      <Filter>third_party</Filter>
+    </ClInclude>
+    <ClCompile Include="third_party\bsdiff_apply.cc">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClInclude Include="third_party\paged_array.h">
+      <Filter>third_party</Filter>
+    </ClInclude>
+    <ClCompile Include="third_party\bsdiff_create.cc">
+      <Filter>third_party</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

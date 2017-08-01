@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\net\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="common\net\net_error_info.cc">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net\net_resource_provider.cc">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net\url_fixer_upper.cc">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClInclude Include="common\net\url_fixer_upper.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="common\net\predictor_common.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClCompile Include="common\net\url_util.cc">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net\x509_certificate_model.cc">
+      <Filter>common\net</Filter>
+    </ClCompile>
+    <ClInclude Include="common\net\net_error_info.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="common\net\x509_certificate_model.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="common\net\net_resource_provider.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClInclude Include="common\net\url_util.h">
+      <Filter>common\net</Filter>
+    </ClInclude>
+    <ClCompile Include="common\net\x509_certificate_model_openssl.cc">
+      <Filter>common\net\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net\x509_certificate_model_nss.cc">
+      <Filter>common\net\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

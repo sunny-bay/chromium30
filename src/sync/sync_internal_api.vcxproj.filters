@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="internal_api">
+      <UniqueIdentifier>{5D3DD876-85BB-CEFD-B72C-F8990231221B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\engine">
+      <UniqueIdentifier>{0E0E98FE-41F4-1E5C-D208-62A6218447D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_api\public\sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClCompile Include="internal_api\syncapi_server_connection_manager.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\sync_manager_impl.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\base_node.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\user_share.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\syncapi_internal.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\syncapi_server_connection_manager.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\debug_info_event_listener.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\js_mutation_event_observer.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\read_node.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\js_sync_manager_observer.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\change_reorder_buffer.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\write_transaction.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\http_bridge.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\sync_manager_factory.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\sync_encryption_handler_impl.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\debug_info_event_listener.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\change_reorder_buffer.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\internal_components_factory_impl.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\read_transaction.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\js_sync_encryption_handler_observer.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\syncapi_internal.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\sync_encryption_handler_impl.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\delete_journal.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\js_sync_manager_observer.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\write_node.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\js_sync_encryption_handler_observer.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\base_transaction.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\sync_manager_impl.h">
+      <Filter>internal_api</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\change_record.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\js_mutation_event_observer.cc">
+      <Filter>internal_api</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\change_record.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\data_type_debug_info_listener.cc">
+      <Filter>internal_api\public</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\sync_manager.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\write_transaction.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\internal_components_factory.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\http_post_provider_factory.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\read_node.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\write_node.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\sync_manager.cc">
+      <Filter>internal_api\public</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\base_node.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\delete_journal.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\read_transaction.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\user_share.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\data_type_debug_info_listener.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\sync_encryption_handler.cc">
+      <Filter>internal_api\public</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\sync_manager_factory.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base_transaction.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\http_bridge.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\data_type_association_stats.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\http_post_provider_interface.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\data_type_association_stats.cc">
+      <Filter>internal_api\public</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\internal_components_factory_impl.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\configure_reason.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\sync_encryption_handler.h">
+      <Filter>internal_api\public</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\engine\sync_status.h">
+      <Filter>internal_api\public\engine</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\engine\passive_model_worker.cc">
+      <Filter>internal_api\public\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\engine\model_safe_worker.h">
+      <Filter>internal_api\public\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\engine\passive_model_worker.h">
+      <Filter>internal_api\public\engine</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\engine\model_safe_worker.cc">
+      <Filter>internal_api\public\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\engine\polling_constants.h">
+      <Filter>internal_api\public\engine</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\engine\sync_status.cc">
+      <Filter>internal_api\public\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\engine\polling_constants.cc">
+      <Filter>internal_api\public\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\util\unrecoverable_error_handler.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\util\syncer_error.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\util\syncer_error.cc">
+      <Filter>internal_api\public\util</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\util\experiments.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\util\immutable.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\util\report_unrecoverable_error_function.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\util\unrecoverable_error_info.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\util\weak_handle.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\util\sync_string_conversions.h">
+      <Filter>internal_api\public\util</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\util\sync_string_conversions.cc">
+      <Filter>internal_api\public\util</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\util\weak_handle.cc">
+      <Filter>internal_api\public\util</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\util\unrecoverable_error_info.cc">
+      <Filter>internal_api\public\util</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\invalidation.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\base\model_type.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base\node_ordinal.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base\ordinal.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base\unique_position.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base\model_type_invalidation_map.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base\enum_set.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\base\progress_marker_map.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\unique_position.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClCompile Include="internal_api\public\base\node_ordinal.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\base\progress_marker_map.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClInclude Include="internal_api\public\base\invalidation.h">
+      <Filter>internal_api\public\base</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\base\model_type_invalidation_map.cc">
+      <Filter>internal_api\public\base</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\sessions\sync_session_snapshot.h">
+      <Filter>internal_api\public\sessions</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\sessions\model_neutral_state.cc">
+      <Filter>internal_api\public\sessions</Filter>
+    </ClCompile>
+    <ClInclude Include="internal_api\public\sessions\model_neutral_state.h">
+      <Filter>internal_api\public\sessions</Filter>
+    </ClInclude>
+    <ClCompile Include="internal_api\public\sessions\sync_session_snapshot.cc">
+      <Filter>internal_api\public\sessions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

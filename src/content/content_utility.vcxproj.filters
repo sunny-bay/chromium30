@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\utility">
+      <UniqueIdentifier>{46D3A1A1-3410-F9C8-C5F7-6AC884D4AD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{46D3A1A1-3410-F9C8-C5F7-6AC884D4AD01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClInclude Include="public\utility\content_utility_client.h">
+      <Filter>public\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="public\utility\utility_thread.h">
+      <Filter>public\utility</Filter>
+    </ClInclude>
+    <ClCompile Include="public\utility\content_utility_client.cc">
+      <Filter>public\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="public\utility\utility_thread.cc">
+      <Filter>public\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\utility_thread_impl.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\utility_thread_impl.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\utility_main.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\DumpRenderTree">
+      <UniqueIdentifier>{8D5EE6A1-C06E-76DA-70DF-30D1A688B82A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\DumpRenderTree\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DumpRenderTree.gyp"/>
+    <ClCompile Include="..\..\DumpRenderTree\chromium\LayoutTestHelperWin.cpp">
+      <Filter>..\..\DumpRenderTree\chromium</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

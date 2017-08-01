@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gaia">
+      <UniqueIdentifier>{A583CF0B-B09F-B391-3135-A8F09AD9F9B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cup">
+      <UniqueIdentifier>{2674DEB5-DE58-B2BB-2DA9-65D39266814F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cup\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="google_api_keys.cc"/>
+    <None Include="google_apis.gyp"/>
+    <ClInclude Include="google_api_keys.h"/>
+    <ClInclude Include="gaia\gaia_urls.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\gaia_auth_consumer.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClInclude Include="gaia\gaia_auth_consumer.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\gaia_oauth_client.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClInclude Include="gaia\oauth2_api_call_flow.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\gaia_constants.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClCompile Include="gaia\google_service_auth_error.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClInclude Include="gaia\oauth2_access_token_fetcher.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\gaia_switches.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClInclude Include="gaia\oauth2_access_token_consumer.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClInclude Include="gaia\gaia_oauth_client.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\oauth_request_signer.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClInclude Include="gaia\gaia_auth_fetcher.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClInclude Include="gaia\oauth2_mint_token_flow.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClInclude Include="gaia\gaia_switches.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\oauth2_access_token_fetcher.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClCompile Include="gaia\oauth2_api_call_flow.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClInclude Include="gaia\gaia_constants.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\gaia_auth_fetcher.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClCompile Include="gaia\oauth2_mint_token_flow.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClInclude Include="gaia\oauth_request_signer.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClInclude Include="gaia\gaia_auth_util.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClInclude Include="gaia\google_service_auth_error.h">
+      <Filter>gaia</Filter>
+    </ClInclude>
+    <ClCompile Include="gaia\gaia_urls.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClCompile Include="gaia\gaia_auth_util.cc">
+      <Filter>gaia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="cup\client_update_protocol_nss.cc">
+      <Filter>cup</Filter>
+    </ClCompile>
+    <ClCompile Include="cup\client_update_protocol.cc">
+      <Filter>cup</Filter>
+    </ClCompile>
+    <ClInclude Include="cup\client_update_protocol.h">
+      <Filter>cup</Filter>
+    </ClInclude>
+    <ClCompile Include="cup\client_update_protocol_openssl.cc">
+      <Filter>cup\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

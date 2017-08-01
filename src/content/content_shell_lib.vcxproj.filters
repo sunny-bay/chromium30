@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shell">
+      <UniqueIdentifier>{E85BC352-2D2D-FF70-E8E1-C76BAA70A425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClCompile Include="shell\shell_devtools_frontend.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_javascript_dialog.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_win.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_devtools_frontend.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\minimal_shell.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_javascript_dialog_manager.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_download_manager_delegate.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_resource_dispatcher_host_delegate.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\notify_done_forwarder.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\minimal_shell.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_browser_main.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_web_contents_view_delegate.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_devtools_delegate.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_net_log.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_browser_main.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_url_request_context_getter.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_url_request_context_getter.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_content_browser_client.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_web_contents_view_delegate_win.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\notify_done_forwarder.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_message_filter.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_download_manager_delegate.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_devtools_delegate.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_login_dialog.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\webkit_test_controller.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_network_delegate.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_javascript_dialog_win.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_net_log.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_browser_context.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_network_delegate.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_resource_dispatcher_host_delegate.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_plugin_service_filter.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_layout_tests_android.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_login_dialog.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_web_contents_view_delegate_creator.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_content_browser_client.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\webkit_test_controller.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_message_filter.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_browser_main_parts.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_quota_permission_context.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_plugin_service_filter.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_javascript_dialog_manager.cc">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_browser_main_parts.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_browser_context.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\shell_quota_permission_context.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\shell_gtk.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_aura.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="shell\shell_mac.mm">
+      <Filter>shell\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="shell\shell_web_contents_view_delegate_gtk.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="shell\shell_application_mac.mm">
+      <Filter>shell\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="shell\shell_login_dialog_gtk.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\shell_application_mac.h">
+      <Filter>shell\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="shell\shell_web_contents_view_delegate_mac.mm">
+      <Filter>shell\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="shell\shell_android.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_javascript_dialog_gtk.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\shell_web_contents_view_delegate_android.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="shell\shell_javascript_dialog_mac.mm">
+      <Filter>shell\_excluded_files</Filter>
+    </None>
+    <None Include="shell\shell_login_dialog_mac.mm">
+      <Filter>shell\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="shell\shell_layout_tests_android.cc">
+      <Filter>shell\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="shell\shell_browser_main_parts_mac.mm">
+      <Filter>shell\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="shell\geolocation\shell_access_token_store.cc">
+      <Filter>shell\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\geolocation\shell_access_token_store.h">
+      <Filter>shell\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\app\webkit_test_platform_support.h">
+      <Filter>shell\app</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\app\shell_main_delegate.cc">
+      <Filter>shell\app</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\app\shell_main_delegate.h">
+      <Filter>shell\app</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\app\webkit_test_platform_support_win.cc">
+      <Filter>shell\app</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\app\paths_mac.h">
+      <Filter>shell\app\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="shell\app\paths_mac.mm">
+      <Filter>shell\app\_excluded_files</Filter>
+    </None>
+    <None Include="shell\app\webkit_test_platform_support_mac.mm">
+      <Filter>shell\app\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="shell\app\webkit_test_platform_support_android.cc">
+      <Filter>shell\app\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="shell\app\shell_main_delegate_mac.mm">
+      <Filter>shell\app\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="shell\app\webkit_test_platform_support_linux.cc">
+      <Filter>shell\app\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\app\shell_main_delegate_mac.h">
+      <Filter>shell\app\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\android\shell_manager.h">
+      <Filter>shell\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\android\shell_jni_registrar.cc">
+      <Filter>shell\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\android\shell_manager.cc">
+      <Filter>shell\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\android\shell_jni_registrar.h">
+      <Filter>shell\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\common\webkit_test_helpers.cc">
+      <Filter>shell\common</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\common\webkit_test_helpers.h">
+      <Filter>shell\common</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\common\shell_content_client.cc">
+      <Filter>shell\common</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\common\shell_messages.cc">
+      <Filter>shell\common</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\common\shell_test_configuration.h">
+      <Filter>shell\common</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\common\shell_content_client.h">
+      <Filter>shell\common</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\common\shell_switches.cc">
+      <Filter>shell\common</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\common\shell_messages.h">
+      <Filter>shell\common</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\common\shell_test_configuration.cc">
+      <Filter>shell\common</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\common\shell_switches.h">
+      <Filter>shell\common</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\renderer\webkit_test_runner.cc">
+      <Filter>shell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\renderer\shell_render_process_observer.cc">
+      <Filter>shell\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\renderer\shell_content_renderer_client.h">
+      <Filter>shell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\renderer\shell_render_view_observer.h">
+      <Filter>shell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="shell\renderer\shell_render_process_observer.h">
+      <Filter>shell\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="shell\renderer\shell_render_view_observer.cc">
+      <Filter>shell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="shell\renderer\shell_content_renderer_client.cc">
+      <Filter>shell\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="shell\renderer\webkit_test_runner.h">
+      <Filter>shell\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

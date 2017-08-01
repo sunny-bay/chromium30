@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_version">
+      <UniqueIdentifier>{B43E9D83-A6B9-06C4-15A0-98C8EE442D66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\chrome_version\chrome_exe_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_version</Filter>
+    </ResourceCompile>
+    <ClInclude Include="app\breakpad_win.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\client_util.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClCompile Include="app\chrome_breakpad_client.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\metro_driver_win.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClInclude Include="app\metro_driver_win.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ResourceCompile Include="app\chrome_exe.rc">
+      <Filter>app</Filter>
+    </ResourceCompile>
+    <ClCompile Include="app\hard_error_handler_win.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClInclude Include="app\hard_error_handler_win.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClCompile Include="app\breakpad_field_trial_win.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\breakpad_win.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClInclude Include="app\chrome_breakpad_client.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\chrome_exe_resource.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\breakpad_field_trial_win.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClCompile Include="app\client_util.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\chrome_exe_main_win.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <None Include="app\FirstRun">
+      <Filter>app\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="app\chrome_exe_main_mac.cc">
+      <Filter>app\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="app\chrome_exe_main_gtk.cc">
+      <Filter>app\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="app\chrome_exe_main_aura.cc">
+      <Filter>app\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="common\crash_keys.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClCompile Include="common\crash_keys.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\content\app\startup_helper_win.cc">
+      <Filter>..\content\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

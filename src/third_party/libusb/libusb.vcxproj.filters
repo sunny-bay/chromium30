@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\msvc">
+      <UniqueIdentifier>{11AFF84F-DBD3-39DB-4D58-0B5D04391FC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libusb">
+      <UniqueIdentifier>{104CC1A4-82AE-9229-0A06-FE8734AFFC6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libusb\os">
+      <UniqueIdentifier>{70218C08-6726-B62E-CE74-E6BEFC68CF49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libusb.gyp"/>
+    <ClInclude Include="src\config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msvc\config.h">
+      <Filter>src\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msvc\inttypes.h">
+      <Filter>src\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msvc\stdint.h">
+      <Filter>src\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libusb\version.h">
+      <Filter>src\libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libusb\version_nano.h">
+      <Filter>src\libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libusb\interrupt.h">
+      <Filter>src\libusb</Filter>
+    </ClInclude>
+    <ClCompile Include="src\libusb\descriptor.c">
+      <Filter>src\libusb</Filter>
+    </ClCompile>
+    <ClInclude Include="src\libusb\libusbi.h">
+      <Filter>src\libusb</Filter>
+    </ClInclude>
+    <ClCompile Include="src\libusb\interrupt.c">
+      <Filter>src\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libusb\sync.c">
+      <Filter>src\libusb</Filter>
+    </ClCompile>
+    <ClInclude Include="src\libusb\hotplug.h">
+      <Filter>src\libusb</Filter>
+    </ClInclude>
+    <ClCompile Include="src\libusb\io.c">
+      <Filter>src\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libusb\hotplug.c">
+      <Filter>src\libusb</Filter>
+    </ClCompile>
+    <ClInclude Include="src\libusb\libusb.h">
+      <Filter>src\libusb</Filter>
+    </ClInclude>
+    <ClCompile Include="src\libusb\core.c">
+      <Filter>src\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libusb\os\windows_usb.c">
+      <Filter>src\libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libusb\os\poll_windows.c">
+      <Filter>src\libusb\os</Filter>
+    </ClCompile>
+    <ClInclude Include="src\libusb\os\windows_usb.h">
+      <Filter>src\libusb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libusb\os\poll_windows.h">
+      <Filter>src\libusb\os</Filter>
+    </ClInclude>
+    <ClCompile Include="src\libusb\os\threads_windows.c">
+      <Filter>src\libusb\os</Filter>
+    </ClCompile>
+    <ClInclude Include="src\libusb\os\windows_common.h">
+      <Filter>src\libusb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libusb\os\threads_windows.h">
+      <Filter>src\libusb\os</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

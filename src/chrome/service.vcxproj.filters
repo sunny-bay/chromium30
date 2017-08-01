@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{C9210780-0906-CC9E-BEC1-0AB6BFD1B977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service\cloud_print">
+      <UniqueIdentifier>{D6AF2C4D-CB19-34BF-1FC4-0F2B0004F1F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="service\service_utility_process_host.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="service\service_process_prefs.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClCompile Include="service\service_process.cc">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClInclude Include="service\service_process.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClCompile Include="service\service_ipc_server.cc">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\service_utility_process_host.cc">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\service_main.cc">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\service_process_prefs.cc">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClInclude Include="service\service_ipc_server.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <None Include="service\chrome_service_application_mac.mm">
+      <Filter>service\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="service\chrome_service_application_mac.h">
+      <Filter>service\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="service\net\service_url_request_context.h">
+      <Filter>service\net</Filter>
+    </ClInclude>
+    <ClCompile Include="service\net\service_url_request_context.cc">
+      <Filter>service\net</Filter>
+    </ClCompile>
+    <ClInclude Include="service\cloud_print\cloud_print_proxy_backend.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClInclude Include="service\cloud_print\print_system.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="service\cloud_print\cloud_print_proxy_backend.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="service\cloud_print\cloud_print_connector.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClInclude Include="service\cloud_print\cloud_print_proxy.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="service\cloud_print\connector_settings.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\cloud_print_helpers.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\cloud_print_proxy.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\printer_job_handler.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="service\cloud_print\cloud_print_token_store.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="service\cloud_print\cloud_print_wipeout.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\print_system.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\job_status_updater.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\cloud_print_connector.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="service\cloud_print\job_status_updater.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="service\cloud_print\cloud_print_token_store.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\cloud_print_url_fetcher.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClCompile Include="service\cloud_print\print_system_dummy.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="service\cloud_print\connector_settings.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="service\cloud_print\cloud_print_auth.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="service\cloud_print\cloud_print_auth.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClInclude Include="service\cloud_print\cloud_print_helpers.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClInclude Include="service\cloud_print\printer_job_queue_handler.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClInclude Include="service\cloud_print\printer_job_handler.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="service\cloud_print\print_system_win.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+    <ClInclude Include="service\cloud_print\cloud_print_url_fetcher.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClInclude Include="service\cloud_print\cloud_print_wipeout.h">
+      <Filter>service\cloud_print</Filter>
+    </ClInclude>
+    <ClCompile Include="service\cloud_print\printer_job_queue_handler.cc">
+      <Filter>service\cloud_print</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

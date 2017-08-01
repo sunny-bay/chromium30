@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="virtual_driver">
+      <UniqueIdentifier>{95DABA20-30A8-E784-4916-6D5849257055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual_driver\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual_driver\win\install">
+      <UniqueIdentifier>{ABD22CC0-7133-C7DA-C40C-6013FEDC8040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{C9210780-0906-CC9E-BEC1-0AB6BFD1B977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cloud_print.gyp"/>
+    <version Include="virtual_driver\win\gcp_portmon_dll.ver">
+      <Filter>virtual_driver\win</Filter>
+    </version>
+    <version Include="virtual_driver\win\gcp_portmon64_dll.ver">
+      <Filter>virtual_driver\win</Filter>
+    </version>
+    <version Include="virtual_driver\win\install\virtual_driver_setup_exe.ver">
+      <Filter>virtual_driver\win\install</Filter>
+    </version>
+    <version Include="service\win\cloud_print_service_exe.ver">
+      <Filter>service\win</Filter>
+    </version>
+    <version Include="service\win\cloud_print_service_config_exe.ver">
+      <Filter>service\win</Filter>
+    </version>
+    <version Include="service\win\cloud_print_service_setup_exe.ver">
+      <Filter>service\win</Filter>
+    </version>
+  </ItemGroup>
+</Project>

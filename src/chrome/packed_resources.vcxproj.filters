@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ash_strings">
+      <UniqueIdentifier>{C1D9ED58-A416-FF8C-6EAB-F1AC2D65F80A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ash_strings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\repack">
+      <UniqueIdentifier>{CD39E10C-2374-C878-AD72-BF465D1509A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser\tracing">
+      <UniqueIdentifier>{CE08FC7C-88C2-852D-9904-CEFED4CA8C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\content\browser\tracing\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\webkit\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings">
+      <UniqueIdentifier>{AF53C09E-2680-6950-3DAD-99BA539008AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_strings">
+      <UniqueIdentifier>{7AA1565F-E779-B05C-95F7-0B5E25DECDC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources">
+      <UniqueIdentifier>{60108B1D-1D06-DEEB-72CD-739BCA047D39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\components">
+      <UniqueIdentifier>{3AFDBA04-7EE3-7E7A-3B5A-73953F62668A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\components\strings">
+      <UniqueIdentifier>{03F116E8-99FD-0D5D-3AD5-D756C88BB794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\components\strings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\device">
+      <UniqueIdentifier>{BF68E219-12AC-1393-5242-E6E71C5CE1CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\device\bluetooth">
+      <UniqueIdentifier>{E501ED6C-07F7-22DB-B040-750B9B74D93F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings">
+      <UniqueIdentifier>{03F116E8-99FD-0D5D-3AD5-D756C88BB794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\net\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format">
+      <UniqueIdentifier>{70B82C25-A362-5F67-ADB1-F53029D26C30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome_resources.gyp"/>
+    <None Include="$(OutDir)obj\global_intermediate\fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ash_strings\ash_strings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ash_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\theme_resources_touch_140_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\theme_resources_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\common_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\theme_resources_touch_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\extensions_api_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\renderer_resources_200_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\theme_resources_200_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chrome_unscaled_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\browser_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\theme_resources_touch_180_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\chromium_strings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\renderer_resources_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\locale_settings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\generated_resources_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\platform_locale_settings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\chrome.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\chrome_touch_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\chrome_touch_140_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\chrome_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\chrome_touch_180_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\repack\en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\repack</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\content\content_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\content\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\content\browser\tracing\tracing_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\content\browser\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\blink_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_resources_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_resources_200_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\webkit\webkit_strings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\webkit\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\app_locale_settings\app_locale_settings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\app_locale_settings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_strings\ui_strings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_resources_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_resources_touch_180_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_resources_touch_100_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_resources_touch_140_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_resources_200_percent.pak">
+      <Filter>$(OutDir)obj\global_intermediate\ui\ui_resources\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\components\strings\component_strings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\components\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_da.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_lt.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_nb.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_fil.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_te.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_en-US.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_bg.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_hu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_pt-BR.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_it.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_en-GB.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_et.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ko.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_zh-TW.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_fi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_es-419.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ru.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ja.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_sv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_mr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_bn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_sk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_th.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_pl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_es.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_sw.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_fr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_id.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_zh-CN.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ca.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_sr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_sl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_lv.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ar.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_nl.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_pt-PT.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_gu.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_cs.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_am.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_fake-bidi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_fa.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ro.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_de.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_hr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_kn.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_el.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_he.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_uk.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ml.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ms.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_hi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_tr.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_vi.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\device\bluetooth\strings\device_bluetooth_strings_ta.pak">
+      <Filter>$(OutDir)obj\global_intermediate\device\bluetooth\strings\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\net\net_resources.pak">
+      <Filter>$(OutDir)obj\global_intermediate\net\_excluded_files</Filter>
+    </None>
+    <None Include="tools\build\repack_locales.py">
+      <Filter>tools\build\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\repack.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

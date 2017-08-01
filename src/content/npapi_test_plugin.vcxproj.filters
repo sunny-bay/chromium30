@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\plugin">
+      <UniqueIdentifier>{E12D2CF9-1CA3-AAB9-7CAB-5DCA48C96E1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClInclude Include="test\plugin\plugin_arguments_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_test_factory.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\npapi_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_windowed_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_execute_stream_javascript.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_npobject_lifetime_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_test_factory.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_create_instance_in_paint.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_window_size_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_geturl_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_get_javascript_url2_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\npapi_constants.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_npobject_proxy_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_get_javascript_url2_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <None Include="test\plugin\npapi_test.def">
+      <Filter>test\plugin</Filter>
+    </None>
+    <ClInclude Include="test\plugin\plugin_new_fails_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_new_fails_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_npobject_lifetime_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_thread_async_call_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_thread_async_call_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_delete_plugin_in_stream_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_windowed_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_geturl_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_window_size_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_javascript_open_popup.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_javascript_open_popup.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_windowless_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_schedule_timer_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_get_javascript_url_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_execute_stream_javascript.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_delete_plugin_in_stream_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_delete_plugin_in_deallocate_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_arguments_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_client.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\npapi_constants.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_npobject_identity_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_request_read_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_request_read_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\resource.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_client.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_private_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_delete_plugin_in_deallocate_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_windowless_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_schedule_timer_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_get_javascript_url_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ResourceCompile Include="test\plugin\npapi_test.rc">
+      <Filter>test\plugin</Filter>
+    </ResourceCompile>
+    <ClCompile Include="test\plugin\plugin_npobject_identity_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="test\plugin\plugin_create_instance_in_paint.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_npobject_proxy_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="test\plugin\plugin_setup_test.cc">
+      <Filter>test\plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="test\plugin\plugin_setup_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="test\plugin\plugin_private_test.h">
+      <Filter>test\plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

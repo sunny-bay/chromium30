@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\browser_plugin">
+      <UniqueIdentifier>{1E5576EF-A27B-DCDD-4371-861B51AE0DED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\pepper">
+      <UniqueIdentifier>{7CECF610-4A5A-AE56-D71A-A67BA22B6EB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\pepper\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\fetchers">
+      <UniqueIdentifier>{99DC8B03-1372-0FA8-C14B-5D4B8AC45387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\java">
+      <UniqueIdentifier>{4E663CF6-CD22-68E0-B08F-06E24C51407E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\java\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\dom_storage">
+      <UniqueIdentifier>{4C9B009B-E930-072B-1737-129280193BD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\accessibility">
+      <UniqueIdentifier>{873DE697-7E51-06CB-5ED2-F4A475CEFD57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\device_orientation">
+      <UniqueIdentifier>{7AFE5C68-7E78-200B-1609-6C0DBAEC6FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\p2p">
+      <UniqueIdentifier>{8096E04D-D00E-DEF4-9C16-7F4A4E28C656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\gpu\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\devtools">
+      <UniqueIdentifier>{58F63217-69E6-51D7-8CFA-62F622D6CE5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClInclude Include="renderer\v8_value_converter_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\render_process_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\mouse_lock_dispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\date_time_formatter.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\v8_value_converter_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\disambiguation_popup_helper.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\webplugin_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\web_ui_extension.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\websharedworker_proxy.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\gamepad_shared_memory_reader.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\render_view_impl_params.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\menu_item_builder.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\mhtml_generator.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\render_widget_fullscreen.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\skia_benchmarking_extension.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\websharedworkerrepository_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer_date_time_picker.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer_webcolorchooser_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\memory_benchmarking_extension.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\menu_item_builder.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\render_process_visibility_manager.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\render_widget_fullscreen_pepper.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\all_rendering_benchmarks.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\drop_data_builder.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\external_popup_menu.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\renderer_webapplicationcachehost_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\dom_automation_controller.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\render_process.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\geolocation_dispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\active_notification_tracker.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\shared_memory_seqlock_reader.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\mouse_lock_dispatcher.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_widget_fullscreen_pepper.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper_helper.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\disambiguation_popup_helper.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\stats_collection_controller.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\savable_resources.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\render_frame_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\render_view_mouse_lock_dispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\plugin_channel_host.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\ime_event_guard.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\savable_resources.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\renderer_clipboard_client.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rendering_benchmark.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\idle_user_detector.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer_webapplicationcachehost_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_view_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\render_view_impl_params.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\render_widget_fullscreen.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\load_progress_tracker.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\render_thread_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\skia_benchmarking_extension.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer_webcookiejar_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\notification_provider.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\mhtml_generator.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\web_ui_extension_data.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\password_form_conversion_utils.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\geolocation_dispatcher.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_process_visibility_manager.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\external_popup_menu.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\scoped_clipboard_writer_glue.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\idle_user_detector.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\paint_aggregator.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\internal_document_state_data.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\load_progress_tracker.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\webcrypto_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer_webkitplatformsupport_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\web_ui_extension.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\paint_aggregator.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\render_widget.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\render_frame_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer_webkitplatformsupport_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\drop_data_builder.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\webplugin_delegate_proxy.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\render_widget.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\webclipboard_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\cursor_utils.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer_webcolorchooser_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\renderer_webcookiejar_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\render_thread_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\websharedworker_proxy.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\date_time_formatter.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\memory_benchmarking_extension.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\shared_memory_seqlock_reader.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\cursor_utils.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gamepad_shared_memory_reader.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\context_menu_params_builder.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\stats_collection_observer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\stats_collection_observer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\renderer_main.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\webclipboard_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer_main_platform_delegate_win.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\webplugin_delegate_proxy.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer_clipboard_client.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\text_input_client_observer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\webcrypto_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\device_orientation_dispatcher.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\ime_event_guard.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\image_loading_helper.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\image_loading_helper.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\render_view_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\render_view_mouse_lock_dispatcher.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\websharedworkerrepository_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\input_tag_speech_dispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\internal_document_state_data.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_process_impl.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\webplugin_impl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\input_tag_speech_dispatcher.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper_helper.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\speech_recognition_dispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\stats_collection_controller.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\all_rendering_benchmarks.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\device_orientation_dispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\scoped_clipboard_writer_glue.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\notification_provider.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\dom_automation_controller.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\web_ui_extension_data.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer_main_platform_delegate.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\active_notification_tracker.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\speech_recognition_dispatcher.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\context_menu_params_builder.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\rendering_benchmark.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\plugin_channel_host.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\renderer_date_time_picker.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\text_input_client_observer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\renderer_main_platform_delegate_linux.cc">
+      <Filter>renderer\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer_main_platform_delegate_android.cc">
+      <Filter>renderer\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_view_linux.cc">
+      <Filter>renderer\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\render_view_impl_android.cc">
+      <Filter>renderer\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="renderer\renderer_main_platform_delegate_mac.mm">
+      <Filter>renderer\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="renderer\browser_plugin\browser_plugin_compositing_helper.h">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\browser_plugin\browser_plugin_backing_store.h">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\browser_plugin\browser_plugin_backing_store.cc">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\browser_plugin\browser_plugin_manager_impl.cc">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\browser_plugin\browser_plugin_manager.h">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\browser_plugin\browser_plugin_bindings.h">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\browser_plugin\browser_plugin_compositing_helper.cc">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\browser_plugin\browser_plugin_manager_impl.h">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\browser_plugin\browser_plugin_manager.cc">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\browser_plugin\browser_plugin_bindings.cc">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\browser_plugin\browser_plugin.h">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\browser_plugin\browser_plugin.cc">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\browser_plugin\browser_plugin_manager_factory.h">
+      <Filter>renderer\browser_plugin</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\npobject_var.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_widget_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_network_monitor_private_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_platform_audio_output.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_device_enumeration_host_helper.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\resource_creation_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\content_renderer_pepper_host_factory.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_video_destination_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\common.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_truetype_font_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_browser_connection.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_in_process_resource_creation.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\quota_file_io.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_plugin_registry.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_var_deprecated_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_truetype_font_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_broker.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\host_var_tracker.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_file_ref_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_tcp_socket_private_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_media_device_manager.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_video_decoder_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_in_process_router.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_in_process_router.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\message_channel.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_hung_plugin_filter.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\url_request_info_util.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\plugin_object.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\host_array_buffer_var.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\audio_helper.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_tcp_server_socket_private_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_url_loader_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_video_source_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_plugin_instance_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_platform_context_3d.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_video_destination_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\host_var_tracker.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_graphics_2d_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_websocket_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_proxy_channel_delegate_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_truetype_font_win.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\fullscreen_container.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_tcp_socket_private_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\content_renderer_pepper_host_factory.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_websocket_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\host_dispatcher_wrapper.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\usb_key_code_conversion.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_device_enumeration_host_helper.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\audio_helper.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\resource_creation_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\host_array_buffer_var.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\renderer_restrict_dispatch_group.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_graphics_2d_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_plugin_instance_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_hung_plugin_filter.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_flash_message_loop_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\url_response_info_util.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_gpu_blacklist_private_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\content_decryptor_delegate.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_webplugin_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_scrollbar_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_file_io_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\event_conversion.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_helper_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_url_loader_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_broker_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_scrollbar_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_audio_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_browser_connection.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\message_channel.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_webplugin_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\plugin_module.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\v8_var_converter.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_broker_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\host_globals.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_platform_video_capture.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_proxy_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_broker.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_platform_audio_output.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\npapi_glue.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\plugin_object.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_buffer_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_platform_audio_input.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_audio_input_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_platform_video_capture.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\url_request_info_util.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_file_system_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_video_capture_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_flash_message_loop_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_plugin_registry.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_graphics_3d_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_graphics_3d_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\host_dispatcher_wrapper.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\npobject_var.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_video_source_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\event_conversion.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\renderer_ppapi_host_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\npapi_glue.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_file_chooser_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_proxy_channel_delegate_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\usb_key_code_conversion.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\url_response_info_util.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\content_decryptor_delegate.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_in_process_resource_creation.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\renderer_ppapi_host_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_audio_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_widget_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\pepper_file_system_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_network_monitor_private_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_file_ref_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_var_deprecated_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_gpu_blacklist_private_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_helper_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_platform_audio_input.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_audio_input_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_x509_certificate_private_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\gfx_conversion.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_image_data_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\host_globals.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_media_device_manager.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_tcp_server_socket_private_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\resource_helper.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\quota_file_io.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_buffer_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_uma_private_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\ppb_x509_certificate_private_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_file_chooser_host.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_image_data_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\plugin_module.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_truetype_font.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\pepper_video_capture_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\pepper_platform_context_3d.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\ppb_uma_private_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\ppb_video_decoder_impl.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\usb_key_code_conversion_win.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\pepper\ppb_proxy_impl.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\pepper\v8_var_converter.h">
+      <Filter>renderer\pepper</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\pepper\resource_helper.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_file_io_host.cc">
+      <Filter>renderer\pepper</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_truetype_font_android.cc">
+      <Filter>renderer\pepper\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\usb_key_code_conversion_linux.cc">
+      <Filter>renderer\pepper\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\pepper_truetype_font_linux.cc">
+      <Filter>renderer\pepper\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\pepper\usb_key_code_conversion_mac.cc">
+      <Filter>renderer\pepper\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="renderer\pepper\pepper_truetype_font_mac.mm">
+      <Filter>renderer\pepper\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="renderer\fetchers\alt_error_page_resource_fetcher.h">
+      <Filter>renderer\fetchers</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\fetchers\resource_fetcher.cc">
+      <Filter>renderer\fetchers</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\fetchers\image_resource_fetcher.h">
+      <Filter>renderer\fetchers</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\fetchers\image_resource_fetcher.cc">
+      <Filter>renderer\fetchers</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\fetchers\resource_fetcher.h">
+      <Filter>renderer\fetchers</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\fetchers\multi_resolution_image_resource_fetcher.cc">
+      <Filter>renderer\fetchers</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\fetchers\alt_error_page_resource_fetcher.cc">
+      <Filter>renderer\fetchers</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\fetchers\multi_resolution_image_resource_fetcher.h">
+      <Filter>renderer\fetchers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\java\java_bridge_channel.h">
+      <Filter>renderer\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\java\java_bridge_dispatcher.h">
+      <Filter>renderer\java\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\java\java_bridge_channel.cc">
+      <Filter>renderer\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\java\java_bridge_dispatcher.cc">
+      <Filter>renderer\java\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webrtc_local_audio_renderer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\pepper_platform_video_decoder.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\rtc_video_decoder_factory.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_audio_device_not_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\midi_dispatcher.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\video_destination_handler.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\rtc_video_renderer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\media_stream_client.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\media_stream_dispatcher_eventhandler.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\active_loader.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webcontentdecryptionmodulesession_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\video_destination_handler.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\renderer_webaudiodevice_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\remote_media_stream_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webmediaplayer_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\rtc_video_renderer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\rtc_data_channel_handler.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\media_stream_source_observer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webmediasourceclient_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\media_stream_center.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webmediaplayer_params.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\audio_message_filter.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\peer_connection_handler_base.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\buffered_resource_loader.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\video_capture_impl_manager.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\midi_message_filter.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webrtc_local_audio_track.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\peer_connection_identity_service.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webrtc_audio_device_not_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\media_stream_audio_renderer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\midi_message_filter.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webrtc_audio_capturer_sink_owner.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\media_stream_center.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\media_stream_dependency_factory.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\rtc_dtmf_sender_handler.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webcontentdecryptionmodule_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webcontentdecryptionmodule_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\buffered_data_source.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\websourcebuffer_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webrtc_identity_service.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webinbandtexttrack_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webrtc_logging_initializer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\rtc_video_decoder.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webmediaplayer_util.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\texttrack_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_local_audio_track.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\audio_message_filter.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\peer_connection_tracker.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\rtc_media_constraints.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\audio_device_factory.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\renderer_gpu_video_decoder_factories.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\video_capture_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\audio_input_message_filter.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webmediaplayer_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webrtc_audio_capturer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\media_stream_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webaudio_capturer_source.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\audio_device_factory.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\audio_decoder.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\rtc_encoding_video_capturer_factory.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\video_capture_impl_manager.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_local_audio_renderer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webaudiosourceprovider_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\peer_connection_handler_base.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\active_loader.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webmediaplayer_params.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\rtc_video_decoder.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webinbandtexttrack_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\media_stream_dispatcher.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webrtc_audio_device_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\rtc_video_capture_delegate.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\remote_media_stream_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webmediaplayer_ms.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\rtc_encoding_video_capturer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\rtc_data_channel_handler.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\websourcebuffer_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\rtc_encoding_video_capturer_factory.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_logging_initializer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\cache_util.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\renderer_gpu_video_decoder_factories.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\preload.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\audio_renderer_mixer_manager.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_identity_service.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\audio_input_message_filter.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\media_stream_audio_renderer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\media_stream_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\rtc_peer_connection_handler.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\renderer_webaudiodevice_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\video_frame_provider.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\rtc_video_capturer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\video_frame_provider.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\rtc_dtmf_sender_handler.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webmediasourceclient_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webmediaplayer_delegate.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\webaudio_capturer_source.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webmediaplayer_util.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\rtc_media_constraints.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\video_capture_message_filter.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\buffered_data_source.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\rtc_video_capture_delegate.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\peer_connection_tracker.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webrtc_audio_renderer.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\audio_decoder.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\media_stream_source_observer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webmediaplayer_ms.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\rtc_video_decoder_factory.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\video_capture_message_filter.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\texttrack_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\cache_util.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\renderer_webmidiaccessor_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\media_stream_dependency_factory.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\media_stream_registry_interface.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\midi_dispatcher.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\rtc_encoding_video_capturer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_audio_capturer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\render_media_log.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\webcontentdecryptionmodulesession_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\video_capture_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\media_stream_dispatcher.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\renderer_webmidiaccessor_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_audio_capturer_sink_owner.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_audio_device_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\rtc_peer_connection_handler.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\peer_connection_identity_service.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\webrtc_audio_renderer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\pepper_platform_video_decoder.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\rtc_video_capturer.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\video_source_handler.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\video_source_handler.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\render_media_log.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\audio_renderer_mixer_manager.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\webaudiosourceprovider_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\buffered_resource_loader.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\android\renderer_media_player_manager.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\android\audio_decoder_android.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\android\stream_texture_factory_android.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\android\stream_texture_factory_android.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\android\media_source_delegate.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\android\renderer_media_player_manager.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\android\proxy_media_keys.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\android\media_source_delegate.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\android\webmediaplayer_proxy_android.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\android\proxy_media_keys.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\android\webmediaplayer_proxy_android.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\android\audio_decoder_android.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\android\media_info_loader.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\android\webmediaplayer_android.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\android\media_info_loader.h">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\android\webmediaplayer_android.cc">
+      <Filter>renderer\media\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\crypto\key_systems_info.h">
+      <Filter>renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\crypto\content_decryption_module_factory.cc">
+      <Filter>renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\crypto\key_systems_info.cc">
+      <Filter>renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\crypto\key_systems.cc">
+      <Filter>renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\crypto\proxy_decryptor.cc">
+      <Filter>renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\crypto\ppapi_decryptor.cc">
+      <Filter>renderer\media\crypto</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\crypto\ppapi_decryptor.h">
+      <Filter>renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\crypto\content_decryption_module_factory.h">
+      <Filter>renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\crypto\proxy_decryptor.h">
+      <Filter>renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\crypto\key_systems.h">
+      <Filter>renderer\media\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\dom_storage\dom_storage_cached_area.h">
+      <Filter>renderer\dom_storage</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\dom_storage\dom_storage_cached_area.cc">
+      <Filter>renderer\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\dom_storage\dom_storage_dispatcher.cc">
+      <Filter>renderer\dom_storage</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\dom_storage\webstoragearea_impl.h">
+      <Filter>renderer\dom_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\dom_storage\webstoragenamespace_impl.h">
+      <Filter>renderer\dom_storage</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\dom_storage\webstoragenamespace_impl.cc">
+      <Filter>renderer\dom_storage</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\dom_storage\dom_storage_proxy.h">
+      <Filter>renderer\dom_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\dom_storage\dom_storage_dispatcher.h">
+      <Filter>renderer\dom_storage</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\dom_storage\webstoragearea_impl.cc">
+      <Filter>renderer\dom_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\accessibility\renderer_accessibility.cc">
+      <Filter>renderer\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\accessibility\renderer_accessibility_focus_only.cc">
+      <Filter>renderer\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\accessibility\accessibility_node_serializer.cc">
+      <Filter>renderer\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\accessibility\accessibility_node_serializer.h">
+      <Filter>renderer\accessibility</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\accessibility\renderer_accessibility_focus_only.h">
+      <Filter>renderer\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\accessibility\renderer_accessibility_complete.cc">
+      <Filter>renderer\accessibility</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\accessibility\renderer_accessibility.h">
+      <Filter>renderer\accessibility</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\accessibility\renderer_accessibility_complete.h">
+      <Filter>renderer\accessibility</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\device_orientation\device_motion_event_pump.cc">
+      <Filter>renderer\device_orientation</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\device_orientation\device_motion_event_pump.h">
+      <Filter>renderer\device_orientation</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\p2p\host_address_request.cc">
+      <Filter>renderer\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\p2p\port_allocator.cc">
+      <Filter>renderer\p2p</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\p2p\network_list_observer.h">
+      <Filter>renderer\p2p</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\p2p\ipc_socket_factory.cc">
+      <Filter>renderer\p2p</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\p2p\ipc_socket_factory.h">
+      <Filter>renderer\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\p2p\socket_client.h">
+      <Filter>renderer\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\p2p\socket_dispatcher.h">
+      <Filter>renderer\p2p</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\p2p\socket_dispatcher.cc">
+      <Filter>renderer\p2p</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\p2p\ipc_network_manager.h">
+      <Filter>renderer\p2p</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\p2p\ipc_network_manager.cc">
+      <Filter>renderer\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\p2p\socket_client.cc">
+      <Filter>renderer\p2p</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\p2p\port_allocator.h">
+      <Filter>renderer\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\p2p\host_address_request.h">
+      <Filter>renderer\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\gpu\input_handler_wrapper.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\gpu\compositor_software_output_device.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gpu\input_handler_wrapper.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\gpu\input_handler_proxy.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\gpu\delegated_compositor_output_surface.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\gpu\render_widget_compositor.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gpu\compositor_output_surface.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\gpu\compositor_output_surface.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gpu\compositor_software_output_device.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\gpu\render_widget_compositor.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\gpu\stream_texture_host_android.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\gpu\input_handler_proxy.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gpu\mailbox_output_surface.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\gpu\input_event_filter.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\gpu\input_event_filter.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\gpu\input_handler_manager_client.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\gpu\mailbox_output_surface.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\gpu\input_handler_manager.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gpu\input_handler_manager.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\gpu\gpu_benchmarking_extension.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gpu\gpu_benchmarking_extension.cc">
+      <Filter>renderer\gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\gpu\delegated_compositor_output_surface.h">
+      <Filter>renderer\gpu</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\gpu\stream_texture_host_android.cc">
+      <Filter>renderer\gpu\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\devtools\devtools_agent_filter.h">
+      <Filter>renderer\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\devtools\devtools_agent.cc">
+      <Filter>renderer\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\devtools\devtools_client.cc">
+      <Filter>renderer\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\devtools\devtools_agent_filter.cc">
+      <Filter>renderer\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\devtools\devtools_agent.h">
+      <Filter>renderer\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\devtools\devtools_client.h">
+      <Filter>renderer\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\android\address_detector.cc">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\android\synchronous_compositor_factory.cc">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\android\synchronous_compositor_factory.h">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\android\email_detector.cc">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\android\content_detector.cc">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\android\email_detector.h">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\android\phone_number_detector.cc">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\android\address_detector.h">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\android\phone_number_detector.h">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\android\content_detector.h">
+      <Filter>renderer\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="public\renderer\render_process_observer.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="public\renderer\render_frame.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\navigation_state.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\render_view_observer.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="public\renderer\history_item_serialization.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="public\renderer\webrtc_log_message_delegate.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\render_view_observer_tracker.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="public\renderer\navigation_state.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="public\renderer\content_renderer_client.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\pepper_plugin_instance.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\render_thread.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\render_view.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\android_content_detection_prefixes.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\v8_value_converter.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\password_form_conversion_utils.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="public\renderer\render_view_observer.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="public\renderer\render_thread.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="public\renderer\render_process_observer.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="public\renderer\document_state.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="public\renderer\context_menu_client.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\render_view_visitor.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\document_state.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="public\renderer\history_item_serialization.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="public\renderer\android_content_detection_prefixes.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="public\renderer\renderer_ppapi_host.h">
+      <Filter>public\renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="public\renderer\content_renderer_client.cc">
+      <Filter>public\renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

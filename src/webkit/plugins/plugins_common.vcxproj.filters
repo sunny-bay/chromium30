@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\common\plugins">
+      <UniqueIdentifier>{9DE023B3-F1C0-CF0D-AF52-3287B388D922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\common\plugins\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\plugins">
+      <UniqueIdentifier>{9DE023B3-F1C0-CF0D-AF52-3287B388D922}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_plugins.gyp"/>
+    <ClCompile Include="..\common\plugins\ppapi\ppapi_utils.cc">
+      <Filter>..\common\plugins\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\common\plugins\ppapi\ppapi_utils.h">
+      <Filter>..\common\plugins\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\plugins\plugin_constants.cc">
+      <Filter>..\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugins\plugin_switches.cc">
+      <Filter>..\plugins</Filter>
+    </ClCompile>
+    <ClInclude Include="..\plugins\plugin_constants.h">
+      <Filter>..\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugins\plugin_switches.h">
+      <Filter>..\plugins</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

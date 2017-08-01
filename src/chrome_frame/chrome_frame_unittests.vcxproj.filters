@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome_frame">
+      <UniqueIdentifier>{EBCDB410-A604-75FA-C02A-225BB96419C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="unittest_precompile.cc"/>
+    <ClCompile Include="chrome_frame_unittest_main.cc"/>
+    <ClCompile Include="function_stub_unittest.cc"/>
+    <ClCompile Include="chrome_launcher.cc"/>
+    <ClInclude Include="unittest_precompile.h"/>
+    <ClCompile Include="vtable_patch_manager_unittest.cc"/>
+    <None Include="chrome_frame.gyp"/>
+    <ClCompile Include="chrome_launcher_unittest.cc"/>
+    <ClInclude Include="chrome_launcher.h"/>
+    <ClCompile Include="scoped_initialization_manager_unittest.cc"/>
+    <ClCompile Include="urlmon_upload_data_stream_unittest.cc"/>
+    <ClCompile Include="test\http_negotiate_unittest.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\win_event_receiver.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\util_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\com_message_event_unittest.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\policy_settings_unittest.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\win_event_receiver.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\exception_barrier_unittest.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\html_util_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\simulate_input.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\urlmon_moniker_tests.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\chrome_frame_test_utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\infobar_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\chrome_tab_mocks.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\chrome_frame_test_utils.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\simulate_input.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\registry_watcher_unittest.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\urlmon_moniker_unittest.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ready_mode_unittest.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dll_redirector_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome_frame\chrome_tab.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome_frame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

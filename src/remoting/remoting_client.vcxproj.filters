@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{D5E3C9B9-F4E5-9856-CE8C-F9B03683EBB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="client\client_context.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\chromoting_client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\frame_consumer.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\chromoting_stats.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\audio_decode_scheduler.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\chromoting_stats.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\frame_consumer_proxy.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\chromoting_client.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\client_context.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\client_config.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\audio_decode_scheduler.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\audio_player.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\frame_consumer_proxy.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\client_user_interface.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\frame_producer.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\key_event_mapper.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClCompile Include="client\audio_player.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\key_event_mapper.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\rectangle_update_decoder.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClInclude Include="client\rectangle_update_decoder.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\client_config.h">
+      <Filter>client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

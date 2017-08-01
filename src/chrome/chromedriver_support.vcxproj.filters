@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\webdriver">
+      <UniqueIdentifier>{AB230931-9AA2-62A8-1F70-770234561B43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\mongoose">
+      <UniqueIdentifier>{5B6EBC6E-13E4-8368-D01F-56CE2A057DAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="..\third_party\webdriver\atoms.cc">
+      <Filter>..\third_party\webdriver</Filter>
+    </ClCompile>
+    <ClInclude Include="..\third_party\webdriver\atoms.h">
+      <Filter>..\third_party\webdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\mongoose\mongoose.h">
+      <Filter>..\third_party\mongoose</Filter>
+    </ClInclude>
+    <ClCompile Include="..\third_party\mongoose\mongoose.c">
+      <Filter>..\third_party\mongoose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

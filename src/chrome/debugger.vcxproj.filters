@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\devtools">
+      <UniqueIdentifier>{58F63217-69E6-51D7-8CFA-62F622D6CE5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\devtools\adb">
+      <UniqueIdentifier>{A462765E-3279-A329-AB9B-6DB79EBDD3AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\remote_debugging_server.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\tethering_adb_filter.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\devtools_window.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\browser_list_tabcontents_provider.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\browser_list_tabcontents_provider.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_file_helper.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\adb_client_socket.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\devtools_toggle_action.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\adb_client_socket.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\adb_web_socket.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\tethering_adb_filter.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\adb_web_socket.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\devtools_window.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\devtools_file_helper.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\devtools_adb_bridge.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\devtools_adb_bridge.cc">
+      <Filter>browser\devtools</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\remote_debugging_server.h">
+      <Filter>browser\devtools</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\adb\android_usb_device.cc">
+      <Filter>browser\devtools\adb</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\devtools\adb\android_usb_socket.cc">
+      <Filter>browser\devtools\adb</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\adb\android_usb_socket.h">
+      <Filter>browser\devtools\adb</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\devtools\adb\android_usb_device.h">
+      <Filter>browser\devtools\adb</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\devtools\adb\android_rsa.cc">
+      <Filter>browser\devtools\adb</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\devtools\adb\android_rsa.h">
+      <Filter>browser\devtools\adb</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

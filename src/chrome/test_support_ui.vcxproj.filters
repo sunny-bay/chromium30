@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\reliability">
+      <UniqueIdentifier>{DEA43E48-69DE-BC55-01BA-512751D42EBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\automation">
+      <UniqueIdentifier>{31ADDD52-866C-4C09-9800-A5A5331381F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="test\reliability\automated_ui_test_base.h">
+      <Filter>test\reliability</Filter>
+    </ClInclude>
+    <ClCompile Include="test\reliability\automated_ui_test_base.cc">
+      <Filter>test\reliability</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ui\ui_test.cc">
+      <Filter>test\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ui\run_all_unittests.cc">
+      <Filter>test\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ui\javascript_test_util.cc">
+      <Filter>test\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ui\ui_test_suite.cc">
+      <Filter>test\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ui\ui_perf_test.cc">
+      <Filter>test\ui</Filter>
+    </ClCompile>
+    <ClInclude Include="test\ui\ui_perf_test.h">
+      <Filter>test\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="test\ui\ui_test.h">
+      <Filter>test\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="test\ui\ui_test_suite.h">
+      <Filter>test\ui</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\proxy_launcher.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\proxy_launcher.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

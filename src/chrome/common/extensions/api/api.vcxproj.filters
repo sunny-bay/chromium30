@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\common\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\tools\json_schema_compiler">
+      <UniqueIdentifier>{4E92C96C-E1C8-433D-4B80-F1FCDCF2E50A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\tools\json_schema_compiler\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="api.gyp"/>
+    <None Include="api_rules.mk"/>
+    <Midl Include="app_runtime.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="content_settings.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="session_restore.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="file_system.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="history.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="preferences_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="chromeos_info_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="font_settings.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="system_storage.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="debugger.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="i18n.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="storage.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="system_memory.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="dial.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="system_cpu.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="terminal_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="system_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="media_player_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="app_current_window_internal.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="usb.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="experimental_identity.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="command_line_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="runtime.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="experimental_dns.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="developer_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="experimental_idltest.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="metrics_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="top_sites.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="webview.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="experimental_discovery.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="media_galleries_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="bookmarks.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="autotest_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="permissions.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="tabs.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="management.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="idle.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="experimental_accessibility.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="experimental_record.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="wallpaper_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="audio.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="manifest_types.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="socket.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="location.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="bookmark_manager_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="enterprise_platform_keys_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="media_galleries.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="infobars.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="context_menus.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="test.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="adview.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="sync_file_system.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="web_navigation.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="echo_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="music_manager_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="system_display.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="experimental_media_galleries.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="app_window.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="web_request.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="diagnostics.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="rtc_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="events.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="networking_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="file_browser_handler_internal.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="alarms.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="tab_capture.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="push_messaging.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="downloads.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="recovery_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="serial.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="page_capture.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="browsing_data.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="identity_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="downloads_internal.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="activity_log_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="feedback_private.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="input_ime.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="system_indicator.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="cookies.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="notifications.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <Midl Include="identity.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="webstore_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="extension.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="cloud_print_private.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="omnibox.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="bluetooth.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="windows.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <Midl Include="power.idl">
+      <Filter>_excluded_files</Filter>
+    </Midl>
+    <None Include="experimental_history.json">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\context_menus.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\management.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\notifications.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\storage.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\bookmarks.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_display.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\browsing_data.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\test.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\cloud_print_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_indicator.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\webview.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\tab_capture.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\cloud_print_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\identity.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\windows.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_discovery.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\media_player_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_identity.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\generated_api.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_discovery.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\downloads_internal.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\history.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\web_navigation.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\downloads.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\session_restore.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\extension.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\debugger.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_record.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\push_messaging.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\power.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\enterprise_platform_keys_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_history.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\runtime.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\identity_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_memory.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\i18n.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\location.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_media_galleries.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\file_browser_handler_internal.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\terminal_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\dial.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\serial.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\file_system.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\push_messaging.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\events.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\terminal_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\media_galleries.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\identity_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\wallpaper_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\usb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\command_line_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\enterprise_platform_keys_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\chromeos_info_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\alarms.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\sync_file_system.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\web_request.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\preferences_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\networking_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\audio.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\app_window.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\tabs.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\web_navigation.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_cpu.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\feedback_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\browsing_data.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\storage.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\app_runtime.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\page_capture.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\media_player_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\music_manager_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\location.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\idle.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\input_ime.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\alarms.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\i18n.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\adview.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\media_galleries_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\debugger.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\app_current_window_internal.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\downloads.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_history.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\sync_file_system.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\font_settings.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_identity.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\cookies.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\permissions.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\wallpaper_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_media_galleries.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\bluetooth.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_storage.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\permissions.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\bookmarks.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\feedback_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\generated_schemas.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\cookies.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\web_request.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_idltest.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\power.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\bluetooth.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\rtc_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\manifest_types.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\infobars.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\recovery_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\tab_capture.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\identity.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\preferences_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\recovery_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\generated_api.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\app_window.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\windows.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_record.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\context_menus.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\socket.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_accessibility.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_storage.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\echo_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\echo_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\webstore_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\input_ime.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_indicator.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\networking_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\infobars.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_dns.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\idle.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\runtime.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\activity_log_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\events.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\autotest_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\chromeos_info_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\content_settings.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\font_settings.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\activity_log_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\metrics_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\rtc_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\metrics_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\content_settings.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\webstore_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\command_line_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\diagnostics.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\management.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_display.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\test.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\music_manager_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_accessibility.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\dial.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\generated_schemas.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\omnibox.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\file_browser_handler_internal.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\tabs.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\app_current_window_internal.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_cpu.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_idltest.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\media_galleries.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\system_memory.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\bookmark_manager_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\notifications.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\bookmark_manager_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\adview.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\manifest_types.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\media_galleries_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\extension.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\developer_private.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\session_restore.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\experimental_dns.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\omnibox.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\diagnostics.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\downloads_internal.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\history.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\developer_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\usb.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\top_sites.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\webview.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\app_runtime.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\autotest_private.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\page_capture.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\audio.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\file_system.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\socket.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\serial.cc">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\chrome\common\extensions\api\top_sites.h">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\common\extensions\api</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\tools\json_schema_compiler\cpp_bundle_generator.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\cpp_util.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\cc_generator.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\cpp_generator.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\model.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\..\..\..\tools\json_schema_compiler\util.cc">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="..\..\..\..\tools\json_schema_compiler\h_generator.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\idl_schema.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\..\tools\json_schema_compiler\util.h">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\tools\json_schema_compiler\json_schema.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\util_cc_helper.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\cpp_type_generator.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\compiler.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\..\tools\json_schema_compiler\code.py">
+      <Filter>..\..\..\..\tools\json_schema_compiler\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

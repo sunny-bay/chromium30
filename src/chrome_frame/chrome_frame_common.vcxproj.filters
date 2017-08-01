@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="task_marshaller.cc"/>
+    <ClInclude Include="custom_sync_call_context.h"/>
+    <ClCompile Include="chrome_frame_automation.cc"/>
+    <ClInclude Include="sync_msg_reply_dispatcher.h"/>
+    <ClInclude Include="navigation_constraints.h"/>
+    <ClCompile Include="custom_sync_call_context.cc"/>
+    <ClInclude Include="chrome_launcher_utils.h"/>
+    <ClCompile Include="chrome_frame_delegate.cc"/>
+    <ClCompile Include="navigation_constraints.cc"/>
+    <None Include="chrome_frame.gyp"/>
+    <ClInclude Include="task_marshaller.h"/>
+    <ClInclude Include="chrome_frame_delegate.h"/>
+    <ClInclude Include="chrome_frame_automation.h"/>
+    <ClCompile Include="plugin_url_request.cc"/>
+    <ClInclude Include="plugin_url_request.h"/>
+    <ClCompile Include="chrome_frame_plugin.cc"/>
+    <ClInclude Include="chrome_frame_plugin.h"/>
+    <ClCompile Include="sync_msg_reply_dispatcher.cc"/>
+    <ClCompile Include="chrome_launcher_utils.cc"/>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

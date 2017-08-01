@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer">
+      <UniqueIdentifier>{6284E552-FA73-42B7-3DDD-DA58AC0403DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\setup">
+      <UniqueIdentifier>{10813315-79D2-702F-E3AC-CE979A8A690B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\mini_installer">
+      <UniqueIdentifier>{4C497288-FD02-2E5E-FA26-90C2F295861B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme">
+      <UniqueIdentifier>{4E5567A3-B9FA-49AA-E57B-A59C138D08E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\theme\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build\util\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\setup">
+      <UniqueIdentifier>{10813315-79D2-702F-E3AC-CE979A8A690B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <None Include="VERSION">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="installer\setup\setup.ico">
+      <Filter>installer\setup</Filter>
+    </None>
+    <ClInclude Include="installer\setup\setup_util.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\uninstall.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\setup_constants.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\setup\setup_resource.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\setup\uninstall.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\setup\archive_patch_helper.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\install.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\archive_patch_helper.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\install_worker.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ResourceCompile Include="installer\setup\setup.rc">
+      <Filter>installer\setup</Filter>
+    </ResourceCompile>
+    <ClInclude Include="installer\setup\chrome_frame_ready_mode.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\setup_main.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\chrome_frame_ready_mode.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <setup_version Include="installer\setup\setup_exe_version.rc.version">
+      <Filter>installer\setup</Filter>
+    </setup_version>
+    <ClCompile Include="installer\setup\chrome_frame_quick_enable.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\setup\chrome_frame_quick_enable.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\setup\install_worker.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\setup\install.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\setup_util.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\setup\setup_constants.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <server_dlls Include="installer\mini_installer\chrome.release">
+      <Filter>installer\mini_installer</Filter>
+    </server_dlls>
+    <None Include="app\theme\chromium\BRANDING">
+      <Filter>app\theme\chromium\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <None Include="..\build\util\LASTCHANGE">
+      <Filter>..\build\util\_excluded_files</Filter>
+    </None>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\setup\setup_exe_version.rc">
+      <Filter>$(OutDir)obj\global_intermediate\setup</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="installer">
+      <UniqueIdentifier>{6284E552-FA73-42B7-3DDD-DA58AC0403DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="installer\util\browser_distribution.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\helper.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\google_update_settings.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\google_chrome_sxs_distribution.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\google_update_util.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\copy_reg_key_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\auto_launch_util.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\chrome_app_host_distribution.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\util_constants.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\l10n_string_util.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\self_reg_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\google_update_settings.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\create_dir_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\chrome_frame_distribution.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\create_reg_key_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\delete_reg_value_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\channel_info.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\delete_tree_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\installation_state.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\install_util.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\app_command.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\delete_reg_key_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\chromium_binaries_distribution.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\installer_state.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\duplicate_tree_detector.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\move_tree_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\delete_tree_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\callback_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\installation_state.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\google_update_experiment_util.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\master_preferences_constants.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\google_update_constants.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\install_util.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\helper.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\app_commands.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\work_item_list.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\set_reg_value_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\chrome_app_host_distribution.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\google_update_experiment_util.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\app_command.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\wmi.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\self_reg_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\chrome_frame_distribution.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\create_dir_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\app_commands.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\registry_key_backup.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\copy_reg_key_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\duplicate_tree_detector.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\l10n_string_util.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\google_chrome_binaries_distribution.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\callback_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\google_update_constants.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\google_chrome_distribution_dummy.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\master_preferences_dummy.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\browser_distribution.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\util_constants.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\google_update_util.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\copy_tree_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\copy_tree_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\delete_reg_value_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\wmi.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\master_preferences_constants.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\set_reg_value_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\conditional_work_item_list.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\auto_launch_util.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\chromium_binaries_distribution.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\channel_info.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\registry_key_backup.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\language_selector.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\master_preferences.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\delete_reg_key_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\google_chrome_sxs_distribution.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\google_chrome_binaries_distribution.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\util\create_reg_key_work_item.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\move_tree_work_item.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\util\installer_state.h">
+      <Filter>installer\util</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\util\conditional_work_item_list.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\language_selector.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\util\work_item_list.cc">
+      <Filter>installer\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

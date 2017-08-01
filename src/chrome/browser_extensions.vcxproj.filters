@@ -1,0 +1,2558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\extensions\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\apps">
+      <UniqueIdentifier>{FF146ABB-CCAF-AE8D-FCAE-A2FDD3368B36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\activity_log">
+      <UniqueIdentifier>{851129E4-751F-DAB7-D95F-CC3CA28CFF09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\cookies">
+      <UniqueIdentifier>{3BB016F8-C1E9-BB16-0D08-8373C0A57C34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\downloads_internal">
+      <UniqueIdentifier>{2A94AD0A-1D58-B6A9-2B89-EFAE6CBBB784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\music_manager_private">
+      <UniqueIdentifier>{56ACB87D-C1D5-6EE7-0A40-055F112680DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\music_manager_private\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\webview">
+      <UniqueIdentifier>{D422A624-23E6-A9C2-9D05-D1BA72C30C64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\sync_file_system">
+      <UniqueIdentifier>{59E8D68E-1F5A-C738-DAE4-3CE48A9B31AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\app_runtime">
+      <UniqueIdentifier>{47C5C0A0-F60B-6322-82C2-1CC5BEB716CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\command_line_private">
+      <UniqueIdentifier>{8137AB17-38B4-9666-C733-A0C51DACC4D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\module">
+      <UniqueIdentifier>{29CF2906-7ABF-2D4A-DC05-E4181FCBCECD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\bluetooth">
+      <UniqueIdentifier>{E501ED6C-07F7-22DB-B040-750B9B74D93F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\session_restore">
+      <UniqueIdentifier>{43805E0D-AB31-3551-7B09-8A973658DB85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\webstore_private">
+      <UniqueIdentifier>{1DF882F8-3A58-CE68-2E9A-9F8E3A70A5A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\cloud_print_private">
+      <UniqueIdentifier>{76E4CD90-40E2-0133-3557-72D97B1E0F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\identity_private">
+      <UniqueIdentifier>{F5C5DBB0-3208-140F-7DE7-607D5B963F61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\content_settings">
+      <UniqueIdentifier>{601999FD-1791-FD9F-4699-326EA676A616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\bookmarks">
+      <UniqueIdentifier>{8AB75F6D-0D48-254C-033D-7AC3A80E5BE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_storage">
+      <UniqueIdentifier>{2C726721-0894-0DD2-896A-CCFEE08564F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\serial">
+      <UniqueIdentifier>{993306BD-0AE2-A306-D8B2-436421060119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\serial\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\spellcheck">
+      <UniqueIdentifier>{6CC6F946-EA54-A905-2A39-5837EE28CEF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\signedin_devices">
+      <UniqueIdentifier>{F9D68988-1C69-5964-6632-9AC00744933C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\dial">
+      <UniqueIdentifier>{3B90F287-DE3B-907B-BE07-E278A46F90B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\management">
+      <UniqueIdentifier>{25EEBDF0-30F0-B748-62D2-3AADA869C80D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\extension_action">
+      <UniqueIdentifier>{F9362697-6BB0-6DDB-F0AC-98D96803A96C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\context_menus">
+      <UniqueIdentifier>{335F5462-F465-B0E1-11DB-3119A33C8E2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\page_capture">
+      <UniqueIdentifier>{B6919C2A-EC66-B7B3-E28E-2662BE67DAA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\runtime">
+      <UniqueIdentifier>{1779B421-D65F-F7D8-506B-A3E3D7259D03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_memory">
+      <UniqueIdentifier>{3AFFD627-1715-9DA9-EDEB-C87534D9C8D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\storage">
+      <UniqueIdentifier>{58865380-DD0A-5071-E48F-7846A09B1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\top_sites">
+      <UniqueIdentifier>{27303CF9-6D91-A71E-2332-169DA4B40B7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\media_galleries_private">
+      <UniqueIdentifier>{DA513B15-DF26-BE47-9285-3D26373AAD2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\tabs">
+      <UniqueIdentifier>{9A19A12F-4186-05CC-17A3-2E285F023938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\metrics_private">
+      <UniqueIdentifier>{9A01E319-4B6B-27CD-3C65-41428539E875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\declarative_content">
+      <UniqueIdentifier>{F8632E00-0949-91B3-EC84-DD51D18B4004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\web_navigation">
+      <UniqueIdentifier>{41718990-8C4E-8E2E-17C0-EF3401447E48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\input">
+      <UniqueIdentifier>{2F6C04D2-C90B-4FD0-8BF5-B540F7C337DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\font_settings">
+      <UniqueIdentifier>{5F918E97-66DF-E456-7606-1E6E800B11A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\app_current_window_internal">
+      <UniqueIdentifier>{1D2E47C2-6460-16FF-CFC8-1EE7372E2AE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\notifications">
+      <UniqueIdentifier>{8B864D51-51C2-204B-66F4-F7E9B50F2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\discovery">
+      <UniqueIdentifier>{3479D38D-86D8-13F4-9893-7ED63DABD55F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\app_window">
+      <UniqueIdentifier>{0AC8F570-A582-25C2-9FF7-77BA343D7A46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\autotest_private">
+      <UniqueIdentifier>{64B16090-6E3F-67D2-44AE-836AB5C04D3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\file_handlers">
+      <UniqueIdentifier>{D6A29FC5-8E07-C62D-D43A-725A37C7CC8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\declarative_webrequest">
+      <UniqueIdentifier>{C82FAC1A-DF0E-006F-65D7-DFA1A98B2727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\dns">
+      <UniqueIdentifier>{D78B782C-4887-6E4F-B130-4892ECB17313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\power">
+      <UniqueIdentifier>{7B9A8F4C-F8C4-8C09-18B2-DF8171E88027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\location">
+      <UniqueIdentifier>{43C187DE-47E0-983B-08B8-5362BC77CDC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\processes">
+      <UniqueIdentifier>{AB758175-47FF-2B44-2442-5594B9A41AC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\downloads">
+      <UniqueIdentifier>{B7011001-5027-C224-F006-268A7BA6619E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\diagnostics">
+      <UniqueIdentifier>{7907F108-B1A5-16A1-93FD-E96B1B9D4482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\diagnostics\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\networking_private">
+      <UniqueIdentifier>{50FE1C99-1E72-224B-054A-B0F1478A69A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\networking_private\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\tab_capture">
+      <UniqueIdentifier>{5BAC6997-53C4-B17C-DC6B-B1F115BAA481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_display">
+      <UniqueIdentifier>{33294500-B563-D597-C04E-0E308DD6F525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_display\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\recovery_private">
+      <UniqueIdentifier>{4B41D9A1-B505-6455-65F0-4F76ED559748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_indicator">
+      <UniqueIdentifier>{DE5E30AC-3630-6704-8F22-48D7A0EAF8B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\declarative">
+      <UniqueIdentifier>{BDFF5990-B609-B15C-512C-3DE54ADE315B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\preference">
+      <UniqueIdentifier>{A49F341B-B255-3C94-983E-3F30F976F571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\i18n">
+      <UniqueIdentifier>{366E8577-6226-B711-6772-2EA2AF5F5D10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\streams_private">
+      <UniqueIdentifier>{802B984F-42F1-E938-9040-1EB9E5A87C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\file_system">
+      <UniqueIdentifier>{6DF4BEA2-D0F1-BB75-372C-E2A62E093648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\identity">
+      <UniqueIdentifier>{11DF2418-FDEF-F350-FC15-1EC8C3A3EAB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\permissions">
+      <UniqueIdentifier>{A98183AB-A3A3-EAA7-6BB0-918E188BA788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\bookmark_manager_private">
+      <UniqueIdentifier>{44DE80FB-65A7-2ECE-5500-F154CA82B441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\commands">
+      <UniqueIdentifier>{D0D999A7-070F-6D3F-62A4-22FDE2667F6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\push_messaging">
+      <UniqueIdentifier>{5C5F9CEB-488E-9739-F6E2-F262626DEE14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\activity_log_private">
+      <UniqueIdentifier>{D935AF4B-C29E-4789-8CF4-E80EF40FE66A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\socket">
+      <UniqueIdentifier>{1CB6C122-F983-4194-1807-39C03FB001C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\web_request">
+      <UniqueIdentifier>{20714428-C7FE-0E97-4E5E-EA11DFCD4FC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\record">
+      <UniqueIdentifier>{3716BD60-26D0-BDEC-A7EC-E26CF417E1E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_private">
+      <UniqueIdentifier>{12A04EFB-8EE9-0368-D474-BF67706D9652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_cpu">
+      <UniqueIdentifier>{18173D08-A5AA-5DF3-F1D0-91210A7FA1D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\browsing_data">
+      <UniqueIdentifier>{720CC405-6689-8D9E-7FCD-9FF554AF627D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\media_galleries">
+      <UniqueIdentifier>{E6E173C0-6DC0-CF1D-A245-71632AE6E864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\feedback_private">
+      <UniqueIdentifier>{027D833B-BF72-DC99-9D8E-1F943DC65624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\feedback_private\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\idle">
+      <UniqueIdentifier>{2F32AF9E-EC78-3F04-1B43-8D99B0DD8C27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\history">
+      <UniqueIdentifier>{DFF1F85A-B765-5EDD-189E-14283DDFC252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\omnibox">
+      <UniqueIdentifier>{1D0CB406-E338-C5DE-32BA-4713583CF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\usb">
+      <UniqueIdentifier>{F129B4A4-D25F-CB9D-2909-50D8FE72E625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\developer_private">
+      <UniqueIdentifier>{9C374D82-F6F4-DFC9-1B28-2CD0C8B7D865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\alarms">
+      <UniqueIdentifier>{837096D4-DF94-6E3D-8EB8-0A6B6FCDF5A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\messaging">
+      <UniqueIdentifier>{DBEA1545-C432-FA21-211A-6963F403A6BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\messaging\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\idltest">
+      <UniqueIdentifier>{F87E5125-0EC7-5AB7-39D6-60AC47D23C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\audio">
+      <UniqueIdentifier>{D4AF4849-65C6-75FE-2B6E-F6BD18C08214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\audio\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_info">
+      <UniqueIdentifier>{CD8B7A4D-1478-B7D9-B74C-06AA5D811234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\proxy">
+      <UniqueIdentifier>{DB8B4CC8-9E72-B499-B612-B1CD65A064EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\updater">
+      <UniqueIdentifier>{825340A3-33C2-97BE-44EC-101B06067EA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\error_console">
+      <UniqueIdentifier>{BC9D8727-61F0-D08B-D51D-B099C1575E62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="..\extensions\browser\view_type_utils.cc">
+      <Filter>..\extensions\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\browser\view_type_utils.h">
+      <Filter>..\extensions\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extensions\browser\file_reader.h">
+      <Filter>..\extensions\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\browser\file_reader.cc">
+      <Filter>..\extensions\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\browser\pref_names.h">
+      <Filter>..\extensions\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="..\extensions\browser\pref_names.cc">
+      <Filter>..\extensions\browser</Filter>
+    </ClCompile>
+    <ClInclude Include="..\extensions\browser\extension_prefs_scope.h">
+      <Filter>..\extensions\browser</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\apps\shortcut_manager_factory.h">
+      <Filter>browser\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\apps\shortcut_manager.h">
+      <Filter>browser\apps</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\apps\shortcut_manager.cc">
+      <Filter>browser\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\apps\shortcut_manager_factory.cc">
+      <Filter>browser\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\webstore_install_helper.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\browser_event_router.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_warning_badge_service.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\webstore_inline_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_context_menu_model.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_function_dispatcher.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_icon_manager.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_toolbar_model.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_keybinding_registry.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_process_manager.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_prefs_factory.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\bundle_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_toolbar_model.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\shell_window_registry.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_scoped_prefs.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\browser_extension_window_controller.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_prefs.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\install_tracker.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\external_pref_loader.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\webstore_install_helper.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_system.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\browser_permissions_policy_delegate.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\external_provider_interface.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\external_registry_loader_win.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\external_pref_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_function_dispatcher.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\image_loader_factory.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\browser_extension_window_controller.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_function_util.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\event_names.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\user_script_master.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\suggest_permission_util.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_web_ui_override_registrar.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_icon_image.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\convert_user_script.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_sync_bundle.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_web_ui.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_special_storage_policy.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\process_map.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\app_sync_bundle.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\bundle_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\user_script_master.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\webstore_data_fetcher.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\component_loader.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extensions_quota_service.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_host.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\tab_helper.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\page_action_controller.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_warning_service.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_pref_store.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\default_apps.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\startup_helper.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_context_menu_model.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_warning_service.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\external_component_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\theme_installed_infobar_delegate.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\context_menu_matcher.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_icon_manager.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_service.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_pref_value_map.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\image_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\plugin_manager.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_info_map.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\webstore_standalone_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_renderer_state.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_creator.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\webstore_data_fetcher.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\webstore_data_fetcher_delegate.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\image_loader.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\permissions_updater.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\window_controller.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\lazy_background_task_queue.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\crx_installer_error.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_pref_value_map.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_web_ui.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\user_script_listener.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_function_registry.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_function_registry.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\install_tracker_factory.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_uninstall_dialog.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\shell_window_registry.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_process_manager.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\convert_web_app.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\management_policy.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\standard_management_policy_provider.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\active_tab_permission_granter.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\convert_user_script.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_action.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_disabled_ui.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\app_sync_data.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_error_ui_default.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_function_util.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\startup_helper.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\admin_policy.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_error_reporter.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_protocols.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\external_install_ui.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\external_policy_loader.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_action_icon_factory.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\default_apps.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\state_store.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_install_ui.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\window_controller_list_observer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\external_loader.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_resource_protocols.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_webkit_preferences.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\webstore_startup_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_keybinding_registry.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\platform_app_launcher.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_warning_set.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_sync_data.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\menu_manager.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\external_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\app_icon_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\script_bubble_controller.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\webstore_startup_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_pref_value_map_factory.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\message_handler.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\window_controller_list.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\event_listener_map.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\install_tracker.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\browser_action_test_util.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\tab_helper.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\context_menu_matcher.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\pack_extension_job.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\app_icon_loader_impl.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_resource_protocols.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\install_tracker_factory.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_uninstall_dialog.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\page_action_controller.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\app_sync_data.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_error_ui_default.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_error_reporter.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\app_icon_loader_impl.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\requirements_checker.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\event_router_forwarder.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\window_controller_list.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\suggest_permission_util.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\pack_extension_job.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\component_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\window_controller.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\crx_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\webstore_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_tab_util.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\update_observer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_prefs_factory.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\script_badge_controller.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\image_loader_factory.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\event_listener_map.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extensions_quota_service.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\app_sync_bundle.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_warning_badge_service.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\installed_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_protocols.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_system_factory.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_action.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_prefs.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\pending_extension_info.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_creator_filter.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\webstore_standalone_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\installed_loader.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\navigation_observer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\webstore_inline_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\convert_web_app.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_install_prompt.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_sorting.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\admin_policy.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\navigation_observer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\blacklist.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\standard_management_policy_provider.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_sync_bundle.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_system.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_creator.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_action_icon_factory.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_warning_set.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_action_manager.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\pending_extension_manager.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\webstore_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\blacklist.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\external_component_loader.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\requirements_checker.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\event_names.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_special_storage_policy.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_icon_image.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\event_router.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\event_router.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\external_policy_loader.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\browser_permissions_policy_delegate.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\user_script_listener.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_infobar_delegate.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_function.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_info_map.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_install_ui.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_action_manager.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\external_registry_loader_win.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\script_bubble_controller.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\lazy_background_task_queue.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_sync_data.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_renderer_state.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\menu_manager.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_sorting.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\event_router_forwarder.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\script_badge_controller.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\theme_installed_infobar_delegate.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\permissions_updater.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_system_factory.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_infobar_delegate.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\install_observer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\sandboxed_unpacker.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\active_tab_permission_granter.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\pending_extension_info.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\external_provider_impl.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\pending_extension_manager.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\unpacked_installer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\message_handler.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\sandboxed_unpacker.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\crx_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\state_store.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_web_ui_override_registrar.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\platform_app_launcher.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_pref_value_map_factory.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\process_map.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\data_deleter.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_disabled_ui.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\data_deleter.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_pref_store.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_webkit_preferences.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_error_ui.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\browser_event_router.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\plugin_manager.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_service.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\extension_error_ui.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_function.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\management_policy.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_host.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\location_bar_controller.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\script_executor.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\external_install_ui.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_creator_filter.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\unpacked_installer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\script_executor.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\external_provider_impl.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\extension_tab_util.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_install_prompt.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_host_mac.h">
+      <Filter>browser\extensions\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\extensions\extension_host_mac.mm">
+      <Filter>browser\extensions\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\extensions\activity_log\activity_log.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\activity_log\stream_noargs_ui_policy.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\activity_log\api_name_constants.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\activity_log\stream_noargs_ui_policy.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\activity_log\activity_database.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\activity_log\activity_log_policy.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\activity_log\fullstream_ui_policy.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\activity_log\activity_log.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\activity_log\activity_action_constants.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\activity_log\activity_action_constants.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\activity_log\activity_database.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\activity_log\activity_log_policy.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\activity_log\web_request_constants.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\activity_log\fullstream_ui_policy.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\activity_log\web_request_constants.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\activity_log\activity_actions.h">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\activity_log\activity_actions.cc">
+      <Filter>browser\extensions\activity_log</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\api_resource.cc">
+      <Filter>browser\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\api_resource.h">
+      <Filter>browser\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\api_function.cc">
+      <Filter>browser\extensions\api</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\api_resource_manager.h">
+      <Filter>browser\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\execute_code_function.h">
+      <Filter>browser\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\profile_keyed_api_factory.h">
+      <Filter>browser\extensions\api</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\api_function.h">
+      <Filter>browser\extensions\api</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\execute_code_function.cc">
+      <Filter>browser\extensions\api</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\cookies\cookies_api_constants.cc">
+      <Filter>browser\extensions\api\cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\cookies\cookies_helpers.h">
+      <Filter>browser\extensions\api\cookies</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\cookies\cookies_helpers.cc">
+      <Filter>browser\extensions\api\cookies</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\cookies\cookies_api.cc">
+      <Filter>browser\extensions\api\cookies</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\cookies\cookies_api_constants.h">
+      <Filter>browser\extensions\api\cookies</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\cookies\cookies_api.h">
+      <Filter>browser\extensions\api\cookies</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\debugger\debugger_api_constants.cc">
+      <Filter>browser\extensions\api\debugger</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\debugger\debugger_api.h">
+      <Filter>browser\extensions\api\debugger</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\debugger\debugger_api.cc">
+      <Filter>browser\extensions\api\debugger</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\debugger\debugger_api_constants.h">
+      <Filter>browser\extensions\api\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\downloads_internal\downloads_internal_api.h">
+      <Filter>browser\extensions\api\downloads_internal</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\downloads_internal\downloads_internal_api.cc">
+      <Filter>browser\extensions\api\downloads_internal</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\music_manager_private\music_manager_private_api.h">
+      <Filter>browser\extensions\api\music_manager_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\music_manager_private\device_id.cc">
+      <Filter>browser\extensions\api\music_manager_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\music_manager_private\music_manager_private_api.cc">
+      <Filter>browser\extensions\api\music_manager_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\music_manager_private\device_id_win.cc">
+      <Filter>browser\extensions\api\music_manager_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\music_manager_private\device_id.h">
+      <Filter>browser\extensions\api\music_manager_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\music_manager_private\device_id_linux.cc">
+      <Filter>browser\extensions\api\music_manager_private\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\music_manager_private\device_id_chromeos.cc">
+      <Filter>browser\extensions\api\music_manager_private\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\music_manager_private\device_id_mac.cc">
+      <Filter>browser\extensions\api\music_manager_private\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\webview\webview_api.h">
+      <Filter>browser\extensions\api\webview</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\webview\webview_api.cc">
+      <Filter>browser\extensions\api\webview</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\sync_file_system\extension_sync_event_observer.h">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\sync_file_system\extension_sync_event_observer_factory.cc">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\sync_file_system\sync_file_system_api.h">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\sync_file_system\sync_file_system_api_helpers.h">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\sync_file_system\extension_sync_event_observer_factory.h">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\sync_file_system\extension_sync_event_observer.cc">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\sync_file_system\sync_file_system_api.cc">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\sync_file_system\sync_file_system_api_helpers.cc">
+      <Filter>browser\extensions\api\sync_file_system</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\app_runtime\app_runtime_api.h">
+      <Filter>browser\extensions\api\app_runtime</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\app_runtime\app_runtime_api.cc">
+      <Filter>browser\extensions\api\app_runtime</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\command_line_private\command_line_private_api.h">
+      <Filter>browser\extensions\api\command_line_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\command_line_private\command_line_private_api.cc">
+      <Filter>browser\extensions\api\command_line_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\module\module.h">
+      <Filter>browser\extensions\api\module</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\module\module.cc">
+      <Filter>browser\extensions\api\module</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bluetooth\bluetooth_extension_function.cc">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\bluetooth\bluetooth_event_router.h">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\bluetooth\bluetooth_api.cc">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\bluetooth\bluetooth_api.h">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\bluetooth\bluetooth_api_factory.cc">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bluetooth\bluetooth_api_utils.cc">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\bluetooth\bluetooth_api_utils.h">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\bluetooth\bluetooth_extension_function.h">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\bluetooth\bluetooth_api_factory.h">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\bluetooth\bluetooth_event_router.cc">
+      <Filter>browser\extensions\api\bluetooth</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\session_restore\session_restore_api.cc">
+      <Filter>browser\extensions\api\session_restore</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\session_restore\session_restore_api.h">
+      <Filter>browser\extensions\api\session_restore</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\webstore_private\webstore_private_api.cc">
+      <Filter>browser\extensions\api\webstore_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\webstore_private\webstore_private_api.h">
+      <Filter>browser\extensions\api\webstore_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\cloud_print_private\cloud_print_private_api.cc">
+      <Filter>browser\extensions\api\cloud_print_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\cloud_print_private\cloud_print_private_api.h">
+      <Filter>browser\extensions\api\cloud_print_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\identity_private\identity_private_api.h">
+      <Filter>browser\extensions\api\identity_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\identity_private\identity_private_api.cc">
+      <Filter>browser\extensions\api\identity_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\content_settings\content_settings_api_constants.h">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\content_settings\content_settings_api.cc">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\content_settings\content_settings_api_constants.cc">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\content_settings\content_settings_store.h">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\content_settings\content_settings_api.h">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\content_settings\content_settings_store.cc">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\content_settings\content_settings_helpers.h">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\content_settings\content_settings_helpers.cc">
+      <Filter>browser\extensions\api\content_settings</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\bookmarks\bookmarks_api.h">
+      <Filter>browser\extensions\api\bookmarks</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\bookmarks\bookmarks_api.cc">
+      <Filter>browser\extensions\api\bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bookmarks\bookmark_api_constants.cc">
+      <Filter>browser\extensions\api\bookmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bookmarks\bookmark_api_helpers.cc">
+      <Filter>browser\extensions\api\bookmarks</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\bookmarks\bookmark_api_helpers.h">
+      <Filter>browser\extensions\api\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\bookmarks\bookmark_api_constants.h">
+      <Filter>browser\extensions\api\bookmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_storage\system_storage_api.h">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\system_storage\system_storage_api.cc">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_storage\storage_info_provider.cc">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_storage\storage_free_space_observer.h">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_storage\storage_info_provider.h">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\serial\serial_connection.h">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\serial\serial_port_enumerator_win.cc">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\serial\serial_api.cc">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\serial\serial_port_enumerator.h">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\serial\serial_port_enumerator.cc">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\serial\serial_connection_win.cc">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\serial\serial_connection.cc">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\serial\serial_api.h">
+      <Filter>browser\extensions\api\serial</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\serial\serial_port_enumerator_posix.cc">
+      <Filter>browser\extensions\api\serial\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\serial\serial_connection_posix.cc">
+      <Filter>browser\extensions\api\serial\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\spellcheck\spellcheck_api.cc">
+      <Filter>browser\extensions\api\spellcheck</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\spellcheck\spellcheck_api.h">
+      <Filter>browser\extensions\api\spellcheck</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\signedin_devices\id_mapping_helper.h">
+      <Filter>browser\extensions\api\signedin_devices</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\signedin_devices\signedin_devices_api.h">
+      <Filter>browser\extensions\api\signedin_devices</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\signedin_devices\id_mapping_helper.cc">
+      <Filter>browser\extensions\api\signedin_devices</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\signedin_devices\signedin_devices_api.cc">
+      <Filter>browser\extensions\api\signedin_devices</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\dial\dial_registry.cc">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\dial\dial_service.cc">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\dial\dial_registry.h">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\dial\dial_api_factory.cc">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\dial\dial_api_factory.h">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\dial\dial_device_data.cc">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\dial\dial_api.h">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\dial\dial_api.cc">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\dial\dial_service.h">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\dial\dial_device_data.h">
+      <Filter>browser\extensions\api\dial</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\management\management_api.cc">
+      <Filter>browser\extensions\api\management</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\management\management_api.h">
+      <Filter>browser\extensions\api\management</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\management\management_api_constants.h">
+      <Filter>browser\extensions\api\management</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\management\management_api_constants.cc">
+      <Filter>browser\extensions\api\management</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\extension_action\extension_page_actions_api_constants.h">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\extension_action\extension_action_api.cc">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\extension_action\extension_page_actions_api_constants.cc">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\extension_action\extension_action_api.h">
+      <Filter>browser\extensions\api\extension_action</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\context_menus\context_menus_api.cc">
+      <Filter>browser\extensions\api\context_menus</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\context_menus\context_menus_api.h">
+      <Filter>browser\extensions\api\context_menus</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\page_capture\page_capture_api.cc">
+      <Filter>browser\extensions\api\page_capture</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\page_capture\page_capture_api.h">
+      <Filter>browser\extensions\api\page_capture</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\runtime\runtime_api.cc">
+      <Filter>browser\extensions\api\runtime</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\runtime\runtime_api.h">
+      <Filter>browser\extensions\api\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_memory\system_memory_api.h">
+      <Filter>browser\extensions\api\system_memory</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_memory\memory_info_provider.h">
+      <Filter>browser\extensions\api\system_memory</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\system_memory\memory_info_provider.cc">
+      <Filter>browser\extensions\api\system_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_memory\system_memory_api.cc">
+      <Filter>browser\extensions\api\system_memory</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\value_store_cache.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\weak_unlimited_settings_storage.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\value_store_cache.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\syncable_settings_storage.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\storage\settings_storage_quota_enforcer.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\sync_or_local_value_store_cache.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\storage\syncable_settings_storage.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\managed_value_store_cache.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\settings_sync_processor.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\storage\settings_sync_processor.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\settings_namespace.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\leveldb_settings_storage_factory.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\settings_storage_quota_enforcer.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\settings_backend.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\storage_api.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\settings_observer.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\settings_sync_util.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\setting_sync_data.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\storage\managed_value_store_cache.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\storage\settings_frontend.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\policy_value_store.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\storage\sync_or_local_value_store_cache.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\leveldb_settings_storage_factory.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\settings_storage_factory.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\storage\settings_sync_util.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\settings_namespace.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\storage\setting_sync_data.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\settings_backend.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\policy_value_store.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\storage_api.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\storage\weak_unlimited_settings_storage.cc">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\storage\settings_frontend.h">
+      <Filter>browser\extensions\api\storage</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\top_sites\top_sites_api.cc">
+      <Filter>browser\extensions\api\top_sites</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\top_sites\top_sites_api.h">
+      <Filter>browser\extensions\api\top_sites</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\media_galleries_private\gallery_watch_manager.h">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\media_galleries_private\media_galleries_private_event_router.cc">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\media_galleries_private\gallery_watch_manager.cc">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\media_galleries_private\gallery_watch_state_tracker.cc">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\media_galleries_private\media_galleries_private_api.cc">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\media_galleries_private\gallery_watch_state_tracker.h">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\media_galleries_private\media_galleries_private_api.h">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\media_galleries_private\media_galleries_private_event_router.h">
+      <Filter>browser\extensions\api\media_galleries_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\tabs\windows_event_router.h">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\tabs\tabs_api.cc">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\tabs\tabs_constants.h">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\tabs\tabs_windows_api.h">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\tabs\tabs_windows_api.cc">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\tabs\tabs_api.h">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\tabs\windows_event_router.cc">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\tabs\tabs_constants.cc">
+      <Filter>browser\extensions\api\tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\metrics_private\metrics_private_api.cc">
+      <Filter>browser\extensions\api\metrics_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\metrics_private\metrics_private_api.h">
+      <Filter>browser\extensions\api\metrics_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative_content\content_action.h">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative_content\content_action.cc">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative_content\content_constants.cc">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative_content\content_constants.h">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative_content\content_rules_registry.h">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative_content\content_condition.h">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative_content\content_condition.cc">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative_content\content_rules_registry.cc">
+      <Filter>browser\extensions\api\declarative_content</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\web_navigation\web_navigation_api.h">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\web_navigation\frame_navigation_state.h">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\web_navigation\frame_navigation_state.cc">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\web_navigation\web_navigation_api_helpers.h">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\web_navigation\web_navigation_api_helpers.cc">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\web_navigation\web_navigation_api_constants.cc">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\web_navigation\web_navigation_api_constants.h">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\web_navigation\web_navigation_api.cc">
+      <Filter>browser\extensions\api\web_navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\test\test_api.cc">
+      <Filter>browser\extensions\api\test</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\test\test_api.h">
+      <Filter>browser\extensions\api\test</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\input\input.h">
+      <Filter>browser\extensions\api\input</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\input\input.cc">
+      <Filter>browser\extensions\api\input</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\font_settings\font_settings_api.h">
+      <Filter>browser\extensions\api\font_settings</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\font_settings\font_settings_api.cc">
+      <Filter>browser\extensions\api\font_settings</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\app_current_window_internal\app_current_window_internal_api.h">
+      <Filter>browser\extensions\api\app_current_window_internal</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\app_current_window_internal\app_current_window_internal_api.cc">
+      <Filter>browser\extensions\api\app_current_window_internal</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\notifications\notifications_api.h">
+      <Filter>browser\extensions\api\notifications</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\notifications\notifications_api.cc">
+      <Filter>browser\extensions\api\notifications</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\discovery\suggested_links_registry_factory.h">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\discovery\discovery_api.h">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\discovery\suggested_links_registry.cc">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\discovery\discovery_api.cc">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\discovery\suggested_link.cc">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\discovery\suggested_link.h">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\discovery\suggested_links_registry.h">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\discovery\suggested_links_registry_factory.cc">
+      <Filter>browser\extensions\api\discovery</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\app_window\app_window_api.cc">
+      <Filter>browser\extensions\api\app_window</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\app_window\app_window_api.h">
+      <Filter>browser\extensions\api\app_window</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\autotest_private\autotest_private_api.h">
+      <Filter>browser\extensions\api\autotest_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\autotest_private\autotest_private_api.cc">
+      <Filter>browser\extensions\api\autotest_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\autotest_private\autotest_private_api_factory.cc">
+      <Filter>browser\extensions\api\autotest_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\autotest_private\autotest_private_api_factory.h">
+      <Filter>browser\extensions\api\autotest_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\file_handlers\app_file_handler_util.h">
+      <Filter>browser\extensions\api\file_handlers</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\file_handlers\app_file_handler_util.cc">
+      <Filter>browser\extensions\api\file_handlers</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative_webrequest\request_stage.h">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative_webrequest\webrequest_constants.cc">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative_webrequest\webrequest_condition.h">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative_webrequest\request_stage.cc">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative_webrequest\webrequest_condition_attribute.cc">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative_webrequest\webrequest_action.cc">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative_webrequest\webrequest_constants.h">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative_webrequest\webrequest_rules_registry.cc">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative_webrequest\webrequest_rules_registry.h">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative_webrequest\webrequest_condition.cc">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative_webrequest\webrequest_condition_attribute.h">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative_webrequest\webrequest_action.h">
+      <Filter>browser\extensions\api\declarative_webrequest</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\dns\dns_api.cc">
+      <Filter>browser\extensions\api\dns</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\dns\host_resolver_wrapper.cc">
+      <Filter>browser\extensions\api\dns</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\dns\host_resolver_wrapper.h">
+      <Filter>browser\extensions\api\dns</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\dns\dns_api.h">
+      <Filter>browser\extensions\api\dns</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\power\power_api.h">
+      <Filter>browser\extensions\api\power</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\power\power_api_manager.h">
+      <Filter>browser\extensions\api\power</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\power\power_api.cc">
+      <Filter>browser\extensions\api\power</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\power\power_api_manager.cc">
+      <Filter>browser\extensions\api\power</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\location\location_manager.cc">
+      <Filter>browser\extensions\api\location</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\location\location_api.h">
+      <Filter>browser\extensions\api\location</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\location\location_manager.h">
+      <Filter>browser\extensions\api\location</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\location\location_api.cc">
+      <Filter>browser\extensions\api\location</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\processes\processes_api.h">
+      <Filter>browser\extensions\api\processes</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\processes\processes_api_constants.h">
+      <Filter>browser\extensions\api\processes</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\processes\processes_api_constants.cc">
+      <Filter>browser\extensions\api\processes</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\processes\processes_api.cc">
+      <Filter>browser\extensions\api\processes</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\downloads\downloads_api.h">
+      <Filter>browser\extensions\api\downloads</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\downloads\downloads_api.cc">
+      <Filter>browser\extensions\api\downloads</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\diagnostics\diagnostics_api.cc">
+      <Filter>browser\extensions\api\diagnostics</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\diagnostics\diagnostics_api.h">
+      <Filter>browser\extensions\api\diagnostics</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\diagnostics\diagnostics_api_nonchromeos.cc">
+      <Filter>browser\extensions\api\diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\diagnostics\diagnostics_api_chromeos.cc">
+      <Filter>browser\extensions\api\diagnostics\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\networking_private\networking_private_event_router.h">
+      <Filter>browser\extensions\api\networking_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\networking_private\networking_private_api_nonchromeos.cc">
+      <Filter>browser\extensions\api\networking_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\networking_private\networking_private_event_router_factory.h">
+      <Filter>browser\extensions\api\networking_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\networking_private\networking_private_event_router_factory.cc">
+      <Filter>browser\extensions\api\networking_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\networking_private\networking_private_api.h">
+      <Filter>browser\extensions\api\networking_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\networking_private\networking_private_event_router_chromeos.cc">
+      <Filter>browser\extensions\api\networking_private\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\networking_private\networking_private_api_chromeos.cc">
+      <Filter>browser\extensions\api\networking_private\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\tab_capture\tab_capture_registry_factory.cc">
+      <Filter>browser\extensions\api\tab_capture</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\tab_capture\tab_capture_registry.h">
+      <Filter>browser\extensions\api\tab_capture</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\tab_capture\tab_capture_api.h">
+      <Filter>browser\extensions\api\tab_capture</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\tab_capture\tab_capture_api.cc">
+      <Filter>browser\extensions\api\tab_capture</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\tab_capture\tab_capture_registry_factory.h">
+      <Filter>browser\extensions\api\tab_capture</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\tab_capture\tab_capture_registry.cc">
+      <Filter>browser\extensions\api\tab_capture</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_display\display_info_provider_win.cc">
+      <Filter>browser\extensions\api\system_display</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_display\display_info_provider.cc">
+      <Filter>browser\extensions\api\system_display</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_display\system_display_api.h">
+      <Filter>browser\extensions\api\system_display</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_display\display_info_provider.h">
+      <Filter>browser\extensions\api\system_display</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\system_display\system_display_api.cc">
+      <Filter>browser\extensions\api\system_display</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_display\display_info_provider_chromeos.cc">
+      <Filter>browser\extensions\api\system_display\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_display\display_info_provider_mac.cc">
+      <Filter>browser\extensions\api\system_display\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_display\display_info_provider_x11.cc">
+      <Filter>browser\extensions\api\system_display\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\recovery_private\recovery_private_api.cc">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\recovery_private\write_from_file_operation.cc">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\recovery_private\write_from_file_operation.h">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\recovery_private\write_from_url_operation.h">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\recovery_private\write_from_url_operation.cc">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\recovery_private\recovery_private_api.h">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\recovery_private\recovery_operation.h">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\recovery_private\recovery_operation.cc">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\recovery_private\recovery_operation_manager.h">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\recovery_private\recovery_operation_manager.cc">
+      <Filter>browser\extensions\api\recovery_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_indicator\system_indicator_manager.h">
+      <Filter>browser\extensions\api\system_indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_indicator\system_indicator_api.h">
+      <Filter>browser\extensions\api\system_indicator</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\system_indicator\system_indicator_manager.cc">
+      <Filter>browser\extensions\api\system_indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_indicator\system_indicator_manager_factory.cc">
+      <Filter>browser\extensions\api\system_indicator</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_indicator\system_indicator_manager_factory.h">
+      <Filter>browser\extensions\api\system_indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative\initializing_rules_registry.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative\declarative_api.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative\rules_registry.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative\deduping_factory.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative\test_rules_registry.cc">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative\rules_registry_with_cache.cc">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative\rules_registry_service.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative\test_rules_registry.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\declarative\rules_registry_with_cache.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative\initializing_rules_registry.cc">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\declarative\declarative_api.cc">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\declarative\declarative_rule.h">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\declarative\rules_registry_service.cc">
+      <Filter>browser\extensions\api\declarative</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\preference\preference_api_constants.cc">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\preference\preference_helpers.h">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\preference\preference_api.cc">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\preference\chrome_direct_setting_api.h">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\preference\chrome_direct_setting.cc">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\preference\preference_api_constants.h">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\preference\chrome_direct_setting.h">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\preference\preference_api.h">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\preference\preference_helpers.cc">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\preference\chrome_direct_setting_api.cc">
+      <Filter>browser\extensions\api\preference</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\i18n\i18n_api.h">
+      <Filter>browser\extensions\api\i18n</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\i18n\i18n_api.cc">
+      <Filter>browser\extensions\api\i18n</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\streams_private\streams_private_api.h">
+      <Filter>browser\extensions\api\streams_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\streams_private\streams_private_api.cc">
+      <Filter>browser\extensions\api\streams_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\file_system\file_system_api.h">
+      <Filter>browser\extensions\api\file_system</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\file_system\file_system_api.cc">
+      <Filter>browser\extensions\api\file_system</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\identity\experimental_identity_api.h">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\identity\experimental_identity_api.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\identity\experimental_web_auth_flow.h">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\identity\identity_api.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\identity\identity_signin_flow.h">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\identity\identity_api.h">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\identity\identity_mint_queue.h">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\identity\experimental_web_auth_flow.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\identity\web_auth_flow.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\identity\gaia_web_auth_flow.h">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\identity\web_auth_flow.h">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\identity\gaia_web_auth_flow.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\identity\identity_signin_flow.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\identity\identity_mint_queue.cc">
+      <Filter>browser\extensions\api\identity</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\permissions\permissions_api.h">
+      <Filter>browser\extensions\api\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\permissions\permissions_api.cc">
+      <Filter>browser\extensions\api\permissions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\permissions\permissions_api_helpers.cc">
+      <Filter>browser\extensions\api\permissions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\permissions\permissions_api_helpers.h">
+      <Filter>browser\extensions\api\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\bookmark_manager_private\bookmark_manager_private_api_constants.cc">
+      <Filter>browser\extensions\api\bookmark_manager_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\bookmark_manager_private\bookmark_manager_private_api.cc">
+      <Filter>browser\extensions\api\bookmark_manager_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\bookmark_manager_private\bookmark_manager_private_api_constants.h">
+      <Filter>browser\extensions\api\bookmark_manager_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\bookmark_manager_private\bookmark_manager_private_api.h">
+      <Filter>browser\extensions\api\bookmark_manager_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\commands\commands.cc">
+      <Filter>browser\extensions\api\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\commands\command_service.h">
+      <Filter>browser\extensions\api\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\commands\commands.h">
+      <Filter>browser\extensions\api\commands</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\commands\command_service.cc">
+      <Filter>browser\extensions\api\commands</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\push_messaging\push_messaging_api.h">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\push_messaging\obfuscated_gaia_id_fetcher.cc">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\push_messaging\obfuscated_gaia_id_fetcher.h">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\push_messaging\push_messaging_invalidation_handler.h">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\push_messaging\push_messaging_invalidation_mapper.h">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\push_messaging\push_messaging_api.cc">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\push_messaging\push_messaging_invalidation_handler_delegate.h">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\push_messaging\push_messaging_invalidation_handler.cc">
+      <Filter>browser\extensions\api\push_messaging</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\activity_log_private\activity_log_private_api.h">
+      <Filter>browser\extensions\api\activity_log_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\activity_log_private\activity_log_private_api.cc">
+      <Filter>browser\extensions\api\activity_log_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\socket\socket_api.h">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\socket\udp_socket.h">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\socket\socket.cc">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\socket\socket_api.cc">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\socket\tcp_socket.h">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\socket\socket.h">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\socket\udp_socket.cc">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\socket\tcp_socket.cc">
+      <Filter>browser\extensions\api\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\web_request\web_request_permissions.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\web_request\web_request_api.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\web_request\web_request_api_constants.h">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\web_request\form_data_parser.h">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\web_request\web_request_api_helpers.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\web_request\web_request_api_constants.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\web_request\web_request_api.h">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\web_request\web_request_permissions.h">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\web_request\form_data_parser.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\web_request\web_request_time_tracker.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\web_request\web_request_api_helpers.h">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\web_request\upload_data_presenter.h">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\web_request\upload_data_presenter.cc">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\web_request\web_request_time_tracker.h">
+      <Filter>browser\extensions\api\web_request</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\record\record_api.cc">
+      <Filter>browser\extensions\api\record</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\record\record_api.h">
+      <Filter>browser\extensions\api\record</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_private\system_private_api.h">
+      <Filter>browser\extensions\api\system_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\system_private\system_private_api.cc">
+      <Filter>browser\extensions\api\system_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_cpu\system_cpu_api.h">
+      <Filter>browser\extensions\api\system_cpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\system_cpu\system_cpu_api.cc">
+      <Filter>browser\extensions\api\system_cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_cpu\cpu_info_provider.cc">
+      <Filter>browser\extensions\api\system_cpu</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_cpu\cpu_info_provider.h">
+      <Filter>browser\extensions\api\system_cpu</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\browsing_data\browsing_data_api.cc">
+      <Filter>browser\extensions\api\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\browsing_data\browsing_data_api.h">
+      <Filter>browser\extensions\api\browsing_data</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\media_galleries\media_galleries_api.h">
+      <Filter>browser\extensions\api\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\media_galleries\media_galleries_api.cc">
+      <Filter>browser\extensions\api\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\feedback_private\blob_reader.cc">
+      <Filter>browser\extensions\api\feedback_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\feedback_private\feedback_service.cc">
+      <Filter>browser\extensions\api\feedback_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\feedback_private\feedback_private_api.h">
+      <Filter>browser\extensions\api\feedback_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\feedback_private\blob_reader.h">
+      <Filter>browser\extensions\api\feedback_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\feedback_private\feedback_private_api.cc">
+      <Filter>browser\extensions\api\feedback_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\feedback_private\feedback_service_nonchromeos.cc">
+      <Filter>browser\extensions\api\feedback_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\feedback_private\feedback_service.h">
+      <Filter>browser\extensions\api\feedback_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\feedback_private\feedback_service_chromeos.cc">
+      <Filter>browser\extensions\api\feedback_private\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\idle\idle_manager_factory.h">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\idle\idle_api.h">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\idle\idle_manager.h">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\idle\idle_manager.cc">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\idle\idle_manager_factory.cc">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\idle\idle_api.cc">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\idle\idle_api_constants.h">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\idle\idle_api_constants.cc">
+      <Filter>browser\extensions\api\idle</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\history\history_api.cc">
+      <Filter>browser\extensions\api\history</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\history\history_api.h">
+      <Filter>browser\extensions\api\history</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\omnibox\omnibox_api.h">
+      <Filter>browser\extensions\api\omnibox</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\omnibox\omnibox_api.cc">
+      <Filter>browser\extensions\api\omnibox</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\usb\usb_api.cc">
+      <Filter>browser\extensions\api\usb</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\usb\usb_device_resource.h">
+      <Filter>browser\extensions\api\usb</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\usb\usb_device_resource.cc">
+      <Filter>browser\extensions\api\usb</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\usb\usb_api.h">
+      <Filter>browser\extensions\api\usb</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\developer_private\developer_private_api.cc">
+      <Filter>browser\extensions\api\developer_private</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\developer_private\developer_private_api_factory.cc">
+      <Filter>browser\extensions\api\developer_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\developer_private\developer_private_api.h">
+      <Filter>browser\extensions\api\developer_private</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\developer_private\entry_picker.h">
+      <Filter>browser\extensions\api\developer_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\developer_private\entry_picker.cc">
+      <Filter>browser\extensions\api\developer_private</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\developer_private\developer_private_api_factory.h">
+      <Filter>browser\extensions\api\developer_private</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\alarms\alarm_manager.cc">
+      <Filter>browser\extensions\api\alarms</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\alarms\alarms_api.h">
+      <Filter>browser\extensions\api\alarms</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\alarms\alarms_api.cc">
+      <Filter>browser\extensions\api\alarms</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\alarms\alarm_manager.h">
+      <Filter>browser\extensions\api\alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\messaging\native_message_process_host.h">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\messaging\native_message_port.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\messaging\native_message_port.h">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\messaging\native_process_launcher_win.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\messaging\native_messaging_host_manifest.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\messaging\native_process_launcher.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\messaging\extension_message_port.h">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\messaging\message_service.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\messaging\message_service.h">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\messaging\native_messaging_host_manifest.h">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\messaging\native_process_launcher.h">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\messaging\native_message_process_host.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\messaging\extension_message_port.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\messaging\native_process_launcher_posix.cc">
+      <Filter>browser\extensions\api\messaging\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\idltest\idltest_api.cc">
+      <Filter>browser\extensions\api\idltest</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\idltest\idltest_api.h">
+      <Filter>browser\extensions\api\idltest</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\audio\audio_service.h">
+      <Filter>browser\extensions\api\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\audio\audio_api.cc">
+      <Filter>browser\extensions\api\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\audio\audio_service.cc">
+      <Filter>browser\extensions\api\audio</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\audio\audio_api.h">
+      <Filter>browser\extensions\api\audio</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\audio\audio_service_chromeos.cc">
+      <Filter>browser\extensions\api\audio\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_info\system_info_api.h">
+      <Filter>browser\extensions\api\system_info</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\system_info\system_info_provider.h">
+      <Filter>browser\extensions\api\system_info</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\system_info\system_info_api.cc">
+      <Filter>browser\extensions\api\system_info</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\proxy\proxy_api_helpers.cc">
+      <Filter>browser\extensions\api\proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\proxy\proxy_api.h">
+      <Filter>browser\extensions\api\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\proxy\proxy_api_constants.h">
+      <Filter>browser\extensions\api\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\proxy\proxy_api_helpers.h">
+      <Filter>browser\extensions\api\proxy</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\proxy\proxy_api_constants.cc">
+      <Filter>browser\extensions\api\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\proxy\proxy_api.cc">
+      <Filter>browser\extensions\api\proxy</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\updater\request_queue.h">
+      <Filter>browser\extensions\updater</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\updater\safe_manifest_parser.h">
+      <Filter>browser\extensions\updater</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\updater\extension_updater.h">
+      <Filter>browser\extensions\updater</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\updater\manifest_fetch_data.h">
+      <Filter>browser\extensions\updater</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\updater\extension_downloader_delegate.h">
+      <Filter>browser\extensions\updater</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\updater\manifest_fetch_data.cc">
+      <Filter>browser\extensions\updater</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\updater\extension_downloader_delegate.cc">
+      <Filter>browser\extensions\updater</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\updater\request_queue_impl.h">
+      <Filter>browser\extensions\updater</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\updater\safe_manifest_parser.cc">
+      <Filter>browser\extensions\updater</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\updater\extension_downloader.h">
+      <Filter>browser\extensions\updater</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\updater\extension_downloader.cc">
+      <Filter>browser\extensions\updater</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\updater\extension_updater.cc">
+      <Filter>browser\extensions\updater</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\error_console\error_console.cc">
+      <Filter>browser\extensions\error_console</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\error_console\error_console.h">
+      <Filter>browser\extensions\error_console</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\error_console\extension_error.h">
+      <Filter>browser\extensions\error_console</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\error_console\extension_error.cc">
+      <Filter>browser\extensions\error_console</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

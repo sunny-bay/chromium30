@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser\appcache">
+      <UniqueIdentifier>{DCADB86C-725F-CB9F-1EF6-EA4E2520E817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\test\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\download">
+      <UniqueIdentifier>{E29388DC-1A17-286D-EDEC-2546E3BEFA9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\geolocation">
+      <UniqueIdentifier>{42EA6ED6-A702-DB69-AED0-ED93767C1994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host">
+      <UniqueIdentifier>{6A2FF98D-8941-B591-585B-76585C81DF84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\renderer_host\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClCompile Include="..\webkit\browser\appcache\appcache_test_helper.cc">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClCompile>
+    <ClInclude Include="..\webkit\browser\appcache\appcache_test_helper.h">
+      <Filter>..\webkit\browser\appcache</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="app\startup_helper_win.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\mock_media_stream_dependency_factory.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\mock_peer_connection_impl.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\mock_web_rtc_peer_connection_handler_client.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\media\mock_media_stream_registry.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\mock_media_stream_dispatcher.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\media\mock_web_rtc_peer_connection_handler_client.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\mock_media_stream_dispatcher.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\mock_media_stream_registry.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\media\mock_media_stream_dependency_factory.h">
+      <Filter>renderer\media</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\media\mock_peer_connection_impl.cc">
+      <Filter>renderer\media</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mock_keyboard.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\layouttest_support.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\content_test_suite.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\test_render_view_host_factory.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_content_browser_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\test_media_stream_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\mock_keyboard_driver_win.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_media_stream_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\webrtc_audio_device_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_video_frame_provider.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\mock_render_process.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_video_frame_provider.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\test_content_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\test_content_client.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\test_content_browser_client.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\webrtc_audio_device_test.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\mock_keyboard_driver_win.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\test_web_contents.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\test_web_contents_view.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_web_contents.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_render_view_host_factory.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\mock_keyboard.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\mock_render_process.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\test_web_contents_view.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\content_test_suite.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\net\url_request_slow_download_job.h">
+      <Filter>test\net</Filter>
+    </ClInclude>
+    <ClInclude Include="test\net\url_request_failed_job.h">
+      <Filter>test\net</Filter>
+    </ClInclude>
+    <ClCompile Include="test\net\url_request_abort_on_end_job.cc">
+      <Filter>test\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\net\url_request_slow_download_job.cc">
+      <Filter>test\net</Filter>
+    </ClCompile>
+    <ClInclude Include="test\net\url_request_abort_on_end_job.h">
+      <Filter>test\net</Filter>
+    </ClInclude>
+    <ClCompile Include="test\net\url_request_prepackaged_interceptor.cc">
+      <Filter>test\net</Filter>
+    </ClCompile>
+    <ClInclude Include="test\net\url_request_prepackaged_interceptor.h">
+      <Filter>test\net</Filter>
+    </ClInclude>
+    <ClCompile Include="test\net\url_request_mock_http_job.cc">
+      <Filter>test\net</Filter>
+    </ClCompile>
+    <ClCompile Include="test\net\url_request_failed_job.cc">
+      <Filter>test\net</Filter>
+    </ClCompile>
+    <ClInclude Include="test\net\url_request_mock_http_job.h">
+      <Filter>test\net</Filter>
+    </ClInclude>
+    <ClCompile Include="gpu\gpu_idirect3d9_mock_win.cc">
+      <Filter>gpu</Filter>
+    </ClCompile>
+    <ClInclude Include="gpu\gpu_idirect3d9_mock_win.h">
+      <Filter>gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\download_test_observer.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\test_renderer_host.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\mock_resource_context.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\mock_notification_observer.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\download_test_observer.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\test_navigation_observer.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\fake_speech_recognition_manager.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\test_utils.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\mock_render_process_host.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\test_browser_thread_bundle.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\mock_download_item.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\test_launcher.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\test_launcher.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\test_browser_thread_bundle.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\unittest_test_suite.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\test_content_client_initializer.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\test_file_error_injector.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\mock_render_thread.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\mock_download_manager.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\browser_test_base.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\test_utils.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\mock_notification_observer.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\content_test_suite_base.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\test_browser_context.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\test_browser_context.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\content_test_suite_base.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\mock_download_item.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\render_widget_test.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\mock_render_thread.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\nested_message_pump_android.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\fake_speech_recognition_manager.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\render_view_test.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\render_widget_test.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\render_view_test.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\js_injection_ready_observer.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\layouttest_support.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\test_notification_tracker.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\test_browser_thread.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\browser_test_utils.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\unittest_test_suite.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\test_content_client_initializer.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\browser_test_utils.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\test_notification_tracker.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\web_contents_tester.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\mock_download_manager.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\render_view_fake_resources_test.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\mock_render_process_host.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\browser_test.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClInclude Include="public\test\test_navigation_observer.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\mock_resource_context.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\test_file_error_injector.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\web_contents_tester.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\test_browser_thread.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\browser_test_base.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClInclude Include="public\test\render_view_fake_resources_test.h">
+      <Filter>public\test</Filter>
+    </ClInclude>
+    <ClCompile Include="public\test\test_renderer_host.cc">
+      <Filter>public\test</Filter>
+    </ClCompile>
+    <ClCompile Include="public\test\nested_message_pump_android.cc">
+      <Filter>public\test\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\download\mock_download_file.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\mock_download_file.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\mock_location_provider.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\geolocation\fake_access_token_store.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\fake_access_token_store.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\geolocation\mock_location_arbitrator.cc">
+      <Filter>browser\geolocation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\geolocation\mock_location_provider.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\geolocation\mock_location_arbitrator.h">
+      <Filter>browser\geolocation</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\test_backing_store.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\renderer_host\test_render_view_host.cc">
+      <Filter>browser\renderer_host</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\test_render_view_host.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\test_backing_store.h">
+      <Filter>browser\renderer_host</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\compositing_iosurface_transformer_mac.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\compositing_iosurface_shader_programs_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\compositing_iosurface_shader_programs_mac.cc">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\renderer_host\compositing_iosurface_transformer_mac.h">
+      <Filter>browser\renderer_host\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\renderer_host\media\mock_media_observer.h">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\renderer_host\media\mock_media_observer.cc">
+      <Filter>browser\renderer_host\media</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

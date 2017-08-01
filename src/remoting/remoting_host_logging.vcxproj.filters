@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{D877ED5D-5BA8-20DA-F98B-FABAACD9EF89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="host\logging_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\branding.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\branding.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\logging.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\logging_posix.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

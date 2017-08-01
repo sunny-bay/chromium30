@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\google">
+      <UniqueIdentifier>{8FA81D33-CFDF-CD07-7670-CB8C30BA9132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\google\cacheinvalidation">
+      <UniqueIdentifier>{7A27E239-E468-9483-1C94-7C22A97EA70A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\google\cacheinvalidation\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\google\cacheinvalidation\impl">
+      <UniqueIdentifier>{C08AEB30-068D-2F1A-143F-CFEE301C0C9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cacheinvalidation.gyp"/>
+    <ClInclude Include="src\google\cacheinvalidation\test\deterministic-scheduler.h">
+      <Filter>src\google\cacheinvalidation\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\google\cacheinvalidation\test\test-logger.h">
+      <Filter>src\google\cacheinvalidation\test</Filter>
+    </ClInclude>
+    <ClCompile Include="src\google\cacheinvalidation\test\deterministic-scheduler.cc">
+      <Filter>src\google\cacheinvalidation\test</Filter>
+    </ClCompile>
+    <ClInclude Include="src\google\cacheinvalidation\test\test-utils.h">
+      <Filter>src\google\cacheinvalidation\test</Filter>
+    </ClInclude>
+    <ClCompile Include="src\google\cacheinvalidation\test\test-logger.cc">
+      <Filter>src\google\cacheinvalidation\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\google\cacheinvalidation\test\test-utils.cc">
+      <Filter>src\google\cacheinvalidation\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\google\cacheinvalidation\impl\throttle_test.cc">
+      <Filter>src\google\cacheinvalidation\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\google\cacheinvalidation\impl\protocol-handler_test.cc">
+      <Filter>src\google\cacheinvalidation\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\google\cacheinvalidation\impl\invalidation-client-impl_test.cc">
+      <Filter>src\google\cacheinvalidation\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\google\cacheinvalidation\impl\recurring-task_test.cc">
+      <Filter>src\google\cacheinvalidation\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

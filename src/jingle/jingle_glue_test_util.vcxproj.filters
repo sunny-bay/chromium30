@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glue">
+      <UniqueIdentifier>{9C0EBFC5-0C0B-8A11-B834-3199D9447A2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jingle.gyp"/>
+    <ClInclude Include="glue\fake_network_manager.h">
+      <Filter>glue</Filter>
+    </ClInclude>
+    <ClCompile Include="glue\fake_socket_factory.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\fake_network_manager.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClInclude Include="glue\fake_socket_factory.h">
+      <Filter>glue</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\content\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\content\public\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\cloud_print">
+      <UniqueIdentifier>{D6AF2C4D-CB19-34BF-1FC4-0F2B0004F1F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\cloud_print\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\cloud_print\common\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="service_state.h"/>
+    <ClCompile Include="service_switches.cc"/>
+    <None Include="service.gyp"/>
+    <ClCompile Include="service_constants.cc"/>
+    <ClInclude Include="service_switches.h"/>
+    <ClInclude Include="service_constants.h"/>
+    <ClCompile Include="service_state.cc"/>
+    <ClInclude Include="win\service_controller.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClCompile Include="win\service_utils.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClInclude Include="win\service_utils.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="win\service_listener.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClCompile Include="win\setup_listener.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClInclude Include="win\setup_listener.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClCompile Include="win\chrome_launcher.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClInclude Include="win\local_security_policy.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="win\chrome_launcher.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClCompile Include="win\service_listener.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\service_controller.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\local_security_policy.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\content\public\common\content_switches.cc">
+      <Filter>..\..\content\public\common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\content\public\common\content_switches.h">
+      <Filter>..\..\content\public\common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\cloud_print\common\win\cloud_print_utils.cc">
+      <Filter>..\..\cloud_print\common\win</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\cloud_print\common\win\cloud_print_utils.h">
+      <Filter>..\..\cloud_print\common\win</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

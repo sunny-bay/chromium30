@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child">
+      <UniqueIdentifier>{E3C40506-007B-C2D8-0589-97418FE2E754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\npapi">
+      <UniqueIdentifier>{2C243298-BAEA-FB05-9ADC-83FF12AC8DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\npapi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child\indexed_db">
+      <UniqueIdentifier>{CD5B68CC-F9E2-1FDB-9113-4322B2ACF39C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClInclude Include="public\child\image_decoder_utils.h">
+      <Filter>public\child</Filter>
+    </ClInclude>
+    <ClInclude Include="public\child\resource_dispatcher_delegate.h">
+      <Filter>public\child</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="child\web_database_observer_impl.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\web_database_observer_impl.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\webmessageportchannel_impl.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\browser_font_resource_trusted.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\webmessageportchannel_impl.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\request_extra_data.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\plugin_param_traits.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\database_util.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\plugin_messages.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\image_decoder.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\child_thread.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\appcache_backend_proxy.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\runtime_features.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\socket_stream_dispatcher.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\quota_message_filter.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\plugin_param_traits.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\quota_dispatcher.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\child_histogram_message_filter.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\request_extra_data.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\child_process.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\child_process.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\appcache_backend_proxy.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\webkitplatformsupport_impl.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\webblobregistry_impl.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\thread_safe_sender.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\child_thread.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\child_resource_message_filter.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\quota_message_filter.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\webblobregistry_impl.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\db_message_filter.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\child_resource_message_filter.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\thread_safe_sender.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\appcache_dispatcher.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\image_decoder.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\resource_dispatcher.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\plugin_message_generator.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\power_monitor_broadcast_source.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\child_histogram_message_filter.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\webkitplatformsupport_impl.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\resource_dispatcher.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\quota_dispatcher.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\appcache_dispatcher.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\db_message_filter.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\socket_stream_dispatcher.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\runtime_features.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\browser_font_resource_trusted.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClCompile Include="child\power_monitor_broadcast_source.cc">
+      <Filter>child</Filter>
+    </ClCompile>
+    <ClInclude Include="child\plugin_message_generator.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\database_util.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClCompile Include="child\fileapi\file_system_dispatcher.cc">
+      <Filter>child\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\fileapi\file_system_dispatcher.h">
+      <Filter>child\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\fileapi\webfilesystem_callback_adapters.h">
+      <Filter>child\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\fileapi\webfilesystem_callback_adapters.cc">
+      <Filter>child\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\fileapi\webfilesystem_impl.h">
+      <Filter>child\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\fileapi\webfilewriter_impl.h">
+      <Filter>child\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\fileapi\webfilewriter_impl.cc">
+      <Filter>child\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\fileapi\webfilesystem_impl.cc">
+      <Filter>child\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\android\child_jni_registrar.cc">
+      <Filter>child\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="child\android\child_jni_registrar.h">
+      <Filter>child\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\plugin_instance.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\webplugin_ime_win.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\npobject_stub.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\npobject_util.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\npapi\plugin_lib.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\plugin_host.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\webplugin_delegate_impl.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\plugin_instance.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\np_channel_base.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\npapi\webplugin_delegate_impl.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\plugin_lib.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\webplugin_ime_win.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\webplugin_delegate_impl_win.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\npapi\plugin_string_stream.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\plugin_stream.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\npruntime_util.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\plugin_stream.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\npobject_proxy.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\plugin_stream_url.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\npapi\np_channel_base.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\plugin_stream_url.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\npobject_base.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\npobject_proxy.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\npruntime_util.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\npapi\webplugin.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\webplugin_delegate.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\plugin_host.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\npobject_stub.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\plugin_string_stream.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\plugin_stream_win.cc">
+      <Filter>child\npapi</Filter>
+    </ClCompile>
+    <ClInclude Include="child\npapi\npobject_util.h">
+      <Filter>child\npapi</Filter>
+    </ClInclude>
+    <ClInclude Include="child\npapi\plugin_web_event_converter_mac.h">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\webplugin_delegate_impl_android.cc">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="child\npapi\webplugin_delegate_impl_aura.cc">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="child\npapi\webplugin_accelerated_surface_mac.h">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="child\npapi\webplugin_delegate_impl_gtk.cc">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="child\npapi\webplugin_delegate_impl_mac.mm">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </None>
+    <None Include="child\npapi\plugin_instance_mac.mm">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </None>
+    <None Include="child\npapi\plugin_web_event_converter_mac.mm">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="child\npapi\plugin_stream_posix.cc">
+      <Filter>child\npapi\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="child\indexed_db\indexed_db_key_builders.h">
+      <Filter>child\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="child\indexed_db\proxy_webidbfactory_impl.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="child\indexed_db\proxy_webidbdatabase_impl.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="child\indexed_db\indexed_db_message_filter.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="child\indexed_db\indexed_db_message_filter.h">
+      <Filter>child\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="child\indexed_db\indexed_db_dispatcher.h">
+      <Filter>child\indexed_db</Filter>
+    </ClInclude>
+    <ClInclude Include="child\indexed_db\proxy_webidbfactory_impl.h">
+      <Filter>child\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="child\indexed_db\indexed_db_key_builders.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClCompile Include="child\indexed_db\indexed_db_dispatcher.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="child\indexed_db\proxy_webidbdatabase_impl.h">
+      <Filter>child\indexed_db</Filter>
+    </ClInclude>
+    <ClCompile Include="child\indexed_db\proxy_webidbcursor_impl.cc">
+      <Filter>child\indexed_db</Filter>
+    </ClCompile>
+    <ClInclude Include="child\indexed_db\proxy_webidbcursor_impl.h">
+      <Filter>child\indexed_db</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

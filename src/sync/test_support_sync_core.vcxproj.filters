@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\engine">
+      <UniqueIdentifier>{0E0E98FE-41F4-1E5C-D208-62A6218447D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js">
+      <UniqueIdentifier>{AFF4C650-55EE-4B49-D17B-E3562B397D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sync.gyp"/>
+    <ClInclude Include="test\null_directory_change_delegate.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_encryptor.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\null_transaction_observer.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_transaction_observer.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\fake_sync_encryption_handler.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_sync_encryption_handler.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\null_transaction_observer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_transaction_observer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\fake_encryptor.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\test_directory_backing_store.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\null_directory_change_delegate.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClInclude Include="test\callback_counter.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_directory_backing_store.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClCompile Include="test\engine\test_syncable_utils.cc">
+      <Filter>test\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="test\engine\test_id_factory.h">
+      <Filter>test\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="test\engine\syncer_command_test.h">
+      <Filter>test\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="test\engine\fake_sync_scheduler.h">
+      <Filter>test\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="test\engine\fake_model_worker.h">
+      <Filter>test\engine</Filter>
+    </ClInclude>
+    <ClCompile Include="test\engine\fake_model_worker.cc">
+      <Filter>test\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="test\engine\test_syncable_utils.h">
+      <Filter>test\engine</Filter>
+    </ClInclude>
+    <ClCompile Include="test\engine\syncer_command_test.cc">
+      <Filter>test\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="test\engine\test_directory_setter_upper.cc">
+      <Filter>test\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="test\engine\mock_connection_manager.h">
+      <Filter>test\engine</Filter>
+    </ClInclude>
+    <ClCompile Include="test\engine\fake_sync_scheduler.cc">
+      <Filter>test\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="test\engine\test_directory_setter_upper.h">
+      <Filter>test\engine</Filter>
+    </ClInclude>
+    <ClCompile Include="test\engine\mock_connection_manager.cc">
+      <Filter>test\engine</Filter>
+    </ClCompile>
+    <ClInclude Include="test\sessions\test_scoped_session_event_listener.h">
+      <Filter>test\sessions</Filter>
+    </ClInclude>
+    <ClCompile Include="util\test_unrecoverable_error_handler.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClInclude Include="util\test_unrecoverable_error_handler.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="js\js_test_util.h">
+      <Filter>js</Filter>
+    </ClInclude>
+    <ClCompile Include="js\js_test_util.cc">
+      <Filter>js</Filter>
+    </ClCompile>
+    <ClCompile Include="sessions\test_util.cc">
+      <Filter>sessions</Filter>
+    </ClCompile>
+    <ClInclude Include="sessions\test_util.h">
+      <Filter>sessions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

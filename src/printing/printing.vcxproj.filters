@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend">
+      <UniqueIdentifier>{0601BD18-2FE3-2D4A-0C05-611A0F36D709}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="emf_win.cc"/>
+    <ClInclude Include="metafile.h"/>
+    <ClInclude Include="page_size_margins.h"/>
+    <ClCompile Include="page_number.cc"/>
+    <ClInclude Include="printing_context.h"/>
+    <ClInclude Include="print_job_constants.h"/>
+    <ClCompile Include="units.cc"/>
+    <ClInclude Include="page_range.h"/>
+    <ClInclude Include="print_dialog_gtk_interface.h"/>
+    <ClInclude Include="page_setup.h"/>
+    <ClInclude Include="units.h"/>
+    <ClInclude Include="page_number.h"/>
+    <ClCompile Include="printed_page.cc"/>
+    <ClCompile Include="page_size_margins.cc"/>
+    <ClCompile Include="print_settings.cc"/>
+    <ClCompile Include="print_destination_win.cc"/>
+    <ClInclude Include="print_settings_initializer.h"/>
+    <ClInclude Include="metafile_impl.h"/>
+    <ClCompile Include="printing_context.cc"/>
+    <ClCompile Include="printing_context_win.cc"/>
+    <ClInclude Include="emf_win.h"/>
+    <ClInclude Include="print_settings_initializer_win.h"/>
+    <ClInclude Include="printing_context_win.h"/>
+    <ClCompile Include="pdf_metafile_skia.cc"/>
+    <ClCompile Include="image.cc"/>
+    <None Include="printing.gyp"/>
+    <ClCompile Include="printed_document_win.cc"/>
+    <ClInclude Include="print_settings.h"/>
+    <ClInclude Include="printed_document.h"/>
+    <ClCompile Include="metafile_skia_wrapper.cc"/>
+    <ClInclude Include="print_destination_interface.h"/>
+    <ClCompile Include="print_job_constants.cc"/>
+    <ClCompile Include="print_settings_initializer_win.cc"/>
+    <ClCompile Include="print_settings_initializer.cc"/>
+    <ClCompile Include="image_win.cc"/>
+    <ClInclude Include="image.h"/>
+    <ClInclude Include="metafile_skia_wrapper.h"/>
+    <ClCompile Include="page_setup.cc"/>
+    <ClInclude Include="printed_pages_source.h"/>
+    <ClCompile Include="page_range.cc"/>
+    <ClCompile Include="printed_document.cc"/>
+    <ClInclude Include="pdf_metafile_skia.h"/>
+    <ClInclude Include="printed_page.h"/>
+    <ClInclude Include="print_settings_initializer_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="image_mac.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="printed_document_gtk.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="image_linux.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="printed_document_mac.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="print_settings_initializer_mac.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="print_settings_initializer_gtk.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="print_settings_initializer_gtk.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="pdf_metafile_cg_mac.h">
+      <Filter>_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="pdf_metafile_cg_mac.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="print_destination_none.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\win_helper.cc">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\print_backend.cc">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\print_backend_consts.cc">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\printing_info_win.cc">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClInclude Include="backend\print_backend.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\print_backend_consts.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\win_helper.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\printing_info_win.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClCompile Include="backend\print_backend_win.cc">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\print_backend_dummy.cc">
+      <Filter>backend</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

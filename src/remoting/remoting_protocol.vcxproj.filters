@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{FD430606-600C-E721-8F94-9A9989057E12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="protocol\protobuf_video_reader.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\content_description.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\message_reader.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\audio_writer.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\host_event_dispatcher.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\authentication_method.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\negotiating_client_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\it2me_host_authenticator_factory.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\message_decoder.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\third_party_host_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\util.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\transport_config.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\auth_util.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\third_party_authenticator_base.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\ssl_hmac_channel_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\libjingle_transport_factory.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\video_reader.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\transport_config.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\clipboard_stub.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\content_description.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\channel_multiplexer.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\authentication_method.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\protobuf_video_writer.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\client_stub.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\host_event_dispatcher.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\video_stub.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\audio_stub.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\input_filter.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\negotiating_host_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\pairing_authenticator_base.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\message_reader.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\client_control_dispatcher.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\channel_dispatcher_base.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\buffered_socket_writer.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\clipboard_filter.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\protobuf_video_writer.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\audio_writer.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\client_event_dispatcher.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\connection_to_host.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\connection_to_client.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\audio_reader.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\pairing_registry.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\pairing_registry.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\session_config.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\host_stub.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\third_party_host_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\video_reader.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\input_filter.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\channel_dispatcher_base.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\buffered_socket_writer.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\jingle_session_manager.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\me2me_host_authenticator_factory.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\video_writer.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\client_control_dispatcher.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\mouse_input_filter.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\pairing_client_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\negotiating_authenticator_base.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\client_event_dispatcher.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\jingle_messages.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\session_manager.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\libjingle_transport_factory.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\clipboard_echo_filter.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\clipboard_thread_proxy.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\ssl_hmac_channel_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\host_control_dispatcher.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\host_control_dispatcher.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\errors.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\util.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\transport.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\session_config.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\me2me_host_authenticator_factory.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\message_decoder.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\clipboard_filter.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\jingle_messages.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\input_event_tracker.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\connection_to_host.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\pairing_client_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\audio_reader.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\negotiating_host_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\pairing_authenticator_base.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\session.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\video_writer.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\input_stub.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\name_value_map.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\clipboard_thread_proxy.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\v2_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\channel_multiplexer.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\connection_to_client.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\transport.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\input_event_tracker.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\jingle_session.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\it2me_host_authenticator_factory.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\negotiating_client_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\jingle_session.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\auth_util.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\pairing_host_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\third_party_authenticator_base.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\protobuf_video_reader.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\mouse_input_filter.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\negotiating_authenticator_base.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\third_party_client_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\pairing_host_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\third_party_client_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\channel_authenticator.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\clipboard_echo_filter.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClInclude Include="protocol\jingle_session_manager.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClCompile Include="protocol\v2_authenticator.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

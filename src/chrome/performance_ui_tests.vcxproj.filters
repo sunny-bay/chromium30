@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\perf">
+      <UniqueIdentifier>{DCC76964-1765-F8E2-269D-A6BF08B3C68E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\perf\frame_rate">
+      <UniqueIdentifier>{002540F0-CFEA-4E59-0704-381D04A0E403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="test\perf\memory_test.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClInclude Include="test\perf\generate_profile.h">
+      <Filter>test\perf</Filter>
+    </ClInclude>
+    <ClCompile Include="test\perf\run_all_perfuitests.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\shutdown_test.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\generate_profile.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\perf_ui_test_suite.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\dom_checker_uitest.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\feature_startup_test.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\startup_test.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\indexeddb_uitest.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\tab_switching_test.cc">
+      <Filter>test\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="test\perf\frame_rate\frame_rate_tests.cc">
+      <Filter>test\perf\frame_rate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

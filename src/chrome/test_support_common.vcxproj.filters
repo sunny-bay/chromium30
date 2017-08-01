@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\webkit\browser\quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\gfx">
+      <UniqueIdentifier>{C2A0659E-E135-879C-7769-386FD982C409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\gfx\image">
+      <UniqueIdentifier>{BE1D29E7-2090-D931-E70B-C37605E8E373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{AC4EF684-2900-10EA-3D11-A6DF0901358C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\safe_browsing">
+      <UniqueIdentifier>{2E3BD98D-5FB2-C7DC-521F-1ABCA1EFE64E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\logging">
+      <UniqueIdentifier>{3D8BE72E-CED2-B63E-4DF6-7C1E66BA0B9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\logging\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\ppapi">
+      <UniqueIdentifier>{15C4068B-59E6-A58B-C933-FCE0F2E45305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\automation">
+      <UniqueIdentifier>{31ADDD52-866C-4C09-9800-A5A5331381F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\media_galleries">
+      <UniqueIdentifier>{E6E173C0-6DC0-CF1D-A245-71632AE6E864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\android">
+      <UniqueIdentifier>{840B8E33-5F8C-45A0-5FD6-F07AA5687203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\android\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\contacts">
+      <UniqueIdentifier>{7882EBE0-20E2-AB4B-C87E-3BB359375241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\contacts\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\settings">
+      <UniqueIdentifier>{A5F7932D-3BEE-8BC1-9EBD-C3646ED1BD60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\settings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\cros">
+      <UniqueIdentifier>{896188E8-CF15-0B2C-A569-13BEF03414F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\cros\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\system">
+      <UniqueIdentifier>{AFD6A456-1D6D-10A7-15EC-A60913FD8BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\system\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\input_method">
+      <UniqueIdentifier>{B88A5CCE-CE1E-3744-5C9E-70C886634AC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\input_method\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\policy\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login">
+      <UniqueIdentifier>{D1873D12-7946-5459-9BF4-2218C9A298B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\login\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\net\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\sessions">
+      <UniqueIdentifier>{388776B8-C261-22CD-D2D7-86D28DA25D1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ssl">
+      <UniqueIdentifier>{9619347D-2389-BF68-D54C-476A14B10965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\storage_monitor">
+      <UniqueIdentifier>{E8FF0F1C-52A6-584E-3B02-BCF337DE8DD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\storage_monitor\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\profile_resetter">
+      <UniqueIdentifier>{3B23CC17-41AD-2D02-CFC1-19E2483DF337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\drive">
+      <UniqueIdentifier>{CC685CCB-0039-5720-A4F3-173B4E141F0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\browsing_data">
+      <UniqueIdentifier>{720CC405-6689-8D9E-7FCD-9FF554AF627D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\signin">
+      <UniqueIdentifier>{12F7F594-5C0F-B00A-1C8F-B26A9C480D91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\google_apis">
+      <UniqueIdentifier>{7DF2F418-4014-753B-6B04-6DE61E16D204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\password_manager">
+      <UniqueIdentifier>{F3D111C7-A7E4-816A-8375-461F7AB554F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api">
+      <UniqueIdentifier>{6AE05662-6177-52C8-526E-2E7848D15DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\messaging">
+      <UniqueIdentifier>{DBEA1545-C432-FA21-211A-6963F403A6BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\extensions\api\system_storage">
+      <UniqueIdentifier>{2C726721-0894-0DD2-896A-CCFEE08564F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\policy\cloud">
+      <UniqueIdentifier>{AC2D6B28-C409-02BE-68D9-57A12FC2E740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\fullscreen">
+      <UniqueIdentifier>{BFAFC837-3FA4-31CC-B16E-B63AF0A9FBC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\gtk">
+      <UniqueIdentifier>{2D4DC4D4-E814-8696-8CA7-5C200B5ACD6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\gtk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\views">
+      <UniqueIdentifier>{D23515F3-31E8-1B27-FABB-5B45DAAF113D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\find_bar">
+      <UniqueIdentifier>{E223F9C2-6041-C6CF-1179-57F348A83092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa">
+      <UniqueIdentifier>{7DE7C50E-B7F9-3610-CB61-C0F25CD5170C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\find_bar">
+      <UniqueIdentifier>{E223F9C2-6041-C6CF-1179-57F348A83092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\cocoa\find_bar\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\ui\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\search_engines">
+      <UniqueIdentifier>{13A22831-A572-0F17-5006-6AABDD8FF9BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\prefs">
+      <UniqueIdentifier>{211C84FE-F189-109C-6F7E-E0596D5F946E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\notifications">
+      <UniqueIdentifier>{8B864D51-51C2-204B-66F4-F7E9B50F2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\download">
+      <UniqueIdentifier>{E29388DC-1A17-286D-EDEC-2546E3BEFA9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\media_galleries">
+      <UniqueIdentifier>{E6E173C0-6DC0-CF1D-A245-71632AE6E864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\extensions\permissions">
+      <UniqueIdentifier>{A98183AB-A3A3-EAA7-6BB0-918E188BA788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClInclude Include="..\webkit\browser\quota\mock_quota_manager.h">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="..\webkit\browser\quota\mock_quota_manager.cc">
+      <Filter>..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ui\gfx\image\image_unittest_util.cc">
+      <Filter>..\ui\gfx\image</Filter>
+    </ClCompile>
+    <ClInclude Include="..\ui\gfx\image\image_unittest_util.h">
+      <Filter>..\ui\gfx\image</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="app\chrome_main_delegate.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClCompile Include="app\chrome_main_delegate.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <None Include="app\breakpad_mac_stubs.mm">
+      <Filter>app\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="renderer\chrome_mock_render_thread.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\chrome_mock_render_thread.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\mock_printer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\mock_printer.cc">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\safe_browsing\test_utils.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="renderer\safe_browsing\test_utils.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\safe_browsing\mock_feature_extractor_clock.h">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClInclude>
+    <ClCompile Include="renderer\safe_browsing\mock_feature_extractor_clock.cc">
+      <Filter>renderer\safe_browsing</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\javascript_test_observer.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\test_browser_window.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\chrome_render_view_host_test_harness.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\testing_browser_process.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\test_launcher_utils.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\chrome_test_suite.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\testing_browser_process_platform_part.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\module_system_test.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\uma_histogram_helper.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\testing_browser_process_platform_part.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\chrome_test_suite.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\testing_profile_manager.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\history_index_restore_observer.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\chrome_render_view_host_test_harness.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\testing_io_thread_state.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\scoped_testing_local_state.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\test_browser_window.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\bookmark_load_observer.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\tracing.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\testing_io_thread_state.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\test_tab_strip_model_observer.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\bookmark_load_observer.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\profile_mock.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\test_location_bar.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\testing_browser_process.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\find_in_page_observer.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\test_tab_strip_model_observer.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\find_in_page_observer.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\history_index_restore_observer.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\testing_profile.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\javascript_test_observer.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\module_system_test.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\testing_pref_service_syncable.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\test_location_bar.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\profile_mock.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\tracing.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\ui_test_utils.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\in_process_browser_test.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\test_launcher_utils.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\base\testing_profile_manager.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\testing_profile.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\in_process_browser_test.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClInclude Include="test\base\scoped_testing_local_state.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\testing_pref_service_syncable.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClInclude Include="test\base\uma_histogram_helper.h">
+      <Filter>test\base</Filter>
+    </ClInclude>
+    <ClCompile Include="test\base\ui_test_utils.cc">
+      <Filter>test\base</Filter>
+    </ClCompile>
+    <ClCompile Include="test\logging\win\test_log_collector.cc">
+      <Filter>test\logging\win</Filter>
+    </ClCompile>
+    <ClInclude Include="test\logging\win\log_file_printer.h">
+      <Filter>test\logging\win</Filter>
+    </ClInclude>
+    <ClInclude Include="test\logging\win\mof_data_parser.h">
+      <Filter>test\logging\win</Filter>
+    </ClInclude>
+    <ClInclude Include="test\logging\win\file_logger.h">
+      <Filter>test\logging\win</Filter>
+    </ClInclude>
+    <ClCompile Include="test\logging\win\log_file_reader.cc">
+      <Filter>test\logging\win</Filter>
+    </ClCompile>
+    <ClCompile Include="test\logging\win\log_file_printer.cc">
+      <Filter>test\logging\win</Filter>
+    </ClCompile>
+    <ClCompile Include="test\logging\win\file_logger.cc">
+      <Filter>test\logging\win</Filter>
+    </ClCompile>
+    <ClInclude Include="test\logging\win\log_file_reader.h">
+      <Filter>test\logging\win</Filter>
+    </ClInclude>
+    <ClInclude Include="test\logging\win\test_log_collector.h">
+      <Filter>test\logging\win</Filter>
+    </ClInclude>
+    <ClCompile Include="test\logging\win\mof_data_parser.cc">
+      <Filter>test\logging\win</Filter>
+    </ClCompile>
+    <ClInclude Include="test\ppapi\ppapi_test.h">
+      <Filter>test\ppapi</Filter>
+    </ClInclude>
+    <ClCompile Include="test\ppapi\ppapi_test.cc">
+      <Filter>test\ppapi</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\value_conversion_traits.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\browser_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\browser_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\automation_handle_tracker.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\automation_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClInclude Include="test\automation\automation_json_requests.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClInclude Include="test\automation\value_conversion_util.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\automation_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\tab_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\window_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClCompile Include="test\automation\value_conversion_traits.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClCompile Include="test\automation\tab_proxy.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\window_proxy.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClInclude Include="test\automation\automation_handle_tracker.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\automation_json_requests.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\media_galleries\media_galleries_test_util.h">
+      <Filter>browser\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\media_galleries\media_galleries_test_util.cc">
+      <Filter>browser\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\android\tab_android_test_stubs.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\android\mock_google_location_settings_helper.h">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\android\mock_google_location_settings_helper.cc">
+      <Filter>browser\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\contacts\contact_test_util.h">
+      <Filter>browser\chromeos\contacts\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\contacts\contact_test_util.cc">
+      <Filter>browser\chromeos\contacts\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\settings\mock_owner_key_util.h">
+      <Filter>browser\chromeos\settings\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\settings\device_settings_test_helper.cc">
+      <Filter>browser\chromeos\settings\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\settings\mock_owner_key_util.cc">
+      <Filter>browser\chromeos\settings\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\settings\device_settings_test_helper.h">
+      <Filter>browser\chromeos\settings\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\cros\mock_network_library.cc">
+      <Filter>browser\chromeos\cros\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\cros\mock_network_library.h">
+      <Filter>browser\chromeos\cros\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\system\mock_statistics_provider.h">
+      <Filter>browser\chromeos\system\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\system\mock_statistics_provider.cc">
+      <Filter>browser\chromeos\system\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\input_method\mock_candidate_window_controller.cc">
+      <Filter>browser\chromeos\input_method\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\input_method\mock_input_method_manager.h">
+      <Filter>browser\chromeos\input_method\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\input_method\mock_input_method_manager.cc">
+      <Filter>browser\chromeos\input_method\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\input_method\mock_candidate_window_controller.h">
+      <Filter>browser\chromeos\input_method\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\policy\device_policy_builder.h">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\policy\stub_enterprise_install_attributes.h">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\policy\stub_enterprise_install_attributes.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\policy\device_policy_builder.cc">
+      <Filter>browser\chromeos\policy\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\mock_user_image_manager.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\mock_login_display_host.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\mock_user_manager.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\login\mock_authenticator.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\fake_login_utils.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\mock_login_status_consumer.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\mock_login_status_consumer.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\login\fake_login_utils.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\mock_login_display.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\mock_user_image_manager.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\mock_login_utils.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\login\mock_user_manager.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\mock_login_display.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\login\mock_login_utils.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\login\mock_login_display_host.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\mock_url_fetchers.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\login\mock_url_fetchers.h">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\chromeos\login\mock_authenticator.cc">
+      <Filter>browser\chromeos\login\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\chromeos\net\mock_connectivity_state_helper.cc">
+      <Filter>browser\chromeos\net\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\net\mock_connectivity_state_helper.h">
+      <Filter>browser\chromeos\net\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\sessions\session_service_test_helper.h">
+      <Filter>browser\sessions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\sessions\session_service_test_helper.cc">
+      <Filter>browser\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ssl\ssl_client_auth_requestor_mock.cc">
+      <Filter>browser\ssl</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ssl\ssl_client_auth_requestor_mock.h">
+      <Filter>browser\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\storage_monitor\test_storage_monitor.h">
+      <Filter>browser\storage_monitor</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\storage_monitor\test_storage_monitor.cc">
+      <Filter>browser\storage_monitor</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\storage_monitor\test_media_transfer_protocol_manager_linux.h">
+      <Filter>browser\storage_monitor\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\storage_monitor\test_media_transfer_protocol_manager_linux.cc">
+      <Filter>browser\storage_monitor\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\profile_resetter\profile_resetter_test_base.h">
+      <Filter>browser\profile_resetter</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\profile_resetter\profile_resetter_test_base.cc">
+      <Filter>browser\profile_resetter</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\drive\fake_drive_service.cc">
+      <Filter>browser\drive</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\drive\dummy_drive_service.h">
+      <Filter>browser\drive</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\drive\dummy_drive_service.cc">
+      <Filter>browser\drive</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\drive\fake_drive_service.h">
+      <Filter>browser\drive</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_indexed_db_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_quota_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_cookie_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_quota_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_server_bound_cert_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_local_storage_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_server_bound_cert_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_local_storage_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_appcache_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_appcache_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_flash_lso_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_indexed_db_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_database_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_file_system_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\browsing_data\mock_browsing_data_database_helper.h">
+      <Filter>browser\browsing_data</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_file_system_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_flash_lso_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browsing_data\mock_browsing_data_cookie_helper.cc">
+      <Filter>browser\browsing_data</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\signin\fake_signin_manager.h">
+      <Filter>browser\signin</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\signin\fake_signin_manager.cc">
+      <Filter>browser\signin</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\google_apis\test_util.h">
+      <Filter>browser\google_apis</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\google_apis\dummy_auth_service.h">
+      <Filter>browser\google_apis</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\google_apis\test_util.cc">
+      <Filter>browser\google_apis</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\google_apis\dummy_auth_service.cc">
+      <Filter>browser\google_apis</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\password_manager\password_form_data.cc">
+      <Filter>browser\password_manager</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\password_manager\password_form_data.h">
+      <Filter>browser\password_manager</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\password_manager\test_password_store.cc">
+      <Filter>browser\password_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\password_manager\mock_password_store.cc">
+      <Filter>browser\password_manager</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\password_manager\test_password_store.h">
+      <Filter>browser\password_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\password_manager\mock_password_store.h">
+      <Filter>browser\password_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\fake_safe_browsing_database_manager.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\test_extension_service.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\test_extension_service.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\test_extension_system.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\mock_extension_special_storage_policy.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\test_extension_system.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\test_extension_environment.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\test_extension_prefs.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\test_management_policy.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\mock_extension_special_storage_policy.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\test_management_policy.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\extension_notification_observer.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\test_extension_prefs.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\test_blacklist.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\test_blacklist.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\fake_safe_browsing_database_manager.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\test_extension_environment.cc">
+      <Filter>browser\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\extension_notification_observer.h">
+      <Filter>browser\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\extensions\api\messaging\native_messaging_test_util.h">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\extensions\api\messaging\native_messaging_test_util.cc">
+      <Filter>browser\extensions\api\messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\extensions\api\system_storage\test_storage_info_provider.cc">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\extensions\api\system_storage\test_storage_info_provider.h">
+      <Filter>browser\extensions\api\system_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\policy\mock_configuration_policy_provider.h">
+      <Filter>browser\policy</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\policy\mock_configuration_policy_provider.cc">
+      <Filter>browser\policy</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\policy\test\local_policy_test_server.h">
+      <Filter>browser\policy\test</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\policy\test\local_policy_test_server.cc">
+      <Filter>browser\policy\test</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\policy\cloud\policy_builder.h">
+      <Filter>browser\policy\cloud</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\policy\cloud\policy_builder.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\policy\cloud\mock_cloud_policy_client.h">
+      <Filter>browser\policy\cloud</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\policy\cloud\mock_cloud_policy_client.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\policy\cloud\mock_cloud_policy_store.cc">
+      <Filter>browser\policy\cloud</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\policy\cloud\mock_cloud_policy_store.h">
+      <Filter>browser\policy\cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ui\browser.h">
+      <Filter>browser\ui</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\fullscreen\fullscreen_controller_state_test.cc">
+      <Filter>browser\ui\fullscreen</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\fullscreen\fullscreen_controller_state_tests.h">
+      <Filter>browser\ui\fullscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\ui\fullscreen\fullscreen_controller_state_test.h">
+      <Filter>browser\ui\fullscreen</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\fullscreen\fullscreen_controller_test.cc">
+      <Filter>browser\ui\fullscreen</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\fullscreen\fullscreen_controller_test.h">
+      <Filter>browser\ui\fullscreen</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\gtk\find_bar_host_unittest_util_gtk.cc">
+      <Filter>browser\ui\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\ui\views\find_bar_host_unittest_util_views.cc">
+      <Filter>browser\ui\views</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\ui\find_bar\find_bar_host_unittest_util.h">
+      <Filter>browser\ui\find_bar</Filter>
+    </ClInclude>
+    <None Include="browser\ui\cocoa\run_loop_testing.mm">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\ui\cocoa\run_loop_testing.h">
+      <Filter>browser\ui\cocoa\_excluded_files</Filter>
+    </ClInclude>
+    <None Include="browser\ui\cocoa\find_bar\find_bar_host_unittest_util_cocoa.mm">
+      <Filter>browser\ui\cocoa\find_bar\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="browser\ui\test\test_confirm_bubble_model.h">
+      <Filter>browser\ui\test</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\ui\test\test_confirm_bubble_model.cc">
+      <Filter>browser\ui\test</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\search_engines\template_url_service_test_util.h">
+      <Filter>browser\search_engines</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\search_engines\template_url_service_test_util.cc">
+      <Filter>browser\search_engines</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\prefs\pref_service_mock_builder.h">
+      <Filter>browser\prefs</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\prefs\pref_service_mock_builder.cc">
+      <Filter>browser\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\net\dns_probe_test_util.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\net\dns_probe_test_util.h">
+      <Filter>browser\net</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\net\url_request_mock_util.cc">
+      <Filter>browser\net</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\net\url_request_mock_util.h">
+      <Filter>browser\net</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\notifications\notification_test_util.h">
+      <Filter>browser\notifications</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\notifications\notification_test_util.cc">
+      <Filter>browser\notifications</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\test_download_shelf.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\download_test_file_activity_observer.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\download\download_test_file_activity_observer.h">
+      <Filter>browser\download</Filter>
+    </ClInclude>
+    <ClCompile Include="browser\download\test_download_shelf.cc">
+      <Filter>browser\download</Filter>
+    </ClCompile>
+    <ClInclude Include="common\media_galleries\pmp_test_helper.h">
+      <Filter>common\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="common\media_galleries\pmp_test_helper.cc">
+      <Filter>common\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\extension_builder.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\extension_test_util.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\value_builder.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extensions\extension_test_util.cc">
+      <Filter>common\extensions</Filter>
+    </ClCompile>
+    <ClInclude Include="common\extensions\extension_builder.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\value_builder.h">
+      <Filter>common\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="common\extensions\permissions\scoped_testing_permissions_info.h">
+      <Filter>common\extensions\permissions</Filter>
+    </ClInclude>
+    <ClCompile Include="common\extensions\permissions\scoped_testing_permissions_info.cc">
+      <Filter>common\extensions\permissions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

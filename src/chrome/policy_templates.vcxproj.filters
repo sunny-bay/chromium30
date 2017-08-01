@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows">
+      <UniqueIdentifier>{C1450D01-C033-76F3-3763-6DE88AF48A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm">
+      <UniqueIdentifier>{3CF8B90A-BD77-6E62-2987-955AA93C8997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\el">
+      <UniqueIdentifier>{19C65CA9-1522-BA99-A481-D80D7A867093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\el\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\gu">
+      <UniqueIdentifier>{9597608C-C64A-58B1-F8AD-B8A3E1FD228F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\gu\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\mr">
+      <UniqueIdentifier>{F8A9F274-35BF-CDCF-7BF7-9005B69B5E4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\mr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\vi">
+      <UniqueIdentifier>{305452B2-269E-60D0-E63D-9FB89F062812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\vi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ca">
+      <UniqueIdentifier>{2F4B89D5-6450-2857-16E5-C0B8BB1BE34D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ca\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\am">
+      <UniqueIdentifier>{26E404E3-E642-3E73-4963-731984205C23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\am\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\it">
+      <UniqueIdentifier>{8DBE655C-FF01-0D59-0CFD-67E9D295A910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\it\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sv">
+      <UniqueIdentifier>{214E077B-D99B-E0E5-9C7F-B8BE6B069726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sv\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ar">
+      <UniqueIdentifier>{10D5B1B8-CE4F-8567-5E27-2956A709777D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ar\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\cs">
+      <UniqueIdentifier>{24A38DB2-0DB1-A72E-903D-E4E5A30E1A18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\cs\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\et">
+      <UniqueIdentifier>{ED9D90DD-A08C-EDF5-6008-2D68A7047C56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\et\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\id">
+      <UniqueIdentifier>{309744B4-B0D3-9C6A-BCDC-91DD03D5F984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\id\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es">
+      <UniqueIdentifier>{DC9E5C24-6FAC-4484-B907-631AF768DDA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-GB">
+      <UniqueIdentifier>{905F5CDA-442E-DE89-784C-7CD9B156068C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-GB\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ru">
+      <UniqueIdentifier>{DE813650-EA51-843B-E707-F0D04526331A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ru\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sr">
+      <UniqueIdentifier>{D5E5E818-9171-8EFA-2FA0-199557006153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nl">
+      <UniqueIdentifier>{03F48F12-9E73-5556-E018-B301F16EBAB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nb">
+      <UniqueIdentifier>{806AB277-6340-FD50-F88C-479A14E05CBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nb\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\tr">
+      <UniqueIdentifier>{F1CFA355-341C-92A8-880C-900D541B3179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\tr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lv">
+      <UniqueIdentifier>{84A928CE-E3FD-D60F-3AFA-671A5C05A06E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lv\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lt">
+      <UniqueIdentifier>{65B00925-1BA9-BC42-97FD-741B7250A1AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lt\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\th">
+      <UniqueIdentifier>{6D8CDFBF-38C1-26AB-3238-36D69BFDDD45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\th\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-US">
+      <UniqueIdentifier>{CC9DE42F-A480-0EFA-779C-B2D93E606D6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-US\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es-419">
+      <UniqueIdentifier>{8ADC1A6D-9EC9-6EFE-5224-52743EF93C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es-419\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pl">
+      <UniqueIdentifier>{73E8E09B-688F-9C5E-D353-23FFC5BAC66A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ta">
+      <UniqueIdentifier>{5DE62909-F64A-458A-A9EE-E1FCFFC0875B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ta\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fr">
+      <UniqueIdentifier>{3CED2C7E-C992-906B-8897-DB8D1615C1B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bg">
+      <UniqueIdentifier>{FF863DA0-7817-E1C7-3240-B1154044EA72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bg\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\uk">
+      <UniqueIdentifier>{F70EBB5D-9329-E58D-C191-EB78FB9B158F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\uk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sl">
+      <UniqueIdentifier>{457C5744-410A-EE8C-EFEE-C0DDE87ED011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hr">
+      <UniqueIdentifier>{E86CEA6A-8B3C-0875-5C3D-A2C4D2CEEDD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bn">
+      <UniqueIdentifier>{EC9FF1C0-EAEB-8DD2-AB73-9FD7462D8280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bn\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\de">
+      <UniqueIdentifier>{3F996CCF-2EFD-EA27-8E27-52F60CBD1FB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\de\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\da">
+      <UniqueIdentifier>{67C256EA-415C-1C67-D7C2-A4392C4155F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\da\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fa">
+      <UniqueIdentifier>{F570BE52-EC71-11C0-601A-803C7A9CA149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fa\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hi">
+      <UniqueIdentifier>{BD7AAD65-7C9B-5551-C30F-026F3C52BF99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-BR">
+      <UniqueIdentifier>{7C9CC7DD-ACCB-A121-86A2-5741085468B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-BR\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fi">
+      <UniqueIdentifier>{4F6B8E0E-BBA2-33BE-6BA5-1B38C9F98FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hu">
+      <UniqueIdentifier>{317ED813-2132-A756-2873-1247E0E2EB27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hu\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ja">
+      <UniqueIdentifier>{898ED337-6A2E-95E7-60D3-22363D295148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ja\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\he">
+      <UniqueIdentifier>{B966C7DB-5EEB-2570-CCED-86E59AEF3BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\he\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ro">
+      <UniqueIdentifier>{81539E6B-A2A5-7FA6-B9D0-87E8823C6445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ro\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-PT">
+      <UniqueIdentifier>{4EC325C1-A4B9-AB80-ECD9-45DCFB439449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-PT\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-TW">
+      <UniqueIdentifier>{27CFC6E2-C443-AC12-9FF7-9945462E756D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-TW\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ko">
+      <UniqueIdentifier>{72B67921-6860-8D8C-6D53-68E88B54E132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ko\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\kn">
+      <UniqueIdentifier>{4A240E6B-28B7-C5B2-0368-A51EB927C699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\kn\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sk">
+      <UniqueIdentifier>{027848B3-6B9D-DA59-BE2D-8F7C9015D712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-CN">
+      <UniqueIdentifier>{2931A01B-64FC-BF4F-6749-35FFAD610CEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-CN\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fil">
+      <UniqueIdentifier>{3B1F758C-9D16-09DF-4AFB-787B4D4CDDD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fil\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ms">
+      <UniqueIdentifier>{0636358A-4943-4380-E64E-4B9BE894967E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ms\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ml">
+      <UniqueIdentifier>{51149956-4F0A-26D0-D6D2-B241ABC4B5CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ml\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\te">
+      <UniqueIdentifier>{DEE702E3-8852-E2AE-70B4-D08ECC0E7686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\te\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sw">
+      <UniqueIdentifier>{55137965-2877-7D06-F1B4-663D64A637F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sw\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx">
+      <UniqueIdentifier>{45189030-786B-66E7-EFDD-5B6525D76789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\el">
+      <UniqueIdentifier>{19C65CA9-1522-BA99-A481-D80D7A867093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\el\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\gu">
+      <UniqueIdentifier>{9597608C-C64A-58B1-F8AD-B8A3E1FD228F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\gu\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ro">
+      <UniqueIdentifier>{81539E6B-A2A5-7FA6-B9D0-87E8823C6445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ro\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\vi">
+      <UniqueIdentifier>{305452B2-269E-60D0-E63D-9FB89F062812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\vi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ca">
+      <UniqueIdentifier>{2F4B89D5-6450-2857-16E5-C0B8BB1BE34D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ca\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\am">
+      <UniqueIdentifier>{26E404E3-E642-3E73-4963-731984205C23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\am\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\it">
+      <UniqueIdentifier>{8DBE655C-FF01-0D59-0CFD-67E9D295A910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\it\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sv">
+      <UniqueIdentifier>{214E077B-D99B-E0E5-9C7F-B8BE6B069726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sv\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ar">
+      <UniqueIdentifier>{10D5B1B8-CE4F-8567-5E27-2956A709777D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ar\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\cs">
+      <UniqueIdentifier>{24A38DB2-0DB1-A72E-903D-E4E5A30E1A18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\cs\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\et">
+      <UniqueIdentifier>{ED9D90DD-A08C-EDF5-6008-2D68A7047C56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\et\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\id">
+      <UniqueIdentifier>{309744B4-B0D3-9C6A-BCDC-91DD03D5F984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\id\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es">
+      <UniqueIdentifier>{DC9E5C24-6FAC-4484-B907-631AF768DDA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-GB">
+      <UniqueIdentifier>{905F5CDA-442E-DE89-784C-7CD9B156068C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-GB\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ru">
+      <UniqueIdentifier>{DE813650-EA51-843B-E707-F0D04526331A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ru\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\he">
+      <UniqueIdentifier>{B966C7DB-5EEB-2570-CCED-86E59AEF3BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\he\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sr">
+      <UniqueIdentifier>{D5E5E818-9171-8EFA-2FA0-199557006153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nl">
+      <UniqueIdentifier>{03F48F12-9E73-5556-E018-B301F16EBAB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nb">
+      <UniqueIdentifier>{806AB277-6340-FD50-F88C-479A14E05CBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nb\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\tr">
+      <UniqueIdentifier>{F1CFA355-341C-92A8-880C-900D541B3179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\tr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lv">
+      <UniqueIdentifier>{84A928CE-E3FD-D60F-3AFA-671A5C05A06E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lv\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lt">
+      <UniqueIdentifier>{65B00925-1BA9-BC42-97FD-741B7250A1AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lt\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\th">
+      <UniqueIdentifier>{6D8CDFBF-38C1-26AB-3238-36D69BFDDD45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\th\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-US">
+      <UniqueIdentifier>{CC9DE42F-A480-0EFA-779C-B2D93E606D6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-US\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es-419">
+      <UniqueIdentifier>{8ADC1A6D-9EC9-6EFE-5224-52743EF93C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es-419\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pl">
+      <UniqueIdentifier>{73E8E09B-688F-9C5E-D353-23FFC5BAC66A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ta">
+      <UniqueIdentifier>{5DE62909-F64A-458A-A9EE-E1FCFFC0875B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ta\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fr">
+      <UniqueIdentifier>{3CED2C7E-C992-906B-8897-DB8D1615C1B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bg">
+      <UniqueIdentifier>{FF863DA0-7817-E1C7-3240-B1154044EA72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bg\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ms">
+      <UniqueIdentifier>{0636358A-4943-4380-E64E-4B9BE894967E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ms\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sl">
+      <UniqueIdentifier>{457C5744-410A-EE8C-EFEE-C0DDE87ED011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hr">
+      <UniqueIdentifier>{E86CEA6A-8B3C-0875-5C3D-A2C4D2CEEDD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bn">
+      <UniqueIdentifier>{EC9FF1C0-EAEB-8DD2-AB73-9FD7462D8280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bn\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\de">
+      <UniqueIdentifier>{3F996CCF-2EFD-EA27-8E27-52F60CBD1FB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\de\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ko">
+      <UniqueIdentifier>{72B67921-6860-8D8C-6D53-68E88B54E132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ko\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hu">
+      <UniqueIdentifier>{317ED813-2132-A756-2873-1247E0E2EB27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hu\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fa">
+      <UniqueIdentifier>{F570BE52-EC71-11C0-601A-803C7A9CA149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fa\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hi">
+      <UniqueIdentifier>{BD7AAD65-7C9B-5551-C30F-026F3C52BF99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-BR">
+      <UniqueIdentifier>{7C9CC7DD-ACCB-A121-86A2-5741085468B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-BR\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fi">
+      <UniqueIdentifier>{4F6B8E0E-BBA2-33BE-6BA5-1B38C9F98FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\da">
+      <UniqueIdentifier>{67C256EA-415C-1C67-D7C2-A4392C4155F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\da\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ja">
+      <UniqueIdentifier>{898ED337-6A2E-95E7-60D3-22363D295148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ja\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ml">
+      <UniqueIdentifier>{51149956-4F0A-26D0-D6D2-B241ABC4B5CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ml\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\te">
+      <UniqueIdentifier>{DEE702E3-8852-E2AE-70B4-D08ECC0E7686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\te\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-PT">
+      <UniqueIdentifier>{4EC325C1-A4B9-AB80-ECD9-45DCFB439449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-PT\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-TW">
+      <UniqueIdentifier>{27CFC6E2-C443-AC12-9FF7-9945462E756D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-TW\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sw">
+      <UniqueIdentifier>{55137965-2877-7D06-F1B4-663D64A637F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sw\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\kn">
+      <UniqueIdentifier>{4A240E6B-28B7-C5B2-0368-A51EB927C699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\kn\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sk">
+      <UniqueIdentifier>{027848B3-6B9D-DA59-BE2D-8F7C9015D712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-CN">
+      <UniqueIdentifier>{2931A01B-64FC-BF4F-6749-35FFAD610CEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-CN\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fil">
+      <UniqueIdentifier>{3B1F758C-9D16-09DF-4AFB-787B4D4CDDD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fil\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\uk">
+      <UniqueIdentifier>{F70EBB5D-9329-E58D-C191-EB78FB9B158F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\uk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\mr">
+      <UniqueIdentifier>{F8A9F274-35BF-CDCF-7BF7-9005B69B5E4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\mr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\examples">
+      <UniqueIdentifier>{44436D1D-970F-7E02-EDA1-3A8DAD062A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\examples\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html">
+      <UniqueIdentifier>{6B759987-DACC-E33B-CA3B-4ABB0218955E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\el">
+      <UniqueIdentifier>{19C65CA9-1522-BA99-A481-D80D7A867093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\el\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\gu">
+      <UniqueIdentifier>{9597608C-C64A-58B1-F8AD-B8A3E1FD228F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\gu\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-TW">
+      <UniqueIdentifier>{27CFC6E2-C443-AC12-9FF7-9945462E756D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-TW\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sw">
+      <UniqueIdentifier>{55137965-2877-7D06-F1B4-663D64A637F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sw\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ca">
+      <UniqueIdentifier>{2F4B89D5-6450-2857-16E5-C0B8BB1BE34D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ca\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\am">
+      <UniqueIdentifier>{26E404E3-E642-3E73-4963-731984205C23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\am\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\it">
+      <UniqueIdentifier>{8DBE655C-FF01-0D59-0CFD-67E9D295A910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\it\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sv">
+      <UniqueIdentifier>{214E077B-D99B-E0E5-9C7F-B8BE6B069726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sv\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ar">
+      <UniqueIdentifier>{10D5B1B8-CE4F-8567-5E27-2956A709777D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ar\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\cs">
+      <UniqueIdentifier>{24A38DB2-0DB1-A72E-903D-E4E5A30E1A18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\cs\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\et">
+      <UniqueIdentifier>{ED9D90DD-A08C-EDF5-6008-2D68A7047C56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\et\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\id">
+      <UniqueIdentifier>{309744B4-B0D3-9C6A-BCDC-91DD03D5F984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\id\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es">
+      <UniqueIdentifier>{DC9E5C24-6FAC-4484-B907-631AF768DDA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-GB">
+      <UniqueIdentifier>{905F5CDA-442E-DE89-784C-7CD9B156068C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-GB\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ru">
+      <UniqueIdentifier>{DE813650-EA51-843B-E707-F0D04526331A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ru\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sr">
+      <UniqueIdentifier>{D5E5E818-9171-8EFA-2FA0-199557006153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nl">
+      <UniqueIdentifier>{03F48F12-9E73-5556-E018-B301F16EBAB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nb">
+      <UniqueIdentifier>{806AB277-6340-FD50-F88C-479A14E05CBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nb\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\tr">
+      <UniqueIdentifier>{F1CFA355-341C-92A8-880C-900D541B3179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\tr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lv">
+      <UniqueIdentifier>{84A928CE-E3FD-D60F-3AFA-671A5C05A06E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lv\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lt">
+      <UniqueIdentifier>{65B00925-1BA9-BC42-97FD-741B7250A1AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lt\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es-419">
+      <UniqueIdentifier>{8ADC1A6D-9EC9-6EFE-5224-52743EF93C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es-419\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\th">
+      <UniqueIdentifier>{6D8CDFBF-38C1-26AB-3238-36D69BFDDD45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\th\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\vi">
+      <UniqueIdentifier>{305452B2-269E-60D0-E63D-9FB89F062812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\vi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-US">
+      <UniqueIdentifier>{CC9DE42F-A480-0EFA-779C-B2D93E606D6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-US\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\te">
+      <UniqueIdentifier>{DEE702E3-8852-E2AE-70B4-D08ECC0E7686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\te\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pl">
+      <UniqueIdentifier>{73E8E09B-688F-9C5E-D353-23FFC5BAC66A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ta">
+      <UniqueIdentifier>{5DE62909-F64A-458A-A9EE-E1FCFFC0875B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ta\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fr">
+      <UniqueIdentifier>{3CED2C7E-C992-906B-8897-DB8D1615C1B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bg">
+      <UniqueIdentifier>{FF863DA0-7817-E1C7-3240-B1154044EA72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bg\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\uk">
+      <UniqueIdentifier>{F70EBB5D-9329-E58D-C191-EB78FB9B158F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\uk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sl">
+      <UniqueIdentifier>{457C5744-410A-EE8C-EFEE-C0DDE87ED011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sl\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hr">
+      <UniqueIdentifier>{E86CEA6A-8B3C-0875-5C3D-A2C4D2CEEDD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bn">
+      <UniqueIdentifier>{EC9FF1C0-EAEB-8DD2-AB73-9FD7462D8280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bn\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\de">
+      <UniqueIdentifier>{3F996CCF-2EFD-EA27-8E27-52F60CBD1FB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\de\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\da">
+      <UniqueIdentifier>{67C256EA-415C-1C67-D7C2-A4392C4155F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\da\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fa">
+      <UniqueIdentifier>{F570BE52-EC71-11C0-601A-803C7A9CA149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fa\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hi">
+      <UniqueIdentifier>{BD7AAD65-7C9B-5551-C30F-026F3C52BF99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-BR">
+      <UniqueIdentifier>{7C9CC7DD-ACCB-A121-86A2-5741085468B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-BR\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fi">
+      <UniqueIdentifier>{4F6B8E0E-BBA2-33BE-6BA5-1B38C9F98FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fi\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hu">
+      <UniqueIdentifier>{317ED813-2132-A756-2873-1247E0E2EB27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hu\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ja">
+      <UniqueIdentifier>{898ED337-6A2E-95E7-60D3-22363D295148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ja\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\he">
+      <UniqueIdentifier>{B966C7DB-5EEB-2570-CCED-86E59AEF3BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\he\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ro">
+      <UniqueIdentifier>{81539E6B-A2A5-7FA6-B9D0-87E8823C6445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ro\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-PT">
+      <UniqueIdentifier>{4EC325C1-A4B9-AB80-ECD9-45DCFB439449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-PT\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ml">
+      <UniqueIdentifier>{51149956-4F0A-26D0-D6D2-B241ABC4B5CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ml\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ko">
+      <UniqueIdentifier>{72B67921-6860-8D8C-6D53-68E88B54E132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ko\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\kn">
+      <UniqueIdentifier>{4A240E6B-28B7-C5B2-0368-A51EB927C699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\kn\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sk">
+      <UniqueIdentifier>{027848B3-6B9D-DA59-BE2D-8F7C9015D712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sk\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-CN">
+      <UniqueIdentifier>{2931A01B-64FC-BF4F-6749-35FFAD610CEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-CN\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fil">
+      <UniqueIdentifier>{3B1F758C-9D16-09DF-4AFB-787B4D4CDDD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fil\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ms">
+      <UniqueIdentifier>{0636358A-4943-4380-E64E-4B9BE894967E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ms\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\mr">
+      <UniqueIdentifier>{F8A9F274-35BF-CDCF-7BF7-9005B69B5E4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\mr\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\linux">
+      <UniqueIdentifier>{978C4E9B-8123-1CA3-A70B-0A340D4435AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\linux\examples">
+      <UniqueIdentifier>{44436D1D-970F-7E02-EDA1-3A8DAD062A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\chrome\app\policy\linux\examples\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\policy">
+      <UniqueIdentifier>{8729FB2E-72E8-C0BD-1029-A6C0EED6E0CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\policy\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\build\win\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\gritsettings">
+      <UniqueIdentifier>{170EBF02-9E0C-8C5D-06E5-34F73C1DF75E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\gritsettings\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit">
+      <UniqueIdentifier>{3405616A-C381-F382-5E74-579CB4F91A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node">
+      <UniqueIdentifier>{A49AD564-6B22-6A46-08E5-B5A7F4427839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node\custom">
+      <UniqueIdentifier>{C40A63E8-DEC6-D9F6-B0C6-030D87C22C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\node\custom\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\extern">
+      <UniqueIdentifier>{539A9923-54CF-EA45-54BF-92C1F15D85A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\extern\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\tool">
+      <UniqueIdentifier>{D5609558-F36F-FE7E-9F59-3E68915C83F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\tool\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\gather">
+      <UniqueIdentifier>{9ADB54E8-3A2C-2F09-B748-0DCD0232A4D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\gather\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format">
+      <UniqueIdentifier>{70B82C25-A362-5F67-ADB1-F53029D26C30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates">
+      <UniqueIdentifier>{79320D7A-68DD-70F8-76E3-D7F26419AB5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates\writers">
+      <UniqueIdentifier>{9A464742-1D51-D9D1-FCF1-63DD8177F13D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tools\grit\grit\format\policy_templates\writers\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <None Include="VERSION">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\VERSION">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\el\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\el\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\gu\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\gu\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\mr\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\mr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\vi\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\vi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ca\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ca\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\am\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\am\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\it\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\it\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sv\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sv\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ar\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ar\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\cs\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\cs\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\et\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\et\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\id\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\id\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-GB\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-GB\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ru\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ru\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sr\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nl\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nb\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\nb\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\tr\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\tr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lv\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lv\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lt\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\lt\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\th\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\th\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-US\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\en-US\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es-419\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\es-419\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pl\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ta\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ta\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fr\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bg\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bg\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\uk\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\uk\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sl\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hr\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bn\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\bn\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\de\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\de\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\da\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\da\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fa\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fa\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hi\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-BR\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-BR\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fi\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hu\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\hu\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ja\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ja\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\he\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\he\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ro\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ro\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-PT\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\pt-PT\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-TW\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-TW\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ko\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ko\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\kn\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\kn\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sk\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sk\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-CN\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\zh-CN\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fil\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\fil\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ms\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ms\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ml\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\ml\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\te\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\te\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sw\chrome.adm">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\adm\sw\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\chrome.admx">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\el\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\el\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\gu\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\gu\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ro\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ro\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\vi\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\vi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ca\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ca\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\am\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\am\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\it\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\it\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sv\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sv\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ar\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ar\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\cs\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\cs\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\et\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\et\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\id\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\id\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-GB\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-GB\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ru\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ru\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\he\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\he\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sr\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nl\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nb\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\nb\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\tr\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\tr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lv\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lv\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lt\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\lt\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\th\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\th\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-US\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\en-US\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es-419\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\es-419\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pl\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ta\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ta\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fr\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bg\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bg\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ms\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ms\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sl\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hr\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bn\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\bn\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\de\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\de\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ko\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ko\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hu\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hu\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fa\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fa\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hi\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\hi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-BR\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-BR\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fi\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\da\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\da\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ja\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ja\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ml\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\ml\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\te\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\te\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-PT\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\pt-PT\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-TW\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-TW\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sw\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sw\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\kn\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\kn\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sk\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\sk\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-CN\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\zh-CN\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fil\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\fil\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\uk\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\uk\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\mr\chrome.adml">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\admx\mr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\windows\examples\chrome.reg">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\windows\examples\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\el\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\el\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\gu\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\gu\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-TW\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-TW\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sw\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sw\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ca\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ca\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\am\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\am\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\it\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\it\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sv\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sv\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ar\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ar\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\cs\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\cs\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\et\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\et\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\id\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\id\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-GB\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-GB\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ru\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ru\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sr\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nl\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nb\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\nb\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\tr\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\tr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lv\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lv\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lt\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\lt\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es-419\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\es-419\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\th\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\th\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\vi\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\vi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-US\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\en-US\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\te\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\te\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pl\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ta\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ta\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fr\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bg\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bg\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\uk\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\uk\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sl\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sl\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hr\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bn\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\bn\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\de\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\de\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\da\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\da\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fa\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fa\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hi\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-BR\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-BR\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fi\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fi\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hu\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\hu\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ja\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ja\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\he\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\he\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ro\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ro\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-PT\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\pt-PT\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ml\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ml\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ko\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ko\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\kn\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\kn\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sk\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\sk\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-CN\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\zh-CN\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fil\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\fil\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ms\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\ms\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\mr\chrome_policy_list.html">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\common\html\mr\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)obj\global_intermediate\chrome\app\policy\linux\examples\chrome.json">
+      <Filter>$(OutDir)obj\global_intermediate\chrome\app\policy\linux\examples\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_am.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_es-419.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ru.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ta.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ar.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ml.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_iw.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_kn.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_bg.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_pt-BR.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_sl.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_lv.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_et.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_te.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_vi.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_no.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates.json">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_hr.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_th.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_bn.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_de.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_lt.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_fi.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_it.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_sv.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_zh-CN.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_pl.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_mr.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_sw.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_id.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_es.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_el.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ja.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_pt-PT.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ro.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_zh-TW.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_fil.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ko.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_sk.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_sr.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_da.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_hi.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_nl.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_tr.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_fr.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates.grd">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ms.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_uk.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_hu.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_cs.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_en-GB.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_ca.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="app\policy\policy_templates_gu.xtb">
+      <Filter>app\policy\_excluded_files</Filter>
+    </None>
+    <None Include="tools\build\win\make_policy_zip.py">
+      <Filter>tools\build\win\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\gritsettings\resource_ids">
+      <Filter>..\tools\gritsettings\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\PRESUBMIT.py">
+      <Filter>..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit.py">
+      <Filter>..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit_info.py">
+      <Filter>..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grd_reader.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grit_runner.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\pseudo.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\util.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\clique_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tclib.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\shortcuts.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\scons.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\shortcuts_unittests.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\pseudo_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\constants.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grd_reader_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\xtb_reader_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\pseudo_rtl.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\__init__.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\grit_runner_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\clique.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\xtb_reader.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\lazy_re.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\util_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\exception.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\test_suite_all.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\lazy_re_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tclib_unittest.py">
+      <Filter>..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\variant.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\include_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\message_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\io_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\misc_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\base_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\io.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\mapping.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\structure_unittest.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\misc.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\base.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\__init__.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\empty.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\include.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\message.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\structure.py">
+      <Filter>..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\custom\filename_unittest.py">
+      <Filter>..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\custom\__init__.py">
+      <Filter>..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\node\custom\filename.py">
+      <Filter>..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\FP.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\tclib.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\__init__.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\extern\BogoFP.py">
+      <Filter>..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\xmb.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\android2grd.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\diff_structures.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\build_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\preprocess_interface.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\postprocess_interface.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\rc2grd.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\resize.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\__init__.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\newgrd.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\preprocess_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\toolbar_postprocess.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\unit.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\android2grd_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\count.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\xmb_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\build.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\interface.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\toolbar_preprocess.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\rc2grd_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\transl2tc.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\postprocess_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\buildinfo.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\transl2tc_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\test.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\menu_from_parts.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\tool\buildinfo_unittest.py">
+      <Filter>..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\igoogle_strings.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\igoogle_strings_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\rc.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_html.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_html_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\policy_json.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\txt.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\muppet_strings_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\admin_template.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\admin_template_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\regexp.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\skeleton_gatherer.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_scaled_image.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\muppet_strings.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\txt_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\__init__.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\json_loader.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\interface.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\rc_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\tr_html.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\chrome_scaled_image_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\tr_html_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\gather\policy_json_unittest.py">
+      <Filter>..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\android_xml_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\resource_map.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc_header_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\js_map_format_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\js_map_format.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\c_format.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\data_pack_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\chrome_messages_json_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\data_pack.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\rc_header.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\html_inline_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\__init__.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\repack.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\android_xml.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\chrome_messages_json.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\resource_map_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\html_inline.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\c_format_unittest.py">
+      <Filter>..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\__init__.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\template_formatter.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\PRESUBMIT.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\policy_template_generator.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\policy_template_generator_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writer_configuration.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\reg_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\json_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_strings_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\json_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\reg_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\doc_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adm_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\writer_unittest_common.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adml_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\template_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\doc_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\mock_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\xml_writer_base_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_strings_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\admx_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\plist_helper.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\admx_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adm_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\__init__.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\xml_formatted_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\adml_writer.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\tools\grit\grit\format\policy_templates\writers\template_writer_unittest.py">
+      <Filter>..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

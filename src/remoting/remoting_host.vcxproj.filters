@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{D877ED5D-5BA8-20DA-F98B-FABAACD9EF89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\policy_hack">
+      <UniqueIdentifier>{E1722E29-25B3-B798-A2A6-D2E59A645302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\policy_hack\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\linux">
+      <UniqueIdentifier>{978C4E9B-8123-1CA3-A70B-0A340D4435AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host\linux\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="remoting.gyp"/>
+    <ClCompile Include="host\ipc_host_event_logger.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\sas_injector.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\ipc_input_injector.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\audio_silence_detector.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\screen_resolution.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\local_input_monitor_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\chromoting_host.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\host_window_proxy.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\chromoting_host_context.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\video_scheduler.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_config.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\heartbeat_sender.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\remote_input_filter.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\audio_capturer.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\log_to_server.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\session_manager_factory.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\ipc_util.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\client_session_control.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\audio_silence_detector.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\usage_stats_consent_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_window.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\clipboard_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\signaling_connector.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\desktop_session_proxy.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\me2me_desktop_environment.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\client_session.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\screen_controls.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\in_memory_host_config.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\screen_resolution.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\host_secret.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_status_sender.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\mouse_clamping_filter.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ipc_input_injector.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\clipboard.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\basic_desktop_environment.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\host_window_proxy.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ipc_desktop_environment.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ipc_screen_controls.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\desktop_environment.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\chromoting_host_context.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\ipc_audio_capturer.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\ipc_audio_capturer.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\register_support_host_request.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\pairing_registry_delegate_win.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\disconnect_window_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pin_hash.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\desktop_resizer.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\mouse_clamping_filter.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\host_exit_codes.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\chromoting_param_traits.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_status_monitor.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\service_urls.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\capture_scheduler.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\it2me_desktop_environment.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\basic_desktop_environment.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_change_notification_listener.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\desktop_session_connector.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\json_host_config.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\local_input_monitor.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\resizing_host_observer.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\continue_window_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\desktop_resizer_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\audio_capturer_win.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\continue_window.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\token_validator_factory_impl.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\config_file_watcher.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\ipc_constants.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\server_log_entry.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\ipc_constants.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\signaling_connector.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\host_secret.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\log_to_server.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\heartbeat_sender.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\dns_blackhole_checker.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\resizing_host_observer.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\ipc_host_event_logger.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\sas_injector_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\usage_stats_consent.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\it2me_desktop_environment.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\audio_capturer.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\json_host_config.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\pin_hash.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\service_urls.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ipc_util_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\server_log_entry.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\video_scheduler.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\ipc_desktop_environment.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\host_change_notification_listener.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\host_config.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pairing_registry_delegate_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\host_status_observer.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\audio_scheduler.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\register_support_host_request.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\capture_scheduler.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\audio_capturer_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ipc_video_frame_capturer.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\host_status_sender.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\in_memory_host_config.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\audio_scheduler.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\continue_window.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\token_validator_factory_impl.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\input_injector_win.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\pairing_registry_delegate.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\chromoting_messages.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\desktop_session_proxy.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\remote_input_filter.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\ipc_screen_controls.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\session_manager_factory.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\input_injector.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\pairing_registry_delegate.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\client_session.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\chromoting_param_traits.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\chromoting_host.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\config_file_watcher.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\ipc_video_frame_capturer.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\chromoting_messages.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\dns_blackhole_checker.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\host_exit_codes.cc">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClInclude Include="host\me2me_desktop_environment.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClCompile Include="host\desktop_resizer_mac.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="host\clipboard_mac.mm">
+      <Filter>host\_excluded_files</Filter>
+    </None>
+    <None Include="host\local_input_monitor_mac.mm">
+      <Filter>host\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="host\disconnect_window_mac.h">
+      <Filter>host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="host\constants_mac.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="host\audio_capturer_linux.h">
+      <Filter>host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="host\disconnect_window_gtk.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\continue_window_gtk.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\input_injector_linux.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pairing_registry_delegate_linux.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\usage_stats_consent_mac.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="host\constants_mac.h">
+      <Filter>host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="host\ipc_util_posix.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\continue_window_aura.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\audio_capturer_linux.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\disconnect_window_aura.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\input_injector_mac.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pam_authorization_factory_posix.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\pairing_registry_delegate_mac.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="host\disconnect_window_mac.mm">
+      <Filter>host\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="host\desktop_resizer_linux.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="host\pam_authorization_factory_posix.h">
+      <Filter>host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="host\audio_capturer_mac.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="host\pairing_registry_delegate_linux.h">
+      <Filter>host\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="host\clipboard_x11.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\local_input_monitor_linux.cc">
+      <Filter>host\_excluded_files</Filter>
+    </ClCompile>
+    <None Include="host\continue_window_mac.mm">
+      <Filter>host\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="host\win\omaha.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\win\rdp_client_window.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClInclude Include="host\win\launch_process_with_token.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClInclude Include="host\win\wts_terminal_monitor.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\win\wts_terminal_monitor.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\win\window_station_and_desktop.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\win\rdp_client.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClInclude Include="host\win\rdp_client.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClInclude Include="host\win\com_security.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClInclude Include="host\win\wts_terminal_observer.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClInclude Include="host\win\session_desktop_environment.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\win\security_descriptor.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\win\session_input_injector.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\win\launch_process_with_token.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClInclude Include="host\win\security_descriptor.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\win\session_desktop_environment.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClCompile Include="host\win\com_security.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClInclude Include="host\win\session_input_injector.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\win\omaha.cc">
+      <Filter>host\win</Filter>
+    </ClCompile>
+    <ClInclude Include="host\win\rdp_client_window.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClInclude Include="host\win\window_station_and_desktop.h">
+      <Filter>host\win</Filter>
+    </ClInclude>
+    <ClCompile Include="host\policy_hack\policy_watcher.cc">
+      <Filter>host\policy_hack</Filter>
+    </ClCompile>
+    <ClCompile Include="host\policy_hack\policy_watcher_win.cc">
+      <Filter>host\policy_hack</Filter>
+    </ClCompile>
+    <ClInclude Include="host\policy_hack\policy_watcher.h">
+      <Filter>host\policy_hack</Filter>
+    </ClInclude>
+    <None Include="host\policy_hack\policy_watcher_mac.mm">
+      <Filter>host\policy_hack\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="host\policy_hack\policy_watcher_linux.cc">
+      <Filter>host\policy_hack\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\linux\x_server_clipboard.cc">
+      <Filter>host\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\linux\audio_pipe_reader.cc">
+      <Filter>host\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="host\linux\x11_util.cc">
+      <Filter>host\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="host\linux\x_server_clipboard.h">
+      <Filter>host\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="host\linux\x11_util.h">
+      <Filter>host\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="host\linux\audio_pipe_reader.h">
+      <Filter>host\linux\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

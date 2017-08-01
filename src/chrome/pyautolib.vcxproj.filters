@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(IntDir)">
+      <UniqueIdentifier>{2385D4EB-CAEB-D33E-59EB-C687F571392E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\public">
+      <UniqueIdentifier>{0D2511BD-044F-C35F-ECCE-845899961E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\public\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\content\public\common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\net">
+      <UniqueIdentifier>{1F653D5C-3085-E5B1-C9CA-3B1D0CF99BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\net\cert">
+      <UniqueIdentifier>{E370B541-EEA6-9A09-6530-CBD64A1147B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\net\cert\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\net\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\net\base\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\pyautolib">
+      <UniqueIdentifier>{83786B55-E1D9-A297-20FF-F113E5D5DAB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\pyautolib\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\automation">
+      <UniqueIdentifier>{31ADDD52-866C-4C09-9800-A5A5331381F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\automation\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos">
+      <UniqueIdentifier>{3250F0B1-2DA3-5E5D-4EBC-552537BE80D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\cros">
+      <UniqueIdentifier>{896188E8-CF15-0B2C-A569-13BEF03414F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="browser\chromeos\cros\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="$(IntDir)\pyautolib_wrap.cc">
+      <Filter>$(IntDir)</Filter>
+    </ClCompile>
+    <ClInclude Include="..\content\public\common\page_type.h">
+      <Filter>..\content\public\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\content\public\common\security_style.h">
+      <Filter>..\content\public\common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\cert\cert_status_flags.h">
+      <Filter>..\net\cert\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\base\net_export.h">
+      <Filter>..\net\base\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClInclude Include="app\chrome_command_ids.h">
+      <Filter>app\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\chrome_dll_resource.h">
+      <Filter>app\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pref_names.h">
+      <Filter>common\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\automation_constants.h">
+      <Filter>common\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="common\pref_names.cc">
+      <Filter>common\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\pyautolib\pyautolib.cc">
+      <Filter>test\pyautolib</Filter>
+    </ClCompile>
+    <ClInclude Include="test\pyautolib\pyautolib.h">
+      <Filter>test\pyautolib</Filter>
+    </ClInclude>
+    <None Include="test\pyautolib\argc_argv.i">
+      <Filter>test\pyautolib\_excluded_files</Filter>
+    </None>
+    <None Include="test\pyautolib\pyautolib.i">
+      <Filter>test\pyautolib\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="test\ui\ui_test_suite.cc">
+      <Filter>test\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="test\ui\ui_test.cc">
+      <Filter>test\ui</Filter>
+    </ClCompile>
+    <ClInclude Include="test\ui\ui_test.h">
+      <Filter>test\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="test\ui\ui_test_suite.h">
+      <Filter>test\ui</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\proxy_launcher.cc">
+      <Filter>test\automation</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\proxy_launcher.h">
+      <Filter>test\automation</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\browser_proxy.cc">
+      <Filter>test\automation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="test\automation\tab_proxy.h">
+      <Filter>test\automation\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="test\automation\browser_proxy.h">
+      <Filter>test\automation\_excluded_files</Filter>
+    </ClInclude>
+    <ClCompile Include="test\automation\tab_proxy.cc">
+      <Filter>test\automation\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="browser\chromeos\cros\network_constants.h">
+      <Filter>browser\chromeos\cros\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\chromeos\cros\network_constants.h">
+      <Filter>browser\chromeos\cros\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

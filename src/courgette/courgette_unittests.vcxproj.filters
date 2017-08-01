@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="disassembler_elf_32_x86_unittest.cc"/>
+    <ClCompile Include="difference_estimator_unittest.cc"/>
+    <ClCompile Include="ensemble_unittest.cc"/>
+    <ClCompile Include="encode_decode_unittest.cc"/>
+    <ClCompile Include="base_test_unittest.cc"/>
+    <ClInclude Include="base_test_unittest.h"/>
+    <ClCompile Include="streams_unittest.cc"/>
+    <ClCompile Include="typedrva_unittest.cc"/>
+    <None Include="courgette.gyp"/>
+    <ClCompile Include="run_all_unittests.cc"/>
+    <ClCompile Include="disassembler_win32_x86_unittest.cc"/>
+    <ClCompile Include="adjustment_method_unittest.cc"/>
+    <ClCompile Include="bsdiff_memory_unittest.cc"/>
+    <ClCompile Include="encoded_program_unittest.cc"/>
+    <ClCompile Include="versioning_unittest.cc"/>
+    <ClCompile Include="third_party\paged_array_unittest.cc">
+      <Filter>third_party</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

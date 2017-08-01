@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{46D3A1A1-3410-F9C8-C5F7-6AC884D4AD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\media_galleries">
+      <UniqueIdentifier>{E6E173C0-6DC0-CF1D-A245-71632AE6E864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\importer">
+      <UniqueIdentifier>{8610A384-1DC0-03D5-99CA-C0E883C45A96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\importer\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\extensions">
+      <UniqueIdentifier>{76083E2D-7590-88DA-EC98-B85C08DD3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\local_discovery">
+      <UniqueIdentifier>{90C326AE-347F-A07A-81D2-1330C6354EC6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\profile_import_handler.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\web_resource_unpacker.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\profile_import_handler.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\chrome_content_utility_client.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\web_resource_unpacker.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\utility_message_handler.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\chrome_content_utility_client.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\media_galleries\picasa_album_table_reader.h">
+      <Filter>utility\media_galleries</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\media_galleries\pmp_column_reader.h">
+      <Filter>utility\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\media_galleries\pmp_column_reader.cc">
+      <Filter>utility\media_galleries</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\media_galleries\itunes_library_parser.h">
+      <Filter>utility\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\media_galleries\picasa_albums_indexer.cc">
+      <Filter>utility\media_galleries</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\media_galleries\itunes_pref_parser_win.h">
+      <Filter>utility\media_galleries</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\media_galleries\picasa_album_table_reader.cc">
+      <Filter>utility\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\media_galleries\itunes_library_parser.cc">
+      <Filter>utility\media_galleries</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\media_galleries\itunes_pref_parser_win.cc">
+      <Filter>utility\media_galleries</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\media_galleries\picasa_albums_indexer.h">
+      <Filter>utility\media_galleries</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\safari_importer.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\firefox_importer_unittest_messages_internal.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\bookmarks_file_importer.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\importer\bookmark_html_reader.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\importer\ie_importer_win.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\importer\nss_decryptor_win.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\importer\nss_decryptor.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\firefox_importer.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\importer\firefox_importer.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\importer\bookmark_html_reader.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\importer_creator.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\nss_decryptor_win.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\external_process_importer_bridge.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\importer\importer.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\importer\external_process_importer_bridge.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\importer\favicon_reencode.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\firefox_importer_unittest_utils.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\importer\importer_creator.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\importer\favicon_reencode.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\importer\nss_decryptor.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\importer\bookmarks_file_importer.cc">
+      <Filter>utility\importer</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\importer\importer.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\importer\ie_importer_win.h">
+      <Filter>utility\importer</Filter>
+    </ClInclude>
+    <None Include="utility\importer\safari_importer.mm">
+      <Filter>utility\importer\_excluded_files</Filter>
+    </None>
+    <None Include="utility\importer\nss_decryptor_mac.mm">
+      <Filter>utility\importer\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="utility\importer\firefox_importer_unittest_utils_mac.cc">
+      <Filter>utility\importer\_excluded_files</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\importer\nss_decryptor_mac.h">
+      <Filter>utility\importer\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\extensions\unpacker.h">
+      <Filter>utility\extensions</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\extensions\unpacker.cc">
+      <Filter>utility\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\local_discovery\service_discovery_client_impl.cc">
+      <Filter>utility\local_discovery</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\local_discovery\service_discovery_client_impl.h">
+      <Filter>utility\local_discovery</Filter>
+    </ClInclude>
+    <ClCompile Include="utility\local_discovery\service_discovery_message_handler.cc">
+      <Filter>utility\local_discovery</Filter>
+    </ClCompile>
+    <ClInclude Include="utility\local_discovery\service_discovery_message_handler.h">
+      <Filter>utility\local_discovery</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

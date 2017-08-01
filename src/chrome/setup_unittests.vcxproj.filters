@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="installer">
+      <UniqueIdentifier>{6284E552-FA73-42B7-3DDD-DA58AC0403DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\setup">
+      <UniqueIdentifier>{10813315-79D2-702F-E3AC-CE979A8A690B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installer\mini_installer">
+      <UniqueIdentifier>{4C497288-FD02-2E5E-FA26-90C2F295861B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chrome.gyp"/>
+    <ClCompile Include="installer\setup\archive_patch_helper.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\run_all_unittests.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\archive_patch_helper_unittest.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\setup_util_unittest.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\setup\install_worker.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\install.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ResourceCompile Include="installer\setup\setup_unittests.rc">
+      <Filter>installer\setup</Filter>
+    </ResourceCompile>
+    <ClCompile Include="installer\setup\setup_constants.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\install_worker.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\setup\install.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\setup\archive_patch_helper.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\install_worker_unittest.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\setup\setup_unittests_resource.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\setup\setup_util_unittest.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\setup\install_unittest.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\setup\setup_util.cc">
+      <Filter>installer\setup</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\setup\setup_constants.h">
+      <Filter>installer\setup</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\mini_installer\decompress_test.cc">
+      <Filter>installer\mini_installer</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\mini_installer\chrome_appid.cc">
+      <Filter>installer\mini_installer</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\mini_installer\mini_string_test.cc">
+      <Filter>installer\mini_installer</Filter>
+    </ClCompile>
+    <ClInclude Include="installer\mini_installer\mini_string.h">
+      <Filter>installer\mini_installer</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\mini_installer\decompress.h">
+      <Filter>installer\mini_installer</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\mini_installer\configuration.cc">
+      <Filter>installer\mini_installer</Filter>
+    </ClCompile>
+    <server_dlls Include="installer\mini_installer\chrome.release">
+      <Filter>installer\mini_installer</Filter>
+    </server_dlls>
+    <ClInclude Include="installer\mini_installer\configuration.h">
+      <Filter>installer\mini_installer</Filter>
+    </ClInclude>
+    <ClInclude Include="installer\mini_installer\appid.h">
+      <Filter>installer\mini_installer</Filter>
+    </ClInclude>
+    <ClCompile Include="installer\mini_installer\configuration_test.cc">
+      <Filter>installer\mini_installer</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\mini_installer\decompress.cc">
+      <Filter>installer\mini_installer</Filter>
+    </ClCompile>
+    <ClCompile Include="installer\mini_installer\mini_string.cc">
+      <Filter>installer\mini_installer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

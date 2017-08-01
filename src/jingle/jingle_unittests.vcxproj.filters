@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glue">
+      <UniqueIdentifier>{9C0EBFC5-0C0B-8A11-B834-3199D9447A2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier">
+      <UniqueIdentifier>{66184CE2-8D3E-4C84-F432-F6398B11F1E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\listener">
+      <UniqueIdentifier>{0E9C88D6-EDEA-CB39-91BD-231257D6CB59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\communicator">
+      <UniqueIdentifier>{F062B347-F81F-91C0-B1D1-A3FAEFDE5B85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifier\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="run_all_unittests.cc"/>
+    <None Include="jingle.gyp"/>
+    <ClCompile Include="glue\channel_socket_adapter_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\mock_task.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClInclude Include="glue\mock_task.h">
+      <Filter>glue</Filter>
+    </ClInclude>
+    <ClCompile Include="glue\pseudotcp_adapter_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\fake_ssl_client_socket_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\thread_wrapper_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClInclude Include="glue\jingle_glue_mock_objects.h">
+      <Filter>glue</Filter>
+    </ClInclude>
+    <ClCompile Include="glue\jingle_glue_mock_objects.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\logging_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\proxy_resolving_client_socket_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\chrome_async_socket_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="glue\task_pump_unittest.cc">
+      <Filter>glue</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\xmpp_push_client_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\push_notifications_subscribe_task_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\send_ping_task_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\notification_defines_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\xml_element_util_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\non_blocking_push_client_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\push_notifications_send_update_task_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\listener\push_client_unittest.cc">
+      <Filter>notifier\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\communicator\connection_settings_unittest.cc">
+      <Filter>notifier\communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\communicator\login_settings_unittest.cc">
+      <Filter>notifier\communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\communicator\single_login_attempt_unittest.cc">
+      <Filter>notifier\communicator</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\base\weak_xmpp_client_unittest.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+    <ClCompile Include="notifier\base\xmpp_connection_unittest.cc">
+      <Filter>notifier\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

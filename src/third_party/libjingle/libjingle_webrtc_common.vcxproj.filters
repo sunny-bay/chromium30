@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{8A6F5E6E-316F-22D4-1547-253B04CB32E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk">
+      <UniqueIdentifier>{8B4C5F9F-E86F-990D-5102-545A2239DF3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\media\sctp">
+      <UniqueIdentifier>{6AC620CE-7C26-B53F-AB42-A12BDBB4B39B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\media\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\media\webrtc">
+      <UniqueIdentifier>{543055F1-DB92-5041-CF1C-6916DDF7679F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\media\devices">
+      <UniqueIdentifier>{6BAFA0D6-D882-51C1-D0BA-4FC1F3A745BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\app\webrtc">
+      <UniqueIdentifier>{543055F1-DB92-5041-CF1C-6916DDF7679F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\session">
+      <UniqueIdentifier>{50DC728B-F2AA-5B75-01F3-558C0ACE0025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\session\tunnel">
+      <UniqueIdentifier>{12E07995-48CB-234D-F7D1-473541C4E809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\talk\session\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overrides">
+      <UniqueIdentifier>{84AD2EB6-5184-86E2-7EC9-59E84A4DB552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overrides\talk">
+      <UniqueIdentifier>{8B4C5F9F-E86F-990D-5102-545A2239DF3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overrides\talk\media">
+      <UniqueIdentifier>{2699B576-DA2C-16EE-9C4A-F0CAB500D719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overrides\talk\media\webrtc">
+      <UniqueIdentifier>{543055F1-DB92-5041-CF1C-6916DDF7679F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libjingle.gyp"/>
+    <ClInclude Include="source\talk\media\sctp\sctpdataengine.h">
+      <Filter>source\talk\media\sctp</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\sctp\sctpdataengine.cc">
+      <Filter>source\talk\media\sctp</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\videocapturer.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\mediachannel.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\cryptoparams.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\base\rtpdataengine.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\rtpdataengine.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\base\codec.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\base\capturemanager.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\base\videocapturer.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\base\capturerenderadapter.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\base\videoadapter.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\base\rtputils.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\mediaengine.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\videoadapter.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\videoframe.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\capturemanager.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\capturerenderadapter.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\codec.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\base\videoframe.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\hybriddataengine.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\audiorenderer.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\base\streamparams.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\rtpdump.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\base\videocommon.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\videocommon.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\constants.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\base\streamparams.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\base\mediaengine.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\base\constants.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\base\filemediaengine.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\filemediaengine.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\base\rtpdump.cc">
+      <Filter>source\talk\media\base</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\base\rtputils.h">
+      <Filter>source\talk\media\base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\webrtc\webrtcvoe.h">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\webrtc\webrtcvideoframe.cc">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\webrtc\webrtcvideoframe.h">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\webrtc\webrtcvie.h">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\webrtc\webrtcvideocapturer.h">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\media\webrtc\webrtccommon.h">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\webrtc\webrtcvideocapturer.cc">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\webrtc\webrtcpassthroughrender.cc">
+      <Filter>source\talk\media\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\devices\filevideocapturer.h">
+      <Filter>source\talk\media\devices</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\media\devices\dummydevicemanager.cc">
+      <Filter>source\talk\media\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\media\devices\filevideocapturer.cc">
+      <Filter>source\talk\media\devices</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\media\devices\dummydevicemanager.h">
+      <Filter>source\talk\media\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\mediastreaminterface.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\videotrack.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\mediastreamtrack.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\mediastreamsignaling.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\localaudiosource.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\mediastreamprovider.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\notifier.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\mediaconstraintsinterface.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\videosourceinterface.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\localvideosource.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\app\webrtc\mediastream.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\videotrack.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\peerconnectionfactory.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\webrtcsession.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\portallocatorfactory.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\mediastreamproxy.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\dtmfsender.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\statscollector.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\audiotrack.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\jsepicecandidate.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\app\webrtc\localaudiosource.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\app\webrtc\webrtcsdp.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\app\webrtc\statscollector.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\app\webrtc\videotrackrenderers.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\streamcollection.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\jsepicecandidate.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\localvideosource.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\peerconnection.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\mediaconstraintsinterface.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\mediastreamhandler.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\jsepsessiondescription.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\peerconnection.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\jsepsessiondescription.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\app\webrtc\audiotrackrenderer.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\portallocatorfactory.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\jsep.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\webrtcsession.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\mediastreamsignaling.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\videosourceproxy.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\audiotrack.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\videotrackrenderers.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\peerconnectionfactory.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\peerconnectioninterface.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\webrtcsdp.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\datachannel.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\datachannel.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\dtmfsender.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\statstypes.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\audiotrackrenderer.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\app\webrtc\mediastreamtrackproxy.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\app\webrtc\mediastreamhandler.cc">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\app\webrtc\mediastream.h">
+      <Filter>source\talk\app\webrtc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\tunnel\tunnelsessionclient.h">
+      <Filter>source\talk\session\tunnel</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\tunnel\tunnelsessionclient.cc">
+      <Filter>source\talk\session\tunnel</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\session\tunnel\pseudotcpchannel.h">
+      <Filter>source\talk\session\tunnel</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\tunnel\pseudotcpchannel.cc">
+      <Filter>source\talk\session\tunnel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\typingmonitor.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\session\media\srtpfilter.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\channelmanager.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\ssrcmuxfilter.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\media\mediasession.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\session\media\mediamessages.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\media\srtpfilter.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\session\media\channel.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\voicechannel.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\media\mediamonitor.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\session\media\audiomonitor.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\media\call.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\channel.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\session\media\call.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\soundclip.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\typingmonitor.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\currentspeakermonitor.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\mediasession.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\mediasessionclient.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\media\mediasessionclient.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\audiomonitor.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\ssrcmuxfilter.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClInclude Include="source\talk\session\media\mediamonitor.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\mediasink.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClInclude Include="source\talk\session\media\rtcpmuxfilter.h">
+      <Filter>source\talk\session\media</Filter>
+    </ClInclude>
+    <ClCompile Include="source\talk\session\media\soundclip.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\currentspeakermonitor.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\mediamessages.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\rtcpmuxfilter.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClCompile Include="source\talk\session\media\channelmanager.cc">
+      <Filter>source\talk\session\media</Filter>
+    </ClCompile>
+    <ClInclude Include="overrides\talk\media\webrtc\webrtcexport.h">
+      <Filter>overrides\talk\media\webrtc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

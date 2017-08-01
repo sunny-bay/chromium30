@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit">
+      <UniqueIdentifier>{6BB4ACEE-077E-03F4-A9A9-4276B7FD2E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit\support">
+      <UniqueIdentifier>{60E2CDAB-BE66-7795-2926-DDFA2378C4BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit\support\mac">
+      <UniqueIdentifier>{DDBFF7CF-DBCF-B2FC-793A-DB701B563E8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit\support\mac\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit\browser\fileapi">
+      <UniqueIdentifier>{07449D65-155A-88FA-AE73-F56A090F72A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\webkit\browser\quota">
+      <UniqueIdentifier>{1BEA1856-1189-37CA-8138-9A45CAA7E310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="webkit_support.gyp"/>
+    <ClInclude Include="..\..\webkit\support\mock_webclipboard_impl.h">
+      <Filter>..\..\webkit\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webkit\support\test_shell_webblobregistry_impl.h">
+      <Filter>..\..\webkit\support</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\webkit\support\mock_webclipboard_impl.cc">
+      <Filter>..\..\webkit\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webkit\support\test_shell_webblobregistry_impl.cc">
+      <Filter>..\..\webkit\support</Filter>
+    </ClCompile>
+    <None Include="..\..\webkit\support\mac\DumpRenderTreePasteboard.m">
+      <Filter>..\..\webkit\support\mac\_excluded_files</Filter>
+    </None>
+    <ClInclude Include="..\..\webkit\support\mac\DumpRenderTreePasteboard.h">
+      <Filter>..\..\webkit\support\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webkit\browser\fileapi\mock_file_system_context.h">
+      <Filter>..\..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webkit\browser\fileapi\mock_file_system_options.h">
+      <Filter>..\..\webkit\browser\fileapi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\webkit\browser\fileapi\mock_file_system_options.cc">
+      <Filter>..\..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webkit\browser\fileapi\mock_file_system_context.cc">
+      <Filter>..\..\webkit\browser\fileapi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\webkit\browser\quota\mock_special_storage_policy.h">
+      <Filter>..\..\webkit\browser\quota</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\webkit\browser\quota\mock_special_storage_policy.cc">
+      <Filter>..\..\webkit\browser\quota</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

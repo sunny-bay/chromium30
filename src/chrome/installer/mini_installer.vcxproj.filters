@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(IntDir)">
+      <UniqueIdentifier>{2385D4EB-CAEB-D33E-59EB-C687F571392E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\app">
+      <UniqueIdentifier>{796C56B0-A938-902A-0081-40464DA4EDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\app\theme">
+      <UniqueIdentifier>{4E5567A3-B9FA-49AA-E57B-A59C138D08E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\app\theme\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\app\theme\chromium\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\chrome">
+      <UniqueIdentifier>{22A2D624-B35D-B417-0931-5D8692D99D43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\chrome\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build\util">
+      <UniqueIdentifier>{F977CC92-61A1-407C-2835-A38A3BBED548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\build\util\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mini_installer">
+      <UniqueIdentifier>{4C497288-FD02-2E5E-FA26-90C2F295861B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mini_installer.gyp"/>
+    <ResourceCompile Include="$(IntDir)\packed_files.rc">
+      <Filter>$(IntDir)</Filter>
+    </ResourceCompile>
+    <None Include="..\app\theme\chromium\BRANDING">
+      <Filter>..\app\theme\chromium\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\chrome\VERSION">
+      <Filter>..\..\chrome\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="..\..\build\precompile.cc">
+      <Filter>..\..\build</Filter>
+    </ClCompile>
+    <None Include="..\..\build\util\LASTCHANGE">
+      <Filter>..\..\build\util\_excluded_files</Filter>
+    </None>
+    <ClCompile Include="mini_installer\pe_resource.cc">
+      <Filter>mini_installer</Filter>
+    </ClCompile>
+    <ResourceCompile Include="mini_installer\mini_installer.rc">
+      <Filter>mini_installer</Filter>
+    </ResourceCompile>
+    <ClCompile Include="mini_installer\chrome_appid.cc">
+      <Filter>mini_installer</Filter>
+    </ClCompile>
+    <ClInclude Include="mini_installer\mini_string.h">
+      <Filter>mini_installer</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_installer\configuration.h">
+      <Filter>mini_installer</Filter>
+    </ClInclude>
+    <ClCompile Include="mini_installer\decompress.cc">
+      <Filter>mini_installer</Filter>
+    </ClCompile>
+    <None Include="mini_installer\mini_installer.ico">
+      <Filter>mini_installer</Filter>
+    </None>
+    <ClInclude Include="mini_installer\appid.h">
+      <Filter>mini_installer</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_installer\decompress.h">
+      <Filter>mini_installer</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_installer\mini_installer.h">
+      <Filter>mini_installer</Filter>
+    </ClInclude>
+    <installer_archive Include="mini_installer\chrome.release">
+      <Filter>mini_installer</Filter>
+    </installer_archive>
+    <ClInclude Include="mini_installer\mini_installer_resource.h">
+      <Filter>mini_installer</Filter>
+    </ClInclude>
+    <mini_installer_version Include="mini_installer\mini_installer_exe_version.rc.version">
+      <Filter>mini_installer</Filter>
+    </mini_installer_version>
+    <ClCompile Include="mini_installer\mini_installer.cc">
+      <Filter>mini_installer</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_installer\configuration.cc">
+      <Filter>mini_installer</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_installer\mini_string.cc">
+      <Filter>mini_installer</Filter>
+    </ClCompile>
+    <ClInclude Include="mini_installer\pe_resource.h">
+      <Filter>mini_installer</Filter>
+    </ClInclude>
+    <ResourceCompile Include="$(OutDir)\mini_installer_exe_version.rc">
+      <Filter>$(OutDir)</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

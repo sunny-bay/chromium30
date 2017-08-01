@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cc">
+      <UniqueIdentifier>{51880FAC-3069-9662-C0F3-33C329C88A05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cc\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing">
+      <UniqueIdentifier>{CE08FC7C-88C2-852D-9904-CEFED4CA8C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\tracks">
+      <UniqueIdentifier>{2C689225-AAD9-21C7-10D3-C42649FD832F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\tracks\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\analysis">
+      <UniqueIdentifier>{7B0A93AD-9C91-F427-2376-91A5787051F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\analysis\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\trace_model">
+      <UniqueIdentifier>{6375A9E7-C4B3-EF73-9F8C-61EE2F2B770D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\trace_model\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\importer">
+      <UniqueIdentifier>{8610A384-1DC0-03D5-99CA-C0E883C45A96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\importer\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\importer\v8">
+      <UniqueIdentifier>{946EAFF9-E694-C502-F1AD-017A2D933CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\importer\v8\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\importer\linux_perf">
+      <UniqueIdentifier>{BEE9E6BE-F861-4454-DA61-97D7EAFE19E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracing\importer\linux_perf\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\about_tracing">
+      <UniqueIdentifier>{2C3D3509-FB69-EB0F-8873-8F5968A54662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\about_tracing\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base\unittest">
+      <UniqueIdentifier>{93C4B6FC-A0EE-0A75-F7CB-25466171A203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base\unittest\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{3ED3C5AE-0459-82A6-2795-7EAB6F83FEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\images">
+      <UniqueIdentifier>{417A2AFC-675C-502D-5CF2-E9A58B72D6D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\images\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tcmalloc">
+      <UniqueIdentifier>{92530044-D819-5E1C-6247-14D180507FBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tcmalloc\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="trace_viewer.gyp"/>
+    <None Include="src\about_tracing.js.template">
+      <Filter>src\_excluded_files</Filter>
+    </None>
+    <None Include="src\base.js">
+      <Filter>src\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui.js">
+      <Filter>src\_excluded_files</Filter>
+    </None>
+    <None Include="src\about_tracing.html.template">
+      <Filter>src\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc.js">
+      <Filter>src\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc.js">
+      <Filter>src\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\tile_coverage_rect.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture_view.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_tree_quad_stack_viewer.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture_debugger.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture_ops_list_view.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_tree_host_impl.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture_as_image_data.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_picker.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\constants.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\region.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\tile_view.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\raster_task_slice_view.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_picker.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_tree_quad_stack_viewer.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture_debugger.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\raster_task_slice_view.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture_view.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\tile.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_impl.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_viewer.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\picture_ops_list_view.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\selection.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_tree_host_impl_view.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_tree_host_impl_view.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_viewer.css">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\layer_tree_impl.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\cc\util.js">
+      <Filter>src\cc\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\mouse_mode_constants.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\timeline_view.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\record_selection_dialog.html">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\selection.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\color_scheme.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\category_filter_dialog.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\test_utils.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\timeline_view.html">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\find_control.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model_settings.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\timeline_track_view.css">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\record_selection_dialog.css">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\constants.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\timeline_viewport.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\timing_tool.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\elided_cache.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\timeline_view.css">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\standalone_timeline_view.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\fast_rect_renderer.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\category_filter_dialog.html">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\record_selection_dialog.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\draw_helpers.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\timeline_track_view.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\filter.js">
+      <Filter>src\tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\object_instance_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\heading_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\ruler_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\process_track_base.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\async_slice_group_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\trace_model_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\slice_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\container_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\drawing_container.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\drawing_container.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\process_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\spacing_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\thread_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\counter_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\process_track_base.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\cpu_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\object_instance_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\spacing_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\heading_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\kernel_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\slice_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\counter_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\thread_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\slice_group_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\ruler_track.css">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\tracks\trace_model_track.js">
+      <Filter>src\tracing\tracks\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analyze_slices.css">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\default_object_view.css">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\util.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\stub_analysis_results.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analyze_counters.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analysis_link.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analysis_results.css">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analysis_link.css">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\object_instance_view.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analyze_slices.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analysis_results.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\generic_object_view.css">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\default_object_view.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\generic_object_view.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\slice_view.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analysis_view.css">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analysis_view.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\object_snapshot_view.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\stub_analysis_table.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\analysis\analyze_selection.js">
+      <Filter>src\tracing\analysis\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\slice_group.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\object_instance.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\slice.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\instant_event.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\cpu.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\sample.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\process_base.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\thread.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\object_snapshot.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\counter.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\time_to_object_instance_map.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\counter_series.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\async_slice_group.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\process.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\trace_model_event.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\kernel.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\object_collection.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\trace_model\async_slice.js">
+      <Filter>src\tracing\trace_model\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf_importer.js">
+      <Filter>src\tracing\importer\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\trace_event_importer.js">
+      <Filter>src\tracing\importer\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\timeline_stream_importer.js">
+      <Filter>src\tracing\importer\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\v8_log_importer.js">
+      <Filter>src\tracing\importer\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\v8\log_reader.js">
+      <Filter>src\tracing\importer\v8\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\v8\codemap.js">
+      <Filter>src\tracing\importer\v8\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\v8\splaytree.js">
+      <Filter>src\tracing\importer\v8\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\sched_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\kfunc_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\i915_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\mali_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\cpufreq_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\gesture_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\drm_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\power_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\exynos_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\workqueue_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\android_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\disk_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\clock_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\bus_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\tracing\importer\linux_perf\sync_parser.js">
+      <Filter>src\tracing\importer\linux_perf\_excluded_files</Filter>
+    </None>
+    <None Include="src\about_tracing\tracing_controller.css">
+      <Filter>src\about_tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\about_tracing\profiling_view.css">
+      <Filter>src\about_tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\about_tracing\profiling_view.js">
+      <Filter>src\about_tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\about_tracing\tracing_controller.js">
+      <Filter>src\about_tracing\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\events.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\bbox2.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\raf.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\iteration_helpers.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\properties.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\settings.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\unittest.css">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\event_target.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\measuring_stick.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\rect.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\guid.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\unittest.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\gl_matrix.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\utils.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\sorted_array_utils.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\range.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\quad.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\color.js">
+      <Filter>src\base\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\unittest\assertions.js">
+      <Filter>src\base\unittest\_excluded_files</Filter>
+    </None>
+    <None Include="src\base\unittest\test_error.js">
+      <Filter>src\base\unittest\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\overlay.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\value_bar.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\mouse_tracker.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\rect_view.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\value_display.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\quad_view_viewport.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\quad_view.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\tool_button.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\quad_stack.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\trace_viewer.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\dom_helpers.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\list_and_associated_view.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\rect_view.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\mouse_mode_selector.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\drag_handle.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\value_bar.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\quad_view.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\drag_handle.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\quad_stack.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\quad_stack_viewer.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\mouse_mode_selector.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\list_and_associated_view.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\list_view.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\list_view.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\filter_control.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\mouse_mode_selector.html">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\info_bar.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\camera.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\info_bar.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\filter_control.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\text_end_value_bar.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\container_that_decorates_its_children.js">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\ui\overlay.css">
+      <Filter>src\ui\_excluded_files</Filter>
+    </None>
+    <None Include="src\images\expand.png">
+      <Filter>src\images\_excluded_files</Filter>
+    </None>
+    <None Include="src\images\collapse.png">
+      <Filter>src\images\_excluded_files</Filter>
+    </None>
+    <None Include="src\images\chrome-right.png">
+      <Filter>src\images\_excluded_files</Filter>
+    </None>
+    <None Include="src\images\chrome-left.png">
+      <Filter>src\images\_excluded_files</Filter>
+    </None>
+    <None Include="src\images\chrome-mid.png">
+      <Filter>src\images\_excluded_files</Filter>
+    </None>
+    <None Include="src\images\ui-states.png">
+      <Filter>src\images\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc\heap_instance_track.css">
+      <Filter>src\tcmalloc\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc\tcmalloc_instance_view.css">
+      <Filter>src\tcmalloc\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc\heap.js">
+      <Filter>src\tcmalloc\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc\tcmalloc_snapshot_view.js">
+      <Filter>src\tcmalloc\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc\heap_instance_track.js">
+      <Filter>src\tcmalloc\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc\tcmalloc_snapshot_view.css">
+      <Filter>src\tcmalloc\_excluded_files</Filter>
+    </None>
+    <None Include="src\tcmalloc\tcmalloc_instance_view.js">
+      <Filter>src\tcmalloc\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

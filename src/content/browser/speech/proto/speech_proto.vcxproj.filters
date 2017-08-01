@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="$(OutDir)obj">
+      <UniqueIdentifier>{7BD4F48B-77B4-AB58-9E24-A7302D190D1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate">
+      <UniqueIdentifier>{14CEDE64-16A7-96A9-EF19-5C5D6085FF18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out">
+      <UniqueIdentifier>{456EFA50-5ADA-2D4B-BB76-1BD6B9BCA3A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\content\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\content\browser\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)obj\global_intermediate\protoc_out\content\browser\speech\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\tools\protoc_wrapper">
+      <UniqueIdentifier>{34D2DD54-FDF8-D9D8-4C83-CA01DBAC57A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\..\tools\protoc_wrapper\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)">
+      <UniqueIdentifier>{ECA95933-7FA6-5798-4EC4-C0CAC6DD34DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto">
+      <UniqueIdentifier>{A5155811-51E5-1087-45BA-D2802E9B53B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\content">
+      <UniqueIdentifier>{4D624FB1-28CC-8F22-E07A-F14373BC38A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\content\browser">
+      <UniqueIdentifier>{24B57E1E-8660-A3AB-E8EF-7828EB881EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\content\browser\speech">
+      <UniqueIdentifier>{6B7E6414-F041-7B74-8A68-78B9AFDFE9E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="$(OutDir)\pyproto\content\browser\speech\proto">
+      <UniqueIdentifier>{E1E178F4-6F78-9A60-32B7-00150F9D2998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="speech_proto.gyp"/>
+    <genproto Include="google_streaming_api.proto"/>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\content\browser\speech\proto\google_streaming_api.pb.cc">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\content\browser\speech\proto</Filter>
+    </ClCompile>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\content\browser\speech\proto\google_streaming_api.pb.h">
+      <Filter>$(OutDir)obj\global_intermediate\protoc_out\content\browser\speech\proto</Filter>
+    </ClInclude>
+    <None Include="..\..\..\..\tools\protoc_wrapper\protoc_wrapper.py">
+      <Filter>..\..\..\..\tools\protoc_wrapper\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\protoc.exe">
+      <Filter>$(OutDir)\_excluded_files</Filter>
+    </None>
+    <None Include="$(OutDir)\pyproto\content\browser\speech\proto\google_streaming_api_pb2.py">
+      <Filter>$(OutDir)\pyproto\content\browser\speech\proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

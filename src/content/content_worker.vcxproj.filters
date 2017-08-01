@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="worker">
+      <UniqueIdentifier>{DC84289F-2E56-7A80-4105-E79F3AE3FFF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content.gyp"/>
+    <ClInclude Include="worker\worker_webapplicationcachehost_impl.h">
+      <Filter>worker</Filter>
+    </ClInclude>
+    <ClInclude Include="worker\websharedworkerclient_proxy.h">
+      <Filter>worker</Filter>
+    </ClInclude>
+    <ClInclude Include="worker\worker_webkitplatformsupport_impl.h">
+      <Filter>worker</Filter>
+    </ClInclude>
+    <ClCompile Include="worker\shared_worker_devtools_agent.cc">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClCompile Include="worker\websharedworker_stub.cc">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClInclude Include="worker\websharedworker_stub.h">
+      <Filter>worker</Filter>
+    </ClInclude>
+    <ClCompile Include="worker\worker_main.cc">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClInclude Include="worker\shared_worker_devtools_agent.h">
+      <Filter>worker</Filter>
+    </ClInclude>
+    <ClCompile Include="worker\websharedworkerclient_proxy.cc">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClCompile Include="worker\worker_webapplicationcachehost_impl.cc">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClInclude Include="worker\worker_thread.h">
+      <Filter>worker</Filter>
+    </ClInclude>
+    <ClCompile Include="worker\worker_webkitplatformsupport_impl.cc">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClCompile Include="worker\worker_thread.cc">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

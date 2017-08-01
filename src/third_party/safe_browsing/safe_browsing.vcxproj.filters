@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="testing">
+      <UniqueIdentifier>{681E52FB-4BB5-C8E2-1D1A-B7C4F2495A5E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="safe_browsing.gyp"/>
+    <None Include="testing\external_test_pb2.py">
+      <Filter>testing</Filter>
+    </None>
+    <None Include="testing\testing_input.dat">
+      <Filter>testing</Filter>
+    </None>
+    <None Include="testing\safebrowsing_test_server.py">
+      <Filter>testing</Filter>
+    </None>
+  </ItemGroup>
+</Project>

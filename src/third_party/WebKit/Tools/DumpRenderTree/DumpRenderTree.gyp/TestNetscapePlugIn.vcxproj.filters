@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\TestNetscapePlugIn">
+      <UniqueIdentifier>{F5BE19BF-9DCA-F7C1-8F45-59B8FBB04789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\TestNetscapePlugIn\Tests">
+      <UniqueIdentifier>{5D34288A-C21B-AF0A-4822-DE6087769914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\DumpRenderTree">
+      <UniqueIdentifier>{8D5EE6A1-C06E-76DA-70DF-30D1A688B82A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\DumpRenderTree\TestNetscapePlugIn">
+      <UniqueIdentifier>{F5BE19BF-9DCA-F7C1-8F45-59B8FBB04789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\DumpRenderTree\TestNetscapePlugIn\win">
+      <UniqueIdentifier>{47FC5EC4-15EB-E92F-89D7-AFE51CF838A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DumpRenderTree.gyp"/>
+    <ClInclude Include="..\TestNetscapePlugIn\TestObject.h">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestNetscapePlugIn\PluginObject.h">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </ClInclude>
+    <ClCompile Include="..\TestNetscapePlugIn\PluginObject.cpp">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </ClCompile>
+    <None Include="..\TestNetscapePlugIn\PluginObjectMac.mm">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </None>
+    <ClInclude Include="..\TestNetscapePlugIn\PluginTest.h">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </ClInclude>
+    <ClCompile Include="..\TestNetscapePlugIn\PluginTest.cpp">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\TestObject.cpp">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\main.cpp">
+      <Filter>..\TestNetscapePlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\LogNPPSetWindow.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\NPRuntimeCallsWithNullNPP.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\NPRuntimeRemoveProperty.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\LeakWindowScriptableObject.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\PassDifferentNPPStruct.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\NPRuntimeObjectFromDestroyedPlugin.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\FormValue.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\GetURLWithJavaScriptURLDestroyingPlugin.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\GetURLNotifyWithURLThatFailsToLoad.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\NullNPPGetValuePointer.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\PluginScriptableObjectOverridesAllProperties.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\GetUserAgentWithNullNPPFromNPPNew.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\NPDeallocateCalledBeforeNPShutdown.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\DocumentOpenInDestroyStream.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\EvaluateJSAfterRemovingPluginElement.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\GetURLWithJavaScriptURL.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\PluginScriptableNPObjectInvokeDefault.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestNetscapePlugIn\Tests\NPPNewFails.cpp">
+      <Filter>..\TestNetscapePlugIn\Tests</Filter>
+    </ClCompile>
+    <ResourceCompile Include="..\..\DumpRenderTree\TestNetscapePlugIn\win\TestNetscapePlugin.rc">
+      <Filter>..\..\DumpRenderTree\TestNetscapePlugIn\win</Filter>
+    </ResourceCompile>
+    <None Include="..\..\DumpRenderTree\TestNetscapePlugIn\win\TestNetscapePlugin.def">
+      <Filter>..\..\DumpRenderTree\TestNetscapePlugIn\win</Filter>
+    </None>
+  </ItemGroup>
+</Project>
