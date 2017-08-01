@@ -4,7 +4,7 @@
 *.ncb
 *.ninja
 *.opensdf
-*.props
+#*.props
 *.pyc
 *.rules
 *.sdf
